@@ -3,12 +3,12 @@ const fr = {
        "home": "Accueil",
        "next": "prochain",
        "ok": "D'accord",
-       "done": "Done",
+       "done": "Fait",
        "cancel": "Annuler",
        "apply": "Appliquer",
        "save": "sauvegarder",
        "select": "Sélectionner",
-       "connect": "Relier",
+       "connect": "Connecter",
        "disconnect": "Déconnecter",
        "yes": "Oui",
        "no": "Non",
@@ -18,7 +18,7 @@ const fr = {
        "remove": "Retirer",
        "online": "En ligne",
        "offline": "Hors ligne",
-       "remote": "éloigné",
+       "remote": "Distant",
        "preset": "Préréglage",
        "camera": "Caméra",
        "focuser": "Focuser",
@@ -34,7 +34,7 @@ const fr = {
        "offset": "Décalage",
        "format": "Format",
        "iso": "ISO",
-       "count": "Compter",
+       "count": "Nombre",
        "delay": "Retard",
        "status": "Statut",
        "target": "Cible",
@@ -42,7 +42,7 @@ const fr = {
        "sep_profile": "Profil SEP",
        "direction": "Direction",
        "rotation": "Rotation",
-       "automatic": "Automatic",
+       "automatic": "Automatique",
        "manual": "Manuel",
        "azimuth": "Azimut",
        "altitude": "Altitude",
@@ -64,11 +64,11 @@ const fr = {
        "edit": "ÉDITER",
        "refresh": "RAFRAÎCHIR",
        "reset": "RÉINITIALISER",
-       "reset_all": "Reset All",
+       "reset_all": "Tout réinitialiser",
        "start": "DÉBUT",
        "stop": "Arrêtez",
        "stopping": "Arrêt",
-       "clear": "CLAIR",
+       "clear": "Effacer",
        "solve": "RÉSOUDRE",
        "parked": "Parquée",
        "unparked": "Dé Parquée",
@@ -76,13 +76,13 @@ const fr = {
        "closed": "Fermé",
        "enable": "Activer",
        "disable": "Désactiver",
-       "selectTime": "Select Time",
+       "selectTime": "Durée",
        "set": "Ensemble",
 
        // Confirm Delete Alert
        "alert_confirm_delete_title": "Confirmer Suppression",
        "alert_delete_profile_body": "Voulez-vous vraiment supprimer le profil sélectionné ?",
-       "alert_delete_scope_body": "Êtes-vous sûr de vouloir supprimer le scopesélectionné?",
+       "alert_delete_scope_body": "Êtes-vous sûr de vouloir supprimer le scope sélectionné?",
 
        "network_error": "Veuillez vous assurer que votre StellarMate est connecté à votre réseau",
        "internet_required": "Veuillez vous assurer que vous êtes connecté à Internet",
@@ -100,21 +100,21 @@ const fr = {
       "darks": "Darks",
       "defects": "Defects",
       "prefer": "Prefer",
-      "create_darks_title": "Create Darks",
-      "create_defects_title": "Create Defect Map",
+      "create_darks_title": "Créer Darks",
+      "create_defects_title": "Créer la Defect Map",
       "view_masters_title": "View Masters",
-      "progress": "Progress",
+      "progress": "Progression",
 
       "create_darks":{
-          "exposure_range": "Exp. Range",
-          "to": "To",
-          "temp_range": "T. Range",
+          "exposure_range": "Plage d' expo.",
+          "to": "à",
+          "temp_range": "Plage de temp.",
           "binning": "Binning",
           "binningOne": "1x1",
           "binningTwo": "2x2",
           "binningFour": "4x4",
           "total_images": "Total",
-          "count": "Count"
+          "count": "Nombre"
       },
 
       "create_defect_map":{
@@ -122,7 +122,7 @@ const fr = {
           "temperature": "Temperature",
           "bad_pixels": "Bad Pixels",
           "hot_pixels": "Pixels chauds",
-          "generate_map": "Generate Map",
+          "generate_map": "Generer carte",
           "save_map": "Sauvegardé",
           "deviation": "σ"
       },   
@@ -166,7 +166,7 @@ const fr = {
        "authenticating": "Authentification...",
        "authenticated": "Authentifié",
        "checking_kstars": "Vérification de KStars...",
-       "kstars_open": "KStars Open",
+       "kstars_open": "KStars ouvert",
        "checking_ekoslive": "Vérification d'EkosLive...",
        "ekoslive_connected": "EkosLive connecté",
        "starting_ekos": "Démarrer Ekos...",
@@ -184,7 +184,7 @@ const fr = {
     },
     "statuses": {
        "Idle": "Tourner au ralenti",
-       "Aborted": "avorté",
+       "Aborted": "Avorté",
        "Calibration error": "Erreur d'étalonnage",
        "Capturing": "Capturer",
        "In Progress": "En cours",
@@ -213,7 +213,7 @@ const fr = {
        "guide": "Guider",
        "scope": "Portée",
        "btn_rescan": "RESCAN",
-       "btn_port_select": "Port Selector",
+       "btn_port_select": "Selection de port",
        "btn_sync_gps": "Synchroniser le GPS",
        "btn_dslr_setup": "Configuration DSLR",
        "btn_clear_driver_config": "Effacer la configuration du pilote.",
@@ -234,14 +234,14 @@ const fr = {
           "no_valid_device": "Aucune information valide sur l'appareil disponible.",
           "setup_guide": "Guide d'installation",
           "register": "S'inscrire",
-          "login": "se connecter",
+          "login": "Se connecter",
           "serial": "Numéro de série",
           "license": "Clé de licence",
           "username": "Nom d'utilisateur",
           "password": "Mot de passe",
           "confirm_password": "Confirmez le mot de passe",
           "first_name": "Prénom",
-          "last_name": "Nom de famille",
+          "last_name": "Nom",
           "email": "Email"
        },
        "device_manager": {
@@ -253,8 +253,8 @@ const fr = {
           "heading": "Profils d'équipement"
        },
        "port_selector": {
-          "port_selector": "Port Selector",
-          "connect_all": "Connect All"
+          "port_selector": "Selition de port",
+          "connect_all": "Tout connecter"
        },
        "manually_add_device": {
           "heading": "Ajouter manuellement un appareil",
@@ -269,7 +269,7 @@ const fr = {
           "auto_scanned": "Analyse automatique",
           "manually_added": "Ajouté manuellement",
           "add_a_device": "Ajouter un périphérique",
-          "devices_detected": "Détecter",
+          "devices_detected": "Appareil détecté",
           "no_network_found": "Aucun réseau détecté. Assurez-vous que vous êtes connecté à un réseau."
        },
        "add_profile": {
@@ -291,7 +291,7 @@ const fr = {
        "add_scope": {
           "add_scope": "Ajouter un télescope",
           "edit_scope": "Modifier le télescope",
-          "vendor": "vendeur",
+          "vendor": "Fabricant",
           "model": "Modèle",
           "aperture": "Ouverture (mm)",
           "focal_length": "Distance focale (mm)"
@@ -315,19 +315,19 @@ const fr = {
     "targets": {
        "now": "Maintenant",
        "night": "Nuit",
-       "rise": "Rise",
-       "set": "Set",
+       "rise": "Lever",
+       "set": "Coucher",
        "moon": "Lune",
        "sun": "Soleil",
-       "search": "Search",
+       "search": "Chercher",
        "phases": {
           "new_moon": "Nouvelle Lune",
           "full_moon": "Pleine Lune",
           "first_quarter": "Premier Quartier",
           "third_quarter": "Dernier Quartier",
-          "waxing_crescent": "Waxing crescent",
+          "waxing_crescent": "Premier croissant",
           "waxing_gibbous": "Gibbeuse croissante",
-          "waning_crescent": "Waning crescent",
+          "waning_crescent": "Dernier croissant",
           "waning_gibbous": "Gibbeuse décroissante"
        },
        "lists": "Lists",
@@ -336,7 +336,7 @@ const fr = {
        "current_rotation": "Current Rotation",
        "rotate_capture": "Rotate & Capture",
        "angular_offset": "Angular Offset",
-       no_objects_in_list: "No Objects found, please adjust or reset the filters.",
+       no_objects_in_list: "Pas d'objets trouvés, ajuster ou reinitialiser les filtres.",
        "go_and_solve": "Go & Solve",
        "fov_profile": "FOV Profile",
        "fov_width": "FOV Width",
@@ -344,7 +344,7 @@ const fr = {
     },
     "ekos": {
        "heading": "Ekos",
-       "tgl_mount": "MONTER",
+       "tgl_mount": "MONTURE",
        "tgl_solution_bar": "BARRE DE SOLUTION",
        "tgl_sequence": "SÉQUENCE",
        "tgl_properties": "PROPRIÉTÉS",
@@ -355,7 +355,7 @@ const fr = {
           "auto_closes_in": "Fermeture automatique dans"
        },
        "controls_bar": {
-          "mount_speed": "Vitesse de montage",
+          "mount_speed": "Vitesse de la monture",
           "guide": "Guide",
           "centering": "Centrage",
           "find": "Trouver",
@@ -379,20 +379,20 @@ const fr = {
           "action": "Action",
           "accuracy": "Précision",
           "settle": "Régler",
-          "dark": "Sombre",
+          "dark": "Dark",
           "arcsec": "arcsec",
           "ms": "SP",
           "xAxis": "Itérations",
           "yAxis": "Erreur (arcsec)",
-          "refresh_rate": "Refresh Rate"
+          "refresh_rate": "Taux de rafraichissement"
        },
        "collapse_camera": {
           "heading": "Capturer",
-          "type_light": "Lumière",
+          "type_light": "Light",
           "type_bias": "Biais",
-          "type_dark": "Sombre",
-          "type_flat": "plat",
-          "format_fits": "S'ADAPTE",
+          "type_dark": "Dark",
+          "type_flat": "Flat",
+          "format_fits": "Fits",
           "format_native": "Natif",
           "target_temp": "Température",
           "cooling_unavailable": "N/A",
@@ -419,13 +419,13 @@ const fr = {
           "lock_filter": "Verrouiller le filtre"
        },
        "targets_filters": {
-          "object_type": "Object Type",
+          "object_type": "Type d'objet",
           "alt": "Alt"
        },
        "capture_auto_calibration": {
-          "heading": "Calibrage automatique",
-          "flat_source": "Source plate",
-          "flat_duration": "Durée fixe",
+          "heading": "Calibration automatique",
+          "flat_source": "Source de Flat",
+          "flat_duration": "Durée Flat",
           "dust_builtin": "Cache-poussière avec éclairage plat intégré",
           "dust_external": "Cache-poussière avec éclairage plat externe",
           "wall": "mur",
@@ -433,8 +433,8 @@ const fr = {
           "alt": "Alt",
           "adu": "ADU",
           "tolerance": "Tolérance",
-          "parkMount": "Parc Mount",
-          "parkDome": "Park Dome",
+          "parkMount": "Monture parquée",
+          "parkDome": "Dome fermé",
           "manual": "Manuel"
        },
        "capture_file": {
@@ -444,7 +444,7 @@ const fr = {
           "script": "Scénario",
           "directory": "répertoire",
           "upload": "sauvegarder",
-          "remote": "éloigné",
+          "remote": "distant",
           "filter": "Filtre",
           "ts": "TS",
           "duration": "Durée"
@@ -456,7 +456,7 @@ const fr = {
           "shutter": "Obturateur",
           "domeSlaving": "Asservissement du dôme",
           "params": "Paramètres",
-          "measurements": "Des mesures",
+          "measurements": "Mesures",
           "autosync_threshold": "Seuil de synchronisation automatique (deg)",
           "radius": "Rayon (m)",
           "shutter_width": "Largeur d'obturation (m)",
@@ -524,7 +524,7 @@ const fr = {
           "via": "Via",
           "box": "Boîte",
           "effects": "Effets",
-          "dither": "Dither",
+          "dither": "Décalage",
           "pixels": "pixels",
           "frequency": "Frequence",
           "every": "every",
@@ -538,7 +538,7 @@ const fr = {
           "west": "-",
           "north": "+",
           "south": "-",
-          "subframe": "Sous-châssis",
+          "subframe": "Sous trame",
           "autostar": "Auto Star",
           "dark": "Dark",
           "aggressiveness": "Gain prop.",
@@ -563,12 +563,12 @@ const fr = {
           "refresh": "Rafraîchir",
           "fov_error": "Désactivé: le champ de vision doit être de 30 arcmins ou plus.",
           "polar_error": "Erreur polaire :",
-          "error": "Error: ",
+          "error": "Erreur: ",
           "az_error": "AZ error: ",
           "al_error": "AL error: "
        },
        "collapse_sequence": {
-          "progress": "Le progrès",
+          "progress": "Progression",
           "sequence": "Séquence",
           "overall_progress": "Les progrès d'ensemble",
           "sequences": "Séquences",
@@ -643,7 +643,7 @@ const fr = {
        "mount_overlay": {
           "right_asc": "Asc. Droit.",
           "declination": "Déclinaison",
-          "parking": "Parking",
+          "parking": "Parquage en cours",
           "tracking": "Poursuite",
           "park": "Parquée",
           "unpark": "Déparquée"
@@ -652,7 +652,7 @@ const fr = {
           "mean": "Mean",
           "median": "Median",
           "bit_depth": "Bit Depth",
-          "non_linear_histogram": "Non-Linear Histogram"
+          "non_linear_histogram": "Histogramme Non-Linear"
        },
        "livestacking": {
          "auto_dark": "Auto Dark",
@@ -690,9 +690,9 @@ const fr = {
        "btn_vnc": "Bureau (VNC)",
        "btn_web_manager": "Gestionnaire Web",
        "btn_restart": "Redémarrer",
-       "btn_shutdown": "Fermer",
+       "btn_shutdown": "Eteindre",
        "btn_manage_wifi": "Gérer le WiFi",
-       "btn_enable_direct_ethernet": "Enable Direct Ethernet",
+       "btn_enable_direct_ethernet": "Activer Direct Ethernet",
        "btn_disable_direct_ethernet": "Désactiver Direct Ethernet",
        "btn_enable_hotspot": "Activer le point d'accès",
        "btn_disable_hotspot": "Désactiver le point d'accès",
@@ -847,7 +847,7 @@ const fr = {
        "copyright_line2": "Image d'arrière-plan par l'Observatoire Alamri"
     },
     "messages": {
-       "polar_idle": "This tool provides a simple method to polar align a German equatorial mount. Park your mount to home position where it points toward the celestial pole with the counter weight down. Select mount direction and speed and then click Start to begin the process. If you do not have a view of the pole, use the SkyMap or Ekos mount control to point anywhere, preferably near the meridian, choose East or West according your side, lower the rotation angle if necessary, and click Start."
+       "polar_idle": "Cette outil propose une méthode simple pour l'alignement polaire des monture équatoriale Allemande. Parquer votre monture vers l'étoile polaire ave le contre-poids vers le bas. Sélectionnez la direction et la vitesse de la monture, puis cliquez sur Démarrer pour commencer le processus. Si vous n'avez pas de vue sur le pôle, utilisez le contrôle de la monture avec Carte Du Ciel ou Ekos pour pointer n'importe où, de préférence près du méridien, choisissez Est ou Ouest selon votre côté, diminuez l'angle de rotation si nécessaire, et cliquez sur Démarrer."
     }
  };
 
