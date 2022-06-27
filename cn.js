@@ -44,6 +44,8 @@
        "rotation": "旋转",
        "automatic": "自动",
        "manual": "手动",
+       "progress": "Progress",
+
        "azimuth": "方位角",
        "altitude": "高度角",
        "tags": "标签",
@@ -73,6 +75,8 @@
        "parked": "复位",
        "unparked": "取消复位",
        "open": "打开",
+       "close": "关闭",
+       "opened": "打开",
        "closed": "关闭(d)",
        "enable": "允许",
        "disable": "禁止",
@@ -114,13 +118,10 @@
           "binningTwo": "2x2",
           "binningFour": "4x4",
           "total_images": "总共",
-          "count": "计数"
-
       },
 
       "create_defect_map":{
           "master_dark": "主暗场",
-          "temperature": "温度",
           "bad_pixels": "坏点",
           "hot_pixels": "热噪",
           "generate_map": "生成图像",
@@ -202,7 +203,6 @@
        "Parked": "复位"
     },
     "connect": {
-       "heading": "连接",
        "register_welcome": "请登录您的Stellarmate账号以同步设备.",
        "welcome_heading": "欢迎使用",
        "welcome_description": "请确认您已连接至StellarMate的热点或StellarMate与您的设备处于同一网络中",
@@ -224,7 +224,6 @@
        "registration_in_progress": "正在注册StellarMate...",
        "logging_in_progress": "正在登陆StellarMate...",
        "connecting": "连接中...",
-       "registering": "注册中...",
        "logging": "登陆中...",
        "ip_address": "请输入IP地址",
        "login_register": {
@@ -255,7 +254,6 @@
           "heading": "配置文件"
        },
        "port_selector": {
-          "port_selector": "端口选择",
           "connect_all": "连接所有"
        },
        "manually_add_device": {
@@ -267,7 +265,6 @@
        "device_scanner": {
           "no_device_before_scan": "未检测到设备，请运行扫描程序",
           "no_device_after_scan": "扫描完成，未发现设备",
-          "progress": "进度",
           "auto_scanned": "自动扫描",
           "manually_added": "手动添加",
           "add_a_device": "添加设备",
@@ -280,10 +277,7 @@
           "mount": "赤道仪",
           "ccd": "主相机",
           "guider": "导星器",
-          "focuser": "调焦器",
-          "filter": "滤镜",
           "ao": "自适应光学设备",
-          "dome": "圆顶",
           "weather": "天气设备",
           "aux1": "辅助设备1",
           "aux2": "辅助设备2",
@@ -294,7 +288,6 @@
           "add_scope": "添加望远镜",
           "edit_scope": "编辑望远镜",
           "vendor": "厂商",
-          "model": "型号",
           "aperture": "口径 (mm)",
           "focal_length": "焦距 (mm)"
        },
@@ -307,7 +300,6 @@
           "alert_missing_driver_body": "You must select a driver first."
        },
        "dslr_setup": {
-          "heading": "相机设置",
           "width": "宽",
           "height": "高",
           "pixel_width": "像素宽",
@@ -318,7 +310,6 @@
        "now": "Now",
        "night": "Night",
        "rise": "Rise",
-       "set": "Set",
        "moon": "Moon",
        "sun": "Sun",
        "search": "Search",
@@ -334,11 +325,12 @@
        },
        "lists": "Lists",
        "framing_assistant": "Framing Assistant",
-       "target_rotation": "Target Rotation",
+       "target_rotation": "Target Position Angle",
        "current_rotation": "Current Rotation",
        "rotate_capture": "Rotate & Capture",
+       "goto_rotate": "GOTO & Rotate",
        "angular_offset": "Angular Offset",
-       no_objects_in_list: "No Objects found, please adjust or reset the filters.",
+       "no_objects_in_list": "No Objects found, please adjust or reset the filters.",
        "go_and_solve": "Go & Solve",
        "fov_profile": "FOV Profile",
        "fov_width": "FOV Width",
@@ -353,12 +345,10 @@
        "alert_ekos_offline_title": "Ekos离线中",
        "alert_ekos_offline_body": "Ekos目前处于离线状态，是否开启设备匹配?",
        "ekos_dialog": {
-          "heading": "Ekos",
           "auto_closes_in": "Auto closes in"
        },
        "controls_bar": {
           "mount_speed": "赤道仪转速",
-          "guide": "导星",
           "centering": "居中",
           "find": "寻找",
           "max": "最大"
@@ -368,17 +358,11 @@
           "action_sync": "同步",
           "action_slew": "回转至目标",
           "action_nothing": "不进行动作",
-          "scope_primary": "主镜",
-          "scope_guide": "导星镜",
           "solver_backend": "Backend",
-          "solver_type": "Type",
           "control": "Control",
           "solve": "Capture & Solve",
           "load": "Load & Slew",
           "polar": "Polar Align",
-          "stop": "Stop",
-          "scope": "Scope",
-          "action": "Action",
           "accuracy": "Accuracy",
           "settle": "Settle",
           "dark": "Dark",
@@ -386,17 +370,26 @@
           "ms": "ms",
           "xAxis": "Iterations",
           "yAxis": "Error (arcsec)",
-          "refresh_rate": "Refresh Rate"
+          "refresh_rate": "Refresh Rate",
+          "manualRotator": {
+            "heading": "Manual Rotator",
+            "currentPA": "Current PA",
+            "targetPA": "Target PA",
+            "another_image": "Take another Image",
+        },
+        "alignSettings": {
+         "rotator_control": "Rotator Control",
+         "use_scale": "Use Scale",
+         "use_position": "Use Position"
+     }
        },
        "collapse_camera": {
           "heading": "相机设置",
           "type_light": "亮帧",
           "type_bias": "偏置",
-          "type_dark": "暗场",
           "type_flat": "平场",
           "format_fits": "FITS",
           "format_native": "Native",
-          "target_temp": "目标温度",
           "cooling_unavailable": "冷却不可用",
           "btn_add_to_sequence": "添加到拍摄队列",
           "btn_loop": "循环"
@@ -432,7 +425,6 @@
           "dust_external": "Dust Cover with External Flat Light",
           "wall": "Wall",
           "az": "Az",
-          "alt": "Alt",
           "adu": "ADU",
           "tolerance": "Tolerance",
           "parkMount": "Park Mount",
@@ -444,9 +436,6 @@
           "prefix": "Prefix",
           "script": "Script",
           "directory": "Directory",
-          "upload": "Save",
-          "remote": "Remote",
-          "filter": "Filter",
           "ts": "TS",
           "duration": "Duration"
        },
@@ -473,31 +462,21 @@
           "focus_in": "In",
           "focus_out": "Out",
           "steps": "Steps",
-          "start": "Start",
-          "autofocus": "Auto Focus",
-          "xAxis": "Steps",
-          "yAxis": "HFR",
           "settings": {
-             "title": "Settings",
              "suspendGuiding": "Suspend Guiding",
              "autoSelectStar": "Auto Select Star",
              "subframe": "Sub Frame",
              "fullfield": "Full Field",
              "dark": "Dark Frame",
-             "box": "Box",
              "annulus": "Annulus",
-             "settle": "Settle"
           },
           "process": {
              "title": "Process",
              "detection": "Detection",
-             "sep_profile": "SEP Profile",
              "algorithm": "Algorithm",
              "threshold": "Threshold",
-             "tolerance": "Tolerance",
              "effect": "Effect",
              "averageOver": "Average Over",
-             "frames": "frames",
              "kernelSize": "Kernel Size",
              "numOfRows": "Num. of Rows",
              "sigma": "Sigma"
@@ -508,31 +487,22 @@
              "maxTravel": "Max Travel",
              "maxStepSize": "Max Step Size",
              "backlash": "Backlash",
-             "settle": "Settle",
              "outStepMultiple": "Out Step Multiple"
           }
        },
        "collapse_guide": {
-          "heading": "导星",
-          "ra_rms_plot": "赤经均方根(RMS)",
-          "de_rms_plot": "赤纬均方根(RMS)",
           "total_rms_plot": "RMS",
           "scope_primary": "Primary",
-          "scope_guide": "Guide",
-          "scope": "Scope",
           "guidingRate": "Guiding Rate",
-          "guider": "Guider",
           "via": "Via",
           "box": "Box",
           "effects": "Effects",
           "dither": "Dither",
-          "pixels": "pixels",
           "frequency": "Frequency",
           "every": "every",
           "frames": "frames",
           "gpg": "GPG",
           "directions": "Directions",
-          "ra": "RA",
           "dec": "DEC",
           "swap": "Swap",
           "east": "+",
@@ -541,7 +511,6 @@
           "south": "-",
           "subframe": "Subframe",
           "autostar": "Auto Star",
-          "dark": "Dark",
           "aggressiveness": "Aggressiveness",
           "rarms": "RA RMS\"",
           "derms": "DE RMS\"",
@@ -556,7 +525,6 @@
        "collapse_polar": {
           "heading": "极轴校正",
           "mount_direction": "赤道仪导航",
-          "mount_speed": "Mount Speed",
           "manual_slew": "Manual Slew",
           "west": "西",
           "east": "东",
@@ -564,7 +532,6 @@
           "refresh": "刷新",
           "fov_error": "无效：视场广度必须为30角分以上",
           "polar_error": "极轴错误",
-          "error": "Error: ",
           "az_error": "AZ error: ",
           "al_error": "AL error: "
        },
@@ -576,9 +543,6 @@
           "no_sequences": "无拍摄队列，您可以在相机设置中添加"
        },
        "collapse_mount": {
-          "heading": "Mount",
-          "tracking": "Tracking",
-          "parking": "Parking",
           "meridian_flip": "Meridian Flip",
           "flip_if_ha": "Flip if HA >",
           "flip_if_ha_unit": "°",
@@ -586,7 +550,6 @@
           "auto_park": "Auto Park",
           "auto_park_everyday": "Every day",
           "park_at": "Park at",
-          "limit_settings": "Limit Settings",
           "reset_options": "Reset Options",
           "min_alt": "Min. Alt",
           "max_alt": "Max. Alt",
@@ -601,18 +564,13 @@
        },
        "modal_add_to_seq": {
           "heading": "添加到队列",
-          "prefix": "前缀"
        },
        "modal_goto_sync": {
           "heading": "Goto&同步",
           "category": "星表类型",
-          "j2000": "J2000",
-          "btn_sync": "同步",
           "btn_goto": "Goto"
        },
        "mount_status_bar": {
-          "status": "Status",
-          "target": "Target",
           "ra": "RA",
           "de": "DE",
           "az": "AZ",
@@ -620,18 +578,9 @@
           "ha": "HA"
        },
        "camera_status_bar": {
-          "camera": "Camera",
-          "filter": "Filter",
-          "temperature": "Temperature",
-          "resolution": "Resolution",
           "bin": "Bin",
-          "gain": "Gain",
-          "iso": "ISO",
-          "offset": "Offset"
        },
        "solution_bar": {
-          "ra": "赤经",
-          "de": "赤纬",
           "dra": "赤经偏差",
           "dde": "赤纬偏差",
           "arcsec": "\"",
@@ -642,10 +591,6 @@
        "mount_overlay": {
           "right_asc": "赤经",
           "declination": "赤纬",
-          "parking": "复位中",
-          "tracking": "追踪中",
-          "park": "复位",
-          "unpark": "取消复位"
        },
        "histogram": {
           "mean": "Mean",
@@ -661,10 +606,42 @@
          "contrast": "Contrast",
          "sigma_clipping": "Sigma Clipping",
          "noImages": "No Live Stacking Images found"
-      }
+      },
+      "scheduler": {
+         "scheduler": "Scheduler",
+         "j2000": "J2000",
+         "fits": "FITS File",
+         "priority": "Priority",
+         "profile": "Profile",
+         "startupConditions": "Job Startup Conditions",
+         "JobConstraints": "Job Constraints",
+         "completionConditions": "Job Completion Conditions",
+         "observatoryStartup": "Observatory Startup Procedure",
+         "abortedJobManagement": "Aborted Job Management",
+         "observatoryShutdown": "Observatory Shutdown",
+         "alt": "Alt >",
+         "moon": "Moon >",
+         "twilight": "Twilight",
+         "artifHorizon": "Artificial Horizon",
+         "sequenceCompletion": "Sequence Completion",
+         "repeatFor": "Repeat for",
+         "repeatUntilTerminated": "Repeat Until Terminated",
+         "repeatUntil": "Repeat until",
+         "unparkDome": "UnPark Dome",
+         "unparkMount": "UnPark Mount",
+         "uncap": "UnCap",
+         "warmCCD": "Warm CCD",
+         "none": "None",
+         "queue": "Queue",
+         "immediate": "Immediate",
+         "rescheduleErrors": "Reschedule Errors (seconds wait)",
+         "no_jobs": "No Jobs in the queue",
+         "err_loading_folders": "Error loading folders",
+         "err_loading_fits": "Error loading .fits files",
+         "err_delete_file": "Error deleting file",
+     },
     },
     "status": {
-       "heading": "状态",
        "system": "系统",
        "info": "信息",
        "software": "软件",
@@ -682,7 +659,6 @@
        "time": "时间",
        "release_type": "版本类型",
        "updates": "更新选项",
-       "resolution": "协议",
        "hotspotMode": "Hotspot Mode",
        "wifiNetwork": "Wifi Network",
        "wifiBand": "WiFi Band",
@@ -707,14 +683,15 @@
        "btn_later": "稍后",
        "btn_resize_fs": "Resize SD",
        "btn_continue": "Continue",
+       "information_ekos_offline": 'Ekos is offline. Please start the equipment profile directly or via the Scheduler.',
+       "no_camera_detected": 'No cameras detected or camera offline.',
+
        "alert_device_offline_title": "Device is offline",
        "alert_device_offline_body": "Device seems to be offline at the moment. Did you login to a device?",
        "alert_restart_title": "重启StellarMate",
        "alert_restart_body": "您的设备即将重启。重启后请尝试再次连接。",
-       "alert_restart_btn_restart": "重启",
        "alert_shutdown_title": "关闭StellarMate",
        "alert_shutdown_body": "您的设备即将关闭，重新使用需要手动开启。",
-       "alert_shutdown_btn_restart": "关机",
        "alert_resize_title": "Resize microSD Card",
        "alert_resize_body": "StellarMate will expand to the full SD card size. Restart StellarMate after resizing.",
        "alert_resize_btn_resize": "Resize",
@@ -722,9 +699,7 @@
        "alert_hotspot_enable_body": "启用热点会使StellarMate断开当前加入的wifi网络，并启动自己的热点。若继续使用StellarMate，您需要连接到此热点网络。是否继续?",
        "alert_hotspot_post_enable_title": "请连接到热点",
        "alert_hotspot_post_enable_body": "您现在可以连接到“stellarmate”热点，并在连接后点击确认以继续",
-       "alert_hotspot_disable_title": "关闭热点",
        "alert_hotspot_disable_body": "禁用热点将使StellarMate连接到其先前连接过的无线网络。热点禁用时，您需要在同一网络继续使用StellarMate。是否继续?",
-       "alert_factory_reset_title": "恢复出厂设置",
        "alert_factory_reset_body": "恢复出厂设置完成，请立即重启StellarMate",
        "alert_factory_reset_confirmation_body": "Are you sure you want to reset device to factory settings? All settings will be wiped. This action is irreversible!",
        "alert_forget_wifi_title": "删除Wifi",
@@ -745,17 +720,14 @@
        "alert_network_error_title": "Network error",
        "alert_network_error_body": "Failed to query network information",
        "change_resolution_modal": {
-          "heading": "变更协议",
           "mode": "模式"
        },
        "change_hostname_modal": {
-          "heading": "更改主机名",
           "new_hostname": "新主机名"
        },
        "change_wifi_modal": {
           "heading": "加入网络",
           "ssid": "SSID",
-          "passkey": "密码",
           "err_wifi": "搜寻Wifi时遇到了问题，请重试"
        },
        "change_band_modal": {
@@ -769,14 +741,12 @@
           "alert_unreachable_body": "尝试建立与VNC查看器的连接时似乎遇到了问题，请重试"
        },
        "web_manager_view": {
-          "heading": "网络管理器",
           "alert_unreachable_title": "网页管理器无法访问",
           "alert_unreachable_body": "尝试建立与网页管理器的连接时似乎遇到了问题，请重试"
        }
     },
     "settings": {
        "heading": "设置",
-       "general_settings": "设置",
        "language": "语言",
        "high_bandwidth": "高带宽模式",
        "transfer_images": "传输图像",
@@ -784,7 +754,6 @@
        "sounds": "声音",
        "cloud_storage": "云存储",
        "auto_sync": "自动同步",
-       "time": "时间",
        "location": "位置",
        "reset_app": "Reset App",
        "reset_app_body": "Purge all App settings?"
@@ -793,7 +762,6 @@
        "heading": "云服务",
        "btn_filters": "筛选",
        "btn_gallery": "图库",
-       "btn_info": "信息",
        "btn_offline_viewer": "Offline Viewer",
        "btn_cloud_viewer": "Cloud Viewer",
        "no_images_title": "找不到图像",
@@ -813,7 +781,6 @@
           "value": "值",
           "btn_add_filter": "添加筛选条件",
           "airmass": "大气光学质量",
-          "mount": "赤道仪",
           "object": "对象",
           "contains": "包含"
        },
@@ -831,7 +798,6 @@
           "descending": "降序",
           "alert_no_images_title": "无图像",
           "alert_no_images_body": "没有可以删除的图像",
-          "alert_delete_all_title": "是否确定?",
           "alert_delete_all_body": "确定删除选定的 {0} 张图片吗? 此操作无法恢复"
        },
        "info_drawer": {
@@ -841,13 +807,13 @@
     },
     "about": {
        "heading": "关于",
-       "version": "版本",
        "bundle": "Bundle",
-       "copyright_line1": "StellarMate is developed by Ikarus Technologies ? 2017-2021",
+       "copyright_line1": "StellarMate is developed by Ikarus Technologies. © 2017-2022",
        "copyright_line2": "Background image by Alamri Observatory"
     },
     "messages": {
-       "polar_idle": "This tool provides a simple method to polar align a German equatorial mount. Park your mount to home position where it points toward the celestial pole with the counter weight down. Select mount direction and speed and then click Start to begin the process. If you do not have a view of the pole, use the SkyMap or Ekos mount control to point anywhere, preferably near the meridian, choose East or West according your side, lower the rotation angle if necessary, and click Start."
+       "polar_idle": "This tool provides a simple method to polar align a German equatorial mount. Park your mount to home position where it points toward the celestial pole with the counter weight down. Select mount direction and speed and then click Start to begin the process. If you do not have a view of the pole, use the SkyMap or Ekos mount control to point anywhere, preferably near the meridian, choose East or West according your side, lower the rotation angle if necessary, and click Start.",
+       "alert_directions_not_found": "Coordinates not found, Please frame your target or enter coordinates manually."
     }
  };
 

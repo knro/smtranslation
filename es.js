@@ -44,6 +44,7 @@ const es = {
         rotation: "Rotacion",
         automatic: "Automatico",
         manual: "Manual",
+        progress: "Progress",
 
         azimuth: "Azimut",
         altitude: "Altitud",
@@ -78,6 +79,8 @@ const es = {
         parked: "Aparcado",
         unparked: "No aparcado",
         open: "Abierto",
+        close: "Cerrado",
+        opened: "Abierto",
 
         // Confirm Delete Alert
         alert_confirm_delete_title: "Confirm Delete",
@@ -122,12 +125,10 @@ const es = {
             binningTwo: "2x2",
             binningFour: "4x4",
             total_images: "Total",
-            count: "Count"
         },
 
         create_defect_map:{
             master_dark: "Master Dark",
-            temperature: "Temperature",
             bad_pixels: "Bad Pixels",
             hot_pixels: "Hot Pixels",
             generate_map: "Generate Map",
@@ -211,7 +212,6 @@ const es = {
         Parked: "Aparcado"
     },
     connect: {
-        heading: "Conectar",
         register_welcome: "Inicie sesion en su cuenta de stellarmate.com para sincronizar dispositivos.",
         welcome_heading: "Bienvenido",
         welcome_description: "Asegurese de estar conectado al HotSpot de StellarMate o de que StellarMate este en la misma red que usted.",
@@ -234,7 +234,6 @@ const es = {
         registration_in_progress: "Registrando StellarMate...",
         logging_in_progress: "Iniciar sesion en StellarMate...",
         connecting: "Conectando...",
-        registering: "Registrando...",
         logging: "Iniciando sesion...",
 
         ip_address: "Direccion IP",
@@ -269,7 +268,6 @@ const es = {
         },
 
         port_selector: {
-            port_selector: "Selector de Puerto",
             connect_all: "Conectar Todo"
         },
 
@@ -283,7 +281,6 @@ const es = {
         device_scanner: {
             no_device_before_scan: "No se ha detectado Disposivo. Ejecute Escanear.",
             no_device_after_scan: "Escaneo completo. No se encontraron dispositivos.",
-            progress: "Progreso",
             auto_scanned: "Escaneado automatico",
             manually_added: "Agregado manualmente",
             add_a_device: "Agregar un Dispositivo",
@@ -296,10 +293,7 @@ const es = {
             mount: "Montura",
             ccd: "CCD",
             guider: "Tubo Guia",
-            focuser: "Enfocador",
-            filter: "Filtro",
             ao: "Óptica adaptable",
-            dome: "Cupula",
             weather: "Clima",
             aux1: "Aux1",
             aux2: "Aux2",
@@ -310,7 +304,6 @@ const es = {
             add_scope: "Agregar Telescopio",
             edit_scope: "Editar Telescopio",
             vendor: "Fabricante",
-            model: "Modelo",
             aperture: "Apertura",
             focal_length: "Longitud Focal"
         },
@@ -324,7 +317,6 @@ const es = {
             alert_missing_driver_body: 'Debes de Seleccionar primero un controlador.'
         },
         dslr_setup: {
-            heading: "Configuracion DSLR",
             width: "Ancho",
             height: "Altura",
             pixel_width: "Ancho Pixel",
@@ -335,7 +327,6 @@ const es = {
         now: "Ahora",
         night: "Noche",
         rise: "Elevacion",
-        set: "Ajuste",
         moon: "Luna",
         sun: "Sol",
         search: "Buscar",
@@ -355,6 +346,7 @@ const es = {
         target_rotation: "Rotacion de Destino",
         current_rotation: "Rotacion Actual",
         rotate_capture: "Rotar y Capturar",
+        goto_rotate: "GOTO & Rotar",
         angular_offset: "Compensacion Angular",
         no_objects_in_list: "No se encontraron Objetos, ajuste o restablezca los filtros.",
         go_and_solve: "Dirigirse y Resolver",
@@ -376,13 +368,11 @@ const es = {
         alert_ekos_disconnected_body: "No todos los dispositivos del perfil de equipo estan conectados, conecte todos los dispositivos y vuelva a intentarlo.",
 
         ekos_dialog: {
-            heading: "Ekos",
             auto_closes_in: "Auto cierre en"
         },
 
         controls_bar: {
             mount_speed: "Velocidad Montura",
-            guide: "Guiado",
             centering: "Centrado",
             find: "Encontrar",
             Max: "Max"
@@ -393,17 +383,11 @@ const es = {
             action_sync: "Sincronizar",
             action_slew: "Objetivo Alcanzado",
             action_nothing: "Nada",
-            scope_primary: "Primario",
-            scope_guide: "Tubo Guia",
             solver_backend: "Finalizado",
-            solver_type: "Tipo",
             control: "Control",
             solve: "Capturar y Resolver",
             load: "Cargar y Rotar",
             polar: "Alineacion Polar",
-            stop: "Parar",
-            scope: "Scope",
-            action: "Accion",
             accuracy: "Precision",
             settle: "Establecer",
             dark: "Oscuridad",
@@ -411,18 +395,27 @@ const es = {
             ms: "ms",
             xAxis: "Repeticiones",
             yAxis: "Error (arco seg)",
-            refresh_rate: "Velocidad de Refresco"
+            refresh_rate: "Velocidad de Refresco",
+            manualRotator: {
+                heading: "Manual Rotator",
+                currentPA: "Current PA",
+                targetPA: "Target PA",
+                another_image: "Take another Image",
+            },
+            alignSettings: {
+                rotator_control: "Rotator Control",
+                use_scale: "Use Scale",
+                use_position: "Use Position"
+            }
 
         },
         collapse_camera: {
             heading: "Capturar",
             type_light: "Light",
             type_bias: "Bias",
-            type_dark: "Dark",
             type_flat: "Flat",
             format_fits: "FITS",
             format_native: "Por defecto",
-            target_temp: "Temperatura",
             cooling_unavailable: "N/A",
             btn_add_to_sequence: "Agregar a la Secuencia",
             btn_loop: "Bucle"
@@ -458,7 +451,6 @@ const es = {
             dust_external: "Cubierta Antipolvo con Luz Flat Externa",
             wall: "Mural",
             az: "Az",
-            alt: "Alt",
             adu: "ADU",
             tolerance: "Tolerancia",
             parkMount: "Aparcar Montura",
@@ -470,9 +462,6 @@ const es = {
             prefix: "Prefijo",
             script: "Comandos",
             directory: "Directorio",
-            upload: "Salvar",
-            remote: "Remoto",
-            filter: "Filtro",
             ts: "TS",
             duration: "Duracion"
         },
@@ -500,31 +489,21 @@ const es = {
             focus_in: "Dentro",
             focus_out: "Fuera",
             steps: "Pasos",
-            start: "Iniciar",
-            autofocus: "Enfoque Automatico",
-            xAxis: "Pasos",
-            yAxis: "HFR",
             settings: {
-                title: "Ajustes",
                 suspendGuiding: "Suspender el guiado",
                 autoSelectStar: "Seleccionar Estrella Automaticamente",
                 subframe: "Submarco",
                 fullfield: "Campo Total",
                 dark: "Marco Oscuro",
-                box: "Caja",
                 annulus: "Anillo",
-                settle: "Establecer"
             },
             process: {
                 title: "Proceso",
                 detection: "Deteccion",
-                sep_profile: "Perfil SEP",
                 algorithm: "Algoritmo",
                 threshold: "Limite",
-                tolerance: "Tolerancia",
                 effect: "Efecto",
                 averageOver: "Promedio sobre",
-                frames: "Cuadros",
                 kernelSize: "Volumen Kernel",
                 numOfRows: "Num. de Filas",
                 sigma: "Sigma"
@@ -535,31 +514,22 @@ const es = {
                 MaxTravel: "Max Recorrido",
                 MaxStepSize: "Max Volumen Paso",
                 backlash: "Retroceso",
-                settle: "Establecer",
                 outStepMultiple: "Paso de salida multiple",
             },
         },
         collapse_guide: {
-            heading: "Guiado",
-            ra_rms_plot: "RA",
-            de_rms_plot: "DE",
             total_rms_plot: "RMS",
             scope_primary: "Primario",
-            scope_guide: "Tubo Guia",
-            scope: "Telescopio",
             guidingRate: "Tasa de guiado",
-            guider: "Guia",
             via: "Via",
             box: "Recuadro",
             effects: "Efectos",
             dither: "Trepidar",
-            pixels: "pixeles",
             frequency: "Frecuencia",
             every: "every",
             frames: "cuadros",
             gpg: "GPG",
             directions: "Direcciones",
-            ra: "RA",
             dec: "DEC",
             swap: "Intercambio",
             east: "+",
@@ -568,7 +538,6 @@ const es = {
             south: "-",
             subframe: "Subcuadro",
             autostar: "Autoinicio",
-            dark: "Oscuridad",
             aggressiveness: "Acometer",
             rarms: "RA RMS\"",
             derms: "DE RMS\"",
@@ -583,7 +552,6 @@ const es = {
         collapse_polar: {
             heading: "Alineacion Polar",
             mount_direction: "Direccion de la Montura",
-            mount_speed: "Velocidad Montura",
             manual_slew: "Desplazamiento manual",
             west: "Oeste",
             east: "Este",
@@ -591,7 +559,6 @@ const es = {
             refresh: "Refresco",
             fov_error: "Desactivado: el campo de vision FOV debe de ser de 30 Minutos de arco o mas.",
             polar_error: "Error en la Polar: ",
-            error: "Error: ",
             az_error: "Error AZ: ",
             al_error: "Error AL: "
         },
@@ -603,9 +570,6 @@ const es = {
             no_sequences: "Sin secuencias. Puede agregarlas pulsando Agregar Secuencia."
         },
         collapse_mount: {
-            heading: "Montura",
-            tracking: "Seguimiento",
-            parking: "Estacionamiento",
             meridian_flip: "Giro por paso del Meridiano",
             flip_if_ha: "Giro si HA >",
             flip_if_ha_unit: "°",
@@ -613,7 +577,6 @@ const es = {
             auto_park: "Auto Aparcado",
             auto_park_everyday: "Todos los dias",
             park_at: "Aparcar en",
-            limit_settings: "Configuracion de limites",
             reset_options: "Restablecer Opciones",
             Min_alt: "Min. Alt",
             Max_alt: "Max. Alt",
@@ -628,18 +591,13 @@ const es = {
         },
         modal_add_to_seq: {
             heading: "Agregar a la Secuencia",
-            prefix: "Prefijo"
         },
         modal_goto_sync: {
             heading: "Ir a o Sincronizar",
             category: "Categoria",
-            j2000: "J2000",
-            btn_sync: "Sincronizar",
             btn_goto: "Ir a"
         },
         mount_status_bar: {
-            status: "Estados",
-            target: "Objetivo",
             ra: "RA",
             de: "DE",
             az: "AZ",
@@ -647,18 +605,9 @@ const es = {
             ha: "HA"
         },
         camera_status_bar: {
-            camera: "Camara",
-            filter: "Filtro",
-            temperature: "Temperatura",
-            resolution: "Resolucion",
             bin: "Vincular con",
-            gain: "Ganacia",
-            iso: "ISO",
-            offset: "Compensacion"
         },
         solution_bar: {
-            ra: "RA",
-            de: "DE",
             dra: "dRA",
             dde: "dDE",
             arcsec: '"',
@@ -669,10 +618,6 @@ const es = {
         mount_overlay: {
             right_asc: "Asc. Recta.",
             declination: "Declinacion",
-            parking: "Estacionamiento",
-            tracking: "Seguimiento",
-            park: "Aparcado",
-            unpark: "No Aparcado"
         },
         histogram : {
             mean: "Promedio",
@@ -688,15 +633,45 @@ const es = {
             contrast: "Contraste",
             sigma_clipping: "Recorte Sigma",
             noImages: "No Live Stacking Images found"
-        }
+        },
+        "scheduler": {
+            "scheduler": "Scheduler",
+            "j2000": "J2000",
+            "fits": "FITS File",
+            "priority": "Priority",
+            "profile": "Profile",
+            "startupConditions": "Job Startup Conditions",
+            "JobConstraints": "Job Constraints",
+            "completionConditions": "Job Completion Conditions",
+            "observatoryStartup": "Observatory Startup Procedure",
+            "abortedJobManagement": "Aborted Job Management",
+            "observatoryShutdown": "Observatory Shutdown",
+            "alt": "Alt >",
+            "moon": "Moon >",
+            "twilight": "Twilight",
+            "artifHorizon": "Artificial Horizon",
+            "sequenceCompletion": "Sequence Completion",
+            "repeatFor": "Repeat for",
+            "repeatUntilTerminated": "Repeat Until Terminated",
+            "repeatUntil": "Repeat until",
+            "unparkDome": "UnPark Dome",
+            "unparkMount": "UnPark Mount",
+            "uncap": "UnCap",
+            "warmCCD": "Warm CCD",
+            "none": "None",
+            "queue": "Queue",
+            "immediate": "Immediate",
+            "rescheduleErrors": "Reschedule Errors (seconds wait)",
+            "no_jobs": "No Jobs in the queue",
+            "err_loading_folders": "Error loading folders",
+            "err_loading_fits": "Error loading .fits files",
+            "err_delete_file": "Error deleting file",
+        },
     },
     status: {
-        heading: "Estado",
-
         system: "Sistema",
         info: "Info",
         software: "Software",
-
         cpu: "CPU",
         ram: "RAM",
         storage: "ALMACENAMIENTO",
@@ -713,7 +688,6 @@ const es = {
         time: "Hora",
         release_type: "Tipo de Publicacion",
         updates: "Actualizaciones",
-        resolution: "Resolucion",
 
         hotspotMode: "Modo Punto de Acceso",
         wifiNetwork: "Red Wifi",
@@ -740,17 +714,17 @@ const es = {
         btn_later: "Mas tarde",
         btn_resize_fs: "Redimensionar SD",
         btn_continue: "Continuar",
+        information_ekos_offline: 'Ekos is offline. Please start the equipment profile directly or via the Scheduler.',
+        no_camera_detected: 'No cameras detected or camera offline.',
 
         alert_device_offline_title: "El Dispositivo esta desconectado",
         alert_device_offline_body: "El Dispositivo parece estar desconectado en este momento. ¿Ha iniciado sesion en el Dispositivo?",
 
         alert_restart_title: "Reiniciando StellarMate",
         alert_restart_body: "Su dispositivo ahora se reiniciara. Puede intentar volver a conectarse una vez que se reinicie.",
-        alert_restart_btn_restart: "Reiniciar",
         alert_shutdown_title: "Apagando StellarMate",
         alert_shutdown_body:
             "Tu Dispositivo se apagara ahora. Para poder volverlo a usar, debera encenderlo manualmente.",
-        alert_shutdown_btn_restart: "Apagar",
 
         alert_resize_title: "Cambiar la Capacidad de la Tarjeta microSD",
         alert_resize_body:
@@ -764,11 +738,9 @@ const es = {
         alert_hotspot_post_enable_title: "Conectese al Punto de Acceso",
         alert_hotspot_post_enable_body: 'Ahora puede conectarse al Punto de Acceso "stellarmate" y presionar OK, cuando haya terminado, para continuar',
 
-        alert_hotspot_disable_title: "Deshabilitar el Punto de Acceso",
         alert_hotspot_disable_body:
             "La desactivacion del Punto de Acceso hara que StellarMate se conecte a su red inalambrica previamente guardada. Deberia estar en la misma red para continuar usando StellarMate cuando su Punto de Acceso esta desactivado. ¿Quiere continuar?",
 
-        alert_factory_reset_title: "Restablecimiento de Fabrica",
         alert_factory_reset_body: "Restablecimiento de Fabrica realizado. Reinicie ahora StellarMate.",
         alert_factory_reset_confirmation_body: "¿Seguro que quiere reestablecer el dispositivo a la configuracion de Fabrica? Se borraran todos los ajustes. ¡Esta accion es irreversible!",
 
@@ -808,14 +780,12 @@ const es = {
         },
 
         change_hostname_modal: {
-            heading: "Cambiar nombre Host",
             new_hostname: "Nombre nuevo Host"
         },
 
         change_wifi_modal: {
             heading: "Unirse a una Red",
             ssid: "SSID",
-            passkey: "Clave",
             err_wifi: "Hubo un problema al buscar redes Wifi."
         },
 
@@ -832,14 +802,12 @@ const es = {
         },
 
         web_manager_view: {
-            heading: "Administrador Web",
             alert_unreachable_title: "Administrador Web inaccesible",
             alert_unreachable_body: "Parece que hay un problema al intentar establecer la conexion con el Administrador Web"
         }
     },
     settings: {
         heading: "Ajustes",
-        general_settings: "Ajustes",
         language: "Lenguaje",
         high_bandwidth: "Ancho de Banda Alto",
         transfer_images: "Transferir Imagenes",
@@ -847,7 +815,6 @@ const es = {
         sounds: "Sonidos",
         cloud_storage: "Almacenamiento en la Nube",
         auto_sync: "Sincronizacion Automatica",
-        time: "Hora",
         location: "Ubicacion",
         reset_app: "Restablecer App",
         reset_app_body: "¿Borrar todas las configuraciones de la App?"
@@ -856,7 +823,6 @@ const es = {
         heading: "Visor",
         btn_filters: "Filtros",
         btn_gallery: "Galeria",
-        btn_info: "Info",
         btn_offline_viewer: "Visor sin conexion",
         btn_cloud_viewer: "Visor de la Nube",
         no_images_title: "No se encontraron Imagenes",
@@ -877,7 +843,6 @@ const es = {
             value: "Valor",
             btn_add_filter: "AÑADIR FILTRO",
             airmass: "Masa de Aire",
-            mount: "Montura",
             object: "Objeto",
             contains: "Contenido"
         },
@@ -896,7 +861,6 @@ const es = {
 
             alert_no_images_title: "Sin Imagenes",
             alert_no_images_body: "No hay Imagenes en la Galeria que puedan eliminarse..",
-            alert_delete_all_title: "¿Esta seguro?",
             alert_delete_all_body: "¿Esta seguro de que desea eliminar {0} Imagenes?. Esta es una operacion irreversible."
         },
         info_drawer: {
@@ -906,14 +870,14 @@ const es = {
     },
     about: {
         heading: "Acerca de",
-        version: "Version",
         bundle: "Empaquetado",
-        copyright_line1: "StellarMate esta desarrollado por Ikarus Technologies © 2017-2021",
+        copyright_line1: "StellarMate esta desarrollado por Ikarus Technologies © 2017-2022",
         copyright_line2: "Imagen de Fondo cedida por Alamri Observatory"
     },
     messages: {
         // polar align
-        polar_idle: "Esta herramienta proporciona un metodo simple para alinear la Polar con una montura ecuatorial alemana. Estacione su montura en la posicion de inicio donde apunte hacia el Polo celeste con el contrapeso hacia abajo. Seleccione la direccion y velocidad de la montura y luego haga clic en Iniciar para comenzar el proceso. Si no tiene una vista del Polo, use  el control de la montura con SkyMap o Ekos para apuntar a cualquier lugar, preferiblemente cerca del meridiano, elija Este u Oeste segun su lado, baje el angulo de rotacion si es necesario y haga clic en Iniciar."
+        polar_idle: "Esta herramienta proporciona un metodo simple para alinear la Polar con una montura ecuatorial alemana. Estacione su montura en la posicion de inicio donde apunte hacia el Polo celeste con el contrapeso hacia abajo. Seleccione la direccion y velocidad de la montura y luego haga clic en Iniciar para comenzar el proceso. Si no tiene una vista del Polo, use  el control de la montura con SkyMap o Ekos para apuntar a cualquier lugar, preferiblemente cerca del meridiano, elija Este u Oeste segun su lado, baje el angulo de rotacion si es necesario y haga clic en Iniciar.",
+        "alert_directions_not_found": "Coordinates not found, Please frame your target or enter coordinates manually."
     }
 };
 
