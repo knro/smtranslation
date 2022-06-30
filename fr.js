@@ -110,7 +110,7 @@ const fr = {
       "progress": "Progression",
 
       "create_darks":{
-          "exposure_range": "Plage d' expo.",
+          "exposure_range": "Plage d'expo.",
           "to": "à",
           "temp_range": "Plage de temp.",
           "binning": "Binning",
@@ -548,7 +548,7 @@ const fr = {
           "flip_if_ha_unit": "°",
           "pierside": "Côté de la jetée",
           "auto_park": "Parc automatique",
-          "auto_park_everyday": "Tous les joirs day",
+          "auto_park_everyday": "Tous les jours",
           "park_at": "Parquer à",
           "reset_options": "Réinitialiser les options",
           "min_alt": "Alt min",
