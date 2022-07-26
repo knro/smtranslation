@@ -27,7 +27,7 @@ const fr = {
        "exposure": "Exposition",
        "binning": "Binning",
        "action": "Action",
-       "scope_type": "Type de portée",
+       "scope_type": "Type de Tube",
        "solver_type": "Type de solveur",
        "type": "Type",
        "gain": "Gain",
@@ -44,7 +44,7 @@ const fr = {
        "rotation": "Rotation",
        "automatic": "Automatique",
        "manual": "Manuel",
-       "progress": "Progress",
+       "progress": "Progression",
 
        "azimuth": "Azimut",
        "altitude": "Altitude",
@@ -64,14 +64,14 @@ const fr = {
        "go": "ALLER",
        "add": "AJOUTER",
        "edit": "ÉDITER",
-       "refresh": "RAFRAÎCHIR",
-       "reset": "RÉINITIALISER",
+       "refresh": "Rafraichir",
+       "reset": "Réinitialiser",
        "reset_all": "Tout réinitialiser",
-       "start": "DÉBUT",
+       "start": "Début",
        "stop": "Arrêtez",
        "stopping": "Arrêt",
        "clear": "Effacer",
-       "solve": "RÉSOUDRE",
+       "solve": "Résoudre",
        "parked": "Parquée",
        "unparked": "Dé Parquée",
        "open": "Ouvrir",
@@ -81,7 +81,7 @@ const fr = {
        "enable": "Activer",
        "disable": "Désactiver",
        "selectTime": "Durée",
-       "set": "Ensemble",
+       "set": "Définir",
 
        // Confirm Delete Alert
        "alert_confirm_delete_title": "Confirmer Suppression",
@@ -161,7 +161,7 @@ const fr = {
        "establishing_connection": "Établissement de la connexion",
        "cameras": "Obtenir des caméras",
        "mounts": "Obtenir des montures",
-       "scopes": "Obtenir des portées",
+       "scopes": "Obtenir des Télescopes",
        "filter_wheels": "Obtenir des roues de filtre",
        "registering": "Enregistrement...",
        "registered": "inscrit",
@@ -182,10 +182,10 @@ const fr = {
     },
     "device_scanner": {
        "scanning": "Veuillez patienter pendant que nous recherchons des appareils StellarMate sur le réseau",
-       "qr_scan": "Scannez le code QR de votre appareil "
+       "qr_scan": "Scannez le QR Code de votre appareil "
     },
     "statuses": {
-       "Idle": "Tourner au ralenti",
+       "Idle": "Inactif",
        "Aborted": "Avorté",
        "Calibration error": "Erreur d'étalonnage",
        "Capturing": "Capturer",
@@ -199,7 +199,7 @@ const fr = {
        "User Input": "Entrée utilisateur",
        "Complete": "Compléter",
        "Suspended": "Suspendu",
-       "Parked": "Garé"
+       "Parked": "Parquée"
     },
     "connect": {
        "register_welcome": "Veuillez vous connecter à votre compte stellarmate.com pour synchroniser les appareils.",
@@ -288,7 +288,7 @@ const fr = {
           "edit_scope": "Modifier le télescope",
           "vendor": "Fabricant",
           "aperture": "Ouverture (mm)",
-          "focal_length": "Distance focale (mm)"
+          "focal_length": "Focale (mm)"
        },
        "auto_detect": {
           "alert_auto_detect_title": "Instructions de détection automatique",
@@ -301,8 +301,8 @@ const fr = {
        "dslr_setup": {
           "width": "Largeur",
           "height": "la taille",
-          "pixel_width": "Largeur de pixel",
-          "pixel_height": "Hauteur de pixel"
+          "pixel_width": "Largeur pixel",
+          "pixel_height": "Hauteur pixel"
        }
     },
     "targets": {
@@ -322,18 +322,18 @@ const fr = {
           "waning_crescent": "Dernier croissant",
           "waning_gibbous": "Gibbeuse décroissante"
        },
-       "lists": "Lists",
+       "lists": "Liste",
        "framing_assistant": "Framing Assistant",
        "target_rotation": "Target Position Angle",
        "current_rotation": "Current Rotation",
-       "rotate_capture": "Rotate & Capture",
-       "goto_rotate": "GOTO & Rotate",
+       "rotate_capture": "Rotation & Capture",
+       "goto_rotate": "GOTO & Rotation",
        "angular_offset": "Angular Offset",
        "no_objects_in_list": "Pas d'objets trouvés, ajuster ou reinitialiser les filtres.",
        "go_and_solve": "Go & Solve",
        "fov_profile": "FOV Profile",
-       "fov_width": "FOV Width",
-       "fov_height": "FOV Height"
+       "fov_width": "FOV Largeur",
+       "fov_height": "FOV Hauteur"
     },
     "ekos": {
        "heading": "Ekos",
@@ -371,20 +371,20 @@ const fr = {
           "yAxis": "Erreur (arcsec)",
           "refresh_rate": "Taux de rafraichissement",
           "manualRotator": {
-            "heading": "Manual Rotator",
-            "currentPA": "Current PA",
-            "targetPA": "Target PA",
-            "another_image": "Take another Image",
+            "heading": "Rotation Manuelle",
+            "currentPA": "PA Actuel",
+            "targetPA": "PA Cible",
+            "another_image": "Prendre une autre Image",
         },
         "alignSettings": {
-         "rotator_control": "Rotator Control",
-         "use_scale": "Use Scale",
-         "use_position": "Use Position"
+         "rotator_control": "Contôle Rotateur",
+         "use_scale": "Utiliser Echelle",
+         "use_position": "Utiliser Position"
      }
        },
        "collapse_camera": {
           "heading": "Capturer",
-          "type_light": "Light",
+          "type_light": "Brutes",
           "type_bias": "Biais",
           "type_flat": "Flat",
           "format_fits": "Fits",
@@ -422,12 +422,12 @@ const fr = {
           "flat_duration": "Durée Flat",
           "dust_builtin": "Cache-poussière avec éclairage plat intégré",
           "dust_external": "Cache-poussière avec éclairage plat externe",
-          "wall": "mur",
+          "wall": "Mur",
           "az": "Az",
           "adu": "ADU",
           "tolerance": "Tolérance",
           "parkMount": "Monture parquée",
-          "parkDome": "Dome fermé",
+          "parkDome": "Dôme fermé",
           "manual": "Manuel"
        },
        "capture_file": {
@@ -440,8 +440,8 @@ const fr = {
           "duration": "Durée"
        },
        "collapse_dome": {
-          "heading": "Cap et Dôme",
-          "cap": "Casquette",
+          "heading": "Coiffe et Dôme",
+          "cap": "Coiffe",
           "dome": "Dôme",
           "shutter": "Obturateur",
           "domeSlaving": "Asservissement du dôme",
@@ -456,11 +456,11 @@ const fr = {
           "ota_offset": "Décalage OTA (m)"
        },
        "collapse_focus": {
-          "heading": "Concentrer",
+          "heading": "MAP-FOCUS",
           "hfr": "HFR",
           "hfr_plot": "Tracé HFR",
-          "focus_in": "Dans",
-          "focus_out": "En dehors",
+          "focus_in": "MAP vers l'intérieur",
+          "focus_out": "MAP vers l'extérieur",
           "steps": "Pas",
           "settings": {
              "suspendGuiding": "Suspendre le guidage",
@@ -483,7 +483,7 @@ const fr = {
           },
           "mechanics": {
              "title": "Mécanique",
-             "initialStepSize": "Taille initiale de pas",
+             "initialStepSize": "Taille initiale du pas",
              "maxTravel": "Trajet maximum",
              "maxStepSize": "Taille maximale du pas",
              "backlash": "Backlash",
@@ -498,7 +498,7 @@ const fr = {
           "box": "Boîte",
           "effects": "Effets",
           "dither": "Décalage",
-          "frequency": "Frequence",
+          "frequency": "Fréquence",
           "every": "every",
           "frames": "frames",
           "gpg": "GPG",
@@ -524,11 +524,11 @@ const fr = {
        },
        "collapse_polar": {
           "heading": "Alignement polaire",
-          "mount_direction": "Direction du montage",
-          "manual_slew": "Manual Slew",
+          "mount_direction": "Direction de la monture",
+          "manual_slew": "Déplacement Manuel",
           "west": "Ouest",
-          "east": "est",
-          "mount_rotation": "Rotation du support",
+          "east": "Est",
+          "mount_rotation": "Rotation de la Monture",
           "refresh": "Rafraîchir",
           "fov_error": "Désactivé: le champ de vision doit être de 30 arcmins ou plus.",
           "polar_error": "Erreur polaire :",
@@ -538,16 +538,16 @@ const fr = {
        "collapse_sequence": {
           "progress": "Progression",
           "sequence": "Séquence",
-          "overall_progress": "Les progrès d'ensemble",
+          "overall_progress": "Progression Globale",
           "sequences": "Séquences",
           "no_sequences": "Pas de séquences. Vous pouvez les ajouter en appuyant sur Ajouter à la séquence."
        },
        "collapse_mount": {
-          "meridian_flip": "Meridian Flip",
+          "meridian_flip": "Retournement au Méridien",
           "flip_if_ha": "Retourner si HA>",
           "flip_if_ha_unit": "°",
           "pierside": "Côté de la jetée",
-          "auto_park": "Parc automatique",
+          "auto_park": "Parking automatique",
           "auto_park_everyday": "Tous les jours",
           "park_at": "Parquer à",
           "reset_options": "Réinitialiser les options",
@@ -556,9 +556,9 @@ const fr = {
           "enable_alt_limits": "Activer les limites Alt",
           "enable_ha_limits": "Activer les limites HA",
           "max_ha": "HA max (heures)",
-          "clear_model": "Modèle clair",
+          "clear_model": "Purger Modèle",
           "east": "E",
-          "west": "W",
+          "west": "O",
           "east_long": "Est (pointant vers l'ouest)",
           "west_long": "Ouest (pointant vers l'est)",
           "btn_set_auto_park_timer": "Définir l'heure de parquage automatique"
@@ -598,46 +598,46 @@ const fr = {
           "mean": "Mean",
           "median": "Median",
           "bit_depth": "Bit Depth",
-          "non_linear_histogram": "Histogramme Non-Linear"
+          "non_linear_histogram": "Histogramme Non-Lineaire"
        },
        "livestacking": {
          "auto_dark": "Auto Dark",
-         "plate_solve": "Plate Solve",
+         "plate_solve": "Plate Résoudre",
          "background": "Background",
          "saturation": "Saturation",
          "contrast": "Contraste",
          "sigma_clipping": "Sigma Clipping",
-         "noImages": "No Live Stacking Images found"
+         "noImages": "Pas d'images trouvées pour Live Stacking"
       },
       "scheduler": {
-         "scheduler": "Scheduler",
+         "scheduler": "PLANIFICATEUR",
          "j2000": "J2000",
          "fits": "FITS File",
-         "priority": "Priority",
-         "profile": "Profile",
-         "startupConditions": "Job Startup Conditions",
-         "JobConstraints": "Job Constraints",
-         "completionConditions": "Job Completion Conditions",
-         "observatoryStartup": "Observatory Startup Procedure",
-         "abortedJobManagement": "Aborted Job Management",
-         "observatoryShutdown": "Observatory Shutdown",
+         "priority": "Priorité",
+         "profile": "Profil",
+         "startupConditions": "Conditions démarrage",
+         "JobConstraints": "Contraintes  des Tâches",
+         "completionConditions": "Conditions de fin des Tâches",
+         "observatoryStartup": "Procédure de démarrage de l'Observation",
+         "abortedJobManagement": "Gestion des tâches abandonnées",
+         "observatoryShutdown": "Arrêt Observation",
          "alt": "Alt >",
-         "moon": "Moon >",
-         "twilight": "Twilight",
-         "artifHorizon": "Artificial Horizon",
-         "sequenceCompletion": "Sequence Completion",
-         "repeatFor": "Repeat for",
-         "repeatUntilTerminated": "Repeat Until Terminated",
-         "repeatUntil": "Repeat until",
-         "unparkDome": "UnPark Dome",
-         "unparkMount": "UnPark Mount",
-         "uncap": "UnCap",
-         "warmCCD": "Warm CCD",
+         "moon": "Lune >",
+         "twilight": "Aube",
+         "artifHorizon": "Horizon Artificiel",
+         "sequenceCompletion": "Achèvement des Sequences",
+         "repeatFor": "Répéter pour",
+         "repeatUntilTerminated": "Répéter jusqu'à terminaison",
+         "repeatUntil": "Répéter jusqu'à",
+         "unparkDome": "Déparduer le Dôme",
+         "unparkMount": "Déparquer la Monture",
+         "uncap": "Enlever la coiffe",
+         "warmCCD": "Réchauffer CCD",
          "none": "None",
          "queue": "Queue",
          "immediate": "Immediate",
          "rescheduleErrors": "Reschedule Errors (seconds wait)",
-         "no_jobs": "No Jobs in the queue",
+         "no_jobs": "Pas de Tâche dans la file d'attente",
          "err_loading_folders": "Error loading folders",
          "err_loading_fits": "Error loading .fits files",
          "err_delete_file": "Error deleting file",
@@ -656,7 +656,7 @@ const fr = {
        "ethernet_network": "IP Ethernet",
        "model": "Modèle",
        "version": "Version",
-       "hostname": "Nom d'hôte",
+       "hostname": "Nom de l'hôte",
        "time": "Temps",
        "release_type": "Type de version",
        "updates": "Mises à jour",
@@ -682,8 +682,8 @@ const fr = {
        "btn_later": "Plus tard",
        "btn_resize_fs": "Redimensionner SD",
        "btn_continue": "Continuer",
-       "information_ekos_offline": 'Ekos is offline. Please start the equipment profile directly or via the Scheduler.',
-       "no_camera_detected": 'No cameras detected or camera offline.',
+       "information_ekos_offline": 'Ekos est hors ligne. Please start the equipment profile directly or via the Scheduler.',
+       "no_camera_detected": 'Pas de caméra détectée ou Caméra hors ligne.',
        
        "alert_device_offline_title": "L'appareil est hors ligne",
        "alert_device_offline_body": "L'appareil semble être hors ligne pour le moment. Vous êtes-vous connecté à un appareil?",
@@ -747,12 +747,12 @@ const fr = {
        }
     },
     "settings": {
-       "heading": "Réglages",
+       "heading": "REGLAGES",
        "language": "Langue",
        "high_bandwidth": "Bande passante élevée",
        "transfer_images": "Transférer des images",
        "notifications": "Notifications",
-       "sounds": "Des sons",
+       "sounds": "Activer le Son",
        "cloud_storage": "Stockage en ligne",
        "auto_sync": "Synchronisation automatique",
        "location": "Emplacement",
@@ -760,7 +760,7 @@ const fr = {
        "reset_app_body": "Purger tous les paramètres de l'application?"
     },
     "cloud": {
-       "heading": "Vue",
+       "heading": "VUE",
        "btn_filters": "Filtres",
        "btn_gallery": "Galerie",
        "btn_offline_viewer": "Visionneuse hors ligne",
@@ -780,7 +780,7 @@ const fr = {
           "field": "Champ",
           "condition": "État",
           "value": "Valeur",
-          "btn_add_filter": "AJOUTER UN FILTRE",
+          "btn_add_filter": "Ajouter un Filtre",
           "airmass": "Masse d'air",
           "object": "Objet",
           "contains": "Contient"
@@ -793,8 +793,8 @@ const fr = {
           "m1": "1m",
           "y1": "1y",
           "images": "Images",
-          "btn_sort": "TRIER",
-          "btn_delete_all": "SUPPRIMER TOUT",
+          "btn_sort": "Trier",
+          "btn_delete_all": "Supprimer Tout",
           "ascending": "A-Z",
           "descending": "Z-A",
           "alert_no_images_title": "Aucune image",
