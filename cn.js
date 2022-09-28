@@ -44,7 +44,7 @@
        "rotation": "旋转",
        "automatic": "自动",
        "manual": "手动",
-       "progress": "Progress",
+       "progress": "处理",
 
        "azimuth": "方位角",
        "altitude": "高度角",
@@ -110,9 +110,9 @@
       "progress": "Progress",
 
       "create_darks":{
-          "exposure_range": "Exp. Range",
+          "exposure_range": "曝光范围",
           "to": "To",
-          "temp_range": "T. Range",
+          "temp_range": "温度范围",
           "binning": "像素合并",
           "binningOne": "1x1",
           "binningTwo": "2x2",
@@ -296,8 +296,8 @@
           "alert_auto_detect_body": "Unplug ALL equipment from StellarMate then press Ok. Then plug them one by one to detect the device type and driver. After each device is plugged, you need to confirm the driver.",
           "alert_mapped_title": "Device Mapping",
           "alert_mapped_body": "Device serial port is successfully mapped.",
-          "alert_missing_driver_title": "Driver missing",
-          "alert_missing_driver_body": "You must select a driver first."
+          "alert_missing_driver_title": "缺少设备",
+          "alert_missing_driver_body": "你必须先选择一个设备"
        },
        "dslr_setup": {
           "width": "宽",
@@ -307,12 +307,12 @@
        }
     },
     "targets": {
-       "now": "Now",
-       "night": "Night",
-       "rise": "Rise",
-       "moon": "Moon",
-       "sun": "Sun",
-       "search": "Search",
+       "now": "现在",
+       "night": "夜晚",
+       "rise": "升起",
+       "moon": "月亮",
+       "sun": "太阳",
+       "search": "搜索",
        "phases": {
           "new_moon": "新月",
           "full_moon": "满月",
@@ -323,9 +323,9 @@
           "waning_crescent": "残月",
           "waning_gibbous": "亏凸月"
        },
-       "lists": "Lists",
+       "lists": "列表",
        "framing_assistant": "Framing Assistant",
-       "target_rotation": "Target Position Angle",
+       "target_rotation": "目标方位角",
        "current_rotation": "Current Rotation",
        "rotate_capture": "Rotate & Capture",
        "goto_rotate": "GOTO & Rotate",
@@ -359,10 +359,10 @@
           "action_slew": "回转至目标",
           "action_nothing": "不进行动作",
           "solver_backend": "Backend",
-          "control": "Control",
-          "solve": "Capture & Solve",
+          "control": "控制",
+          "solve": "拍摄 & 解析",
           "load": "Load & Slew",
-          "polar": "Polar Align",
+          "polar": "极轴校准",
           "accuracy": "Accuracy",
           "settle": "Settle",
           "dark": "Dark",
@@ -389,24 +389,24 @@
           "type_bias": "偏置",
           "type_flat": "平场",
           "format_fits": "FITS",
-          "format_native": "Native",
+          "format_native": "原生",
           "cooling_unavailable": "冷却不可用",
           "btn_add_to_sequence": "添加到拍摄队列",
           "btn_loop": "循环"
        },
        "capture_presets": {
-          "heading": "Preset Settings"
+          "heading": "预设"
        },
        "capture_limits": {
           "heading": "Limit Settings",
           "guiding_deviation": "Guiding Deviation <",
           "guiding_deviation_unit": "\"",
-          "focusHFR": "Autofocus if HFR >",
+          "focusHFR": "自动对焦如果HFR >",
           "focusHFR_unit": "pixels",
-          "focusDeltaT": "Autofocus if ΔT° >",
+          "focusDeltaT": "自动对焦如果ΔT° >",
           "focusDeltaT_unit": "°C",
           "refocusN": "Refocus every",
-          "refocusN_unit": "minutes"
+          "refocusN_unit": "分"
        },
        "capture_filters": {
           "heading": "Filter Settings",
@@ -418,7 +418,7 @@
           "alt": "Alt"
        },
        "capture_auto_calibration": {
-          "heading": "Auto Calibration",
+          "heading": "自动校准",
           "flat_source": "Flat Source",
           "flat_duration": "Flat Duration",
           "dust_builtin": "Dust Cover with Built-in Flat Light",
@@ -681,19 +681,19 @@
        "btn_factory_reset": "恢复出厂设置",
        "btn_change_resolution": "变更协议",
        "btn_later": "稍后",
-       "btn_resize_fs": "Resize SD",
-       "btn_continue": "Continue",
+       "btn_resize_fs": "重置SD",
+       "btn_continue": "继续",
        "information_ekos_offline": 'Ekos is offline. Please start the equipment profile directly or via the Scheduler.',
-       "no_camera_detected": 'No cameras detected or camera offline.',
+       "no_camera_detected": '没有相机被选择或者相机已离线',
 
-       "alert_device_offline_title": "Device is offline",
-       "alert_device_offline_body": "Device seems to be offline at the moment. Did you login to a device?",
+       "alert_device_offline_title": "设备已离线",
+       "alert_device_offline_body": "设备似乎已经离线。是否要登录激活？",
        "alert_restart_title": "重启StellarMate",
        "alert_restart_body": "您的设备即将重启。重启后请尝试再次连接。",
        "alert_shutdown_title": "关闭StellarMate",
        "alert_shutdown_body": "您的设备即将关闭，重新使用需要手动开启。",
-       "alert_resize_title": "Resize microSD Card",
-       "alert_resize_body": "StellarMate will expand to the full SD card size. Restart StellarMate after resizing.",
+       "alert_resize_title": "重置 microSD Card 大小",
+       "alert_resize_body": "StellarMate会扩展到全部SD卡容量. 请重启StellarMate",
        "alert_resize_btn_resize": "Resize",
        "alert_hotspot_enable_title": "启用热点",
        "alert_hotspot_enable_body": "启用热点会使StellarMate断开当前加入的wifi网络，并启动自己的热点。若继续使用StellarMate，您需要连接到此热点网络。是否继续?",
@@ -708,7 +708,7 @@
        "alert_join_wifi_body": "加入Wifi网络将关闭StellarMate的热点（如果已启动）。若继续使用StellarMate，请确保您在同一网络上。是否继续？",
        "alert_change_resolution_title": "成功!",
        "alert_change_resolution_body": "您现在可以重启StellarMate令变更生效",
-       "alert_change_release_title": "Beta Channel",
+       "alert_change_release_title": "测试频道",
        "alert_change_release_body": "Are you sure you want to switch to the unstable and unsupported beta channel?",
        "alert_direct_ethernet_title": "Direct Ethernet",
        "alert_direct_ethernet_connect_body": "Connect Ethernet cable directly between StellarMate and your PC. Set your PC IP address to 192.168.100.2 and gateway to 192.168.100.1",
