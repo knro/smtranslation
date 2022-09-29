@@ -5,6 +5,7 @@ const en = {
         ok: "OK",
         done: "Done",
         cancel: "Cancel",
+        confirm: "Confirm",
         apply: "Apply",
         save: "Save",
         select: "Select",
@@ -60,7 +61,24 @@ const en = {
         date: "Date",
         resolution: "Resolution",
 
-        selectFile: "Select a file to load",
+        selectFile: "Select file",
+        selectFolder: "Select folder",
+        selectedDir: "Selected folder",
+        new_folder: "Enter new folder name",
+        create_new_folder: "Create new folder in",
+        empty_folder: "Folder is Empty",
+
+        train: "Train",
+        no_data_found: "No data found",
+        track: "Track",
+        jobs: "Jobs",
+        category: "Categories",
+        profile: "Profile",
+        arcmin: "arcmin",
+        calculate: "Calculate",
+        update: "Update",
+        center: "Center",
+        learnMore: "Learn more",
 
         // for dropdown
         select_option: "Select option...",
@@ -97,6 +115,10 @@ const en = {
         alert_delete_profile_body: "Are you sure you want to delete the selected profile?",
         alert_delete_scope_body: "Are you sure you want to delete the selected scope?",
 
+        // Confirm
+        alert_confirmation_title: "Confirmation",
+        alert_create_preset_body: "Are you sure you want to create preset with this name?",
+
         // error messages
         network_error: "Please make sure that your StellarMate is connected to your network",
         internet_required: "Please make sure that you are connected to the internet",
@@ -112,7 +134,7 @@ const en = {
         reset_default: "Reset to default",
         external_storage: "External Storage"
     },
-    darkLibrary:{
+    darkLibrary: {
         title: "Dark Library",
         darks: "Darks",
         defects: "Defects",
@@ -121,7 +143,7 @@ const en = {
         create_defects_title: "Create Defect Map",
         view_masters_title: "View Masters",
 
-        create_darks:{
+        create_darks: {
             exposure_range: "Exp. Range",
             to: "To",
             temp_range: "T. Range",
@@ -131,7 +153,7 @@ const en = {
             total_images: "Total",
         },
 
-        create_defect_map:{
+        create_defect_map: {
             master_dark: "Master Dark",
             bad_pixels: "Bad Pixels",
             hot_pixels: "Hot Pixels",
@@ -140,7 +162,7 @@ const en = {
             save_map: "Saved",
             deviation: "σ"
         },
-        
+
     },
     splash: {
         checking_for_updates: "Checking for updates...",
@@ -168,6 +190,7 @@ const en = {
         new_scope_model_invalid: "Enter a valid model",
         new_scope_aperture_invalid: "Enter a valid aperture",
         new_scope_focal_length_invalid: "Enter a valid focal length",
+        new_scope_focal_ratio_invalid: "Enter a valid focal ratio",
         enter_file_name: "Enter a filename"
     },
     progress: {
@@ -197,7 +220,7 @@ const en = {
         require_sm_plus_pro: "Register if you have"
     },
     device_scanner: {
-        scanning: "Please wait while we are looking for StellarMate device(s) on the network",
+        scanning: "Please wait while we look for StellarMate device(s) on the network",
         qr_scan: "Scan your Device QR Code",
     },
     statuses: {
@@ -225,7 +248,7 @@ const en = {
         device_unreachable: "Device is not reachable! Check power and network settings.",
         login_mismatch: "Authentication failed. App password is different from online stellarmate.com password. Register App again with correct online password.",
         old_stellarmate_heading: "Update Required!",
-        old_stellarmate_description: 
+        old_stellarmate_description:
             "You appear to be using an older version of StellarMate OS. You must upgrade to the most recent version of StellarMate to continue using this App.",
         primary: "Primary",
         guide: "Guide",
@@ -241,6 +264,8 @@ const en = {
         logging_in_progress: "Logging to StellarMate...",
         connecting: "Connecting...",
         logging: "Logging...",
+        generic: "Generic Serial",
+        select_driver: "Please select device type and driver",
 
         cloudsMap: {
             btn_clouds_map: "Clouds Map",
@@ -304,13 +329,16 @@ const en = {
             edit_profile: "Edit Profile",
             mount: "Mount",
             ccd: "CCD",
+            dome: "Dome",
             guider: "Guider",
             ao: "Adaptive Optics",
             weather: "Weather",
             aux1: "Aux1",
             aux2: "Aux2",
             aux3: "Aux3",
-            aux4: "Aux4"
+            aux4: "Aux4",
+            focuser: "Focuser",
+            filter: "Filter"
         },
         add_scope: {
             add_scope: "Add Scope",
@@ -342,6 +370,8 @@ const en = {
         moon: "Moon",
         sun: "Sun",
         search: "Search",
+        cam_width: "Camera Width",
+        cam_height: "Camera Height",
         phases:
             {
                 new_moon: "New Moon",
@@ -419,6 +449,16 @@ const en = {
                 use_scale: "Use Scale",
                 use_position: "Use Position"
             },
+            calibrationSettings: {
+                pulse: "Pulse",
+                maxMove: "Max Move",
+                twoAxis: "Two axis",
+                squareSize: "Auto square size",
+                calibrateBacklast: "Remove DEC backlash in guide calibration",
+                resetCalibration: "Reset Guide Calibration After Each Mount Slew",
+                reuseCalibration: "Store and reuse guide calibration when possible",
+                reverseCalibration: "Reverse DEC on pier-side change when reusing calibration"
+            }
         },
         collapse_camera: {
             heading: "Capture",
@@ -476,7 +516,7 @@ const en = {
             ts: "TS",
             duration: "Duration"
         },
-    
+
         collapse_dome: {
             heading: "Cap & Dome",
             cap: "Cap",
@@ -580,7 +620,8 @@ const en = {
             sequence: "Sequence",
             overall_progress: "Overall Progress",
             sequences: "Sequences",
-            no_sequences: "No sequences. You can add them by tapping on Add to Sequence."        },
+            no_sequences: "No sequences. You can add them by tapping on Add to Sequence."
+        },
         collapse_mount: {
             meridian_flip: "Meridian Flip",
             flip_if_ha: "Flip if HA >",
@@ -631,7 +672,7 @@ const en = {
             right_asc: "Right Asc.",
             declination: "Declination",
         },
-        histogram : {
+        histogram: {
             mean: "Mean",
             median: "Median",
             bit_depth: "Bit Depth",
@@ -651,7 +692,6 @@ const en = {
             j2000: "J2000",
             fits: "FITS File",
             priority: "Priority",
-            profile: "Profile",
             startupConditions: "Job Startup Conditions",
             JobConstraints: "Job Constraints",
             completionConditions: "Job Completion Conditions",
@@ -678,7 +718,15 @@ const en = {
             err_loading_folders: "Error loading folders",
             err_loading_fits: "Error loading .fits files",
             err_delete_file: "Error deleting file",
+            add_job: "Add Job",
+            start_jobs: "Start & Stop Jobs",
+            culimination: "Culmination Offset"
         }
+    },
+    optical_train: {
+        optical_trains: "Optical Trains",
+        telescope: "Telescope / Lens",
+        create_new: "Create New"
     },
     status: {
         system: "System",
@@ -892,7 +940,14 @@ const en = {
     messages: {
         // polar align
         polar_idle: "This tool provides a simple method to polar align a German equatorial mount. Park your mount to home position where it points toward the celestial pole with the counter weight down. Select mount direction and speed and then click Start to begin the process. If you do not have a view of the pole, use the SkyMap or Ekos mount control to point anywhere, preferably near the meridian, choose East or West according your side, lower the rotation angle if necessary, and click Start.",
-        alert_directions_not_found: "Coordinates not found, Please frame your target or enter coordinates manually."
+        alert_directions_not_found: "Coordinates not found, Please frame your target or enter coordinates manually.",
+        manual_rotator: "Rotate camera by the indicated angle and then take an image to update the position angle",
+        welcome: "Welcome to StellarMate"
+    },
+    ekosLivePro: {
+        pushNotification: "Push Notification",
+        level: "Notification Level",
+        settings: "EkosLive Pro Settings"
     }
 };
 

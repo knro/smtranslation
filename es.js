@@ -5,6 +5,7 @@ const es = {
         ok: "OK",
         done: "Hecho",
         cancel: "Cancelar",
+        confirm: "Confirm",
         apply: "Aplicar",
         save: "Salvar",
         select: "Seleccionar",
@@ -57,6 +58,25 @@ const es = {
         date: "Fecha",
         resolution: "Resolucion",
 
+        selectFile: "Select file",
+        selectFolder: "Select folder",
+        selectedDir: "selected folder",
+        new_folder: "Enter new folder name",
+        create_new_folder: "Create new folder in",
+        empty_folder: "Folder is Empty",
+
+        train: "Train",
+        no_data_found: "No data found",
+        track: "Track",
+        jobs: "Jobs",
+        category: "Categories",
+        profile: "Profile",
+        arcmin: "arcmin",
+        calculate: "Calculate",
+        update: "Update",
+        center: "Center",
+        learnMore: "Learn more",
+
         // for dropdown
         select_option: "Seleccionar opcion...",
         search: "Buscar...",
@@ -87,6 +107,10 @@ const es = {
         alert_delete_profile_body: "Are you sure you want to delete the selected profile?",
         alert_delete_scope_body: "Are you sure you want to delete the selected scope?",
 
+        // Confirm
+        alert_confirmation_title: "Confirmation",
+        alert_create_preset_body: "Are you sure you want to create preset with this name?",
+
         closed: "Cerrado",
         enable: "Halibilitado",
         disable: "Deshabilitado",
@@ -106,7 +130,7 @@ const es = {
         reset_default: "Reset to default",
         external_storage: "External Storage"
     },
-    darkLibrary:{
+    darkLibrary: {
         title: "Dark Library",
         darks: "Darks",
         defects: "Defects",
@@ -116,7 +140,7 @@ const es = {
         view_masters_title: "View Masters",
         progress: "Progress",
 
-        create_darks:{
+        create_darks: {
             exposure_range: "Exp. Range",
             to: "To",
             temp_range: "T. Range",
@@ -127,7 +151,7 @@ const es = {
             total_images: "Total",
         },
 
-        create_defect_map:{
+        create_defect_map: {
             master_dark: "Master Dark",
             bad_pixels: "Bad Pixels",
             hot_pixels: "Hot Pixels",
@@ -135,7 +159,7 @@ const es = {
             save_map: "Saved",
             deviation: "σ"
         },
-        
+
     },
     splash: {
         checking_for_updates: "Comprobando actualizaciones...",
@@ -162,7 +186,9 @@ const es = {
         new_scope_vendor: "Entre un nombre de Fabricante correcto",
         new_scope_model_invalid: "Entre un modelo correcto",
         new_scope_aperture_invalid: "Entre una apertura correcta",
-        new_scope_focal_length_invalid: "Entre una longitud focal valida"
+        new_scope_focal_length_invalid: "Entre una longitud focal valida",
+        new_scope_focal_ratio_invalid: "Enter a valid focal ratio",
+
     },
     progress: {
         please_wait: "Por favor espere ...",
@@ -235,6 +261,8 @@ const es = {
         logging_in_progress: "Iniciar sesion en StellarMate...",
         connecting: "Conectando...",
         logging: "Iniciando sesion...",
+        generic: "Generic Serial",
+        select_driver: "Please select device type and driver",
 
         ip_address: "Direccion IP",
         login_register: {
@@ -292,6 +320,7 @@ const es = {
             edit_profile: "Editar Perfil",
             mount: "Montura",
             ccd: "CCD",
+            dome: "Dome",
             guider: "Tubo Guia",
             ao: "Óptica adaptable",
             weather: "Clima",
@@ -330,6 +359,8 @@ const es = {
         moon: "Luna",
         sun: "Sol",
         search: "Buscar",
+        cam_width: "Camera Width",
+        cam_height: "Camera Height",
         phases:
             {
                 new_moon: "Luna Nueva",
@@ -406,6 +437,16 @@ const es = {
                 rotator_control: "Rotator Control",
                 use_scale: "Use Scale",
                 use_position: "Use Position"
+            },
+            calibrationSettings: {
+                pulse: "Pulse",
+                maxMove: "Max Move",
+                twoAxis: "Two axis",
+                squareSize: "Auto square size",
+                calibrateBacklast: "Remove DEC backlash in guide calibration",
+                resetCalibration: "Reset Guide Calibration After Each Mount Slew",
+                reuseCalibration: "Store and reuse guide calibration when possible",
+                reverseCalibration: "Reverse DEC on pier-side change when reusing calibration"
             }
 
         },
@@ -619,7 +660,7 @@ const es = {
             right_asc: "Asc. Recta.",
             declination: "Declinacion",
         },
-        histogram : {
+        histogram: {
             mean: "Promedio",
             median: "Media",
             bit_depth: "Profundidad de bits",
@@ -666,7 +707,17 @@ const es = {
             "err_loading_folders": "Error loading folders",
             "err_loading_fits": "Error loading .fits files",
             "err_delete_file": "Error deleting file",
+            "add_job": "Add Job",
+            "start_jobs": "Start & Stop Jobs",
+            "culimination": "Culmination Offset"
+
+
         },
+    },
+    optical_train: {
+        optical_trains: "Optical Trains",
+        telescope: "Telescope / Lens",
+        create_new: "Create New"
     },
     status: {
         system: "Sistema",
@@ -877,7 +928,14 @@ const es = {
     messages: {
         // polar align
         polar_idle: "Esta herramienta proporciona un metodo simple para alinear la Polar con una montura ecuatorial alemana. Estacione su montura en la posicion de inicio donde apunte hacia el Polo celeste con el contrapeso hacia abajo. Seleccione la direccion y velocidad de la montura y luego haga clic en Iniciar para comenzar el proceso. Si no tiene una vista del Polo, use  el control de la montura con SkyMap o Ekos para apuntar a cualquier lugar, preferiblemente cerca del meridiano, elija Este u Oeste segun su lado, baje el angulo de rotacion si es necesario y haga clic en Iniciar.",
-        "alert_directions_not_found": "Coordinates not found, Please frame your target or enter coordinates manually."
+        "alert_directions_not_found": "Coordinates not found, Please frame your target or enter coordinates manually.",
+        manual_rotator: "Rotate camera by the indicated angle and then take an image to update the position angle",
+        welcome: "Welcome to StellarMate"
+    },
+    ekosLivePro: {
+        pushNotification: "Push Notification",
+        level: "Notification Level",
+        settings: "EkosLive Pro Settings"
     }
 };
 
