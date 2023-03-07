@@ -18,6 +18,7 @@ const fr = {
         "remove": "Retirer",
         "online": "En ligne",
         "offline": "Hors ligne",
+        "cloud": "Cloud",
         "remote": "Distant",
         "preset": "Préréglage",
         "camera": "Caméra",
@@ -45,6 +46,11 @@ const fr = {
         "automatic": "Automatique",
         "manual": "Manuel",
         "progress": "Progression",
+        position_angle: "PA",
+        details: "Details",
+        skip: "Skip",
+        updated: "Updated",
+        new: "New",
 
         "azimuth": "Azimut",
         "altitude": "Altitude",
@@ -153,6 +159,140 @@ const fr = {
             "deviation": "σ"
         },
     },
+    achievements:{
+        score: "Total Score",
+        badge: "Badge",
+        achievements: "Achievements",
+        unlocked: "Achievement Unlocked",
+        points: "Points",
+        completed: "Completed",
+        notCompleted: "Not completed",
+        capture_preview_title: "First Light!",
+        ten_sequences_title: "So it begins!",
+        mount_goto_title: "Magic Fingers",
+        video_recording_title: "Director’s Cut",
+        weather_check_title: "Cloud Magnet",
+        live_stacking_title: "Let there be details",
+        create_darks_title: "Embrace the dark side",
+        create_defect_title: "Cosmic Makeup",
+        import_mosaic_title: "Mosaic Weaver", 
+        messier_captured_title: "MXXXX (e.g. M1)",
+        all_messier_title: "Cosmic Marathon",
+        scheduler_title: "Robotic Master", 
+        capture_master_title: "Sky Master",
+        capture_legend_title: "Sky Legend",
+        paa_title: "Perfectionist",
+        guide_rms_title: "Bullseye!",
+
+        capture_preview_description: "Capture a Preview",
+        ten_sequences_description: "Capture a sequence with 10 counts",
+        mount_goto__description:  "Use Target GOTO by holding on the object for 3 seconds when the new image is captured",
+        video_recording_description: "Record video for 1 minute",
+        weather_check__description: "Use Cloud Map in weather info, Zoom in to at least 8x to check weather",
+        live_stacking_description:  "Live stacking. Perform at least 5 images",
+        create_darks_description:  "Create Darks of total 50 Images",
+        create_defect_description: "Generate hot / cold pixels in Defect map above 80",
+        import_mosaic_description: "Import Mosaics from telescopios",
+        messier_captured_description: "A messier object is captured",
+        all_messier_description: "All Messier objects were captured",
+        scheduler_description: "Finish a scheduler job worth 2 or more hours of image data.",
+        capture_master_description: "Capture a total of 500 images",
+        capture_legend_description: "Capture a total of 1000 images",
+        paa_description: "Finish PAA with box error lower than 30 arcsecs.",
+        guide_rms_description: "Achieve total RMS guiding below 0.5 arcsecs.",
+    },
+    tourGuide:
+    {
+      tour_guide: "Tour Guide",
+      previous: "Previous",
+      finish: "Finish",
+      title_devices_list: "StellarMate Devices List",
+      title_device_actions: "Device Actions",
+      title_profles: "Profiles",
+      title_port_selector: "Port Selector",
+      title_trains: "Optical trains",
+      title_weather_bar: "Weather bar",
+      title_cloud_report: "Cloud Report",
+      title_next: "What's next?",
+
+      title_focus: "Focus",
+      title_align: "Align",
+      title_guide: "Guide",
+      title_capture: "Capture",
+      title_mount: "Mount",
+      title_observatory: "Observatory",
+      title_scheduler: "Scheduler",
+      title_indi: "INDI Control Panel",
+      title_quick_controls: "Quick Controls",
+      title_preview: "Preview",
+      title_framing: "Framing",
+      title_live_video: "Live Video",
+      title_stop: "Stop",
+      title_live_stacking: "Live Stacking",
+      title_quick_settings: "Qucik Camera Settings",
+      
+      title_targets_info: "About Targets",
+      title_search_bar: "Search bar",
+      title_time_controls: "Time Controls",
+      title_target_controls: "Targets Controls",
+      title_object_info: "Object info",
+      title_fov: "Target Field Of View",
+      title_target_action: "Target Action",
+
+      description_devices_list: "This is the list of automatically discovered and manually added StellarMate units. Tap RESCAN to detect new StellarMate units on the network.",
+      description_device_actions: "Remove a device from the list, perform a factory reset, or log out.",
+      description_profles: "Manage your astronomy equipment in Equipment Profiles. All equipment must be powered and connected to StellarMate before starting a profile. Once a profile is started, configure the Optical Trains and then tap Ekos to start your astrophotography session.",
+      description_port_selector: "After a profile is started for the first time, select the serial and/or network settings for your devices.",
+      description_trains:
+      "Set up how your equipment is arranged using Optical trains. Assign each device to a specific function. Create a train for each camera.",
+      description_weather_bar:"Brief weather report and current site Bortle class",
+      description_cloud_report: "3-hours Cloud overlay." , 
+      description_next: "Explore applicable astronomical targets by tapping the Targets tab. Use Go & Solve to center your target in the camera frame. Open the Framing Assistant to achieve the perfect desired orientation. Head over to Ekos tab to set up imaging sequences and live stack images.", 
+
+      description_focus: "Focus the camera by using a motorized focuser.",
+      description_align: "Center the mount exactly on target by plate-solving an image.",
+      description_guide: "Keep the mount locked to your target during tracking to enable long exposures.",
+      description_capture: "Create sequences to capture images using configurable settings. Manage filter wheel settings and Dark Library.",
+      description_mount: "Toggle tracking, parking, and meridian flip settings. Configure auto-park.",
+      description_observatory: "Control dome and dust-cap equipment.",
+      description_scheduler: "Automate complete astrophotography session by selecting target and sequence file. Import mosaics from Telescopius.",
+      description_indi: "Direct low-level access to equipment properties.",
+      description_quick_controls: "Quick access to mount, camera, and rotator controls.",
+      description_preview: "Capture a single preview frame.",
+      description_framing: "Loop exposures indefinitely until stopped",
+      description_live_video: "Start live video streams and record videos to storage.",
+      description_stop: "Stop any ongoing exposures or recordings.",
+      description_live_stacking: "Live stack images to increase signal to noise ratio. If an existing capture sequence is running, live stacking will use incoming images otherwise it will loop exposures using settings in Quick Camera Settings.",
+      description_quick_settings: "Select active train and configure camera and filter wheel settings.",
+      
+      description_targets_info: "Targets is the StellarMate Planning tool to streamline your observation session. Search from thousands of objects and filter them using simple criteria. Use the Framing Assistant to frame your targets." ,
+      description_search_bar:
+        "Filter objects in the existing list or search for new objects by entering the name and tapping the search button.",
+      description_time_controls:
+        "If Ekos is offline, adjust the target date and time calculations.",
+      description_target_controls:
+        "Check out twilight information, manage FOVs, adjust filters, and select object types.",
+      description_object_info: "Object magnitude, rise, transit, and set times.",
+      description_fov: "Tap to enter Framing Assistant mode.",
+      description_target_action: "Add target to favorites or custom list. Command a GOTO only or a GOTO followed by capture and solve. If Ekos is offline, schedule the target.",
+    },
+    tooltip: 
+    {
+        placeholder: "Placeholder %{0} or %{1}",
+        placeholder_file: "The name of the .esq file, without extension.",
+        placeholder_date: "The current time and date when the file is saved.",
+        placeholder_type: "The frame type e.g: 'Light', 'Dark'",
+        placeholder_exp: "The exposure duration in seconds.",
+        placeholder_filter: "The active filter name.",
+        placeholder_seq: "The image sequence identifier where * is the number of digits used (1-9), This tag is mandatory and must be the last element in the format",
+        placeholder_target: "The Target name.",
+        format_title: "Format is used to define the image file names by the use of placeholder tags.",
+        suffix: "Number of digits used to append the sequence number to the filename",
+        paa_desc: "Use plate-solving method for Polar Alignment. Plate solving is slower but provides more accurate results.",
+        plate_solving: "Uses plate solving to track what the corrected alignment error is during the Refresh process. User should try to reduce the error in the Updated Err line below and minimize the size of the arrows.",
+        movestar_title:"Move Star and Calc Error",
+        movestar_desc: "Like Move Star, But Ekos attemps to track the star being moved and estimates the current alignment error when it can."
+    },
     "splash": {
         "checking_for_updates": "Vérification des mises à jour...",
         "downloading_package": "Téléchargement de la mise à jour...",
@@ -199,7 +339,8 @@ const fr = {
         "ekoslive_connected": "EkosLive connecté",
         "starting_ekos": "Démarrer Ekos...",
         "getting_devices": "Obtenir des appareils...",
-        "loading_settings": "Chargement des paramètres..."
+        "loading_settings": "Chargement des paramètres...",
+        register_device: "Scanned QR Code, Registering Device: ",
     },
     "welcome": {
         "register_new_device": "Enregistrer un nouvel appareil?",
@@ -212,6 +353,8 @@ const fr = {
     },
     "statuses": {
         "Idle": "Inactif",
+        "prep": "Prep",
+        "run": "Run",
         "Aborted": "Avorté",
         "Calibration error": "Erreur d'étalonnage",
         "Capturing": "Capturer",
@@ -303,9 +446,9 @@ const fr = {
             "add_profile": "Ajouter un profil",
             "edit_profile": "Editer le profil",
             "mount": "Monture",
-            "ccd": "CCD",
+            "ccd": "Camera 1",
             "dome": "Dome",
-            "guider": "Guider",
+            "guider": "Camera 2",
             "ao": "Optique adaptative",
             "weather": "Météo",
             "aux1": "Aux1",
@@ -429,6 +572,7 @@ const fr = {
             "type_light": "Brutes",
             "type_bias": "Biais",
             "type_flat": "Flat",
+            "type_dark": "Dark",
             "format_fits": "Fits",
             "format_native": "Natif",
             "cooling_unavailable": "N/A",
@@ -479,7 +623,10 @@ const fr = {
             "script": "Scénario",
             "directory": "répertoire",
             "ts": "TS",
-            "duration": "Durée"
+            "duration": "Durée",
+            suffix: "Suffix",
+            usb: "USB Unmounted successfully",
+            unmount: "Unmount"
         },
         "collapse_dome": {
             "heading": "Coiffe et Dôme",
@@ -657,10 +804,10 @@ const fr = {
             "fits": "FITS File",
             "priority": "Priorité",
             "profile": "Profil",
-            "startupConditions": "Conditions démarrage",
+            "startupConditions": "démarrage",
             "JobConstraints": "Contraintes  des Tâches",
-            "completionConditions": "Conditions de fin des Tâches",
-            "observatoryStartup": "Procédure de démarrage de l'Observation",
+            "completionConditions": "de fin des Tâches",
+            "observatoryStartup": "de démarrage de l'Observation",
             "abortedJobManagement": "Gestion des tâches abandonnées",
             "observatoryShutdown": "Arrêt Observation",
             "alt": "Alt >",
@@ -685,14 +832,36 @@ const fr = {
             "err_delete_file": "Error deleting file",
             "add_job": "Add Job",
             "start_jobs": "Start & Stop Jobs",
-            "culimination": "Culmination Offset"
+            "culimination": "Culmination Offset",
+            create_jobs: "Create Jobs",
+
+            mosaic: {
+                import: "Import Mosaic",
+                planner: "Mosaic planner"
+            }
 
         },
+        summary: {
+            empty: "No summary data available",
+            deviation: "Deviation",
+            inactive: "Inactive"
+        }
     },
     "optical_train": {
         "optical_trains": "Optical Trains",
         "telescope": "Telescope / Lens",
-        "create_new": "Create New"
+        "create_new": "Create New",
+        dslr_lens: "DSLR Lens",
+        focal_ratio: "Focal Ratio",
+        tooltip:{
+            title: "Select the device that receives the guiding correction pulses",
+            subject: "This can be one of the following devices:",
+            mount_device: "If the Mount can receive guiding correction pulses, then it is best to select it so that the pulses are directly sent to the mount. This is the recommended option.",
+            st4_device: "If using an ST4 cable between the guide camera and mount, then you should select the Guide Camera as the Guider.",
+            dedicated_device: "If using a dedicated guider interface device (like Shoestring GPUSB) then select it as the Guider",
+            dedicated: "Dedicated",
+            filterWheel: "Select a filter wheel. This must be a standalone filter wheel connected to StellarMate via USB. If you have a filter wheel that is embedded in a camera, leave this field empty."
+        }
     },
     "status": {
         "system": "Système",
@@ -771,6 +940,18 @@ const fr = {
         "alert_update_complete_body": "Update complete, please restart StellarMate.",
         "alert_network_error_title": "Network error",
         "alert_network_error_body": "Failed to query network information",
+        "alert_delete_directory_message": "You want to delete {0} directory and all files under it?",
+
+        alert_permission_title: "Location permission",
+        alert_permission_description: "StellarMate App requires Location information to synchronize StellarMate gadget location to the App location. Do you want to proceed?",
+
+        alert_remote_isactive: "Failed to check if Remote support is active, Is your Stellarmate OS up to date? ",
+        alert_remote_start: "Could not start the Remote support: ",
+        alert_remote_stop: "Could not stop the Remote support: ",
+        alert_remote_id: "Could not find Remote support ID", 
+        alert_remote_failed: "Failed to get Remote support ID: ",
+        alert_remote_not_found: "No Remote support found: ",
+
         "change_resolution_modal": {
             "mode": "Mode"
         },
