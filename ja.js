@@ -1,4 +1,4 @@
-const jn = {
+const ja = {
     general: {
         home: "Home",
         next: "Next",
@@ -1137,4 +1137,4 @@ const jn = {
     }
 };
 
-export default jn;
+export default ja;
