@@ -51,6 +51,7 @@ const fr = {
         skip: "Skip",
         updated: "Updated",
         new: "New",
+        remoteSupport: "Remote support",
 
         "azimuth": "Azimut",
         "altitude": "Altitude",
@@ -379,6 +380,8 @@ const fr = {
         "login_mismatch": "Authentification échouée. Le mot de passe de l'application est différent du mot de passe en ligne de stellarmate.com. Enregistrez à nouveau l'application avec le mot de passe en ligne correct.",
         "old_stellarmate_heading": "Mise à jour requise!",
         "old_stellarmate_description": "Vous semblez utiliser une ancienne version de StellarMate OS. Vous devez passer à la version la plus récente de StellarMate pour continuer à utiliser cette application.",
+        "sm_app_update_title": "SM App Update Required!",
+        "sm_app_update_body": "You appear to be using an older version of StellarMate App. Please update to the latest version.",
         "primary": "Primaire",
         "guide": "Guider",
         "scope": "Portée",
@@ -393,6 +396,7 @@ const fr = {
         "logging_in_progress": "Connexion à StellarMate ...",
         "generic": "Generic Serial",
         "select_driver": "Please select device type and driver",
+        invalid_ip: "No IP address found or invalid IP {0}. Please try again.",
 
         "connecting": "De liaison...",
         "logging": "Enregistrement...",
@@ -900,6 +904,7 @@ const fr = {
         "btn_factory_reset": "Retour aux paramètres d'usine",
         "btn_change_resolution": "Changer la résolution",
         "btn_later": "Plus tard",
+        btn_update_now: "Update Now",
         "btn_resize_fs": "Redimensionner SD",
         "btn_continue": "Continuer",
         "information_ekos_offline": 'Ekos est hors ligne. Please start the equipment profile directly or via the Scheduler.',
@@ -1042,7 +1047,12 @@ const fr = {
         "heading": "À propos",
         "bundle": "Paquet",
         "copyright_line1": "StellarMate est développé par Ikarus Technologies © 2017-2022",
-        "copyright_line2": "Image d'arrière-plan par l'Observatoire Alamri"
+        "copyright_line2": "Image d'arrière-plan par l'Observatoire Alamri",
+        credits: {
+            heading: "Credits",
+            "title": "Translations",
+            name: "Translator name"
+        }
     },
     "messages": {
         "polar_idle": "Cette outil propose une méthode simple pour l'alignement polaire des monture équatoriale Allemande. Parquer votre monture vers l'étoile polaire ave le contre-poids vers le bas. Sélectionnez la direction et la vitesse de la monture, puis cliquez sur Démarrer pour commencer le processus. Si vous n'avez pas de vue sur le pôle, utilisez le contrôle de la monture avec Carte Du Ciel ou Ekos pour pointer n'importe où, de préférence près du méridien, choisissez Est ou Ouest selon votre côté, diminuez l'angle de rotation si nécessaire, et cliquez sur Démarrer.",
@@ -1054,6 +1064,11 @@ const fr = {
         "pushNotification": "Push Notification",
         "level": "Notification Level",
         "settings": "EkosLive Pro Settings"
+    },
+    device: {
+        mirror: "Mirror External Display",
+        monitor_successfull: "SM X monitor Display changed successfully!",
+        monitor_failed: "Failed to set SM X monitor display. Please try again later!"
     }
 };
 

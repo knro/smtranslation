@@ -401,6 +401,7 @@ const cn = {
     logging: "登陆中...",
     generic: "Generic Serial",
     select_driver: "Please select device type and driver",
+    invalid_ip: "No IP address found or invalid IP {0}. Please try again.",
 
     ip_address: "请输入IP地址",
     login_register: {
@@ -1057,6 +1058,11 @@ const cn = {
     copyright_line1:
       "StellarMate由Ikarus Technologies开发。© 2017-2022",
     copyright_line2: "背景图像来自Alamri天文台",
+    credits: {
+      heading: "Credits",
+      "title": "Translations",
+      name: "Translator name"
+  }
   },
   messages: {
     polar_idle:
@@ -1070,7 +1076,12 @@ const cn = {
     pushNotification: "推送通知",
     level: "通知级别",
     settings: "EkosLive Pro设置"
-  }
+  },
+  device: {
+    mirror: "Mirror External Display",
+    monitor_successfull: "SM X monitor Display changed successfully!",
+    monitor_failed: "Failed to set SM X monitor display. Please try again later!"
+}
 };
 
 export default cn;
