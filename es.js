@@ -52,6 +52,7 @@ const es = {
         skip: "Skip",
         updated: "Updated",
         new: "New",
+        remoteSupport: "Remote support",
 
         azimuth: "Azimut",
         altitude: "Altitud",
@@ -389,6 +390,8 @@ const es = {
         old_stellarmate_heading: "¡Actualizacion requerida!",
         old_stellarmate_description:
             "Parece que esta utilizando una version anterior del S.O. StellarMate. Debe actualizar a la version mas reciente de StellarMate para continuar usando esta App.",
+        sm_app_update_title: "SM App Update Required!",
+        sm_app_update_body: "You appear to be using an older version of StellarMate App. Please update to the latest version.",
         primary: "Primario",
         guide: "Guia",
         scope: "Telescopio",
@@ -405,6 +408,7 @@ const es = {
         logging: "Iniciando sesion...",
         generic: "Generic Serial",
         select_driver: "Please select device type and driver",
+        invalid_ip: "No IP address found or invalid IP {0}. Please try again.",
 
         ip_address: "Direccion IP",
         login_register: {
@@ -931,6 +935,7 @@ const es = {
         btn_factory_reset: "Restablecimiento de Fabrica",
         btn_change_resolution: "Cambiar Resolucion",
         btn_later: "Mas tarde",
+        btn_update_now: "Update Now",
         btn_resize_fs: "Redimensionar SD",
         btn_continue: "Continuar",
         information_ekos_offline: 'Ekos is offline. Please start the equipment profile directly or via the Scheduler.',
@@ -1103,7 +1108,12 @@ const es = {
         heading: "Acerca de",
         bundle: "Empaquetado",
         copyright_line1: "StellarMate esta desarrollado por Ikarus Technologies © 2017-2022",
-        copyright_line2: "Imagen de Fondo cedida por Alamri Observatory"
+        copyright_line2: "Imagen de Fondo cedida por Alamri Observatory",
+        credits: {
+            heading: "Credits",
+            "title": "Translations",
+            name: "Translator name"
+        }
     },
     messages: {
         // polar align
@@ -1116,6 +1126,11 @@ const es = {
         pushNotification: "Push Notification",
         level: "Notification Level",
         settings: "EkosLive Pro Settings"
+    },
+    device: {
+        mirror: "Mirror External Display",
+        monitor_successfull: "SM X monitor Display changed successfully!",
+        monitor_failed: "Failed to set SM X monitor display. Please try again later!"
     }
 };
 

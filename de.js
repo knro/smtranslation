@@ -52,6 +52,7 @@ const de = {
         skip: "Skip",
         updated: "Updated",
         new: "New",
+        remoteSupport: "Remote support",
 
         "azimuth": "Scheitelpunkt",
         "altitude": "Höhe",
@@ -383,6 +384,8 @@ const de = {
         "login_mismatch": "Einbuchung fehlgeschlagen. Das App-Passwort unterscheidet sich vom Online-Passwort von stellarmate.com. Registrieren Sie die App erneut mit dem richtigen Online-Passwort.",
         "old_stellarmate_heading": "Aktualisierung erforderlich!",
         "old_stellarmate_description": "Sie verwenden anscheinend eine ältere Version von StellarMate OS. Sie müssen auf die neueste Version von StellarMate aktualisieren, um diese App weiterhin verwenden zu können.",
+        "sm_app_update_title": "SM App Update Required!",
+        "sm_app_update_body": "You appear to be using an older version of StellarMate App. Please update to the latest version.",
         "primary": "Hauptgerät",
         "guide": "Führen",
         "scope": "Umfang",
@@ -399,6 +402,7 @@ const de = {
         "logging": "Protokollierung...",
         "generic": "Generic Serial",
         "select_driver": "Please select device type and driver",
+        invalid_ip: "No IP address found or invalid IP {0}. Please try again.",
 
         "ip_address": "IP Adresse",
         "login_register": {
@@ -905,6 +909,7 @@ const de = {
         "btn_factory_reset": "Werkseinstellungen zurückgesetzt",
         "btn_change_resolution": "Auflösung ändern",
         "btn_later": "Später",
+        btn_update_now: "Update Now",
         "btn_resize_fs": "Ändern Sie die Größe von SD",
         "btn_continue": "Fortsetzen",
         "alert_device_offline_title": "Gerät ist aus",
@@ -1047,7 +1052,12 @@ const de = {
         "heading": "Über",
         "bundle": "Bündeln",
         "copyright_line1": "StellarMate wurde von Ikarus Technologies entwickelt. © 2017-2021",
-        "copyright_line2": "Hintergrundbild von Alamri Observatory"
+        "copyright_line2": "Hintergrundbild von Alamri Observatory",
+        credits: {
+            heading: "Credits",
+            "title": "Translations",
+            name: "Translator name"
+        }
     },
     "messages": {
         "polar_idle": "This tool provides a simple method to polar align a German equatorial mount. Park your mount to home position where it points toward the celestial pole with the counter weight down. Select mount direction and speed and then click Start to begin the process. If you do not have a view of the pole, use the SkyMap or Ekos mount control to point anywhere, preferably near the meridian, choose East or West according your side, lower the rotation angle if necessary, and click Start.",
@@ -1059,6 +1069,11 @@ const de = {
         "pushNotification": "Push Notification",
         "level": "Notification Level",
         "settings": "EkosLive Pro Settings"
+    },
+    device: {
+        mirror: "Mirror External Display",
+        monitor_successfull: "SM X monitor Display changed successfully!",
+        monitor_failed: "Failed to set SM X monitor display. Please try again later!"
     }
 };
 

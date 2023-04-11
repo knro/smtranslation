@@ -54,6 +54,7 @@ const en = {
         skip: "Skip",
         updated: "Updated",
         new: "New",
+        remoteSupport: "Remote Support",
 
         azimuth: "Azimuth",
         altitude: "Altitude",
@@ -395,6 +396,8 @@ const en = {
         old_stellarmate_heading: "Update Required!",
         old_stellarmate_description:
             "You appear to be using an older version of StellarMate OS. You must upgrade to the most recent version of StellarMate to continue using this App.",
+        sm_app_update_title: "SM App Update Required!",
+        sm_app_update_body: "You appear to be using an older version of StellarMate App. Please update to the latest version.",
         primary: "Primary",
         guide: "Guide",
         scope: "Scope",
@@ -411,6 +414,7 @@ const en = {
         logging: "Logging...",
         generic: "Generic Serial",
         select_driver: "Please select device type and driver",
+        invalid_ip: "No IP address found or invalid IP {0}. Please try again.",
 
         cloudsMap: {
             btn_clouds_map: "Clouds Map",
@@ -1013,17 +1017,18 @@ const en = {
         alert_permission_title: "Location permission",
         alert_permission_description: "StellarMate App requires Location information to synchronize StellarMate gadget location to the App location. Do you want to proceed?",
         
-        alert_remote_isactive: "Failed to check if Remote support is active, Is your Stellarmate OS up to date? ",
-        alert_remote_start: "Could not start the Remote support: ",
-        alert_remote_stop: "Could not stop the Remote support: ",
-        alert_remote_id: "Could not find Remote support ID", 
-        alert_remote_failed: "Failed to get Remote support ID: ",
-        alert_remote_not_found: "No Remote support found: ",
+        alert_remote_isactive: "Failed to check if Remote Support is active, Is your Stellarmate OS up to date? ",
+        alert_remote_start: "Could not start the Remote Support: ",
+        alert_remote_stop: "Could not stop the Remote Support: ",
+        alert_remote_id: "Could not find Remote Support ID",
+        alert_remote_failed: "Failed to get Remote Support ID: ",
+        alert_remote_not_found: "No Remote Support found: ",
 
 
         change_resolution_modal: {
             mode: "Mode"
         },
+
 
         change_hostname_modal: {
             new_hostname: "New Hostname"
@@ -1121,7 +1126,12 @@ const en = {
         heading: "About",
         bundle: "Bundle",
         copyright_line1: "StellarMate is developed by Ikarus Technologies © 2017-2022",
-        copyright_line2: "Background image by Alamri Observatory"
+        copyright_line2: "Background image by Alamri Observatory",
+        credits: {
+            heading: "Credits",
+            "title": "Translations",
+            name: "Translator name"
+        }
     },
     messages: {
         // polar align
@@ -1134,6 +1144,11 @@ const en = {
         pushNotification: "Push Notification",
         level: "Notification Level",
         settings: "EkosLive Pro Settings"
+    },
+    device: {
+        mirror: "Mirror External Display",
+        monitor_successfull: "SM X monitor Display changed successfully!",
+        monitor_failed: "Failed to set SM X monitor display. Please try again later!"
     }
 };
 
