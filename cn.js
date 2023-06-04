@@ -13,6 +13,7 @@ const cn = {
     disconnect: "断开",
     yes: "是",
     no: "否",
+    ignore: "Ignore",
     error: "错误",
     back: "返回",
     delete: "删除",
@@ -52,6 +53,8 @@ const cn = {
     skip: "Skip",
     updated: "Updated",
     new: "New",
+    remote_support: "Remote Support",
+    logout: "Logout",
 
     azimuth: "方位角",
     altitude: "高度角",
@@ -64,9 +67,9 @@ const cn = {
     date: "日期",
     resolution: "分辨率",
 
-    selectFile: "选择文件",
-    selectFolder: "选择文件夹",
-    selectedDir: "已选目录",
+    select_file: "选择文件",
+    select_folder: "选择文件夹",
+    selected_dir: "已选目录",
     new_folder: "输入新文件夹名称",
     create_new_folder: "在此处创建新文件夹",
     empty_folder: "文件夹为空",
@@ -81,7 +84,7 @@ const cn = {
     calculate: "计算",
     update: "更新",
     center: "中心",
-    learnMore: "了解更多",
+    learn_more: "了解更多",
 
     select_option: "请选择...",
     search: "查找...",
@@ -107,7 +110,7 @@ const cn = {
     closed: "关闭(d)",
     enable: "允许",
     disable: "禁止",
-    selectTime: "选择时间",
+    select_time: "选择时间",
     set: "设置",
 
     // Confirm Delete Alert
@@ -148,9 +151,9 @@ const cn = {
       to: "To",
       temp_range: "温度范围",
       binning: "像素合并",
-      binningOne: "1x1",
-      binningTwo: "2x2",
-      binningFour: "4x4",
+      binning_one: "1x1",
+      binning_two: "2x2",
+      binning_four: "4x4",
       total_images: "总共",
     },
 
@@ -170,7 +173,7 @@ const cn = {
     unlocked: "解锁成就",
     points: "分数",
     completed: "已完成",
-    notCompleted: "未完成",
+    not_completed: "未完成",
     capture_preview_title: "首次之光！",
     ten_sequences_title: "开始了！",
     mount_goto_title: "魔法手指",
@@ -204,6 +207,9 @@ const cn = {
     capture_legend_description: "总共拍摄了1000张图像",
     paa_description: "在误差低于30角秒的情况下完成PAA。",
     guide_rms_description: "使导星的总RMS指导小于0.5角秒。",
+
+    alert_reset_title: "Reset achievements",
+    alert_agree_reset_body: "Are you sure you want to reset all achievements?"
   },
   tourGuide:
   {
@@ -278,7 +284,8 @@ const cn = {
       "查看黄昏信息，管理视场范围，调整滤镜并选择目标类型。",
     description_object_info: "物体大小、上升、过境和设置时间。",
     description_fov: "单击进入Framing Assistant模式。",
-    description_target_action: "将目标添加到收藏夹或自定义列表中。仅命令GOTO或命令GOTO后拍摄和解决。如果Ekos处于离线状态，则安排该目标。"
+    description_target_action: "将目标添加到收藏夹或自定义列表中。仅命令GOTO或命令GOTO后拍摄和解决。如果Ekos处于离线状态，则安排该目标。",
+    alert_guided_tour_title: "Take a guided tour on Stellarmate App features",
   },
   tooltip:
   {
@@ -294,7 +301,7 @@ const cn = {
     "suffix": "用于在文件名中附加序列号的数字位数。",
     "paa_desc": "在极轴对准过程中使用平板解算方法。板解析速度较慢，但提供更准确的结果。",
     "plate_solving": "使用板解析跟踪刷新过程中校正的对准错误。用户应尝试减少下面更新错误行中的误差并最小化箭头的大小。",
-    "movestar_title": "移动星星和计算误差",
+    "mount_info": "移动星星和计算误差",
     "movestar_desc": "类似于Move Star，但是Ekos尝试跟踪正在移动的星星，并在可能时估计当前对准误差。"
   },
   splash: {
@@ -514,11 +521,13 @@ const cn = {
     rotate_capture: "旋转并拍摄",
     goto_rotate: "去并旋转",
     angular_offset: "角度偏差",
-    no_objects_in_list: "未找到对象，请调整或重置筛选器。",
+    no_objects_in_list: "No Objects found. Please check active list, adjust or reset the filters.",
     go_and_solve: "前往并求解",
     fov_profile: "视场角配置",
     fov_width: "视场宽度",
-    fov_height: "视场高度"
+    fov_height: "视场高度",
+    alert_select_FOV_body:"Please create or select an FOV profile in order to use Framing assistant.",
+    alert_list_exists_body: "A list with that name already exists",
   },
   ekos: {
     heading: "Ekos",
@@ -531,6 +540,9 @@ const cn = {
     ekos_dialog: {
       auto_closes_in: "Auto closes in",
     },
+    indi: {
+      no_logs: "No logs are available for this driver"
+  },
     controls_bar: {
       mount_speed: "赤道仪转速",
       centering: "居中",
@@ -552,30 +564,34 @@ const cn = {
       dark: "暗场",
       arcsec: "弧秒",
       ms: "毫秒",
-      xAxis: "迭代次数",
-      yAxis: "误差（弧秒）",
+      x_axis: "迭代次数",
+      y_axis: "误差（弧秒）",
       refresh_rate: "刷新频率",
+      image_selected: "Image selected successfully",
+      select_method: "Please select the image selection method",
+      device_gallery: "Phone/Tablet gallery",
+      sm_storage: "SM Storage",
+      request_storage_permission: "Please allow the storage permission",
       manualRotator: {
         heading: "手动转动器",
-        currentPA: "当前位置角",
-        targetPA: "目标位置角",
+        current_pa: "当前位置角",
+        target_pa: "目标位置角",
         another_image: "拍摄另一张图片",
       },
-      alignSettings: {
+      align_settings: {
         rotator_control: "转动器控制",
         use_scale: "使用比例尺",
         use_position: "使用位置",
       },
-      calibrationSettings: {
+      calibration_settings: {
         pulse: "脉冲",
-        maxMove: "最大移动范围",
-        twoAxis: "双轴",
-        squareSize: "自动正方形大小",
-        calibrateBacklast: "在导星校准时消除赤纬反向间隙",
-        resetCalibration: "每次望远镜移动后重置导星校准",
-        reuseCalibration: "尽可能存储和重复使用导星校准",
-        reverseCalibration:
-          "在天文台一侧转换时，反转赤纬以重复使用校准值",
+        max_move: "最大移动范围",
+        two_axis: "双轴",
+        square_size: "自动正方形大小",
+        calibrate_backlast: "在导星校准时消除赤纬反向间隙",
+        reset_calibration: "每次望远镜移动后重置导星校准",
+        reuse_calibration: "尽可能存储和重复使用导星校准",
+        reverse_calibration: "在天文台一侧转换时，反转赤纬以重复使用校准值",
       },
     },
 
@@ -598,12 +614,12 @@ const cn = {
       heading: "Limit Settings",
       guiding_deviation: "Guiding Deviation <",
       guiding_deviation_unit: '"',
-      focusHFR: "自动对焦如果HFR >",
-      focusHFR_unit: "pixels",
-      focusDeltaT: "自动对焦如果ΔT° >",
-      focusDeltaT_unit: "°C",
-      refocusN: "Refocus every",
-      refocusN_unit: "分",
+      focus_hfr: "自动对焦如果HFR >",
+      focus_hfr_unit: "pixels",
+      focus_deltaT: "自动对焦如果ΔT° >",
+      focus_deltaT_unit: "°C",
+      refocus_n: "Refocus every",
+      refocus_n_unit: "分",
     },
     capture_filters: {
       heading: "Filter Settings",
@@ -624,8 +640,8 @@ const cn = {
       az: "方位角",
       adu: "ADU",
       tolerance: "容差",
-      parkMount: "归位望远镜",
-      parkDome: "归位穹顶",
+      park_mount: "归位望远镜",
+      park_dome: "归位穹顶",
     },
     capture_file: {
       filename: "文件名",
@@ -644,7 +660,7 @@ const cn = {
       cap: "窗口",
       dome: "圆顶",
       shutter: "快门",
-      domeSlaving: "圆顶从动",
+      dome_slaving: "圆顶从动",
       params: "参数",
       measurements: "测量值",
       autosync_threshold: "自动同步阈值（度）",
@@ -663,8 +679,8 @@ const cn = {
       focus_out: "向外调焦",
       steps: "步数",
       settings: {
-        suspendGuiding: "暂停导星",
-        autoSelectStar: "自动选择星",
+        suspend_guiding: "暂停导星",
+        auto_select_star: "自动选择星",
         subframe: "子帧",
         fullfield: "全景",
         dark: "暗场",
@@ -676,18 +692,18 @@ const cn = {
         algorithm: "算法",
         threshold: "阈值",
         effect: "效果",
-        averageOver: "平均",
-        kernelSize: "核大小",
-        numOfRows: "行数",
+        average_over: "平均",
+        kernel_size: "核大小",
+        num_of_rows: "行数",
         sigma: "Sigma",
       },
       mechanics: {
         title: "机械",
-        initialStepSize: "初始步长",
-        maxTravel: "最大移动范围",
-        maxStepSize: "最大步长",
+        initial_step_size: "初始步长",
+        max_travel: "最大移动范围",
+        max_step_size: "最大步长",
         backlash: "反向间隙",
-        outStepMultiple: "向外步长倍数",
+        out_step_multiple: "向外步长倍数",
       },
     },
     collapse_guide: {
@@ -741,6 +757,9 @@ const cn = {
       overall_progress: "总进度",
       sequences: "所有队列",
       no_sequences: "无拍摄队列，您可以在相机设置中添加",
+      alert_sequence_error_body: "Error saving sequence file",
+      alert_sequence_loading_body: "Error loading sequence file",
+      alert_sequence_delete_body: "Error deleting sequence file"
     },
     collapse_mount: {
       meridian_flip: "子午线翻转",
@@ -964,6 +983,8 @@ const cn = {
     alert_remote_failed: "无法获取远程支持ID：",
     alert_remote_not_found: "未发现远程支持：",
 
+    alert_logout_account_body: "Are you sure you want to logout?",
+
     change_resolution_modal: {
       mode: "模式",
     },
@@ -1004,6 +1025,10 @@ const cn = {
     location: "位置",
     reset_app: "Reset App",
     reset_app_body: "Purge all App settings?",
+    metric: "Metric",
+    imperial: "Imperial",
+    alert_delete_account_title: "Delete Account",
+    alert_delete_account_body: "Are you sure you want to delete your account?"
   },
   cloud: {
     heading: "云服务",
@@ -1080,7 +1105,8 @@ const cn = {
   device: {
     mirror: "Mirror External Display",
     monitor_successfull: "SM X monitor Display changed successfully!",
-    monitor_failed: "Failed to set SM X monitor display. Please try again later!"
+    monitor_failed: "Failed to set SM X monitor display. Please try again later!",
+    undefined_error: "Error is undefined"
 }
 };
 

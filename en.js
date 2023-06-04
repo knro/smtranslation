@@ -14,6 +14,7 @@ const en = {
         disconnected: "Disconnected",
         yes: "Yes",
         no: "No",
+        ignore: "Ignore",
         error: "Error",
         back: "Back",
         delete: "Delete",
@@ -54,7 +55,8 @@ const en = {
         skip: "Skip",
         updated: "Updated",
         new: "New",
-        remoteSupport: "Remote Support",
+        remote_support: "Remote Support",
+        logout: "Logout",
 
         azimuth: "Azimuth",
         altitude: "Altitude",
@@ -67,9 +69,9 @@ const en = {
         date: "Date",
         resolution: "Resolution",
 
-        selectFile: "Select file",
-        selectFolder: "Select folder",
-        selectedDir: "Selected folder",
+        select_file: "Select file",
+        select_folder: "Select folder",
+        selected_dir: "Selected folder",
         new_folder: "Enter new folder name",
         create_new_folder: "Create new folder in",
         empty_folder: "Folder is Empty",
@@ -84,7 +86,7 @@ const en = {
         calculate: "Calculate",
         update: "Update",
         center: "Center",
-        learnMore: "Learn more",
+        learn_more: "Learn more",
 
         // for dropdown
         select_option: "Select option...",
@@ -113,7 +115,7 @@ const en = {
         closed: "Close(ed)",
         enable: "Enable",
         disable: "Disable",
-        selectTime: "Select Time",
+        select_time: "Select Time",
         set: "Set",
 
         // Confirm Delete Alert
@@ -153,9 +155,9 @@ const en = {
             exposure_range: "Exp. Range",
             to: "To",
             temp_range: "T. Range",
-            binningOne: "1x1",
-            binningTwo: "2x2",
-            binningFour: "4x4",
+            binning_one: "1x1",
+            binning_two: "2x2",
+            binning_four: "4x4",
             total_images: "Total",
         },
 
@@ -177,7 +179,7 @@ const en = {
         unlocked: "Achievement Unlocked",
         points: "Points",
         completed: "Completed",
-        notCompleted: "Not completed",
+        not_completed: "Not completed",
         capture_preview_title: "First Light!",
         ten_sequences_title: "So it begins!",
         mount_goto_title: "Magic Fingers",
@@ -212,6 +214,8 @@ const en = {
         paa_description: "Finish PAA with box error lower than 30 arcsecs.",
         guide_rms_description: "Achieve total RMS guiding below 0.5 arcsecs.",
 
+        alert_reset_title: "Reset achievements",
+        alert_agree_reset_body: "Are you sure you want to reset all achievements?"
     },
     tourGuide:
     {
@@ -287,6 +291,7 @@ const en = {
       description_object_info: "Object magnitude, rise, transit, and set times.",
       description_fov: "Tap to enter Framing Assistant mode.",
       description_target_action: "Add target to favorites or custom list. Command a GOTO only or a GOTO followed by capture and solve. If Ekos is offline, schedule the target.",
+      alert_guided_tour_title: "Take a guided tour on Stellarmate App features",
     },
     tooltip: 
     {
@@ -301,9 +306,9 @@ const en = {
         format_title: "Format is used to define the image file names by the use of placeholder tags.",
         suffix: "Number of digits used to append the sequence number to the filename",
         paa_desc: "Use plate-solving method for Polar Alignment. Plate solving is slower but provides more accurate results.",
-        plate_solving: "Uses plate solving to track what the corrected alignment error is during the Refresh process. User should try to reduce the error in the Updated Err line below and minimize the size of the arrows.",
-        movestar_title:"Move Star and Calc Error",
-        movestar_desc: "Like Move Star, But Ekos attemps to track the star being moved and estimates the current alignment error when it can."
+        plate_solving: "Plate solving is slower but provides more accurate results if there are sufficient stars in the image. Use refresh period 3 seconds or longer.",
+        mount_info:"You can also adjust the mount's altitude & azimuth knobs to reduce the error.",
+        movestar_desc: "If Plate-solving is unchecked, select a bright star and then adjust the knobs to bring the star to the crosshair. Use very small and fine motion to keep the star in the frame."
     },
     splash: {
         checking_for_updates: "Checking for updates...",
@@ -369,7 +374,7 @@ const en = {
         Idle: "Idle",
         prep: "Prep",
         run: "Run",
-        Aborted: "aborted",
+        Aborted: "Aborted",
         "Calibration error": "Calibration error",
         Capturing: "Capturing",
         Streaming: "Streaming",
@@ -539,11 +544,13 @@ const en = {
         rotate_capture: "Rotate & Capture",
         goto_rotate: "GOTO & Rotate",
         angular_offset: "Angular Offset",
-        no_objects_in_list: "No Objects found, please adjust or reset the filters.",
+        no_objects_in_list: "No Objects found. Please check active list, adjust or reset the filters.",
         go_and_solve: "Go & Solve",
         fov_profile: "FOV Profile",
         fov_width: "FOV Width",
         fov_height: "FOV Height",
+        alert_select_FOV_body: "Please create or select an FOV profile in order to use Framing assistant.",
+        alert_list_exists_body: "A list with that name already exists"
     },
     ekos: {
         heading: "Ekos",
@@ -560,6 +567,10 @@ const en = {
 
         ekos_dialog: {
             auto_closes_in: "Auto closes in"
+        },
+
+        indi: {
+            no_logs: "No logs are available for this driver"
         },
 
         controls_bar: {
@@ -584,29 +595,34 @@ const en = {
             dark: "Dark",
             arcsec: "arcsec",
             ms: "ms",
-            xAxis: "Iterations",
-            yAxis: "Error (arcsec)",
+            x_axis: "Iterations",
+            y_axis: "Error (arcsec)",
             refresh_rate: "Refresh Rate",
+            image_selected: "Image selected successfully",
+            select_method: "Please select the image selection method",
+            device_gallery: "Phone/Tablet gallery",
+            sm_storage: "SM Storage",
+            request_storage_permission: "Please allow the storage permission",
             manualRotator: {
                 heading: "Manual Rotator",
-                currentPA: "Current PA",
-                targetPA: "Target PA",
+                current_pa: "Current PA",
+                target_pa: "Target PA",
                 another_image: "Take another Image",
             },
-            alignSettings: {
+            align_settings: {
                 rotator_control: "Rotator Control",
                 use_scale: "Use Scale",
                 use_position: "Use Position"
             },
-            calibrationSettings: {
+            calibration_settings: {
                 pulse: "Pulse",
-                maxMove: "Max Move",
-                twoAxis: "Two axis",
-                squareSize: "Auto square size",
-                calibrateBacklast: "Remove DEC backlash in guide calibration",
-                resetCalibration: "Reset Guide Calibration After Each Mount Slew",
-                reuseCalibration: "Store and reuse guide calibration when possible",
-                reverseCalibration: "Reverse DEC on pier-side change when reusing calibration"
+                max_move: "Max Move",
+                two_axis: "Two axis",
+                square_size: "Auto square size",
+                calibrate_backlast: "Remove DEC backlash in guide calibration",
+                reset_calibration: "Reset Guide Calibration After Each Mount Slew",
+                reuse_calibration: "Store and reuse guide calibration when possible",
+                reverse_calibration: "Reverse DEC on pier-side change when reusing calibration"
             }
         },
         collapse_camera: {
@@ -628,12 +644,12 @@ const en = {
             heading: "Limit Settings",
             guiding_deviation: "Guiding Deviation <",
             guiding_deviation_unit: "\"",
-            focusHFR: "Autofocus if HFR >",
-            focusHFR_unit: "pixels",
-            focusDeltaT: "Autofocus if ΔT° >",
-            focusDeltaT_unit: "°C",
-            refocusN: "Refocus every",
-            refocusN_unit: "minutes"
+            focus_hfr: "Autofocus if HFR >",
+            focus_hfr_unit: "pixels",
+            focus_deltaT: "Autofocus if ΔT° >",
+            focus_deltaT_unit: "s_d",
+            refocus_n: "Refocus every",
+            refocus_n_unit: "minutes"
         },
         capture_filters: {
             heading: "Filter Settings",
@@ -654,8 +670,8 @@ const en = {
             az: "Az",
             adu: "ADU",
             tolerance: "Tolerance",
-            parkMount: "Park Mount",
-            parkDome: "Park Dome"
+            park_mount: "Park Mount",
+            park_dome: "Park Dome"
         },
         capture_file: {
             filename: "File Name",
@@ -675,7 +691,7 @@ const en = {
             cap: "Cap",
             dome: "Dome",
             shutter: "Shutter",
-            domeSlaving: "Dome Slaving",
+            dome_slaving: "Dome Slaving",
             params: "Parameters",
             measurements: "Measurements",
             autosync_threshold: "Autosync Threshold (deg)",
@@ -694,8 +710,8 @@ const en = {
             focus_out: "Out",
             steps: "Steps",
             settings: {
-                suspendGuiding: "Suspend Guiding",
-                autoSelectStar: "Auto Select Star",
+                suspend_guiding: "Suspend Guiding",
+                auto_select_star: "Auto Select Star",
                 subframe: "Sub Frame",
                 fullfield: "Full Field",
                 dark: "Dark Frame",
@@ -707,18 +723,18 @@ const en = {
                 algorithm: "Algorithm",
                 threshold: "Threshold",
                 effect: "Effect",
-                averageOver: "Average Over",
-                kernelSize: "Kernel Size",
-                numOfRows: "Num. of Rows",
+                average_over: "Average Over",
+                kernel_size: "Kernel Size",
+                num_of_rows: "Num. of Rows",
                 sigma: "Sigma"
             },
             mechanics: {
                 title: "Mechanics",
-                initialStepSize: "Initial Step Size",
-                maxTravel: "Max Travel",
-                maxStepSize: "Max Step Size",
+                initial_step_size: "Initial Step Size",
+                max_travel: "Max Travel",
+                max_step_size: "Max Step Size",
                 backlash: "Backlash",
-                outStepMultiple: "Out Step Multiple",
+                out_step_multiple: "Out Step Multiple",
             },
         },
         collapse_guide: {
@@ -773,7 +789,10 @@ const en = {
             sequence: "Sequence",
             overall_progress: "Overall Progress",
             sequences: "Sequences",
-            no_sequences: "No sequences. You can add them by tapping on Add to Sequence."
+            no_sequences: "No sequences. You can add them by tapping on Add to Sequence.",
+            alert_sequence_error_body: "Error saving sequence file",
+            alert_sequence_loading_body: "Error loading sequence file",
+            alert_sequence_delete_body: "Error deleting sequence file"
         },
         collapse_mount: {
             meridian_flip: "Meridian Flip",
@@ -1024,6 +1043,7 @@ const en = {
         alert_remote_failed: "Failed to get Remote Support ID: ",
         alert_remote_not_found: "No Remote Support found: ",
 
+        alert_logout_account_body: "Are you sure you want to logout?",
 
         change_resolution_modal: {
             mode: "Mode"
@@ -1072,6 +1092,8 @@ const en = {
         reset_app_body: "Purge all App settings?",
         metric: "Metric",
         imperial: "Imperial",
+        alert_delete_account_title: "Delete Account",
+        alert_delete_account_body: "Are you sure you want to delete your account?"
     },
     cloud: {
         heading: "View",
@@ -1125,7 +1147,7 @@ const en = {
     about: {
         heading: "About",
         bundle: "Bundle",
-        copyright_line1: "StellarMate is developed by Ikarus Technologies © 2017-2022",
+        copyright_line1: "StellarMate is developed by Ikarus Technologies © 2017-2023",
         copyright_line2: "Background image by Alamri Observatory",
         credits: {
             heading: "Credits",
