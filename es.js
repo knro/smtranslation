@@ -13,6 +13,7 @@ const es = {
         disconnect: "Desconectar",
         yes: "Si",
         no: "No",
+        ignore: "Ignore",
         error: "Error",
         back: "Regresar",
         delete: "Borrar",
@@ -52,7 +53,8 @@ const es = {
         skip: "Skip",
         updated: "Updated",
         new: "New",
-        remoteSupport: "Remote support",
+        remote_support: "Remote Support",
+        logout: "Logout",
 
         azimuth: "Azimut",
         altitude: "Altitud",
@@ -65,9 +67,9 @@ const es = {
         date: "Fecha",
         resolution: "Resolucion",
 
-        selectFile: "Select file",
-        selectFolder: "Select folder",
-        selectedDir: "selected folder",
+        select_file: "Select file",
+        select_folder: "Select folder",
+        selected_dir: "selected folder",
         new_folder: "Enter new folder name",
         create_new_folder: "Create new folder in",
         empty_folder: "Folder is Empty",
@@ -82,7 +84,7 @@ const es = {
         calculate: "Calculate",
         update: "Update",
         center: "Center",
-        learnMore: "Learn more",
+        learn_more: "Learn more",
 
         // for dropdown
         select_option: "Seleccionar opcion...",
@@ -121,7 +123,7 @@ const es = {
         closed: "Cerrado",
         enable: "Halibilitado",
         disable: "Deshabilitado",
-        selectTime: "Seleccionar Hora",
+        select_time: "Seleccionar Hora",
         set: "Ajustar",
         // error messages
         network_error: "Por favor, asegurese que su StellarMate esta conectado a tu red",
@@ -152,9 +154,9 @@ const es = {
             to: "To",
             temp_range: "T. Range",
             binning: "Binning",
-            binningOne: "1x1",
-            binningTwo: "2x2",
-            binningFour: "4x4",
+            binning_one: "1x1",
+            binning_two: "2x2",
+            binning_four: "4x4",
             total_images: "Total",
         },
 
@@ -175,7 +177,7 @@ const es = {
         unlocked: "Achievement Unlocked",
         points: "Points",
         completed: "Completed",
-        notCompleted: "Not completed",
+        not_completed: "Not completed",
         capture_preview_title: "First Light!",
         ten_sequences_title: "So it begins!",
         mount_goto_title: "Magic Fingers",
@@ -209,6 +211,9 @@ const es = {
         capture_legend_description: "Capture a total of 1000 images",
         paa_description: "Finish PAA with box error lower than 30 arcsecs.",
         guide_rms_description: "Achieve total RMS guiding below 0.5 arcsecs.",
+
+        alert_reset_title: "Reset achievements",
+        alert_agree_reset_body: "Are you sure you want to reset all achievements?"
     },
     tourGuide:
     {
@@ -283,6 +288,7 @@ const es = {
       description_object_info: "Object magnitude, rise, transit, and set times.",
       description_fov: "Tap to enter Framing Assistant mode.",
       description_target_action: "Add target to favorites or custom list. Command a GOTO only or a GOTO followed by capture and solve. If Ekos is offline, schedule the target.",
+      alert_guided_tour_title: "Take a guided tour on Stellarmate App features",
     },
     tooltip: 
     {
@@ -298,7 +304,7 @@ const es = {
         suffix: "Number of digits used to append the sequence number to the filename",
         paa_desc: "Use plate-solving method for Polar Alignment. Plate solving is slower but provides more accurate results.",
         plate_solving: "Uses plate solving to track what the corrected alignment error is during the Refresh process. User should try to reduce the error in the Updated Err line below and minimize the size of the arrows.",
-        movestar_title:"Move Star and Calc Error",
+        mount_info:"Move Star and Calc Error",
         movestar_desc: "Like Move Star, But Ekos attemps to track the star being moved and estimates the current alignment error when it can."
     },
     splash: {
@@ -525,11 +531,13 @@ const es = {
         rotate_capture: "Rotar y Capturar",
         goto_rotate: "GOTO & Rotar",
         angular_offset: "Compensacion Angular",
-        no_objects_in_list: "No se encontraron Objetos, ajuste o restablezca los filtros.",
+        no_objects_in_list: "No Objects found. Please check active list, adjust or reset the filters.",
         go_and_solve: "Dirigirse y Resolver",
         fov_profile: "Perfil FOV",
         fov_width: "Ancho FOV",
         fov_height: "Altura FOV",
+        alert_select_FOV_body:"Please create or select an FOV profile in order to use Framing assistant.",
+        alert_list_exists_body: "A list with that name already exists",
     },
     ekos: {
         heading: "Ekos",
@@ -548,6 +556,10 @@ const es = {
             auto_closes_in: "Auto cierre en"
         },
 
+        indi: {
+            no_logs: "No logs are available for this driver"
+        },
+        
         controls_bar: {
             mount_speed: "Velocidad Montura",
             centering: "Centrado",
@@ -570,29 +582,34 @@ const es = {
             dark: "Oscuridad",
             arcsec: "arco seg",
             ms: "ms",
-            xAxis: "Repeticiones",
-            yAxis: "Error (arco seg)",
+            x_axis: "Repeticiones",
+            y_axis: "Error (arco seg)",
             refresh_rate: "Velocidad de Refresco",
+            image_selected: "Image selected successfully",
+            select_method: "Please select the image selection method",
+            device_gallery: "Phone/Tablet gallery",
+            sm_storage: "SM Storage",
+            request_storage_permission: "Please allow the storage permission",
             manualRotator: {
                 heading: "Manual Rotator",
-                currentPA: "Current PA",
-                targetPA: "Target PA",
+                current_pa: "Current PA",
+                target_pa: "Target PA",
                 another_image: "Take another Image",
             },
-            alignSettings: {
+            align_settings: {
                 rotator_control: "Rotator Control",
                 use_scale: "Use Scale",
                 use_position: "Use Position"
             },
-            calibrationSettings: {
+            calibration_settings: {
                 pulse: "Pulse",
-                maxMove: "Max Move",
-                twoAxis: "Two axis",
-                squareSize: "Auto square size",
-                calibrateBacklast: "Remove DEC backlash in guide calibration",
-                resetCalibration: "Reset Guide Calibration After Each Mount Slew",
-                reuseCalibration: "Store and reuse guide calibration when possible",
-                reverseCalibration: "Reverse DEC on pier-side change when reusing calibration"
+                max_move: "Max Move",
+                two_axis: "Two axis",
+                square_size: "Auto square size",
+                calibrate_backlast: "Remove DEC backlash in guide calibration",
+                reset_calibration: "Reset Guide Calibration After Each Mount Slew",
+                reuse_calibration: "Store and reuse guide calibration when possible",
+                reverse_calibration: "Reverse DEC on pier-side change when reusing calibration"
             }
 
         },
@@ -615,12 +632,12 @@ const es = {
             heading: "Configuracion de limites",
             guiding_deviation: "Desviacion de Guiado <",
             guiding_deviation_unit: "\"",
-            focusHFR: "Enfoque automatico si HFR >",
-            focusHFR_unit: "pixeles",
-            focusDeltaT: "Enfoque automatico si ΔT° >",
-            focusDeltaT_unit: "°C",
-            refocusN: "Reenfoque cada",
-            refocusN_unit: "Minutos"
+            focus_hfr: "Enfoque automatico si HFR >",
+            focus_hfr_unit: "pixeles",
+            focus_deltaT: "Enfoque automatico si ΔT° >",
+            focus_deltaT_unit: "°C",
+            refocus_n: "Reenfoque cada",
+            refocus_n_unit: "Minutos"
         },
         capture_filters: {
             heading: "Configuracion de filtro",
@@ -641,8 +658,8 @@ const es = {
             az: "Az",
             adu: "ADU",
             tolerance: "Tolerancia",
-            parkMount: "Aparcar Montura",
-            parkDome: "Aparcar Cupula"
+            park_mount: "Aparcar Montura",
+            park_dome: "Aparcar Cupula"
         },
         capture_file: {
             filename: "Nombre del Fichero",
@@ -662,7 +679,7 @@ const es = {
             cap: "Cubierta",
             dome: "Cupula",
             shutter: "Obturador",
-            domeSlaving: "Control Cupula",
+            dome_slaving: "Control Cupula",
             params: "Parametros",
             measurements: "Mediciones",
             autosync_threshold: "Limite de sincronizacion automatica (grados)",
@@ -681,8 +698,8 @@ const es = {
             focus_out: "Fuera",
             steps: "Pasos",
             settings: {
-                suspendGuiding: "Suspender el guiado",
-                autoSelectStar: "Seleccionar Estrella Automaticamente",
+                suspend_guiding: "Suspender el guiado",
+                auto_select_star: "Seleccionar Estrella Automaticamente",
                 subframe: "Submarco",
                 fullfield: "Campo Total",
                 dark: "Marco Oscuro",
@@ -694,18 +711,18 @@ const es = {
                 algorithm: "Algoritmo",
                 threshold: "Limite",
                 effect: "Efecto",
-                averageOver: "Promedio sobre",
-                kernelSize: "Volumen Kernel",
-                numOfRows: "Num. de Filas",
+                average_over: "Promedio sobre",
+                kernel_size: "Volumen Kernel",
+                num_of_rows: "Num. de Filas",
                 sigma: "Sigma"
             },
             mechanics: {
                 title: "Mecanica",
-                initialStepSize: "Volumen Inicial Paso",
-                MaxTravel: "Max Recorrido",
-                MaxStepSize: "Max Volumen Paso",
+                initial_step_size: "Volumen Inicial Paso",
+                max_travel: "Max Recorrido",
+                max_step_size: "Max Volumen Paso",
                 backlash: "Retroceso",
-                outStepMultiple: "Paso de salida multiple",
+                out_step_multiple: "Paso de salida multiple",
             },
         },
         collapse_guide: {
@@ -758,7 +775,10 @@ const es = {
             sequence: "Secuencia",
             overall_progress: "Progreso General",
             sequences: "Secuencias",
-            no_sequences: "Sin secuencias. Puede agregarlas pulsando Agregar Secuencia."
+            no_sequences: "Sin secuencias. Puede agregarlas pulsando Agregar Secuencia.",
+            alert_sequence_error_body: "Error saving sequence file",
+            alert_sequence_loading_body: "Error loading sequence file",
+            alert_sequence_delete_body: "Error deleting sequence file"
         },
         collapse_mount: {
             meridian_flip: "Giro por paso del Meridiano",
@@ -935,7 +955,6 @@ const es = {
         btn_factory_reset: "Restablecimiento de Fabrica",
         btn_change_resolution: "Cambiar Resolucion",
         btn_later: "Mas tarde",
-        btn_update_now: "Update Now",
         btn_resize_fs: "Redimensionar SD",
         btn_continue: "Continuar",
         information_ekos_offline: 'Ekos is offline. Please start the equipment profile directly or via the Scheduler.',
@@ -1010,6 +1029,8 @@ const es = {
         alert_remote_failed: "Failed to get Remote support ID: ",
         alert_remote_not_found: "No Remote support found: ",
 
+        alert_logout_account_body: "Are you sure you want to logout?",
+
         change_resolution_modal: {
             heading: "Cambiar Resolucion",
             mode: "Modo"
@@ -1053,7 +1074,11 @@ const es = {
         auto_sync: "Sincronizacion Automatica",
         location: "Ubicacion",
         reset_app: "Restablecer App",
-        reset_app_body: "¿Borrar todas las configuraciones de la App?"
+        reset_app_body: "¿Borrar todas las configuraciones de la App?",
+        metric: "Metric",
+        imperial: "Imperial",
+        alert_delete_account_title: "Delete Account",
+        alert_delete_account_body: "Are you sure you want to delete your account?"
     },
     cloud: {
         heading: "Visor",
@@ -1107,7 +1132,7 @@ const es = {
     about: {
         heading: "Acerca de",
         bundle: "Empaquetado",
-        copyright_line1: "StellarMate esta desarrollado por Ikarus Technologies © 2017-2022",
+        copyright_line1: "StellarMate esta desarrollado por Ikarus Technologies © 2017-2023",
         copyright_line2: "Imagen de Fondo cedida por Alamri Observatory",
         credits: {
             heading: "Credits",
@@ -1130,7 +1155,8 @@ const es = {
     device: {
         mirror: "Mirror External Display",
         monitor_successfull: "SM X monitor Display changed successfully!",
-        monitor_failed: "Failed to set SM X monitor display. Please try again later!"
+        monitor_failed: "Failed to set SM X monitor display. Please try again later!",
+        undefined_error: "Error is undefined"
     }
 };
 
