@@ -1,4 +1,4 @@
-const cn = {
+﻿const cn = {
   general: {
     home: "主页",
     next: "下一项",
@@ -880,6 +880,7 @@ const cn = {
     create_new: "创建新项目",
     dslr_lens: "单反相机镜头",
     focal_ratio: "焦距比",
+    guide_via: "Guide Via",
     tooltip: {
       title: "选择接收导星校正脉冲的设备",
       subject: "可以是以下设备之一：",
@@ -1097,17 +1098,41 @@ const cn = {
     manual_rotator: "按指示角度旋转相机，然后拍摄图像以更新位置角度",
     welcome: "欢迎使用StellarMate"
   },
-  ekosLivePro: {
+  ekosLivePro: 
+  {
     pushNotification: "推送通知",
     level: "通知级别",
     settings: "EkosLive Pro设置"
   },
-  device: {
+  device: 
+  {
     mirror: "Mirror External Display",
     monitor_successfull: "SM X monitor Display changed successfully!",
     monitor_failed: "Failed to set SM X monitor display. Please try again later!",
-    undefined_error: "Error is undefined"
-}
+    undefined_error: "Error is undefined",
+    share: "Share logs",
+    logs: "Logs",
+    logs_upload: "Logs uploaded successfully to StellarMate support.",
+    error_upload: "Error uploading logs"
+  },
+  controller: 
+  {
+    dc_power: "12V DC Power",
+    heaters: "Dew Heaters",
+    varOutput: "Variable Output",
+    reports: "Reports",
+    voltage: "Voltage",
+    current: "Current",
+    power: "Power",
+    leds: "LEDs",
+    auto_dew: "Auto Dew",
+    auto_dew1_threshold: "Dew 1 Thresh.",
+    auto_dew2_threshold: "Dew 2 Thresh.",
+    stepper: "Stepper",
+    buzzer: "Buzzer",
+    sensors: "Sensors",
+    alert_power_port_description: "Are you sure you want to toggle off {0}?"
+  }
 };
 
 export default cn;
