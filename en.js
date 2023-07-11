@@ -913,6 +913,7 @@ const en = {
         create_new: "Create New",
         dslr_lens: "DSLR Lens",
         focal_ratio: "Focal Ratio",
+        guide_via: "Guide Via",
         tooltip:{
             title: "Select the device that receives the guiding correction pulses",
             subject: "This can be one of the following devices:",
@@ -1170,7 +1171,29 @@ const en = {
     device: {
         mirror: "Mirror External Display",
         monitor_successfull: "SM X monitor Display changed successfully!",
-        monitor_failed: "Failed to set SM X monitor display. Please try again later!"
+        monitor_failed: "Failed to set SM X monitor display. Please try again later!",
+        share: "Share logs",
+        logs: "Logs",
+        logs_upload: "Logs uploaded successfully to StellarMate support.",
+        error_upload: "Error uploading logs",
+    },
+    controller: {
+        dc_power: "12V DC Power",
+        heaters: "Dew Heaters",
+        varOutput: "Variable Output",
+        reports: "Reports",
+        voltage: "Voltage",
+        current: "Current",
+        power: "Power",
+        leds: "LEDs",
+        auto_dew: "Auto Dew",
+        auto_dew1_threshold: "Dew 1 Thresh.",
+        auto_dew2_threshold: "Dew 2 Thresh.",
+        stepper: "Stepper",
+        buzzer: "Buzzer",
+        sensors: "Sensors",
+
+        alert_power_port_description: "Are you sure you want to toggle off {0}?"
     }
 };
 
