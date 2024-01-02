@@ -8,6 +8,9 @@ const fr = {
         apply: "Appliquer",
         save: "sauvegarder",
         select: "Sélectionner",
+        hardware: "Hardware",
+        usb: "USB",
+        devices: "Devices",
         connect: "Connecter",
         disconnect: "Déconnecter",
         yes: "Oui",
@@ -54,6 +57,10 @@ const fr = {
         new: "New",
         remote_support: "Remote Support",
         logout: "Logout",
+        setting: "Setting",
+        hours: "Hours",
+        minutes: "Minutes",
+        seconds: "Seconds",
 
         azimuth: "Azimut",
         altitude: "Altitude",
@@ -65,6 +72,7 @@ const fr = {
         name: "Nom",
         date: "Date",
         resolution: "Résolution",
+        monitor: "Monitor",
 
         select_file: "Select file",
         select_folder: "Select folder",
@@ -203,6 +211,8 @@ const fr = {
         capture_legend_description: "Capture a total of 1000 images",
         paa_description: "Finish PAA with box error lower than 30 arcsecs.",
         guide_rms_description: "Achieve total RMS guiding below 0.5 arcsecs.",
+        filtered_image_description: "Capture a narrowband image",
+        gallery_image_description: "Gallery Image downloaded",
 
         alert_reset_title: "Reset achievements",
         alert_agree_reset_body: "Are you sure you want to reset all achievements?"
@@ -214,7 +224,7 @@ const fr = {
       finish: "Finish",
       title_devices_list: "StellarMate Devices List",
       title_device_actions: "Device Actions",
-      title_profles: "Profiles",
+      title_profiles: "Profiles",
       title_port_selector: "Port Selector",
       title_trains: "Optical trains",
       title_weather_bar: "Weather bar",
@@ -247,7 +257,7 @@ const fr = {
 
       description_devices_list: "This is the list of automatically discovered and manually added StellarMate units. Tap RESCAN to detect new StellarMate units on the network.",
       description_device_actions: "Remove a device from the list, perform a factory reset, or log out.",
-      description_profles: "Manage your astronomy equipment in Equipment Profiles. All equipment must be powered and connected to StellarMate before starting a profile. Once a profile is started, configure the Optical Trains and then tap Ekos to start your astrophotography session.",
+      description_profiles: "Manage your astronomy equipment in Equipment Profiles. All equipment must be powered and connected to StellarMate before starting a profile. Once a profile is started, configure the Optical Trains and then tap Ekos to start your astrophotography session.",
       description_port_selector: "After a profile is started for the first time, select the serial and/or network settings for your devices.",
       description_trains:
       "Set up how your equipment is arranged using Optical trains. Assign each device to a specific function. Create a train for each camera.",
@@ -290,10 +300,20 @@ const fr = {
         placeholder_date: "The current time and date when the file is saved.",
         placeholder_type: "The frame type e.g: 'Light', 'Dark'",
         placeholder_exp: "The exposure duration in seconds.",
+        placeholder_exposure: "The exposure duration in seconds as plain number, without any unit as suffix.",
+        placeholder_offset: "The offset configured for capturing.",
+        placeholder_gain: "The gain configured for capturing.",
+        placeholder_bin: "The binning configured for capturing.",
+        placeholder_iso: "The ISO value(DSLRs only).",
+        placeholder_pierside: "The current mount's pier side",
+        placeholder_temperature: "The camera temperature of capturing.",
         placeholder_filter: "The active filter name.",
         placeholder_seq: "The image sequence identifier where * is the number of digits used (1-9), This tag is mandatory and must be the last element in the format",
         placeholder_target: "The Target name.",
-        format_title: "Format is used to define the image file names by the use of placeholder tags.",
+        placeholder_arbitrary: "Arbitrary text may also be included within the Format string, except the % and / characters. The / Path character can be used to define arbitrary directories.",
+        placeholder_notes: "Notes:",
+        placeholder_case: "• Tags are case sensitive in both their short and long forms",
+        placeholder_datetime: "• Only use the %Datetime tag in the filename portion of the format, not in the path definition.",        format_title: "Format is used to define the image file names by the use of placeholder tags.",
         suffix: "Number of digits used to append the sequence number to the filename",
         paa_desc: "Use plate-solving method for Polar Alignment. Plate solving is slower but provides more accurate results.",
         plate_solving: "Uses plate solving to track what the corrected alignment error is during the Refresh process. User should try to reduce the error in the Updated Err line below and minimize the size of the arrows.",
@@ -579,6 +599,7 @@ const fr = {
             calibration_settings: {
                 pulse: "Pulse",
                 max_move: "Max Move",
+                iterations: "Iterations",
                 two_axis: "Two axis",
                 square_size: "Auto square size",
                 calibrate_backlast: "Remove DEC backlash in guide calibration",
@@ -597,7 +618,52 @@ const fr = {
             format_native: "Natif",
             cooling_unavailable: "N/A",
             btn_add_to_sequence: "Ajouter à la séquence ",
-            btn_loop: "Boucle"
+            btn_loop: "Boucle",
+
+            rotator_control: {
+                title: "Rotator",
+                angle: "Rotator Angle",
+                offset: "Camera Offset",
+                pierside: "Camera Pierside",
+                flip: "Flip Policy",
+                pos_angle: "Camera Position Angle",
+                reverse_direction: "Reverse direction of Rotator",
+                flip_rotator: "Preserve Rotator Angel",
+                flip_position: "Preserve Position Angel",
+            },
+
+            capture_settings: {
+                miscellaneous: "Miscellaneous",
+                temperature: "Temperature threshold",
+                temperature_tooltip: "Maximum acceptable difference between requested and measured temperature set point. When the temperature threshold is below this value, the temperature set point request is deemed successful.",
+                guiding: "Guiding settle",
+                guiding_tooltip: "Wait this many seconds after guiding is resumed to stabilize the guiding performance before capture.",
+                dialog: "Dialog timeout",
+                dialog_tooltip: "Cover or uncover telescope dialog timeout in seconds.",
+
+                reset_sequence: "Always reset sequence when starting",
+                reset_sequence_tooltip: "When starting to process a sequence list, reset all capture counts to zero. Scheduler overrides this option when Remember job progress is enabled.",
+                reset_mount: "Reset mount model after meridian flip",
+                reset_mount_tooltip: "Reset mount model after meridian flip.",
+                use_flip: "Use flip command if supported by mount",
+                use_flip_tooltip: "Use flip command if it is supported by the mount.",
+                summary_preview: "Summary screen preivew",
+                summary_preview_tooltip: "Display received FITS in the Summary screen preview window.",
+
+                force_dslr: "Force DSLR presets",
+                image_viewer: "DSLR image viewer",
+
+                sequence_focus: "In-Sequence Focus",
+                hfr_threshold: "HFR threshold modifier",
+                hfr_threshold_tooltip: "Set HFR Threshold percentage gain. When an autofocus operation is completed, the autofocus HFR value is increased by this threshold percentage value and stored within the capture module. If In- Sequence-Focus is engaged, the autofocus module only performs auto-focusing procedure if current HFR value exceeds the capture module HFR threshold. Increase value to permit more relaxed changes in HFR values without requiring a full autofocus run.",
+                sequence_check: "In-sequence HFR check",
+                sequence_check_tooltip: "Run In-Sequence HFR check after this many frames.",
+
+                median: "Use median focus",
+                median_tooltip: "Calculate median focus value after each autofocus operation is complete. If the autofocus results become progressively worse with time, the median value shall reflect this trend and prevent unnecessary autofocus operations when the seeing conditions deteriorate.",
+                save_sequence: "Save sequence HFR value to file",
+                save_sequence_tooltip: "In-sequence HFR threshold value controls when the autofocus process is started. If the measured HFR value exceeds the HFR threshold, autofocus process is initiated. If the HFR threshold value is zero initially (default), then the autofocus process best HFR value is used to set the new HFR threshold, after applying the HFR threshold modifier percentage. This new HFR threshold is then used for subsequent In-Sequence focus checks. If this option is enabled, the HFR threshold value is constant and gets saved to the sequence file."
+            }
         },
         capture_presets: {
             heading: "Paramètres prédéfinis"
@@ -634,7 +700,8 @@ const fr = {
             tolerance: "Tolérance",
             park_mount: "Monture parquée",
             park_dome: "Dôme fermé",
-            manual: "Manuel"
+            manual: "Manuel",
+            pre_actions: "Calibration Pre-Actions"
         },
         capture_file: {
             filename: "Nom du Fichier",
@@ -726,7 +793,10 @@ const fr = {
             totalrms: "Total RMS\"",
             advanced: "Avancé",
             clear_model: "Effacer le modèle d'étalonnage",
-            yAxis: "Dérive (arcsec)"
+            yAxis: "Dérive (arcsec)",
+
+            min_error: "Min error",
+            max_response: "Max response",
         },
         collapse_observatory: {
             heading: "Observatoire"
@@ -809,6 +879,8 @@ const fr = {
         histogram: {
             mean: "Mean",
             median: "Median",
+            minimum: "Min",
+            maximum: "Max",
             bit_depth: "Bit Depth",
             non_linear_histogram: "Histogramme Non-Lineaire"
         },
@@ -848,7 +920,7 @@ const fr = {
             none: "None",
             queue: "Queue",
             immediate: "Immediate",
-            rescheduleErrors: "Reschedule Errors (seconds wait)",
+            rescheduleErrors: "Reschedule Errors",
             no_jobs: "Pas de Tâche dans la file d'attente",
             err_loading_folders: "Error loading folders",
             err_loading_fits: "Error loading .fits files",
@@ -861,6 +933,47 @@ const fr = {
             mosaic: {
                 import: "Import Mosaic",
                 planner: "Mosaic planner"
+            },
+
+            scheduler_settings: {
+                lead_time: "Lead time",
+                lead_time_tooltip: "The minimum time in minutes between jobs. The scheduler starts execution of a job before its scheduled startup time by this lead time. Early execution is useful as focusing, alignment, and guiding procedures may take prolonged periods to time to complete.",
+                pre_dawn: "Pre-dawn",
+                pre_dawn_tooltip: "Do not permit jobs to be scheduled or executed past this many minutes before dawn.",
+                pre_emptive: "Pre-emptive shutdown",
+                pre_emptive_tooltip: "In case no scheduler job is scheduled for this many hours, perform a complete shutdown procedure and restart observatory operations once the next job is ready.",
+                setting_altitude: "Setting altitude cutoff",
+                setting_altitude_tooltip: "Do not permit jobs to be scheduled less than this many degrees before the altitude restriction. Actual execution proceeds until the altitude limit.",
+                dust_offset: "Dust offset",
+                dust_offset_tooltip: "Offset astronomical dusk by this many hours. This positive or negative value adjusts the twilight restriction.",
+                dawn_offset: "Dawn offset",
+                dawn_offset_tooltip: "Offset astronomical dawn by this many hours. This positive or negative value adjusts the twilight restriction.",
+
+                stop_ekos: "Stop Ekos after shutdown",
+                stop_ekos_tooltip: "After shutdown procedure is successfully executed, stop INDI and Ekos.",
+                shutdown_script: "Shutdown script terminates INDI",
+                shutdown_script_tooltip: "If the shutdown script terminates INDI server, enable this option so that no disconnection errors are generated.",
+                remember_job: "Remember Job progress",
+                remember_job_tooltip: "When processing a scheduled job, resume the sequence starting from the last image present in storage.",
+
+                reset_mount :"Reset mount model on alignment failure",
+                reset_mount_tooltip :"Reset mount model on alignment failure",
+                reset_mount_before: "Reset mount model before starting each job",
+                reset_mount_before_tooltip: "Reset mount model before starting each job",
+                force_realign: "Force re-alignment before re-starting jobs",
+                force_realign_tooltip: "If Align is enabled, scheduler would initiate a realignment procedure before restarting any jobs even if guiding is active.",
+                restart_align: "Restart alignment on guiding calibration failure",
+                restart_align_tooltip: "If guiding calibration fails then restart alignment process before proceeding to guiding recalibration process again. This can help recenter the target object in the field of view if the calibration process strayed too far off.",
+
+                offsets: "Offsets",
+                clean_jobs: "Cleanup and Jobs",
+                alignment: "Alignment",
+
+                verify_image: "Verify captured image position every",
+                verify_image_tooltip: "When calculating position after captures, compute it every Nth capture. Set to 0 to disable.",
+                reset_pipeline: "Reset pipeline if verified image delta exceeds",
+                reset_pipeline_tooltip: "If captured position exceeds target position by more this many arcminutes, abort capture and reschedule the pipeline.",
+                arcminutes: "arcminutes",
             }
 
         },
@@ -906,6 +1019,8 @@ const fr = {
         updates: "Mises à jour",
         hotspotMode: "Mode point d'accès",
         wifiNetwork: "Réseau Wifi",
+        wifiCountry: "WiFi Country",
+
         wifiBand: "Bande WiFi",
         update_available: "Nouvelles mises à jour disponibles",
         btn_vnc: "Bureau (VNC)",
@@ -975,6 +1090,10 @@ const fr = {
         alert_remote_id: "Could not find Remote support ID", 
         alert_remote_failed: "Failed to get Remote support ID: ",
         alert_remote_not_found: "No Remote support found: ",
+        alert_permission_denied: "Permission Denied",
+        alert_permission_blocked: "Permission Blocked",
+        alert_grant_camera_permission: "You need to grant camera permission first",
+        alert_feature_not_available: "This feature is not available",
 
         alert_logout_account_body: "Are you sure you want to logout?",
 
@@ -1018,8 +1137,10 @@ const fr = {
         reset_app_body: "Purger tous les paramètres de l'application?",
         metric: "Metric",
         imperial: "Imperial",
+        file_logging: "File logging",
         alert_delete_account_title: "Delete Account",
-        alert_delete_account_body: "Are you sure you want to delete your account?"
+        alert_delete_account_body: "Are you sure you want to delete your account?",
+        color_scheme_sky_map: "Sky Map Scheme"
     },
     cloud: {
         heading: "VUE",
@@ -1098,7 +1219,8 @@ const fr = {
         share: "Share logs",
         logs: "Logs",
         logs_upload: "Logs uploaded successfully to StellarMate support.",
-        error_upload: "Error uploading logs"
+        error_upload: "Error uploading logs",
+        reset_network: "Reset network"
     },
     controller: {
         dc_power: "12V DC Power",

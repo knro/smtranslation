@@ -9,6 +9,9 @@
     apply: "应用",
     save: "保存",
     select: "选择",
+    hardware: "Hardware",
+    usb: "USB",
+    devices: "Devices",
     connect: "连接",
     disconnect: "断开",
     yes: "是",
@@ -55,6 +58,10 @@
     new: "New",
     remote_support: "Remote Support",
     logout: "Logout",
+    setting: "Setting",
+    hours: "Hours",
+    minutes: "Minutes",
+    seconds: "Seconds",
 
     azimuth: "方位角",
     altitude: "高度角",
@@ -66,6 +73,7 @@
     name: "名称",
     date: "日期",
     resolution: "分辨率",
+    monitor: "Monitor",
 
     select_file: "选择文件",
     select_folder: "选择文件夹",
@@ -208,6 +216,9 @@
     paa_description: "在误差低于30角秒的情况下完成PAA。",
     guide_rms_description: "使导星的总RMS指导小于0.5角秒。",
 
+    filtered_image_description: "Capture a narrowband image",
+    gallery_image_description: "Gallery Image downloaded",
+
     alert_reset_title: "Reset achievements",
     alert_agree_reset_body: "Are you sure you want to reset all achievements?"
   },
@@ -218,7 +229,7 @@
     finish: "完成",
     title_devices_list: "StellarMate设备列表",
     title_device_actions: "设备操作",
-    title_profles: "设备配置文件",
+    title_profiles: "设备配置文件",
     title_port_selector: "端口选择",
     title_trains: "光路配置",
     title_weather_bar: "天气信息栏",
@@ -251,7 +262,7 @@
 
     description_devices_list: "这是自动发现和手动添加的StellarMate设备列表。单击重新扫描以检测网络上的新StellarMate设备。",
     description_device_actions: "从列表中删除设备，执行恢复出厂设置或注销操作。",
-    description_profles: "在设备配置文件中管理天文设备。必须在启动配置文件前将所有设备接通并连接到StellarMate。开始配置文件后，请使用光路配置来配置每个设备的功能，然后单击Ekos按钮开始天体摄影会话。",
+    description_profiles: "在设备配置文件中管理天文设备。必须在启动配置文件前将所有设备接通并连接到StellarMate。开始配置文件后，请使用光路配置来配置每个设备的功能，然后单击Ekos按钮开始天体摄影会话。",
     description_port_selector: "在首次启动配置文件后，选择您设备的串口和/或网络设置。",
     description_trains:
       "使用光路配置来设置您的设备如何排列。为每个相机创建一个配置文件。",
@@ -294,9 +305,20 @@
     "placeholder_date": "保存文件时的当前时间和日期。",
     "placeholder_type": "帧类型，例如：'Light'、'Dark'",
     "placeholder_exp": "曝光时长（秒）。",
+    "placeholder_exposure": "The exposure duration in seconds as plain number, without any unit as suffix.",
+    "placeholder_offset": "The offset configured for capturing.",
+    "placeholder_gain": "The gain configured for capturing.",
+    "placeholder_bin": "The binning configured for capturing.",
+    "placeholder_iso": "The ISO value(DSLRs only).",
+    "placeholder_pierside": "The current mount's pier side",
+    "placeholder_temperature": "The camera temperature of capturing.",
     "placeholder_filter": "活动滤镜名称。",
     "placeholder_seq": "图像序列标识符，其中 * 是使用的数字位数（1-9），此标记是必需的并且必须是格式中的最后一个元素。",
     "placeholder_target": "目标名称。",
+    "placeholder_arbitrary": "Arbitrary text may also be included within the Format string, except the % and / characters. The / Path character can be used to define arbitrary directories.",
+    "placeholder_notes": "Notes:",
+    "placeholder_case": "• Tags are case sensitive in both their short and long forms",
+    "placeholder_datetime": "• Only use the %Datetime tag in the filename portion of the format, not in the path definition.",
     "format_title": "使用占位符标记来定义图像文件名的格式。",
     "suffix": "用于在文件名中附加序列号的数字位数。",
     "paa_desc": "在极轴对准过程中使用平板解算方法。板解析速度较慢，但提供更准确的结果。",
@@ -586,6 +608,7 @@
       calibration_settings: {
         pulse: "脉冲",
         max_move: "最大移动范围",
+        iterations: "Iterations",
         two_axis: "双轴",
         square_size: "自动正方形大小",
         calibrate_backlast: "在导星校准时消除赤纬反向间隙",
@@ -606,6 +629,51 @@
       cooling_unavailable: "冷却不可用",
       btn_add_to_sequence: "添加到拍摄队列",
       btn_loop: "循环",
+
+      rotator_control: {
+        title: "Rotator",
+        angle: "Rotator Angle",
+        offset: "Camera Offset",
+        pierside: "Camera Pierside",
+        flip: "Flip Policy",
+        pos_angle: "Camera Position Angle",
+        reverse_direction: "Reverse direction of Rotator",
+        flip_rotator: "Preserve Rotator Angel",
+        flip_position: "Preserve Position Angel",
+    },
+
+    capture_settings: {
+      miscellaneous: "Miscellaneous",
+      temperature: "Temperature threshold",
+      temperature_tooltip: "Maximum acceptable difference between requested and measured temperature set point. When the temperature threshold is below this value, the temperature set point request is deemed successful.",
+      guiding: "Guiding settle",
+      guiding_tooltip: "Wait this many seconds after guiding is resumed to stabilize the guiding performance before capture.",
+      dialog: "Dialog timeout",
+      dialog_tooltip: "Cover or uncover telescope dialog timeout in seconds.",
+
+      reset_sequence: "Always reset sequence when starting",
+      reset_sequence_tooltip: "When starting to process a sequence list, reset all capture counts to zero. Scheduler overrides this option when Remember job progress is enabled.",
+      reset_mount: "Reset mount model after meridian flip",
+      reset_mount_tooltip: "Reset mount model after meridian flip.",
+      use_flip: "Use flip command if supported by mount",
+      use_flip_tooltip: "Use flip command if it is supported by the mount.",
+      summary_preview: "Summary screen preivew",
+      summary_preview_tooltip: "Display received FITS in the Summary screen preview window.",
+
+      force_dslr: "Force DSLR presets",
+      image_viewer: "DSLR image viewer",
+
+      sequence_focus: "In-Sequence Focus",
+      hfr_threshold: "HFR threshold modifier",
+      hfr_threshold_tooltip: "Set HFR Threshold percentage gain. When an autofocus operation is completed, the autofocus HFR value is increased by this threshold percentage value and stored within the capture module. If In- Sequence-Focus is engaged, the autofocus module only performs auto-focusing procedure if current HFR value exceeds the capture module HFR threshold. Increase value to permit more relaxed changes in HFR values without requiring a full autofocus run.",
+      sequence_check: "In-sequence HFR check",
+      sequence_check_tooltip: "Run In-Sequence HFR check after this many frames.",
+
+      median: "Use median focus",
+      median_tooltip: "Calculate median focus value after each autofocus operation is complete. If the autofocus results become progressively worse with time, the median value shall reflect this trend and prevent unnecessary autofocus operations when the seeing conditions deteriorate.",
+      save_sequence: "Save sequence HFR value to file",
+      save_sequence_tooltip: "In-sequence HFR threshold value controls when the autofocus process is started. If the measured HFR value exceeds the HFR threshold, autofocus process is initiated. If the HFR threshold value is zero initially (default), then the autofocus process best HFR value is used to set the new HFR threshold, after applying the HFR threshold modifier percentage. This new HFR threshold is then used for subsequent In-Sequence focus checks. If this option is enabled, the HFR threshold value is constant and gets saved to the sequence file."
+  }
     },
     capture_presets: {
       heading: "预设",
@@ -642,6 +710,7 @@
       tolerance: "容差",
       park_mount: "归位望远镜",
       park_dome: "归位穹顶",
+      pre_actions: "Calibration Pre-Actions"
     },
     capture_file: {
       filename: "文件名",
@@ -734,6 +803,9 @@
       advanced: "高级",
       clear_model: "清除校准模型",
       yAxis: "漂移（角秒）",
+
+      min_error: "Min error",
+      max_response: "Max response",
     },
     collapse_observatory: {
       heading: "Observatory",
@@ -814,6 +886,8 @@
     histogram: {
       mean: "Mean",
       median: "Median",
+      minimum: "Min",
+      maximum: "Max",
       bit_depth: "Bit Depth",
       non_linear_histogram: "Non-Linear Histogram",
     },
@@ -853,7 +927,7 @@
       none: "无优先级限制条件",
       queue: "队列模式",
       immediate: "立即执行模式",
-      rescheduleErrors: "重新排队等待时间（秒）",
+      rescheduleErrors: "重新排队等待时间",
       no_jobs: "队列中没有任务",
       err_loading_folders: "加载文件夹时发生错误",
       err_loading_fits: "加载 .fits 文件时发生错误",
@@ -866,7 +940,48 @@
       mosaic: {
         import: "导入拼接图像",
         planner: "拼接规划器"
-      }
+      },
+
+      scheduler_settings: {
+        lead_time: "Lead time",
+        lead_time_tooltip: "The minimum time in minutes between jobs. The scheduler starts execution of a job before its scheduled startup time by this lead time. Early execution is useful as focusing, alignment, and guiding procedures may take prolonged periods to time to complete.",
+        pre_dawn: "Pre-dawn",
+        pre_dawn_tooltip: "Do not permit jobs to be scheduled or executed past this many minutes before dawn.",
+        pre_emptive: "Pre-emptive shutdown",
+        pre_emptive_tooltip: "In case no scheduler job is scheduled for this many hours, perform a complete shutdown procedure and restart observatory operations once the next job is ready.",
+        setting_altitude: "Setting altitude cutoff",
+        setting_altitude_tooltip: "Do not permit jobs to be scheduled less than this many degrees before the altitude restriction. Actual execution proceeds until the altitude limit.",
+        dust_offset: "Dust offset",
+        dust_offset_tooltip: "Offset astronomical dusk by this many hours. This positive or negative value adjusts the twilight restriction.",
+        dawn_offset: "Dawn offset",
+        dawn_offset_tooltip: "Offset astronomical dawn by this many hours. This positive or negative value adjusts the twilight restriction.",
+
+        stop_ekos: "Stop Ekos after shutdown",
+        stop_ekos_tooltip: "After shutdown procedure is successfully executed, stop INDI and Ekos.",
+        shutdown_script: "Shutdown script terminates INDI",
+        shutdown_script_tooltip: "If the shutdown script terminates INDI server, enable this option so that no disconnection errors are generated.",
+        remember_job: "Remember Job progress",
+        remember_job_tooltip: "When processing a scheduled job, resume the sequence starting from the last image present in storage.",
+
+        reset_mount :"Reset mount model on alignment failure",
+        reset_mount_tooltip :"Reset mount model on alignment failure",
+        reset_mount_before: "Reset mount model before starting each job",
+        reset_mount_before_tooltip: "Reset mount model before starting each job",
+        force_realign: "Force re-alignment before re-starting jobs",
+        force_realign_tooltip: "If Align is enabled, scheduler would initiate a realignment procedure before restarting any jobs even if guiding is active.",
+        restart_align: "Restart alignment on guiding calibration failure",
+        restart_align_tooltip: "If guiding calibration fails then restart alignment process before proceeding to guiding recalibration process again. This can help recenter the target object in the field of view if the calibration process strayed too far off.",
+
+        offsets: "Offsets",
+        clean_jobs: "Cleanup and Jobs",
+        alignment: "Alignment",
+
+        verify_image: "Verify captured image position every",
+        verify_image_tooltip: "When calculating position after captures, compute it every Nth capture. Set to 0 to disable.",
+        reset_pipeline: "Reset pipeline if verified image delta exceeds",
+        reset_pipeline_tooltip: "If captured position exceeds target position by more this many arcminutes, abort capture and reschedule the pipeline.",
+        arcminutes: "arcminutes",
+    }
     },
     summary: {
       empty: "No summary data available",
@@ -911,6 +1026,8 @@
     updates: "更新选项",
     hotspotMode: "Hotspot Mode",
     wifiNetwork: "Wifi Network",
+    wifiCountry: "WiFi Country",
+
     wifiBand: "WiFi Band",
     update_available: "可用更新",
     update_unavailable: "暂不可用更新",
@@ -983,6 +1100,10 @@
     alert_remote_id: "无法找到远程支持ID",
     alert_remote_failed: "无法获取远程支持ID：",
     alert_remote_not_found: "未发现远程支持：",
+    alert_permission_denied: "Permission Denied",
+    alert_permission_blocked: "Permission Blocked",
+    alert_grant_camera_permission: "You need to grant camera permission first",
+    alert_feature_not_available: "This feature is not available",
 
     alert_logout_account_body: "Are you sure you want to logout?",
 
@@ -1028,8 +1149,10 @@
     reset_app_body: "Purge all App settings?",
     metric: "Metric",
     imperial: "Imperial",
+    file_logging: "File logging",
     alert_delete_account_title: "Delete Account",
-    alert_delete_account_body: "Are you sure you want to delete your account?"
+    alert_delete_account_body: "Are you sure you want to delete your account?",
+    color_scheme_sky_map: "Sky Map Scheme"
   },
   cloud: {
     heading: "云服务",
@@ -1113,7 +1236,8 @@
     share: "Share logs",
     logs: "Logs",
     logs_upload: "Logs uploaded successfully to StellarMate support.",
-    error_upload: "Error uploading logs"
+    error_upload: "Error uploading logs",
+    reset_network: "Reset network"
   },
   controller: 
   {
