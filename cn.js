@@ -5,25 +5,25 @@
     ok: "确认",
     done: "完成",
     cancel: "取消",
-    confirm: "Confirm",
+    confirm: "确认",
     apply: "应用",
     save: "保存",
     select: "选择",
-    hardware: "Hardware",
+    hardware: "硬件",
     usb: "USB",
-    devices: "Devices",
+    devices: "设备",
     connect: "连接",
     disconnect: "断开",
     yes: "是",
     no: "否",
-    ignore: "Ignore",
+    ignore: "忽略",
     error: "错误",
     back: "返回",
     delete: "删除",
     remove: "移除",
     online: "在线",
     offline: "离线",
-    cloud: "Cloud",
+    cloud: "云端",
     remote: "遥控",
     preset: "预设",
     camera: "相机",
@@ -51,17 +51,17 @@
     automatic: "自动",
     manual: "手动",
     progress: "处理",
-    position_angle: "PA",
-    details: "Details",
-    skip: "Skip",
-    updated: "Updated",
-    new: "New",
-    remote_support: "Remote Support",
-    logout: "Logout",
-    setting: "Setting",
-    hours: "Hours",
-    minutes: "Minutes",
-    seconds: "Seconds",
+    position_angle: "方位角",
+    details: "细节",
+    skip: "跳过",
+    updated: "已更新",
+    new: "新建",
+    remote_support: "远程帮助",
+    logout: "登出",
+    setting: "设置",
+    hours: "时",
+    minutes: "分",
+    seconds: "秒",
 
     azimuth: "方位角",
     altitude: "高度角",
@@ -73,7 +73,7 @@
     name: "名称",
     date: "日期",
     resolution: "分辨率",
-    monitor: "Monitor",
+    monitor: "监控",
 
     select_file: "选择文件",
     select_folder: "选择文件夹",
@@ -128,8 +128,7 @@
 
     // Confirm
     alert_confirmation_title: "确认",
-    alert_create_preset_body:
-      "您确定要使用此名称创建预设吗？",
+    alert_create_preset_body: "您确定要使用此名称创建预设吗？",
 
     network_error: "请确认StellarMate已联网",
     internet_required: "请确认你已经联网",
@@ -183,51 +182,81 @@
     completed: "已完成",
     not_completed: "未完成",
     capture_preview_title: "首次之光！",
-    ten_sequences_title: "开始了！",
-    mount_goto_title: "魔法手指",
+    ten_sequences_title: "星河连线",
+    mount_goto_title: "魔法定位",
     video_recording_title: "导演之剪",
-    weather_check_title: "云磁铁",
-    live_stacking_title: "细节显露",
-    create_darks_title: "拥抱黑暗面",
-    create_defect_title: "马赛克修补",
-    import_mosaic_title: "拼接大师",
-    messier_captured_title: "MXXXX (例如 M1)",
-    all_messier_title: "宇宙马拉松",
-    scheduler_title: "机器调度专家",
-    capture_master_title: "天空专家",
-    capture_legend_title: "天空传奇",
+    weather_check_title: "云层猎手",
+    live_stacking_title: "星光闪耀",
+    create_darks_title: "黑暗的力量",
+    create_defect_title: "马赛克大师",
+    import_mosaic_title: "拼图达人",
+    messier_captured_title: "梅西耶探索者",
+    all_messier_title: "梅西耶马拉松",
+    scheduler_title: "序列规划师",
+    capture_master_title: "天空捕手",
+    capture_legend_title: "天空传说",
     paa_title: "完美主义者",
-    guide_rms_title: "准星精通",
+    guide_rms_title: "导星之王",
 
-    capture_preview_description: "拍摄预览图像",
-    ten_sequences_description: "拍摄包含10张图像的序列",
-    mount_goto__description: "在新图像被捕获时，按住目标3秒钟来使用目标GOTO",
-    video_recording_description: "录制1分钟的视频",
-    weather_check__description: "使用天气信息中的云图，至少放大8倍以检查天气",
-    live_stacking_description: "图像实时叠加。至少执行5张图像",
-    create_darks_description: "创建50张暗场图像",
-    create_defect_description: "在马赛克修补图中生成80个以上的热点/冷点像素",
-    import_mosaic_description: "从望远镜导入拼接图像",
-    messier_captured_description: "捕获了一个梅西耶天体",
-    all_messier_description: "捕获了所有梅西耶天体",
-    scheduler_description: "完成一个2小时或更多图像数据的调度任务。",
-    capture_master_description: "总共拍摄了500张图像",
-    capture_legend_description: "总共拍摄了1000张图像",
-    paa_description: "在误差低于30角秒的情况下完成PAA。",
-    guide_rms_description: "使导星的总RMS指导小于0.5角秒。",
+    capture_preview_description:
+      "拍摄预览图像：拍摄一张精美的预览图像，展现宇宙的神秘面貌。",
 
-    filtered_image_description: "Capture a narrowband image",
-    gallery_image_description: "Gallery Image downloaded",
+    ten_sequences_description:
+      "星河连线：拍摄包含10张图像的序列，记录下宇宙中的连绵星光，串联成一幅壮丽的星河画卷。",
 
-    alert_reset_title: "Reset achievements",
-    alert_agree_reset_body: "Are you sure you want to reset all achievements?"
+    mount_goto__description:
+      "魔法定位：在新图像被捕获时，按住目标3秒钟来使用目标GOTO，在茫茫星空中精确定位，让您的望远镜准确锁定目标。",
+
+    video_recording_description:
+      "导演之剪：录制1分钟的时间流逝视频，将星空的变幻与宇宙的奥秘化为永恒的画面。",
+
+    weather_check__description:
+      "云层猎手：利用天气信息中的云图，至少放大8倍以检查天气，保证你的拍摄不受云层遮挡，尽情追寻星空的美丽。",
+
+    live_stacking_description:
+      "星光闪耀：实时叠加图像，至少执行5张图像，让宇宙中的星光在你的相机中闪耀绽放，谁说短曝不能拍深空。",
+
+    create_darks_description:
+      "黑暗的力量：创建50张暗场图像，用暗场干掉那些可恶的噪点。",
+
+    create_defect_description:
+      "马赛克大师：在马赛克修补图中生成80个以上的热点/冷点像素，用创造力修复图像的瑕疵，让宇宙的美丽更加完整无缺。",
+
+    import_mosaic_description:
+      "拼图达人：从相机导入需要的拼接图像，然后将多张图像拼接在一起，由此展现出更广阔的宇宙景象。",
+
+    messier_captured_description:
+      "梅西耶探索者：捕获了一个梅西耶天体，留下永恒的纪念，展示你对宇宙的探索精神和敏锐的观察力。",
+
+    all_messier_description:
+      "梅西耶马拉松：捕获了所有梅西耶天体，重走先人的探索之路。完成这一壮举，证明你是宇宙探索的真正先锋。",
+
+    scheduler_description:
+      "序列规划师：完成一个2小时或更长时间的拍摄序列，精准安排拍摄时间，捕捉到最佳的宇宙瞬间。",
+
+    capture_master_description:
+      "天空捕手：总共拍摄了500张图像，你是真正的天空捕手，记录下宇宙中的每一个细节和美丽瞬间。",
+
+    capture_legend_description:
+      "天空传说：总共拍摄了1000张图像，你已经成为天空摄影的传奇，你的作品将永远流传在宇宙之中。",
+
+    paa_description:
+      "完美主义者：在误差低于30角秒的情况下完成PAA，你的精确度和追求完美的态度令人钦佩。",
+
+    guide_rms_description:
+      "导星之王：使导星的总RMS误差小于0.5角秒，你是真正的导星之王，在与风、大气抖动的斗争中取得完美胜利。",
+
+    filtered_image_description: "啊，是窄带！",
+    gallery_image_description: "回忆过往",
+
+    alert_reset_title: "重置成就",
+    alert_agree_reset_body: "您确定要重置所有成就吗？",
   },
-  tourGuide:
-  {
+  tourGuide: {
     tour_guide: "指导",
     previous: "上一页",
     finish: "完成",
-    title_devices_list: "StellarMate设备列表",
+    title_devices_list: "设备列表",
     title_device_actions: "设备操作",
     title_profiles: "设备配置文件",
     title_port_selector: "端口选择",
@@ -240,13 +269,13 @@
     title_align: "对准",
     title_guide: "跟踪",
     title_capture: "拍摄",
-    title_mount: "望远镜底座",
+    title_mount: "望远镜",
     title_observatory: "天文台",
-    title_scheduler: "计划任务",
+    title_scheduler: "序列",
     title_indi: "INDI控制面板",
     title_quick_controls: "快速控制",
     title_preview: "预览图像",
-    title_framing: "定位",
+    title_framing: "拍摄",
     title_live_video: "实时视频",
     title_stop: "停止",
     title_live_stacking: "实时叠加",
@@ -256,37 +285,47 @@
     title_search_bar: "搜索栏",
     title_time_controls: "时间设置",
     title_target_controls: "目标控制",
-    title_object_info: "物体信息",
+    title_object_info: "目标信息",
     title_fov: "视场",
     title_target_action: "目标动作",
 
-    description_devices_list: "这是自动发现和手动添加的StellarMate设备列表。单击重新扫描以检测网络上的新StellarMate设备。",
-    description_device_actions: "从列表中删除设备，执行恢复出厂设置或注销操作。",
-    description_profiles: "在设备配置文件中管理天文设备。必须在启动配置文件前将所有设备接通并连接到StellarMate。开始配置文件后，请使用光路配置来配置每个设备的功能，然后单击Ekos按钮开始天体摄影会话。",
-    description_port_selector: "在首次启动配置文件后，选择您设备的串口和/或网络设置。",
+    description_devices_list:
+      "自动发现和手动添加的StellarMate设备列表。单击重新扫描以检测网络上的新StellarMate设备。",
+    description_device_actions:
+      "从列表中删除设备，执行恢复出厂设置或注销操作。",
+    description_profiles:
+      "在设备配置文件中管理天文设备。必须在启动配置文件前将所有设备接通并连接到StellarMate。开始配置文件后，请使用光路配置来配置每个设备的功能，然后单击Ekos按钮开始天体摄影会话。",
+    description_port_selector:
+      "在首次启动配置文件后，选择您设备的串口和/或网络设置。",
     description_trains:
-      "使用光路配置来设置您的设备如何排列。为每个相机创建一个配置文件。",
-    description_weather_bar: "简要的天气报告和当前站点Bortle值",
+      "使用视场配置来管理您的设备。为每个相机创建一个配置文件。",
+    description_weather_bar: "简要的天气报告和当前站点波尔特暗夜等级",
     description_cloud_report: "云量超过3小时。",
-    description_next: "通过单击目标选项卡，探索适用的天文目标。使用Go&Solve将您的目标居中在相机框架中。打开定位助手，实现完美的期望方向。前往Ekos选项卡设置图像序列和实时堆栈图像。",
+    description_next:
+      "通过单击目标选项卡，探索适用的天文目标。使用Go&Solve将您的目标居中在相机视场中。打开定位助手，实现完美的期望方向。前往Ekos选项卡设置图像序列和实时叠加图像。",
 
-    description_focus: "使用电动对焦器对相机进行对焦。",
-    description_align: "通过对一张图像进行对齐解算，精准地将望远镜对准目标。",
-    description_guide: "跟踪您的目标，保持底座锁定，并使其能够进行长时间曝光。",
-    description_capture: "使用可配置的设置创建图像序列。管理滤镜轮和暗库存储库。",
-    description_mount: "切换跟踪，停车和子午线翻转设置。配置自动停靠。",
+    description_focus: "使用电调进行对焦。",
+    description_align: "通过解析图像获取当前指向坐标，使望远镜精确对准目标。",
+    description_guide:
+      "跟踪您的目标，保持赤道仪锁定，并使其能够进行长时间曝光。",
+    description_capture:
+      "使用可配置的设置创建图像序列。管理滤镜轮和暗场存储库。",
+    description_mount: "切换跟踪，归位和中天翻转设置。配置自动零位。",
     description_observatory: "控制圆顶和防尘盖设备。",
-    description_scheduler: "通过选择目标和序列文件来自动化整个天体摄影会话。从Telescopius导入拼接。",
-    description_indi: "直接访问设备属性的低级别控制面板。",
-    description_quick_controls: "快速访问底座，相机和转台控件。",
-    description_preview: "拍摄一个预览帧。",
+    description_scheduler:
+      "通过选择目标和序列文件来自动化整个天体摄影。从Telescopius导入拼接。",
+    description_indi: "直接访问INDI控制面板。",
+    description_quick_controls: "快速访问赤道仪，相机和转台控件。",
+    description_preview: "拍摄图像预览。",
     description_framing: "无限循环曝光，直到停止",
-    description_live_video: "开始实时视频流并将视频录制到存储中。",
+    description_live_video: "开始实时视频流并报错到本地。",
     description_stop: "停止任何正在进行的曝光或录制。",
-    description_live_stacking: "实时叠加图像以增加信噪比。如果存在进行中的捕获序列，则实时叠加将使用传入的图像; 否则，它将使用快速相机设置中的设置循环曝光。",
-    description_quick_settings: "选择活动光路配置文件并配置相机和滤镜轮设置。",
+    description_live_stacking:
+      "实时叠加图像以增加信噪比。如果存在进行中的拍摄序列，则实时叠加将使用实时获取的图像; 否则，它将使用快速相机设置中的设置循环曝光。",
+    description_quick_settings: "选择视场配置文件并配置相机和滤镜轮设置。",
 
-    description_targets_info: "Target是StellarMate规划工具，可简化观测操作。从数千个物体中搜索并使用简单的标准进行过滤。使用定位助手定位您的目标。",
+    description_targets_info:
+      "目标管理器是StellarMate规划工具，可简化观测操作。从数千个天体中搜索并使用简单的标准进行过滤。使用定位助手定位您的目标。",
     description_search_bar:
       "过滤现有清单中的对象或通过输入名称并单击搜索按钮来搜索新对象。",
     description_time_controls:
@@ -294,37 +333,44 @@
     description_target_controls:
       "查看黄昏信息，管理视场范围，调整滤镜并选择目标类型。",
     description_object_info: "物体大小、上升、过境和设置时间。",
-    description_fov: "单击进入Framing Assistant模式。",
-    description_target_action: "将目标添加到收藏夹或自定义列表中。仅命令GOTO或命令GOTO后拍摄和解决。如果Ekos处于离线状态，则安排该目标。",
-    alert_guided_tour_title: "Take a guided tour on Stellarmate App features",
+    description_fov: "单击进入构图助手模式。",
+    description_target_action:
+      "将目标添加到收藏夹或自定义列表中。仅命令GOTO或命令GOTO后拍摄和解决。如果Ekos处于离线状态，则安排该目标。",
+    alert_guided_tour_title: "进行一次领略Stellarmate魅力的导览",
   },
-  tooltip:
-  {
-    "placeholder": "占位符 %{0} 或 %{1}",
-    "placeholder_file": "不带扩展名的.esq文件名。",
-    "placeholder_date": "保存文件时的当前时间和日期。",
-    "placeholder_type": "帧类型，例如：'Light'、'Dark'",
-    "placeholder_exp": "曝光时长（秒）。",
-    "placeholder_exposure": "The exposure duration in seconds as plain number, without any unit as suffix.",
-    "placeholder_offset": "The offset configured for capturing.",
-    "placeholder_gain": "The gain configured for capturing.",
-    "placeholder_bin": "The binning configured for capturing.",
-    "placeholder_iso": "The ISO value(DSLRs only).",
-    "placeholder_pierside": "The current mount's pier side",
-    "placeholder_temperature": "The camera temperature of capturing.",
-    "placeholder_filter": "活动滤镜名称。",
-    "placeholder_seq": "图像序列标识符，其中 * 是使用的数字位数（1-9），此标记是必需的并且必须是格式中的最后一个元素。",
-    "placeholder_target": "目标名称。",
-    "placeholder_arbitrary": "Arbitrary text may also be included within the Format string, except the % and / characters. The / Path character can be used to define arbitrary directories.",
-    "placeholder_notes": "Notes:",
-    "placeholder_case": "• Tags are case sensitive in both their short and long forms",
-    "placeholder_datetime": "• Only use the %Datetime tag in the filename portion of the format, not in the path definition.",
-    "format_title": "使用占位符标记来定义图像文件名的格式。",
-    "suffix": "用于在文件名中附加序列号的数字位数。",
-    "paa_desc": "在极轴对准过程中使用平板解算方法。板解析速度较慢，但提供更准确的结果。",
-    "plate_solving": "使用板解析跟踪刷新过程中校正的对准错误。用户应尝试减少下面更新错误行中的误差并最小化箭头的大小。",
-    "mount_info": "移动星星和计算误差",
-    "movestar_desc": "类似于Move Star，但是Ekos尝试跟踪正在移动的星星，并在可能时估计当前对准误差。"
+  tooltip: {
+    placeholder: "占位符 %{0} 或 %{1}",
+    placeholder_file: "不带扩展名的.esq文件名。",
+    placeholder_date: "保存文件时的当前时间和日期。",
+    placeholder_type: "帧类型，例如：'Light'、'Dark'",
+    placeholder_exp: "曝光时长（秒）。",
+    placeholder_exposure:
+      "曝光持续时间以秒为单位，单位为普通数字，后缀不含任何单位。",
+    placeholder_offset: "偏置。",
+    placeholder_gain: "增益。",
+    placeholder_bin: "像素合并。",
+    placeholder_iso: "ISO(单反only).",
+    placeholder_pierside: "赤道仪指向",
+    placeholder_temperature: "相机温度",
+    placeholder_filter: "当前滤镜名称。",
+    placeholder_seq:
+      "图像序列标识符，其中 * 是使用的数字位数（1-9），此标记是必需的并且必须是格式中的最后一个元素。",
+    placeholder_target: "目标名称。",
+    placeholder_arbitrary:
+      "格式字符串中也可以包括任意文本，%和/字符除外。/Path字符可用于定义任意目录。",
+    placeholder_notes: "注意：",
+    placeholder_case: "•标签区分大小写",
+    placeholder_datetime:
+      "•只在格式的文件名部分使用%Datetime标记，而不在路径定义中使用。",
+    format_title: "使用占位符标记来定义图像文件名的格式。",
+    suffix: "用于在文件名中附加序列号的数字位数。",
+    paa_desc:
+      "在极轴对准过程中使用解析法。解析速度较慢，但可以提供更准确的结果。",
+    plate_solving:
+      "使用解析获取校准过程中的指向偏差。用户应尝试减少下面更新错误行中的误差并最小化偏移。",
+    mount_info: "赤道仪转动并计算误差",
+    movestar_desc:
+      "类似于Move Star，但是Ekos尝试跟踪正在移动的星星，并在可能时估计当前对准误差。",
   },
   splash: {
     checking_for_updates: "检测更新中...",
@@ -380,27 +426,27 @@
     require_sm_plus_pro: "如果已购买，请注册",
   },
   device_scanner: {
-    scanning: "正在联网获取StellarMate设备中，请稍侯",
-    qr_scan: "扫描您的设备上的二维码",
+    scanning: "正在联网获取StellarMate设备中，请稍侯。。。",
+    qr_scan: "扫描设备上的二维码",
   },
   statuses: {
     Idle: "闲置",
-    prep: "Prep",
-    run: "Run",
+    prep: "准备",
+    run: "运行",
     Aborted: "中断",
     "Calibration error": "校准错误",
     Capturing: "正在捕获",
     "In Progress": "进行中",
     "Setting Temperature": "设置温度",
-    Slewing: "反转中",
+    Slewing: "移动中",
     Calibrating: "校准中",
     Tracking: "追踪中",
     Guiding: "导星中",
-    Parking: "复位中",
+    Parking: "归位中",
     "User Input": "请输入",
     Complete: "完成",
     Suspended: "暂停",
-    Parked: "复位",
+    Parked: "已归位",
   },
   connect: {
     register_welcome: "请登录您的Stellarmate账号以同步设备.",
@@ -428,20 +474,20 @@
     logging_in_progress: "正在登陆StellarMate...",
     connecting: "连接中...",
     logging: "登陆中...",
-    generic: "Generic Serial",
-    select_driver: "Please select device type and driver",
-    invalid_ip: "No IP address found or invalid IP {0}. Please try again.",
+    generic: "通用串口",
+    select_driver: "请选择设备类别和驱动",
+    invalid_ip: "找不到IP地址或IP{0}无效。请再试一次。",
 
     ip_address: "请输入IP地址",
     login_register: {
       heading: "认证",
       heading_online: "请登录stellarmate.com",
       connect_to_internet: "您必须联网",
-      connect_to_sync: "此操作仅用于同步您的帐户一次.",
+      connect_to_sync: "此操作仅用于同步您的帐户.",
       reset_app:
         "提示：你可以通过转到“关于”选项，单击“重置应用程序”按钮，然后重新启动应用程序，将应用程序与你的在线帐户重新同步",
       no_valid_device: "无有效的设备信息",
-      setup_guide: "设置导星设备",
+      setup_guide: "设置导星",
       register: "注册",
       login: "登入",
       serial: "序列号#",
@@ -485,10 +531,10 @@
       edit_profile: "编辑配置文件",
       mount: "赤道仪",
       ccd: "主相机 1",
-      dome: "Dome",
+      dome: "穹顶",
       guider: "主相机 2",
       ao: "自适应光学设备",
-      weather: "天气设备",
+      weather: "天气",
       aux1: "辅助设备1",
       aux2: "辅助设备2",
       aux3: "辅助设备3",
@@ -524,8 +570,8 @@
     moon: "月亮",
     sun: "太阳",
     search: "搜索",
-    cam_width: "Camera Width",
-    cam_height: "Camera Height",
+    cam_width: "视场宽度",
+    cam_height: "视场高度",
     phases: {
       new_moon: "新月",
       full_moon: "满月",
@@ -543,13 +589,13 @@
     rotate_capture: "旋转并拍摄",
     goto_rotate: "去并旋转",
     angular_offset: "角度偏差",
-    no_objects_in_list: "No Objects found. Please check active list, adjust or reset the filters.",
+    no_objects_in_list: "找不到目标。请检查活动列表，调整或重置过滤器。",
     go_and_solve: "前往并求解",
     fov_profile: "视场角配置",
     fov_width: "视场宽度",
     fov_height: "视场高度",
-    alert_select_FOV_body:"Please create or select an FOV profile in order to use Framing assistant.",
-    alert_list_exists_body: "A list with that name already exists",
+    alert_select_FOV_body: "请创建或选择FOV配置文件，以便使用构图助手。",
+    alert_list_exists_body: "相同名称列表已存在！",
   },
   ekos: {
     heading: "Ekos",
@@ -560,11 +606,11 @@
     alert_ekos_offline_title: "Ekos离线中",
     alert_ekos_offline_body: "Ekos目前处于离线状态，是否开启设备匹配?",
     ekos_dialog: {
-      auto_closes_in: "Auto closes in",
+      auto_closes_in: "自动关闭",
     },
     indi: {
-      no_logs: "No logs are available for this driver"
-  },
+      no_logs: "没有可用于此驱动的日志",
+    },
     controls_bar: {
       mount_speed: "赤道仪转速",
       centering: "居中",
@@ -574,12 +620,12 @@
     collapse_align: {
       heading: "导星",
       action_sync: "同步",
-      action_slew: "回转至目标",
-      action_nothing: "不进行动作",
-      solver_backend: "Backend",
+      action_slew: "转动至目标",
+      action_nothing: "不进行任何操作",
+      solver_backend: "解析平台",
       control: "控制",
       solve: "拍摄 & 解析",
-      load: "Load & Slew",
+      load: "加载 & 转动",
       polar: "极轴校准",
       accuracy: "精度",
       settle: "稳定时间",
@@ -589,11 +635,11 @@
       x_axis: "迭代次数",
       y_axis: "误差（弧秒）",
       refresh_rate: "刷新频率",
-      image_selected: "Image selected successfully",
-      select_method: "Please select the image selection method",
-      device_gallery: "Phone/Tablet gallery",
-      sm_storage: "SM Storage",
-      request_storage_permission: "Please allow the storage permission",
+      image_selected: "图像选择成功",
+      select_method: "请选择图像的选择模式",
+      device_gallery: "手机/平板电脑库",
+      sm_storage: "SM 存储",
+      request_storage_permission: "请允许存储权限",
       manualRotator: {
         heading: "手动转动器",
         current_pa: "当前位置角",
@@ -601,20 +647,20 @@
         another_image: "拍摄另一张图片",
       },
       align_settings: {
-        rotator_control: "转动器控制",
-        use_scale: "使用比例尺",
+        rotator_control: "场旋器控制",
+        use_scale: "使用缩放",
         use_position: "使用位置",
       },
       calibration_settings: {
         pulse: "脉冲",
         max_move: "最大移动范围",
-        iterations: "Iterations",
+        iterations: "迭代",
         two_axis: "双轴",
         square_size: "自动正方形大小",
         calibrate_backlast: "在导星校准时消除赤纬反向间隙",
         reset_calibration: "每次望远镜移动后重置导星校准",
         reuse_calibration: "尽可能存储和重复使用导星校准",
-        reverse_calibration: "在天文台一侧转换时，反转赤纬以重复使用校准值",
+        reverse_calibration: "在赤道仪中天翻转时，反转赤纬以重复使用校准值",
       },
     },
 
@@ -623,16 +669,16 @@
       type_light: "亮帧",
       type_bias: "偏置",
       type_flat: "平场",
-      type_dark: "Dark",
+      type_dark: "暗场",
       format_fits: "FITS",
       format_native: "原生",
-      cooling_unavailable: "冷却不可用",
-      btn_add_to_sequence: "添加到拍摄队列",
+      cooling_unavailable: "制冷功能不可用",
+      btn_add_to_sequence: "添加到拍摄序列",
       btn_loop: "循环",
 
       rotator_control: {
-        title: "Rotator",
-        angle: "Rotator Angle",
+        title: "场旋器",
+        angle: "场旋角度",
         offset: "Camera Offset",
         pierside: "Camera Pierside",
         flip: "Flip Policy",
@@ -640,77 +686,82 @@
         reverse_direction: "Reverse direction of Rotator",
         flip_rotator: "Preserve Rotator Angel",
         flip_position: "Preserve Position Angel",
-    },
+      },
 
-    capture_settings: {
-      miscellaneous: "Miscellaneous",
-      temperature: "Temperature threshold",
-      temperature_tooltip: "Maximum acceptable difference between requested and measured temperature set point. When the temperature threshold is below this value, the temperature set point request is deemed successful.",
-      guiding: "Guiding settle",
-      guiding_tooltip: "Wait this many seconds after guiding is resumed to stabilize the guiding performance before capture.",
-      dialog: "Dialog timeout",
-      dialog_tooltip: "Cover or uncover telescope dialog timeout in seconds.",
+      capture_settings: {
+        miscellaneous: "杂项",
+        temperature: "温度阈值",
+        temperature_tooltip:
+          "请求温度设定点与测量温度设定点之间的最大可接受差值。当温度阈值低于该值时，温度设定点请求被认为是成功的。",
+        guiding: "导星稳定",
+        guiding_tooltip: "在导星恢复后等待几秒钟，以稳定导星。",
+        dialog: "对话超时",
+        dialog_tooltip: "关闭或打开望远镜对话框超时（秒）。",
 
-      reset_sequence: "Always reset sequence when starting",
-      reset_sequence_tooltip: "When starting to process a sequence list, reset all capture counts to zero. Scheduler overrides this option when Remember job progress is enabled.",
-      reset_mount: "Reset mount model after meridian flip",
-      reset_mount_tooltip: "Reset mount model after meridian flip.",
-      use_flip: "Use flip command if supported by mount",
-      use_flip_tooltip: "Use flip command if it is supported by the mount.",
-      summary_preview: "Summary screen preivew",
-      summary_preview_tooltip: "Display received FITS in the Summary screen preview window.",
+        reset_sequence: "每次重启后重置拍摄队列",
+        reset_sequence_tooltip:
+          "开始序列时，将所有已拍摄计数重置为零。启用“记住序列进度”后，序列功能将覆盖此选项。",
+        reset_mount: "在中天反转后重置赤道仪校准模型",
+        reset_mount_tooltip: "在中天反转后重置赤道仪校准模型",
+        use_flip: "在赤道仪支持的情况下使用反转功能",
+        use_flip_tooltip: "在赤道仪支持的情况下使用反转功能",
+        summary_preview: "缩略图预览",
+        summary_preview_tooltip: "在缩略图中预览拍摄到的FITS图像",
 
-      force_dslr: "Force DSLR presets",
-      image_viewer: "DSLR image viewer",
+        force_dslr: "强制单反预设",
+        image_viewer: "单反图像查看器",
 
-      sequence_focus: "In-Sequence Focus",
-      hfr_threshold: "HFR threshold modifier",
-      hfr_threshold_tooltip: "Set HFR Threshold percentage gain. When an autofocus operation is completed, the autofocus HFR value is increased by this threshold percentage value and stored within the capture module. If In- Sequence-Focus is engaged, the autofocus module only performs auto-focusing procedure if current HFR value exceeds the capture module HFR threshold. Increase value to permit more relaxed changes in HFR values without requiring a full autofocus run.",
-      sequence_check: "In-sequence HFR check",
-      sequence_check_tooltip: "Run In-Sequence HFR check after this many frames.",
+        sequence_focus: "序列中对焦",
+        hfr_threshold: "HFR阈值修正",
+        hfr_threshold_tooltip:
+          "设置HFR阈值百分比增益。当自动对焦操作完成时，自动对焦HFR值增加该阈值百分比值并存储在捕获模块内。如果顺序对焦已启用，则自动对焦模块仅在当前HFR值超过捕获模块HFR阈值时执行自动对焦程序。增加值以允许在不需要完全自动对焦的情况下更轻松地更改HFR值。",
+        sequence_check: "序列中HFR检查",
+        sequence_check_tooltip: "在拍摄多张图像后进行序列内HFR检查",
 
-      median: "Use median focus",
-      median_tooltip: "Calculate median focus value after each autofocus operation is complete. If the autofocus results become progressively worse with time, the median value shall reflect this trend and prevent unnecessary autofocus operations when the seeing conditions deteriorate.",
-      save_sequence: "Save sequence HFR value to file",
-      save_sequence_tooltip: "In-sequence HFR threshold value controls when the autofocus process is started. If the measured HFR value exceeds the HFR threshold, autofocus process is initiated. If the HFR threshold value is zero initially (default), then the autofocus process best HFR value is used to set the new HFR threshold, after applying the HFR threshold modifier percentage. This new HFR threshold is then used for subsequent In-Sequence focus checks. If this option is enabled, the HFR threshold value is constant and gets saved to the sequence file."
-  }
+        median: "使用中值对焦",
+        median_tooltip:
+          "计算每次自动对焦操作完成后的焦点中值。如果自动对焦结果随着时间的推移而逐渐变差，则中值应反映这一趋势，并在视觉条件恶化时防止不必要的自动对焦操作。",
+        save_sequence: "序列HFR保存到文件中",
+        save_sequence_tooltip:
+          "依次，HFR阈值控制自动聚焦处理何时开始。如果测得的HFR值超过HFR阈值，则启动自动对焦过程。如果HFR阈值最初为零（默认），则在应用HFR阈值修改器百分比之后，使用自动聚焦过程最佳HFR值来设置新的HFR阈值。这个新的HFR阈值随后用于后续的顺序聚焦检查。如果启用此选项，HFR阈值将保持不变，并保存到序列文件中。",
+      },
     },
     capture_presets: {
       heading: "预设",
     },
     capture_limits: {
-      heading: "Limit Settings",
-      guiding_deviation: "Guiding Deviation <",
+      heading: "限制设置",
+      guiding_deviation: "导星误差 <",
       guiding_deviation_unit: '"',
       focus_hfr: "自动对焦如果HFR >",
-      focus_hfr_unit: "pixels",
+      focus_hfr_unit: "像素",
       focus_deltaT: "自动对焦如果ΔT° >",
       focus_deltaT_unit: "°C",
-      refocus_n: "Refocus every",
+      refocus_n: "重新对焦每",
       refocus_n_unit: "分",
     },
     capture_filters: {
-      heading: "Filter Settings",
-      auto_focus: "Auto Focus",
-      lock_filter: "Lock Filter",
+      heading: "滤镜轮设置",
+      auto_focus: "自动对焦",
+      lock_filter: "锁定滤镜",
     },
     targets_filters: {
-      object_type: "Object Type",
+      object_type: "目标类型",
       alt: "Alt",
     },
     capture_auto_calibration: {
       heading: "自动校准",
       flat_source: "平场源",
       flat_duration: "平场曝光时间",
-      dust_builtin: "带内置平场灯的防尘罩",
-      dust_external: "带外置平场灯的防尘罩",
+      dust_builtin: "带内置平场灯的镜头盖",
+      dust_external: "带外置平场灯的镜头盖",
       wall: "墙",
       az: "方位角",
       adu: "ADU",
       tolerance: "容差",
       park_mount: "归位望远镜",
       park_dome: "归位穹顶",
-      pre_actions: "Calibration Pre-Actions"
+      pre_actions: "校准前置准备",
     },
     capture_file: {
       filename: "文件名",
@@ -722,10 +773,10 @@
       duration: "持续时间",
       suffix: "后缀",
       usb: "USB 成功卸载",
-      unmount: "卸载"
+      unmount: "卸载",
     },
     collapse_dome: {
-      heading: "窗口和圆顶",
+      heading: "穹顶",
       cap: "窗口",
       dome: "圆顶",
       shutter: "快门",
@@ -804,34 +855,34 @@
       clear_model: "清除校准模型",
       yAxis: "漂移（角秒）",
 
-      min_error: "Min error",
-      max_response: "Max response",
+      min_error: "最小误差",
+      max_response: "最大响应",
     },
     collapse_observatory: {
-      heading: "Observatory",
+      heading: "天文台",
     },
     collapse_polar: {
       heading: "极轴校正",
-      mount_direction: "赤道仪导航",
-      manual_slew: "Manual Slew",
+      mount_direction: "赤道仪指向",
+      manual_slew: "手动旋转",
       west: "西",
       east: "东",
       mount_rotation: "赤道仪回转",
       refresh: "刷新",
       fov_error: "无效：视场广度必须为30角分以上",
       polar_error: "极轴错误",
-      az_error: "AZ error: ",
-      al_error: "AL error: ",
+      az_error: "AZ 错误: ",
+      al_error: "AL 错误: ",
     },
     collapse_sequence: {
       progress: "进度",
-      sequence: "队列",
+      sequence: "序列",
       overall_progress: "总进度",
-      sequences: "所有队列",
-      no_sequences: "无拍摄队列，您可以在相机设置中添加",
-      alert_sequence_error_body: "Error saving sequence file",
-      alert_sequence_loading_body: "Error loading sequence file",
-      alert_sequence_delete_body: "Error deleting sequence file"
+      sequences: "所有序列",
+      no_sequences: "无拍摄序列，您可以在相机设置中添加",
+      alert_sequence_error_body: "保存序列文件时出错",
+      alert_sequence_loading_body: "加载序列文件时出错",
+      alert_sequence_delete_body: "删除序列文件时出错",
     },
     collapse_mount: {
       meridian_flip: "子午线翻转",
@@ -854,11 +905,11 @@
       west_long: "西（向东指）",
     },
     modal_add_to_seq: {
-      heading: "添加到队列",
+      heading: "添加到序列",
     },
     modal_goto_sync: {
       heading: "Goto&同步",
-      category: "星表类型",
+      category: "星体类型",
       btn_goto: "Goto",
     },
     mount_status_bar: {
@@ -869,7 +920,7 @@
       ha: "HA",
     },
     camera_status_bar: {
-      bin: "Bin",
+      bin: "像素合并",
     },
     solution_bar: {
       dra: "赤经偏差",
@@ -884,110 +935,121 @@
       declination: "赤纬",
     },
     histogram: {
-      mean: "Mean",
-      median: "Median",
-      minimum: "Min",
-      maximum: "Max",
-      bit_depth: "Bit Depth",
-      non_linear_histogram: "Non-Linear Histogram",
+      mean: "均值",
+      median: "中值",
+      minimum: "最小",
+      maximum: "最大",
+      bit_depth: "位深",
+      non_linear_histogram: "非线性直方图",
     },
     livestacking: {
-      auto_dark: "Auto Dark",
-      plate_solve: "Plate Solve",
-      background: "Background",
-      saturation: "Saturation",
-      contrast: "Contrast",
-      sigma_clipping: "Sigma Clipping",
-      noImages: "No Live Stacking Images found",
+      auto_dark: "自动暗场",
+      plate_solve: "解析",
+      background: "背景",
+      saturation: "饱和度",
+      contrast: "对比度",
+      sigma_clipping: "Sigma滤波",
+      noImages: "未找到实时叠加图像",
     },
     scheduler: {
-      scheduler: "调度程序",
+      scheduler: "计划管理器",
       j2000: "J2000",
       fits: "FITS 文件",
       priority: "优先级",
       profile: "配置文件",
-      startupConditions: "作业启动条件",
-      JobConstraints: "作业限制条件",
-      completionConditions: "作业完成条件",
+      startupConditions: "启动条件",
+      JobConstraints: "限制条件",
+      completionConditions: "完成条件",
       observatoryStartup: "天文观测台启动",
-      abortedJobManagement: "异常作业处理",
+      abortedJobManagement: "异常处理",
       observatoryShutdown: "天文观测台关闭",
-      alt: "高度限制条件",
-      moon: "月亮高度限制条件",
-      twilight: "日出日落时间限制条件",
-      artifHorizon: "人造视线条件",
+      alt: "高度限制",
+      moon: "月亮高度限制",
+      twilight: "日出日落时间限制",
+      artifHorizon: "地平线限制",
       sequenceCompletion: "序列完成条件",
       repeatFor: "重复执行次数",
       repeatUntilTerminated: "重复直到终止",
       repeatUntil: "重复执行直到",
-      unparkDome: "解锁天文馆开门限制",
-      unparkMount: "解锁天文望远镜开锁限制",
-      uncap: "卸下相机盖限制",
+      unparkDome: "解锁天文馆穹顶限制",
+      unparkMount: "解锁望远镜限制",
+      uncap: "卸下镜头盖限制",
       warmCCD: "相机预热限制",
-      none: "无优先级限制条件",
-      queue: "队列模式",
+      none: "无优先级限制",
+      queue: "序列模式",
       immediate: "立即执行模式",
       rescheduleErrors: "重新排队等待时间",
       no_jobs: "队列中没有任务",
       err_loading_folders: "加载文件夹时发生错误",
       err_loading_fits: "加载 .fits 文件时发生错误",
       err_delete_file: "删除文件时发生错误",
-      add_job: "添加作业",
-      start_jobs: "启动和停止作业",
+      add_job: "添加任务",
+      start_jobs: "启动和停止任务",
       culimination: "天文望远镜最高点偏移",
-      create_jobs: "创建作业",
+      create_jobs: "创建任务",
 
       mosaic: {
         import: "导入拼接图像",
-        planner: "拼接规划器"
+        planner: "拼接规划器",
       },
 
       scheduler_settings: {
-        lead_time: "Lead time",
-        lead_time_tooltip: "The minimum time in minutes between jobs. The scheduler starts execution of a job before its scheduled startup time by this lead time. Early execution is useful as focusing, alignment, and guiding procedures may take prolonged periods to time to complete.",
-        pre_dawn: "Pre-dawn",
-        pre_dawn_tooltip: "Do not permit jobs to be scheduled or executed past this many minutes before dawn.",
-        pre_emptive: "Pre-emptive shutdown",
-        pre_emptive_tooltip: "In case no scheduler job is scheduled for this many hours, perform a complete shutdown procedure and restart observatory operations once the next job is ready.",
-        setting_altitude: "Setting altitude cutoff",
-        setting_altitude_tooltip: "Do not permit jobs to be scheduled less than this many degrees before the altitude restriction. Actual execution proceeds until the altitude limit.",
-        dust_offset: "Dust offset",
-        dust_offset_tooltip: "Offset astronomical dusk by this many hours. This positive or negative value adjusts the twilight restriction.",
-        dawn_offset: "Dawn offset",
-        dawn_offset_tooltip: "Offset astronomical dawn by this many hours. This positive or negative value adjusts the twilight restriction.",
+        lead_time: "提前量",
+        lead_time_tooltip:
+          "任务之间的最短时间（分钟）。序列在该提前期之前的计划启动时间之前开始执行作业。提前运行是有用的，因为自动对焦、调整导星可能需要很长时间才能完成。",
+        pre_dawn: "黎明前",
+        pre_dawn_tooltip: "不要允许在黎明前超过这么多分钟安排或执行作业。",
+        pre_emptive: "先发制人的停机",
+        pre_emptive_tooltip:
+          "如果在这么多小时内没有安排序列任务，请执行完整的关闭过程，并在下一个任务准备就绪后重新启动天文台操作。",
+        setting_altitude: "设置高度截止",
+        setting_altitude_tooltip:
+          "在海拔限制之前，不允许将任务安排在低于这么多度的位置。实际执行一直进行到高度限制。",
+        dust_offset: "黄昏偏置",
+        dust_offset_tooltip:
+          "用这么多小时抵消天文黄昏。此正值或负值可调整微光限制。",
+        dawn_offset: "黎明偏置",
+        dawn_offset_tooltip:
+          "用这么多小时抵消天文黎明。此正值或负值可调整微光限制。",
 
-        stop_ekos: "Stop Ekos after shutdown",
-        stop_ekos_tooltip: "After shutdown procedure is successfully executed, stop INDI and Ekos.",
-        shutdown_script: "Shutdown script terminates INDI",
-        shutdown_script_tooltip: "If the shutdown script terminates INDI server, enable this option so that no disconnection errors are generated.",
-        remember_job: "Remember Job progress",
-        remember_job_tooltip: "When processing a scheduled job, resume the sequence starting from the last image present in storage.",
+        stop_ekos: "关机后停止Ekos",
+        stop_ekos_tooltip: "成功执行关闭程序后，停止INDI和Ekos。",
+        shutdown_script: "关机前中止INDI",
+        shutdown_script_tooltip:
+          "如果关闭脚本终止INDI服务器，请启用此选项，以便不会生成断开连接错误。",
+        remember_job: "记住任务进度",
+        remember_job_tooltip:
+          "在处理预定任务时，从存储中的最后一张图像开始恢复序列。",
 
-        reset_mount :"Reset mount model on alignment failure",
-        reset_mount_tooltip :"Reset mount model on alignment failure",
-        reset_mount_before: "Reset mount model before starting each job",
-        reset_mount_before_tooltip: "Reset mount model before starting each job",
-        force_realign: "Force re-alignment before re-starting jobs",
-        force_realign_tooltip: "If Align is enabled, scheduler would initiate a realignment procedure before restarting any jobs even if guiding is active.",
-        restart_align: "Restart alignment on guiding calibration failure",
-        restart_align_tooltip: "If guiding calibration fails then restart alignment process before proceeding to guiding recalibration process again. This can help recenter the target object in the field of view if the calibration process strayed too far off.",
+        reset_mount: "在对准失败时重置赤道仪模型",
+        reset_mount_tooltip: "在对准失败时重置赤道仪模型",
+        reset_mount_before: "在开始每个作业之前重置赤道仪模型",
+        reset_mount_before_tooltip: "在开始每个作业之前重置赤道仪模型",
+        force_realign: "在重新启动作业之前强制重新对准",
+        force_realign_tooltip:
+          "如果启用了对准功能，则调度程序会在重新启动任何作业之前进行重新对准，即使导星也处于活动状态。",
+        restart_align: "在导星校准失败时重新开始对准",
+        restart_align_tooltip:
+          "如果导星校准失败，则在继续导星重新校准过程之前重新启动对准过程。如果校准过程偏离了目标物体的视场，这可以帮助重新将其居中。",
 
-        offsets: "Offsets",
-        clean_jobs: "Cleanup and Jobs",
-        alignment: "Alignment",
+        offsets: "偏移量",
+        clean_jobs: "清理和作业",
+        alignment: "对准",
 
-        verify_image: "Verify captured image position every",
-        verify_image_tooltip: "When calculating position after captures, compute it every Nth capture. Set to 0 to disable.",
-        reset_pipeline: "Reset pipeline if verified image delta exceeds",
-        reset_pipeline_tooltip: "If captured position exceeds target position by more this many arcminutes, abort capture and reschedule the pipeline.",
-        arcminutes: "arcminutes",
-    }
+        verify_image: "每隔一段时间验证捕获图像位置",
+        verify_image_tooltip:
+          "在捕获后计算位置时，每隔N张图像计算一次。设置为0表示禁用。",
+        reset_pipeline: "如果验证的图像位置超过设定值，则重置流程",
+        reset_pipeline_tooltip:
+          "如果捕获的位置超过目标位置这么多角分钟，中止捕获并重新安排流程。",
+        arcminutes: "角分钟",
+      },
     },
     summary: {
-      empty: "No summary data available",
-      deviation: "Deviation",
-      inactive: "Inactive",
-    }
+      empty: "没有可用的摘要数据",
+      deviation: "偏差",
+      inactive: "非活动的",
+    },
   },
   optical_train: {
     optical_trains: "光学传递系统",
@@ -999,12 +1061,16 @@
     tooltip: {
       title: "选择接收导星校正脉冲的设备",
       subject: "可以是以下设备之一：",
-      mount_device: "如果望远镜可以接收导星校正脉冲，则最好选择它，以便将脉冲直接发送到望远镜。这是推荐的选项。",
-      st4_device: "如果在导星相机和望远镜之间使用ST4电缆，则应选择导星相机作为导星器。",
-      dedicated_device: "如果使用专用导星器接口设备（例如Shoestring GPUSB），则应将其选择为导星器。",
+      mount_device:
+        "如果望远镜可以接收导星校正脉冲，则最好选择它，以便将脉冲直接发送到望远镜。这是推荐的选项。",
+      st4_device:
+        "如果在导星相机和望远镜之间使用ST4连接，则应选择导星相机作为导星设备。",
+      dedicated_device:
+        "如果使用专用导星设备（例如Shoestring GPUSB），则应将其选择为导星相机。",
       dedicated: "专用",
-      filterWheel: "选择一个滤光轮。这必须是通过USB连接到StellarMate的独立滤光轮。如果您的滤光轮嵌入在相机中，请将此字段留空。"
-    }
+      filterWheel:
+        "选择一个滤镜轮。这必须是通过USB连接到StellarMate的独立滤光轮。如果您的滤镜轮内置在相机中，请将此项留空。",
+    },
   },
   status: {
     system: "系统",
@@ -1012,28 +1078,28 @@
     software: "软件",
     cpu: "CPU",
     ram: "RAM",
-    storage: "内存",
+    storage: "存储",
     stable: "稳定版",
-    beta: "Beta版",
-    wifi_network: "无线网 IP",
-    hotspot_network: "热点 IP",
-    ethernet_network: "以太网 IP",
+    beta: "测试版",
+    wifi_network: "无线IP",
+    hotspot_network: "热点IP",
+    ethernet_network: "以太网IP",
     model: "型号",
     version: "版本",
     hostname: "主机名",
     time: "时间",
     release_type: "版本类型",
     updates: "更新选项",
-    hotspotMode: "Hotspot Mode",
-    wifiNetwork: "Wifi Network",
-    wifiCountry: "WiFi Country",
+    hotspotMode: "热点模式",
+    wifiNetwork: "Wifi网络",
+    wifiCountry: "WiFi国家类型",
 
-    wifiBand: "WiFi Band",
+    wifiBand: "WiFi带宽",
     update_available: "可用更新",
     update_unavailable: "暂不可用更新",
     update_in_progress: "更新中",
     btn_vnc: "远程桌面 (VNC)",
-    btn_web_manager: "网页管理器",
+    btn_web_manager: "Web客户端",
     btn_restart: "重启",
     btn_shutdown: "关机",
     btn_manage_wifi: "更改网络",
@@ -1048,9 +1114,10 @@
     btn_factory_reset: "恢复出厂设置",
     btn_change_resolution: "变更协议",
     btn_later: "稍后",
-    btn_resize_fs: "重置SD",
+    btn_resize_fs: "重置SD卡",
     btn_continue: "继续",
-    information_ekos_offline: "Ekos离线。请直接启动设备配置文件或通过计划程序启动。",
+    information_ekos_offline:
+      "Ekos离线。请直接启动设备配置文件或通过计划程序启动。",
     no_camera_detected: "没有相机被选择或者相机已离线",
 
     alert_device_offline_title: "设备已离线",
@@ -1061,7 +1128,7 @@
     alert_shutdown_body: "您的设备即将关闭，重新使用需要手动开启。",
     alert_resize_title: "重置 microSD Card 大小",
     alert_resize_body: "StellarMate会扩展到全部SD卡容量. 请重启StellarMate",
-    alert_resize_btn_resize: "Resize",
+    alert_resize_btn_resize: "重置大小",
     alert_hotspot_enable_title: "启用热点",
     alert_hotspot_enable_body:
       "启用热点会使StellarMate断开当前加入的wifi网络，并启动自己的热点。若继续使用StellarMate，您需要连接到此热点网络。是否继续?",
@@ -1071,7 +1138,8 @@
     alert_hotspot_disable_body:
       "禁用热点将使StellarMate连接到其先前连接过的无线网络。热点禁用时，您需要在同一网络继续使用StellarMate。是否继续?",
     alert_factory_reset_body: "恢复出厂设置完成，请立即重启StellarMate",
-    alert_factory_reset_confirmation_body: "您确定要将设备恢复到出厂设置吗？所有设置都将被清除。此操作不可逆转！",
+    alert_factory_reset_confirmation_body:
+      "您确定要将设备恢复到出厂设置吗？所有设置都将被清除。此操作不可逆转！",
     alert_forget_wifi_title: "删除Wifi",
     alert_forget_wifi_body:
       "断开并删除当前Wifi将使StellarMate启用自己的热点（如果未连接到以太网）。您将需要连接到此热点才能继续使用。是否继续？",
@@ -1083,7 +1151,8 @@
     alert_change_release_title: "测试频道",
     alert_change_release_body: "您确定要切换到不稳定且不受支持的测试版渠道吗？",
     alert_direct_ethernet_title: "直连以太网",
-    alert_direct_ethernet_connect_body: "将以太网电缆直接连接到StellarMate和您的PC之间。将您的PC的IP地址设置为192.168.100.2，网关设置为192.168.100.1。",
+    alert_direct_ethernet_connect_body:
+      "将以太网电缆直接连接到StellarMate和您的PC之间。将您的PC的IP地址设置为192.168.100.2，网关设置为192.168.100.1。",
     alert_direct_ethernet_disconnect_body: "断开直连以太网电缆。",
     alert_clear_all_driver_config_title: "清除所有驱动程序配置",
     alert_clear_all_driver_config_body: "您确定要删除所有驱动程序配置吗？",
@@ -1093,19 +1162,21 @@
     alert_network_error_body: "无法查询网络信息",
     alert_delete_directory_message: "您要删除{0}目录及其下所有文件吗？",
     alert_permission_title: "位置权限",
-    alert_permission_description: "StellarMate App需要位置信息以将StellarMate小工具位置与App位置同步。您要继续吗？",
-    alert_remote_isactive: "无法检查远程支持是否激活，您的Stellarmate OS是否已经更新？",
+    alert_permission_description:
+      "StellarMate App需要位置信息以将StellarMate小工具位置与App位置同步。您要继续吗？",
+    alert_remote_isactive:
+      "无法检查远程支持是否激活，您的Stellarmate OS是否已经更新？",
     alert_remote_start: "无法启动远程支持：",
     alert_remote_stop: "无法停止远程支持：",
     alert_remote_id: "无法找到远程支持ID",
     alert_remote_failed: "无法获取远程支持ID：",
     alert_remote_not_found: "未发现远程支持：",
-    alert_permission_denied: "Permission Denied",
-    alert_permission_blocked: "Permission Blocked",
-    alert_grant_camera_permission: "You need to grant camera permission first",
-    alert_feature_not_available: "This feature is not available",
+    alert_permission_denied: "权限被拒绝",
+    alert_permission_blocked: "权限被阻止",
+    alert_grant_camera_permission: "您需要首先给予相机权限",
+    alert_feature_not_available: "此功能不可用",
 
-    alert_logout_account_body: "Are you sure you want to logout?",
+    alert_logout_account_body: "你确定要注销吗？",
 
     change_resolution_modal: {
       mode: "模式",
@@ -1119,20 +1190,18 @@
       err_wifi: "搜寻Wifi时遇到了问题，请重试",
     },
     change_band_modal: {
-      heading: "Change Band",
-      band: "Band",
-      channel: "Channel",
+      heading: "修改带宽",
+      band: "带宽",
+      channel: "信道",
     },
     vnc_view: {
       heading: "远程桌面(VNC)",
       alert_unreachable_title: "VNC 无法访问",
-      alert_unreachable_body:
-        "尝试建立与VNC查看器的连接时似乎遇到了问题，请重试",
+      alert_unreachable_body: "尝试连接VNC服务器时似乎遇到了问题，请重试",
     },
     web_manager_view: {
-      alert_unreachable_title: "网页管理器无法访问",
-      alert_unreachable_body:
-        "尝试建立与网页管理器的连接时似乎遇到了问题，请重试",
+      alert_unreachable_title: "网页客户端无法访问",
+      alert_unreachable_body: "尝试连接网页客户端时似乎遇到了问题，请重试",
     },
   },
   settings: {
@@ -1145,21 +1214,21 @@
     cloud_storage: "云存储",
     auto_sync: "自动同步",
     location: "位置",
-    reset_app: "Reset App",
-    reset_app_body: "Purge all App settings?",
-    metric: "Metric",
-    imperial: "Imperial",
-    file_logging: "File logging",
-    alert_delete_account_title: "Delete Account",
-    alert_delete_account_body: "Are you sure you want to delete your account?",
-    color_scheme_sky_map: "Sky Map Scheme"
+    reset_app: "重置App",
+    reset_app_body: "清除所有应用程序设置？",
+    metric: "公制的",
+    imperial: "英制的",
+    file_logging: "文件日志记录",
+    alert_delete_account_title: "删除账号",
+    alert_delete_account_body: "你确定要删除你的帐户吗？",
+    color_scheme_sky_map: "星图规划",
   },
   cloud: {
     heading: "云服务",
     btn_filters: "筛选",
     btn_gallery: "图库",
-    btn_offline_viewer: "Offline Viewer",
-    btn_cloud_viewer: "Cloud Viewer",
+    btn_offline_viewer: "离线查看器",
+    btn_cloud_viewer: "云端查看器",
     no_images_title: "找不到图像",
     no_images_body: "请尝试更改筛选条件",
     no_selected_title: "没有选择图像",
@@ -1204,59 +1273,107 @@
   about: {
     heading: "关于",
     bundle: "软件包",
-    copyright_line1:
-      "StellarMate由Ikarus Technologies开发。© 2017-2022",
+    copyright_line1: "StellarMate由Ikarus Technologies开发。© 2017-2022",
     copyright_line2: "背景图像来自Alamri天文台",
     credits: {
-      heading: "Credits",
-      "title": "Translations",
-      name: "Translator name"
-  }
+      heading: "感谢",
+      title: "翻译",
+      name: "翻译者名称",
+    },
   },
   messages: {
     polar_idle:
-      "此工具提供了一种简单的方法来极轴对准德国赤道仪。将您的望远镜停泊在指向天顶极的家庭位置，带下降反重物。选择方向和速度，然后点击开始进行操作。如果您无法看到极星，请使用SkyMap或Ekos望远镜控制器在近子午线附近的任何地方调整，选择东或西方的方向，必要时降低旋转角度，并单击“开始”。",
-    alert_directions_not_found:
-      "未找到坐标，请选定目标并手动输入坐标。",
+      "此工具提供了一种简单的方法来极轴对准。将您的望远镜指向天顶极Home位置，做好平衡。选择合适的方向和速度，然后点击开始。如果您无法看到北极星，请使用SkyMap或Ekos望远镜控制器在近子午线附近的任何地方调整，选择东或西方的方向，必要时降低旋转角度，并单击“开始”。",
+    alert_directions_not_found: "未找到坐标，请选定目标并手动输入坐标。",
     manual_rotator: "按指示角度旋转相机，然后拍摄图像以更新位置角度",
-    welcome: "欢迎使用StellarMate"
+    welcome: "欢迎使用StellarMate",
   },
-  ekosLivePro: 
-  {
+  ekosLivePro: {
     pushNotification: "推送通知",
     level: "通知级别",
-    settings: "EkosLive Pro设置"
+    settings: "EkosLive Pro设置",
   },
-  device: 
-  {
-    mirror: "Mirror External Display",
-    monitor_successfull: "SM X monitor Display changed successfully!",
-    monitor_failed: "Failed to set SM X monitor display. Please try again later!",
-    undefined_error: "Error is undefined",
-    share: "Share logs",
-    logs: "Logs",
-    logs_upload: "Logs uploaded successfully to StellarMate support.",
-    error_upload: "Error uploading logs",
-    reset_network: "Reset network"
+  scheduler_settings: {
+    lead_time: "任务之间最短时间",
+    lead_time_tooltip:
+      "任务之间的最短时间（以分钟为单位）。在该提前期之前计划启动作业，以确保序列在开始之前有足够的时间进行自动对焦和导星调整。",
+    pre_dawn: "黎明前限制",
+    pre_dawn_tooltip: "不要在黎明前超过这么多分钟安排或执行作业。",
+    pre_emptive: "先发制人的停机",
+    pre_emptive_tooltip:
+      "如果在这么多小时内没有安排序列任务，请执行完整的关闭过程，并在下一个任务准备就绪后重新启动天文台操作。",
+    setting_altitude: "设置高度截止",
+    setting_altitude_tooltip:
+      "在低于这么多度的位置不允许安排任务。实际执行将一直持续到达到高度限制。",
+    dust_offset: "黄昏偏置",
+    dust_offset_tooltip:
+      "用这么多小时抵消天文黄昏。通过调整此参数的正负值，可以微调微光限制。",
+    dawn_offset: "黎明偏置",
+    dawn_offset_tooltip:
+      "用这么多小时抵消天文黎明。通过调整此参数的正负值，可以微调微光限制。",
+
+    stop_ekos: "关闭后停止Ekos",
+    stop_ekos_tooltip: "成功执行关闭过程后，停止INDI和Ekos。",
+    shutdown_script: "关闭脚本终止INDI",
+    shutdown_script_tooltip:
+      "如果关闭脚本终止INDI服务器，请启用此选项以防止出现断开连接错误。",
+    remember_job: "记住作业进度",
+    remember_job_tooltip:
+      "在处理预定作业时，从上次存储的图像位置开始恢复序列。",
+
+    reset_mount: "对准失败时重置赤道仪模型",
+    reset_mount_tooltip: "当对准失败时，重置赤道仪模型。",
+    reset_mount_before: "在每个作业开始前重置赤道仪模型",
+    reset_mount_before_tooltip: "在每个作业开始之前重置赤道仪模型。",
+    force_realign: "重新启动作业前强制重新对准",
+    force_realign_tooltip:
+      "如果启用了对准功能，则调度程序会在重新启动任何作业之前进行重新对准，即使导星也处于活动状态。",
+    restart_align: "导星校准失败时重新开始对准",
+    restart_align_tooltip:
+      "如果导星校准失败，则重新启动对准过程，然后再继续导星重新校准过程。这可以帮助重新将目标物体居中，以防校准过程偏离目标物体的视场。",
+
+    offsets: "偏移量",
+    clean_jobs: "清理和作业",
+    alignment: "对准",
+
+    verify_image: "定期验证捕获图像位置",
+    verify_image_tooltip:
+      "在拍摄后，每隔N张图像计算一次位置。将此参数设置为0表示禁用。",
+    reset_pipeline: "如果验证的图像位置超出设定值，则重置流程",
+    reset_pipeline_tooltip:
+      "如果捕获的位置超过目标位置这么多角分钟，终止捕获并重新安排流程。",
+    arcminutes: "角分钟",
   },
-  controller: 
-  {
-    dc_power: "12V DC Power",
-    heaters: "Dew Heaters",
-    varOutput: "Variable Output",
-    reports: "Reports",
-    voltage: "Voltage",
-    current: "Current",
-    power: "Power",
-    leds: "LEDs",
-    auto_dew: "Auto Dew",
-    auto_dew1_threshold: "Dew 1 Thresh.",
-    auto_dew2_threshold: "Dew 2 Thresh.",
-    stepper: "Stepper",
-    buzzer: "Buzzer",
-    sensors: "Sensors",
-    alert_power_port_description: "Are you sure you want to toggle off {0}?"
-  }
+
+  device: {
+    mirror: "镜像外部显示器",
+    monitor_successfull: "SM X 监视器显示设置成功更改！",
+    monitor_failed: "无法设置SM X 监视器显示。请稍后再试！",
+    undefined_error: "错误未定义",
+    share: "分享日志",
+    logs: "日志",
+    logs_upload: "日志成功上传至StellarMate支持。",
+    error_upload: "上传日志时出错",
+    reset_network: "重置网络",
+  },
+
+  controller: {
+    dc_power: "12V 直流电源",
+    heaters: "露点加热器",
+    varOutput: "可变输出",
+    reports: "报告",
+    voltage: "电压",
+    current: "电流",
+    power: "功率",
+    leds: "LED 灯",
+    auto_dew: "自动防露",
+    auto_dew1_threshold: "防露器 1 阈值",
+    auto_dew2_threshold: "防露器 2 阈值",
+    stepper: "步进电机",
+    buzzer: "蜂鸣器",
+    sensors: "传感器",
+    alert_power_port_description: "您确定要关闭 {0} 吗？",
+  },
 };
 
 export default cn;
