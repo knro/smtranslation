@@ -7,14 +7,20 @@ const en = {
         cancel: "Cancel",
         confirm: "Confirm",
         apply: "Apply",
+        enter: "Enter",
+        scan: "Scan",
         save: "Save",
+        save_as: "Save as",
+        overwrite: "Overwrite",
         select: "Select",
         hardware: "Hardware",
+        signal: "Signal",
         usb: "USB",
         devices: "Devices",
         connect: "Connect",
         disconnect: "Disconnect",
         disconnected: "Disconnected",
+        schedule: "Schedule",
         yes: "Yes",
         no: "No",
         ignore: "Ignore",
@@ -37,6 +43,7 @@ const en = {
         scope_type: "Scope Type",
         solver_type: "Solver Type",
         type: "Type",
+        driver: "Driver",
         gain: "Gain",
         offset: "Offset",
         format: "Format",
@@ -76,6 +83,8 @@ const en = {
         date: "Date",
         resolution: "Resolution",
         monitor: "Monitor",
+        clear_all: "Clear All",
+        pixels: "Pixels",
 
         select_file: "Select file",
         select_folder: "Select folder",
@@ -106,6 +115,7 @@ const en = {
         off: "Off",
         go: "GO",
         add: "Add",
+        load: "Load",
         edit: "Edit",
         refresh: "Refresh",
         reset: "Reset",
@@ -125,6 +135,9 @@ const en = {
         disable: "Disable",
         select_time: "Select Time",
         set: "Set",
+        logging: "Logging",
+        drivers: "Drivers",
+        network: "Network",
 
         // Confirm Delete Alert
         alert_confirm_delete_title: "Confirm Delete",
@@ -133,7 +146,8 @@ const en = {
 
         // Confirm
         alert_confirmation_title: "Confirmation",
-        alert_create_preset_body: "Are you sure you want to create preset with this name?",
+        alert_confirmation_body: "Are you sure you want to create {0} with this name?",
+        alert_overwrite_body: "The file '{0}' already exists. Do you wish to overwrite it?",
 
         // error messages
         network_error: "Please make sure that your StellarMate is connected to your network",
@@ -180,7 +194,7 @@ const en = {
         },
 
     },
-    achievements:{
+    achievements: {
         score: "Total Score",
         badge: "Badge",
         achievements: "Achievements",
@@ -196,10 +210,10 @@ const en = {
         live_stacking_title: "Let there be details",
         create_darks_title: "Embrace the dark side",
         create_defect_title: "Cosmic Makeup",
-        import_mosaic_title: "Mosaic Weaver", 
+        import_mosaic_title: "Mosaic Weaver",
         messier_captured_title: "MXXXX (e.g. M1)",
         all_messier_title: "Cosmic Marathon",
-        scheduler_title: "Robotic Master", 
+        scheduler_title: "Robotic Master",
         capture_master_title: "Sky Master",
         capture_legend_title: "Sky Legend",
         paa_title: "Perfectionist",
@@ -207,11 +221,11 @@ const en = {
 
         capture_preview_description: "Capture a Preview",
         ten_sequences_description: "Capture a sequence with 10 counts",
-        mount_goto__description:  "Use Target GOTO by holding on the object for 3 seconds when the new image is captured",
+        mount_goto__description: "Use Target GOTO by holding on the object for 3 seconds when the new image is captured",
         video_recording_description: "Record video for 1 minute",
         weather_check__description: "Use Cloud Map in weather info, Zoom in to at least 8x to check weather",
-        live_stacking_description:  "Live stacking. Perform at least 5 images",
-        create_darks_description:  "Create Darks of total 50 Images",
+        live_stacking_description: "Live stacking. Perform at least 5 images",
+        create_darks_description: "Create Darks of total 50 Images",
         create_defect_description: "Generate hot / cold pixels in Defect map above 80",
         import_mosaic_description: "Import Mosaics from telescopios",
         messier_captured_description: "A messier object is captured",
@@ -230,81 +244,81 @@ const en = {
     },
     tourGuide:
     {
-      tour_guide: "Tour Guide",
-      previous: "Previous",
-      finish: "Finish",
-      title_devices_list: "StellarMate Devices List",
-      title_device_actions: "Device Actions",
-      title_profiles: "Profiles",
-      title_port_selector: "Port Selector",
-      title_trains: "Optical trains",
-      title_weather_bar: "Weather bar",
-      title_cloud_report: "Cloud Report",
-      
-      title_next: "What's next?",
-      title_focus: "Focus",
-      title_align: "Align",
-      title_guide: "Guide",
-      title_capture: "Capture",
-      title_mount: "Mount",
-      title_observatory: "Observatory",
-      title_scheduler: "Scheduler",
-      title_indi: "INDI Control Panel",
-      title_quick_controls: "Quick Controls",
-      title_preview: "Preview",
-      title_framing: "Framing",
-      title_live_video: "Live Video",
-      title_stop: "Stop",
-      title_live_stacking: "Live Stacking",
-      title_quick_settings: "Quick Camera Settings",
-      
-      title_targets_info: "About Targets",
-      title_search_bar: "Search bar",
-      title_time_controls: "Time Controls",
-      title_target_controls: "Targets Controls",
-      title_object_info: "Object info",
-      title_fov: "Target Field Of View",
-      title_target_action: "Target Action",
+        tour_guide: "Tour Guide",
+        previous: "Previous",
+        finish: "Finish",
+        title_devices_list: "StellarMate Devices List",
+        title_device_actions: "Device Actions",
+        title_profiles: "Profiles",
+        title_port_selector: "Port Selector",
+        title_trains: "Optical trains",
+        title_weather_bar: "Weather bar",
+        title_cloud_report: "Cloud Report",
 
-      description_devices_list: "This is the list of automatically discovered and manually added StellarMate units. Tap RESCAN to detect new StellarMate units on the network.",
-      description_device_actions: "Remove a device from the list, perform a factory reset, or log out.",
-      description_profiles: "Manage your astronomy equipment in Equipment Profiles. All equipment must be powered and connected to StellarMate before starting a profile. Once a profile is started, configure the Optical Trains and then tap Ekos to start your astrophotography session.",
-      description_port_selector: "After a profile is started for the first time, select the serial and/or network settings for your devices.",
-      description_trains:
-      "Set up how your equipment is arranged using Optical trains. Assign each device to a specific function. Create a train for each camera.",
-      description_weather_bar:"Brief weather report and current site Bortle class",
-      description_cloud_report: "3-hours Cloud overlay." ,
-      description_next: "Explore applicable astronomical targets by tapping the Targets tab. Use Go & Solve to center your target in the camera frame. Open the Framing Assistant to achieve the perfect desired orientation. Head over to Ekos tab to set up imaging sequences and live stack images.", 
+        title_next: "What's next?",
+        title_focus: "Focus",
+        title_align: "Align",
+        title_guide: "Guide",
+        title_capture: "Capture",
+        title_mount: "Mount",
+        title_observatory: "Observatory",
+        title_scheduler: "Scheduler",
+        title_indi: "INDI Control Panel",
+        title_quick_controls: "Quick Controls",
+        title_preview: "Preview",
+        title_framing: "Framing",
+        title_live_video: "Live Video",
+        title_stop: "Stop",
+        title_live_stacking: "Live Stacking",
+        title_quick_settings: "Quick Camera Settings",
 
-      description_focus: "Focus the camera by using a motorized focuser.",
-      description_align: "Center the mount exactly on target by plate-solving an image.",
-      description_guide: "Keep the mount locked to your target during tracking to enable long exposures.",
-      description_capture: "Create sequences to capture images using configurable settings. Manage filter wheel settings and Dark Library.",
-      description_mount: "Toggle tracking, parking, and meridian flip settings. Configure auto-park.",
-      description_observatory: "Control dome and dust-cap equipment.",
-      description_scheduler: "Automate complete astrophotography session by selecting target and sequence file. Import mosaics from Telescopius.",
-      description_indi: "Direct low-level access to equipment properties.",
-      description_quick_controls: "Quick access to mount, camera, and rotator controls.",
-      description_preview: "Capture a single preview frame.",
-      description_framing: "Loop exposures indefinitely until stopped",
-      description_live_video: "Start live video streams and record videos to storage.",
-      description_stop: "Stop any ongoing exposures or recordings.",
-      description_live_stacking: "Live stack images to increase signal to noise ratio. If an existing capture sequence is running, live stacking will use incoming images otherwise it will loop exposures using settings in Quick Camera Settings.",
-      description_quick_settings: "Select active train and configure camera and filter wheel settings.",
-      
-      description_targets_info: "Targets is the StellarMate Planning tool to streamline your observation session. Search from thousands of objects and filter them using simple criteria. Use the Framing Assistant to frame your targets." ,
-      description_search_bar:
-        "Filter objects in the existing list or search for new objects by entering the name and tapping the search button.",
-      description_time_controls:
-        "If Ekos is offline, adjust the target date and time calculations.",
-      description_target_controls:
-        "Check out twilight information, manage FOVs, adjust filters, and select object types.",
-      description_object_info: "Object magnitude, rise, transit, and set times.",
-      description_fov: "Tap to enter Framing Assistant mode.",
-      description_target_action: "Add target to favorites or custom list. Command a GOTO only or a GOTO followed by capture and solve. If Ekos is offline, schedule the target.",
-      alert_guided_tour_title: "Take a guided tour on Stellarmate App features",
+        title_targets_info: "About Targets",
+        title_search_bar: "Search bar",
+        title_time_controls: "Time Controls",
+        title_target_controls: "Targets Controls",
+        title_object_info: "Object info",
+        title_fov: "Target Field Of View",
+        title_target_action: "Target Action",
+
+        description_devices_list: "This is the list of automatically discovered and manually added StellarMate units. Tap RESCAN to detect new StellarMate units on the network.",
+        description_device_actions: "Remove a device from the list, perform a factory reset, or log out.",
+        description_profiles: "Manage your astronomy equipment in Equipment Profiles. All equipment must be powered and connected to StellarMate before starting a profile. Once a profile is started, configure the Optical Trains and then tap Ekos to start your astrophotography session.",
+        description_port_selector: "After a profile is started for the first time, select the serial and/or network settings for your devices.",
+        description_trains:
+            "Set up how your equipment is arranged using Optical trains. Assign each device to a specific function. Create a train for each camera.",
+        description_weather_bar: "Brief weather report and current site Bortle class",
+        description_cloud_report: "3-hours Cloud overlay.",
+        description_next: "Explore applicable astronomical targets by tapping the Targets tab. Use Go & Solve to center your target in the camera frame. Open the Framing Assistant to achieve the perfect desired orientation. Head over to Ekos tab to set up imaging sequences and live stack images.",
+
+        description_focus: "Focus the camera by using a motorized focuser.",
+        description_align: "Center the mount exactly on target by plate-solving an image.",
+        description_guide: "Keep the mount locked to your target during tracking to enable long exposures.",
+        description_capture: "Create sequences to capture images using configurable settings. Manage filter wheel settings and Dark Library.",
+        description_mount: "Toggle tracking, parking, and meridian flip settings. Configure auto-park.",
+        description_observatory: "Control dome and dust-cap equipment.",
+        description_scheduler: "Automate complete astrophotography session by selecting target and sequence file. Import mosaics from Telescopius.",
+        description_indi: "Direct low-level access to equipment properties.",
+        description_quick_controls: "Quick access to mount, camera, and rotator controls.",
+        description_preview: "Capture a single preview frame.",
+        description_framing: "Loop exposures indefinitely until stopped",
+        description_live_video: "Start live video streams and record videos to storage.",
+        description_stop: "Stop any ongoing exposures or recordings.",
+        description_live_stacking: "Live stack images to increase signal to noise ratio. If an existing capture sequence is running, live stacking will use incoming images otherwise it will loop exposures using settings in Quick Camera Settings.",
+        description_quick_settings: "Select active train and configure camera and filter wheel settings.",
+
+        description_targets_info: "Targets is the StellarMate Planning tool to streamline your observation session. Search from thousands of objects and filter them using simple criteria. Use the Framing Assistant to frame your targets.",
+        description_search_bar:
+            "Filter objects in the existing list or search for new objects by entering the name and tapping the search button.",
+        description_time_controls:
+            "If Ekos is offline, adjust the target date and time calculations.",
+        description_target_controls:
+            "Check out twilight information, manage FOVs, adjust filters, and select object types.",
+        description_object_info: "Object magnitude, rise, transit, and set times.",
+        description_fov: "Tap to enter Framing Assistant mode.",
+        description_target_action: "Add target to favorites or custom list. Command a GOTO only or a GOTO followed by capture and solve. If Ekos is offline, schedule the target.",
+        alert_guided_tour_title: "Take a guided tour on Stellarmate App features",
     },
-    tooltip: 
+    tooltip:
     {
         placeholder: "Placeholder %{0} or %{1}",
         placeholder_file: "The name of the .esq file, without extension.",
@@ -330,7 +344,7 @@ const en = {
         suffix: "Number of digits used to append the sequence number to the filename",
         paa_desc: "Use plate-solving method for Polar Alignment. Plate solving is slower but provides more accurate results.",
         plate_solving: "Plate solving is slower but provides more accurate results if there are sufficient stars in the image. Use refresh period 3 seconds or longer.",
-        mount_info:"You can also adjust the mount's altitude & azimuth knobs to reduce the error.",
+        mount_info: "You can also adjust the mount's altitude & azimuth knobs to reduce the error.",
         movestar_desc: "If Plate-solving is unchecked, select a bright star and then adjust the knobs to bring the star to the crosshair. Use very small and fine motion to keep the star in the frame."
     },
     splash: {
@@ -421,6 +435,7 @@ const en = {
         welcome_rescan: "Click RESCAN to begin scanning the network for StellarMate devices.",
         device_unreachable: "Device is not reachable! Check power and network settings.",
         login_mismatch: "Authentication failed. App password is different from online stellarmate.com password. Register App again with correct online password.",
+        register_using_key: "Register Device using Serial number",
         old_stellarmate_heading: "Update Required!",
         old_stellarmate_description:
             "You appear to be using an older version of StellarMate OS. You must upgrade to the most recent version of StellarMate to continue using this App.",
@@ -446,8 +461,9 @@ const en = {
 
         cloudsMap: {
             btn_clouds_map: "Clouds Map",
-            attribution: "© OpenStreetMap",
-            map_title: "3-Hour Cloud Map"
+            attribution: "OpenStreetMap",
+            map_title: "3-Hour Cloud Map",
+            bortle_class: "Bortle Class"
         },
 
         ip_address: "IP Address",
@@ -470,7 +486,8 @@ const en = {
             confirm_password: "Confirm Password",
             first_name: "First name",
             last_name: "Last name",
-            email: "Email"
+            email: "Email",
+            manually: "Manually"
         },
         device_manager: {
             alert_confirm_remove_title: "Confirm Removal",
@@ -549,17 +566,18 @@ const en = {
         search: "Search",
         cam_width: "Camera Width",
         cam_height: "Camera Height",
+        fov_warning: "FOV is too small or large, Please check!",
         phases:
-            {
-                new_moon: "New Moon",
-                full_moon: "Full Moon",
-                first_quarter: "First quarter",
-                third_quarter: "Third quarter",
-                waxing_crescent: "Waxing crescent",
-                waxing_gibbous: "Waxing gibbous",
-                waning_crescent: "Waning crescent",
-                waning_gibbous: "Waning gibbous",
-            },
+        {
+            new_moon: "New Moon",
+            full_moon: "Full Moon",
+            first_quarter: "First quarter",
+            third_quarter: "Third quarter",
+            waxing_crescent: "Waxing crescent",
+            waxing_gibbous: "Waxing gibbous",
+            waning_crescent: "Waning crescent",
+            waning_gibbous: "Waning gibbous",
+        },
         lists: "Lists",
         framing_assistant: "Framing Assistant",
         target_rotation: "Target Position Angle",
@@ -600,13 +618,14 @@ const en = {
             mount_speed: "Mount Speed",
             centering: "Centering",
             find: "Find",
-            max: "Max"
+            max: "Max",
+            parking_position: "Parking Position is set successfully."
         },
 
         collapse_align: {
             heading: "Align",
             action_sync: "Sync",
-            action_slew: "Slew to Target",
+            action_slew: "Slew",
             action_nothing: "Nothing",
             solver_backend: "Backend",
             control: "Control",
@@ -626,6 +645,7 @@ const en = {
             device_gallery: "Phone/Tablet gallery",
             sm_storage: "SM Storage",
             request_storage_permission: "Please allow the storage permission",
+            celestial_warning: "Plate solving does not work very close to the celestial pole.",
             manualRotator: {
                 heading: "Manual Rotator",
                 current_pa: "Current PA",
@@ -646,7 +666,8 @@ const en = {
                 calibrate_backlast: "Remove DEC backlash in guide calibration",
                 reset_calibration: "Reset Guide Calibration After Each Mount Slew",
                 reuse_calibration: "Store and reuse guide calibration when possible",
-                reverse_calibration: "Reverse DEC on pier-side change when reusing calibration"
+                reverse_calibration: "Reverse DEC on pier-side change when reusing calibration",
+                skyflats: "Sky flats"
             }
         },
         collapse_camera: {
@@ -719,12 +740,21 @@ const en = {
             focus_deltaT: "Autofocus if ΔT° >",
             focus_deltaT_unit: "°C",
             refocus_n: "Refocus every",
-            refocus_n_unit: "minutes"
+            refocus_n_unit: "minutes",
+            refocus_on_hfr: "Refocus on HFR. Use",
+            refocus_meridian: "Refocus after meridian flip",
+            check_every: "Check every",
+            about_guide_deviation: "About if guide deviation >",
+            start_deviation: "Only start if guide deviation <",
+            guide_deviation: "Guide deviation",
+            consecutive_times: "consecutive times",
+            dither_job: "Dither per job every",
         },
         capture_filters: {
             heading: "Filter Settings",
             auto_focus: "Auto Focus",
-            lock_filter: "Lock Filter"
+            lock_filter: "Lock Filter",
+            no_filters: "No filters have been found.",
         },
         targets_filters: {
             object_type: "Object Type",
@@ -806,6 +836,11 @@ const en = {
                 max_step_size: "Max Step Size",
                 backlash: "Backlash",
                 out_step_multiple: "Out Step Multiple",
+                number_steps: "Number Steps",
+                af_overscan: "AF Overscan",
+                capture_timeout: "Capture timeout",
+                motion_timeout: "Motion timeout",
+                overscan_delay: "Overscan Delay",
             },
         },
         collapse_guide: {
@@ -886,7 +921,9 @@ const en = {
             east: "E",
             west: "W",
             east_long: "East (pointing west)",
-            west_long: "West (pointing east)"
+            west_long: "West (pointing east)",
+            reverse_NS: "Reverse North/South",
+            reverse_WE: "Reverse West/East"
         },
         modal_add_to_seq: {
             heading: "Add To Sequence",
@@ -894,7 +931,6 @@ const en = {
         modal_goto_sync: {
             heading: "Goto or Sync",
             category: "Category",
-            btn_goto: "Goto"
         },
         mount_status_bar: {
             ra: "RA",
@@ -938,6 +974,7 @@ const en = {
         scheduler: {
             scheduler: "Scheduler",
             j2000: "J2000",
+            add_sequences: "Add Sequences",
             fits: "FITS File",
             priority: "Priority",
             generalSettings: "General Settings",
@@ -998,8 +1035,8 @@ const en = {
                 remember_job: "Remember Job progress",
                 remember_job_tooltip: "When processing a scheduled job, resume the sequence starting from the last image present in storage.",
 
-                reset_mount :"Reset mount model on alignment failure",
-                reset_mount_tooltip :"Reset mount model on alignment failure",
+                reset_mount: "Reset mount model on alignment failure",
+                reset_mount_tooltip: "Reset mount model on alignment failure",
                 reset_mount_before: "Reset mount model before starting each job",
                 reset_mount_before_tooltip: "Reset mount model before starting each job",
                 force_realign: "Force re-alignment before re-starting jobs",
@@ -1029,9 +1066,10 @@ const en = {
         telescope: "Telescope / Lens",
         create_new: "Create New",
         dslr_lens: "DSLR Lens",
+        reset_train: "Reset Train",
         focal_ratio: "Focal Ratio",
         guide_via: "Guide Via",
-        tooltip:{
+        tooltip: {
             title: "Select the device that receives the guiding correction pulses",
             subject: "This can be one of the following devices:",
             mount_device: "If the Mount can receive guiding correction pulses, then it is best to select it so that the pulses are directly sent to the mount. This is the recommended option.",
@@ -1154,7 +1192,7 @@ const en = {
 
         alert_permission_title: "Location permission",
         alert_permission_description: "StellarMate App requires Location information to synchronize StellarMate gadget location to the App location. Do you want to proceed?",
-        
+
         alert_remote_isactive: "Failed to check if Remote Support is active, Is your Stellarmate OS up to date? ",
         alert_remote_start: "Could not start the Remote Support: ",
         alert_remote_stop: "Could not stop the Remote Support: ",
@@ -1168,6 +1206,9 @@ const en = {
         alert_feature_not_available: "This feature is not available",
 
         alert_logout_account_body: "Are you sure you want to logout?",
+        alert_reset_ekoslive_title: "Reset Ekoslive",
+        alert_reset_ekoslive_body: "Are you sure you want to reset Ekoslive? This would delete all cached images and restarts the server.",
+        alert_download_index_file: "Astrometry Index files are missing. Would you like to download?",
 
         change_resolution_modal: {
             mode: "Mode"
@@ -1234,6 +1275,7 @@ const en = {
         cloud_disabled_title: "Cloud is disabled",
         cloud_disabled_body: "Go to settings and enable Cloud to be able to access this tab.",
         pro_plan_body: "Cloud storage is only available for Pro plan users.",
+        reset_ekoslive: "Reset Ekoslive",
         alert_cannot_download_title: "Cannot download",
         alert_cannot_download_body: "There was an error while trying to download.",
         alert_confirm_delete_title: "Are you sure?",
@@ -1293,15 +1335,24 @@ const en = {
         level: "Notification Level",
         settings: "EkosLive Pro Settings"
     },
+    skymap:
+    {
+        goto: "GOTO"
+    },
     device: {
         mirror: "Mirror External Display",
-        monitor_successfull: "SM X monitor Display changed successfully!",
-        monitor_failed: "Failed to set SM X monitor display. Please try again later!",
+        monitor_successful: "StellarMate monitor Display changed successfully!",
+        monitor_failed: "Failed to set StellarMate monitor display. Please try again later!",
         share: "Share logs",
         logs: "Logs",
         logs_upload: "Logs uploaded successfully to StellarMate support.",
         error_upload: "Error uploading logs",
-        reset_network: "Reset network"
+        reset_network: "Reset network",
+
+        vnc:
+        {
+            update_password: "Update VNC Password"
+        }
     },
     controller: {
         dc_power: "12V DC Power",
@@ -1311,6 +1362,9 @@ const en = {
         voltage: "Voltage",
         current: "Current",
         power: "Power",
+        power_sleep: "Power is in sleep mode. Tap to wake up.",
+        power_off: "Power Off",
+        power_off_tooltip: "Power Off all ports when equipment profile is disconnected.",
         leds: "LEDs",
         auto_dew: "Auto Dew",
         auto_dew1_threshold: "Dew 1 Thresh.",
@@ -1320,6 +1374,14 @@ const en = {
         sensors: "Sensors",
 
         alert_power_port_description: "Are you sure you want to toggle off {0}?"
+    },
+    notifications: {
+        ekoslive_successful: "Ekoslive Reset is Successful",
+        ekoslive_restart: "Restarting Ekoslive"
+    },
+    hardware: {
+        serial_devices_detected: "Serial Devices Detected",
+        serial_port: "Serial Port"
     }
 };
 
