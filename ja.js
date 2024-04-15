@@ -1,5 +1,5 @@
 const ja = {
-  general: 
+  general:
   {
     home: "ホーム",
     next: "次",
@@ -8,14 +8,20 @@ const ja = {
     cancel: "キャンセル",
     confirm: "確認",
     apply: "申し込み",
+    enter: "Enter",
+    scan: "Scan",
     save: "保存",
+    save_as: "Save as",
+    overwrite: "Overwrite",
     select: "選択する",
     hardware: "Hardware",
+    signal: "Signal",
     usb: "USB",
     devices: "Devices",
     connect: "接続",
     disconnect: "切断する",
     disconnected: "切断されました",
+    schedule: "Schedule",
     yes: "はい",
     no: "いいえ",
     ignore: "Ignore",
@@ -38,6 +44,7 @@ const ja = {
     scope_type: "望遠鏡タイプ",
     solver_type: "ソルバーの種類",
     type: "タイプ",
+    driver: "Driver",
     gain: "ゲイン",
     offset: "オフセット",
     format: "フォーマット",
@@ -77,6 +84,8 @@ const ja = {
     date: "日付",
     resolution: "解像度",
     monitor: "Monitor",
+    clear_all: "Clear All",
+    pixels: "Pixels",
 
     select_file: "ファイルを選択",
     select_folder: "フォルダを選択",
@@ -107,6 +116,7 @@ const ja = {
     off: "オフ",
     go: "GO",
     add: "追加",
+    load: "Load",
     edit: "編集",
     refresh: "更新",
     reset: "リセット",
@@ -126,6 +136,9 @@ const ja = {
     disable: "利用不可",
     select_time: "Select Time",
     set: "セット",
+    logging: "Logging",
+    drivers: "Drivers",
+    network: "Network",
 
     // 削除アラートの確認
     alert_confirm_delete_title: "削除の確認",
@@ -134,7 +147,8 @@ const ja = {
 
     // Confirm
     alert_confirmation_title: "確認",
-    alert_create_preset_body: "この名前でプリセットを作成しますか?",
+    alert_confirmation_body: "Are you sure you want to create {0} with this name?",
+    alert_overwrite_body: "The file '{0}' already exists. Do you wish to overwrite it?",
 
     // エラー メッセージ
     network_error: "StellarMate がネットワークに接続されていることを確認してください",
@@ -151,7 +165,7 @@ const ja = {
     reset_default: "デフォルトにリセット",
     external_storage: "外部ストレージ",
   },
-  darkLibrary: 
+  darkLibrary:
   {
     title: "ダーク ライブラリ",
     darks: "ダーク",
@@ -161,7 +175,7 @@ const ja = {
     create_defects_title: "欠陥マップを作成",
     view_masters_title: "マスターの表示",
 
-    create_darks: 
+    create_darks:
     {
       Exposure_range: "露出範囲",
       to: "To",
@@ -172,7 +186,7 @@ const ja = {
       total_images: "合計",
     },
 
-    create_defect_map: 
+    create_defect_map:
     {
       master_dark: "マスター ダーク",
       bad_pixels: "不良ピクセル",
@@ -183,7 +197,7 @@ const ja = {
       偏差: "σ",
     },
   },
-  achievements: 
+  achievements:
   {
     score: "合計スコア",
     badge: "バッジ",
@@ -231,7 +245,7 @@ const ja = {
     alert_reset_title: "Reset achievements",
     alert_agree_reset_body: "Are you sure you want to reset all achievements?",
   },
-  tourGuide: 
+  tourGuide:
   {
     ツアーガイド: "ツアーガイド",
     前の: "前の",
@@ -303,7 +317,7 @@ const ja = {
     description_target_action: "ターゲットをお気に入りまたはカスタム リストに追加します。GOTO のみをコマンドするか,GOTO に続いてキャプチャと解析を実行します。Ekos がオフラインの場合は,ターゲットをスケジュールします。",
     alert_guided_tour_title: "Take a guided tour on Stellarmate App features",
   },
-  tooltip: 
+  tooltip:
   {
     placeholder: "Placeholder %{0} or %{1}",
     placeholder_file: "拡張子のない .esq ファイルの名前。",
@@ -331,7 +345,7 @@ const ja = {
     mount_info: "星の移動 と計算エラー",
     movestar_desc: "星の移動,ただしEkos は移動中の星を追跡しようとし,可能な場合は現在のアライメント エラーを推定します。",
   },
-  splash: 
+  splash:
   {
     checking_for_updates: "更新チェック中...",
     download_package: "更新データをダウンロード中...",
@@ -341,7 +355,7 @@ const ja = {
     update_installed: "すべての更新プログラムがインストールされています。",
     loading: "読み込み中...",
   },
-  validations: 
+  validations:
   {
     username_required: "ユーザー名は必須です",
     username_tooshort: "最低3文字必要です",
@@ -362,7 +376,7 @@ const ja = {
     new_scope_focal_ratio_invalid: "有効な焦点比を入力してください",
     enter_file_name: "ファイル名を入力してください",
   },
-  progress: 
+  progress:
   {
     please_wait: "お待ちください...",
     Establishing_connection: "接続を確立しています",
@@ -385,18 +399,18 @@ const ja = {
     loading_settings: "設定を読み込み中...",
     register_device: "スキャンされた QR コード, デバイスを登録中: ",
   },
-  welcome: 
+  welcome:
   {
     register_new_device: "新しいデバイスを登録しますか?",
     have_existing_account: "アカウントをお持ちですか?",
     require_sm_plus_pro: "お持ちの場合は登録してください",
   },
-  device_scanner: 
+  device_scanner:
   {
     scanning: "ネットワーク上で StellarMate デバイスを探している間お待ちください",
     qr_scan: "デバイスの QR コードをスキャンしてください",
   },
-  statuses: 
+  statuses:
   {
     Idle: " Idle",
     prep: "Prep",
@@ -419,7 +433,7 @@ const ja = {
     Suspended: "一時停止",
     Parked: "駐車中",
   },
-  connect: 
+  connect:
   {
     register_welcome: "デバイスを同期するには,stellarmate.com アカウントにサインインしてください。",
     welcome_heading: "ようこそ",
@@ -427,6 +441,7 @@ const ja = {
     welcome_rescan: "RESCANをクリックして,ネットワークのStellarMateデバイスのスキャンを開始します.",
     device_unreachable: "デバイスに到達できません!電源とネットワークの設定を確認してください。",
     login_mismatch: "認証に失敗しました。アプリのパスワードがオンラインの stellarmate.com のパスワードと異なります。正しいオンライン パスワードでアプリを再登録してください。",
+    register_using_key: "Register Device using Serial number",
     old_stellarmate_heading: "更新が必要です!",
     old_stellarmate_description: "古いバージョンの StellarMate OS を使用しているようです。このアプリを引き続き使用するには,StellarMate の最新バージョンにアップグレードする必要があります。",
     sm_app_update_title: "SMアプリのアップデート必須！",
@@ -449,15 +464,15 @@ const ja = {
     select_driver: "デバイス タイプとドライバを選択してください",
     invalid_ip: "No IP address found or invalid IP {0}. Please try again.",
 
-    cloudsMap: 
-    {
-      btn_clouds_map: "雲の地図",
-      attribution: "© OpenStreetMap",
-      map_title: "3 時間クラウド マップ",
+    cloudsMap: {
+      btn_clouds_map: "Clouds Map",
+      attribution: "OpenStreetMap",
+      map_title: "3-Hour Cloud Map",
+      bortle_class: "Bortle Class"
     },
 
     ip_address: "IP アドレス",
-    login_register: 
+    login_register:
     {
       heading: "認証",
       見出し_オンライン: "stellarmate.com にサインインしてください",
@@ -476,24 +491,25 @@ const ja = {
       first_name: "名",
       last_name: "姓",
       email: "メール",
+      manually: "Manually"
     },
-    device_manager: 
+    device_manager:
     {
       alert_confirm_remove_title: "削除の確認",
       alert_confirm_remove_body: "このデバイスを削除してもよろしいですか?",
       btn_sign_out: "サインアウト",
     },
-    profile_manager: 
+    profile_manager:
     {
       heading: "機器プロファイル",
     },
 
-    port_selector: 
+    port_selector:
     {
       connect_all: "すべて接続",
     },
 
-    manual_add_device: 
+    manual_add_device:
     {
       heading: "手動でデバイスを追加",
       btn_add_device: "デバイスを追加",
@@ -501,7 +517,7 @@ const ja = {
       alert_unreachable_title: "エラーが発生しました",
       alert_unreachable_body: "デバイスの検索中にエラーが発生しました指定された IP アドレスにあります。IP アドレスを再確認して,やり直してください。」",
     },
-    device_scanner: 
+    device_scanner:
     {
       no_device_before_scan: "デバイスが検出されませんでした.スキャナを実行してください.",
       no_device_after_scan: "スキャンが完了しました.デバイスが見つかりませんでした.",
@@ -511,7 +527,7 @@ const ja = {
       devices_detected: "検出",
       no_network_found: "ネットワークが検出されませんでした.ネットワークに接続していることを確認してください.",
     },
-    add_profile: 
+    add_profile:
     {
       add_profile: "プロファイルの追加",
       edit_profile: "プロファイルの編集",
@@ -528,7 +544,7 @@ const ja = {
       focuser: "Focuser",
       filter: "Filter",
     },
-    add_scope: 
+    add_scope:
     {
       add_scope: "望遠鏡を追加",
       edit_scope: "望遠鏡を編集",
@@ -536,7 +552,7 @@ const ja = {
       aperture: "絞り",
       focus_length: "焦点距離",
     },
-    auto_detect: 
+    auto_detect:
     {
       alert_auto_detect_title: "Auto Detect Instructions",
       alert_auto_detect_body: "StellarMate からすべての機器のプラグを抜き,[OK] を押します。次に,それらを 1 つずつ接続して,デバイス タイプとドライバーを検出します。各デバイスを接続したら,ドライバーを確認する必要があります.",
@@ -544,7 +560,7 @@ const ja = {
       alert_missing_driver_title: "ドライバーがありません",
       alert_missing_driver_body: "最初にドライバーを選択する必要があります.",
     },
-    dslr_setup: 
+    dslr_setup:
     {
       width: "幅",
       height: "高さ",
@@ -552,7 +568,7 @@ const ja = {
       pixel_height: "ピクセル高さ",
     },
   },
-  targets: 
+  targets:
   {
     now: "今",
     night: "夜",
@@ -562,7 +578,8 @@ const ja = {
     search: "検索",
     cam_width: "カメラの幅",
     cam_height: "カメラの高さ",
-    phases: 
+    fov_warning: "FOV is too small or large, Please check!",
+    phases:
     {
       new_moon: "新月",
       full_moon: "満月",
@@ -588,7 +605,7 @@ const ja = {
     alert_select_FOV_body: "Please create or select an FOV profile in order to use Framing assistant.",
     alert_list_exists_body: "A list with that name already exists",
   },
-  ekos: 
+  ekos:
   {
     heading: "Ekos",
     tgl_mount: "架台",
@@ -602,25 +619,26 @@ const ja = {
     alert_ekos_disconnected_title: "デバイスが切断されました",
     alert_ekos_disconnected_body: "すべての機器プロファイル デバイスが接続されていません。すべてのデバイスを接続してから,もう一度試してください.",
 
-    ekos_dialog: 
+    ekos_dialog:
     {
       auto_closes_in: "Auto closes in",
     },
 
-    indi: 
+    indi:
     {
       no_logs: "No logs are available for this driver",
     },
 
-    controls_bar: 
+    controls_bar:
     {
       mount_speed: "架台 速度",
       centering: "センタリング",
       find: "Find",
       max: "最大",
+      parking_position: "Parking Position is set successfully."
     },
 
-    collapse_align: 
+    collapse_align:
     {
       heading: "整列",
       action_sync: "同期",
@@ -644,20 +662,22 @@ const ja = {
       device_gallery: "Phone/Tablet gallery",
       sm_storage: "SM Storage",
       request_storage_permission: "Please allow the storage permission",
-      manualRotator: 
+      celestial_warning: "Plate solving does not work very close to the celestial pole.",
+
+      manualRotator:
       {
         heading: "手動ローテーター",
         current_pa: "現在の PA",
         target_pa: "ターゲット PA",
         another_image: "別の画像を取得",
       },
-      align_settings: 
+      align_settings:
       {
         rotator_control: "回転 制御",
         use_scale: "Use Scale",
         use_position: "Use Position",
       },
-      calibration_settings: 
+      calibration_settings:
       {
         pulse: "パルス",
         max_move: "最大移動",
@@ -668,9 +688,10 @@ const ja = {
         reset_calibration: "各マウントスルー後にガイドキャリブレーションをリセット",
         reuse_calibration: "可能な場合はガイドのキャリブレーションを保存して再利用する",
         reverse_calibration: "キャリブレーションを再利用する場合,桟橋側の変更で DEC を逆にする",
+        skyflats: "Sky flats"
       },
     },
-    collapse_camera: 
+    collapse_camera:
     {
       heading: "キャプチャ",
       type_light: "ライト",
@@ -693,46 +714,46 @@ const ja = {
         reverse_direction: "Reverse direction of Rotator",
         flip_rotator: "Preserve Rotator Angel",
         flip_position: "Preserve Position Angel",
+      },
+
+      capture_settings: {
+        miscellaneous: "Miscellaneous",
+        temperature: "Temperature threshold",
+        temperature_tooltip: "Maximum acceptable difference between requested and measured temperature set point. When the temperature threshold is below this value, the temperature set point request is deemed successful.",
+        guiding: "Guiding settle",
+        guiding_tooltip: "Wait this many seconds after guiding is resumed to stabilize the guiding performance before capture.",
+        dialog: "Dialog timeout",
+        dialog_tooltip: "Cover or uncover telescope dialog timeout in seconds.",
+
+        reset_sequence: "Always reset sequence when starting",
+        reset_sequence_tooltip: "When starting to process a sequence list, reset all capture counts to zero. Scheduler overrides this option when Remember job progress is enabled.",
+        reset_mount: "Reset mount model after meridian flip",
+        reset_mount_tooltip: "Reset mount model after meridian flip.",
+        use_flip: "Use flip command if supported by mount",
+        use_flip_tooltip: "Use flip command if it is supported by the mount.",
+        summary_preview: "Summary screen preivew",
+        summary_preview_tooltip: "Display received FITS in the Summary screen preview window.",
+
+        force_dslr: "Force DSLR presets",
+        image_viewer: "DSLR image viewer",
+
+        sequence_focus: "In-Sequence Focus",
+        hfr_threshold: "HFR threshold modifier",
+        hfr_threshold_tooltip: "Set HFR Threshold percentage gain. When an autofocus operation is completed, the autofocus HFR value is increased by this threshold percentage value and stored within the capture module. If In- Sequence-Focus is engaged, the autofocus module only performs auto-focusing procedure if current HFR value exceeds the capture module HFR threshold. Increase value to permit more relaxed changes in HFR values without requiring a full autofocus run.",
+        sequence_check: "In-sequence HFR check",
+        sequence_check_tooltip: "Run In-Sequence HFR check after this many frames.",
+
+        median: "Use median focus",
+        median_tooltip: "Calculate median focus value after each autofocus operation is complete. If the autofocus results become progressively worse with time, the median value shall reflect this trend and prevent unnecessary autofocus operations when the seeing conditions deteriorate.",
+        save_sequence: "Save sequence HFR value to file",
+        save_sequence_tooltip: "In-sequence HFR threshold value controls when the autofocus process is started. If the measured HFR value exceeds the HFR threshold, autofocus process is initiated. If the HFR threshold value is zero initially (default), then the autofocus process best HFR value is used to set the new HFR threshold, after applying the HFR threshold modifier percentage. This new HFR threshold is then used for subsequent In-Sequence focus checks. If this option is enabled, the HFR threshold value is constant and gets saved to the sequence file."
+      }
     },
-
-    capture_settings: {
-      miscellaneous: "Miscellaneous",
-      temperature: "Temperature threshold",
-      temperature_tooltip: "Maximum acceptable difference between requested and measured temperature set point. When the temperature threshold is below this value, the temperature set point request is deemed successful.",
-      guiding: "Guiding settle",
-      guiding_tooltip: "Wait this many seconds after guiding is resumed to stabilize the guiding performance before capture.",
-      dialog: "Dialog timeout",
-      dialog_tooltip: "Cover or uncover telescope dialog timeout in seconds.",
-
-      reset_sequence: "Always reset sequence when starting",
-      reset_sequence_tooltip: "When starting to process a sequence list, reset all capture counts to zero. Scheduler overrides this option when Remember job progress is enabled.",
-      reset_mount: "Reset mount model after meridian flip",
-      reset_mount_tooltip: "Reset mount model after meridian flip.",
-      use_flip: "Use flip command if supported by mount",
-      use_flip_tooltip: "Use flip command if it is supported by the mount.",
-      summary_preview: "Summary screen preivew",
-      summary_preview_tooltip: "Display received FITS in the Summary screen preview window.",
-
-      force_dslr: "Force DSLR presets",
-      image_viewer: "DSLR image viewer",
-
-      sequence_focus: "In-Sequence Focus",
-      hfr_threshold: "HFR threshold modifier",
-      hfr_threshold_tooltip: "Set HFR Threshold percentage gain. When an autofocus operation is completed, the autofocus HFR value is increased by this threshold percentage value and stored within the capture module. If In- Sequence-Focus is engaged, the autofocus module only performs auto-focusing procedure if current HFR value exceeds the capture module HFR threshold. Increase value to permit more relaxed changes in HFR values without requiring a full autofocus run.",
-      sequence_check: "In-sequence HFR check",
-      sequence_check_tooltip: "Run In-Sequence HFR check after this many frames.",
-
-      median: "Use median focus",
-      median_tooltip: "Calculate median focus value after each autofocus operation is complete. If the autofocus results become progressively worse with time, the median value shall reflect this trend and prevent unnecessary autofocus operations when the seeing conditions deteriorate.",
-      save_sequence: "Save sequence HFR value to file",
-      save_sequence_tooltip: "In-sequence HFR threshold value controls when the autofocus process is started. If the measured HFR value exceeds the HFR threshold, autofocus process is initiated. If the HFR threshold value is zero initially (default), then the autofocus process best HFR value is used to set the new HFR threshold, after applying the HFR threshold modifier percentage. This new HFR threshold is then used for subsequent In-Sequence focus checks. If this option is enabled, the HFR threshold value is constant and gets saved to the sequence file."
-  }
-    },
-    capture_presets: 
+    capture_presets:
     {
       heading: "プリセット設定",
     },
-    capture_limits: 
+    capture_limits:
     {
       heading: "制限設定",
       guide_deviation: "ガイド偏差 <",
@@ -743,19 +764,23 @@ const ja = {
       focus_deltaT_unit: "°C",
       refocus_n: "Refocus every",
       refocus_n_unit: "minutes",
+      refocus_on_hfr: "Refocus on HFR. Use",
+      refocus_meridian: "Refocus after meridian flip",
+      check_every: "Check every",
     },
-    capture_filters: 
+    capture_filters:
     {
       heading: "フィルタ設定",
       auto_focus: "オートフォーカス",
       lock_filter: "フィルター固定",
+      no_filters: "No filters have been found.",
     },
-    targets_filters: 
+    targets_filters:
     {
       object_type: "オブジェクト タイプ",
       alt: "Alt",
     },
-    capture_auto_calibration: 
+    capture_auto_calibration:
     {
       heading: "自動校正",
       flat_source: "フラット ソース",
@@ -770,7 +795,7 @@ const ja = {
       park_dome: "ドームをパーク",
       pre_actions: "Calibration Pre-Actions"
     },
-    capture_file: 
+    capture_file:
     {
       filename: "ファイル名",
       heading: "ファイル設定",
@@ -784,7 +809,7 @@ const ja = {
       unmount: "アンマウント",
     },
 
-    collapse_dome: 
+    collapse_dome:
     {
       heading: "キャップ & ドーム",
       cap: "キャップ",
@@ -801,7 +826,7 @@ const ja = {
       up_displacement: "上変位 (m)",
       ota_offset: "OTA オフセット (m)",
     },
-    collapse_focus: 
+    collapse_focus:
     {
       heading: "フォーカス",
       hfr: "HFR",
@@ -809,7 +834,7 @@ const ja = {
       focus_in: "イン",
       focus_out: "アウト",
       steps: "ステップ",
-      settings: 
+      settings:
       {
         suspend_guiding: "ガイドの一時停止",
         auto_select_star: "星の自動選択",
@@ -818,7 +843,7 @@ const ja = {
         dark: "ダークフレーム",
         annulus: "輪",
       },
-      process: 
+      process:
       {
         title: "プロセス",
         detection: "検出",
@@ -830,7 +855,7 @@ const ja = {
         num_of_rows: "行数",
         sigma: "シグマ",
       },
-      mechanics: 
+      mechanics:
       {
         title: "力学",
         initial_step_size: "初期ステップ サイズ",
@@ -838,9 +863,14 @@ const ja = {
         max_step_size: "最大ステップ サイズ",
         backlash: "バックラッシュ",
         out_step_multiple: "アウト ステップ倍数",
+        number_steps: "Number Steps",
+        af_overscan: "AF Overscan",
+        capture_timeout: "Capture timeout",
+        motion_timeout: "Motion timeout",
+        overscan_delay: "Overscan Delay",
       },
     },
-    collapse_guide: 
+    collapse_guide:
     {
       total_rms_plot: "RMS",
       scope_primary: "主鏡",
@@ -874,11 +904,11 @@ const ja = {
       min_error: "Min error",
       max_response: "Max response",
     },
-    collapse_observatory: 
+    collapse_observatory:
     {
       heading: "天文台",
     },
-    collapse_polar: 
+    collapse_polar:
     {
       heading: "極軸合わせ",
       mount_direction: "架台方向",
@@ -893,7 +923,7 @@ const ja = {
       az_error: "AZ エラー: ",
       al_error: "AL エラー: ",
     },
-    collapse_sequence: 
+    collapse_sequence:
     {
       progress: "シーケンスの開始と停止",
       sequence: "順序",
@@ -904,7 +934,7 @@ const ja = {
       alert_sequence_loading_body: "Error loading sequence file",
       alert_sequence_delete_body: "Error deleting sequence file",
     },
-    collapse_mount: 
+    collapse_mount:
     {
       meridian_flip: "子午線反転",
       flip_if_ha: "HA > の場合フリップ",
@@ -923,18 +953,20 @@ const ja = {
       west: "W",
       east_long: "East (西向き)",
       west_long: "West (東向き)",
+      reverse_NS: "Reverse North/South",
+      reverse_WE: "Reverse West/East"
     },
-    modal_add_to_seq: 
+    modal_add_to_seq:
     {
       heading: "シーケンスに追加",
     },
-    modal_goto_sync: 
+    modal_goto_sync:
     {
       heading: "移動または同期",
       category: "カテゴリ",
       btn_goto: "Goto",
     },
-    mount_status_bar: 
+    mount_status_bar:
     {
       ra: "RA",
       de: "DE",
@@ -942,11 +974,11 @@ const ja = {
       at: "AL",
       ha: "HA",
     },
-    camera_status_bar: 
+    camera_status_bar:
     {
       bin: "ビン",
     },
-    solution_bar: 
+    solution_bar:
     {
       dra: "dRA",
       dde: "dDE",
@@ -955,12 +987,12 @@ const ja = {
       rot: "ROT",
       fov: "FOV",
     },
-    mount_overlay: 
+    mount_overlay:
     {
       right_asc: "赤経",
       declination: "赤緯",
     },
-    histogram: 
+    histogram:
     {
       mean: "平均",
       median: "中央値",
@@ -969,7 +1001,7 @@ const ja = {
       bit_depth: "ビット深度",
       non_linear_histogram: "非線形ヒストグラム",
     },
-    livestacking: 
+    livestacking:
     {
       auto_dark: "オートダーク",
       plate_solve: "プレートソルブ",
@@ -979,10 +1011,11 @@ const ja = {
       sigma_clipping: "シグマ クリッピング",
       noImages: "ライブ スタッキング イメージが見つかりません",
     },
-    scheduler: 
+    scheduler:
     {
       scheduler: "スケジューラ",
       j2000: "J2000",
+      add_sequences: "Add Sequences",
       fits: "FITSファイル",
       priority: "優先順位",
       generalSettings: "一般設定",
@@ -1017,7 +1050,7 @@ const ja = {
       culimination: "集大成オフセット",
       create_jobs: "ジョブの作成",
 
-      mosaic: 
+      mosaic:
       {
         import: "モザイクのインポート",
         planner: "モザイクプランナー",
@@ -1044,8 +1077,8 @@ const ja = {
         remember_job: "Remember Job progress",
         remember_job_tooltip: "When processing a scheduled job, resume the sequence starting from the last image present in storage.",
 
-        reset_mount :"Reset mount model on alignment failure",
-        reset_mount_tooltip :"Reset mount model on alignment failure",
+        reset_mount: "Reset mount model on alignment failure",
+        reset_mount_tooltip: "Reset mount model on alignment failure",
         reset_mount_before: "Reset mount model before starting each job",
         reset_mount_before_tooltip: "Reset mount model before starting each job",
         force_realign: "Force re-alignment before re-starting jobs",
@@ -1062,24 +1095,25 @@ const ja = {
         reset_pipeline: "Reset pipeline if verified image delta exceeds",
         reset_pipeline_tooltip: "If captured position exceeds target position by more this many arcminutes, abort capture and reschedule the pipeline.",
         arcminutes: "arcminutes",
-    }
+      }
     },
-    summary: 
+    summary:
     {
       empty: "要約データがありません",
       deviation: "偏差",
       inactive: "非アクティブ",
     },
   },
-  optical_train: 
+  optical_train:
   {
     optical_trains: "オプティカルトレイン",
     telescope: "望遠鏡・レンズ",
     create_new: "新規作成",
     dslr_lens: "DSLR レンズ",
+    reset_train: "Reset Train",
     focus_ratio: "焦点比",
     guide_via: "Guide Via",
-    tooltip: 
+    tooltip:
     {
       title: "ガイド補正パルスを受信するデバイスを選択してください",
       subject: "これは次のいずれかのデバイスです:",
@@ -1090,7 +1124,7 @@ const ja = {
       filterWheel: "フィルター ホイールを選択します。これは,USB 経由で StellarMate に接続されたスタンドアロンのフィルター ホイールである必要があります。カメラに埋め込まれたフィルター ホイールがある場合は,このフィールドを空のままにしてください。",
     },
   },
-  status: 
+  status:
   {
     system: "System",
     info: "Info",
@@ -1191,40 +1225,45 @@ const ja = {
     alert_permission_blocked: "Permission Blocked",
     alert_grant_camera_permission: "You need to grant camera permission first",
     alert_feature_not_available: "This feature is not available",
+
     alert_logout_account_body: "Are you sure you want to logout?",
-    change_resolution_modal: 
+    alert_reset_ekoslive_title: "Reset Ekoslive",
+    alert_reset_ekoslive_body: "Are you sure you want to reset Ekoslive? This would delete all cached images and restarts the server.",
+    alert_download_index_file: "Astrometry Index files are missing. Would you like to download?",
+
+    change_resolution_modal:
     {
       mode: "モード",
     },
-    change_hostname_modal: 
+    change_hostname_modal:
     {
       new_hostname: "新しいホスト名",
     },
-    change_wifi_modal: 
+    change_wifi_modal:
     {
       heading: "ネットワークに参加",
       ssid: "SSID",
       err_wifi: "Wi-Fi ネットワークの検索中に問題が発生しました。",
     },
-    change_band_modal: 
+    change_band_modal:
     {
       heading: "バンドの変更",
       band: "バンド",
       channel: "チャネル",
     },
-    vnc_view: 
+    vnc_view:
     {
       heading: "VNC",
       alert_unreachable_title: "VNC に到達できません",
       alert_unreachable_body: "への接続の確立中に問題が発生したようですVNC ビューアー",
     },
-    web_manager_view: 
+    web_manager_view:
     {
       alert_unreachable_title: "Web Manager に到達できません",
       alert_unreachable_body: "Web Manager への接続確立中に問題が発生したようです",
     },
   },
-  settings: 
+  settings:
   {
     heading: "設定",
     言語: "言語",
@@ -1245,7 +1284,7 @@ const ja = {
     alert_delete_account_body: "Are you sure you want to delete your account?",
     color_scheme_sky_map: "Sky Map Scheme"
   },
-  cloud: 
+  cloud:
   {
     heading: "表示",
     btn_filters: "フィルター",
@@ -1259,12 +1298,13 @@ const ja = {
     cloud_disabled_title: "クラウドが無効になっています",
     cloud_disabled_body: "設定に移動し,Cloud がこのタブにアクセスできるようにします。",
     pro_plan_body: "クラウド ストレージは Pro プランのユーザーのみが利用できます。",
+    reset_ekoslive: "Reset Ekoslive",
     alert_cannot_download_title: "ダウンロードできません",
     alert_cannot_download_body: "エラーが発生しましたダウンロードしようとしています。",
     alert_confirm_delete_title: "よろしいですか?",
     alert_confirm_delete_body: "本当に {0} を削除しますか? 一度削除すると,元に戻すことはできません。",
 
-    filters_drawer: 
+    filters_drawer:
     {
       field: "分野",
       condition: "状態",
@@ -1274,7 +1314,7 @@ const ja = {
       object: "オブジェクト",
       contains: "含む",
     },
-    gallery_drawer: 
+    gallery_drawer:
     {
       all: "全て",
       h1: "1時間",
@@ -1292,26 +1332,26 @@ const ja = {
       alert_no_images_body: "ギャラリーに削除できる画像がありません.",
       alert_delete_all_body: "よろしいですか{0} 個の画像を削除しますか? これは元に戻せない操作です。",
     },
-    info_drawer: 
+    info_drawer:
     {
       add_tags_here: "ここにタグを追加",
       captured_on: "撮影日",
     },
   },
-  about: 
+  about:
   {
     heading: "だいたい",
     bundle: "バンドル",
     copyright_line1: "StellarMate is developed by Ikarus Technologies © 2017-2023",
     copyright_line2: "Alamri Observatory による背景画像",
-    credits: 
+    credits:
     {
       heading: "Credits",
       title: "Translations",
       name: "Translator name",
     },
   },
-  messages: 
+  messages:
   {
     // polar align
     polar_idle: "このツールを使用すると、ドイツ赤道儀の極位置合わせを簡単に行うことができます。マウントを天の極に向け、カウンター ウェイトを下げたホーム ポジションに駐車します。マウントの方向と速度を選択し、[開始] をクリックしてプロセスを開始します。極が見えない場合は、SkyMap または Ekos マウント コントロールを使用して任意の場所 (できれば子午線の近く) をポイントし、自分の側に応じて東または西を選択し、必要に応じて回転角度を下げて、[開始] をクリックします。",
@@ -1319,23 +1359,32 @@ const ja = {
     manual_rotator: "指定された角度だけカメラを回転させ、画像を撮影して位置角度を更新します",
     welcome: "ステラメイトへようこそ",
   },
-  ekosLivePro: 
+  ekosLivePro:
   {
     pushNotification: "プッシュ通知",
     level: "通知レベル",
     settings: "EkosLive Pro 設定",
   },
-  device: 
+  skymap:
+  {
+    goto: "Aller à"
+  },
+  device:
   {
     mirror: "Mirror External Display",
-    monitor_successfull: "SM X monitor Display changed successfully!",
-    monitor_failed: "Failed to set SM X monitor display. Please try again later!",
+    monitor_successful: "StellarMate monitor Display changed successfully!",
+    monitor_failed: "Failed to set StellarMate monitor display. Please try again later!",
     undefined_error: "Error is undefined",
     share: "Share logs",
     logs: "Logs",
     logs_upload: "Logs uploaded successfully to StellarMate support.",
     error_upload: "Error uploading logs",
-    reset_network: "Reset network"
+    reset_network: "Reset network",
+
+    vnc:
+    {
+      update_password: "Update VNC Password"
+    }
   },
   controller: {
     dc_power: "12V DC Power",
@@ -1345,6 +1394,9 @@ const ja = {
     voltage: "Voltage",
     current: "Current",
     power: "Power",
+    power_sleep: "Power is in sleep mode. Tap to wake up.",
+    power_off: "Power Off",
+    power_off_tooltip: "Power Off all ports when equipment profile is disconnected.",
     leds: "LEDs",
     auto_dew: "Auto Dew",
     auto_dew1_threshold: "Dew 1 Thresh.",
@@ -1353,6 +1405,14 @@ const ja = {
     buzzer: "Buzzer",
     sensors: "Sensors",
     alert_power_port_description: "Are you sure you want to toggle off {0}?"
-}
+  },
+  notifications: {
+    ekoslive_successful: "Ekoslive Reset is Successful",
+    ekoslive_restart: "Restarting Ekoslive"
+  },
+  hardware: {
+    serial_devices_detected: "Serial Devices Detected",
+    serial_port: "Serial Port"
+  }
 };
 export default ja;
