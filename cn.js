@@ -7,14 +7,14 @@
       cancel: "取消",
       confirm: "确认",
       apply: "应用",
-      enter: "Enter",
-      scan: "Scan",
+      enter: "输入",
+      scan: "扫描",
       save: "保存",
-      save_as: "Save as",
-      overwrite: "Overwrite",
+      save_as: "保存为",
+      overwrite: "覆盖",
       select: "选择",
       hardware: "硬件",
-      signal: "Signal",
+      signal: "信号",
       usb: "USB",
       devices: "设备",
       connect: "连接",
@@ -41,7 +41,7 @@
       scope_type: "望远镜类型",
       solver_type: "解析类型",
       type: "类型",
-      driver: "Driver",
+      driver: "驱动",
       gain: "增益",
       offset: "偏置",
       format: "格式",
@@ -80,8 +80,8 @@
       date: "日期",
       resolution: "分辨率",
       monitor: "监控",
-      clear_all: "Clear All",
-      pixels: "Pixels",
+      clear_all: "清除所有",
+      pixels: "像素",
 
       select_file: "选择文件",
       select_folder: "选择文件夹",
@@ -109,7 +109,7 @@
       off: "关",
       go: "前往",
       add: "添加",
-      load: "Load",
+      load: "加载",
       edit: "编辑",
       refresh: "刷新",
       reset: "重置",
@@ -129,9 +129,9 @@
       disable: "禁止",
       select_time: "选择时间",
       set: "设置",
-      logging: "Logging",
-      drivers: "Drivers",
-      network: "Network",
+      logging: "日志",
+      drivers: "驱动",
+      network: "网络",
 
       // Confirm Delete Alert
       alert_confirm_delete_title: "确认删除",
@@ -140,13 +140,13 @@
 
       // Confirm
       alert_confirmation_title: "确认",
-      alert_confirmation_body: "Are you sure you want to create {0} with this name?",
-      alert_overwrite_body: "The file '{0}' already exists. Do you wish to overwrite it?",
+      alert_confirmation_body: "是否确实要使用此名称创建｛0｝？",
+      alert_overwrite_body: "文件“｛0｝”已存在。是否要覆盖它？",
 
       network_error: "请确认StellarMate已联网",
       internet_required: "请确认你已经联网",
-      alert_comm_error_title: "通信错误",
-      alert_comm_error_body: "与StellarMate通信失败.请确认你已经连接网络",
+      alert_comm_error_title: "连接错误",
+      alert_comm_error_body: "与StellarMate连接失败.请确认你已经连接网络",
       ekoslive_down_title: "EkosLive停止运行",
       ekoslive_down_body:
           "EkosLive不在工作中,尝试重启StellarMate或者联系StellarMate技术支持.",
@@ -195,10 +195,10 @@
       completed: "已完成",
       not_completed: "未完成",
       capture_preview_title: "首次之光！",
-      ten_sequences_title: "星河连线",
-      mount_goto_title: "魔法定位",
+      ten_sequences_title: "星河相连",
+      mount_goto_title: "魔法锁敌千里外",
       video_recording_title: "导演之剪",
-      weather_check_title: "云层猎手",
+      weather_check_title: "腾云驾雾",
       live_stacking_title: "星光闪耀",
       create_darks_title: "黑暗的力量",
       create_defect_title: "马赛克大师",
@@ -209,7 +209,7 @@
       capture_master_title: "天空捕手",
       capture_legend_title: "天空传说",
       paa_title: "完美主义者",
-      guide_rms_title: "导星之王",
+      guide_rms_title: "导星王中王",
 
       capture_preview_description:
           "拍摄预览图像：拍摄一张精美的预览图像，展现宇宙的神秘面貌。",
@@ -493,10 +493,10 @@
       invalid_ip: "找不到IP地址或IP{0}无效。请再试一次。",
 
       cloudsMap: {
-          btn_clouds_map: "Clouds Map",
+          btn_clouds_map: "云图",
           attribution: "OpenStreetMap",
-          map_title: "3-Hour Cloud Map",
-          bortle_class: "Bortle Class"
+          map_title: "三小时内云图",
+          bortle_class: "暗夜等级"
       },
 
       ip_address: "请输入IP地址",
@@ -594,7 +594,7 @@
       search: "搜索",
       cam_width: "视场宽度",
       cam_height: "视场高度",
-      fov_warning: "FOV is too small or large, Please check!",
+      fov_warning: "视场太小或太大，请检查！",
       phases: {
           new_moon: "新月",
           full_moon: "满月",
@@ -639,7 +639,7 @@
           centering: "居中",
           find: "寻找",
           max: "最大",
-          parking_position: "Parking Position is set successfully."
+          parking_position: "归位位置设置成功"
       },
       collapse_align: {
           heading: "导星",
@@ -664,7 +664,7 @@
           device_gallery: "手机/平板电脑库",
           sm_storage: "SM 存储",
           request_storage_permission: "请允许存储权限",
-          celestial_warning: "Plate solving does not work very close to the celestial pole.",
+          celestial_warning: "解析在离天极附近无法使用！",
           manualRotator: {
               heading: "手动转动器",
               current_pa: "当前位置角",
@@ -686,7 +686,7 @@
               reset_calibration: "每次望远镜移动后重置导星校准",
               reuse_calibration: "尽可能存储和重复使用导星校准",
               reverse_calibration: "在赤道仪中天翻转时，反转赤纬以重复使用校准值",
-              skyflats: "Sky flats"
+              skyflats: "天空平场"
           },
       },
 
@@ -766,19 +766,19 @@
           refocus_n: "重新对焦每",
           refocus_n_unit: "分",
           refocus_on_hfr: "Refocus on HFR. Use",
-          refocus_meridian: "Refocus after meridian flip",
-          check_every: "Check every",
-          about_guide_deviation: "About if guide deviation >",
-          start_deviation: "Only start if guide deviation <",
-          guide_deviation: "Guide deviation",
-          consecutive_times: "consecutive times",
-          dither_job: "Dither per job every",
+          refocus_meridian: "中天翻转后重新对焦",
+          check_every: "每次都检查",
+          about_guide_deviation: "关于如果导星误差>",
+          start_deviation: "只有在导星出现误差时才启动<",
+          guide_deviation: "导星误差",
+          consecutive_times: "连续次数",
+          dither_job: "每个任务后都抖动",
       },
       capture_filters: {
           heading: "滤镜轮设置",
           auto_focus: "自动对焦",
           lock_filter: "锁定滤镜",
-          no_filters: "No filters have been found.",
+          no_filters: "未发现可用滤镜！",
       },
       targets_filters: {
           object_type: "目标类型",
@@ -859,11 +859,11 @@
               max_step_size: "最大步长",
               backlash: "背隙",
               out_step_multiple: "向外步长倍数",
-              number_steps: "Number Steps",
-              af_overscan: "AF Overscan",
-              capture_timeout: "Capture timeout",
-              motion_timeout: "Motion timeout",
-              overscan_delay: "Overscan Delay",
+              number_steps: "步数",
+              af_overscan: "AF过扫描",
+              capture_timeout: "拍摄超时",
+              motion_timeout: "动作超时",
+              overscan_delay: "过扫描延迟",
           },
       },
       collapse_guide: {
@@ -943,8 +943,8 @@
           west: "西",
           east_long: "东（向西指）",
           west_long: "西（向东指）",
-          reverse_NS: "Reverse North/South",
-          reverse_WE: "Reverse West/East"
+          reverse_NS: "反转北/南",
+          reverse_WE: "反转西/东"
       },
       modal_add_to_seq: {
           heading: "添加到序列",
@@ -993,9 +993,9 @@
           noImages: "未找到实时叠加图像",
       },
       scheduler: {
-          scheduler: "计划管理器",
+          scheduler: "序列管理器",
           j2000: "J2000",
-          add_sequences: "Add Sequences",
+          add_sequences: "添加序列",
           fits: "FITS 文件",
           priority: "优先级",
           profile: "配置文件",
@@ -1098,7 +1098,7 @@
       telescope: "望远镜/镜头",
       create_new: "创建新项目",
       dslr_lens: "单反相机镜头",
-      reset_train: "Reset Train",
+      reset_train: "重置模型",
       focal_ratio: "焦距比",
       guide_via: "导星途径",
       tooltip: {
@@ -1220,9 +1220,9 @@
       alert_feature_not_available: "此功能不可用",
 
       alert_logout_account_body: "你确定要注销吗？",
-      alert_reset_ekoslive_title: "Reset Ekoslive",
-      alert_reset_ekoslive_body: "Are you sure you want to reset Ekoslive? This would delete all cached images and restarts the server.",
-      alert_download_index_file: "Astrometry Index files are missing. Would you like to download?",
+      alert_reset_ekoslive_title: "重置Ekoslive",
+      alert_reset_ekoslive_body: "你确定要重置Ekoslive吗？这将删除所有缓存的映像并重新启动服务器。",
+      alert_download_index_file: "缺少Astrometry解析文件。是否要下载？",
 
       change_resolution_modal: {
           mode: "模式",
@@ -1282,7 +1282,7 @@
       cloud_disabled_title: "云服务已禁用",
       cloud_disabled_body: "请转到设置并启用云服务以访问此选项卡",
       pro_plan_body: "云存储仅适用于高级用户",
-      reset_ekoslive: "Reset Ekoslive",
+      reset_ekoslive: "重置Ekoslive",
       alert_cannot_download_title: "无法下载",
       alert_cannot_download_body: "尝试下载时出错，请重试",
       alert_confirm_delete_title: "是否确定?",
@@ -1320,12 +1320,12 @@
   about: {
       heading: "关于",
       bundle: "软件包",
-      copyright_line1: "StellarMate由Ikarus Technologies开发。© 2017-2022",
-      copyright_line2: "背景图像来自Alamri天文台",
+      copyright_line1: "StellarMate由Ikarus Technologies开发。© 2017-2024",
+      copyright_line2: "背景来自Alamri天文台",
       credits: {
           heading: "感谢",
           title: "翻译",
-          name: "翻译者名称",
+          name: "翻译者",
       },
   },
   messages: {
@@ -1345,7 +1345,7 @@
       goto: "Goto",
   },
   scheduler_settings: {
-      lead_time: "任务之间最短时间",
+      lead_time: "任务间最短间隔",
       lead_time_tooltip:
           "任务之间的最短时间（以分钟为单位）。在该提前期之前计划启动作业，以确保序列在开始之前有足够的时间进行自动对焦和导星调整。",
       pre_dawn: "黎明前限制",
@@ -1409,7 +1409,7 @@
 
       vnc:
       {
-          update_password: "Update VNC Password"
+          update_password: "更新VNC密码"
       }
   },
 
@@ -1421,9 +1421,9 @@
       voltage: "电压",
       current: "电流",
       power: "功率",
-      power_sleep: "Power is in sleep mode. Tap to wake up.",
-      power_off: "Power Off",
-      power_off_tooltip: "Power Off all ports when equipment profile is disconnected.",
+      power_sleep: "电源处于睡眠模式。点击唤醒。",
+      power_off: "关机",
+      power_off_tooltip: "断开设备配置文件时，关闭所有端口的电源。",
       leds: "LED 灯",
       auto_dew: "自动防露",
       auto_dew1_threshold: "加热器 1 阈值",
@@ -1434,12 +1434,12 @@
       alert_power_port_description: "您确定要关闭 {0} 吗？",
   },
   notifications: {
-      ekoslive_successful: "Ekoslive Reset is Successful",
-      ekoslive_restart: "Restarting Ekoslive"
+      ekoslive_successful: "Ekoslive重置成功",
+      ekoslive_restart: "重启Ekoslive"
   },
   hardware: {
-      serial_devices_detected: "Serial Devices Detected",
-      serial_port: "Serial Port"
+      serial_devices_detected: "发现串口设备",
+      serial_port: "串口"
   }
 };
 
