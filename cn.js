@@ -944,7 +944,9 @@
           east_long: "东（向西指）",
           west_long: "西（向东指）",
           reverse_NS: "反转北/南",
-          reverse_WE: "反转西/东"
+          reverse_WE: "反转西/东",
+          time_source: "Time source",
+          location_source: "Location source"
       },
       modal_add_to_seq: {
           heading: "添加到序列",

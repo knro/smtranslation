@@ -880,7 +880,11 @@ const de = {
             west: "W",
             east_long: "Osten (nach Westen zeigen)",
             west_long: "Westen (nach Osten zeigend)",
-            btn_set_auto_park_timer: "Stellen Sie die automatische Ruhezeit ein"
+            btn_set_auto_park_timer: "Stellen Sie die automatische Ruhezeit ein",
+            reverse_NS: "Reverse North/South",
+            reverse_WE: "Reverse West/East",
+            time_source: "Time source",
+            location_source: "Location source"
         },
         modal_add_to_seq: {
             heading: "Zur Sequenz hinzufügen",
