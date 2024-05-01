@@ -912,7 +912,9 @@ const es = {
             east_long: "Este (apuntando al oeste)",
             west_long: "Oeste (apuntando al este)",
             reverse_NS: "Reverse North/South",
-            reverse_WE: "Reverse West/East"
+            reverse_WE: "Reverse West/East",
+            time_source: "Time source",
+            location_source: "Location source"
         },
         modal_add_to_seq: {
             heading: "Agregar a la Secuencia",

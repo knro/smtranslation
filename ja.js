@@ -954,7 +954,9 @@ const ja = {
       east_long: "East (西向き)",
       west_long: "West (東向き)",
       reverse_NS: "Reverse North/South",
-      reverse_WE: "Reverse West/East"
+      reverse_WE: "Reverse West/East",
+      time_source: "Time source",
+      location_source: "Location source"
     },
     modal_add_to_seq:
     {

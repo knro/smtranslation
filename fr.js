@@ -887,7 +887,9 @@ const fr = {
             west_long: "Ouest (pointant vers l'est)",
             btn_set_auto_park_timer: "Définir l'heure de parquage automatique",
             reverse_NS: "Reverse North/South",
-            reverse_WE: "Reverse West/East"
+            reverse_WE: "Reverse West/East",
+            time_source: "Time source",
+            location_source: "Location source"
         },
         modal_add_to_seq: {
             heading: "Ajouter à la séquence",
