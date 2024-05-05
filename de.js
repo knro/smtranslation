@@ -1299,7 +1299,6 @@ const de = {
         sky: "Sky",
         targets: "Targets",
         device: "Device",
-        sandbox: "Sandbox"
     }
 };
 

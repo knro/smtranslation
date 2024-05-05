@@ -1316,7 +1316,6 @@ const fr = {
         sky: "Sky",
         targets: "Targets",
         device: "Device",
-        sandbox: "Sandbox"
     }
 };
 

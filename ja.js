@@ -1422,7 +1422,6 @@ const ja = {
     sky: "Sky",
     targets: "Targets",
     device: "Device",
-    sandbox: "Sandbox"
 }
 };
 export default ja;
