@@ -1432,6 +1432,13 @@
 		serial_devices_detected: "发现串口设备",
 		serial_port: "串口",
 	},
+    tabs: {
+        setup: "Setup",
+        ekos: "Ekos",
+        sky: "Sky",
+        targets: "Targets",
+        device: "Device",
+    }
 };
 
 export default cn;

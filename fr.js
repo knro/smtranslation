@@ -1418,6 +1418,13 @@ const fr = {
 		serial_devices_detected: "Serial Devices Detected",
 		serial_port: "Serial Port",
 	},
+	tabs: {
+        setup: "Setup",
+        ekos: "Ekos",
+        sky: "Sky",
+        targets: "Targets",
+        device: "Device",
+    }
 };
 
 export default fr;
