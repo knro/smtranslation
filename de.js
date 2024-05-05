@@ -1402,6 +1402,21 @@ const de = {
 		sensors: "Sensoren",
 		alert_power_port_description: "Are you sure you want to toggle off {0}?",
 	},
+    notifications: {
+		ekoslive_successful: "Ekoslive重置成功",
+		ekoslive_restart: "重启Ekoslive",
+	},
+	hardware: {
+		serial_devices_detected: "发现串口设备",
+		serial_port: "串口",
+	},
+    tabs: {
+        setup: "Setup",
+        ekos: "Ekos",
+        sky: "Sky",
+        targets: "Targets",
+        device: "Device",
+    }
 };
 
 export default de;
