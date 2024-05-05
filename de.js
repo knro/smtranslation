@@ -1284,6 +1284,22 @@ const de = {
         buzzer: "Summer",
         sensors: "Sensoren",
         alert_power_port_description: "Are you sure you want to toggle off {0}?"
+    },
+    notifications: {
+        ekoslive_successful: "Ekoslive Reset is Successful",
+        ekoslive_restart: "Restarting Ekoslive"
+    },
+    hardware: {
+        serial_devices_detected: "Serial Devices Detected",
+        serial_port: "Serial Port"
+    },
+    tabs: {
+        setup: "Setup",
+        ekos: "Ekos",
+        sky: "Sky",
+        targets: "Targets",
+        device: "Device",
+        sandbox: "Sandbox"
     }
 };
 
