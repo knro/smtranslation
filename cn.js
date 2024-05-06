@@ -555,6 +555,15 @@
 			aux2: "辅助设备2",
 			aux3: "辅助设备3",
 			aux4: "辅助设备4",
+            indi_server: "INDI Server",
+            local: "Local",
+            host: "Host",
+            web_manager: "INDI Web Manager",
+            profile_settings: "Profile Settings",
+            auto_connect: "Auto Connect",
+            port_selector: "Port Selector",
+            usb_reset: "Force USB Reset",
+            remote_drivers: "Remote Drivers"
 		},
 		add_scope: {
 			add_scope: "添加望远镜",
