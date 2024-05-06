@@ -568,8 +568,15 @@ const ja = {
 			aux2: "Aux2",
 			aux3: "Aux3",
 			aux4: "Aux4",
-			focuser: "Focuser",
-			filter: "Filter",
+            indi_server: "INDI Server",
+            local: "Local",
+            host: "Host",
+            web_manager: "INDI Web Manager",
+            profile_settings: "Profile Settings",
+            auto_connect: "Auto Connect",
+            port_selector: "Port Selector",
+            usb_reset: "Force USB Reset",
+            remote_drivers: "Remote Drivers"
 		},
 		add_scope: {
 			add_scope: "望遠鏡を追加",
