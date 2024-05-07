@@ -1446,6 +1446,7 @@ const ja = {
 	notifications: {
 		ekoslive_successful: "Ekoslive Reset is Successful",
 		ekoslive_restart: "Restarting Ekoslive",
+        usb_reset: "USB reset is successful"
 	},
 	hardware: {
 		serial_devices_detected: "Serial Devices Detected",

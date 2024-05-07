@@ -1414,6 +1414,7 @@ const de = {
     notifications: {
 		ekoslive_successful: "Ekoslive重置成功",
 		ekoslive_restart: "重启Ekoslive",
+        usb_reset: "USB reset is successful"
 	},
 	hardware: {
 		serial_devices_detected: "发现串口设备",
