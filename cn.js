@@ -378,6 +378,12 @@
 		mount_info: "赤道仪转动并计算误差",
 		movestar_desc:
 			"类似于Move Star，但是Ekos尝试跟踪正在移动的星星，并在可能时估计当前对准误差。",
+		remote_description: "Add remote INDI drivers to chain with the local INDI server configured by this profile. Format this field as a comma-separated list of quoted driver name, host name/address and optional port:",
+		remote_zwo_description: "Connect to the named camera on 192.168.1.50, port 8000.",
+		remote_eqmod_description: "Connect to the named mount on 192.168.1.50, port 7624.",
+		remote_port: "Connect to all drivers found on 192.168.1.50, port 8000.",
+		remote_ip: "Connect to all drivers found on 192.168.1.50, port 7624.",
+		remote_info: "When omitted, host defaults to localhost and port defaults to 7624. Remote INDI drivers must be already running for the connection to succeed."
 	},
 	splash: {
 		checking_for_updates: "检测更新中...",
