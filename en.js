@@ -378,6 +378,13 @@ const en = {
 			"You can also adjust the mount's altitude & azimuth knobs to reduce the error.",
 		movestar_desc:
 			"If Plate-solving is unchecked, select a bright star and then adjust the knobs to bring the star to the crosshair. Use very small and fine motion to keep the star in the frame.",
+
+		remote_description: "Add remote INDI drivers to chain with the local INDI server configured by this profile. Format this field as a comma-separated list of quoted driver name, host name/address and optional port:",
+		remote_zwo_description: "Connect to the named camera on 192.168.1.50, port 8000.",
+		remote_eqmod_description: "Connect to the named mount on 192.168.1.50, port 7624.",
+		remote_port: "Connect to all drivers found on 192.168.1.50, port 8000.",
+		remote_ip: "Connect to all drivers found on 192.168.1.50, port 7624.",
+		remote_info: "When omitted, host defaults to localhost and port defaults to 7624. Remote INDI drivers must be already running for the connection to succeed."
 	},
 	splash: {
 		checking_for_updates: "Checking for updates...",

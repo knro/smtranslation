@@ -375,6 +375,12 @@ const ja = {
 		mount_info: "星の移動 と計算エラー",
 		movestar_desc:
 			"星の移動,ただしEkos は移動中の星を追跡しようとし,可能な場合は現在のアライメント エラーを推定します。",
+		remote_description: "Add remote INDI drivers to chain with the local INDI server configured by this profile. Format this field as a comma-separated list of quoted driver name, host name/address and optional port:",
+		remote_zwo_description: "Connect to the named camera on 192.168.1.50, port 8000.",
+		remote_eqmod_description: "Connect to the named mount on 192.168.1.50, port 7624.",
+		remote_port: "Connect to all drivers found on 192.168.1.50, port 8000.",
+		remote_ip: "Connect to all drivers found on 192.168.1.50, port 7624.",
+		remote_info: "When omitted, host defaults to localhost and port defaults to 7624. Remote INDI drivers must be already running for the connection to succeed."
 	},
 	splash: {
 		checking_for_updates: "更新チェック中...",
