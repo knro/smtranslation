@@ -553,6 +553,8 @@ const fr = {
 			mount: "Monture",
 			ccd: "Camera 1",
 			dome: "Dome",
+			focuser: "Focuser",
+			filter: "Filtre",
 			guider: "Camera 2",
 			ao: "Optique adaptative",
 			weather: "Météo",

@@ -554,6 +554,8 @@ const de = {
 			mount: "Montierung",
 			ccd: "Camera 1",
 			dome: "Dome",
+			focuser: "Fokussierer",
+			filter: "Filter",
 			guider: "Camera 2",
 			ao: "Adaptive Optik",
 			weather: "Wetter",

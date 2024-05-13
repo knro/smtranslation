@@ -563,6 +563,8 @@ const es = {
 			mount: "Montura",
 			ccd: "Camera 1",
 			dome: "Dome",
+			focuser: "Enfocador",
+			filter: "Filtro",
 			guider: "Camera 2",
 			ao: "Óptica adaptable",
 			weather: "Clima",

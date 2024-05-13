@@ -554,6 +554,8 @@
 			mount: "赤道仪",
 			ccd: "主相机 1",
 			dome: "穹顶",
+			focuser: "电动调焦座",
+			filter: "滤镜",
 			guider: "主相机 2",
 			ao: "自适应光学设备",
 			weather: "天气",

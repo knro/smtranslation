@@ -567,6 +567,8 @@ const ja = {
 			mount: "マウント",
 			ccd: "カメラ 1",
 			dome: "ドーム",
+			focuser: "フォーカサー",
+			filter: "フィルター",
 			guider: "カメラ 2",
 			ao: "アダプティブオプティクス",
 			weather: "天気",
