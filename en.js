@@ -572,6 +572,8 @@ const en = {
 			mount: "Mount",
 			ccd: "Camera 1",
 			dome: "Dome",
+			focuser: "Focuser",
+			filter: "Filter",
 			guider: "Camera 2",
 			ao: "Adaptive Optics",
 			weather: "Weather",
@@ -1436,6 +1438,7 @@ const en = {
 		manual_rotator:
 			"Rotate camera by the indicated angle and then take an image to update the position angle",
 		welcome: "Welcome to StellarMate",
+		no_logs: "No {0} logs found"
 	},
 	ekosLivePro: {
 		pushNotification: "Push Notification",

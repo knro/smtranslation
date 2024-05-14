@@ -1345,6 +1345,7 @@
 		alert_directions_not_found: "未找到坐标，请选定目标并手动输入坐标。",
 		manual_rotator: "按指示角度旋转相机，然后拍摄图像以更新位置角度",
 		welcome: "欢迎使用StellarMate",
+		no_logs: "No {0} logs found"
 	},
 	ekosLivePro: {
 		pushNotification: "推送通知",

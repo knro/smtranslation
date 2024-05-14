@@ -1385,6 +1385,7 @@ const de = {
 		manual_rotator:
 			"Rotate camera by the indicated angle and then take an image to update the position angle",
 		welcome: "Willkommen zu StellarMate",
+		no_logs: "No {0} logs found"
 	},
 	ekosLivePro: {
 		pushNotification: "Push Benachrichtigung",
