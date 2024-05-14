@@ -1405,6 +1405,7 @@ const ja = {
 		manual_rotator:
 			"指定された角度だけカメラを回転させ、画像を撮影して位置角度を更新します",
 		welcome: "ステラメイトへようこそ",
+		no_logs: "No {0} logs found"
 	},
 	ekosLivePro: {
 		pushNotification: "プッシュ通知",
