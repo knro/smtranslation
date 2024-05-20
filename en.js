@@ -39,6 +39,8 @@ const en = {
 		filter: "Filter",
 		exposure: "Exposure",
 		binning: "Binning",
+		left: "Left",
+		top: "Top",
 		action: "Action",
 		scope_type: "Scope Type",
 		solver_type: "Solver Type",

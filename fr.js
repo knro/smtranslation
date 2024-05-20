@@ -38,6 +38,8 @@ const fr = {
 		filter: "Filtre",
 		exposure: "Exposition",
 		binning: "Binning",
+		left: "Left",
+		top: "Top",
 		action: "Action",
 		scope_type: "Type de Tube",
 		solver_type: "Type de solveur",

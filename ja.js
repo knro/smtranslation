@@ -39,6 +39,8 @@ const ja = {
 		filter: "フィルター",
 		exposure: "露出",
 		binning: "ビニング",
+		left: "Left",
+		top: "Top",
 		action: "アクション",
 		scope_type: "望遠鏡タイプ",
 		solver_type: "ソルバーの種類",

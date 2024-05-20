@@ -37,6 +37,8 @@ const de = {
 		filter: "Filter",
 		exposure: "Belichtung",
 		binning: "Klasseneinteilung",
+		left: "Left",
+		top: "Top",
 		action: "Aktion",
 		scope_type: "Umfang",
 		solver_type: "Auflösung",
