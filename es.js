@@ -38,6 +38,8 @@ const es = {
 		filter: "Filtro",
 		exposure: "Exposicion",
 		binning: "Binning",
+		left: "Left",
+		top: "Top",
 		action: "Accion",
 		scope_type: "Tipos de Telescopio",
 		solver_type: "Soluciones",

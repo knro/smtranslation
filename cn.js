@@ -37,6 +37,8 @@
 		filter: "滤镜",
 		exposure: "曝光",
 		binning: "像素合并",
+		left: "Left",
+		top: "Top",
 		action: "动作",
 		scope_type: "望远镜类型",
 		solver_type: "解析类型",
