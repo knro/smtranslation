@@ -1414,6 +1414,7 @@ const en = {
 				"There are no images in the gallery that could be deleted.",
 			alert_delete_all_body:
 				"Are you sure that you want to delete {0} image(s)? This is an irreversible operation.",
+			transfer_successful: "Image transfer is successful"
 		},
 		info_drawer: {
 			add_tags_here: "Add tags here",

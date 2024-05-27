@@ -1381,6 +1381,7 @@ const ja = {
 			alert_no_images_body: "ギャラリーに削除できる画像がありません.",
 			alert_delete_all_body:
 				"よろしいですか{0} 個の画像を削除しますか? これは元に戻せない操作です。",
+			transfer_successful: "Image transfer is successful"
 		},
 		info_drawer: {
 			add_tags_here: "ここにタグを追加",

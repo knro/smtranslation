@@ -1324,6 +1324,7 @@
 			alert_no_images_title: "无图像",
 			alert_no_images_body: "没有可以删除的图像",
 			alert_delete_all_body: "确定删除选定的 {0} 张图片吗? 此操作无法恢复",
+			transfer_successful: "Image transfer is successful"
 		},
 		info_drawer: {
 			add_tags_here: "在这里添加标签",
