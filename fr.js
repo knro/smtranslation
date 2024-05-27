@@ -1357,6 +1357,7 @@ const fr = {
 				"Il n'y a aucune image dans la galerie qui pourrait être supprimée.",
 			alert_delete_all_body:
 				"Voulez-vous vraiment supprimer {0} image (s)? C'est une opération irréversible.",
+			transfer_successful: "Image transfer is successful"
 		},
 		info_drawer: {
 			add_tags_here: "Ajoutez des tags ici",

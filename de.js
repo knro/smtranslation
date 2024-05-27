@@ -1361,6 +1361,7 @@ const de = {
 				"Es gibt keine Bilder in der Galerie, die gelöscht werden könnten.",
 			alert_delete_all_body:
 				"Sind Sie sicher, dass Sie {0} Bilder löschen möchten? Dies ist eine irreversible Operation.",
+			transfer_successful: "Image transfer is successful"
 		},
 		info_drawer: {
 			add_tags_here: "Fügen Sie hier Tags hinzu",

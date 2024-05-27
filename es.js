@@ -1404,6 +1404,7 @@ const es = {
 			alert_no_images_body: "No hay Imagenes en la Galeria que puedan eliminarse..",
 			alert_delete_all_body:
 				"¿Esta seguro de que desea eliminar {0} Imagenes?. Esta es una operacion irreversible.",
+			transfer_successful: "Image transfer is successful"
 		},
 		info_drawer: {
 			add_tags_here: "Agregar etiquetas aqui",
