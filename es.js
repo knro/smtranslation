@@ -1455,9 +1455,8 @@ const es = {
 		reset_network: "Reset network",
 
 		vnc: {
-			settings: "VNC Settings",
-			scaling: "Scaling mode",
-			notification: "Scaling Mode updated successfully"
+			update_password: "Update VNC Password",
+			scaling: "Scaling",
 		},
 	},
 	controller: {
