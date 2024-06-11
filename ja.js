@@ -1432,6 +1432,7 @@ const ja = {
 
 		vnc: {
 			update_password: "Update VNC Password",
+			scaling: "Scaling",
 		},
 	},
 	controller: {

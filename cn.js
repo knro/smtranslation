@@ -1422,6 +1422,7 @@
 
 		vnc: {
 			update_password: "更新VNC密码",
+			scaling: "Scaling",
 		},
 	},
 
