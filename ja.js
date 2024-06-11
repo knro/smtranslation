@@ -1431,7 +1431,9 @@ const ja = {
 		reset_network: "Reset network",
 
 		vnc: {
-			update_password: "Update VNC Password",
+			settings: "VNC Settings",
+			scaling: "Scaling mode",
+			notification: "Scaling Mode updated successfully"
 		},
 	},
 	controller: {

@@ -1405,6 +1405,12 @@ const de = {
 		logs_upload: "Logs wurden erfolgreich zum StellarMate Support hochgeladen.",
 		error_upload: "Fehler beim hochladen der Logs",
 		reset_network: "Netzwerk zurücksetzen",
+
+		vnc: {
+			settings: "VNC Settings",
+			scaling: "Scaling mode",
+			notification: "Scaling Mode updated successfully"
+		},
 	},
 	controller: {
 		dc_power: "12V Gleichspannung",

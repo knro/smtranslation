@@ -1421,7 +1421,9 @@
 		reset_network: "重置网络",
 
 		vnc: {
-			update_password: "更新VNC密码",
+			settings: "VNC Settings",
+			scaling: "Scaling mode",
+			notification: "Scaling Mode updated successfully"
 		},
 	},
 
