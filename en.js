@@ -505,6 +505,7 @@ const en = {
 		generic: "Generic Serial",
 		select_driver: "Please select device type and driver",
 		invalid_ip: "No IP address found or invalid IP {0}. Please try again.",
+		no_kstars_instances: "No active KStars instances detected.",
 
 		cloudsMap: {
 			btn_clouds_map: "Clouds Map",
