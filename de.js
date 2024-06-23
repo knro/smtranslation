@@ -1442,8 +1442,12 @@ const de = {
         ekos: "Ekos",
         sky: "Sky",
         targets: "Targets",
-        device: "Device",
-    }
+		stella: "Stella"
+    },
+	stella: {
+		confirm: "Confirm Prompt",
+		narrate: "Narrate Response"
+	}
 };
 
 export default de;
