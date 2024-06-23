@@ -1502,6 +1502,7 @@ const en = {
         ekos: "Ekos",
         sky: "Sky",
         targets: "Targets",
+		device: "Device",
 		stella: "Stella"
     },
 	stella: {
