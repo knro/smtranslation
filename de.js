@@ -1442,6 +1442,7 @@ const de = {
         ekos: "Ekos",
         sky: "Sky",
         targets: "Targets",
+		device: "Device",
 		stella: "Stella"
     },
 	stella: {
