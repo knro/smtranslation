@@ -140,6 +140,8 @@ const ja = {
 		logging: "Logging",
 		drivers: "Drivers",
 		network: "Network",
+		submit: "Submit",
+		execute: "Execute",
 
 		// 削除アラートの確認
 		alert_confirm_delete_title: "削除の確認",
@@ -1458,7 +1460,15 @@ const ja = {
 	notifications: {
 		ekoslive_successful: "Ekoslive Reset is Successful",
 		ekoslive_restart: "Restarting Ekoslive",
-        usb_reset: "USB reset is successful"
+        usb_reset: "USB reset is successful",
+		feedback: "Feedback",
+		stella_feedback_optional: "(Optional) Feel free to add more details.",
+		stella_feedback: "Feedback submitted successfully.",
+		stella_feedback_placeholder: "Please provide additional feedback",
+		stella_prompt_request: "Request for Stella handled successfully✅",
+		stella_xml_failure: "Failed to generate XML",
+		stella_history_success: "History deleted successfully.",
+		stella_history_failure: "Error deleting history"
 	},
 	hardware: {
 		serial_devices_detected: "Serial Devices Detected",
