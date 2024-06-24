@@ -134,6 +134,8 @@
 		logging: "日志",
 		drivers: "驱动",
 		network: "网络",
+		submit: "Submit",
+		execute: "Execute",
 
 		// Confirm Delete Alert
 		alert_confirm_delete_title: "确认删除",
@@ -573,7 +575,15 @@
             auto_connect: "Auto Connect",
             port_selector: "Port Selector",
             usb_reset: "Force USB Reset",
-            remote_drivers: "Remote Drivers"
+            remote_drivers: "Remote Drivers",
+			feedback: "Feedback",
+			stella_feedback_optional: "(Optional) Feel free to add more details.",
+			stella_feedback: "Feedback submitted successfully.",
+			stella_feedback_placeholder: "Please provide additional feedback",
+			stella_prompt_request: "Request for Stella handled successfully✅",
+			stella_xml_failure: "Failed to generate XML",
+			stella_history_success: "History deleted successfully.",
+			stella_history_failure: "Error deleting history"
 		},
 		add_scope: {
 			add_scope: "添加望远镜",
