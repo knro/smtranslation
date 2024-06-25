@@ -1472,9 +1472,29 @@
 		device: "Device",
 		stella: "Stella"
     },
-	stella: {
-		confirm: "Confirm Prompt",
-		narrate: "Narrate Response"
+	stella: 
+	{
+		confirm: "Confirm Response",
+		narrate: "Narrate Response",
+		notifications: {
+			objects: "Stella has found some interesting objects!✅",
+			failed: "Stella didn't find anything this time. Could you try widening your search criteria or adjusting the filters?"
+		},
+
+		targets:
+		{
+			example: "Filter targets with Stella AI. Here are some examples:",
+			galaxies: "1. Find all galaxies above 30 degrees at the North",
+			nebulae: "2. Find all nebulae that are between 1 and 3 degrees",
+			comets: "3. Find all comets above 40 degrees and I can observe with my camera"
+		},
+		view:
+		{
+			example: "Filter images with Stella AI. Here are some examples:",
+			filter: "1. Filter images with Red filter",
+			show_images: "2. Show me images that I took May 25",
+			show_messier: "3. Show me M 31 images"
+		}
 	}
 };
 
