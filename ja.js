@@ -343,6 +343,12 @@ const ja = {
 		description_target_action:
 			"ターゲットをお気に入りまたはカスタム リストに追加します。GOTO のみをコマンドするか,GOTO に続いてキャプチャと解析を実行します。Ekos がオフラインの場合は,ターゲットをスケジュールします。",
 		alert_guided_tour_title: "Take a guided tour on Stellarmate App features",
+
+		description_stella_intro: "Stella is your personal smart digital assistant. You can use voice or text to communicate with Stella. Ask it about any topic in astronomy.",
+		description_stella_example: "Here, you can view the example prompts.",
+		description_stella_chat: "Here, you can view the chat history.",
+		description_stella_input: "Here, you can input prompts related to astronomy to ask Stella.",
+		description_stella_other_function: "You can also interact with Stella using voice and attach files.",
 	},
 	tooltip: {
 		placeholder: "Placeholder %{0} or %{1}",

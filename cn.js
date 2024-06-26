@@ -349,6 +349,12 @@
 		description_target_action:
 			"将目标添加到收藏夹或自定义列表中。仅命令GOTO或命令GOTO后拍摄和解决。如果Ekos处于离线状态，则安排该目标。",
 		alert_guided_tour_title: "进行一次领略Stellarmate魅力的导览",
+
+		description_stella_intro: "Stella is your personal smart digital assistant. You can use voice or text to communicate with Stella. Ask it about any topic in astronomy.",
+		description_stella_example: "Here, you can view the example prompts.",
+		description_stella_chat: "Here, you can view the chat history.",
+		description_stella_input: "Here, you can input prompts related to astronomy to ask Stella.",
+		description_stella_other_function: "You can also interact with Stella using voice and attach files.",
 	},
 	tooltip: {
 		placeholder: "占位符 %{0} 或 %{1}",
