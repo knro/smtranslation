@@ -338,9 +338,9 @@ const fr = {
 		alert_guided_tour_title: "Take a guided tour on Stellarmate App features",
 
 		description_stella_intro: "Stella is your personal smart digital assistant. You can use voice or text to communicate with Stella. Ask it about any topic in astronomy.",
-		description_stella_example: "Here, you can view the example prompts.",
-		description_stella_chat: "Here, you can view the chat history.",
-		description_stella_input: "Here, you can input prompts related to astronomy to ask Stella.",
+		description_stella_example: "View example prompts.",
+		description_stella_chat: "View the chat history.",
+		description_stella_input: "Enter your prompts to request tasks or retrieve data.",
 		description_stella_other_function: "You can also interact with Stella using voice and attach files.",
 	},
 	tooltip: {
