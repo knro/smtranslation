@@ -344,6 +344,12 @@ const en = {
 		description_target_action:
 			"Add target to favorites or custom list. Command a GOTO only or a GOTO followed by capture and solve. If Ekos is offline, schedule the target.",
 		alert_guided_tour_title: "Take a guided tour on Stellarmate App features",
+
+		description_stella_intro: "Stella is your personal smart digital assistant. You can use voice or text to communicate with Stella. Ask it about any topic in astronomy.",
+		description_stella_example: "View example prompts.",
+		description_stella_chat: "View the chat history.",
+		description_stella_input: "Enter your prompts to request tasks or retrieve data.",
+		description_stella_other_function: "You can also interact with Stella using voice and attach files.",
 	},
 	tooltip: {
 		placeholder: "Placeholder %{0} or %{1}",
