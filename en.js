@@ -73,6 +73,10 @@ const en = {
 		hours: "Hours",
 		minutes: "Minutes",
 		seconds: "Seconds",
+		introduction: "Introduction",
+		examples: "Examples",
+		chat: "Chat",
+		controls: "Controls",
 
 		azimuth: "Azimuth",
 		altitude: "Altitude",
@@ -290,6 +294,7 @@ const en = {
 		title_object_info: "Object info",
 		title_fov: "Target Field Of View",
 		title_target_action: "Target Action",
+		title_stella_prompt: "Stella prompt",
 
 		description_devices_list:
 			"This is the list of automatically discovered and manually added StellarMate units. Tap RESCAN to detect new StellarMate units on the network.",
