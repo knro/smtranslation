@@ -1463,6 +1463,11 @@ const de = {
     },
 	stella: 
 	{
+		confirm_ekos_running: "Please check the Ekos profile. Ekos must be online to continue",
+		auto_park_action: "Auto parking of the telescope has been enabled successfully.",
+		go_action: "Navigating to the target has been enabled successfully.",
+		go_solve_action: "Go and solve for the target has been enabled successfully.",
+		
 		confirm: "Confirm Response",
 		narrate: "Narrate Response",
 		notifications: {
