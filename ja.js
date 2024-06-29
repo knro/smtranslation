@@ -73,6 +73,10 @@ const ja = {
 		hours: "Hours",
 		minutes: "Minutes",
 		seconds: "Seconds",
+		introduction: "Introduction",
+		examples: "Examples",
+		chat: "Chat",
+		controls: "Controls",
 
 		azimuth: "方位",
 		altitude: "高度",
@@ -290,6 +294,7 @@ const ja = {
 		title_object_info: "対象情報",
 		title_fov: "ターゲット視野",
 		title_target_action: "ターゲットアクション",
+		title_stella_prompt: "Stella prompt",
 
 		description_devices_list:
 			"これは,自動的に検出され,手動で追加された StellarMate ユニットのリストです。RESCAN をタップして,ネットワーク上の新しい StellarMate ユニットを検出します。",

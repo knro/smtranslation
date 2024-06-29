@@ -70,6 +70,10 @@
 		hours: "时",
 		minutes: "分",
 		seconds: "秒",
+		introduction: "Introduction",
+		examples: "Examples",
+		chat: "Chat",
+		controls: "Controls",
 
 		azimuth: "方位角",
 		altitude: "高度角",
@@ -305,6 +309,7 @@
 		title_object_info: "目标信息",
 		title_fov: "视场",
 		title_target_action: "目标动作",
+		title_stella_prompt: "Stella prompt",
 
 		description_devices_list:
 			"自动发现和手动添加的StellarMate设备列表。单击重新扫描以检测网络上的新StellarMate设备。",
