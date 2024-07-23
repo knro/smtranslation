@@ -176,6 +176,8 @@ const ja = {
 		// 外部ストレージ
 		reset_default: "デフォルトにリセット",
 		external_storage: "外部ストレージ",
+		success: "Success",
+		failed: "Failed"
 	},
 	darkLibrary: {
 		title: "ダーク ライブラリ",
@@ -1477,7 +1479,7 @@ const ja = {
 		stella_feedback_optional: "(Optional) Feel free to add more details.",
 		stella_feedback: "Feedback submitted successfully.",
 		stella_feedback_placeholder: "Please provide additional feedback",
-		stella_prompt_request: "Request for Stella handled successfully✅",
+		stella_prompt_request: "Request for Stella handled successfully",
 		stella_xml_failure: "Failed to generate XML",
 		stella_history_success: "History deleted successfully.",
 		stella_history_failure: "Error deleting history"
@@ -1505,8 +1507,19 @@ const ja = {
 		confirm: "Confirm Response",
 		narrate: "Narrate Response",
 		notifications: {
-			objects: "Stella has found some interesting objects!✅",
-			failed: "Stella didn't find anything this time. Could you try widening your search criteria or adjusting the filters?"
+			objects: "Stella has found some interesting objects",
+			failed: "Stella didn't find anything this time. Could you try widening your search criteria or adjusting the filters?",
+			pending: "Processing...",
+			XML: {
+				pending: "Generating XML...",
+				error: "XML generation failed",
+				success: "XML generated successfully"
+			},
+			image: {
+				pending: "Processing image...",
+				error: "Processing image error",
+				success: "Processed image successfully"
+			}
 		},
 
 		targets:
