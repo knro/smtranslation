@@ -159,6 +159,8 @@
 			"KStars不在工作中,尝试重启StellarMate或者联系StellarMate技术支持.",
 		reset_default: "恢复默认设置",
 		external_storage: "外部存储器",
+		success: "Successfully",
+		failed: "Failed"
 	},
 	darkLibrary: {
 		title: "暗场库",
@@ -1465,7 +1467,15 @@
 	notifications: {
 		ekoslive_successful: "Ekoslive重置成功",
 		ekoslive_restart: "重启Ekoslive",
-        usb_reset: "USB reset is successful"
+        usb_reset: "USB reset is successful",
+		feedback: "Feedback",
+		stella_feedback_optional: "(Optional) Feel free to add more details.",
+		stella_feedback: "Feedback submitted successfully.",
+		stella_feedback_placeholder: "Please provide additional feedback",
+		stella_prompt_request: "Request for Stella handled successfully",
+		stella_xml_failure: "Failed to generate XML",
+		stella_history_success: "History deleted successfully.",
+		stella_history_failure: "Error deleting history"
 	},
 	hardware: {
 		serial_devices_detected: "发现串口设备",
@@ -1490,20 +1500,18 @@
 		confirm: "Confirm Response",
 		narrate: "Narrate Response",
 		notifications: {
-			objects: "Stella has found some interesting objects!✅",
+			objects: "Stella has found some interesting objects",
 			failed: "Stella didn't find anything this time. Could you try widening your search criteria or adjusting the filters?",
-			success: "Success!✅",
-			error: "Failed",
 			pending: "Processing...",
 			XML: {
 				pending: "Generating XML...",
 				error: "XML generation failed",
-				success: "XML generated!✅"
+				success: "XML generated successfully"
 			},
 			image: {
 				pending: "Processing image...",
 				error: "Processing image error",
-				success: "Processed image successfuly✅"
+				success: "Processed image successfully"
 			}
 		},
 
