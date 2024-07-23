@@ -159,7 +159,7 @@
 			"KStars不在工作中,尝试重启StellarMate或者联系StellarMate技术支持.",
 		reset_default: "恢复默认设置",
 		external_storage: "外部存储器",
-		success: "Successfully",
+		success: "Success",
 		failed: "Failed"
 	},
 	darkLibrary: {

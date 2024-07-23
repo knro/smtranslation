@@ -172,7 +172,7 @@ const ja = {
 		// 外部ストレージ
 		reset_default: "デフォルトにリセット",
 		external_storage: "外部ストレージ",
-		success: "Successfully",
+		success: "Success",
 		failed: "Failed"
 	},
 	darkLibrary: {

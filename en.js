@@ -173,7 +173,7 @@ const en = {
 		// External Storage
 		reset_default: "Reset to default",
 		external_storage: "External Storage",
-		success: "Successfully",
+		success: "Success",
 		failed: "Failed"
 	},
 	darkLibrary: {

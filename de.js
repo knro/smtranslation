@@ -163,7 +163,7 @@ const de = {
 			"Bitte stellen Sie sicher, dass Sie mit dem Internet verbunden sind",
 		reset_default: "auf Standard zürcksetzen",
 		external_storage: "externer Speicher",
-		success: "Successfully",
+		success: "Success",
 		failed: "Failed"
 	},
 	darkLibrary: {

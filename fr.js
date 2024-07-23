@@ -165,7 +165,7 @@ const fr = {
 			"KStars n'est pas en cours d'exécution, essayez de redémarrer StellarMate ou contactez le support StellarMate.",
 		reset_default: "Reset to default",
 		external_storage: "Stokage Externe",
-		success: "Successfully",
+		success: "Success",
 		failed: "Failed"
 	},
 	darkLibrary: {
