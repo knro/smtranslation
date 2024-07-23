@@ -1535,7 +1535,20 @@ const en = {
 		narrate: "Narrate Response",
 		notifications: {
 			objects: "Stella has found some interesting objects!✅",
-			failed: "Stella didn't find anything this time. Could you try widening your search criteria or adjusting the filters?"
+			failed: "Stella didn't find anything this time. Could you try widening your search criteria or adjusting the filters?",
+			success: "Success!✅",
+			error: "Failed",
+			pending: "Processing...",
+			XML: {
+				pending: "Generating XML...",
+				error: "XML generation failed",
+				success: "XML generated!✅"
+			},
+			image: {
+				pending: "Processing image...",
+				error: "Processing image error",
+				success: "Processed image successfuly✅"
+			}
 		},
 
 		targets:
