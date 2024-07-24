@@ -431,6 +431,7 @@
 		new_scope_focal_ratio_invalid: "请输入一个有效的焦比",
 	},
 	progress: {
+		start_capture: "Starting capture...",
 		please_wait: "请稍候 ...",
 		establishing_connection: "正在建立连接",
 		cameras: "获取相机",
