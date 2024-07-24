@@ -416,6 +416,7 @@ const de = {
 		new_scope_focal_ratio_invalid: "Enter a valid focal ratio",
 	},
 	progress: {
+		start_capture: "Starting capture...",
 		please_wait: "Warten Sie mal ...",
 		establishing_connection: "Stelle Verbindung her",
 		cameras: "Kameras auswählen",

@@ -428,6 +428,7 @@ const en = {
 		enter_file_name: "Enter a filename",
 	},
 	progress: {
+		start_capture: "Starting capture...",
 		please_wait: "Please wait ...",
 		establishing_connection: "Establishing Connection",
 		cameras: "Getting Cameras",

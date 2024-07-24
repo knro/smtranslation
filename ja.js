@@ -424,6 +424,7 @@ const ja = {
 		enter_file_name: "ファイル名を入力してください",
 	},
 	progress: {
+		start_capture: "Starting capture...",
 		please_wait: "お待ちください...",
 		Establishing_connection: "接続を確立しています",
 		camera: "カメラを取得しています",
