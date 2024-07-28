@@ -151,18 +151,21 @@ const en = {
 		alert_confirm_delete_title: "Confirm Delete",
 		alert_delete_profile_body:
 			"Are you sure you want to delete the selected profile?",
-		alert_delete_scope_body: "Are you sure you want to delete the selected scope?",
+		alert_delete_scope_body:
+			"Are you sure you want to delete the selected scope?",
 
 		// Confirm
 		alert_confirmation_title: "Confirmation",
-		alert_confirmation_body: "Are you sure you want to create {0} with this name?",
+		alert_confirmation_body:
+			"Are you sure you want to create {0} with this name?",
 		alert_overwrite_body:
 			"The file '{0}' already exists. Do you wish to overwrite it?",
 
 		// error messages
 		network_error:
 			"Please make sure that your StellarMate is connected to your network",
-		internet_required: "Please make sure that you are connected to the internet",
+		internet_required:
+			"Please make sure that you are connected to the internet",
 		alert_comm_error_title: "Communication Error",
 		alert_comm_error_body:
 			"Failed to communicate with StellarMate. Please make sure it is connected to your network.",
@@ -178,7 +181,7 @@ const en = {
 		reset_default: "Reset to default",
 		external_storage: "External Storage",
 		success: "Success",
-		failed: "Failed"
+		failed: "Failed",
 	},
 	darkLibrary: {
 		title: "Dark Library",
@@ -243,7 +246,8 @@ const en = {
 			"Use Cloud Map in weather info, Zoom in to at least 8x to check weather",
 		live_stacking_description: "Live stacking. Perform at least 5 images",
 		create_darks_description: "Create Darks of total 50 Images",
-		create_defect_description: "Generate hot / cold pixels in Defect map above 80",
+		create_defect_description:
+			"Generate hot / cold pixels in Defect map above 80",
 		import_mosaic_description: "Import Mosaics from telescopios",
 		messier_captured_description: "A messier object is captured",
 		all_messier_description: "All Messier objects were captured",
@@ -308,7 +312,8 @@ const en = {
 			"After a profile is started for the first time, select the serial and/or network settings for your devices.",
 		description_trains:
 			"Set up how your equipment is arranged using Optical trains. Assign each device to a specific function. Create a train for each camera.",
-		description_weather_bar: "Brief weather report and current site Bortle class",
+		description_weather_bar:
+			"Brief weather report and current site Bortle class",
 		description_cloud_report: "3-hours Cloud overlay.",
 		description_next:
 			"Explore applicable astronomical targets by tapping the Targets tab. Use Go & Solve to center your target in the camera frame. Open the Framing Assistant to achieve the perfect desired orientation. Head over to Ekos tab to set up imaging sequences and live stack images.",
@@ -352,11 +357,14 @@ const en = {
 			"Add target to favorites or custom list. Command a GOTO only or a GOTO followed by capture and solve. If Ekos is offline, schedule the target.",
 		alert_guided_tour_title: "Take a guided tour on Stellarmate App features",
 
-		description_stella_intro: "Stella is your personal smart digital assistant. You can use voice or text to communicate with Stella. Ask it about any topic in astronomy.",
+		description_stella_intro:
+			"Stella is your personal smart digital assistant. You can use voice or text to communicate with Stella. Ask it about any topic in astronomy.",
 		description_stella_example: "View example prompts.",
 		description_stella_chat: "View the chat history.",
-		description_stella_input: "Enter your prompts to request tasks or retrieve data.",
-		description_stella_other_function: "You can also interact with Stella using voice and attach files.",
+		description_stella_input:
+			"Enter your prompts to request tasks or retrieve data.",
+		description_stella_other_function:
+			"You can also interact with Stella using voice and attach files.",
 	},
 	tooltip: {
 		placeholder: "Placeholder %{0} or %{1}",
@@ -386,7 +394,8 @@ const en = {
 
 		format_title:
 			"Format is used to define the image file names by the use of placeholder tags.",
-		suffix: "Number of digits used to append the sequence number to the filename",
+		suffix:
+			"Number of digits used to append the sequence number to the filename",
 		paa_desc:
 			"Use plate-solving method for Polar Alignment. Plate solving is slower but provides more accurate results.",
 		plate_solving:
@@ -396,12 +405,16 @@ const en = {
 		movestar_desc:
 			"If Plate-solving is unchecked, select a bright star and then adjust the knobs to bring the star to the crosshair. Use very small and fine motion to keep the star in the frame.",
 
-		remote_description: "Add remote INDI drivers to chain with the local INDI server configured by this profile. Format this field as a comma-separated list of quoted driver name, host name/address and optional port:",
-		remote_zwo_description: "Connect to the named camera on 192.168.1.50, port 8000.",
-		remote_eqmod_description: "Connect to the named mount on 192.168.1.50, port 7624.",
+		remote_description:
+			"Add remote INDI drivers to chain with the local INDI server configured by this profile. Format this field as a comma-separated list of quoted driver name, host name/address and optional port:",
+		remote_zwo_description:
+			"Connect to the named camera on 192.168.1.50, port 8000.",
+		remote_eqmod_description:
+			"Connect to the named mount on 192.168.1.50, port 7624.",
 		remote_port: "Connect to all drivers found on 192.168.1.50, port 8000.",
 		remote_ip: "Connect to all drivers found on 192.168.1.50, port 7624.",
-		remote_info: "When omitted, host defaults to localhost and port defaults to 7624. Remote INDI drivers must be already running for the connection to succeed."
+		remote_info:
+			"When omitted, host defaults to localhost and port defaults to 7624. Remote INDI drivers must be already running for the connection to succeed.",
 	},
 	splash: {
 		checking_for_updates: "Checking for updates...",
@@ -461,7 +474,8 @@ const en = {
 		require_sm_plus_pro: "Register if you have",
 	},
 	device_scanner: {
-		scanning: "Please wait while we look for StellarMate device(s) on the network",
+		scanning:
+			"Please wait while we look for StellarMate device(s) on the network",
 		qr_scan: "Scan your Device QR Code",
 	},
 	statuses: {
@@ -556,7 +570,8 @@ const en = {
 		},
 		device_manager: {
 			alert_confirm_remove_title: "Confirm Removal",
-			alert_confirm_remove_body: "Are you sure that you want to remove this device?",
+			alert_confirm_remove_body:
+				"Are you sure that you want to remove this device?",
 			btn_sign_out: "Sign Out",
 		},
 		profile_manager: {
@@ -600,15 +615,15 @@ const en = {
 			aux2: "Aux2",
 			aux3: "Aux3",
 			aux4: "Aux4",
-            indi_server: "INDI Server",
-            local: "Local",
-            host: "Host",
-            web_manager: "INDI Web Manager",
-            profile_settings: "Profile Settings",
-            auto_connect: "Auto Connect",
-            port_selector: "Port Selector",
-            usb_reset: "Force USB Reset",
-            remote_drivers: "Remote Drivers"
+			indi_server: "INDI Server",
+			local: "Local",
+			host: "Host",
+			web_manager: "INDI Web Manager",
+			profile_settings: "Profile Settings",
+			auto_connect: "Auto Connect",
+			port_selector: "Port Selector",
+			usb_reset: "Force USB Reset",
+			remote_drivers: "Remote Drivers",
 		},
 		add_scope: {
 			add_scope: "Add Scope",
@@ -747,7 +762,8 @@ const en = {
 				calibrate_backlast: "Remove DEC backlash in guide calibration",
 				reset_calibration: "Reset Guide Calibration After Each Mount Slew",
 				reuse_calibration: "Store and reuse guide calibration when possible",
-				reverse_calibration: "Reverse DEC on pier-side change when reusing calibration",
+				reverse_calibration:
+					"Reverse DEC on pier-side change when reusing calibration",
 				skyflats: "Sky flats",
 			},
 		},
@@ -805,7 +821,8 @@ const en = {
 				hfr_threshold_tooltip:
 					"Set HFR Threshold percentage gain. When an autofocus operation is completed, the autofocus HFR value is increased by this threshold percentage value and stored within the capture module. If In- Sequence-Focus is engaged, the autofocus module only performs auto-focusing procedure if current HFR value exceeds the capture module HFR threshold. Increase value to permit more relaxed changes in HFR values without requiring a full autofocus run.",
 				sequence_check: "In-sequence HFR check",
-				sequence_check_tooltip: "Run In-Sequence HFR check after this many frames.",
+				sequence_check_tooltip:
+					"Run In-Sequence HFR check after this many frames.",
 
 				median: "Use median focus",
 				median_tooltip:
@@ -897,6 +914,7 @@ const en = {
 			focus_in: "In",
 			focus_out: "Out",
 			steps: "Steps",
+			advisor: "Focus Advisor",
 			settings: {
 				suspend_guiding: "Suspend Guiding",
 				auto_select_star: "Auto Select Star",
@@ -904,6 +922,13 @@ const en = {
 				fullfield: "Full Field",
 				dark: "Dark Frame",
 				annulus: "Annulus",
+				mask: "Mask",
+				stars: "Use all stars for focusing",
+				ring: "Ring Mask",
+				adaptive: "Adaptive",
+				min_move: "Min. Move",
+				start: "Adap Start Pos",
+				max_move: "Max Total Move",
 			},
 			process: {
 				title: "Process",
@@ -985,7 +1010,8 @@ const en = {
 			sequence: "Sequence",
 			overall_progress: "Overall Progress",
 			sequences: "Sequences",
-			no_sequences: "No sequences. You can add them by tapping on Add to Sequence.",
+			no_sequences:
+				"No sequences. You can add them by tapping on Add to Sequence.",
 			alert_sequence_error_body: "Error saving sequence file",
 			alert_sequence_loading_body: "Error loading sequence file",
 			alert_sequence_delete_body: "Error deleting sequence file",
@@ -1136,7 +1162,8 @@ const en = {
 				reset_mount: "Reset mount model on alignment failure",
 				reset_mount_tooltip: "Reset mount model on alignment failure",
 				reset_mount_before: "Reset mount model before starting each job",
-				reset_mount_before_tooltip: "Reset mount model before starting each job",
+				reset_mount_before_tooltip:
+					"Reset mount model before starting each job",
 				force_realign: "Force re-alignment before re-starting jobs",
 				force_realign_tooltip:
 					"If Align is enabled, scheduler would initiate a realignment procedure before restarting any jobs even if guiding is active.",
@@ -1431,7 +1458,7 @@ const en = {
 				"There are no images in the gallery that could be deleted.",
 			alert_delete_all_body:
 				"Are you sure that you want to delete {0} image(s)? This is an irreversible operation.",
-			transfer_successful: "Image transfer is successful"
+			transfer_successful: "Image transfer is successful",
 		},
 		info_drawer: {
 			add_tags_here: "Add tags here",
@@ -1441,7 +1468,8 @@ const en = {
 	about: {
 		heading: "About",
 		bundle: "Bundle",
-		copyright_line1: "StellarMate is developed by Ikarus Technologies © 2017-2023",
+		copyright_line1:
+			"StellarMate is developed by Ikarus Technologies © 2017-2023",
 		copyright_line2: "Background image by Alamri Observatory",
 		credits: {
 			heading: "Credits",
@@ -1458,7 +1486,7 @@ const en = {
 		manual_rotator:
 			"Rotate camera by the indicated angle and then take an image to update the position angle",
 		welcome: "Welcome to StellarMate",
-		no_logs: "No {0} logs found"
+		no_logs: "No {0} logs found",
 	},
 	ekosLivePro: {
 		pushNotification: "Push Notification",
@@ -1509,7 +1537,7 @@ const en = {
 	notifications: {
 		ekoslive_successful: "Ekoslive Reset is Successful",
 		ekoslive_restart: "Restarting Ekoslive",
-        usb_reset: "USB reset is successful",
+		usb_reset: "USB reset is successful",
 		feedback: "Feedback",
 		stella_feedback_optional: "(Optional) Feel free to add more details.",
 		stella_feedback: "Feedback submitted successfully.",
@@ -1517,61 +1545,64 @@ const en = {
 		stella_prompt_request: "Request for Stella handled successfully",
 		stella_xml_failure: "Failed to generate XML",
 		stella_history_success: "History deleted successfully.",
-		stella_history_failure: "Error deleting history"
+		stella_history_failure: "Error deleting history",
 	},
 	hardware: {
 		serial_devices_detected: "Serial Devices Detected",
 		serial_port: "Serial Port",
 	},
-    tabs: {
-        setup: "Setup",
-        ekos: "Ekos",
-        sky: "Sky",
-        targets: "Targets",
+	tabs: {
+		setup: "Setup",
+		ekos: "Ekos",
+		sky: "Sky",
+		targets: "Targets",
 		device: "Device",
-		stella: "Stella"
-    },
-	stella: 
-	{
-		confirm_ekos_running: "Please check the Ekos profile. Ekos must be online to continue",
-		confirm_ekos_running_question: "This functionality requires Ekos Profile to be running. Would you like me to start the default profile?",
-		auto_park_action: "Auto parking of the telescope has been enabled successfully.",
+		stella: "Stella",
+	},
+	stella: {
+		confirm_ekos_running:
+			"Please check the Ekos profile. Ekos must be online to continue",
+		confirm_ekos_running_question:
+			"This functionality requires Ekos Profile to be running. Would you like me to start the default profile?",
+		auto_park_action:
+			"Auto parking of the telescope has been enabled successfully.",
 		go_action: "Navigating to the target has been enabled successfully.",
-		go_solve_action: "Go and solve for the target has been enabled successfully.",
-		
+		go_solve_action:
+			"Go and solve for the target has been enabled successfully.",
+
 		confirm: "Confirm Response",
 		narrate: "Narrate Response",
 		notifications: {
 			objects: "Stella has found some interesting objects",
-			failed: "Stella didn't find anything this time. Could you try widening your search criteria or adjusting the filters?",
+			failed:
+				"Stella didn't find anything this time. Could you try widening your search criteria or adjusting the filters?",
 			pending: "Processing...",
 			XML: {
 				pending: "Generating XML...",
 				error: "XML generation failed",
-				success: "XML generated successfully"
+				success: "XML generated successfully",
 			},
 			image: {
 				pending: "Processing image...",
 				error: "Processing image error",
-				success: "Processed image successfully"
-			}
+				success: "Processed image successfully",
+			},
 		},
 
-		targets:
-		{
+		targets: {
 			example: "Filter targets with Stella AI. Here are some examples:",
 			galaxies: "1. Find all galaxies above 30 degrees at the North",
 			nebulae: "2. Find all nebulae that are between 1 and 3 degrees",
-			comets: "3. Find all comets above 40 degrees and I can observe with my camera"
+			comets:
+				"3. Find all comets above 40 degrees and I can observe with my camera",
 		},
-		view:
-		{
+		view: {
 			example: "Filter images with Stella AI. Here are some examples:",
 			filter: "1. Filter images with Red filter",
 			show_images: "2. Show me images that I took May 25",
-			show_messier: "3. Show me M 31 images"
-		}
-	}
+			show_messier: "3. Show me M 31 images",
+		},
+	},
 };
 
 export default en;
