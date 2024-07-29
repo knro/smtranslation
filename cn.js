@@ -884,6 +884,14 @@
 			focus_out: "向外调焦",
 			steps: "步数",
 			advisor: "Focus Advisor",
+			update_parameters:
+				"Optimize the Focus parameters depending on your current camera and telescope.",
+			find_stars:
+				"Check to have Focus Advisor search for stars. If you are close enough to Focus to see stars in the Focus frame then this step is not neccessary.",
+			coarse_adjustment:
+				"Check to have Focus Advisor find coarse focus. This will find an approximate focus position good enough to run Autofocus.",
+			fine_adjustment:
+				"Check to have Focus Advisor run Autofocus to make fine adjustments to focus parameters.",
 			settings: {
 				suspend_guiding: "Suspend Guiding",
 				auto_select_star: "Auto Select Star",
