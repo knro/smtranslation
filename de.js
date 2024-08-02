@@ -134,6 +134,7 @@ const de = {
 		set: "einstellen",
 		submit: "Submit",
 		execute: "Execute",
+		retry: "Retry",
 
 		// Confirm Delete Alert
 		alert_confirm_delete_title: "löschen bestätigen",

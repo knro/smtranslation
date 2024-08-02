@@ -146,6 +146,7 @@ const ja = {
 		network: "Network",
 		submit: "Submit",
 		execute: "Execute",
+		retry: "Retry",
 
 		// 削除アラートの確認
 		alert_confirm_delete_title: "削除の確認",
