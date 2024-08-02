@@ -136,6 +136,7 @@
 		network: "网络",
 		submit: "Submit",
 		execute: "Execute",
+		retry: "Retry",
 
 		// Confirm Delete Alert
 		alert_confirm_delete_title: "确认删除",

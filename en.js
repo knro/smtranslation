@@ -142,6 +142,7 @@ const en = {
 		network: "Network",
 		submit: "Submit",
 		execute: "Execute",
+		retry: "Retry",
 
 		// Confirm Delete Alert
 		alert_confirm_delete_title: "Confirm Delete",
