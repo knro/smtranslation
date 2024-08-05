@@ -171,6 +171,7 @@ const de = {
 		external_storage: "externer Speicher",
 		success: "Success",
 		failed: "Failed",
+		file_too_large: "File is too large",
 	},
 	darkLibrary: {
 		title: "Dark Library",

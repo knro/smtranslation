@@ -166,6 +166,7 @@
 		external_storage: "外部存储器",
 		success: "Success",
 		failed: "Failed",
+		file_too_large: "File is too large",
 	},
 	darkLibrary: {
 		title: "暗场库",

@@ -175,6 +175,7 @@ const ja = {
 		kstars_down_body:
 			"KStars が実行されていません。StellarMate を再起動するか,StellarMate サポートに連絡してください。",
 		wait_while_syncing: "お待ちください \n を同期中",
+		file_too_large: "File is too large",
 
 		// 外部ストレージ
 		reset_default: "デフォルトにリセット",
