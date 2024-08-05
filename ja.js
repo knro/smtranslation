@@ -73,6 +73,10 @@ const ja = {
 		hours: "Hours",
 		minutes: "Minutes",
 		seconds: "Seconds",
+		introduction: "Introduction",
+		examples: "Examples",
+		chat: "Chat",
+		controls: "Controls",
 
 		azimuth: "方位",
 		altitude: "高度",
@@ -146,12 +150,14 @@ const ja = {
 
 		// 削除アラートの確認
 		alert_confirm_delete_title: "削除の確認",
-		alert_delete_profile_body: "選択したプロファイルを削除してもよろしいですか?",
+		alert_delete_profile_body:
+			"選択したプロファイルを削除してもよろしいですか?",
 		alert_delete_scope_body: "選択したスコープを削除してもよろしいですか?",
 
 		// Confirm
 		alert_confirmation_title: "確認",
-		alert_confirmation_body: "Are you sure you want to create {0} with this name?",
+		alert_confirmation_body:
+			"Are you sure you want to create {0} with this name?",
 		alert_overwrite_body:
 			"The file '{0}' already exists. Do you wish to overwrite it?",
 
@@ -169,12 +175,13 @@ const ja = {
 		kstars_down_body:
 			"KStars が実行されていません。StellarMate を再起動するか,StellarMate サポートに連絡してください。",
 		wait_while_syncing: "お待ちください \n を同期中",
+		file_too_large: "File is too large",
 
 		// 外部ストレージ
 		reset_default: "デフォルトにリセット",
 		external_storage: "外部ストレージ",
 		success: "Success",
-		failed: "Failed"
+		failed: "Failed",
 	},
 	darkLibrary: {
 		title: "ダーク ライブラリ",
@@ -293,6 +300,7 @@ const ja = {
 		title_object_info: "対象情報",
 		title_fov: "ターゲット視野",
 		title_target_action: "ターゲットアクション",
+		title_stella_prompt: "Stella prompt",
 
 		description_devices_list:
 			"これは,自動的に検出され,手動で追加された StellarMate ユニットのリストです。RESCAN をタップして,ネットワーク上の新しい StellarMate ユニットを検出します。",
@@ -347,11 +355,14 @@ const ja = {
 			"ターゲットをお気に入りまたはカスタム リストに追加します。GOTO のみをコマンドするか,GOTO に続いてキャプチャと解析を実行します。Ekos がオフラインの場合は,ターゲットをスケジュールします。",
 		alert_guided_tour_title: "Take a guided tour on Stellarmate App features",
 
-		description_stella_intro: "Stella is your personal smart digital assistant. You can use voice or text to communicate with Stella. Ask it about any topic in astronomy.",
+		description_stella_intro:
+			"Stella is your personal smart digital assistant. You can use voice or text to communicate with Stella. Ask it about any topic in astronomy.",
 		description_stella_example: "View example prompts.",
 		description_stella_chat: "View the chat history.",
-		description_stella_input: "Enter your prompts to request tasks or retrieve data.",
-		description_stella_other_function: "You can also interact with Stella using voice and attach files.",
+		description_stella_input:
+			"Enter your prompts to request tasks or retrieve data.",
+		description_stella_other_function:
+			"You can also interact with Stella using voice and attach files.",
 	},
 	tooltip: {
 		placeholder: "Placeholder %{0} or %{1}",
@@ -388,12 +399,16 @@ const ja = {
 		mount_info: "星の移動 と計算エラー",
 		movestar_desc:
 			"星の移動,ただしEkos は移動中の星を追跡しようとし,可能な場合は現在のアライメント エラーを推定します。",
-		remote_description: "Add remote INDI drivers to chain with the local INDI server configured by this profile. Format this field as a comma-separated list of quoted driver name, host name/address and optional port:",
-		remote_zwo_description: "Connect to the named camera on 192.168.1.50, port 8000.",
-		remote_eqmod_description: "Connect to the named mount on 192.168.1.50, port 7624.",
+		remote_description:
+			"Add remote INDI drivers to chain with the local INDI server configured by this profile. Format this field as a comma-separated list of quoted driver name, host name/address and optional port:",
+		remote_zwo_description:
+			"Connect to the named camera on 192.168.1.50, port 8000.",
+		remote_eqmod_description:
+			"Connect to the named mount on 192.168.1.50, port 7624.",
 		remote_port: "Connect to all drivers found on 192.168.1.50, port 8000.",
 		remote_ip: "Connect to all drivers found on 192.168.1.50, port 7624.",
-		remote_info: "When omitted, host defaults to localhost and port defaults to 7624. Remote INDI drivers must be already running for the connection to succeed."
+		remote_info:
+			"When omitted, host defaults to localhost and port defaults to 7624. Remote INDI drivers must be already running for the connection to succeed.",
 	},
 	splash: {
 		checking_for_updates: "更新チェック中...",
@@ -453,7 +468,8 @@ const ja = {
 		require_sm_plus_pro: "お持ちの場合は登録してください",
 	},
 	device_scanner: {
-		scanning: "ネットワーク上で StellarMate デバイスを探している間お待ちください",
+		scanning:
+			"ネットワーク上で StellarMate デバイスを探している間お待ちください",
 		qr_scan: "デバイスの QR コードをスキャンしてください",
 	},
 	statuses: {
@@ -567,7 +583,8 @@ const ja = {
 		device_scanner: {
 			no_device_before_scan:
 				"デバイスが検出されませんでした.スキャナを実行してください.",
-			no_device_after_scan: "スキャンが完了しました.デバイスが見つかりませんでした.",
+			no_device_after_scan:
+				"スキャンが完了しました.デバイスが見つかりませんでした.",
 			auto_scanned: "自動スキャンされました",
 			manual_added: "手動で追加",
 			add_a_device: "デバイスを追加",
@@ -590,15 +607,15 @@ const ja = {
 			aux2: "Aux2",
 			aux3: "Aux3",
 			aux4: "Aux4",
-            indi_server: "INDI Server",
-            local: "Local",
-            host: "Host",
-            web_manager: "INDI Web Manager",
-            profile_settings: "Profile Settings",
-            auto_connect: "Auto Connect",
-            port_selector: "Port Selector",
-            usb_reset: "Force USB Reset",
-            remote_drivers: "Remote Drivers"
+			indi_server: "INDI Server",
+			local: "Local",
+			host: "Host",
+			web_manager: "INDI Web Manager",
+			profile_settings: "Profile Settings",
+			auto_connect: "Auto Connect",
+			port_selector: "Port Selector",
+			usb_reset: "Force USB Reset",
+			remote_drivers: "Remote Drivers",
 		},
 		add_scope: {
 			add_scope: "望遠鏡を追加",
@@ -733,9 +750,12 @@ const ja = {
 				iterations: "Iterations",
 				two_axis: "2 軸",
 				square_size: "自動正方形サイズ",
-				calibrationBacklast: "ガイド キャリブレーションでの DEC バックラッシュの除去",
-				reset_calibration: "各マウントスルー後にガイドキャリブレーションをリセット",
-				reuse_calibration: "可能な場合はガイドのキャリブレーションを保存して再利用する",
+				calibrationBacklast:
+					"ガイド キャリブレーションでの DEC バックラッシュの除去",
+				reset_calibration:
+					"各マウントスルー後にガイドキャリブレーションをリセット",
+				reuse_calibration:
+					"可能な場合はガイドのキャリブレーションを保存して再利用する",
 				reverse_calibration:
 					"キャリブレーションを再利用する場合,桟橋側の変更で DEC を逆にする",
 				skyflats: "Sky flats",
@@ -795,7 +815,8 @@ const ja = {
 				hfr_threshold_tooltip:
 					"Set HFR Threshold percentage gain. When an autofocus operation is completed, the autofocus HFR value is increased by this threshold percentage value and stored within the capture module. If In- Sequence-Focus is engaged, the autofocus module only performs auto-focusing procedure if current HFR value exceeds the capture module HFR threshold. Increase value to permit more relaxed changes in HFR values without requiring a full autofocus run.",
 				sequence_check: "In-sequence HFR check",
-				sequence_check_tooltip: "Run In-Sequence HFR check after this many frames.",
+				sequence_check_tooltip:
+					"Run In-Sequence HFR check after this many frames.",
 
 				median: "Use median focus",
 				median_tooltip:
@@ -882,13 +903,29 @@ const ja = {
 			focus_in: "イン",
 			focus_out: "アウト",
 			steps: "ステップ",
+			advisor: "Focus Advisor",
+			update_parameters:
+				"Optimize the Focus parameters depending on your current camera and telescope.",
+			find_stars:
+				"Check to have Focus Advisor search for stars. If you are close enough to Focus to see stars in the Focus frame then this step is not neccessary.",
+			coarse_adjustment:
+				"Check to have Focus Advisor find coarse focus. This will find an approximate focus position good enough to run Autofocus.",
+			fine_adjustment:
+				"Check to have Focus Advisor run Autofocus to make fine adjustments to focus parameters.",
 			settings: {
-				suspend_guiding: "ガイドの一時停止",
-				auto_select_star: "星の自動選択",
-				subframe: "サブフレーム",
-				fullfield: "フルフィールド",
-				dark: "ダークフレーム",
-				annulus: "輪",
+				suspend_guiding: "Suspend Guiding",
+				auto_select_star: "Auto Select Star",
+				subframe: "Sub Frame",
+				fullfield: "Full Field",
+				dark: "Dark Frame",
+				annulus: "Annulus",
+				mask: "Mask",
+				stars: "Use all stars for focusing",
+				ring: "Ring Mask",
+				adaptive: "Adaptive",
+				min_move: "Min. Move",
+				start: "Adap Start Pos",
+				max_move: "Max Total Move",
 			},
 			process: {
 				title: "プロセス",
@@ -900,6 +937,17 @@ const ja = {
 				kernel_size: "カーネル サイズ",
 				num_of_rows: "行数",
 				sigma: "シグマ",
+				curve_fit: "Curve Fit",
+				limit: "Limit",
+				average_hfr: "Average HFR Check",
+				donut_buster: "Donut Buster",
+				scan_pos: "Scan for Start Position",
+				datapoints: "Num datapoints",
+				initial_size: "Initial Step Size x",
+				use_weights: "Use Weights",
+				refine_curve: "Refine Curve Fit",
+				time_dilation: "Time Dilation x",
+				outlier_rejection: "Outlier Rejection",
 			},
 			mechanics: {
 				title: "力学",
@@ -970,7 +1018,8 @@ const ja = {
 			sequence: "順序",
 			Overall_progress: "全体的な進捗状況",
 			Sequences: "シーケンス",
-			no_sequences: "シーケンスなし。 [シーケンスに追加] をタップして追加できます。",
+			no_sequences:
+				"シーケンスなし。 [シーケンスに追加] をタップして追加できます。",
 			alert_sequence_error_body: "Error saving sequence file",
 			alert_sequence_loading_body: "Error loading sequence file",
 			alert_sequence_delete_body: "Error deleting sequence file",
@@ -1121,7 +1170,8 @@ const ja = {
 				reset_mount: "Reset mount model on alignment failure",
 				reset_mount_tooltip: "Reset mount model on alignment failure",
 				reset_mount_before: "Reset mount model before starting each job",
-				reset_mount_before_tooltip: "Reset mount model before starting each job",
+				reset_mount_before_tooltip:
+					"Reset mount model before starting each job",
 				force_realign: "Force re-alignment before re-starting jobs",
 				force_realign_tooltip:
 					"If Align is enabled, scheduler would initiate a realignment procedure before restarting any jobs even if guiding is active.",
@@ -1322,7 +1372,8 @@ const ja = {
 		},
 		web_manager_view: {
 			alert_unreachable_title: "Web Manager に到達できません",
-			alert_unreachable_body: "Web Manager への接続確立中に問題が発生したようです",
+			alert_unreachable_body:
+				"Web Manager への接続確立中に問題が発生したようです",
 		},
 	},
 	settings: {
@@ -1358,7 +1409,8 @@ const ja = {
 		cloud_disabled_title: "クラウドが無効になっています",
 		cloud_disabled_body:
 			"設定に移動し,Cloud がこのタブにアクセスできるようにします。",
-		pro_plan_body: "クラウド ストレージは Pro プランのユーザーのみが利用できます。",
+		pro_plan_body:
+			"クラウド ストレージは Pro プランのユーザーのみが利用できます。",
 		reset_ekoslive: "Reset Ekoslive",
 		alert_cannot_download_title: "ダウンロードできません",
 		alert_cannot_download_body:
@@ -1393,7 +1445,7 @@ const ja = {
 			alert_no_images_body: "ギャラリーに削除できる画像がありません.",
 			alert_delete_all_body:
 				"よろしいですか{0} 個の画像を削除しますか? これは元に戻せない操作です。",
-			transfer_successful: "Image transfer is successful"
+			transfer_successful: "Image transfer is successful",
 		},
 		info_drawer: {
 			add_tags_here: "ここにタグを追加",
@@ -1403,7 +1455,8 @@ const ja = {
 	about: {
 		heading: "だいたい",
 		bundle: "バンドル",
-		copyright_line1: "StellarMate is developed by Ikarus Technologies © 2017-2023",
+		copyright_line1:
+			"StellarMate is developed by Ikarus Technologies © 2017-2023",
 		copyright_line2: "Alamri Observatory による背景画像",
 		credits: {
 			heading: "Credits",
@@ -1420,7 +1473,7 @@ const ja = {
 		manual_rotator:
 			"指定された角度だけカメラを回転させ、画像を撮影して位置角度を更新します",
 		welcome: "ステラメイトへようこそ",
-		no_logs: "No {0} logs found"
+		no_logs: "No {0} logs found",
 	},
 	ekosLivePro: {
 		pushNotification: "プッシュ通知",
@@ -1471,7 +1524,7 @@ const ja = {
 	notifications: {
 		ekoslive_successful: "Ekoslive Reset is Successful",
 		ekoslive_restart: "Restarting Ekoslive",
-        usb_reset: "USB reset is successful",
+		usb_reset: "USB reset is successful",
 		feedback: "Feedback",
 		stella_feedback_optional: "(Optional) Feel free to add more details.",
 		stella_feedback: "Feedback submitted successfully.",
@@ -1479,25 +1532,27 @@ const ja = {
 		stella_prompt_request: "Request for Stella handled successfully",
 		stella_xml_failure: "Failed to generate XML",
 		stella_history_success: "History deleted successfully.",
-		stella_history_failure: "Error deleting history"
+		stella_history_failure: "Error deleting history",
 	},
 	hardware: {
 		serial_devices_detected: "Serial Devices Detected",
 		serial_port: "Serial Port",
 	},
 	tabs: {
-        setup: "Setup",
-        ekos: "Ekos",
-        sky: "Sky",
-        targets: "Targets",
+		setup: "Setup",
+		ekos: "Ekos",
+		sky: "Sky",
+		targets: "Targets",
 		device: "Device",
-		stella: "Stella"
-    },
-	stella: 
-	{
-		confirm_ekos_running: "Please check the Ekos profile. Ekos must be online to continue",
-		confirm_ekos_running_question: "This functionality requires Ekos Profile to be running. Would you like me to start the default profile?",
-		auto_park_action: "Auto parking of the telescope has been enabled successfully.",
+		stella: "Stella",
+	},
+	stella: {
+		confirm_ekos_running:
+			"Please check the Ekos profile. Ekos must be online to continue",
+		confirm_ekos_running_question:
+			"This functionality requires Ekos Profile to be running. Would you like me to start the default profile?",
+		auto_park_action:
+			"Auto parking of the telescope has been enabled successfully.",
 		go_action: "Navigating to the target has been enabled successfully.",
 		go_solve_action: "Go and solve for the target has been enabled successfully.",
 		delete_jobs: "Deleted scheduler jobs successfully.",
@@ -1510,34 +1565,34 @@ const ja = {
 		narrate: "Narrate Response",
 		notifications: {
 			objects: "Stella has found some interesting objects",
-			failed: "Stella didn't find anything this time. Could you try widening your search criteria or adjusting the filters?",
+			failed:
+				"Stella didn't find anything this time. Could you try widening your search criteria or adjusting the filters?",
 			pending: "Processing...",
 			XML: {
 				pending: "Generating XML...",
 				error: "XML generation failed",
-				success: "XML generated successfully"
+				success: "XML generated successfully",
 			},
 			image: {
 				pending: "Processing image...",
 				error: "Processing image error",
-				success: "Processed image successfully"
-			}
+				success: "Processed image successfully",
+			},
 		},
 
-		targets:
-		{
+		targets: {
 			example: "Filter targets with Stella AI. Here are some examples:",
 			galaxies: "1. Find all galaxies above 30 degrees at the North",
 			nebulae: "2. Find all nebulae that are between 1 and 3 degrees",
-			comets: "3. Find all comets above 40 degrees and I can observe with my camera"
+			comets:
+				"3. Find all comets above 40 degrees and I can observe with my camera",
 		},
-		view:
-		{
+		view: {
 			example: "Filter images with Stella AI. Here are some examples:",
 			filter: "1. Filter images with Red filter",
 			show_images: "2. Show me images that I took May 25",
-			show_messier: "3. Show me M 31 images"
-		}
-	}
+			show_messier: "3. Show me M 31 images",
+		},
+	},
 };
 export default ja;

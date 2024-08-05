@@ -69,6 +69,10 @@ const de = {
 		hours: "Stunden",
 		minutes: "Minuten",
 		seconds: "Sekunden",
+		introduction: "Introduction",
+		examples: "Examples",
+		chat: "Chat",
+		controls: "Controls",
 
 		azimuth: "Scheitelpunkt",
 		altitude: "Höhe",
@@ -141,7 +145,8 @@ const de = {
 
 		// Confirm
 		alert_confirmation_title: "Bestätigung",
-		alert_confirmation_body: "Are you sure you want to create {0} with this name?",
+		alert_confirmation_body:
+			"Are you sure you want to create {0} with this name?",
 		alert_overwrite_body:
 			"Sind Sie sicher, dass Sie eine {0} mit diesem Namen erstellen möchten?",
 
@@ -165,7 +170,8 @@ const de = {
 		reset_default: "auf Standard zürcksetzen",
 		external_storage: "externer Speicher",
 		success: "Success",
-		failed: "Failed"
+		failed: "Failed",
+		file_too_large: "File is too large",
 	},
 	darkLibrary: {
 		title: "Dark Library",
@@ -231,7 +237,8 @@ const de = {
 			"Use Cloud Map in weather info, Zoom in to at least 8x to check weather",
 		live_stacking_description: "Live stacking. Perform at least 5 images",
 		create_darks_description: "Create Darks of total 50 Images",
-		create_defect_description: "Generate hot / cold pixels in Defect map above 80",
+		create_defect_description:
+			"Generate hot / cold pixels in Defect map above 80",
 		import_mosaic_description: "Import Mosaics from telescopios",
 		messier_captured_description: "Ein Messier Objekt wurde aufgenommen",
 		all_messier_description: "Alle Messier Objekte wurden aufgenommen",
@@ -284,6 +291,7 @@ const de = {
 		title_object_info: "Object info",
 		title_fov: "Target Field Of View",
 		title_target_action: "Target Action",
+		title_stella_prompt: "Stella prompt",
 
 		description_devices_list:
 			"This is the list of automatically discovered and manually added StellarMate units. Tap RESCAN to detect new StellarMate units on the network.",
@@ -340,11 +348,14 @@ const de = {
 			"Add target to favorites or custom list. Command a GOTO only or a GOTO followed by capture and solve. If Ekos is offline, schedule the target.",
 		alert_guided_tour_title: "Take a guided tour on StellarMate App features",
 
-		description_stella_intro: "Stella is your personal smart digital assistant. You can use voice or text to communicate with Stella. Ask it about any topic in astronomy.",
+		description_stella_intro:
+			"Stella is your personal smart digital assistant. You can use voice or text to communicate with Stella. Ask it about any topic in astronomy.",
 		description_stella_example: "View example prompts.",
 		description_stella_chat: "View the chat history.",
-		description_stella_input: "Enter your prompts to request tasks or retrieve data.",
-		description_stella_other_function: "You can also interact with Stella using voice and attach files.",
+		description_stella_input:
+			"Enter your prompts to request tasks or retrieve data.",
+		description_stella_other_function:
+			"You can also interact with Stella using voice and attach files.",
 	},
 	tooltip: {
 		placeholder: "Placeholder %{0} or %{1}",
@@ -373,7 +384,8 @@ const de = {
 			"• Only use the %Datetime tag in the filename portion of the format, not in the path definition.",
 		format_title:
 			"Format is used to define the image file names by the use of placeholder tags.",
-		suffix: "Number of digits used to append the sequence number to the filename",
+		suffix:
+			"Number of digits used to append the sequence number to the filename",
 		paa_desc:
 			"Use plate-solving method for Polar Alignment. Plate solving is slower but provides more accurate results.",
 		plate_solving:
@@ -381,12 +393,16 @@ const de = {
 		mount_info: "Move Star and Calc Error",
 		movestar_desc:
 			"Like Move Star, But Ekos attemps to track the star being moved and estimates the current alignment error when it can.",
-		remote_description: "Add remote INDI drivers to chain with the local INDI server configured by this profile. Format this field as a comma-separated list of quoted driver name, host name/address and optional port:",
-		remote_zwo_description: "Connect to the named camera on 192.168.1.50, port 8000.",
-		remote_eqmod_description: "Connect to the named mount on 192.168.1.50, port 7624.",
+		remote_description:
+			"Add remote INDI drivers to chain with the local INDI server configured by this profile. Format this field as a comma-separated list of quoted driver name, host name/address and optional port:",
+		remote_zwo_description:
+			"Connect to the named camera on 192.168.1.50, port 8000.",
+		remote_eqmod_description:
+			"Connect to the named mount on 192.168.1.50, port 7624.",
 		remote_port: "Connect to all drivers found on 192.168.1.50, port 8000.",
 		remote_ip: "Connect to all drivers found on 192.168.1.50, port 7624.",
-		remote_info: "When omitted, host defaults to localhost and port defaults to 7624. Remote INDI drivers must be already running for the connection to succeed."
+		remote_info:
+			"When omitted, host defaults to localhost and port defaults to 7624. Remote INDI drivers must be already running for the connection to succeed.",
 	},
 	splash: {
 		checking_for_updates: "Nach Updates suchen ...",
@@ -577,15 +593,15 @@ const de = {
 			aux2: "Aux2",
 			aux3: "Aux3",
 			aux4: "Aux4",
-            indi_server: "INDI Server",
-            local: "Local",
-            host: "Host",
-            web_manager: "INDI Web Manager",
-            profile_settings: "Profile Settings",
-            auto_connect: "Auto Connect",
-            port_selector: "Port Selector",
-            usb_reset: "Force USB Reset",
-            remote_drivers: "Remote Drivers",
+			indi_server: "INDI Server",
+			local: "Local",
+			host: "Host",
+			web_manager: "INDI Web Manager",
+			profile_settings: "Profile Settings",
+			auto_connect: "Auto Connect",
+			port_selector: "Port Selector",
+			usb_reset: "Force USB Reset",
+			remote_drivers: "Remote Drivers",
 			feedback: "Feedback",
 			stella_feedback_optional: "(Optional) Feel free to add more details.",
 			stella_feedback: "Feedback submitted successfully.",
@@ -593,7 +609,7 @@ const de = {
 			stella_prompt_request: "Request for Stella handled successfully✅",
 			stella_xml_failure: "Failed to generate XML",
 			stella_history_success: "History deleted successfully.",
-			stella_history_failure: "Error deleting history"
+			stella_history_failure: "Error deleting history",
 		},
 		add_scope: {
 			add_scope: "Bereich hinzufügen",
@@ -723,7 +739,8 @@ const de = {
 				calibrate_backlast: "Remove DEC backlash in guide calibration",
 				reset_calibration: "Reset Guide Calibration After Each Mount Slew",
 				reuse_calibration: "Store and reuse guide calibration when possible",
-				reverse_calibration: "Reverse DEC on pier-side change when reusing calibration",
+				reverse_calibration:
+					"Reverse DEC on pier-side change when reusing calibration",
 				skyflats: "Sky flats",
 			},
 		},
@@ -781,7 +798,8 @@ const de = {
 				hfr_threshold_tooltip:
 					"Set HFR Threshold percentage gain. When an autofocus operation is completed, the autofocus HFR value is increased by this threshold percentage value and stored within the capture module. If In- Sequence-Focus is engaged, the autofocus module only performs auto-focusing procedure if current HFR value exceeds the capture module HFR threshold. Increase value to permit more relaxed changes in HFR values without requiring a full autofocus run.",
 				sequence_check: "In-sequence HFR check",
-				sequence_check_tooltip: "Run In-Sequence HFR check after this many frames.",
+				sequence_check_tooltip:
+					"Run In-Sequence HFR check after this many frames.",
 
 				median: "Use median focus",
 				median_tooltip:
@@ -871,14 +889,29 @@ const de = {
 			hfr_plot: "HFR-Plot",
 			focus_in: "Focus ein",
 			focus_out: "Focus aus",
-			steps: "Schritte",
+			advisor: "Focus Advisor",
+			update_parameters:
+				"Optimize the Focus parameters depending on your current camera and telescope.",
+			find_stars:
+				"Check to have Focus Advisor search for stars. If you are close enough to Focus to see stars in the Focus frame then this step is not neccessary.",
+			coarse_adjustment:
+				"Check to have Focus Advisor find coarse focus. This will find an approximate focus position good enough to run Autofocus.",
+			fine_adjustment:
+				"Check to have Focus Advisor run Autofocus to make fine adjustments to focus parameters.",
 			settings: {
-				suspend_guiding: "Führung unterbrechen",
-				auto_select_star: "Stern automatisch auswählen",
-				subframe: "Hilfsrahmen",
-				fullfield: "Volles Feld",
-				dark: "Dunkler Rahmen",
-				annulus: "Ringförmig",
+				suspend_guiding: "Suspend Guiding",
+				auto_select_star: "Auto Select Star",
+				subframe: "Sub Frame",
+				fullfield: "Full Field",
+				dark: "Dark Frame",
+				annulus: "Annulus",
+				mask: "Mask",
+				stars: "Use all stars for focusing",
+				ring: "Ring Mask",
+				adaptive: "Adaptive",
+				min_move: "Min. Move",
+				start: "Adap Start Pos",
+				max_move: "Max Total Move",
 			},
 			process: {
 				title: "Prozess",
@@ -890,6 +923,17 @@ const de = {
 				kernel_size: "Kernelgröße",
 				num_of_rows: "Anzahl der Reihen",
 				sigma: "Sigma",
+				curve_fit: "Curve Fit",
+				limit: "Limit",
+				average_hfr: "Average HFR Check",
+				donut_buster: "Donut Buster",
+				scan_pos: "Scan for Start Position",
+				datapoints: "Num datapoints",
+				initial_size: "Initial Step Size x",
+				use_weights: "Use Weights",
+				refine_curve: "Refine Curve Fit",
+				time_dilation: "Time Dilation x",
+				outlier_rejection: "Outlier Rejection",
 			},
 			mechanics: {
 				title: "Mechanik",
@@ -948,7 +992,8 @@ const de = {
 			east: "Osten",
 			mount_rotation: "Rotation montieren",
 			refresh: "Aktualisierung",
-			fov_error: "Deaktiviert: Das Sichtfeld muss 30 Bogenminuten oder breiter sein.",
+			fov_error:
+				"Deaktiviert: Das Sichtfeld muss 30 Bogenminuten oder breiter sein.",
 			polar_error: "Polarer Fehler :",
 			az_error: "AZ Fehler: ",
 			al_error: "AL Fehler: ",
@@ -1112,13 +1157,15 @@ const de = {
 
 				reset_mount: "Montierung bei Ausrichtungsfehler zurücksetzen",
 				reset_mount_tooltip: "Montierung bei Ausrichtungsfehler zurücksetzen",
-				reset_mount_before: "Montierung vor dem Start jedem Job Start zurücksetzen",
+				reset_mount_before:
+					"Montierung vor dem Start jedem Job Start zurücksetzen",
 				reset_mount_before_tooltip:
 					"Montierung vor dem Start jedem Job Start zurücksetzen",
 				force_realign: "Erzwinge Neuausrichtung vor dem Neustart eines Jobs",
 				force_realign_tooltip:
 					"If Align is enabled, scheduler would initiate a realignment procedure before restarting any jobs even if guiding is active.",
-				restart_align: "Ausrichtung bei einem Guiding Kalibrierungsfehler neu starten",
+				restart_align:
+					"Ausrichtung bei einem Guiding Kalibrierungsfehler neu starten",
 				restart_align_tooltip:
 					"If guiding calibration fails then restart alignment process before proceeding to guiding recalibration process again. This can help recenter the target object in the field of view if the calibration process strayed too far off.",
 
@@ -1238,7 +1285,8 @@ const de = {
 		alert_join_wifi_title: "Treten Sie dem Wifi-Netzwerk bei",
 		alert_join_wifi_body:
 			"Durch den Beitritt zu einem WLAN-Netzwerk wird der Hotspot (falls gestartet) von StellarMate geschlossen. Stellen Sie sicher, dass Sie sich im selben Netzwerk befinden, um StellarMate weiterhin verwenden zu können. Wollen Sie fortfahren?",
-		alert_change_band_title: "Bist du sicher, dass du das Band wechseln willst?",
+		alert_change_band_title:
+			"Bist du sicher, dass du das Band wechseln willst?",
 		alert_change_band_body:
 			"Die StellarMate-App kann getrennt werden und die Kanalumschaltung kann aus verschiedenen Gründen fehlschlagen. In diesem Fall wird der Hotspot auf die Standardeinstellungen zurückgesetzt.",
 		alert_change_resolution_title: "Erfolg!",
@@ -1252,7 +1300,8 @@ const de = {
 			"Schließen Sie das Ethernet-Kabel direkt zwischen StellarMate und Ihrem PC an. Stellen Sie die IP-Adresse Ihres PCs auf 192.168.100.2 und das Gateway auf 192.168.100.1 ein",
 		alert_direct_ethernet_disconnect_body:
 			"Entfernen Sie das direkte Ethernet-Kabel.",
-		alert_clear_all_driver_config_title: "Löschen Sie alle Treiberkonfigurationen",
+		alert_clear_all_driver_config_title:
+			"Löschen Sie alle Treiberkonfigurationen",
 		alert_clear_all_driver_config_body:
 			"Möchten Sie wirklich alle Treiberkonfigurationen löschen?",
 		alert_update_complete_title: "SM OS Update",
@@ -1273,7 +1322,8 @@ const de = {
 		alert_remote_start: "Der Remote-Support konnte nicht gestartet werden: ",
 		alert_remote_stop: "Der Remote-Support konnte nicht gestoppt werden: ",
 		alert_remote_id: "Die Remote-Support-ID konnte nicht gefunden werden",
-		alert_remote_failed: "Die Remote-Support-ID konnte nicht abgerufen werden: ",
+		alert_remote_failed:
+			"Die Remote-Support-ID konnte nicht abgerufen werden: ",
 		alert_remote_not_found: "Kein Remote-Support gefunden: ",
 		alert_permission_denied: "Zugriff verweigert",
 		alert_permission_blocked: "Berechtigung blockiert",
@@ -1281,7 +1331,8 @@ const de = {
 			"Sie müssen zuerst die Erlaubnis für den Zugriff auf die Kamera erteilen",
 		alert_feature_not_available: "Diese Funktion ist nicht verfügbar",
 
-		alert_logout_account_body: "Sind Sie sicher, dass Sie sich abmelden möchten?",
+		alert_logout_account_body:
+			"Sind Sie sicher, dass Sie sich abmelden möchten?",
 		alert_reset_ekoslive_title: "Reset Ekoslive",
 		alert_reset_ekoslive_body:
 			"Are you sure you want to reset Ekoslive? This would delete all cached images and restarts the server.",
@@ -1297,7 +1348,8 @@ const de = {
 		change_wifi_modal: {
 			heading: "Treten Sie einem Netzwerk bei",
 			ssid: "SSID",
-			err_wifi: "Bei der Suche nach WLAN-Netzwerken ist ein Problem aufgetreten.",
+			err_wifi:
+				"Bei der Suche nach WLAN-Netzwerken ist ein Problem aufgetreten.",
 		},
 		change_band_modal: {
 			heading: "Band wechseln",
@@ -1351,7 +1403,8 @@ const de = {
 			"Gehen Sie zu den Einstellungen und aktivieren Sie Cloud, um auf diese Registerkarte zugreifen zu können.",
 		pro_plan_body: "Cloud-Speicher ist nur für Pro-Plan-Benutzer verfügbar.",
 		alert_cannot_download_title: "Kann nicht herunterladen",
-		alert_cannot_download_body: "Beim Herunterladen ist ein Fehler aufgetreten.",
+		alert_cannot_download_body:
+			"Beim Herunterladen ist ein Fehler aufgetreten.",
 		alert_confirm_delete_title: "Bist du sicher?",
 		alert_confirm_delete_body:
 			"Möchten Sie wirklich {0} löschen? Einmal gelöscht, kann es nicht wieder hergestellt werden.",
@@ -1381,7 +1434,7 @@ const de = {
 				"Es gibt keine Bilder in der Galerie, die gelöscht werden könnten.",
 			alert_delete_all_body:
 				"Sind Sie sicher, dass Sie {0} Bilder löschen möchten? Dies ist eine irreversible Operation.",
-			transfer_successful: "Image transfer is successful"
+			transfer_successful: "Image transfer is successful",
 		},
 		info_drawer: {
 			add_tags_here: "Fügen Sie hier Tags hinzu",
@@ -1408,7 +1461,7 @@ const de = {
 		manual_rotator:
 			"Rotate camera by the indicated angle and then take an image to update the position angle",
 		welcome: "Willkommen zu StellarMate",
-		no_logs: "No {0} logs found"
+		no_logs: "No {0} logs found",
 	},
 	ekosLivePro: {
 		pushNotification: "Push Benachrichtigung",
@@ -1418,7 +1471,8 @@ const de = {
 	device: {
 		mirror: "Externe Anzeige spiegeln",
 		monitor_successfull: "SM X Anzeige erfolgreich geändert!",
-		monitor_failed: "Failed to set SM X monitor display. Please try again later!",
+		monitor_failed:
+			"Failed to set SM X monitor display. Please try again later!",
 		undefined_error: "undefinierter Fehler",
 		share: "Logs teilen",
 		logs: "Logs",
@@ -1448,10 +1502,10 @@ const de = {
 		sensors: "Sensoren",
 		alert_power_port_description: "Are you sure you want to toggle off {0}?",
 	},
-    notifications: {
+	notifications: {
 		ekoslive_successful: "Ekoslive重置成功",
 		ekoslive_restart: "重启Ekoslive",
-        usb_reset: "USB reset is successful",
+		usb_reset: "USB reset is successful",
 		feedback: "Feedback",
 		stella_feedback_optional: "(Optional) Feel free to add more details.",
 		stella_feedback: "Feedback submitted successfully.",
@@ -1459,25 +1513,27 @@ const de = {
 		stella_prompt_request: "Request for Stella handled successfully",
 		stella_xml_failure: "Failed to generate XML",
 		stella_history_success: "History deleted successfully.",
-		stella_history_failure: "Error deleting history"
+		stella_history_failure: "Error deleting history",
 	},
 	hardware: {
 		serial_devices_detected: "发现串口设备",
 		serial_port: "串口",
 	},
-    tabs: {
-        setup: "Setup",
-        ekos: "Ekos",
-        sky: "Sky",
-        targets: "Targets",
+	tabs: {
+		setup: "Setup",
+		ekos: "Ekos",
+		sky: "Sky",
+		targets: "Targets",
 		device: "Device",
-		stella: "Stella"
-    },
-	stella: 
-	{
-		confirm_ekos_running: "Please check the Ekos profile. Ekos must be online to continue",
-		confirm_ekos_running_question: "This functionality requires Ekos Profile to be running. Would you like me to start the default profile?",
-		auto_park_action: "Auto parking of the telescope has been enabled successfully.",
+		stella: "Stella",
+	},
+	stella: {
+		confirm_ekos_running:
+			"Please check the Ekos profile. Ekos must be online to continue",
+		confirm_ekos_running_question:
+			"This functionality requires Ekos Profile to be running. Would you like me to start the default profile?",
+		auto_park_action:
+			"Auto parking of the telescope has been enabled successfully.",
 		go_action: "Navigating to the target has been enabled successfully.",
 		go_solve_action: "Go and solve for the target has been enabled successfully.",
 		delete_jobs: "Deleted scheduler jobs successfully.",
@@ -1490,35 +1546,35 @@ const de = {
 		narrate: "Narrate Response",
 		notifications: {
 			objects: "Stella has found some interesting objects",
-			failed: "Stella didn't find anything this time. Could you try widening your search criteria or adjusting the filters?",
+			failed:
+				"Stella didn't find anything this time. Could you try widening your search criteria or adjusting the filters?",
 			pending: "Processing...",
 			XML: {
 				pending: "Generating XML...",
 				error: "XML generation failed",
-				success: "XML generated successfully"
+				success: "XML generated successfully",
 			},
 			image: {
 				pending: "Processing image...",
 				error: "Processing image error",
-				success: "Processed image successfully"
-			}
+				success: "Processed image successfully",
+			},
 		},
 
-		targets:
-		{
+		targets: {
 			example: "Filter targets with Stella AI. Here are some examples:",
 			galaxies: "1. Find all galaxies above 30 degrees at the North",
 			nebulae: "2. Find all nebulae that are between 1 and 3 degrees",
-			comets: "3. Find all comets above 40 degrees and I can observe with my camera"
+			comets:
+				"3. Find all comets above 40 degrees and I can observe with my camera",
 		},
-		view:
-		{
+		view: {
 			example: "Filter images with Stella AI. Here are some examples:",
 			filter: "1. Filter images with Red filter",
 			show_images: "2. Show me images that I took May 25",
-			show_messier: "3. Show me M 31 images"
-		}
-	}
+			show_messier: "3. Show me M 31 images",
+		},
+	},
 };
 
 export default de;

@@ -70,6 +70,10 @@
 		hours: "时",
 		minutes: "分",
 		seconds: "秒",
+		introduction: "Introduction",
+		examples: "Examples",
+		chat: "Chat",
+		controls: "Controls",
 
 		azimuth: "方位角",
 		altitude: "高度角",
@@ -161,7 +165,8 @@
 		reset_default: "恢复默认设置",
 		external_storage: "外部存储器",
 		success: "Success",
-		failed: "Failed"
+		failed: "Failed",
+		file_too_large: "File is too large",
 	},
 	darkLibrary: {
 		title: "暗场库",
@@ -308,15 +313,18 @@
 		title_object_info: "目标信息",
 		title_fov: "视场",
 		title_target_action: "目标动作",
+		title_stella_prompt: "Stella prompt",
 
 		description_devices_list:
 			"自动发现和手动添加的StellarMate设备列表。单击重新扫描以检测网络上的新StellarMate设备。",
-		description_device_actions: "从列表中删除设备，执行恢复出厂设置或注销操作。",
+		description_device_actions:
+			"从列表中删除设备，执行恢复出厂设置或注销操作。",
 		description_profiles:
 			"在设备配置文件中管理天文设备。必须在启动配置文件前将所有设备接通并连接到StellarMate。开始配置文件后，请使用光路配置来配置每个设备的功能，然后单击Ekos按钮开始天体摄影会话。",
 		description_port_selector:
 			"在首次启动配置文件后，选择您设备的串口和/或网络设置。",
-		description_trains: "使用视场配置来管理您的设备。为每个相机创建一个配置文件。",
+		description_trains:
+			"使用视场配置来管理您的设备。为每个相机创建一个配置文件。",
 		description_weather_bar: "简要的天气报告和当前站点波尔特暗夜等级",
 		description_cloud_report: "云量超过3小时。",
 		description_next:
@@ -324,8 +332,10 @@
 
 		description_focus: "使用电调进行对焦。",
 		description_align: "通过解析图像获取当前指向坐标，使望远镜精确对准目标。",
-		description_guide: "跟踪您的目标，保持赤道仪锁定，并使其能够进行长时间曝光。",
-		description_capture: "使用可配置的设置创建图像序列。管理滤镜轮和暗场存储库。",
+		description_guide:
+			"跟踪您的目标，保持赤道仪锁定，并使其能够进行长时间曝光。",
+		description_capture:
+			"使用可配置的设置创建图像序列。管理滤镜轮和暗场存储库。",
 		description_mount: "切换跟踪，归位和中天翻转设置。配置自动零位。",
 		description_observatory: "控制圆顶和防尘盖设备。",
 		description_scheduler:
@@ -344,7 +354,8 @@
 			"目标管理器是StellarMate规划工具，可简化观测操作。从数千个天体中搜索并使用简单的标准进行过滤。使用定位助手定位您的目标。",
 		description_search_bar:
 			"过滤现有清单中的对象或通过输入名称并单击搜索按钮来搜索新对象。",
-		description_time_controls: "如果Ekos处于离线状态，请调整目标日期和时间计算。",
+		description_time_controls:
+			"如果Ekos处于离线状态，请调整目标日期和时间计算。",
 		description_target_controls:
 			"查看黄昏信息，管理视场范围，调整滤镜并选择目标类型。",
 		description_object_info: "物体大小、上升、过境和设置时间。",
@@ -353,11 +364,14 @@
 			"将目标添加到收藏夹或自定义列表中。仅命令GOTO或命令GOTO后拍摄和解决。如果Ekos处于离线状态，则安排该目标。",
 		alert_guided_tour_title: "进行一次领略Stellarmate魅力的导览",
 
-		description_stella_intro: "Stella is your personal smart digital assistant. You can use voice or text to communicate with Stella. Ask it about any topic in astronomy.",
+		description_stella_intro:
+			"Stella is your personal smart digital assistant. You can use voice or text to communicate with Stella. Ask it about any topic in astronomy.",
 		description_stella_example: "View example prompts.",
 		description_stella_chat: "View the chat history.",
-		description_stella_input: "Enter your prompts to request tasks or retrieve data.",
-		description_stella_other_function: "You can also interact with Stella using voice and attach files.",
+		description_stella_input:
+			"Enter your prompts to request tasks or retrieve data.",
+		description_stella_other_function:
+			"You can also interact with Stella using voice and attach files.",
 	},
 	tooltip: {
 		placeholder: "占位符 %{0} 或 %{1}",
@@ -385,18 +399,23 @@
 			"•只在格式的文件名部分使用%Datetime标记，而不在路径定义中使用。",
 		format_title: "使用占位符标记来定义图像文件名的格式。",
 		suffix: "用于在文件名中附加序列号的数字位数。",
-		paa_desc: "在极轴对准过程中使用解析法。解析速度较慢，但可以提供更准确的结果。",
+		paa_desc:
+			"在极轴对准过程中使用解析法。解析速度较慢，但可以提供更准确的结果。",
 		plate_solving:
 			"使用解析获取校准过程中的指向偏差。用户应尝试减少下面更新错误行中的误差并最小化偏移。",
 		mount_info: "赤道仪转动并计算误差",
 		movestar_desc:
 			"类似于Move Star，但是Ekos尝试跟踪正在移动的星星，并在可能时估计当前对准误差。",
-		remote_description: "Add remote INDI drivers to chain with the local INDI server configured by this profile. Format this field as a comma-separated list of quoted driver name, host name/address and optional port:",
-		remote_zwo_description: "Connect to the named camera on 192.168.1.50, port 8000.",
-		remote_eqmod_description: "Connect to the named mount on 192.168.1.50, port 7624.",
+		remote_description:
+			"Add remote INDI drivers to chain with the local INDI server configured by this profile. Format this field as a comma-separated list of quoted driver name, host name/address and optional port:",
+		remote_zwo_description:
+			"Connect to the named camera on 192.168.1.50, port 8000.",
+		remote_eqmod_description:
+			"Connect to the named mount on 192.168.1.50, port 7624.",
 		remote_port: "Connect to all drivers found on 192.168.1.50, port 8000.",
 		remote_ip: "Connect to all drivers found on 192.168.1.50, port 7624.",
-		remote_info: "When omitted, host defaults to localhost and port defaults to 7624. Remote INDI drivers must be already running for the connection to succeed."
+		remote_info:
+			"When omitted, host defaults to localhost and port defaults to 7624. Remote INDI drivers must be already running for the connection to succeed.",
 	},
 	splash: {
 		checking_for_updates: "检测更新中...",
@@ -577,15 +596,15 @@
 			aux2: "辅助设备2",
 			aux3: "辅助设备3",
 			aux4: "辅助设备4",
-            indi_server: "INDI Server",
-            local: "Local",
-            host: "Host",
-            web_manager: "INDI Web Manager",
-            profile_settings: "Profile Settings",
-            auto_connect: "Auto Connect",
-            port_selector: "Port Selector",
-            usb_reset: "Force USB Reset",
-            remote_drivers: "Remote Drivers",
+			indi_server: "INDI Server",
+			local: "Local",
+			host: "Host",
+			web_manager: "INDI Web Manager",
+			profile_settings: "Profile Settings",
+			auto_connect: "Auto Connect",
+			port_selector: "Port Selector",
+			usb_reset: "Force USB Reset",
+			remote_drivers: "Remote Drivers",
 			feedback: "Feedback",
 			stella_feedback_optional: "(Optional) Feel free to add more details.",
 			stella_feedback: "Feedback submitted successfully.",
@@ -593,7 +612,7 @@
 			stella_prompt_request: "Request for Stella handled successfully✅",
 			stella_xml_failure: "Failed to generate XML",
 			stella_history_success: "History deleted successfully.",
-			stella_history_failure: "Error deleting history"
+			stella_history_failure: "Error deleting history",
 		},
 		add_scope: {
 			add_scope: "添加望远镜",
@@ -866,13 +885,29 @@
 			focus_in: "向内调焦",
 			focus_out: "向外调焦",
 			steps: "步数",
+			advisor: "Focus Advisor",
+			update_parameters:
+				"Optimize the Focus parameters depending on your current camera and telescope.",
+			find_stars:
+				"Check to have Focus Advisor search for stars. If you are close enough to Focus to see stars in the Focus frame then this step is not neccessary.",
+			coarse_adjustment:
+				"Check to have Focus Advisor find coarse focus. This will find an approximate focus position good enough to run Autofocus.",
+			fine_adjustment:
+				"Check to have Focus Advisor run Autofocus to make fine adjustments to focus parameters.",
 			settings: {
-				suspend_guiding: "暂停导星",
-				auto_select_star: "自动选择星",
-				subframe: "子帧",
-				fullfield: "全景",
-				dark: "暗场",
-				annulus: "环",
+				suspend_guiding: "Suspend Guiding",
+				auto_select_star: "Auto Select Star",
+				subframe: "Sub Frame",
+				fullfield: "Full Field",
+				dark: "Dark Frame",
+				annulus: "Annulus",
+				mask: "Mask",
+				stars: "Use all stars for focusing",
+				ring: "Ring Mask",
+				adaptive: "Adaptive",
+				min_move: "Min. Move",
+				start: "Adap Start Pos",
+				max_move: "Max Total Move",
 			},
 			process: {
 				title: "处理",
@@ -884,6 +919,17 @@
 				kernel_size: "核大小",
 				num_of_rows: "行数",
 				sigma: "Sigma",
+				curve_fit: "Curve Fit",
+				limit: "Limit",
+				average_hfr: "Average HFR Check",
+				donut_buster: "Donut Buster",
+				scan_pos: "Scan for Start Position",
+				datapoints: "Num datapoints",
+				initial_size: "Initial Step Size x",
+				use_weights: "Use Weights",
+				refine_curve: "Refine Curve Fit",
+				time_dilation: "Time Dilation x",
+				outlier_rejection: "Outlier Rejection",
 			},
 			mechanics: {
 				title: "机械",
@@ -1083,9 +1129,11 @@
 				setting_altitude_tooltip:
 					"在海拔限制之前，不允许将任务安排在低于这么多度的位置。实际执行一直进行到高度限制。",
 				dust_offset: "黄昏偏置",
-				dust_offset_tooltip: "用这么多小时抵消天文黄昏。此正值或负值可调整微光限制。",
+				dust_offset_tooltip:
+					"用这么多小时抵消天文黄昏。此正值或负值可调整微光限制。",
 				dawn_offset: "黎明偏置",
-				dawn_offset_tooltip: "用这么多小时抵消天文黎明。此正值或负值可调整微光限制。",
+				dawn_offset_tooltip:
+					"用这么多小时抵消天文黎明。此正值或负值可调整微光限制。",
 
 				stop_ekos: "关机后停止Ekos",
 				stop_ekos_tooltip: "成功执行关闭程序后，停止INDI和Ekos。",
@@ -1093,7 +1141,8 @@
 				shutdown_script_tooltip:
 					"如果关闭脚本终止INDI服务器，请启用此选项，以便不会生成断开连接错误。",
 				remember_job: "记住任务进度",
-				remember_job_tooltip: "在处理预定任务时，从存储中的最后一张图像开始恢复序列。",
+				remember_job_tooltip:
+					"在处理预定任务时，从存储中的最后一张图像开始恢复序列。",
 
 				reset_mount: "在对准失败时重置赤道仪模型",
 				reset_mount_tooltip: "在对准失败时重置赤道仪模型",
@@ -1344,7 +1393,7 @@
 			alert_no_images_title: "无图像",
 			alert_no_images_body: "没有可以删除的图像",
 			alert_delete_all_body: "确定删除选定的 {0} 张图片吗? 此操作无法恢复",
-			transfer_successful: "Image transfer is successful"
+			transfer_successful: "Image transfer is successful",
 		},
 		info_drawer: {
 			add_tags_here: "在这里添加标签",
@@ -1368,7 +1417,7 @@
 		alert_directions_not_found: "未找到坐标，请选定目标并手动输入坐标。",
 		manual_rotator: "按指示角度旋转相机，然后拍摄图像以更新位置角度",
 		welcome: "欢迎使用StellarMate",
-		no_logs: "No {0} logs found"
+		no_logs: "No {0} logs found",
 	},
 	ekosLivePro: {
 		pushNotification: "推送通知",
@@ -1403,7 +1452,8 @@
 		shutdown_script_tooltip:
 			"如果关闭脚本终止INDI服务器，请启用此选项以防止出现断开连接错误。",
 		remember_job: "记住作业进度",
-		remember_job_tooltip: "在处理预定作业时，从上次存储的图像位置开始恢复序列。",
+		remember_job_tooltip:
+			"在处理预定作业时，从上次存储的图像位置开始恢复序列。",
 
 		reset_mount: "对准失败时重置赤道仪模型",
 		reset_mount_tooltip: "当对准失败时，重置赤道仪模型。",
@@ -1469,7 +1519,7 @@
 	notifications: {
 		ekoslive_successful: "Ekoslive重置成功",
 		ekoslive_restart: "重启Ekoslive",
-        usb_reset: "USB reset is successful",
+		usb_reset: "USB reset is successful",
 		feedback: "Feedback",
 		stella_feedback_optional: "(Optional) Feel free to add more details.",
 		stella_feedback: "Feedback submitted successfully.",
@@ -1477,25 +1527,27 @@
 		stella_prompt_request: "Request for Stella handled successfully",
 		stella_xml_failure: "Failed to generate XML",
 		stella_history_success: "History deleted successfully.",
-		stella_history_failure: "Error deleting history"
+		stella_history_failure: "Error deleting history",
 	},
 	hardware: {
 		serial_devices_detected: "发现串口设备",
 		serial_port: "串口",
 	},
-    tabs: {
-        setup: "Setup",
-        ekos: "Ekos",
-        sky: "Sky",
-        targets: "Targets",
+	tabs: {
+		setup: "Setup",
+		ekos: "Ekos",
+		sky: "Sky",
+		targets: "Targets",
 		device: "Device",
-		stella: "Stella"
-    },
-	stella: 
-	{
-		confirm_ekos_running: "Please check the Ekos profile. Ekos must be online to continue",
-		confirm_ekos_running_question: "This functionality requires Ekos Profile to be running. Would you like me to start the default profile?",
-		auto_park_action: "Auto parking of the telescope has been enabled successfully.",
+		stella: "Stella",
+	},
+	stella: {
+		confirm_ekos_running:
+			"Please check the Ekos profile. Ekos must be online to continue",
+		confirm_ekos_running_question:
+			"This functionality requires Ekos Profile to be running. Would you like me to start the default profile?",
+		auto_park_action:
+			"Auto parking of the telescope has been enabled successfully.",
 		go_action: "Navigating to the target has been enabled successfully.",
 		go_solve_action: "Go and solve for the target has been enabled successfully.",
 		delete_jobs: "Deleted scheduler jobs successfully.",
@@ -1508,35 +1560,35 @@
 		narrate: "Narrate Response",
 		notifications: {
 			objects: "Stella has found some interesting objects",
-			failed: "Stella didn't find anything this time. Could you try widening your search criteria or adjusting the filters?",
+			failed:
+				"Stella didn't find anything this time. Could you try widening your search criteria or adjusting the filters?",
 			pending: "Processing...",
 			XML: {
 				pending: "Generating XML...",
 				error: "XML generation failed",
-				success: "XML generated successfully"
+				success: "XML generated successfully",
 			},
 			image: {
 				pending: "Processing image...",
 				error: "Processing image error",
-				success: "Processed image successfully"
-			}
+				success: "Processed image successfully",
+			},
 		},
 
-		targets:
-		{
+		targets: {
 			example: "Filter targets with Stella AI. Here are some examples:",
 			galaxies: "1. Find all galaxies above 30 degrees at the North",
 			nebulae: "2. Find all nebulae that are between 1 and 3 degrees",
-			comets: "3. Find all comets above 40 degrees and I can observe with my camera"
+			comets:
+				"3. Find all comets above 40 degrees and I can observe with my camera",
 		},
-		view:
-		{
+		view: {
 			example: "Filter images with Stella AI. Here are some examples:",
 			filter: "1. Filter images with Red filter",
 			show_images: "2. Show me images that I took May 25",
-			show_messier: "3. Show me M 31 images"
-		}
-	}
+			show_messier: "3. Show me M 31 images",
+		},
+	},
 };
 
 export default cn;
