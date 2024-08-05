@@ -177,6 +177,7 @@ const en = {
 		kstars_down_body:
 			"KStars is not running, try rebooting StellarMate or contact StellarMate support.",
 		wait_while_syncing: "Please wait while\n syncing",
+		file_too_large: "File is too large",
 
 		// External Storage
 		reset_default: "Reset to default",
