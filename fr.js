@@ -174,6 +174,7 @@ const fr = {
 		external_storage: "Stokage Externe",
 		success: "Success",
 		failed: "Failed",
+		file_too_large: "File is too large",
 	},
 	darkLibrary: {
 		title: "Dark Library",
