@@ -1598,27 +1598,22 @@ const es = {
 		serial_devices_detected: "Dispositivos seriales detectados",
 		serial_port: "Puerto serial",
 	},
-	tabs: {
-		setup: "Configuración",
-		ekos: "Ekos",
-		sky: "Cielo",
-		targets: "Objetivos",
-		device: "Dispositivo",
-		stella: "Estela",
-	},
-	stella: {
-		confirm_ekos_running:
-			"Por favor, compruebe el perfil de Ekos. Ekos debe estar en línea para continuar",
-		confirm_ekos_running_question:
-			"Esta función requiere que Ekos Profile esté en ejecución. ¿Quieres que inicie el perfil predeterminado?",
-		auto_park_action:
-			"El estacionamiento automático del telescopio se ha habilitado con éxito.",
-		go_action: "La navegación hacia el destino se ha habilitado correctamente.",
-		go_solve_action:
-			"La función Ir y resolver para el objetivo se ha habilitado correctamente.",
-
-		confirm: "Confirmar respuesta",
-		narrate: "Narrar respuesta",
+    tabs: {
+        setup: "Setup",
+        ekos: "Ekos",
+        sky: "Sky",
+        targets: "Targets",
+		device: "Device",
+		stella: "Stella"
+    },
+	stella: 
+	{
+		confirm_ekos_running: "Please check the Ekos profile. Ekos must be online to continue",
+		confirm_ekos_running_question: "This functionality requires Ekos Profile to be running. Would you like me to start the default profile?",
+		action_in_progress: "Action in progress",
+		action_completed: "Action completed successfully",
+		confirm: "Confirm Response",
+		narrate: "Narrate Response",
 		notifications: {
 			objects: "Stella ha encontrado algunos objetos interesantes.",
 			failed:
