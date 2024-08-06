@@ -171,6 +171,7 @@ const de = {
 		external_storage: "externer Speicher",
 		success: "Success",
 		failed: "Failed",
+		file_too_large: "File is too large",
 	},
 	darkLibrary: {
 		title: "Dark Library",
@@ -293,7 +294,7 @@ const de = {
 		title_stella_prompt: "Stella prompt",
 
 		description_devices_list:
-			"This is the list of automatically discovered and manually added StellarMate units. Tap SUCHE to detect new StellarMate units on the network.",
+			"This is the list of automatically discovered and manually added StellarMate units. Tap RESCAN to detect new StellarMate units on the network.",
 		description_device_actions:
 			"Entfernen Sie ein Gerät aus der Liste, führen Sie einen Werksreset durch oder melden Sie sich ab.",
 		description_profiles:
@@ -303,10 +304,11 @@ const de = {
 		description_trains:
 			"Set up how your equipment is arranged using Optical trains. Assign each device to a specific function. Create a train for each camera.",
 		description_weather_bar:
-			"Kurzer Wetterbericht und Bortle-Klasse des aktuellen Standorts",
+			"Wetterprognose und Bortle-Klasse des aktuellen Standorts",
 		description_cloud_report: "3-hours Cloud overlay.",
 		description_next:
-			"Erkunden Sie anwendbare astronomische Objekte, indem Sie auf die Registerkarte "Objekte" tippen. Verwenden Sie Go & Solve, um Ihr Ziel im Kamerarahmen zu zentrieren. Öffnen Sie den Framing Assistant, um die perfekte gewünschte Ausrichtung zu erreichen. Gehen Sie zur Registerkarte „Ekos“, um Bildsequenzen und Live-Stapelbilder einzurichten.",
+			"Erkunden Sie anwendbare astronomische Objekte, indem Sie auf die Registerkarte Objekte tippen. Verwenden Sie Go & Solve, um Ihr Ziel im Kamerarahmen zu zentrieren. Öffnen Sie den Framing Assistant, um die perfekte gewünschte Ausrichtung zu erreichen. Gehen Sie zur Registerkarte „Ekos“, um Bildsequenzen und Live-Stapelbilder einzurichten.",
+
 		description_focus: "Kamera mittels motorisiertem Fokus scharf stellen.",
 		description_align:
 			"Center the mount exactly on target by plate-solving an image.",
@@ -407,7 +409,7 @@ const de = {
 		downloading_package: "Update wird heruntergeladen...",
 		installing_update: "Update installieren...",
 		channel_update: "Kanalaktualisierung läuft...",
-		upto_date: "aktuell",
+		upto_date: "aktuell.",
 		update_installed: "Alle Updates installiert.",
 		loading: "Wird geladen...",
 	},
@@ -502,7 +504,7 @@ const de = {
 		primary: "Hauptgerät",
 		guide: "Guiding",
 		scope: "Umfang",
-		btn_rescan: "SUCHE",
+		btn_rescan: "Guiding",
 		btn_port_select: "Port Auswahl",
 		btn_sync_gps: "GPS synchronisieren",
 		btn_dslr_setup: "DSLR-Setup",
@@ -518,9 +520,9 @@ const de = {
 		invalid_ip: "No IP address found or invalid IP {0}. Please try again.",
 
 		cloudsMap: {
-			btn_clouds_map: "Wolken Karte",
+			btn_clouds_map: "Wolken Prognose",
 			attribution: "OpenStreetMap",
-			map_title: "3-Stunden Wolken Karte",
+			map_title: "3-Stunden Wolken Prognose",
 			bortle_class: "Bortle Klasse",
 		},
 
@@ -712,7 +714,7 @@ const de = {
 			refresh_rate: "Refresh Rate",
 			image_selected: "Bild erfolgreich ausgewählt",
 			select_method: "Bitte wählen Sie die Bildauswahlmethode aus",
-			device_gallery: "Phone/Tablet Gallerie",
+			device_gallery: "Gallerie",
 			sm_storage: "SM Storage",
 			request_storage_permission: "Bitte erteilen Sie die Speichererlaubnis",
 			celestial_warning:
@@ -1239,7 +1241,7 @@ const de = {
 		btn_disable_direct_ethernet: "Deaktivieren Sie Direct Ethernet",
 		btn_enable_hotspot: "Hotspot aktivieren",
 		btn_disable_hotspot: "Hotspot deaktivieren",
-		btn_change_hostname: "Hostnamen Ändern",
+		btn_change_hostname: "Hostnamen ändern",
 		btn_check_for_updates: "Auf Updates prüfen",
 		btn_update_now: "Jetzt aktualisieren",
 		btn_update_in_progress: "Aktualisierung...",
@@ -1530,12 +1532,8 @@ const de = {
 			"Bitte prüfen Sie das Ekos Profil. Ekos muss online sein um fortsetzen zu können",
 		confirm_ekos_running_question:
 			"This functionality requires Ekos Profile to be running. Would you like me to start the default profile?",
-		auto_park_action:
-			"Die Automatische Park Funktion des Teleskosp wurde erfolgreich aktiviert.",
-		go_action: "Die Navigation zum Objekt wurde erfolgreich aktiviert.",
-		go_solve_action:
-			"Go and solve for the target has been enabled successfully.",
-
+		action_in_progress: "Vorgang gestartet",
+		action_completed: "Vorgang erfolgreich",
 		confirm: "Confirm Response",
 		narrate: "Narrate Response",
 		notifications: {
