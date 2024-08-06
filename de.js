@@ -1532,16 +1532,8 @@ const de = {
 			"Please check the Ekos profile. Ekos must be online to continue",
 		confirm_ekos_running_question:
 			"This functionality requires Ekos Profile to be running. Would you like me to start the default profile?",
-		auto_park_action:
-			"Auto parking of the telescope has been enabled successfully.",
-		go_action: "Navigating to the target has been enabled successfully.",
-		go_solve_action: "Go and solve for the target has been enabled successfully.",
-		delete_jobs: "Deleted scheduler jobs successfully.",
-		no_job: "There is no job.",
-		auto_dome_park: "Auto parking of the dome has been enabled successfully.",
-		auto_dome_unpark: "Auto unparking of the dome has been enabled successfully.",
-		auto_cap_park: "Auto parking of the cap has been enabled successfully.",
-		auto_cap_unpark: "Auto unparking of the cap has been enabled successfully.",
+		action_in_progress: "Action in progress",
+		action_completed: "Action completed successfully",
 		confirm: "Confirm Response",
 		narrate: "Narrate Response",
 		notifications: {
