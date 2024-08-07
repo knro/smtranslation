@@ -284,8 +284,8 @@ const de = {
 		title_live_stacking: "Live Stacking",
 		title_quick_settings: "Qucik Camera Settings",
 
-		title_targets_info: "About Targets",
-		title_search_bar: "Search bar",
+		title_targets_info: "Über Objekte",
+		title_search_bar: "Suchleiste",
 		title_time_controls: "Time Controls",
 		title_target_controls: "Targets Controls",
 		title_object_info: "Object info",
@@ -296,7 +296,7 @@ const de = {
 		description_devices_list:
 			"This is the list of automatically discovered and manually added StellarMate units. Tap RESCAN to detect new StellarMate units on the network.",
 		description_device_actions:
-			"Remove a device from the list, perform a factory reset, or log out.",
+			"Entfernen Sie ein Gerät aus der Liste, führen Sie einen Werksreset durch oder melden Sie sich ab.",
 		description_profiles:
 			"Manage your astronomy equipment in Equipment Profiles. All equipment must be powered and connected to StellarMate before starting a profile. Once a profile is started, configure the Optical Trains and then tap Ekos to start your astrophotography session.",
 		description_port_selector:
@@ -304,10 +304,10 @@ const de = {
 		description_trains:
 			"Set up how your equipment is arranged using Optical trains. Assign each device to a specific function. Create a train for each camera.",
 		description_weather_bar:
-			"Kurzer Wetterbericht und Bortle-Klasse des aktuellen Standorts",
+			"Wetterprognose und Bortle-Klasse des aktuellen Standorts",
 		description_cloud_report: "3-hours Cloud overlay.",
 		description_next:
-			"Explore applicable astronomical targets by tapping the Targets tab. Use Go & Solve to center your target in the camera frame. Open the Framing Assistant to achieve the perfect desired orientation. Head over to Ekos tab to set up imaging sequences and live stack images.",
+			"Erkunden Sie anwendbare astronomische Objekte, indem Sie auf die Registerkarte Objekte tippen. Verwenden Sie Go & Solve, um Ihr Ziel im Kamerarahmen zu zentrieren. Öffnen Sie den Framing Assistant, um die perfekte gewünschte Ausrichtung zu erreichen. Gehen Sie zur Registerkarte „Ekos“, um Bildsequenzen und Live-Stapelbilder einzurichten.",
 
 		description_focus: "Kamera mittels motorisiertem Fokus scharf stellen.",
 		description_align:
@@ -489,7 +489,7 @@ const de = {
 		welcome_description:
 			"Stellen Sie sicher, dass Sie entweder mit dem HotSpot von StellarMate verbunden sind oder dass sich StellarMate im selben Netzwerk befindet wie Sie.",
 		welcome_rescan:
-			"Klicken Sie auf RESCAN, um das Netzwerk nach StellarMate-Geräten zu durchsuchen.",
+			"Klicken Sie auf SUCHE, um das Netzwerk nach StellarMate-Geräten zu durchsuchen.",
 		device_unreachable:
 			"Gerät ist nicht erreichbar! Überprüfen Sie die Strom- und Netzwerkeinstellungen.",
 		login_mismatch:
@@ -502,10 +502,11 @@ const de = {
 		sm_app_update_body:
 			"You appear to be using an older version of StellarMate App. Please update to the latest version.",
 		primary: "Hauptgerät",
+		scope: "Umfang",
+		btn_port_select: "Port Auswahl",
 		guide: "Führen",
 		scope: "Umfang",
 		btn_rescan: "RESCAN",
-		btn_port_select: "Port Selector",
 		btn_sync_gps: "GPS synchronisieren",
 		btn_dslr_setup: "DSLR-Setup",
 		btn_clear_driver_config: "Löschen Sie die Treiberkonfiguration.",
@@ -520,10 +521,10 @@ const de = {
 		invalid_ip: "No IP address found or invalid IP {0}. Please try again.",
 
 		cloudsMap: {
-			btn_clouds_map: "Clouds Map",
+			btn_clouds_map: "Wolken Prognose",
 			attribution: "OpenStreetMap",
-			map_title: "3-Hour Cloud Map",
-			bortle_class: "Bortle Class",
+			map_title: "3-Stunden Wolken Prognose",
+			bortle_class: "Bortle Klasse",
 		},
 
 		ip_address: "IP Adresse",
@@ -582,11 +583,11 @@ const de = {
 			add_profile: "Profil hinzufügen",
 			edit_profile: "Profil bearbeiten",
 			mount: "Montierung",
-			ccd: "Camera 1",
-			dome: "Dome",
+			ccd: "Kamera 1",
+			dome: "Kuppel",
 			focuser: "Fokussierer",
 			filter: "Filter",
-			guider: "Camera 2",
+			guider: "Kamera 2",
 			ao: "Adaptive Optik",
 			weather: "Wetter",
 			aux1: "Aux1",
@@ -594,22 +595,22 @@ const de = {
 			aux3: "Aux3",
 			aux4: "Aux4",
 			indi_server: "INDI Server",
-			local: "Local",
+			local: "lokal",
 			host: "Host",
 			web_manager: "INDI Web Manager",
-			profile_settings: "Profile Settings",
-			auto_connect: "Auto Connect",
-			port_selector: "Port Selector",
-			usb_reset: "Force USB Reset",
-			remote_drivers: "Remote Drivers",
+			profile_settings: "Profil Einstellungen",
+			auto_connect: "Automatisch verbinden",
+			port_selector: "Port Auswahl",
+			usb_reset: "USB Reset erzwingen",
+			remote_drivers: "Remote Treiber",
 			feedback: "Feedback",
 			stella_feedback_optional: "(Optional) Feel free to add more details.",
 			stella_feedback: "Feedback submitted successfully.",
 			stella_feedback_placeholder: "Please provide additional feedback",
 			stella_prompt_request: "Request for Stella handled successfully✅",
-			stella_xml_failure: "Failed to generate XML",
-			stella_history_success: "History deleted successfully.",
-			stella_history_failure: "Error deleting history",
+			stella_xml_failure: "XML konnte nicht generiert werden",
+			stella_history_success: "Verlauf erfolgreich gelöscht",
+			stella_history_failure: "Fehler beim löschen des Verlaufs",
 		},
 		add_scope: {
 			add_scope: "Bereich hinzufügen",
@@ -644,16 +645,16 @@ const de = {
 		search: "Suche",
 		cam_width: "Camera Width",
 		cam_height: "Camera Height",
-		fov_warning: "FOV is too small or large, Please check!",
+		fov_warning: "FOV ist zu klein, bitte Überprüfen!",
 		phases: {
 			new_moon: "Neumond",
 			full_moon: "Vollmond",
 			first_quarter: "erstes Viertel",
 			third_quarter: "drittes Viertel",
-			waxing_crescent: "Waxing crescent",
-			waxing_gibbous: "Waxing gibbous",
-			waning_crescent: "Waning crescent",
-			waning_gibbous: "Waning gibbous",
+			waxing_crescent: "zunehmender Mond",
+			waxing_gibbous: "zunehmender Dreiviertelmond",
+			waning_crescent: "abnehmender Mond",
+			waning_gibbous: "abnehmender Dreiviertelmond",
 		},
 		lists: "Lists",
 		framing_assistant: "Framing Assistant",
@@ -685,10 +686,10 @@ const de = {
 			auto_closes_in: "Automatisch geschlossen",
 		},
 		indi: {
-			no_logs: "No logs are available for this driver",
+			no_logs: "Für diesen Treiber sind keine Logs verfügbar",
 		},
 		controls_bar: {
-			mount_speed: "Geschwindigkeit einbinden",
+			mount_speed: "Schwenk-Geschwindigkeit",
 			centering: "Zentrierung",
 			find: "Finden",
 			max: "Max",
@@ -714,7 +715,7 @@ const de = {
 			refresh_rate: "Refresh Rate",
 			image_selected: "Bild erfolgreich ausgewählt",
 			select_method: "Bitte wählen Sie die Bildauswahlmethode aus",
-			device_gallery: "Phone/Tablet gallery",
+			device_gallery: "Gallerie",
 			sm_storage: "SM Storage",
 			request_storage_permission: "Bitte erteilen Sie die Speichererlaubnis",
 			celestial_warning:
@@ -1016,7 +1017,7 @@ const de = {
 			pierside: "Pier Seite",
 			auto_park: "Auto Parken",
 			auto_park_everyday: "jeden Tag",
-			park_at: "Park at",
+			park_at: "Parken um",
 			reset_options: "Optionen zurücksetzen",
 			min_alt: "Min. Höhe",
 			max_alt: "Max. Höhe",
@@ -1029,10 +1030,10 @@ const de = {
 			east_long: "Osten (nach Westen zeigen)",
 			west_long: "Westen (nach Osten zeigend)",
 			btn_set_auto_park_timer: "Stellen Sie die automatische Ruhezeit ein",
-			reverse_NS: "Reverse North/South",
-			reverse_WE: "Reverse West/East",
-			time_source: "Time source",
-			location_source: "Location source",
+			reverse_NS: "Nord/Süd Umkehr",
+			reverse_WE: "West/Ost Umkehr",
+			time_source: "Zeit Quelle",
+			location_source: "Location Quelle",
 		},
 		modal_add_to_seq: {
 			heading: "Zur Sequenz hinzufügen",
@@ -1190,10 +1191,10 @@ const de = {
 	},
 	optical_train: {
 		optical_trains: "Optical Trains",
-		telescope: "Teleskop / Okular",
+		telescope: "Teleskop / Objektiv",
 		create_new: "neu erstellen",
+		focal_ratio: "Blende",
 		dslr_lens: "DSLR Objektiv",
-		focal_ratio: "Öffnungsverhältnis / Blende",
 		guide_via: "Guide Via",
 		tooltip: {
 			title: "Wählen Sie das Gerät aus, das die Guider-Impulse empfängt",
@@ -1214,11 +1215,11 @@ const de = {
 		info: "Informationen",
 		software: "Software",
 		cpu: "CPU",
-		ram: "RAM",
+		ram: "Arbeitsspeicher",
 		storage: "Speicher",
 		stable: "Stabil",
 		beta: "Beta",
-		wifi_network: "Wifi Network IP",
+		wifi_network: "WiFi-Netzwerk IP",
 		ethernet_network: "Ethernet IP",
 		model: "Modell",
 		version: "Variante",
@@ -1227,7 +1228,7 @@ const de = {
 		release_type: "Release-Typ",
 		updates: "Aktualisierung",
 		hotspotMode: "Hotspot-Modus",
-		wifiNetwork: "Wifi-Netzwerk",
+		wifiNetwork: "WiFi-Netzwerk",
 		wifiCountry: "WiFi Land",
 
 		wifiBand: "WiFi Band",
@@ -1333,7 +1334,7 @@ const de = {
 
 		alert_logout_account_body:
 			"Sind Sie sicher, dass Sie sich abmelden möchten?",
-		alert_reset_ekoslive_title: "Reset Ekoslive",
+		alert_reset_ekoslive_title: "Ekoslive zurücksetzen",
 		alert_reset_ekoslive_body:
 			"Are you sure you want to reset Ekoslive? This would delete all cached images and restarts the server.",
 		alert_download_index_file:
@@ -1389,13 +1390,13 @@ const de = {
 		color_scheme_sky_map: "Sky Map Scheme",
 	},
 	cloud: {
-		heading: "Aussicht",
+		heading: "Vorschau",
 		btn_filters: "Filter",
 		btn_gallery: "Galerie",
 		btn_offline_viewer: "Offline-Viewer",
 		btn_cloud_viewer: "Cloud Viewer",
 		no_images_title: "Keine Bilder gefunden",
-		no_images_body: "Versuchen Sie, die Filter zu wechseln.",
+		no_images_body: "Versuchen Sie die Filtereinstellungen zu ändern.",
 		no_selected_title: "Kein Bild ausgewählt",
 		no_selected_body: "Wählen Sie ein Bild aus der Galeere",
 		cloud_disabled_title: "Cloud ist deaktiviert",
@@ -1481,8 +1482,8 @@ const de = {
 		reset_network: "Netzwerk zurücksetzen",
 
 		vnc: {
-			update_password: "Update VNC Password",
-			scaling: "Scaling",
+			update_password: "VNC Kennwort aktualisieren",
+			scaling: "Skalierung",
 		},
 	},
 	controller: {
@@ -1508,12 +1509,14 @@ const de = {
 		usb_reset: "USB reset is successful",
 		feedback: "Feedback",
 		stella_feedback_optional: "(Optional) Feel free to add more details.",
+		stella_feedback: "Feedback wurde erfolgreich übermittelt",
+		stella_xml_failure: "XML konnte nicht generiert werden",
+		stella_history_success: "Verlauf erfolgreich gelöscht",
+		stella_history_failure: "Fehler beim löschen des Verlaufs",
+
 		stella_feedback: "Feedback submitted successfully.",
 		stella_feedback_placeholder: "Please provide additional feedback",
 		stella_prompt_request: "Request for Stella handled successfully",
-		stella_xml_failure: "Failed to generate XML",
-		stella_history_success: "History deleted successfully.",
-		stella_history_failure: "Error deleting history",
 	},
 	hardware: {
 		serial_devices_detected: "发现串口设备",
@@ -1522,34 +1525,34 @@ const de = {
 	tabs: {
 		setup: "Setup",
 		ekos: "Ekos",
-		sky: "Sky",
-		targets: "Targets",
-		device: "Device",
+		sky: "Himmel",
+		targets: "Objekte",
+		device: "Gerät",
 		stella: "Stella",
 	},
 	stella: {
 		confirm_ekos_running:
-			"Please check the Ekos profile. Ekos must be online to continue",
+			"Bitte prüfen Sie das Ekos Profil. Ekos muss online sein um fortsetzen zu können",
 		confirm_ekos_running_question:
 			"This functionality requires Ekos Profile to be running. Would you like me to start the default profile?",
-		action_in_progress: "Action in progress",
-		action_completed: "Action completed successfully",
+		action_in_progress: "Vorgang gestartet",
+		action_completed: "Vorgang erfolgreich",
 		confirm: "Confirm Response",
 		narrate: "Narrate Response",
 		notifications: {
-			objects: "Stella has found some interesting objects",
+			objects: "Stella hat ein paar interessante Objekte gefunden",
 			failed:
-				"Stella didn't find anything this time. Could you try widening your search criteria or adjusting the filters?",
-			pending: "Processing...",
+				"Stella konnte zur Zeit nichts finden. Möchten Sie die Suchkriterien oder die Filter anpassen?",
+			pending: "Verarbeite...",
 			XML: {
-				pending: "Generating XML...",
-				error: "XML generation failed",
-				success: "XML generated successfully",
+				pending: "XML wird generiert...",
+				error: "XML konnte nicht erstellt werden",
+				success: "XML erfolgreich erstellt",
 			},
 			image: {
-				pending: "Processing image...",
-				error: "Processing image error",
-				success: "Processed image successfully",
+				pending: "Bild wird verarbeitet...",
+				error: "Fehler bei der Bildverarbeitung",
+				success: "Bild erfolgreich verarbeitet",
 			},
 		},
 
