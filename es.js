@@ -1564,6 +1564,8 @@ const es = {
 		current: "Actual",
 		power: "Fuerza",
 		power_off: "Apagado",
+		active_antenna: "Active Antenna",
+		passive_antenna: "Passive Antenna",
 		power_sleep:
 			"El dispositivo está en modo de suspensión. Toca para reactivarlo.",
 		power_off_tooltip:
