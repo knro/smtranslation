@@ -1504,6 +1504,8 @@
 		voltage: "电压",
 		current: "电流",
 		power: "功率",
+		active_antenna: "Active Antenna",
+		passive_antenna: "Passive Antenna",
 		power_sleep: "电源处于睡眠模式。点击唤醒。",
 		power_off: "关机",
 		power_off_tooltip: "断开设备配置文件时，关闭所有端口的电源。",

@@ -1508,6 +1508,8 @@ const ja = {
 		voltage: "Voltage",
 		current: "Current",
 		power: "Power",
+		active_antenna: "Active Antenna",
+		passive_antenna: "Passive Antenna",
 		power_sleep: "Power is in sleep mode. Tap to wake up.",
 		power_off: "Power Off",
 		power_off_tooltip:

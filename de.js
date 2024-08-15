@@ -1494,6 +1494,12 @@ const de = {
 		voltage: "Spannung (V)",
 		current: "Strom (A)",
 		power: "Energie",
+		active_antenna: "Active Antenna",
+		passive_antenna: "Passive Antenna",
+		power_sleep: "Power is in sleep mode. Tap to wake up.",
+		power_off: "Power Off",
+		power_off_tooltip:
+			"Power Off all ports when equipment profile is disconnected.",
 		leds: "LEDs",
 		auto_dew: "Auto Tau",
 		auto_dew1_threshold: "Tau Schwelle 1",
