@@ -963,6 +963,10 @@ const en = {
 				time_dilation: "Time Dilation x",
 				outlier_rejection: "Outlier Rejection",
 			},
+			donut_buster: {
+				title: "Donut Buster",
+				always_on: "Always on",
+			},
 			mechanics: {
 				title: "Mechanics",
 				initial_step_size: "Initial Step Size",

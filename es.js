@@ -972,6 +972,10 @@ const es = {
 				time_dilation: "Time Dilation x",
 				outlier_rejection: "Outlier Rejection",
 			},
+			donut_buster: {
+				title: "Donut Buster",
+				always_on: "Always on",
+			},
 			mechanics: {
 				title: "Mecanica",
 				initial_step_size: "Volumen Inicial Paso",
@@ -1600,18 +1604,19 @@ const es = {
 		serial_devices_detected: "Dispositivos seriales detectados",
 		serial_port: "Puerto serial",
 	},
-    tabs: {
-        setup: "Setup",
-        ekos: "Ekos",
-        sky: "Sky",
-        targets: "Targets",
+	tabs: {
+		setup: "Setup",
+		ekos: "Ekos",
+		sky: "Sky",
+		targets: "Targets",
 		device: "Device",
-		stella: "Stella"
-    },
-	stella: 
-	{
-		confirm_ekos_running: "Please check the Ekos profile. Ekos must be online to continue",
-		confirm_ekos_running_question: "This functionality requires Ekos Profile to be running. Would you like me to start the default profile?",
+		stella: "Stella",
+	},
+	stella: {
+		confirm_ekos_running:
+			"Please check the Ekos profile. Ekos must be online to continue",
+		confirm_ekos_running_question:
+			"This functionality requires Ekos Profile to be running. Would you like me to start the default profile?",
 		action_in_progress: "Action in progress",
 		action_completed: "Action completed successfully",
 		confirm: "Confirm Response",
