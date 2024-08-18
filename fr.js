@@ -937,6 +937,10 @@ const fr = {
 				time_dilation: "Time Dilation x",
 				outlier_rejection: "Outlier Rejection",
 			},
+			donut_buster: {
+				title: "Donut Buster",
+				always_on: "Always on",
+			},
 			mechanics: {
 				title: "Mécanique",
 				initial_step_size: "Taille initiale du pas",

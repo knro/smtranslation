@@ -949,6 +949,10 @@ const ja = {
 				time_dilation: "Time Dilation x",
 				outlier_rejection: "Outlier Rejection",
 			},
+			donut_buster: {
+				title: "Donut Buster",
+				always_on: "Always on",
+			},
 			mechanics: {
 				title: "力学",
 				initial_step_size: "初期ステップ サイズ",

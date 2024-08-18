@@ -368,8 +368,7 @@
 			"Stella 是你的个人智能数字助手。你可以通过语音或文本与 Stella 进行交流。向它询问任何天文学相关的主题。",
 		description_stella_example: "查看示例提示。",
 		description_stella_chat: "查看聊天记录。",
-		description_stella_input:
-			"输入你的提示以请求任务或检索数据。",
+		description_stella_input: "输入你的提示以请求任务或检索数据。",
 		description_stella_other_function:
 			"你还可以通过语音与 Stella 互动并附加文件。",
 	},
@@ -406,12 +405,10 @@
 		mount_info: "赤道仪转动并计算误差",
 		movestar_desc:
 			"类似于Move Star，但是Ekos尝试跟踪正在移动的星星，并在可能时估计当前对准误差。",
-			remote_description:
+		remote_description:
 			"将远程 INDI 驱动程序添加到此配置文件配置的本地 INDI 服务器链中。此字段的格式应为引号括起来的驱动程序名称、主机名/地址以及可选端口的逗号分隔列表：",
-		remote_zwo_description:
-			"连接到 192.168.1.50，端口 8000 上的指定相机。",
-		remote_eqmod_description:
-			"连接到 192.168.1.50，端口 7624 上的指定云台。",
+		remote_zwo_description: "连接到 192.168.1.50，端口 8000 上的指定相机。",
+		remote_eqmod_description: "连接到 192.168.1.50，端口 7624 上的指定云台。",
 		remote_port: "连接到 192.168.1.50，端口 8000 上找到的所有驱动程序。",
 		remote_ip: "连接到 192.168.1.50，端口 7624 上找到的所有驱动程序。",
 		remote_info:
@@ -886,14 +883,12 @@
 			focus_out: "向外调焦",
 			steps: "步数",
 			advisor: "对焦顾问",
-			update_parameters:
-				"根据当前的相机和望远镜优化对焦参数。",
+			update_parameters: "根据当前的相机和望远镜优化对焦参数。",
 			find_stars:
 				"选中以让对焦顾问搜索星点。如果你已经足够接近焦点，能在聚焦框中看到清晰的星点，那么这一步是没有必要的。",
 			coarse_adjustment:
 				"选中以让对焦顾问找到粗略的焦点位置。这将找到一个足够好的近似焦点位置，以便运行自动聚焦。",
-			fine_adjustment:
-				"选中以让对焦顾问运行自动聚焦，以对焦点参数进行微调。",
+			fine_adjustment: "选中以让对焦顾问运行自动聚焦，以对焦点参数进行微调。",
 			settings: {
 				suspend_guiding: "暂停导星",
 				auto_select_star: "自动选星",
@@ -930,6 +925,10 @@
 				refine_curve: "优化曲线拟合",
 				time_dilation: "时间扩展 x",
 				outlier_rejection: "异常值剔除",
+			},
+			donut_buster: {
+				title: "Donut Buster",
+				always_on: "Always on",
 			},
 			mechanics: {
 				title: "机械",
@@ -1544,8 +1543,7 @@
 		stella: "Stella",
 	},
 	stella: {
-		confirm_ekos_running:
-			"请检查 Ekos 配置文件。Ekos 必须在线才能继续",
+		confirm_ekos_running: "请检查 Ekos 配置文件。Ekos 必须在线才能继续",
 		confirm_ekos_running_question:
 			"此功能需要 Ekos 配置文件正在运行。要我启动默认配置文件吗？",
 		action_in_progress: "操作正在进行中",
@@ -1573,8 +1571,7 @@
 			example: "使用 Stella AI 筛选目标。以下是一些示例：",
 			galaxies: "1. 查找北方高度超过 30 度的所有星系",
 			nebulae: "2. 查找介于 1 到 3 度之间的所有星云",
-			comets:
-				"3. 查找高度超过 40 度且我的相机可以观测到的所有彗星",
+			comets: "3. 查找高度超过 40 度且我的相机可以观测到的所有彗星",
 		},
 		view: {
 			example: "使用 Stella AI 筛选图像。以下是一些示例：",
