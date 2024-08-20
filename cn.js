@@ -315,6 +315,10 @@
 		title_target_action: "目标动作",
 		title_stella_prompt: "Stella prompt",
 
+		title_focus_initial: "Focus Initial",
+		title_focus_steps: "Focus Steps",
+		title_focus_size: "Focus Initial size",
+
 		description_devices_list:
 			"自动发现和手动添加的StellarMate设备列表。单击重新扫描以检测网络上的新StellarMate设备。",
 		description_device_actions:
@@ -371,6 +375,29 @@
 		description_stella_input: "输入你的提示以请求任务或检索数据。",
 		description_stella_other_function:
 			"你还可以通过语音与 Stella 互动并附加文件。",
+		description_align_paa:
+			"If your mount supports Polar Alignment, you can use the Polar Alignment Assistant (PAA) to improve your alignment.",
+		description_align_load:
+			"You can load Fits file from the tablet or using Directory browser to access SM device files",
+		description_align_controls:
+			"You can view Align Chart, Image, Settings and Quick Settings. You can also start Aligning",
+		description_align_solution: "Displays Align Solution",
+
+		description_focus_initial:
+			"Current absolue focuser position and Focus Advisor Control",
+		description_focus_steps: "Desired absolute focuser position",
+		description_focus_size:
+			"Ticks to cause a noticable change in HFR value. For timer based focuser, it is the initial time in milliseconds",
+		description_focus_exposure:
+			"Control Focus exposure and you can also capture Focus loop",
+		description_focus_controls:
+			"You can view Focus Chart, Image, Settings and Quick Settings. You can also start Focusing",
+
+		description_guide_camera: "You can capture Guide image and also loop",
+		description_guide_status:
+			"Progress of Guiding includes Idle, Aborted, Processing",
+		description_guide_controls:
+			"You can view Guide Chart, Image, Settings and Quick Settings. You can also start Guiding",
 	},
 	tooltip: {
 		placeholder: "占位符 %{0} 或 %{1}",
