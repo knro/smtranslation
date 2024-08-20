@@ -360,28 +360,24 @@ const de = {
 		description_stella_other_function:
 			"You can also interact with Stella using voice and attach files.",
 		description_align_paa:
-			"If your mount supports Polar Alignment, you can use the Polar Alignment Assistant (PAA) to improve your alignment.",
+			"Polar align your equatorial mount to achieve better tracking & guiding.",
 		description_align_load:
-			"You can load Fits file from the tablet or using Directory browser to access SM device files",
+			"Load and Plate Solve a FITS image (is FITS only supported? I think we can also send JPG and XISF too",
 		description_align_controls:
-			"You can view Align Chart, Image, Settings and Quick Settings. You can also start Aligning",
-		description_align_solution: "Displays Align Solution",
+			"You can view Align Chart, Image, Settings and Quick Access Settings. You can also start Aligning",
+		description_align_solution: "Plate solving solution",
 
-		description_focus_initial:
-			"Current absolue focuser position and Focus Advisor Control",
-		description_focus_steps: "Desired absolute focuser position",
-		description_focus_size:
-			"Ticks to cause a noticable change in HFR value. For timer based focuser, it is the initial time in milliseconds",
-		description_focus_exposure:
-			"Control Focus exposure and you can also capture Focus loop",
+		description_focus_initial: "Current focuser position and Focus Advisor",
+		description_focus_steps: "Target position",
+		description_focus_size: "Steps size when running autofocus",
+		description_focus_exposure: "Exposure duration and Framing toggle",
 		description_focus_controls:
-			"You can view Focus Chart, Image, Settings and Quick Settings. You can also start Focusing",
+			"You can view Focus Chart, Image, Settings and Quick Access Settings. You can also start Focusing",
 
-		description_guide_camera: "You can capture Guide image and also loop",
-		description_guide_status:
-			"Progress of Guiding includes Idle, Aborted, Processing",
+		description_guide_camera: "Capture and Loop",
+		description_guide_status: "Guiding Status",
 		description_guide_controls:
-			"You can view Guide Chart, Image, Settings and Quick Settings. You can also start Guiding",
+			"You can view Guide Chart, Image, Settings and Quick Access Settings. You can also start Guiding",
 	},
 	tooltip: {
 		placeholder: "Placeholder %{0} or %{1}",
