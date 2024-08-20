@@ -1543,6 +1543,7 @@
 		stella: "Stella",
 	},
 	stella: {
+		confirm_train_settings: "Cannot generate XML without capture settings. Start Ekos profile first to sync default settings.",
 		confirm_ekos_running: "请检查 Ekos 配置文件。Ekos 必须在线才能继续",
 		confirm_ekos_running_question:
 			"此功能需要 Ekos 配置文件正在运行。要我启动默认配置文件吗？",

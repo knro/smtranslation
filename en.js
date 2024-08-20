@@ -1589,6 +1589,7 @@ const en = {
 		stella: "Stella",
 	},
 	stella: {
+		confirm_train_settings: "Cannot generate XML without capture settings. Start Ekos profile first to sync default settings.",
 		confirm_ekos_running:
 			"Please check the Ekos profile. Ekos must be online to continue",
 		confirm_ekos_running_question:
