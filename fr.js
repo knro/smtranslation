@@ -295,9 +295,9 @@ const fr = {
 		title_target_action: "Target Action",
 		title_stella_prompt: "Stella prompt",
 
-		title_focus_initial: "Focus Initial",
-		title_focus_steps: "Focus Steps",
-		title_focus_size: "Focus Initial size",
+		title_focus_initial: "Current Position",
+		title_focus_steps: "Target Position",
+		title_focus_size: "Step Size",
 
 		description_devices_list:
 			"This is the list of automatically discovered and manually added StellarMate units. Tap RESCAN to detect new StellarMate units on the network.",

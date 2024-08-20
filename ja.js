@@ -302,9 +302,9 @@ const ja = {
 		title_target_action: "ターゲットアクション",
 		title_stella_prompt: "Stella prompt",
 
-		title_focus_initial: "Focus Initial",
-		title_focus_steps: "Focus Steps",
-		title_focus_size: "Focus Initial size",
+		title_focus_initial: "Current Position",
+		title_focus_steps: "Target Position",
+		title_focus_size: "Step Size",
 
 		description_devices_list:
 			"これは,自動的に検出され,手動で追加された StellarMate ユニットのリストです。RESCAN をタップして,ネットワーク上の新しい StellarMate ユニットを検出します。",

@@ -304,10 +304,9 @@ const es = {
 		title_target_action: "Acción objetivo",
 		title_stella_prompt: "Stella pronta",
 
-		title_focus_initial: "Focus Initial",
-		title_focus_steps: "Focus Steps",
-		title_focus_size: "Focus Initial size",
-
+		title_focus_initial: "Current Position",
+		title_focus_steps: "Target Position",
+		title_focus_size: "Step Size",
 		description_devices_list:
 			"Esta es la lista de unidades StellarMate detectadas automáticamente y agregadas manualmente. Toque RESCAN para detectar nuevas unidades StellarMate en la red.",
 		description_device_actions:

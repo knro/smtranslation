@@ -315,9 +315,9 @@
 		title_target_action: "目标动作",
 		title_stella_prompt: "Stella prompt",
 
-		title_focus_initial: "Focus Initial",
-		title_focus_steps: "Focus Steps",
-		title_focus_size: "Focus Initial size",
+		title_focus_initial: "Current Position",
+		title_focus_steps: "Target Position",
+		title_focus_size: "Step Size",
 
 		description_devices_list:
 			"自动发现和手动添加的StellarMate设备列表。单击重新扫描以检测网络上的新StellarMate设备。",
