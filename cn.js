@@ -315,6 +315,10 @@
 		title_target_action: "目标动作",
 		title_stella_prompt: "Stella prompt",
 
+		title_focus_initial: "Current Position",
+		title_focus_steps: "Target Position",
+		title_focus_size: "Step Size",
+
 		description_devices_list:
 			"自动发现和手动添加的StellarMate设备列表。单击重新扫描以检测网络上的新StellarMate设备。",
 		description_device_actions:
@@ -371,6 +375,24 @@
 		description_stella_input: "输入你的提示以请求任务或检索数据。",
 		description_stella_other_function:
 			"你还可以通过语音与 Stella 互动并附加文件。",
+		description_align_paa:
+			"Polar align your equatorial mount to achieve better tracking & guiding.",
+		description_align_load: "Load and Plate Solve an image (JPG, FITS, XISF)",
+		description_align_controls:
+			"You can view Align Chart, Image, Settings and Quick Access Settings. You can also start Aligning",
+		description_align_solution: "Plate solving solution",
+
+		description_focus_initial: "Current focuser position and Focus Advisor",
+		description_focus_steps: "Target position",
+		description_focus_size: "Steps size when running autofocus",
+		description_focus_exposure: "Exposure duration and Framing toggle",
+		description_focus_controls:
+			"You can view Focus Chart, Image, Settings and Quick Access Settings. You can also start Focusing",
+
+		description_guide_camera: "Capture and Loop",
+		description_guide_status: "Guiding Status",
+		description_guide_controls:
+			"You can view Guide Chart, Image, Settings and Quick Access Settings. You can also start Guiding",
 	},
 	tooltip: {
 		placeholder: "占位符 %{0} 或 %{1}",

@@ -292,6 +292,9 @@ const de = {
 		title_fov: "Target Field Of View",
 		title_target_action: "Target Action",
 		title_stella_prompt: "Stella prompt",
+		title_focus_initial: "Current Position",
+		title_focus_steps: "Target Position",
+		title_focus_size: "Step Size",
 
 		description_devices_list:
 			"This is the list of automatically discovered and manually added StellarMate units. Tap RESCAN to detect new StellarMate units on the network.",
@@ -356,6 +359,24 @@ const de = {
 			"Enter your prompts to request tasks or retrieve data.",
 		description_stella_other_function:
 			"You can also interact with Stella using voice and attach files.",
+		description_align_paa:
+			"Polar align your equatorial mount to achieve better tracking & guiding.",
+		description_align_load: "Load and Plate Solve an image (JPG, FITS, XISF)",
+		description_align_controls:
+			"You can view Align Chart, Image, Settings and Quick Access Settings. You can also start Aligning",
+		description_align_solution: "Plate solving solution",
+
+		description_focus_initial: "Current focuser position and Focus Advisor",
+		description_focus_steps: "Target position",
+		description_focus_size: "Steps size when running autofocus",
+		description_focus_exposure: "Exposure duration and Framing toggle",
+		description_focus_controls:
+			"You can view Focus Chart, Image, Settings and Quick Access Settings. You can also start Focusing",
+
+		description_guide_camera: "Capture and Loop",
+		description_guide_status: "Guiding Status",
+		description_guide_controls:
+			"You can view Guide Chart, Image, Settings and Quick Access Settings. You can also start Guiding",
 	},
 	tooltip: {
 		placeholder: "Placeholder %{0} or %{1}",
