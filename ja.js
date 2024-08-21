@@ -369,8 +369,7 @@ const ja = {
 			"You can also interact with Stella using voice and attach files.",
 		description_align_paa:
 			"Polar align your equatorial mount to achieve better tracking & guiding.",
-		description_align_load:
-			"Load and Plate Solve a FITS image (is FITS only supported? I think we can also send JPG and XISF too",
+		description_align_load: "Load and Plate Solve an image (JPG, FITS, XISF)",
 		description_align_controls:
 			"You can view Align Chart, Image, Settings and Quick Access Settings. You can also start Aligning",
 		description_align_solution: "Plate solving solution",
