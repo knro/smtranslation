@@ -673,6 +673,8 @@ const en = {
 			pixel_width: "Pixel Width",
 			pixel_height: "Pixel Height",
 		},
+		no_connected_instances:
+			"No active instances detected, please make sure KStars is connected and is not linked to any other observatory.",
 	},
 	targets: {
 		now: "Now",

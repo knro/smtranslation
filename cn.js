@@ -655,6 +655,8 @@
 			pixel_width: "像素宽",
 			pixel_height: "像素高",
 		},
+		no_connected_instances:
+			"No active instances detected, please make sure KStars is connected and is not linked to any other observatory.",
 	},
 	targets: {
 		now: "现在",

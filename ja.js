@@ -660,6 +660,8 @@ const ja = {
 			pixel_width: "ピクセル幅",
 			pixel_height: "ピクセル高さ",
 		},
+		no_connected_instances:
+			"No active instances detected, please make sure KStars is connected and is not linked to any other observatory.",
 	},
 	targets: {
 		now: "今",
