@@ -172,6 +172,10 @@ const de = {
 		success: "Success",
 		failed: "Failed",
 		file_too_large: "File is too large",
+
+		public: "Public",
+		private: "Private",
+		label: "Label",
 	},
 	darkLibrary: {
 		title: "Dark Library",
@@ -254,6 +258,8 @@ const de = {
 		alert_reset_title: "Erfolge zurücksetzen",
 		alert_agree_reset_body:
 			"Sind Sie sicher, dass Sie alle Erfolge zurücksetzen möchten?",
+
+		no_description: "No description",
 	},
 	tourGuide: {
 		tour_guide: "Tour Guide",
@@ -656,6 +662,21 @@ const de = {
 			pixel_width: "Pixelbreite",
 			pixel_height: "Pixelhöhe",
 		},
+		observatory: {
+			observatory_name: "Name of the observatory",
+			bortle_scale: "Bortle Scale",
+			observatory_delete_submit: "Are you sure you want to delete the observatory? All equipment and the equipment profiles will also be deleted",
+			observatory_delete_title: "Delete observatory",
+			empty_profile: "The selected profile currently has no equipment. To proceed, please add new equipment.",
+			empty_profiles_list: "The selected observatory currently has no equipment profiles. To proceed, please add new profile.",
+			manufacturer: "Manufacturer",
+			profile_name: "Profile Name",
+		},
+		no_connected_instances:
+			"No active instances detected, please make sure KStars is connected and is not linked to any other observatory.",
+		observatories: "Observatories",
+		equipment: "Equipment",
+		observatory_delete_submit: "Observatory successfully deleted",
 	},
 	targets: {
 		now: "Jetzt",
@@ -1601,6 +1622,11 @@ const de = {
 			show_images: "2. Show me images that I took May 25",
 			show_messier: "3. Show me M 31 images",
 		},
+	},
+	social: {
+		captures: "Captures",
+		followers: "Followers",
+		subscriptions: "Subscriptions",
 	},
 };
 
