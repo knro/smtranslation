@@ -167,6 +167,10 @@
 		success: "成功",
 		failed: "失败",
 		file_too_large: "文件过大",
+
+		public: "Public",
+		private: "Private",
+		label: "Label"
 	},
 	darkLibrary: {
 		title: "暗场库",
@@ -276,6 +280,8 @@
 
 		alert_reset_title: "重置成就",
 		alert_agree_reset_body: "您确定要重置所有成就吗？",
+
+		no_description: "No description",
 	},
 	tourGuide: {
 		tour_guide: "指导",
@@ -655,8 +661,21 @@
 			pixel_width: "像素宽",
 			pixel_height: "像素高",
 		},
+		observatory: {
+			observatory_name: "Name of the observatory",
+			bortle_scale: "Bortle Scale",
+			observatory_delete_submit: "Are you sure you want to delete the observatory? All equipment and the equipment profiles will also be deleted",
+			observatory_delete_title: "Delete observatory",
+			empty_profile: "The selected profile currently has no equipment. To proceed, please add new equipment.",
+			empty_profiles_list: "The selected observatory currently has no equipment profiles. To proceed, please add new profile.",
+			manufacturer: "Manufacturer",
+			profile_name: "Profile Name",
+		},
 		no_connected_instances:
 			"No active instances detected, please make sure KStars is connected and is not linked to any other observatory.",
+		observatories: "Observatories",
+		equipment: "Equipment",
+		observatory_delete_submit: "Observatory successfully deleted",
 	},
 	targets: {
 		now: "现在",
@@ -1604,6 +1623,11 @@
 			show_images: "2. 显示我在 5 月 25 日拍摄的图像",
 			show_messier: "3. 显示 M 31 的图像",
 		},
+	},
+	social: {
+		captures: "Captures",
+		followers: "Followers",
+		subscriptions: "Subscriptions",
 	},
 };
 
