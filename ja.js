@@ -185,6 +185,14 @@ const ja = {
 		public: "Public",
 		private: "Private",
 		label: "Label",
+
+		users: "Users",
+		title: "Title",
+		submitted_by: "Submitted By",
+		submitted_date: "Submitted Date",
+		publish_status: "Publish Status",
+		submission_status: "Submission Status",
+		access_level: "Access Level"
 	},
 	darkLibrary: {
 		title: "ダーク ライブラリ",
@@ -1638,6 +1646,18 @@ const ja = {
 		captures: "Captures",
 		followers: "Followers",
 		subscriptions: "Subscriptions",
+		report_abuse: {
+			title: "Report abuse",
+			description: "Please specify a reason for this abuse report.",
+			reason: {
+				spam: "The content is filled with irrelevant or repetitive messages.",
+				hate_speech: "The content contains racist, sexist, or otherwise discriminatory language.",
+				inappropriate_content: "The post contains explicit, offensive, or NSFW material.",
+				impersonation: "The user is pretending to be someone they are not.",
+				violation_of_terms: "The content violates the platform's terms of service or community guidelines.",
+				privacy_violation: "The content includes personal information without consent."
+			}
+		}
 	},
 };
 export default ja;
