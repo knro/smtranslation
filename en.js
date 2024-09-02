@@ -1677,6 +1677,14 @@ const en = {
 		captures: "Captures",
 		followers: "Followers",
 		subscriptions: "Subscriptions",
+		report_abuse: {
+			spam: "The content is filled with irrelevant or repetitive messages.",
+			hate_speech: "The content contains racist, sexist, or otherwise discriminatory language.",
+			inappropriate_content: "The post contains explicit, offensive, or NSFW material.",
+			impersonation: "The user is pretending to be someone they are not.",
+			violation_of_terms: "The content violates the platform's terms of service or community guidelines.",
+			privacy_violation: "The content includes personal information without consent."
+		}
 	},
 };
 
