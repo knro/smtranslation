@@ -191,7 +191,15 @@ const es = {
 		submitted_date: "Submitted Date",
 		publish_status: "Publish Status",
 		submission_status: "Submission Status",
-		access_level: "Access Level"
+		access_level: "Access Level",
+
+		description: "Description",
+		acquisition_details: "Acquisition Details",
+		models: "Models",
+		manufacturers: "Manufacturers",
+		logo: "Logo",
+		approve: "Approve",
+		reject: "Reject"
 	},
 	darkLibrary: {
 		title: "Biblioteca oscura",
@@ -1722,6 +1730,10 @@ const es = {
 				violation_of_terms: "The content violates the platform's terms of service or community guidelines.",
 				privacy_violation: "The content includes personal information without consent."
 			}
+		},
+		comment: {
+			comments: "Comments",
+			no_comment: "There is no Comment."
 		}
 	},
 };
