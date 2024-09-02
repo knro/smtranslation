@@ -190,7 +190,6 @@ const en = {
 		label: "Label",
 
 		users: "Users",
-		images: "Images",
 		title: "Title",
 		submitted_by: "Submitted By",
 		submitted_date: "Submitted Date",
