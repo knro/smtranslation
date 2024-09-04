@@ -187,6 +187,11 @@
 		logo: "Logo",
 		approve: "Approve",
 		reject: "Reject",
+		confirm_approve: "Confirm Approve",
+		confirm_reject: "Confirm Reject",
+		confirm_ban: "Confirm Ban",
+		confirm_delete: "Confirm Delete",
+		confirm_ignore: "Confirm Ignore",
 	},
 	darkLibrary: {
 		title: "暗场库",

@@ -199,7 +199,12 @@ const es = {
 		manufacturers: "Manufacturers",
 		logo: "Logo",
 		approve: "Approve",
-		reject: "Reject"
+		reject: "Reject",
+		confirm_approve: "Confirm Approve",
+		confirm_reject: "Confirm Reject",
+		confirm_ban: "Confirm Ban",
+		confirm_delete: "Confirm Delete",
+		confirm_ignore: "Confirm Ignore",
 	},
 	darkLibrary: {
 		title: "Biblioteca oscura",
