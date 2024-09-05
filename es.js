@@ -1741,6 +1741,13 @@ const es = {
 			no_comment: "There is no Comment."
 		}
 	},
+	menu: {
+		go_to_profile: "Go to Profile",
+		go_to_equipment: "Go to Equipment",
+		go_to_moderation: "Go to Moderation",
+		manage_subscriptions: "Manage Subscriptions",
+		go_to_dashboard: "Go to Dashboard"
+	}
 };
 
 export default es;
