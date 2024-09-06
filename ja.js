@@ -1677,11 +1677,11 @@ const ja = {
 		}
 	},
 	menu: {
-		go_to_profile: "Go to Profile",
-		go_to_equipment: "Go to Equipment",
-		go_to_moderation: "Go to Moderation",
+		go_to_profile: "Profile",
+		go_to_equipment: "Equipment",
+		go_to_moderation: "Moderation",
 		manage_subscriptions: "Manage Subscriptions",
-		go_to_dashboard: "Go to Dashboard"
+		go_to_dashboard: "Dashboard"
 	}
 };
 export default ja;
