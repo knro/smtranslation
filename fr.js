@@ -1658,6 +1658,13 @@ const fr = {
 			no_comment: "There is no Comment."
 		}
 	},
+	menu: {
+		go_to_profile: "Profile",
+		go_to_equipment: "Equipment",
+		go_to_moderation: "Moderation",
+		manage_subscriptions: "Subscriptions",
+		go_to_dashboard: "Dashboard"
+	}
 };
 
 export default fr;
