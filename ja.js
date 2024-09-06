@@ -1680,7 +1680,7 @@ const ja = {
 		go_to_profile: "Profile",
 		go_to_equipment: "Equipment",
 		go_to_moderation: "Moderation",
-		manage_subscriptions: "Manage Subscriptions",
+		manage_subscriptions: "Subscriptions",
 		go_to_dashboard: "Dashboard"
 	}
 };
