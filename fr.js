@@ -200,7 +200,6 @@ const fr = {
 		confirm_delete: "Confirm Delete",
 		confirm_ignore: "Confirm Ignore",
 
-		url: "Url",
 		product_range: "Product Range",
 	},
 	darkLibrary: {

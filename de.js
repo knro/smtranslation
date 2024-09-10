@@ -197,8 +197,7 @@ const de = {
 		confirm_ban: "Confirm Ban",
 		confirm_delete: "Confirm Delete",
 		confirm_ignore: "Confirm Ignore",
-		
-		url: "Url",
+
 		product_range: "Product Range",
 	},
 	darkLibrary: {
