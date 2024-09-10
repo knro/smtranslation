@@ -206,6 +206,8 @@ const ja = {
 		confirm_ban: "Confirm Ban",
 		confirm_delete: "Confirm Delete",
 		confirm_ignore: "Confirm Ignore",
+
+		product_range: "Product Range",
 	},
 	darkLibrary: {
 		title: "ダーク ライブラリ",
