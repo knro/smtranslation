@@ -1632,6 +1632,7 @@ const en = {
 		alert_power_port_description: "Are you sure you want to toggle off {0}?",
 	},
 	notifications: {
+		read_all: "Read all",
 		ekoslive_successful: "Ekoslive Reset is Successful",
 		ekoslive_restart: "Restarting Ekoslive",
 		usb_reset: "USB reset is successful",

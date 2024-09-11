@@ -1651,6 +1651,7 @@ const es = {
 			"¿Estás segura de que quieres desactivar {0}?",
 	},
 	notifications: {
+		read_all: "Read all",
 		ekoslive_successful:
 			"El restablecimiento de Ekoslive se realizó correctamente",
 		ekoslive_restart: "Reiniciando Ekoslive",
