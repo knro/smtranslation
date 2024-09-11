@@ -1701,6 +1701,8 @@ const en = {
 		captures: "Captures",
 		followers: "Followers",
 		subscriptions: "Subscriptions",
+		follow: "Follow",
+		unfollow: "Unfollow",
 		report_abuse: {
 			title: "Report abuse",
 			description: "Please specify a reason for this abuse report.",
