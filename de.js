@@ -1579,6 +1579,8 @@ const de = {
 		alert_power_port_description: "Are you sure you want to toggle off {0}?",
 	},
 	notifications: {
+		read_all: "Read all",
+		dnd: "Do not disturb",
 		ekoslive_successful: "Ekoslive重置成功",
 		ekoslive_restart: "重启Ekoslive",
 		usb_reset: "USB reset is successful",

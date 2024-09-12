@@ -1587,6 +1587,8 @@
 		alert_power_port_description: "您确定要关闭 {0} 吗？",
 	},
 	notifications: {
+		read_all: "Read all",
+		dnd: "Do not disturb",
 		ekoslive_successful: "Ekoslive重置成功",
 		ekoslive_restart: "重启Ekoslive",
 		usb_reset: "USB 重置成功",
