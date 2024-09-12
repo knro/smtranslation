@@ -1588,6 +1588,7 @@
 	},
 	notifications: {
 		read_all: "Read all",
+		dnd: "Do not disturb",
 		ekoslive_successful: "Ekoslive重置成功",
 		ekoslive_restart: "重启Ekoslive",
 		usb_reset: "USB 重置成功",

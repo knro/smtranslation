@@ -1593,6 +1593,7 @@ const ja = {
 	},
 	notifications: {
 		read_all: "Read all",
+		dnd: "Do not disturb",
 		ekoslive_successful: "Ekoslive Reset is Successful",
 		ekoslive_restart: "Restarting Ekoslive",
 		usb_reset: "USB reset is successful",
