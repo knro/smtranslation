@@ -1645,6 +1645,7 @@ const fr = {
 		captures: "Captures",
 		followers: "Followers",
 		subscriptions: "Subscriptions",
+		following: "Following",
 		follow: "Follow",
 		unfollow: "Unfollow",
 		report_abuse: {
