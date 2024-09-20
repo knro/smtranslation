@@ -211,6 +211,7 @@ const en = {
 		confirm_ignore: "Confirm Ignore",
 		
 		product_range: "Product Range",
+		image: "Image"
 
 	},
 	darkLibrary: {
