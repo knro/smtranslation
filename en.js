@@ -77,6 +77,9 @@ const en = {
 		examples: "Examples",
 		chat: "Chat",
 		controls: "Controls",
+		balance: "Balance",
+		white: "White",
+		black: "Black",
 
 		azimuth: "Azimuth",
 		altitude: "Altitude",
@@ -209,10 +212,9 @@ const en = {
 		confirm_ban: "Confirm Ban",
 		confirm_delete: "Confirm Delete",
 		confirm_ignore: "Confirm Ignore",
-		
-		product_range: "Product Range",
-		image: "Image"
 
+		product_range: "Product Range",
+		image: "Image",
 	},
 	darkLibrary: {
 		title: "Dark Library",
@@ -707,10 +709,13 @@ const en = {
 		observatory: {
 			observatory_name: "Name of the observatory",
 			bortle_scale: "Bortle Scale",
-			observatory_delete_submit: "Are you sure you want to delete the observatory? All equipment and the equipment profiles will also be deleted",
+			observatory_delete_submit:
+				"Are you sure you want to delete the observatory? All equipment and the equipment profiles will also be deleted",
 			observatory_delete_title: "Delete observatory",
-			empty_profile: "The selected profile currently has no equipment. To proceed, please add new equipment.",
-			empty_profiles_list: "The selected observatory currently has no equipment profiles. To proceed, please add new profile.",
+			empty_profile:
+				"The selected profile currently has no equipment. To proceed, please add new equipment.",
+			empty_profiles_list:
+				"The selected observatory currently has no equipment profiles. To proceed, please add new profile.",
 			manufacturer: "Manufacturer",
 			profile_name: "Profile Name",
 		},
@@ -1660,7 +1665,8 @@ const en = {
 		stella: "Stella",
 	},
 	stella: {
-		confirm_train_settings: "Cannot generate XML without capture settings. Start Ekos profile first to sync default settings.",
+		confirm_train_settings:
+			"Cannot generate XML without capture settings. Start Ekos profile first to sync default settings.",
 		confirm_ekos_running:
 			"Please check the Ekos profile. Ekos must be online to continue",
 		confirm_ekos_running_question:
@@ -1712,25 +1718,29 @@ const en = {
 			description: "Please specify a reason for this abuse report.",
 			reason: {
 				spam: "The content is filled with irrelevant or repetitive messages.",
-				hate_speech: "The content contains racist, sexist, or otherwise discriminatory language.",
-				inappropriate_content: "The post contains explicit, offensive, or NSFW material.",
+				hate_speech:
+					"The content contains racist, sexist, or otherwise discriminatory language.",
+				inappropriate_content:
+					"The post contains explicit, offensive, or NSFW material.",
 				impersonation: "The user is pretending to be someone they are not.",
-				violation_of_terms: "The content violates the platform's terms of service or community guidelines.",
-				privacy_violation: "The content includes personal information without consent."
-			}
+				violation_of_terms:
+					"The content violates the platform's terms of service or community guidelines.",
+				privacy_violation:
+					"The content includes personal information without consent.",
+			},
 		},
 		comment: {
 			comments: "Comments",
-			no_comment: "There is no Comment."
-		}
+			no_comment: "There is no Comment.",
+		},
 	},
 	menu: {
 		go_to_profile: "Profile",
 		go_to_equipment: "Equipment",
 		go_to_moderation: "Moderation",
 		manage_subscriptions: "Subscriptions",
-		go_to_dashboard: "Dashboard"
-	}
+		go_to_dashboard: "Dashboard",
+	},
 };
 
 export default en;
