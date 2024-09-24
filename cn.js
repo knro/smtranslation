@@ -74,6 +74,9 @@
 		examples: "示例",
 		chat: "聊天",
 		controls: "控制",
+		balance: "Balance",
+		white: "White",
+		black: "Black",
 
 		azimuth: "方位角",
 		altitude: "高度角",
@@ -194,7 +197,7 @@
 		confirm_ignore: "Confirm Ignore",
 
 		product_range: "Product Range",
-		image: "Image"
+		image: "Image",
 	},
 	darkLibrary: {
 		title: "暗场库",
@@ -1687,8 +1690,8 @@
 		go_to_equipment: "Equipment",
 		go_to_moderation: "Moderation",
 		manage_subscriptions: "Subscriptions",
-		go_to_dashboard: "Dashboard"
-	}
+		go_to_dashboard: "Dashboard",
+	},
 };
 
 export default cn;
