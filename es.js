@@ -211,6 +211,14 @@ const es = {
 
 		product_range: "Product Range",
 		image: "Image",
+
+		owner: "Owner",
+		country: "Country",
+		region: "Region",
+		pictures_captured: "Pictures Captured",
+		latitude: "Latitude",
+		longitude: "Longitude",
+		elevation: "Elevation",
 	},
 	darkLibrary: {
 		title: "Biblioteca oscura",
@@ -1759,6 +1767,9 @@ const es = {
 			comments: "Comments",
 			no_comment: "There is no Comment.",
 		},
+		new_post: "New Post",
+		public_directory: "Public Directory",
+		community: "Community",
 	},
 	menu: {
 		go_to_profile: "Profile",
