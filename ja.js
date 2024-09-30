@@ -215,10 +215,7 @@ const ja = {
 
 		owner: "Owner",
 		country: "Country",
-		state: "State",
-		city: "City",
-		street: "Street",
-		regions: "Region",
+		region: "Region",
 		pictures_captured: "Pictures Captured",
 		latitude: "Latitude",
 		longitude: "Longitude",
@@ -1706,7 +1703,7 @@ const ja = {
 			no_comment: "There is no Comment.",
 		},
 		new_post: "New Post",
-		public_directory: "List in Public Directory",
+		public_directory: "Public Directory",
 		community: "Community",
 	},
 	menu: {
