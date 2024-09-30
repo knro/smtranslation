@@ -215,6 +215,16 @@ const en = {
 
 		product_range: "Product Range",
 		image: "Image",
+		owner: "Owner",
+		country: "Country",
+		state: "State",
+		city: "City",
+		street: "Street",
+		regions: "Region",
+		pictures_captured: "Pictures Captured",
+		latitude: "Latitude",
+		longitude: "Longitude",
+		elevation: "Elevation",
 	},
 	darkLibrary: {
 		title: "Dark Library",
@@ -1733,6 +1743,9 @@ const en = {
 			comments: "Comments",
 			no_comment: "There is no Comment.",
 		},
+		new_post: "New Post",
+		public_directory: "List in Public Directory",
+		community: "Community",
 	},
 	menu: {
 		go_to_profile: "Profile",
