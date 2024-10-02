@@ -222,6 +222,8 @@ const en = {
 		latitude: "Latitude",
 		longitude: "Longitude",
 		elevation: "Elevation",
+
+		no_filter: "No Filter"
 	},
 	darkLibrary: {
 		title: "Dark Library",
