@@ -220,6 +220,7 @@ const ja = {
 		latitude: "Latitude",
 		longitude: "Longitude",
 		elevation: "Elevation",
+		no_filter: "No Filter"
 	},
 	darkLibrary: {
 		title: "ダーク ライブラリ",

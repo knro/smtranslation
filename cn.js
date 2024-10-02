@@ -206,6 +206,7 @@
 		latitude: "Latitude",
 		longitude: "Longitude",
 		elevation: "Elevation",
+		no_filter: "No Filter"
 	},
 	darkLibrary: {
 		title: "暗场库",
