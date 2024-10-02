@@ -433,6 +433,24 @@ const es = {
 		description_guide_status: "Guiding Status",
 		description_guide_controls:
 			"You can view Guide Chart, Image, Settings and Quick Access Settings. You can also start Guiding",
+			
+		description_grid_view: "This button facilitates a grid view, allowing all items to be displayed in a grid format.",
+		description_list_view: "This button facilitates a list view, allowing all items to be displayed in a list format.",
+		description_search_filter: "This button enables filtering. You can filter items using specific filtering datas.",
+		description_search_live: "This feature supports live search. You can search for items by entering text.",
+		description_search_advanced: "This button enables advanced search. You can search items using their metadata.",
+		description_search_sort: "This is the sort button. It will order items by the 'created_by' attribute or in the reverse order.",
+		description_feed_all: "This tab displays all posts. Here, you can view posts from all users.",
+		description_feed_following: "This tab displays posts of following users. Here, you can view posts from following users.",
+		description_feed_saved: "This tab displays bookmarked posts. Here, you can view bookmarked posts.",
+		description_feed_add: "This button is to create a new post",
+		description_profile_posts: "This tab displays your posts. Here, you can view all the posts you have created.",
+		description_profile_image: "This tab displays your images. Here, you can view all the images you have created.",
+		description_profile_achievements: "This tab showcases your achievements. Here, you can view all the achievements you have earned.",
+		description_profile_motto: "This section is for the user motto. Here, you can view it.",
+		description_users_all: "This tab displays all users. Here, you can view them.",
+		description_users_recent: "This tab displays recently joined users. Here, you can view them.",
+		description_observatory_map: "This section contains a map where you can check the positions of the observatories."
 	},
 	tooltip: {
 		placeholder: "Placeholder %{0} or %{1}",
