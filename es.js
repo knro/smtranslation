@@ -433,6 +433,17 @@ const es = {
 		description_guide_status: "Guiding Status",
 		description_guide_controls:
 			"You can view Guide Chart, Image, Settings and Quick Access Settings. You can also start Guiding",
+			
+		description_search_filter: "Filter by metadata.",
+		description_search_live: "Search by name.",
+		description_feed_all: "Displays posts from all users.",
+		description_feed_following: "Displays posts from users you are following.",
+		description_feed_saved: "Displays bookmarked posts.",
+		description_feed_add: "Add a new post.",
+		description_profile_posts: "This tab displays your posts. Here, you can view all the posts you have created.",
+		description_profile_image: "RAW images.",
+		description_profile_achievements: "Achievements Tracker",
+		description_observatory_map: "Public Observatories map"
 	},
 	tooltip: {
 		placeholder: "Placeholder %{0} or %{1}",
