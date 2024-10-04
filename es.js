@@ -222,6 +222,11 @@ const es = {
 		no_filter: "No Filter",
 
 		new_observatory: "New Observatory",
+		
+		go_back: "Go Back",
+		go_home: "Go back to Home",
+		absent_page: "Oops! The page you're looking for doesn't exist.",
+		absent_user: "Oops! The user you're looking for doesn't exist."
 	},
 	darkLibrary: {
 		title: "Biblioteca oscura",
