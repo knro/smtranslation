@@ -220,6 +220,8 @@ const es = {
 		longitude: "Longitude",
 		elevation: "Elevation",
 		no_filter: "No Filter",
+
+		new_observatory: "New Observatory",
 		
 		go_back: "Go Back",
 		go_home: "Go back to Home",
