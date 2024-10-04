@@ -219,7 +219,12 @@ const es = {
 		latitude: "Latitude",
 		longitude: "Longitude",
 		elevation: "Elevation",
-		no_filter: "No Filter"
+		no_filter: "No Filter",
+		
+		go_back: "Go Back",
+		go_back_to_home: "Go back to Home",
+		not_found_page: "Oops! The page you're looking for doesn't exist.",
+		not_found_user: "Oops! The user you're looking for doesn't exist."
 	},
 	darkLibrary: {
 		title: "Biblioteca oscura",
