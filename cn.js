@@ -1714,6 +1714,7 @@
 		new_post: "New Post",
 		public_directory: "Public Directory",
 		community: "Community",
+		no_observatories: "No public observatories found",
 	},
 	menu: {
 		go_to_profile: "Profile",
