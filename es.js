@@ -222,11 +222,11 @@ const es = {
 		no_filter: "No Filter",
 
 		new_observatory: "New Observatory",
-		
+
 		go_back: "Go Back",
 		go_home: "Go back to Home",
 		absent_page: "Oops! The page you're looking for doesn't exist.",
-		absent_user: "Oops! The user you're looking for doesn't exist."
+		absent_user: "Oops! The user you're looking for doesn't exist.",
 	},
 	darkLibrary: {
 		title: "Biblioteca oscura",
@@ -440,17 +440,18 @@ const es = {
 		description_guide_status: "Guiding Status",
 		description_guide_controls:
 			"You can view Guide Chart, Image, Settings and Quick Access Settings. You can also start Guiding",
-			
+
 		description_search_filter: "Filter by metadata.",
 		description_search_live: "Search by name.",
 		description_feed_all: "Displays posts from all users.",
 		description_feed_following: "Displays posts from users you are following.",
 		description_feed_saved: "Displays bookmarked posts.",
 		description_feed_add: "Add a new post.",
-		description_profile_posts: "This tab displays your posts. Here, you can view all the posts you have created.",
+		description_profile_posts:
+			"This tab displays your posts. Here, you can view all the posts you have created.",
 		description_profile_image: "RAW images.",
 		description_profile_achievements: "Achievements Tracker",
-		description_observatory_map: "Public Observatories map"
+		description_observatory_map: "Public Observatories map",
 	},
 	tooltip: {
 		placeholder: "Placeholder %{0} or %{1}",
@@ -1497,6 +1498,8 @@ const es = {
 			"¿Está seguro de que desea restablecer Ekoslive? Esto eliminará todas las imágenes almacenadas en caché y reiniciará el servidor.",
 		alert_download_index_file:
 			"Faltan los archivos del índice astrométrico. ¿Quieres descargarlos?",
+		alert_low_space:
+			"Your device is running out of space. Please delete unnecessary files.",
 
 		change_resolution_modal: {
 			heading: "Cambiar Resolucion",
