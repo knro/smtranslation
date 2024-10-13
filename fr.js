@@ -220,7 +220,7 @@ const fr = {
 		go_back: "Go Back",
 		go_home: "Go back to Home",
 		absent_page: "Oops! The page you're looking for doesn't exist.",
-		absent_user: "Oops! The user you're looking for doesn't exist."
+		absent_user: "Oops! The user you're looking for doesn't exist.",
 	},
 	darkLibrary: {
 		title: "Dark Library",
@@ -434,10 +434,11 @@ const fr = {
 		description_feed_following: "Displays posts from users you are following.",
 		description_feed_saved: "Displays bookmarked posts.",
 		description_feed_add: "Add a new post.",
-		description_profile_posts: "This tab displays your posts. Here, you can view all the posts you have created.",
+		description_profile_posts:
+			"This tab displays your posts. Here, you can view all the posts you have created.",
 		description_profile_image: "RAW images.",
 		description_profile_achievements: "Achievements Tracker",
-		description_observatory_map: "Public Observatories map"
+		description_observatory_map: "Public Observatories map",
 	},
 	tooltip: {
 		placeholder: "Placeholder %{0} or %{1}",
@@ -1433,6 +1434,8 @@ const fr = {
 			"Are you sure you want to reset Ekoslive? This would delete all cached images and restarts the server.",
 		alert_download_index_file:
 			"Astrometry Index files are missing. Would you like to download?",
+		alert_low_space:
+			"Your device is running out of space. Please delete unnecessary files.",
 
 		change_resolution_modal: {
 			mode: "Mode",

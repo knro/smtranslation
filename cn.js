@@ -209,11 +209,11 @@
 		no_filter: "No Filter",
 
 		new_observatory: "New Observatory",
-		
+
 		go_back: "Go Back",
 		go_home: "Go back to Home",
 		absent_page: "Oops! The page you're looking for doesn't exist.",
-		absent_user: "Oops! The user you're looking for doesn't exist."
+		absent_user: "Oops! The user you're looking for doesn't exist.",
 	},
 	darkLibrary: {
 		title: "暗场库",
@@ -449,10 +449,11 @@
 		description_feed_following: "Displays posts from users you are following.",
 		description_feed_saved: "Displays bookmarked posts.",
 		description_feed_add: "Add a new post.",
-		description_profile_posts: "This tab displays your posts. Here, you can view all the posts you have created.",
+		description_profile_posts:
+			"This tab displays your posts. Here, you can view all the posts you have created.",
 		description_profile_image: "RAW images.",
 		description_profile_achievements: "Achievements Tracker",
-		description_observatory_map: "Public Observatories map"
+		description_observatory_map: "Public Observatories map",
 	},
 	tooltip: {
 		placeholder: "占位符 %{0} 或 %{1}",
@@ -1404,6 +1405,8 @@
 		alert_reset_ekoslive_body:
 			"你确定要重置Ekoslive吗？这将删除所有缓存的映像并重新启动服务器。",
 		alert_download_index_file: "缺少Astrometry解析文件。是否要下载？",
+		alert_low_space:
+			"Your device is running out of space. Please delete unnecessary files.",
 
 		change_resolution_modal: {
 			mode: "模式",
