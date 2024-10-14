@@ -480,7 +480,7 @@ const en = {
 			observatories_general: "Welcome to the Observatories page! Here, you can explore observatories created by other users and manage your own.",
 			observatories_page: "View and manage observatories in this section.",
 
-			final_step: "Congratulations! You've completed the tour—now you're ready to fully explore and engage with all the features of the platform."
+			final_step: "Congratulations! You've finished the tour. Now it's time to dive in and discover everything this platform has to offer."
 		},
 	},
 	tooltip: {
