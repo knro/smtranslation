@@ -159,6 +159,8 @@ const ja = {
 
 		// Confirm
 		alert_confirmation_title: "確認",
+		alert_confirmation_files:
+			"Are you sure you would like to delete the selected files",
 		alert_confirmation_body:
 			"Are you sure you want to create {0} with this name?",
 		alert_overwrite_body:
@@ -453,27 +455,40 @@ const ja = {
 		description_observatory_map: "Public Observatories map",
 
 		initial_tour_guide: {
-			profile_general: "This is your Profile page where you can manage your account settings and personal information.",
-			side_panel: "The left-hand panel is the Main Navigation. Here, you can explore Photos, connect with other Users, and view Observatories.",
-			profile_page: "Take a look around your profile to explore the features available for managing your account.",
-			profile_next: "Next, check out the Feed where you can explore posts from other users.",
+			profile_general:
+				"This is your Profile page where you can manage your account settings and personal information.",
+			side_panel:
+				"The left-hand panel is the Main Navigation. Here, you can explore Photos, connect with other Users, and view Observatories.",
+			profile_page:
+				"Take a look around your profile to explore the features available for managing your account.",
+			profile_next:
+				"Next, check out the Feed where you can explore posts from other users.",
 
-			feed_general: "This is the Feed, where you can view images shared by others, see your bookmarks, and upload your own photos.",
+			feed_general:
+				"This is the Feed, where you can view images shared by others, see your bookmarks, and upload your own photos.",
 			feed_page: "Browse posts from other users here.",
-			feed_next: "Next, explore the Users page to find and connect with others.",
+			feed_next:
+				"Next, explore the Users page to find and connect with others.",
 
-			users_general: "This is the Users page, where you can search for, filter, and follow other members of the community.",
+			users_general:
+				"This is the Users page, where you can search for, filter, and follow other members of the community.",
 			users_page: "Discover and interact with other users here.",
-			users_next: "Next, let's visit the Equipment page to explore astronomy tools.",
+			users_next:
+				"Next, let's visit the Equipment page to explore astronomy tools.",
 
-			equipment_general: "Welcome to the Equipment page, where you can browse and learn about different astronomy equipment.",
-			equipment_page: "Check out the astronomy equipment types. Tap any type to list all manufacturers for this equipment type, and then tap a manufacturer to list all models.",
-			equipment_next: "Next, explore the Observatories page to view and manage observatories.",
+			equipment_general:
+				"Welcome to the Equipment page, where you can browse and learn about different astronomy equipment.",
+			equipment_page:
+				"Check out the astronomy equipment types. Tap any type to list all manufacturers for this equipment type, and then tap a manufacturer to list all models.",
+			equipment_next:
+				"Next, explore the Observatories page to view and manage observatories.",
 
-			observatories_general: "Welcome to the Observatories page! Here, you can explore observatories created by other users and manage your own.",
+			observatories_general:
+				"Welcome to the Observatories page! Here, you can explore observatories created by other users and manage your own.",
 			observatories_page: "View and manage observatories in this section.",
 
-			final_step: "Congratulations! You've finished the tour. Now it's time to dive in and discover everything this platform has to offer.",
+			final_step:
+				"Congratulations! You've finished the tour. Now it's time to dive in and discover everything this platform has to offer.",
 		},
 	},
 	tooltip: {
