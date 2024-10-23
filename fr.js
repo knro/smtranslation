@@ -312,6 +312,8 @@ const fr = {
 		alert_reset_title: "Reset achievements",
 		alert_agree_reset_body: "Are you sure you want to reset all achievements?",
 		no_description: "No description",
+		complete_tour_guide: "Complete Tour Guide",
+		file_stored: "File Stored",
 	},
 	tourGuide: {
 		tour_guide: "Tour Guide",
