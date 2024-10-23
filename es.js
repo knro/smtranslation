@@ -323,6 +323,8 @@ const es = {
 			"¿Estás segura de que quieres restablecer todos los logros?",
 
 		no_description: "No description",
+		complete_tour_guide: "Complete Tour Guide",
+		file_stored: "File Stored",
 	},
 	tourGuide: {
 		tour_guide: "Guía turístico",

@@ -312,6 +312,8 @@ const de = {
 			"Sind Sie sicher, dass Sie alle Erfolge zurücksetzen möchten?",
 
 		no_description: "No description",
+		complete_tour_guide: "Complete Tour Guide",
+		file_stored: "File Stored",
 	},
 	tourGuide: {
 		tour_guide: "Tour Guide",

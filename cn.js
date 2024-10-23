@@ -334,6 +334,8 @@
 		alert_agree_reset_body: "您确定要重置所有成就吗？",
 
 		no_description: "No description",
+		complete_tour_guide: "Complete Tour Guide",
+		file_stored: "File Stored",
 	},
 	tourGuide: {
 		tour_guide: "指导",
