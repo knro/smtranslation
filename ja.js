@@ -237,6 +237,8 @@ const ja = {
 
 		imaging: "Imaging",
 		engage: "Engage",
+		trash: "Trash",
+		unpublish: "Unpublish"
 	},
 	darkLibrary: {
 		title: "ダーク ライブラリ",

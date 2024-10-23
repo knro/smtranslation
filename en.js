@@ -240,6 +240,8 @@ const en = {
 
 		imaging: "Imaging",
 		engage: "Engage",
+		trash: "Trash",
+		unpublish: "Unpublish"
 	},
 	darkLibrary: {
 		title: "Dark Library",
