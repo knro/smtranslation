@@ -1751,6 +1751,8 @@ const fr = {
 					"The content violates the platform's terms of service or community guidelines.",
 				privacy_violation:
 					"The content includes personal information without consent.",
+				wrong_image: "The image is incorrect",
+				wrong_metadata: "The metadata is incorrect",
 			},
 		},
 		comment: {
