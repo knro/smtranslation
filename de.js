@@ -229,7 +229,8 @@ const de = {
 		imaging: "Imaging",
 		engage: "Engage",
 		trash: "Trash",
-		unpublish: "Unpublish"
+		unpublish: "Unpublish",
+		blacklist: "Blacklist",
 	},
 	darkLibrary: {
 		title: "Dark Library",

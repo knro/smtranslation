@@ -224,7 +224,8 @@
 		imaging: "Imaging",
 		engage: "Engage",
 		trash: "Trash",
-		unpublish: "Unpublish"
+		unpublish: "Unpublish",
+		blacklist: "Blacklist",
 	},
 	darkLibrary: {
 		title: "暗场库",
