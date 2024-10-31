@@ -242,6 +242,8 @@ const en = {
 		engage: "Engage",
 		trash: "Trash",
 		unpublish: "Unpublish",
+
+		duplicate: "Duplicate",
 		blacklist: "Blacklist",
 	},
 	darkLibrary: {

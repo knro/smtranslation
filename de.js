@@ -230,6 +230,8 @@ const de = {
 		engage: "Engage",
 		trash: "Trash",
 		unpublish: "Unpublish",
+
+		duplicate: "Duplicate",
 		blacklist: "Blacklist",
 	},
 	darkLibrary: {

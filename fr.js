@@ -232,6 +232,8 @@ const fr = {
 		engage: "Engage",
 		trash: "Trash",
 		unpublish: "Unpublish",
+
+		duplicate: "Duplicate",
 		blacklist: "Blacklist",
 	},
 	darkLibrary: {
