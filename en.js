@@ -244,6 +244,7 @@ const en = {
 		unpublish: "Unpublish",
 
 		duplicate: "Duplicate",
+		blacklist: "Blacklist",
 	},
 	darkLibrary: {
 		title: "Dark Library",

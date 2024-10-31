@@ -227,6 +227,7 @@
 		unpublish: "Unpublish",
 
 		duplicate: "Duplicate",
+		blacklist: "Blacklist",
 	},
 	darkLibrary: {
 		title: "暗场库",

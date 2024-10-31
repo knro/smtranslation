@@ -240,6 +240,7 @@ const es = {
 		unpublish: "Unpublish",
 
 		duplicate: "Duplicate",
+		blacklist: "Blacklist",
 	},
 	darkLibrary: {
 		title: "Biblioteca oscura",
