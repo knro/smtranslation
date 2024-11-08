@@ -235,6 +235,8 @@ const fr = {
 
 		duplicate: "Duplicate",
 		blacklist: "Blacklist",
+		ban: "Ban",
+		delete: "Delete"
 	},
 	darkLibrary: {
 		title: "Dark Library",
