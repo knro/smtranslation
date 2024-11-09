@@ -228,6 +228,8 @@
 
 		duplicate: "Duplicate",
 		blacklist: "Blacklist",
+		ban: "Ban",
+		delete: "Delete"
 	},
 	darkLibrary: {
 		title: "暗场库",

@@ -242,6 +242,8 @@ const ja = {
 
 		duplicate: "Duplicate",
 		blacklist: "Blacklist",
+		ban: "Ban",
+		delete: "Delete"
 	},
 	darkLibrary: {
 		title: "ダーク ライブラリ",

@@ -241,6 +241,8 @@ const es = {
 
 		duplicate: "Duplicate",
 		blacklist: "Blacklist",
+		ban: "Ban",
+		delete: "Delete"
 	},
 	darkLibrary: {
 		title: "Biblioteca oscura",
