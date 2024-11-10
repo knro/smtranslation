@@ -243,7 +243,7 @@ const ja = {
 		duplicate: "Duplicate",
 		blacklist: "Blacklist",
 		ban: "Ban",
-		delete: "Delete"
+		delete: "Delete",
 	},
 	darkLibrary: {
 		title: "ダーク ライブラリ",
@@ -1798,6 +1798,12 @@ const ja = {
 		software_title: "Which imaging software do you use?",
 		hardware_title: "What hardware plaforms do you use?",
 		imaging_title: "What do you like to image?",
+	},
+	ekoslive: {
+		info: {
+			drag: "Drag & drop a file here, or click to select a file",
+			selected: "File has been selected",
+		},
 	},
 };
 export default ja;
