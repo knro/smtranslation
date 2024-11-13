@@ -1759,6 +1759,7 @@ const es = {
 		stella_xml_failure: "No se pudo generar XML",
 		stella_history_success: "Historial eliminado exitosamente",
 		stella_history_failure: "Error al eliminar el historial",
+		train_refresh: "Trains Refreshed Successfully",
 	},
 	hardware: {
 		serial_devices_detected: "Dispositivos seriales detectados",
