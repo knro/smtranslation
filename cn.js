@@ -740,14 +740,6 @@
 			port_selector: "端口选择器",
 			usb_reset: "强制 USB 重置",
 			remote_drivers: "远程驱动程序",
-			feedback: "反馈",
-			stella_feedback_optional: "(可选) 欢迎添加更多详细信息。",
-			stella_feedback: "反馈提交成功。",
-			stella_feedback_placeholder: "请提供额外的反馈",
-			stella_prompt_request: "Stella 请求处理成功✅",
-			stella_xml_failure: "生成 XML 失败",
-			stella_history_success: "历史记录删除成功。",
-			stella_history_failure: "删除历史记录时出错",
 		},
 		add_scope: {
 			add_scope: "添加望远镜",
@@ -1689,6 +1681,7 @@
 		stella_xml_failure: "生成 XML 失败",
 		stella_history_success: "历史记录删除成功。",
 		stella_history_failure: "删除历史记录时出错",
+		train_refresh: "Trains Refreshed Successfully",
 	},
 	hardware: {
 		serial_devices_detected: "发现串口设备",

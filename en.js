@@ -1737,6 +1737,7 @@ const en = {
 		stella_xml_failure: "Failed to generate XML",
 		stella_history_success: "History deleted successfully.",
 		stella_history_failure: "Error deleting history",
+		train_refresh: "Trains Refreshed Successfully",
 	},
 	hardware: {
 		serial_devices_detected: "Serial Devices Detected",

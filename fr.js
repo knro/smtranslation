@@ -739,14 +739,6 @@ const fr = {
 			port_selector: "Port Selector",
 			usb_reset: "Force USB Reset",
 			remote_drivers: "Remote Drivers",
-			feedback: "Feedback",
-			stella_feedback_optional: "(Optional) Feel free to add more details.",
-			stella_feedback: "Feedback submitted successfully.",
-			stella_feedback_placeholder: "Please provide additional feedback",
-			stella_prompt_request: "Request for Stella handled successfully✅",
-			stella_xml_failure: "Failed to generate XML",
-			stella_history_success: "History deleted successfully.",
-			stella_history_failure: "Error deleting history",
 		},
 		add_scope: {
 			add_scope: "Ajouter un télescope",
@@ -1679,6 +1671,7 @@ const fr = {
 		stella_xml_failure: "Failed to generate XML",
 		stella_history_success: "History deleted successfully.",
 		stella_history_failure: "Error deleting history",
+		train_refresh: "Trains Refreshed Successfully",
 	},
 	hardware: {
 		serial_devices_detected: "Serial Devices Detected",

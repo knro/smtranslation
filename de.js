@@ -740,14 +740,6 @@ const de = {
 			port_selector: "Port Auswahl",
 			usb_reset: "USB Reset erzwingen",
 			remote_drivers: "Remote Treiber",
-			feedback: "Feedback",
-			stella_feedback_optional: "(Optional) Feel free to add more details.",
-			stella_feedback: "Feedback submitted successfully.",
-			stella_feedback_placeholder: "Please provide additional feedback",
-			stella_prompt_request: "Request for Stella handled successfully✅",
-			stella_xml_failure: "XML konnte nicht generiert werden",
-			stella_history_success: "Verlauf erfolgreich gelöscht",
-			stella_history_failure: "Fehler beim löschen des Verlaufs",
 		},
 		add_scope: {
 			add_scope: "Bereich hinzufügen",
@@ -1682,6 +1674,7 @@ const de = {
 		stella_xml_failure: "XML konnte nicht generiert werden",
 		stella_history_success: "Verlauf erfolgreich gelöscht",
 		stella_history_failure: "Fehler beim löschen des Verlaufs",
+		train_refresh: "Trains Refreshed Successfully",
 
 		stella_feedback: "Feedback submitted successfully.",
 		stella_feedback_placeholder: "Please provide additional feedback",
