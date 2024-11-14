@@ -19,6 +19,8 @@
 		devices: "设备",
 		connect: "连接",
 		disconnect: "断开",
+		schedule: "Schedule",
+		walk: "Walk",
 		yes: "是",
 		no: "否",
 		ignore: "忽略",
@@ -1261,6 +1263,7 @@
 			mosaic: {
 				import: "导入拼接图像",
 				planner: "拼接规划器",
+				mask: "Mosaic Mask",
 			},
 
 			scheduler_settings: {
