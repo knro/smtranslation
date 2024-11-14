@@ -19,6 +19,8 @@ const de = {
 		devices: "Geräte",
 		connect: "Verbinden",
 		disconnect: "Trennen",
+		schedule: "Schedule",
+		walk: "Walk",
 		yes: "Ja",
 		no: "Nein",
 		ignore: "Ignorieren",
@@ -1275,6 +1277,7 @@ const de = {
 			mosaic: {
 				import: "Mosaik importieren",
 				planner: "Mosaik Planer",
+				mask: "Mosaic Mask",
 			},
 
 			scheduler_settings: {

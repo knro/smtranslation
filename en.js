@@ -21,6 +21,7 @@ const en = {
 		disconnect: "Disconnect",
 		disconnected: "Disconnected",
 		schedule: "Schedule",
+		walk: "Walk",
 		yes: "Yes",
 		no: "No",
 		ignore: "Ignore",
@@ -1310,6 +1311,7 @@ const en = {
 			mosaic: {
 				import: "Import Mosaic",
 				planner: "Mosaic planner",
+				mask: "Mosaic Mask",
 			},
 
 			scheduler_settings: {

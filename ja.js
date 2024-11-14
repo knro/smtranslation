@@ -21,6 +21,7 @@ const ja = {
 		disconnect: "切断する",
 		disconnected: "切断されました",
 		schedule: "Schedule",
+		walk: "Walk",
 		yes: "はい",
 		no: "いいえ",
 		ignore: "Ignore",
@@ -1293,6 +1294,7 @@ const ja = {
 			mosaic: {
 				import: "モザイクのインポート",
 				planner: "モザイクプランナー",
+				mask: "Mosaic Mask",
 			},
 
 			scheduler_settings: {
