@@ -19,7 +19,7 @@
 		devices: "设备",
 		connect: "连接",
 		disconnect: "断开",
-		schedule: 计划",
+		schedule: "计划",
 		walk: "步进",
 		yes: "是",
 		no: "否",
