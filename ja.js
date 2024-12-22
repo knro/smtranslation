@@ -1618,7 +1618,7 @@ const ja = {
 		heading: "だいたい",
 		bundle: "バンドル",
 		copyright_line1:
-			"StellarMate is developed by Ikarus Technologies © 2017-2023",
+			"StellarMate is developed by Ikarus Technologies © 2017-2025",
 		copyright_line2: "Alamri Observatory による背景画像",
 		credits: {
 			heading: "Credits",

@@ -1657,7 +1657,7 @@ const en = {
 		heading: "About",
 		bundle: "Bundle",
 		copyright_line1:
-			"StellarMate is developed by Ikarus Technologies © 2017-2023",
+			"StellarMate is developed by Ikarus Technologies © 2017-2025",
 		copyright_line2: "Background image by Alamri Observatory",
 		credits: {
 			heading: "Credits",
