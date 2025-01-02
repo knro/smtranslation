@@ -79,6 +79,7 @@
 		balance: "Balance",
 		white: "White",
 		black: "Black",
+		datepick: "Pick a date",
 
 		azimuth: "方位角",
 		altitude: "高度角",
@@ -154,8 +155,7 @@
 
 		// Confirm
 		alert_confirmation_title: "确认",
-		alert_confirmation_files:
-			"你确定要删除这些被选中的文件吗",
+		alert_confirmation_files: "你确定要删除这些被选中的文件吗",
 		alert_confirmation_body: "是否确实要使用此名称创建｛0｝？",
 		alert_overwrite_body: "文件“｛0｝”已存在。是否要覆盖它？",
 
@@ -233,8 +233,10 @@
 		ban: "禁用",
 		delete: "删除",
 		manufacturer_tip_title: "Adding New Equipment Manufacturers",
-		manufacturer_tip_section_1: "When adding new manufacturers, enter only the manufacturer name (e.g., Canon, Meade) in this section.",
-		manufacturer_tip_section_2: "Specific models (like Meade LX200) should be added later through the manufacturer's dedicated page."
+		manufacturer_tip_section_1:
+			"When adding new manufacturers, enter only the manufacturer name (e.g., Canon, Meade) in this section.",
+		manufacturer_tip_section_2:
+			"Specific models (like Meade LX200) should be added later through the manufacturer's dedicated page.",
 	},
 	darkLibrary: {
 		title: "暗场库",
@@ -447,73 +449,67 @@
 		description_stella_input: "输入你的提示以请求任务或检索数据。",
 		description_stella_other_function:
 			"你还可以通过语音与 Stella 互动并附加文件。",
-		description_align_paa:  
-		    "极轴校准您的赤道仪，以实现更好的追踪和导星性能。",
+		description_align_paa: "极轴校准您的赤道仪，以实现更好的追踪和导星性能。",
 		description_align_load: "加载并板Solve一张图像（JPG、FITS、XISF）。",
-		description_align_controls:  
-		    "您可以查看校准图表、图像、设置和快速访问设置。您也可以开始校准。",
-		description_align_solution: "板Solve解决方案",  
-		
+		description_align_controls:
+			"您可以查看校准图表、图像、设置和快速访问设置。您也可以开始校准。",
+		description_align_solution: "板Solve解决方案",
+
 		description_focus_initial: "当前调焦器位置和调焦顾问。",
 		description_focus_steps: "目标位置。",
 		description_focus_size: "运行自动调焦时的步进大小。",
 		description_focus_exposure: "曝光时间和构图切换。",
-		description_focus_controls:  
-		    "您可以查看调焦图表、图像、设置和快速访问设置。您也可以开始调焦。",  
-		
+		description_focus_controls:
+			"您可以查看调焦图表、图像、设置和快速访问设置。您也可以开始调焦。",
+
 		description_guide_camera: "拍摄和循环拍摄。",
 		description_guide_status: "导星状态。",
-		description_guide_controls:  
-		    "您可以查看导星图表、图像、设置和快速访问设置。您也可以开始导星。",  
-		
+		description_guide_controls:
+			"您可以查看导星图表、图像、设置和快速访问设置。您也可以开始导星。",
+
 		description_search_filter: "按元数据筛选。",
 		description_search_live: "按名称搜索。",
 		description_feed_all: "显示所有用户的帖子。",
 		description_feed_following: "显示您关注的用户的帖子。",
 		description_feed_saved: "显示已收藏的帖子。",
 		description_feed_add: "添加一条新帖子。",
-		description_profile_posts:  
-		    "此标签显示您的帖子。您可以在这里查看您创建的所有帖子。",
+		description_profile_posts:
+			"此标签显示您的帖子。您可以在这里查看您创建的所有帖子。",
 		description_profile_image: "RAW图像。",
 		description_profile_achievements: "成就追踪器。",
 		description_observatory_map: "公共天文台地图。",
 
-		initial_tour_guide: {  
-		    profile_general:  
-		        "这是您的个人资料页面，您可以在此管理账户设置和个人信息。",
-		    side_panel:  
-		        "左侧面板是主导航。在这里，您可以浏览照片、与其他用户互动，以及查看天文台信息。",
-		    profile_page:  
-		        "浏览您的个人资料，探索可用于管理账户的功能。",
-		    profile_next:  
-		        "接下来，看看动态页面，在那里您可以浏览其他用户的帖子。",  
-		
-		    feed_general:  
-		        "这是动态页面，您可以在这里查看其他人分享的图片、查看书签并上传自己的照片。",
-		    feed_page: "在这里浏览其他用户的帖子。",
-		    feed_next:  
-		        "接下来，探索用户页面，寻找并与其他人互动。",  
-		
-		    users_general:  
-		        "这是用户页面，您可以在这里搜索、筛选并关注社区中的其他成员。",
-		    users_page: "在这里发现并与其他用户互动。",
-		    users_next:  
-		        "接下来，让我们访问设备页面，探索天文工具。",  
-		
-		    equipment_general:  
-		        "欢迎来到设备页面，在这里您可以浏览并了解各种天文设备。",
-		    equipment_page:  
-		        "查看天文设备类型。点击任一类型可列出该类型设备的所有制造商，然后点击制造商以查看所有型号。",
-		    equipment_next:  
-		        "接下来，探索天文台页面以查看和管理天文台。",  
-		
-		    observatories_general:  
-		        "欢迎来到天文台页面！在这里，您可以浏览其他用户创建的天文台并管理您自己的天文台。",
-		    observatories_page: "在此部分查看和管理天文台。",  
-		
-		    final_step:  
-		        "恭喜！您已完成导览。现在是时候深入探索这个平台所提供的一切了。",
-		},  
+		initial_tour_guide: {
+			profile_general:
+				"这是您的个人资料页面，您可以在此管理账户设置和个人信息。",
+			side_panel:
+				"左侧面板是主导航。在这里，您可以浏览照片、与其他用户互动，以及查看天文台信息。",
+			profile_page: "浏览您的个人资料，探索可用于管理账户的功能。",
+			profile_next: "接下来，看看动态页面，在那里您可以浏览其他用户的帖子。",
+
+			feed_general:
+				"这是动态页面，您可以在这里查看其他人分享的图片、查看书签并上传自己的照片。",
+			feed_page: "在这里浏览其他用户的帖子。",
+			feed_next: "接下来，探索用户页面，寻找并与其他人互动。",
+
+			users_general:
+				"这是用户页面，您可以在这里搜索、筛选并关注社区中的其他成员。",
+			users_page: "在这里发现并与其他用户互动。",
+			users_next: "接下来，让我们访问设备页面，探索天文工具。",
+
+			equipment_general:
+				"欢迎来到设备页面，在这里您可以浏览并了解各种天文设备。",
+			equipment_page:
+				"查看天文设备类型。点击任一类型可列出该类型设备的所有制造商，然后点击制造商以查看所有型号。",
+			equipment_next: "接下来，探索天文台页面以查看和管理天文台。",
+
+			observatories_general:
+				"欢迎来到天文台页面！在这里，您可以浏览其他用户创建的天文台并管理您自己的天文台。",
+			observatories_page: "在此部分查看和管理天文台。",
+
+			final_step:
+				"恭喜！您已完成导览。现在是时候深入探索这个平台所提供的一切了。",
+		},
 	},
 	tooltip: {
 		placeholder: "占位符 %{0} 或 %{1}",
@@ -768,24 +764,22 @@
 			pixel_width: "像素宽",
 			pixel_height: "像素高",
 		},
-		observatory: {  
-		    observatory_name: "天文台名称",  
-		    bortle_scale: "波特尔等级",  
-		    observatory_delete_submit:  
-		        "您确定要删除天文台吗？所有设备及其设备档案也将被删除。",  
-		    observatory_delete_title: "删除天文台",  
-		    empty_profile:  
-		        "所选档案当前没有设备。要继续，请添加新设备。",  
-		    empty_profiles_list:  
-		        "所选天文台当前没有设备档案。要继续，请添加新档案。",  
-		    manufacturer: "制造商",  
-		    profile_name: "档案名称",  
-		},  
-		no_connected_instances:  
-		    "未检测到活动实例，请确保KStars已连接且未与其他天文台链接。",  
-		observatories: "天文台",  
-		equipment: "设备",  
-		observatory_delete_submit: "天文台已成功删除"
+		observatory: {
+			observatory_name: "天文台名称",
+			bortle_scale: "波特尔等级",
+			observatory_delete_submit:
+				"您确定要删除天文台吗？所有设备及其设备档案也将被删除。",
+			observatory_delete_title: "删除天文台",
+			empty_profile: "所选档案当前没有设备。要继续，请添加新设备。",
+			empty_profiles_list: "所选天文台当前没有设备档案。要继续，请添加新档案。",
+			manufacturer: "制造商",
+			profile_name: "档案名称",
+		},
+		no_connected_instances:
+			"未检测到活动实例，请确保KStars已连接且未与其他天文台链接。",
+		observatories: "天文台",
+		equipment: "设备",
+		observatory_delete_submit: "天文台已成功删除",
 	},
 	targets: {
 		now: "现在",
@@ -1458,8 +1452,7 @@
 		alert_reset_ekoslive_body:
 			"你确定要重置Ekoslive吗？这将删除所有缓存的映像并重新启动服务器。",
 		alert_download_index_file: "缺少Astrometry解析文件。是否要下载？",
-		alert_low_space:
-			"您设备的存储空间即将爆炸，请清理不需要的文件",
+		alert_low_space: "您设备的存储空间即将爆炸，请清理不需要的文件",
 
 		change_resolution_modal: {
 			mode: "模式",
@@ -1741,55 +1734,55 @@
 			show_messier: "3. 显示 M 31 的图像",
 		},
 	},
-	social: {  
-	    social_profile: "社交资料",  
-	    captures: "捕获",  
-	    followers: "关注者",  
-	    subscriptions: "订阅",  
-	    following: "关注中",  
-	    follow: "关注",  
-	    unfollow: "取消关注",  
-	    report_abuse: {  
-	        title: "举报滥用",  
-	        description: "请说明举报滥用的原因。",  
-	        reason: {  
-	            spam: "内容充满了无关或重复的信息。",  
-	            hate_speech: "内容包含种族主义、性别歧视或其他歧视性语言。",  
-	            inappropriate_content: "帖子包含明确、不当或NSFW材料。",  
-	            impersonation: "用户假装成其他人。",  
-	            violation_of_terms: "内容违反了平台的服务条款或社区准则。",  
-	            privacy_violation: "内容未经同意包含个人信息。",  
-	            wrong_image: "图像不正确。",  
-	            wrong_metadata: "元数据不正确。",  
-	        },  
-	    },  
-	    comment: {  
-	        comments: "评论",  
-	        no_comment: "暂无评论。",  
-	    },  
-	    new_post: "新帖子",  
-	    public_directory: "公共目录",  
-	    community: "社区",  
-	    no_observatories: "未找到公共天文台。",  
-	},  
-	menu: {  
-	    go_to_profile: "个人资料",  
-	    go_to_equipment: "设备",  
-	    go_to_moderation: "管理",  
-	    manage_subscriptions: "订阅管理",  
-	    go_to_dashboard: "仪表板",  
-	},  
-	wizard: {  
-	    software_title: "您使用的是哪个成像软件？",  
-	    hardware_title: "您使用的是哪些硬件平台？",  
-	    imaging_title: "您喜欢拍摄什么？",  
-	},  
-	ekoslive: {  
-	    info: {  
-	        drag: "将文件拖放到此处，或点击以选择文件",  
-	        selected: "文件已被选中",  
-	    },  
-	},  
+	social: {
+		social_profile: "社交资料",
+		captures: "捕获",
+		followers: "关注者",
+		subscriptions: "订阅",
+		following: "关注中",
+		follow: "关注",
+		unfollow: "取消关注",
+		report_abuse: {
+			title: "举报滥用",
+			description: "请说明举报滥用的原因。",
+			reason: {
+				spam: "内容充满了无关或重复的信息。",
+				hate_speech: "内容包含种族主义、性别歧视或其他歧视性语言。",
+				inappropriate_content: "帖子包含明确、不当或NSFW材料。",
+				impersonation: "用户假装成其他人。",
+				violation_of_terms: "内容违反了平台的服务条款或社区准则。",
+				privacy_violation: "内容未经同意包含个人信息。",
+				wrong_image: "图像不正确。",
+				wrong_metadata: "元数据不正确。",
+			},
+		},
+		comment: {
+			comments: "评论",
+			no_comment: "暂无评论。",
+		},
+		new_post: "新帖子",
+		public_directory: "公共目录",
+		community: "社区",
+		no_observatories: "未找到公共天文台。",
+	},
+	menu: {
+		go_to_profile: "个人资料",
+		go_to_equipment: "设备",
+		go_to_moderation: "管理",
+		manage_subscriptions: "订阅管理",
+		go_to_dashboard: "仪表板",
+	},
+	wizard: {
+		software_title: "您使用的是哪个成像软件？",
+		hardware_title: "您使用的是哪些硬件平台？",
+		imaging_title: "您喜欢拍摄什么？",
+	},
+	ekoslive: {
+		info: {
+			drag: "将文件拖放到此处，或点击以选择文件",
+			selected: "文件已被选中",
+		},
+	},
 };
 
 export default cn;
