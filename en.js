@@ -81,6 +81,7 @@ const en = {
 		balance: "Balance",
 		white: "White",
 		black: "Black",
+		datepick: "Pick a date",
 
 		azimuth: "Azimuth",
 		altitude: "Altitude",
@@ -249,8 +250,10 @@ const en = {
 		ban: "Ban",
 		delete: "Delete",
 		manufacturer_tip_title: "Adding New Equipment Manufacturers",
-		manufacturer_tip_section_1: "When adding new manufacturers, enter only the manufacturer name (e.g., Canon, Meade) in this section.",
-		manufacturer_tip_section_2: "Specific models (like Meade LX200) should be added later through the manufacturer's dedicated page."
+		manufacturer_tip_section_1:
+			"When adding new manufacturers, enter only the manufacturer name (e.g., Canon, Meade) in this section.",
+		manufacturer_tip_section_2:
+			"Specific models (like Meade LX200) should be added later through the manufacturer's dedicated page.",
 	},
 	darkLibrary: {
 		title: "Dark Library",
