@@ -1544,7 +1544,7 @@ const fr = {
 		btn_offline_viewer: "Visionneuse hors ligne",
 		btn_cloud_viewer: "Cloud Viewer",
 		no_images_title: "Aucune image trouvée",
-		enable_cloud: "To start capturing sequence images, please enable EkosLive Cloud Upload in",
+		enable_cloud: "To start capturing sequence images, please enable EkosLive Cloud Upload in Settings.",
 		no_images_body: "Essayez de changer les filtres.",
 		no_selected_title: "Aucune image sélectionnée",
 		no_selected_body: "Sélectionnez une image de Galley",

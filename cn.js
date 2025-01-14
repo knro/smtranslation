@@ -1513,7 +1513,7 @@
 		btn_offline_viewer: "离线查看器",
 		btn_cloud_viewer: "云端查看器",
 		no_images_title: "找不到图像",
-		enable_cloud: "To start capturing sequence images, please enable EkosLive Cloud Upload in",
+		enable_cloud: "To start capturing sequence images, please enable EkosLive Cloud Upload in Settings.",
 		no_images_body: "请尝试更改筛选条件",
 		no_selected_title: "没有选择图像",
 		no_selected_body: "从图库中选择一张图片",

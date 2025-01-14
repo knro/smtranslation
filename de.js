@@ -1555,7 +1555,7 @@ const de = {
 		btn_offline_viewer: "Offline-Viewer",
 		btn_cloud_viewer: "Cloud Viewer",
 		no_images_title: "Keine Bilder gefunden",
-		enable_cloud: "To start capturing sequence images, please enable EkosLive Cloud Upload in",
+		enable_cloud: "To start capturing sequence images, please enable EkosLive Cloud Upload in Settings.",
 		no_images_body: "Versuchen Sie die Filtereinstellungen zu ändern.",
 		no_selected_title: "Kein Bild ausgewählt",
 		no_selected_body: "Wählen Sie ein Bild aus der Galeere",

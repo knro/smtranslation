@@ -1622,7 +1622,7 @@ const es = {
 		btn_offline_viewer: "Visor sin conexion",
 		btn_cloud_viewer: "Visor de la Nube",
 		no_images_title: "No se encontraron Imagenes",
-		enable_cloud: "To start capturing sequence images, please enable EkosLive Cloud Upload in",
+		enable_cloud: "To start capturing sequence images, please enable EkosLive Cloud Upload in Settings.",
 		no_images_body: "Intente cambiar los filtros.",
 		no_selected_title: "No se selecciono ninguna Imagen",
 		no_selected_body: "Seleccione una Imagen de la Galeria",
