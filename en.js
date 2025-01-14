@@ -1608,6 +1608,7 @@ const en = {
 		btn_offline_viewer: "Offline Viewer",
 		btn_cloud_viewer: "Cloud Viewer",
 		no_images_title: "No images found",
+		enable_cloud: "To start capturing sequence images, please enable EkosLive Cloud Upload in",
 		no_images_body: "Try changing the filters.",
 		no_selected_title: "No image selected",
 		no_selected_body: "Select an image from Galley",
