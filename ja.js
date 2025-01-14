@@ -1571,6 +1571,7 @@ const ja = {
 		btn_offline_viewer: "オフライン ビューアー",
 		btn_cloud_viewer: "Cloud Viewer",
 		no_images_title: "画像が見つかりません",
+		enable_cloud: "To start capturing sequence images, please enable EkosLive Cloud Upload in Settings.",
 		no_images_body: "フィルターを変更してみてください.",
 		no_selected_title: "画像が選択されていません",
 		no_selected_body: "ゲラから画像を選択してください",
