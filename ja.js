@@ -251,7 +251,8 @@ const ja = {
 			"When adding new manufacturers, enter only the manufacturer name (e.g., Canon, Meade) in this section.",
 		manufacturer_tip_section_2:
 			"Specific models (like Meade LX200) should be added later through the manufacturer's dedicated page.",
-		delete_post_description: "Are you sure you want to delete this post? This action cannot be undone and all associated comments will also be removed.",
+		delete_post_description:
+			"Are you sure you want to delete this post? This action cannot be undone and all associated comments will also be removed.",
 	},
 	darkLibrary: {
 		title: "ダーク ライブラリ",
@@ -1334,6 +1335,13 @@ const ja = {
 				remember_job_tooltip:
 					"When processing a scheduled job, resume the sequence starting from the last image present in storage.",
 
+				execute_job: "Always execute startup job",
+				execute_job_tooltip:
+					"Observatory startup script is normally only executed if Ekos is offline. Enable this option to start it whenever scheduler is starting up.",
+
+				greedy_schedule: "Use Greedy Scheduling",
+				greedy_schedule_tooltip:
+					"When checked the scheduler tries to run lower priority jobs when no higher priority job can run. Recommended.",
 				reset_mount: "Reset mount model on alignment failure",
 				reset_mount_tooltip: "Reset mount model on alignment failure",
 				reset_mount_before: "Reset mount model before starting each job",
@@ -1347,7 +1355,7 @@ const ja = {
 					"If guiding calibration fails then restart alignment process before proceeding to guiding recalibration process again. This can help recenter the target object in the field of view if the calibration process strayed too far off.",
 
 				offsets: "Offsets",
-				clean_jobs: "Cleanup and Jobs",
+				clean_jobs: "Scripts and Jobs",
 				alignment: "Alignment",
 
 				verify_image: "Verify captured image position every",
@@ -1572,7 +1580,8 @@ const ja = {
 		btn_offline_viewer: "オフライン ビューアー",
 		btn_cloud_viewer: "Cloud Viewer",
 		no_images_title: "画像が見つかりません",
-		enable_cloud: "To start capturing sequence images, please enable EkosLive Cloud Upload in Settings.",
+		enable_cloud:
+			"To start capturing sequence images, please enable EkosLive Cloud Upload in Settings.",
 		no_images_body: "フィルターを変更してみてください.",
 		no_selected_title: "画像が選択されていません",
 		no_selected_body: "ゲラから画像を選択してください",
@@ -1644,6 +1653,7 @@ const ja = {
 			"指定された角度だけカメラを回転させ、画像を撮影して位置角度を更新します",
 		welcome: "ステラメイトへようこそ",
 		no_logs: "No {0} logs found",
+		mount_set: "Setting home position to current position.",
 	},
 	ekosLivePro: {
 		pushNotification: "プッシュ通知",

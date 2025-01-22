@@ -237,7 +237,8 @@
 			"When adding new manufacturers, enter only the manufacturer name (e.g., Canon, Meade) in this section.",
 		manufacturer_tip_section_2:
 			"Specific models (like Meade LX200) should be added later through the manufacturer's dedicated page.",
-		delete_post_description: "Are you sure you want to delete this post? This action cannot be undone and all associated comments will also be removed.",
+		delete_post_description:
+			"Are you sure you want to delete this post? This action cannot be undone and all associated comments will also be removed.",
 	},
 	darkLibrary: {
 		title: "暗场库",
@@ -1291,6 +1292,13 @@
 				remember_job: "记住任务进度",
 				remember_job_tooltip:
 					"在处理预定任务时，从存储中的最后一张图像开始恢复序列。",
+				execute_job: "Always execute startup job",
+				execute_job_tooltip:
+					"Observatory startup script is normally only executed if Ekos is offline. Enable this option to start it whenever scheduler is starting up.",
+
+				greedy_schedule: "Use Greedy Scheduling",
+				greedy_schedule_tooltip:
+					"When checked the scheduler tries to run lower priority jobs when no higher priority job can run. Recommended.",
 
 				reset_mount: "在对准失败时重置赤道仪模型",
 				reset_mount_tooltip: "在对准失败时重置赤道仪模型",
@@ -1507,7 +1515,8 @@
 		btn_offline_viewer: "离线查看器",
 		btn_cloud_viewer: "云端查看器",
 		no_images_title: "找不到图像",
-		enable_cloud: "To start capturing sequence images, please enable EkosLive Cloud Upload in Settings.",
+		enable_cloud:
+			"To start capturing sequence images, please enable EkosLive Cloud Upload in Settings.",
 		no_images_body: "请尝试更改筛选条件",
 		no_selected_title: "没有选择图像",
 		no_selected_body: "从图库中选择一张图片",
@@ -1576,57 +1585,6 @@
 	},
 	skymap: {
 		goto: "Goto",
-	},
-	scheduler_settings: {
-		lead_time: "任务间最短间隔",
-		lead_time_tooltip:
-			"任务之间的最短时间（以分钟为单位）。在该提前期之前计划启动作业，以确保序列在开始之前有足够的时间进行自动对焦和导星调整。",
-		pre_dawn: "黎明前限制",
-		pre_dawn_tooltip: "不要在黎明前超过这么多分钟安排或执行作业。",
-		pre_emptive: "先发制人的停机",
-		pre_emptive_tooltip:
-			"如果在这么多小时内没有安排序列任务，请执行完整的关闭过程，并在下一个任务准备就绪后重新启动天文台操作。",
-		setting_altitude: "设置高度截止",
-		setting_altitude_tooltip:
-			"在低于这么多度的位置不允许安排任务。实际执行将一直持续到达到高度限制。",
-		dust_offset: "黄昏偏置",
-		dust_offset_tooltip:
-			"用这么多小时抵消天文黄昏。通过调整此参数的正负值，可以微调微光限制。",
-		dawn_offset: "黎明偏置",
-		dawn_offset_tooltip:
-			"用这么多小时抵消天文黎明。通过调整此参数的正负值，可以微调微光限制。",
-
-		stop_ekos: "关闭后停止Ekos",
-		stop_ekos_tooltip: "成功执行关闭过程后，停止INDI和Ekos。",
-		shutdown_script: "关闭脚本终止INDI",
-		shutdown_script_tooltip:
-			"如果关闭脚本终止INDI服务器，请启用此选项以防止出现断开连接错误。",
-		remember_job: "记住作业进度",
-		remember_job_tooltip:
-			"在处理预定作业时，从上次存储的图像位置开始恢复序列。",
-
-		reset_mount: "对准失败时重置赤道仪模型",
-		reset_mount_tooltip: "当对准失败时，重置赤道仪模型。",
-		reset_mount_before: "在每个作业开始前重置赤道仪模型",
-		reset_mount_before_tooltip: "在每个作业开始之前重置赤道仪模型。",
-		force_realign: "重新启动作业前强制重新对准",
-		force_realign_tooltip:
-			"如果启用了对准功能，则调度程序会在重新启动任何作业之前进行重新对准，即使导星也处于活动状态。",
-		restart_align: "导星校准失败时重新开始对准",
-		restart_align_tooltip:
-			"如果导星校准失败，则重新启动对准过程，然后再继续导星重新校准过程。这可以帮助重新将目标物体居中，以防校准过程偏离目标物体的视场。",
-
-		offsets: "偏移量",
-		clean_jobs: "清理和作业",
-		alignment: "对准",
-
-		verify_image: "定期验证捕获图像位置",
-		verify_image_tooltip:
-			"在拍摄后，每隔N张图像计算一次位置。将此参数设置为0表示禁用。",
-		reset_pipeline: "如果验证的图像位置超出设定值，则重置流程",
-		reset_pipeline_tooltip:
-			"如果捕获的位置超过目标位置这么多角分钟，终止捕获并重新安排流程。",
-		arcminutes: "角分",
 	},
 
 	device: {

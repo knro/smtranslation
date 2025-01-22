@@ -250,7 +250,8 @@ const es = {
 			"When adding new manufacturers, enter only the manufacturer name (e.g., Canon, Meade) in this section.",
 		manufacturer_tip_section_2:
 			"Specific models (like Meade LX200) should be added later through the manufacturer's dedicated page.",
-		delete_post_description: "Are you sure you want to delete this post? This action cannot be undone and all associated comments will also be removed.",
+		delete_post_description:
+			"Are you sure you want to delete this post? This action cannot be undone and all associated comments will also be removed.",
 	},
 	darkLibrary: {
 		title: "Biblioteca oscura",
@@ -1358,6 +1359,13 @@ const es = {
 				remember_job_tooltip:
 					"Al procesar un trabajo programado, reanude la secuencia comenzando desde la última imagen presente en el almacenamiento.",
 
+				execute_job: "Always execute startup job",
+				execute_job_tooltip:
+					"Observatory startup script is normally only executed if Ekos is offline. Enable this option to start it whenever scheduler is starting up.",
+
+				greedy_schedule: "Use Greedy Scheduling",
+				greedy_schedule_tooltip:
+					"When checked the scheduler tries to run lower priority jobs when no higher priority job can run. Recommended.",
 				reset_mount:
 					"Restablecer el modelo de montaje en caso de falla de alineación",
 				reset_mount_tooltip:
@@ -1626,7 +1634,8 @@ const es = {
 		btn_offline_viewer: "Visor sin conexion",
 		btn_cloud_viewer: "Visor de la Nube",
 		no_images_title: "No se encontraron Imagenes",
-		enable_cloud: "To start capturing sequence images, please enable EkosLive Cloud Upload in Settings.",
+		enable_cloud:
+			"To start capturing sequence images, please enable EkosLive Cloud Upload in Settings.",
 		no_images_body: "Intente cambiar los filtros.",
 		no_selected_title: "No se selecciono ninguna Imagen",
 		no_selected_body: "Seleccione una Imagen de la Galeria",
@@ -1699,6 +1708,7 @@ const es = {
 			"Gire la cámara en el ángulo indicado y luego tome una imagen para actualizar el ángulo de posición",
 		welcome: "Bienvenido a StellarMate",
 		no_logs: "No se encontraron {0} registros",
+		mount_set: "Setting home position to current position.",
 	},
 	ekosLivePro: {
 		pushNotification: "Notificación de inserción",
