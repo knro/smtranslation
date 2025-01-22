@@ -237,6 +237,7 @@
 			"When adding new manufacturers, enter only the manufacturer name (e.g., Canon, Meade) in this section.",
 		manufacturer_tip_section_2:
 			"Specific models (like Meade LX200) should be added later through the manufacturer's dedicated page.",
+		delete_post_description: "Are you sure you want to delete this post? This action cannot be undone and all associated comments will also be removed.",
 	},
 	darkLibrary: {
 		title: "暗场库",
