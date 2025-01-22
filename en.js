@@ -980,6 +980,9 @@ const en = {
 				summary_preview: "Summary screen preivew",
 				summary_preview_tooltip:
 					"Display received FITS in the Summary screen preview window.",
+				operations_timeout: "Capture Operations Timeout",
+				operations_timeout_tooltip:
+					"Maximum number of seconds to wait before aborting the capture if operations like filter wheel changes or meridian flips take too long",
 
 				force_dslr: "Force DSLR presets",
 				image_viewer: "DSLR image viewer",

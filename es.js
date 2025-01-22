@@ -989,6 +989,9 @@ const es = {
 				summary_preview: "Vista previa de la pantalla de resumen",
 				summary_preview_tooltip:
 					"Muestra los FITS recibidos en la ventana de vista previa de la pantalla Resumen.",
+				operations_timeout: "Capture Operations Timeout",
+				operations_timeout_tooltip:
+					"Maximum number of seconds to wait before aborting the capture if operations like filter wheel changes or meridian flips take too long",
 
 				force_dslr: "Ajustes preestablecidos de DSLR de Force",
 				image_viewer: "Visor de imágenes DSLR",

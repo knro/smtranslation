@@ -931,6 +931,9 @@
 				use_flip_tooltip: "在赤道仪支持的情况下使用反转功能",
 				summary_preview: "缩略图预览",
 				summary_preview_tooltip: "在缩略图中预览拍摄到的FITS图像",
+				operations_timeout: "Capture Operations Timeout",
+				operations_timeout_tooltip:
+					"Maximum number of seconds to wait before aborting the capture if operations like filter wheel changes or meridian flips take too long",
 
 				force_dslr: "强制单反预设",
 				image_viewer: "单反图像查看器",
@@ -1577,6 +1580,7 @@
 		manual_rotator: "按指示角度旋转相机，然后拍摄图像以更新位置角度",
 		welcome: "欢迎使用StellarMate",
 		no_logs: "No {0} logs found",
+		mount_set: "Setting home position to current position.",
 	},
 	ekosLivePro: {
 		pushNotification: "推送通知",
