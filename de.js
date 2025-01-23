@@ -243,7 +243,8 @@ const de = {
 			"When adding new manufacturers, enter only the manufacturer name (e.g., Canon, Meade) in this section.",
 		manufacturer_tip_section_2:
 			"Specific models (like Meade LX200) should be added later through the manufacturer's dedicated page.",
-		delete_post_description: "Are you sure you want to delete this post? This action cannot be undone and all associated comments will also be removed.",
+		delete_post_description:
+			"Are you sure you want to delete this post? This action cannot be undone and all associated comments will also be removed.",
 	},
 	darkLibrary: {
 		title: "Dark Library",
@@ -946,6 +947,9 @@ const de = {
 				summary_preview: "Summary screen preview",
 				summary_preview_tooltip:
 					"Display received FITS in the Summary screen preview window.",
+				operations_timeout: "Capture Operations Timeout",
+				operations_timeout_tooltip:
+					"Maximum number of seconds to wait before aborting the capture if operations like filter wheel changes or meridian flips take too long",
 
 				force_dslr: "DSLR Voreinstellungen erzwingen",
 				image_viewer: "DSLR Bildbetrachter",
@@ -1317,6 +1321,13 @@ const de = {
 				remember_job_tooltip:
 					"When processing a scheduled job, resume the sequence starting from the last image present in storage.",
 
+				execute_job: "Always execute startup job",
+				execute_job_tooltip:
+					"Observatory startup script is normally only executed if Ekos is offline. Enable this option to start it whenever scheduler is starting up.",
+
+				greedy_schedule: "Use Greedy Scheduling",
+				greedy_schedule_tooltip:
+					"When checked the scheduler tries to run lower priority jobs when no higher priority job can run. Recommended.",
 				reset_mount: "Montierung bei Ausrichtungsfehler zurücksetzen",
 				reset_mount_tooltip: "Montierung bei Ausrichtungsfehler zurücksetzen",
 				reset_mount_before:
@@ -1332,7 +1343,7 @@ const de = {
 					"If guiding calibration fails then restart alignment process before proceeding to guiding recalibration process again. This can help recenter the target object in the field of view if the calibration process strayed too far off.",
 
 				offsets: "Offsets",
-				clean_jobs: "Cleanup and Jobs",
+				clean_jobs: "Scripts and Jobs",
 				alignment: "Ausrichtung",
 
 				verify_image: "Verify captured image position every",
@@ -1559,7 +1570,8 @@ const de = {
 		btn_offline_viewer: "Offline-Viewer",
 		btn_cloud_viewer: "Cloud Viewer",
 		no_images_title: "Keine Bilder gefunden",
-		enable_cloud: "To start capturing sequence images, please enable EkosLive Cloud Upload in Settings.",
+		enable_cloud:
+			"To start capturing sequence images, please enable EkosLive Cloud Upload in Settings.",
 		no_images_body: "Versuchen Sie die Filtereinstellungen zu ändern.",
 		no_selected_title: "Kein Bild ausgewählt",
 		no_selected_body: "Wählen Sie ein Bild aus der Galeere",
@@ -1627,6 +1639,7 @@ const de = {
 			"Rotate camera by the indicated angle and then take an image to update the position angle",
 		welcome: "Willkommen zu StellarMate",
 		no_logs: "No {0} logs found",
+		mount_set: "Setting home position to current position.",
 	},
 	ekosLivePro: {
 		pushNotification: "Push Benachrichtigung",
