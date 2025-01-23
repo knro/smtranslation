@@ -1185,6 +1185,7 @@ const es = {
 			totalrms: 'Total RMS"',
 			advanced: "Avanzado",
 			clear_model: "Borrar modelo de calibracion",
+			clear_mount: "Clear Mount Calibration",
 			yAxis: "Deriva (arco seg)",
 
 			min_error: "Min error",

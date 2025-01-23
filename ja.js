@@ -1161,6 +1161,7 @@ const ja = {
 			totalrms: '合計 RMS"',
 			advanced: "高度な",
 			clear_model: "キャリブレーション モデルのクリア",
+			clear_mount: "Clear Mount Calibration",
 			yAxis: "ドリフト (秒角)",
 
 			min_error: "Min error",

@@ -1123,6 +1123,7 @@
 			totalrms: '总计（RMS）"',
 			advanced: "高级",
 			clear_model: "清除校准模型",
+			clear_mount: "Clear Mount Calibration",
 			yAxis: "漂移（角秒）",
 
 			min_error: "最小误差",

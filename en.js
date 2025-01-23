@@ -1178,6 +1178,7 @@ const en = {
 			totalrms: 'Total RMS"',
 			advanced: "Advanced",
 			clear_model: "Clear Calibration Model",
+			clear_mount: "Clear Mount Calibration",
 			yAxis: "Drift (arcsec)",
 
 			min_error: "Min error",

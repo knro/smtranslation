@@ -1140,6 +1140,7 @@ const fr = {
 			totalrms: 'Total RMS"',
 			advanced: "Avancé",
 			clear_model: "Effacer le modèle d'étalonnage",
+			clear_mount: "Clear Mount Calibration",
 			yAxis: "Dérive (arcsec)",
 
 			min_error: "Min error",
