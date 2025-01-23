@@ -152,6 +152,7 @@ const ja = {
 		submit: "Submit",
 		execute: "Execute",
 		retry: "Retry",
+		clear_successful: "Mount calibration cleared successfully.",
 
 		// 削除アラートの確認
 		alert_confirm_delete_title: "削除の確認",

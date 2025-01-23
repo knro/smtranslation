@@ -147,6 +147,7 @@ const fr = {
 		submit: "Submit",
 		execute: "Execute",
 		retry: "Retry",
+		clear_successful: "Mount calibration cleared successfully.",
 
 		// Confirm Delete Alert
 		alert_confirm_delete_title: "Confirmer Suppression",

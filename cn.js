@@ -147,6 +147,7 @@
 		submit: "提交",
 		execute: "运行",
 		retry: "重试",
+		clear_successful: "Mount calibration cleared successfully.",
 
 		// Confirm Delete Alert
 		alert_confirm_delete_title: "确认删除",
