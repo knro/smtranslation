@@ -39,8 +39,8 @@
 		filter: "滤镜",
 		exposure: "曝光",
 		binning: "像素合并",
-		left: "Left",
-		top: "Top",
+		left: "左",
+		top: "顶部",
 		action: "动作",
 		scope_type: "望远镜类型",
 		solver_type: "解析类型",
@@ -76,10 +76,10 @@
 		examples: "示例",
 		chat: "聊天",
 		controls: "控制",
-		balance: "Balance",
-		white: "White",
-		black: "Black",
-		datepick: "Pick a date",
+		balance: "平衡",
+		white: "白",
+		black: "黑",
+		datepick: "选择日期",
 
 		azimuth: "方位角",
 		altitude: "高度角",
@@ -232,13 +232,13 @@
 		blacklist: "黑名单",
 		ban: "禁用",
 		delete: "删除",
-		manufacturer_tip_title: "Adding New Equipment Manufacturers",
+		manufacturer_tip_title: "添加新的设备厂家",
 		manufacturer_tip_section_1:
-			"When adding new manufacturers, enter only the manufacturer name (e.g., Canon, Meade) in this section.",
+			"在添加新厂家时，请在此部分仅输入厂家名称（例如，佳能，米德）。",
 		manufacturer_tip_section_2:
-			"Specific models (like Meade LX200) should be added later through the manufacturer's dedicated page.",
+			"特定型号（如 Meade LX200）应通过厂家的专用页面添加。",
 		delete_post_description:
-			"Are you sure you want to delete this post? This action cannot be undone and all associated comments will also be removed.",
+			"您确定要删除此帖子吗？此操作无法撤销，所有相关评论也将被删除。",
 	},
 	darkLibrary: {
 		title: "暗场库",
@@ -931,9 +931,9 @@
 				use_flip_tooltip: "在赤道仪支持的情况下使用反转功能",
 				summary_preview: "缩略图预览",
 				summary_preview_tooltip: "在缩略图中预览拍摄到的FITS图像",
-				operations_timeout: "Capture Operations Timeout",
+				operations_timeout: "拍摄操作超时",
 				operations_timeout_tooltip:
-					"Maximum number of seconds to wait before aborting the capture if operations like filter wheel changes or meridian flips take too long",
+					"如果滤镜轮更换或中天翻转等操作耗时过长，则在放弃捕获之前等待的最长秒数",
 
 				force_dslr: "强制单反预设",
 				image_viewer: "单反图像查看器",
@@ -1265,7 +1265,7 @@
 			mosaic: {
 				import: "导入拼接图像",
 				planner: "拼接规划器",
-				mask: "Mosaic Mask",
+				mask: "马赛克图层",
 			},
 
 			scheduler_settings: {
@@ -1280,10 +1280,10 @@
 				setting_altitude: "设置高度截止",
 				setting_altitude_tooltip:
 					"在海拔限制之前，不允许将任务安排在低于这么多度的位置。实际执行一直进行到高度限制。",
-				dust_offset: "黄昏偏置",
+				dust_offset: "黄昏抵消",
 				dust_offset_tooltip:
 					"用这么多小时抵消天文黄昏。此正值或负值可调整微光限制。",
-				dawn_offset: "黎明偏置",
+				dawn_offset: "黎明抵消",
 				dawn_offset_tooltip:
 					"用这么多小时抵消天文黎明。此正值或负值可调整微光限制。",
 
@@ -1295,13 +1295,13 @@
 				remember_job: "记住任务进度",
 				remember_job_tooltip:
 					"在处理预定任务时，从存储中的最后一张图像开始恢复序列。",
-				execute_job: "Always execute startup job",
+				execute_job: "始终执行启动任务",
 				execute_job_tooltip:
-					"Observatory startup script is normally only executed if Ekos is offline. Enable this option to start it whenever scheduler is starting up.",
+					"观测站启动脚本通常仅在Ekos离线时执行。启用此选项，即可在调度器启动时随时启动它。",
 
-				greedy_schedule: "Use Greedy Scheduling",
+				greedy_schedule: "使用贪心调度",
 				greedy_schedule_tooltip:
-					"When checked the scheduler tries to run lower priority jobs when no higher priority job can run. Recommended.",
+					"当勾选时，调度器会在没有更高优先级任务可运行时尝试运行较低优先级的任务。建议勾选。",
 
 				reset_mount: "在对准失败时重置赤道仪模型",
 				reset_mount_tooltip: "在对准失败时重置赤道仪模型",
@@ -1519,7 +1519,7 @@
 		btn_cloud_viewer: "云端查看器",
 		no_images_title: "找不到图像",
 		enable_cloud:
-			"To start capturing sequence images, please enable EkosLive Cloud Upload in Settings.",
+			"要开始捕获序列图像，请在设置中启用EkosLive云上传。",
 		no_images_body: "请尝试更改筛选条件",
 		no_selected_title: "没有选择图像",
 		no_selected_body: "从图库中选择一张图片",
@@ -1555,7 +1555,7 @@
 			alert_no_images_title: "无图像",
 			alert_no_images_body: "没有可以删除的图像",
 			alert_delete_all_body: "确定删除选定的 {0} 张图片吗? 此操作无法恢复",
-			transfer_successful: "Image transfer is successful",
+			transfer_successful: "图像传输成功",
 		},
 		info_drawer: {
 			add_tags_here: "在这里添加标签",
@@ -1579,8 +1579,8 @@
 		alert_directions_not_found: "未找到坐标，请选定目标并手动输入坐标。",
 		manual_rotator: "按指示角度旋转相机，然后拍摄图像以更新位置角度",
 		welcome: "欢迎使用StellarMate",
-		no_logs: "No {0} logs found",
-		mount_set: "Setting home position to current position.",
+		no_logs: "未发现 {0} 日志",
+		mount_set: "将当前位置设置为归位位置",
 	},
 	ekosLivePro: {
 		pushNotification: "推送通知",
