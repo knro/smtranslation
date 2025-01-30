@@ -1728,6 +1728,8 @@
 		public_directory: "公共目录",
 		community: "社区",
 		no_observatories: "未找到公共天文台。",
+		fine_location: "Fine Location",
+		coarse_location: "Coarse Location"
 	},
 	menu: {
 		go_to_profile: "个人资料",
