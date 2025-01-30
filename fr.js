@@ -1784,6 +1784,8 @@ const fr = {
 		public_directory: "Public Directory",
 		community: "Community",
 		no_observatories: "No public observatories found",
+		fine_location: "Fine Location",
+		coarse_location: "Coarse Location"
 	},
 	menu: {
 		go_to_profile: "Profile",
