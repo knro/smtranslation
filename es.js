@@ -6,6 +6,7 @@ const es = {
 		done: "Hecho",
 		cancel: "Cancelar",
 		confirm: "Confirmar",
+		auto: "Auto",
 		apply: "Aplicar",
 		enter: "Ingresar",
 		scan: "Escanear",
@@ -1629,6 +1630,9 @@ const es = {
 		alert_delete_account_body:
 			"¿Estás segura de que quieres eliminar tu cuenta?",
 		color_scheme_sky_map: "Esquema del mapa del cielo",
+		last_synced: "Last synced",
+		sync_all: "Sync All data",
+		pro_feature: "Pro feature",
 	},
 	cloud: {
 		heading: "Visor",
@@ -1876,7 +1880,7 @@ const es = {
 		community: "Community",
 		no_observatories: "No public observatories found",
 		fine_location: "Fine Location",
-		coarse_location: "Coarse Location"
+		coarse_location: "Coarse Location",
 	},
 	menu: {
 		go_to_profile: "Profile",

@@ -6,6 +6,7 @@ const de = {
 		done: "Done",
 		cancel: "Abbrechen",
 		confirm: "Bestätigen",
+		auto: "Auto",
 		apply: "Anwenden",
 		enter: "Enter",
 		scan: "Scan",
@@ -1562,6 +1563,9 @@ const de = {
 		alert_delete_account_body:
 			"Sind Sie sicher, dass Sie Ihr Konto löschen möchten?",
 		color_scheme_sky_map: "Sky Map Scheme",
+		last_synced: "Last synced",
+		sync_all: "Sync All data",
+		pro_feature: "Pro feature",
 	},
 	cloud: {
 		heading: "Vorschau",
@@ -1793,7 +1797,7 @@ const de = {
 		community: "Community",
 		no_observatories: "No public observatories found",
 		fine_location: "Fine Location",
-		coarse_location: "Coarse Location"
+		coarse_location: "Coarse Location",
 	},
 	menu: {
 		go_to_profile: "Profile",

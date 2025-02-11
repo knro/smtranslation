@@ -6,6 +6,7 @@
 		done: "完成",
 		cancel: "取消",
 		confirm: "确认",
+		auto: "Auto",
 		apply: "应用",
 		enter: "输入",
 		scan: "扫描",
@@ -1510,6 +1511,9 @@
 		alert_delete_account_title: "删除账号",
 		alert_delete_account_body: "你确定要删除你的帐户吗？",
 		color_scheme_sky_map: "星图规划",
+		last_synced: "Last synced",
+		sync_all: "Sync All data",
+		pro_feature: "Pro feature",
 	},
 	cloud: {
 		heading: "云服务",
@@ -1518,8 +1522,7 @@
 		btn_offline_viewer: "离线查看器",
 		btn_cloud_viewer: "云端查看器",
 		no_images_title: "找不到图像",
-		enable_cloud:
-			"要开始捕获序列图像，请在设置中启用EkosLive云上传。",
+		enable_cloud: "要开始捕获序列图像，请在设置中启用EkosLive云上传。",
 		no_images_body: "请尝试更改筛选条件",
 		no_selected_title: "没有选择图像",
 		no_selected_body: "从图库中选择一张图片",
@@ -1729,7 +1732,7 @@
 		community: "社区",
 		no_observatories: "未找到公共天文台。",
 		fine_location: "Fine Location",
-		coarse_location: "Coarse Location"
+		coarse_location: "Coarse Location",
 	},
 	menu: {
 		go_to_profile: "个人资料",

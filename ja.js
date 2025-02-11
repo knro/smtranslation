@@ -6,6 +6,7 @@ const ja = {
 		done: "終了",
 		cancel: "キャンセル",
 		confirm: "確認",
+		auto: "Auto",
 		apply: "申し込み",
 		enter: "Enter",
 		scan: "Scan",
@@ -1575,6 +1576,9 @@ const ja = {
 		alert_delete_account_title: "Delete Account",
 		alert_delete_account_body: "Are you sure you want to delete your account?",
 		color_scheme_sky_map: "Sky Map Scheme",
+		last_synced: "Last synced",
+		sync_all: "Sync All data",
+		pro_feature: "Pro feature",
 	},
 	cloud: {
 		heading: "表示",
@@ -1811,7 +1815,7 @@ const ja = {
 		community: "Community",
 		no_observatories: "No public observatories found",
 		fine_location: "Fine Location",
-		coarse_location: "Coarse Location"
+		coarse_location: "Coarse Location",
 	},
 	menu: {
 		go_to_profile: "Profile",

@@ -6,6 +6,7 @@ const fr = {
 		done: "Fait",
 		cancel: "Annuler",
 		confirm: "Confirm",
+		auto: "Auto",
 		apply: "Appliquer",
 		enter: "Enter",
 		scan: "Scan",
@@ -1551,6 +1552,9 @@ const fr = {
 		alert_delete_account_title: "Delete Account",
 		alert_delete_account_body: "Are you sure you want to delete your account?",
 		color_scheme_sky_map: "Sky Map Scheme",
+		last_synced: "Last synced",
+		sync_all: "Sync All data",
+		pro_feature: "Pro feature",
 	},
 	cloud: {
 		heading: "VUE",
@@ -1785,7 +1789,7 @@ const fr = {
 		community: "Community",
 		no_observatories: "No public observatories found",
 		fine_location: "Fine Location",
-		coarse_location: "Coarse Location"
+		coarse_location: "Coarse Location",
 	},
 	menu: {
 		go_to_profile: "Profile",
