@@ -81,6 +81,10 @@ const fr = {
 		white: "White",
 		black: "Black",
 		datepick: "Pick a date",
+		north: "North",
+		south: "South",
+		east: "East",
+		west: "West",
 
 		azimuth: "Azimut",
 		altitude: "Altitude",

@@ -83,6 +83,10 @@ const ja = {
 		white: "White",
 		black: "Black",
 		datepick: "Pick a date",
+		north: "North",
+		south: "South",
+		east: "East",
+		west: "West",
 
 		azimuth: "方位",
 		altitude: "高度",

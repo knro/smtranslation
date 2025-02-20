@@ -81,6 +81,10 @@
 		white: "白",
 		black: "黑",
 		datepick: "选择日期",
+		north: "North",
+		south: "South",
+		east: "East",
+		west: "West",
 
 		azimuth: "方位角",
 		altitude: "高度角",
