@@ -86,6 +86,7 @@
 		east: "East",
 		west: "West",
 		released: "Released",
+		history: "History",
 
 		azimuth: "方位角",
 		altitude: "高度角",

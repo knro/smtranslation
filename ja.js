@@ -88,6 +88,7 @@ const ja = {
 		east: "East",
 		west: "West",
 		released: "Released",
+		history: "History",
 
 		azimuth: "方位",
 		altitude: "高度",
