@@ -86,6 +86,7 @@ const fr = {
 		east: "East",
 		west: "West",
 		released: "Released",
+		history: "History",
 
 		azimuth: "Azimut",
 		altitude: "Altitude",
