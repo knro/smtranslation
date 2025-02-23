@@ -87,6 +87,7 @@ const ja = {
 		south: "South",
 		east: "East",
 		west: "West",
+		released: "Released",
 
 		azimuth: "方位",
 		altitude: "高度",
@@ -1685,6 +1686,7 @@ const ja = {
 		logs_upload: "Logs uploaded successfully to StellarMate support.",
 		error_upload: "Error uploading logs",
 		reset_network: "Reset network",
+		release_notes: "Release Notes",
 
 		vnc: {
 			update_password: "Update VNC Password",

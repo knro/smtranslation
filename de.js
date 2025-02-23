@@ -84,6 +84,7 @@ const de = {
 		south: "South",
 		east: "East",
 		west: "West",
+		released: "Released",
 
 		azimuth: "Scheitelpunkt",
 		altitude: "Höhe",
@@ -1665,6 +1666,7 @@ const de = {
 		logs_upload: "Logs wurden erfolgreich zum StellarMate Support hochgeladen.",
 		error_upload: "Fehler beim hochladen der Logs",
 		reset_network: "Netzwerk zurücksetzen",
+		release_notes: "Release Notes",
 
 		vnc: {
 			update_password: "VNC Kennwort aktualisieren",

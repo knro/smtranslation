@@ -85,6 +85,7 @@
 		south: "South",
 		east: "East",
 		west: "West",
+		released: "Released",
 
 		azimuth: "方位角",
 		altitude: "高度角",
@@ -1608,6 +1609,7 @@
 		logs_upload: "日志成功上传至StellarMate支持。",
 		error_upload: "上传日志时出错",
 		reset_network: "重置网络",
+		release_notes: "Release Notes",
 
 		vnc: {
 			update_password: "更新VNC密码",
