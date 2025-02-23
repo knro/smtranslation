@@ -83,6 +83,11 @@ const en = {
 		white: "White",
 		black: "Black",
 		datepick: "Pick a date",
+		north: "North",
+		south: "South",
+		east: "East",
+		west: "West",
+		released: "Released",
 
 		azimuth: "Azimuth",
 		altitude: "Altitude",
@@ -1719,6 +1724,7 @@ const en = {
 		logs_upload: "Logs uploaded successfully to StellarMate support.",
 		error_upload: "Error uploading logs",
 		reset_network: "Reset network",
+		release_notes: "Release Notes",
 
 		vnc: {
 			update_password: "Update VNC Password",

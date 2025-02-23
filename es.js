@@ -81,6 +81,11 @@ const es = {
 		white: "White",
 		black: "Black",
 		datepick: "Pick a date",
+		north: "North",
+		south: "South",
+		east: "East",
+		west: "West",
+		released: "Released",
 
 		azimuth: "Azimut",
 		altitude: "Altitud",
@@ -1738,6 +1743,7 @@ const es = {
 			"Los registros se cargaron correctamente al soporte de StellarMate.",
 		error_upload: "Error al cargar registros",
 		reset_network: "Restablecer red",
+		release_notes: "Release Notes",
 
 		vnc: {
 			update_password: "Actualizar contraseña de VNC",
