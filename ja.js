@@ -1564,7 +1564,7 @@ const ja = {
 		notifications: "通知",
 		sound: "サウンド",
 		cloud_storage: "クラウド ストレージ",
-		limit_cloud_storage: "Limited Storage. Upgrade to Pro to unlock 10GB+",
+		limit_cloud_storage: "Limited Storage. Upgrade to Pro/Ultimate for up to 10GB/100GB storage ",
 		auto_sync: "自動同期",
 		location: "場所",
 		unit_system: "ユニットSystem",

@@ -1500,7 +1500,7 @@
 		notifications: "通知",
 		sounds: "声音",
 		cloud_storage: "云存储",
-		limit_cloud_storage: "Limited Storage. Upgrade to Pro to unlock 10GB+",
+		limit_cloud_storage: "Limited Storage. Upgrade to Pro/Ultimate for up to 10GB/100GB storage ",
 		auto_sync: "自动同步",
 		location: "位置",
 		reset_app: "重置App",

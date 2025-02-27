@@ -1551,7 +1551,7 @@ const de = {
 		notifications: "Benachrichtigungen",
 		sounds: "Geräusche",
 		cloud_storage: "Cloud-Speicher",
-		limit_cloud_storage: "Limited Storage. Upgrade to Pro to unlock 10GB+",
+		limit_cloud_storage: "Limited Storage. Upgrade to Pro/Ultimate for up to 10GB/100GB storage ",
 		auto_sync: "Automatische Synchronisation",
 		location: "Ort",
 		reset_app: "App zurücksetzen",
