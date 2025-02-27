@@ -1618,6 +1618,7 @@ const es = {
 		notifications: "Notificaciones",
 		sounds: "Sonidos",
 		cloud_storage: "Almacenamiento en la Nube",
+		limit_cloud_storage: "Limited Storage. Upgrade to Pro to unlock 10GB+",
 		auto_sync: "Sincronizacion Automatica",
 		location: "Ubicacion",
 		reset_app: "Restablecer App",

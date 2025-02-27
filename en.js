@@ -1604,6 +1604,7 @@ const en = {
 		notifications: "Notifications",
 		sounds: "Sounds",
 		cloud_storage: "Cloud Storage",
+		limit_cloud_storage: "Limited Storage. Upgrade to Pro to unlock 10GB+",
 		auto_sync: "Auto Sync",
 		location: "Location",
 		unit_system: "Unit System",
