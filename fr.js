@@ -1541,7 +1541,7 @@ const fr = {
 		notifications: "Notifications",
 		sounds: "Activer le Son",
 		cloud_storage: "Stockage en ligne",
-		limit_cloud_storage: "Limited Storage. Upgrade to Pro/Ultimate for up to 10GB/100GB storage ",
+		limit_cloud_storage: "Limited Storage. Upgrade to Pro/Ultimate for up to 10GB/1000GB storage ",
 		auto_sync: "Synchronisation automatique",
 		location: "Emplacement",
 		reset_app: "Réinitialiser l'application",
