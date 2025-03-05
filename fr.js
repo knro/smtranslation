@@ -798,7 +798,7 @@ const fr = {
 			map_to_new_profile: "Map to new KStars Profile",
 			select_kstars_profile: "Select KStars Profile",
 			equipment_comparison: "Equipment Comparison",
-			warning_equipment_mismatch: "Warning: Equipment mismatch detected (highlighted in red)",
+			warning_equipment_mismatch: "Warning: Equipment mismatch detected",
 			indi_driver: "INDI Driver",
 			kstars_profile: "KStars Profile",
 		},
