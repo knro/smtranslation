@@ -811,6 +811,7 @@ const ja = {
 			warning_equipment_mismatch: "Warning: Equipment mismatch detected",
 			indi_driver: "INDI Driver",
 			kstars_profile: "KStars Profile",
+			not_connected_to_kstars: "Please connect to KStars first."
 		},
 		no_connected_instances:
 			"No active instances detected, please make sure KStars is connected and is not linked to any other observatory.",
