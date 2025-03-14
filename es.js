@@ -827,6 +827,7 @@ const es = {
 			warning_equipment_mismatch: "Warning: Equipment mismatch detected",
 			indi_driver: "INDI Driver",
 			kstars_profile: "KStars Profile",
+			not_connected_to_kstars: "No equipment profiles detected. Please ensure KStars is connected to EkosLive."
 		},
 		observatories: "Observatories",
 		equipment: "Equipment",
