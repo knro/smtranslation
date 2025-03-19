@@ -818,16 +818,19 @@ const es = {
 				"The selected observatory currently has no equipment profiles. To proceed, please add new profile.",
 			manufacturer: "Manufacturer",
 			profile_name: "Profile Name",
-			no_profiles_found: "The selected observatory currently has no equipment profiles.",
+			no_profiles_found:
+				"The selected observatory currently has no equipment profiles.",
 			no_equipment_found: "No equipment found for this profile",
-			synchronized_profile: "This profile is already synchronized with a KStar Profile.",
+			synchronized_profile:
+				"This profile is already synchronized with a KStar Profile.",
 			map_to_existing_profile: "Map to existing KStars Profile",
 			map_to_new_profile: "Map to new KStars Profile",
 			select_kstars_profile: "Select KStars Profile",
 			warning_equipment_mismatch: "Warning: Equipment mismatch detected",
 			indi_driver: "INDI Driver",
 			kstars_profile: "KStars Profile",
-			not_connected_to_kstars: "No equipment profiles detected. Please ensure KStars is connected to EkosLive."
+			not_connected_to_kstars:
+				"No equipment profiles detected. Please ensure KStars is connected to EkosLive.",
 		},
 		observatories: "Observatories",
 		equipment: "Equipment",
@@ -1304,6 +1307,7 @@ const es = {
 			contrast: "Contraste",
 			sigma_clipping: "Recorte Sigma",
 			noImages: "No se encontraron imágenes de apilamiento en vivo",
+			meridian_filter: "Meridian Filter",
 		},
 		scheduler: {
 			scheduler: "Programadora",
@@ -1635,7 +1639,8 @@ const es = {
 		notifications: "Notificaciones",
 		sounds: "Sonidos",
 		cloud_storage: "Almacenamiento en la Nube",
-		limit_cloud_storage: "Limited Storage. Upgrade to Pro/Ultimate for up to 10GB/1000GB storage ",
+		limit_cloud_storage:
+			"Limited Storage. Upgrade to Pro/Ultimate for up to 10GB/1000GB storage ",
 		auto_sync: "Sincronizacion Automatica",
 		location: "Ubicacion",
 		reset_app: "Restablecer App",

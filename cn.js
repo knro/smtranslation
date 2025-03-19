@@ -783,16 +783,19 @@
 			empty_profiles_list: "所选天文台当前没有设备档案。要继续，请添加新档案。",
 			manufacturer: "制造商",
 			profile_name: "档案名称",
-			no_profiles_found: "The selected observatory currently has no equipment profiles.",
+			no_profiles_found:
+				"The selected observatory currently has no equipment profiles.",
 			no_equipment_found: "No equipment found for this profile",
-			synchronized_profile: "This profile is already synchronized with a KStar Profile.",
+			synchronized_profile:
+				"This profile is already synchronized with a KStar Profile.",
 			map_to_existing_profile: "Map to existing KStars Profile",
 			map_to_new_profile: "Map to new KStars Profile",
 			select_kstars_profile: "Select KStars Profile",
 			warning_equipment_mismatch: "Warning: Equipment mismatch detected",
 			indi_driver: "INDI Driver",
 			kstars_profile: "KStars Profile",
-			not_connected_to_kstars: "No equipment profiles detected. Please ensure KStars is connected to EkosLive."
+			not_connected_to_kstars:
+				"No equipment profiles detected. Please ensure KStars is connected to EkosLive.",
 		},
 		no_connected_instances:
 			"未检测到活动实例，请确保KStars已连接且未与其他天文台链接。",
@@ -1240,6 +1243,7 @@
 			contrast: "对比度",
 			sigma_clipping: "Sigma滤波",
 			noImages: "未找到实时叠加图像",
+			meridian_filter: "Meridian Filter",
 		},
 		scheduler: {
 			scheduler: "序列管理器",
@@ -1517,7 +1521,8 @@
 		notifications: "通知",
 		sounds: "声音",
 		cloud_storage: "云存储",
-		limit_cloud_storage: "Limited Storage. Upgrade to Pro/Ultimate for up to 10GB/1000GB storage ",
+		limit_cloud_storage:
+			"Limited Storage. Upgrade to Pro/Ultimate for up to 10GB/1000GB storage ",
 		auto_sync: "自动同步",
 		location: "位置",
 		reset_app: "重置App",
