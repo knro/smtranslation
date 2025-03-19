@@ -828,7 +828,8 @@ const en = {
 			warning_equipment_mismatch: "Warning: Equipment mismatch detected",
 			indi_driver: "INDI Driver",
 			kstars_profile: "KStars Profile",
-			not_connected_to_kstars: "No equipment profiles detected. Please ensure KStars is connected to EkosLive."
+			not_connected_to_kstars:
+				"No equipment profiles detected. Please ensure KStars is connected to EkosLive.",
 		},
 		no_connected_instances:
 			"No active instances detected, please make sure KStars is connected and is not linked to any other observatory.",
@@ -1299,6 +1300,7 @@ const en = {
 			contrast: "Contrast",
 			sigma_clipping: "Sigma Clipping",
 			noImages: "No Live Stacking Images found",
+			median_filter: "Median Filter",
 		},
 		scheduler: {
 			scheduler: "Scheduler",
