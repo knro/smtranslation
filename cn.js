@@ -1243,7 +1243,7 @@
 			contrast: "对比度",
 			sigma_clipping: "Sigma滤波",
 			noImages: "未找到实时叠加图像",
-			meridian_filter: "Median Filter",
+			median_filter: "Median Filter",
 		},
 		scheduler: {
 			scheduler: "序列管理器",
