@@ -1300,7 +1300,7 @@ const en = {
 			contrast: "Contrast",
 			sigma_clipping: "Sigma Clipping",
 			noImages: "No Live Stacking Images found",
-			meridian_filter: "Meridian Filter",
+			meridian_filter: "Median Filter",
 		},
 		scheduler: {
 			scheduler: "Scheduler",

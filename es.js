@@ -1307,7 +1307,7 @@ const es = {
 			contrast: "Contraste",
 			sigma_clipping: "Recorte Sigma",
 			noImages: "No se encontraron imágenes de apilamiento en vivo",
-			meridian_filter: "Meridian Filter",
+			meridian_filter: "Median Filter",
 		},
 		scheduler: {
 			scheduler: "Programadora",

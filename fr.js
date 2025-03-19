@@ -1264,7 +1264,7 @@ const fr = {
 			contrast: "Contraste",
 			sigma_clipping: "Sigma Clipping",
 			noImages: "Pas d'images trouvées pour Live Stacking",
-			meridian_filter: "Meridian Filter",
+			meridian_filter: "Median Filter",
 		},
 		scheduler: {
 			scheduler: "PLANIFICATEUR",

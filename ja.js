@@ -1283,7 +1283,7 @@ const ja = {
 			contrast: "コントラスト",
 			sigma_clipping: "シグマ クリッピング",
 			noImages: "ライブ スタッキング イメージが見つかりません",
-			meridian_filter: "Meridian Filter",
+			meridian_filter: "Median Filter",
 		},
 		scheduler: {
 			scheduler: "スケジューラ",

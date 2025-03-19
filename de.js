@@ -1266,7 +1266,7 @@ const de = {
 			contrast: "Kontrast",
 			sigma_clipping: "Sigma Clipping",
 			noImages: "Keine Live-Stacking-Bilder gefunden",
-			meridian_filter: "Meridian Filter",
+			meridian_filter: "Median Filter",
 		},
 		scheduler: {
 			scheduler: "Scheduler",
