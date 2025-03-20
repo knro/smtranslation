@@ -658,6 +658,7 @@ const es = {
 		register_welcome:
 			"Inicie sesion en su cuenta de stellarmate.com para sincronizar dispositivos.",
 		welcome_heading: "Bienvenido",
+		connecting_stellarmate: "Connecting to StellarMate",
 		welcome_description:
 			"Asegurese de estar conectado al HotSpot de StellarMate o de que StellarMate este en la misma red que usted.",
 		welcome_rescan:

@@ -640,6 +640,7 @@ const de = {
 		register_welcome:
 			"Bitte melden Sie sich bei Ihrem stellarmate.com-Konto an, um Geräte zu synchronisieren.",
 		welcome_heading: "Herzlich willkommen",
+		connecting_stellarmate: "Connecting to StellarMate",
 		welcome_description:
 			"Stellen Sie sicher, dass Sie entweder mit dem HotSpot von StellarMate verbunden sind oder dass sich StellarMate im selben Netzwerk befindet wie Sie.",
 		welcome_rescan:

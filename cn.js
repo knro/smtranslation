@@ -642,6 +642,7 @@
 	connect: {
 		register_welcome: "请登录您的Stellarmate账号以同步设备.",
 		welcome_heading: "欢迎使用",
+		connecting_stellarmate: "Connecting to StellarMate",
 		welcome_description:
 			"请确认您已连接至StellarMate的热点或StellarMate与您的设备处于同一网络中",
 		welcome_rescan: "点击”重新扫描”扫描局域网中的StellarMate",
