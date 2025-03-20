@@ -660,6 +660,7 @@ const en = {
 		register_welcome:
 			"Please sign in to your stellarmate.com account to synchronize devices.",
 		welcome_heading: "Welcome",
+		connecting_stellarmate: "Connecting to StellarMate",
 		welcome_description:
 			"Please make sure that you are either connected to StellarMate's HotSpot or StellarMate is on the same network as you are.",
 		welcome_rescan:

@@ -650,6 +650,7 @@ const ja = {
 		register_welcome:
 			"デバイスを同期するには,stellarmate.com アカウントにサインインしてください。",
 		welcome_heading: "ようこそ",
+		connecting_stellarmate: "Connecting to StellarMate",
 		welcome_description:
 			"StellarMate の HotSpot に接続しているか,StellarMate が同じネットワーク上にあることを確認してください。ありのままのネットワーク。",
 		welcome_rescan:
