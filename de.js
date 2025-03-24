@@ -86,6 +86,9 @@ const de = {
 		west: "West",
 		released: "Released",
 		history: "History",
+		basic: "Basic",
+		expert: "Expert",
+		position: "Position",
 
 		azimuth: "Scheitelpunkt",
 		altitude: "Höhe",
