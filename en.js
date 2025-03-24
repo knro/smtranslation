@@ -89,6 +89,9 @@ const en = {
 		west: "West",
 		released: "Released",
 		history: "History",
+		basic: "Basic",
+		expert: "Expert",
+		position: "Position",
 
 		azimuth: "Azimuth",
 		altitude: "Altitude",

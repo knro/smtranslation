@@ -87,6 +87,9 @@
 		west: "West",
 		released: "Released",
 		history: "History",
+		basic: "Basic",
+		expert: "Expert",
+		position: "Position",
 
 		azimuth: "方位角",
 		altitude: "高度角",
