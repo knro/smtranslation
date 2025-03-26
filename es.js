@@ -1264,6 +1264,8 @@ const es = {
 			reverse_WE: "Invertir Oeste/Este",
 			time_source: "Fuente de tiempo",
 			location_source: "Fuente de ubicación",
+			enter_coordinates: "Enter Coordinates",
+			select_target: "Select Target",
 		},
 		modal_add_to_seq: {
 			heading: "Agregar a la Secuencia",
@@ -1326,7 +1328,8 @@ const es = {
 			abortedJobManagement: "Trabajo abortado",
 			observatoryShutdown: "Cierre del observatorio",
 			alt: "Alt >",
-			moon: "Luna >",
+			moon: "Moon min. sep",
+			moon_max: "Moon max alt",
 			twilight: "Crepúsculo",
 			artifHorizon: "Horizonte artificial",
 			sequenceCompletion: "Completar secuencia",
@@ -1369,6 +1372,9 @@ const es = {
 				setting_altitude: "Setting altitude cutoff",
 				setting_altitude_tooltip:
 					"No permita que se programen trabajos con menos de esta cantidad de grados antes de la restricción de altitud. La ejecución real continúa hasta el límite de altitud.",
+				weather_grace: "Weather grace period",
+				weather_grace_tooltip:
+					"Enable Weather-Based Scheduling: Prevents new jobs from starting during weather warnings or alerts. Existing jobs continue during warnings, but are aborted during alerts. System initiates a soft shutdown and waits for improved conditions or grace period expiration, after which the current job is terminated.",
 				dust_offset: "Compensación de polvo",
 				dust_offset_tooltip:
 					"Desplazamiento del crepúsculo astronómico en esta cantidad de horas. Este valor positivo o negativo ajusta la restricción del crepúsculo.",
