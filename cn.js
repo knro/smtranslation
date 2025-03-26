@@ -1310,8 +1310,8 @@
 				weather_grace: "Weather grace period",
 				weather_grace_tooltip:
 					"Enable Weather-Based Scheduling: Prevents new jobs from starting during weather warnings or alerts. Existing jobs continue during warnings, but are aborted during alerts. System initiates a soft shutdown and waits for improved conditions or grace period expiration, after which the current job is terminated.",
-				dust_offset: "黄昏抵消",
-				dust_offset_tooltip:
+				dusk_offset: "黄昏抵消",
+				dusk_offset_tooltip:
 					"用这么多小时抵消天文黄昏。此正值或负值可调整微光限制。",
 				dawn_offset: "黎明抵消",
 				dawn_offset_tooltip:

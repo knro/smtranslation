@@ -1375,8 +1375,8 @@ const es = {
 				weather_grace: "Weather grace period",
 				weather_grace_tooltip:
 					"Enable Weather-Based Scheduling: Prevents new jobs from starting during weather warnings or alerts. Existing jobs continue during warnings, but are aborted during alerts. System initiates a soft shutdown and waits for improved conditions or grace period expiration, after which the current job is terminated.",
-				dust_offset: "Compensación de polvo",
-				dust_offset_tooltip:
+				dusk_offset: "Compensación de polvo",
+				dusk_offset_tooltip:
 					"Desplazamiento del crepúsculo astronómico en esta cantidad de horas. Este valor positivo o negativo ajusta la restricción del crepúsculo.",
 				dawn_offset: "Desfase del amanecer",
 				dawn_offset_tooltip:
