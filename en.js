@@ -1257,6 +1257,8 @@ const en = {
 			reverse_WE: "Reverse West/East",
 			time_source: "Time source",
 			location_source: "Location source",
+			enter_coordinates: "Enter Coordinates",
+			select_target: "Select Target",
 		},
 		modal_add_to_seq: {
 			heading: "Add To Sequence",
@@ -1319,7 +1321,8 @@ const en = {
 			abortedJobManagement: "Aborted Job",
 			observatoryShutdown: "Observatory Shutdown",
 			alt: "Alt >",
-			moon: "Moon >",
+			moon: "Moon min. sep",
+			moon_max: "Moon max alt",
 			twilight: "Twilight",
 			artifHorizon: "Artificial Horizon",
 			sequenceCompletion: "Sequence Completion",
@@ -1362,8 +1365,11 @@ const en = {
 				setting_altitude: "Setting altitude cutoff",
 				setting_altitude_tooltip:
 					"Do not permit jobs to be scheduled less than this many degrees before the altitude restriction. Actual execution proceeds until the altitude limit.",
-				dust_offset: "Dust offset",
-				dust_offset_tooltip:
+				weather_grace: "Weather grace period",
+				weather_grace_tooltip:
+					"Enable Weather-Based Scheduling: Prevents new jobs from starting during weather warnings or alerts. Existing jobs continue during warnings, but are aborted during alerts. System initiates a soft shutdown and waits for improved conditions or grace period expiration, after which the current job is terminated.",
+				dusk_offset: "Dusk offset",
+				dusk_offset_tooltip:
 					"Offset astronomical dusk by this many hours. This positive or negative value adjusts the twilight restriction.",
 				dawn_offset: "Dawn offset",
 				dawn_offset_tooltip:

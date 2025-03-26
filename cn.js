@@ -1200,6 +1200,8 @@
 			reverse_WE: "反转西/东",
 			time_source: "时间源",
 			location_source: "位置源",
+			enter_coordinates: "Enter Coordinates",
+			select_target: "Select Target",
 		},
 		modal_add_to_seq: {
 			heading: "添加到序列",
@@ -1262,7 +1264,8 @@
 			abortedJobManagement: "异常处理",
 			observatoryShutdown: "天文观测台关闭",
 			alt: "高度限制",
-			moon: "月亮高度限制",
+			moon: "Moon min. sep",
+			moon_max: "Moon max alt",
 			twilight: "日出日落时间限制",
 			artifHorizon: "地平线限制",
 			sequenceCompletion: "序列完成条件",
@@ -1304,8 +1307,11 @@
 				setting_altitude: "设置高度截止",
 				setting_altitude_tooltip:
 					"在海拔限制之前，不允许将任务安排在低于这么多度的位置。实际执行一直进行到高度限制。",
-				dust_offset: "黄昏抵消",
-				dust_offset_tooltip:
+				weather_grace: "Weather grace period",
+				weather_grace_tooltip:
+					"Enable Weather-Based Scheduling: Prevents new jobs from starting during weather warnings or alerts. Existing jobs continue during warnings, but are aborted during alerts. System initiates a soft shutdown and waits for improved conditions or grace period expiration, after which the current job is terminated.",
+				dusk_offset: "黄昏抵消",
+				dusk_offset_tooltip:
 					"用这么多小时抵消天文黄昏。此正值或负值可调整微光限制。",
 				dawn_offset: "黎明抵消",
 				dawn_offset_tooltip:
