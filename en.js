@@ -394,6 +394,46 @@ const en = {
 		title_focus_steps: "Target Position",
 		title_focus_size: "Step Size",
 
+		title_basic_paa: "Basic Mode",
+		description_basic_paa:
+			"Basic mode is for new users which provides simple UI and operations",
+		title_basic_controls: "Basic Mode Controls",
+		description_basic_controls: "Navigate to modules step by step ",
+		title_toggle_mode: "Toggle Basic Mode",
+		description_toggle_mode: "You can switch between expert & basoc mode.",
+		title_paa_controls: "PAA controls & Operations",
+		description_paa_controls:
+			"Control mount operations and Start/Stop Polar Alignment",
+		title_paa_message: "PAA Message",
+		description_paa_message: "Displays current status of Polar Alignment.",
+
+		title_targets_mode: "Basic Targets Mode",
+		description_targets_mode:
+			"Select Overlay types, Explore target objects, Perform GO operation and Live search.",
+
+		title_overlay_type: "Overlay type",
+		description_overlay_type:
+			"Select the following overlay type to see relevant targets.",
+
+		title_target_chart: "Target Chart and Action",
+		description_target_chart:
+			"Displays AltvsTime chart and an action button to GOTO the selected target",
+
+		title_basic_focus: "Basic Focus Mode",
+		description_basic_focus:
+			"Focus module goal is to get crisp images either automatically via an electronic focuser, or manually by adjusting the focus knob.",
+
+		title_focus_settings: "Focus Settings and Controls",
+		description_focus_settings:
+			"Modify settings and Loop, Start/Stop Auto Focus",
+
+		title_focus_graph: "Focus Graph",
+		description_focus_graph: "View Auto focus Graph",
+
+		title_focus_image: "Focus Image",
+		description_focus_image:
+			"Display Focus image, here you can select Focus star as well depending on the settings",
+
 		description_devices_list:
 			"This is the list of automatically discovered and manually added StellarMate units. Tap RESCAN to detect new StellarMate units on the network.",
 		description_device_actions:
