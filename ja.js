@@ -392,43 +392,89 @@ const ja = {
 
 		title_basic_paa: "Basic Mode",
 		description_basic_paa:
-			"Basic mode is for new users which provides simple UI and operations",
-		title_basic_controls: "Basic Mode Controls",
-		description_basic_controls: "Navigate to modules step by step ",
-		title_toggle_mode: "Toggle Basic Mode",
-		description_toggle_mode: "You can switch between expert & basoc mode.",
-		title_paa_controls: "PAA controls & Operations",
-		description_paa_controls:
-			"Control mount operations and Start/Stop Polar Alignment",
-		title_paa_message: "PAA Message",
-		description_paa_message: "Displays current status of Polar Alignment.",
+			"Basic mode is a streamlined workflow for astrophotography beginners.",
+		title_basic_controls: "Workflow steps",
+		description_basic_controls: "Navigate to any workflow step at any time.",
+		title_toggle_mode: "Mode Switch",
+		description_toggle_mode: "Switch between Expert & Basic modes.",
 
-		title_targets_mode: "Basic Targets Mode",
+		title_paa_controls: "Polar Alignment controls",
+		description_paa_controls: "Toggle Polar Alignment and Park Mount",
+
+		title_paa_message: "Guided instructions",
+		description_paa_message:
+			"Follow guided steps until Polar Alignment is complete.",
+
+		title_targets_mode: "Targets Selection",
 		description_targets_mode:
-			"Select Overlay types, Explore target objects, Perform GO operation and Live search.",
+			"Search for astronomical objects across different classes. View altitude vs. time charts and observability data for any celestial target.",
 
-		title_overlay_type: "Overlay type",
+		title_overlay_type: "Object Class",
 		description_overlay_type:
-			"Select the following overlay type to see relevant targets.",
+			"Select object classes to view celestial targets sorted by magnitude.",
 
-		title_target_chart: "Target Chart and Action",
+		title_target_chart: "Altitude vs Time",
 		description_target_chart:
-			"Displays AltvsTime chart and an action button to GOTO the selected target",
+			"Shows Altitude vs Time graph with GO button to slew and center target.",
 
-		title_basic_focus: "Basic Focus Mode",
+		title_basic_focus: "Focus your target",
 		description_basic_focus:
-			"Focus module goal is to get crisp images either automatically via an electronic focuser, or manually by adjusting the focus knob.",
+			"Use electronic focuser for crisp images or focus manually while monitoring HFR chart (lower is better).",
 
-		title_focus_settings: "Focus Settings and Controls",
+		title_focus_settings: "Focus Controls",
 		description_focus_settings:
-			"Modify settings and Loop, Start/Stop Auto Focus",
+			"Frame target with clearly resolvable stars using loop button. Set appropriate step size, then press play for fine autofocus.",
 
 		title_focus_graph: "Focus Graph",
-		description_focus_graph: "View Auto focus Graph",
+		description_focus_graph:
+			"View Half-Flux-Radius (HFR) vs Step chart showing focus quality. Autofocus creates a V-curve to find the Critical-Focus-Zone (CFZ). When looping, the HFR is plotted for each exposure.",
 
 		title_focus_image: "Focus Image",
 		description_focus_image:
-			"Display Focus image, here you can select Focus star as well depending on the settings",
+			"Monitor star sharpness in focus image. Toggle full screen for detailed view.",
+
+		description_targets_fov:
+			"Displays camera FOV indicator over target with size (arcmin) in top corner and orientation (degrees) in top-right.",
+
+		title_basic_guide: "Auto Guiding",
+		description_basic_guide:
+			"Use guide scope or Off-Axis guider to help Ekos keep targets centered during long-exposure imaging.",
+
+		title_guide_controls: "Guide Controls",
+		description_guide_controls:
+			"Adjust guide camera settings and use framing button to ensure stars are resolvable. Set Guide-Via to mount (default) or ST4. Press play to start calibration and autoguiding.",
+
+		title_guide_chart: "Guide Chart",
+		description_guide_chart:
+			"Guide trend graph showing tracking accuracy with RMS errors for RA (Green), DEC (Blue), and total (Red) over time.",
+
+		title_guide_image: "Guide Image",
+		description_guide_image:
+			"Guide image with multi-star tracking overlay. Toggle full screen for detailed view.",
+
+		title_basic_capture: "Capture Planner",
+		description_basic_capture:
+			"Configure image capture settings (exposure, filter, binning, etc.) and add to your sequence. Press play to begin capturing your imaging targets.",
+
+		title_capture_controls: "Capture Controls",
+		description_capture_controls:
+			"Configure capture settings, set count, then press add to include in sequence queue.",
+
+		title_manage_sequences: "Manage sequqences",
+		description_manage_sequences:
+			"Save, Load, Delete and Organize your imaging sequences",
+
+		title_capture_actions: "Capture actions",
+		description_capture_actions:
+			"Press play to start imaging sequence. Toggle live-stacking for real-time combined images while preserving individual frames.",
+
+		title_summary: "Summary",
+		description_summary:
+			"Monitor all operations (guide, focus, align, capture) and view captured images in one display.",
+
+		title_histogram: "Toggle Histogram",
+		description_histogram:
+			"Toggle histogram view. Adjust shadows, midtones, and highlights for sequence images only (not for livestacked images).",
 
 		description_devices_list:
 			"これは,自動的に検出され,手動で追加された StellarMate ユニットのリストです。RESCAN をタップして,ネットワーク上の新しい StellarMate ユニットを検出します。",
