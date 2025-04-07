@@ -438,7 +438,7 @@
 		description_basic_guide:
 			"使用导星镜或离轴导星器帮助 Ekos 在长时间曝光成像期间保持目标居中。",
 		title_guide_controls: "导星控制",
-		description_guide_controls:
+		description_basic_guide_controls:
 			"调整导星相机设置，并使用取景按钮确保星星可辨。将导星方式设置为赤道仪（默认）或 ST4。按播放开始校准和自动导星。",
 		title_guide_chart: "导星图表",
 		description_guide_chart:

@@ -425,6 +425,47 @@ const ja = {
 
 		description_targets_fov:
 			"ターゲット上にカメラFOVインジケーターを表示します。左上にサイズ（分角）、右上に方向（度）が表示されます。",
+
+		title_basic_guide: "オートガイド",
+		description_basic_guide:
+			"ガイドスコープまたはオフアクシスガイダーを使用して、Ekosが長時間露光中にターゲットを中央に保持するのを支援します。",
+
+		title_guide_controls: "ガイドコントロール",
+		description_basic_guide_controls:
+			"ガイドカメラ設定を調整し、フレーミングボタンを使用して星が解像可能であることを確認します。ガイド接続先をマウント（デフォルト）またはST4に設定します。再生を押してキャリブレーションとオートガイドを開始します。",
+
+		title_guide_chart: "ガイドグラフ",
+		description_guide_chart:
+			"追尾精度を示すガイドトレンドグラフ。RA（緑）、DEC（青）、合計（赤）のRMSエラーを時間経過で表示します。",
+
+		title_guide_image: "ガイド画像",
+		description_guide_image:
+			"マルチスター追跡オーバーレイ付きのガイド画像。フルスクリーンに切り替えて詳細を表示します。",
+
+		title_basic_capture: "キャプチャプランナー",
+		description_basic_capture:
+			"画像キャプチャ設定（露出、フィルター、ビニングなど）を構成し、シーケンスに追加します。再生を押して撮影ターゲットのキャプチャを開始します。",
+
+		title_capture_controls: "キャプチャコントロール",
+		description_capture_controls:
+			"キャプチャ設定を構成し、枚数を設定し、追加を押してシーケンスキューに含めます。",
+
+		title_manage_sequences: "シーケンス管理", // Corrected typo in original key from sequqences
+		description_manage_sequences:
+			"撮影シーケンスを保存、読み込み、削除、整理します。",
+
+		title_capture_actions: "キャプチャアクション",
+		description_capture_actions:
+			"再生を押して撮影シーケンスを開始します。ライブスタッキングを切り替えて、個々のフレームを保持しながらリアルタイムの合成画像を生成します。",
+
+		title_summary: "サマリー",
+		description_summary:
+			"すべての操作（ガイド、フォーカス、アライメント、キャプチャ）を監視し、キャプチャされた画像を1つのディスプレイで表示します。",
+
+		title_histogram: "ヒストグラム切り替え",
+		description_histogram:
+			"ヒストグラム表示を切り替えます。シーケンス画像のみのシャドウ、ミッドトーン、ハイライトを調整します（ライブスタック画像には適用されません）。",
+
 		description_stella_intro:
 			"Stellaはあなたのパーソナルスマートデジタルアシスタントです。音声またはテキストでStellaと通信できます。天文学のあらゆるトピックについて尋ねてください。",
 		description_stella_example: "プロンプト例を表示します。",
