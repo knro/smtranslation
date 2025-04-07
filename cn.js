@@ -1,4 +1,4 @@
-﻿const cn = {
+﻿﻿﻿﻿const cn = {
 	general: {
 		home: "主页",
 		next: "下一项",
@@ -6,7 +6,7 @@
 		done: "完成",
 		cancel: "取消",
 		confirm: "确认",
-		auto: "Auto",
+		auto: "自动",
 		apply: "应用",
 		enter: "输入",
 		scan: "扫描",
@@ -20,6 +20,7 @@
 		devices: "设备",
 		connect: "连接",
 		disconnect: "断开",
+		disconnected: "已断开",
 		schedule: "计划",
 		walk: "步进",
 		yes: "是",
@@ -50,6 +51,7 @@
 		gain: "增益",
 		offset: "偏置",
 		format: "格式",
+		encode: "编码",
 		iso: "ISO",
 		count: "连拍",
 		delay: "延时",
@@ -61,8 +63,8 @@
 		rotation: "旋转",
 		automatic: "自动",
 		manual: "手动",
-		progress: "处理",
-		position_angle: "方位角",
+		progress: "进度",
+		position_angle: "位置角 (PA)",
 		details: "细节",
 		skip: "跳过",
 		updated: "已更新",
@@ -81,15 +83,15 @@
 		white: "白",
 		black: "黑",
 		datepick: "选择日期",
-		north: "North",
-		south: "South",
-		east: "East",
-		west: "West",
-		released: "Released",
-		history: "History",
-		basic: "Basic",
-		expert: "Expert",
-		position: "Position",
+		north: "北",
+		south: "南",
+		east: "东",
+		west: "西",
+		released: "已发布",
+		history: "历史记录",
+		basic: "基础",
+		expert: "专家",
+		position: "位置",
 
 		azimuth: "方位角",
 		altitude: "高度角",
@@ -179,6 +181,7 @@
 		kstars_down_title: "KStars停止工作",
 		kstars_down_body:
 			"KStars不在工作中,尝试重启StellarMate或者联系StellarMate技术支持.",
+		wait_while_syncing: "请稍候\n同步中",
 		reset_default: "恢复默认设置",
 		external_storage: "外部存储器",
 		success: "成功",
@@ -201,7 +204,7 @@
 		acquisition_details: "细节",
 		models: "模型",
 		manufacturers: "发布者",
-		logo: "Logo",
+		logo: "标志",
 		approve: "赞同",
 		reject: "反对",
 		confirm_approve: "确认赞同",
@@ -259,10 +262,9 @@
 		create_defects_title: "创建缺陷图",
 		view_masters_title: "查看主暗场",
 		progress: "处理",
-
 		create_darks: {
 			exposure_range: "曝光范围",
-			to: "To",
+			to: "至",
 			temp_range: "温度范围",
 			binning: "像素合并",
 			binning_one: "1x1",
@@ -275,6 +277,7 @@
 			master_dark: "主暗场",
 			bad_pixels: "坏点",
 			hot_pixels: "热噪",
+			cold_pixels: "冷噪点",
 			generate_map: "生成图像",
 			save_map: "保存",
 			deviation: "σ",
@@ -305,12 +308,27 @@
 		paa_title: "完美主义者",
 		guide_rms_title: "导星王中王",
 
-		capture_preview_description:
-			"拍摄预览图像：拍摄一张精美的预览图像，展现宇宙的神秘面貌。",
+		capture_preview_description: "拍摄预览图像",
+		ten_sequences_description: "拍摄包含10张图像的序列",
+		mount_goto__description: "在新图像被捕获时，按住目标3秒钟来使用目标GOTO",
+		video_recording_description: "录制1分钟视频",
+		weather_check__description: "利用天气信息中的云图，至少放大8倍以检查天气",
+		live_stacking_description: "实时叠加图像，至少执行5张图像",
+		create_darks_description: "创建总共50张暗场图像",
+		create_defect_description: "在缺陷图中生成80个以上的热/冷像素",
+		import_mosaic_description: "从Telescopius导入拼接图",
+		messier_captured_description: "捕获了一个梅西耶天体",
+		all_messier_description: "捕获了所有梅西耶天体",
+		scheduler_description: "完成一个2小时或更长时间图像数据的计划任务",
+		capture_master_description: "总共拍摄了500张图像",
+		capture_legend_description: "总共拍摄了1000张图像",
+		paa_description: "在误差低于30角秒的情况下完成PAA",
+		guide_rms_description: "使导星的总RMS误差小于0.5角秒",
 
-		ten_sequences_description:
-			"星河连线：拍摄包含10张图像的序列，记录下宇宙中的连绵星光，串联成一幅壮丽的星河画卷。",
+		filtered_image_description: "拍摄一张窄带图像",
+		gallery_image_description: "图库图像已下载",
 
+		alert_reset_title: "重置成就",
 		mount_goto__description:
 			"魔法定位：在新图像被捕获时，按住目标3秒钟来使用目标GOTO，在茫茫星空中精确定位，让您的望远镜准确锁定目标。",
 
@@ -405,91 +423,88 @@
 		title_focus_steps: "目标位置",
 		title_focus_size: "步长",
 
-		title_basic_paa: "Basic Mode",
-		description_basic_paa:
-			"Basic mode is a streamlined workflow for astrophotography beginners.",
-		title_basic_controls: "Workflow steps",
-		description_basic_controls: "Navigate to any workflow step at any time.",
-		title_toggle_mode: "Mode Switch",
-		description_toggle_mode: "Switch between Expert & Basic modes.",
+		title_basic_paa: "基础模式",
+		description_basic_paa: "基础模式是为天文摄影初学者设计的简化工作流程。",
+		title_basic_controls: "工作流程步骤",
+		description_basic_controls: "可随时导航至任何工作流程步骤。",
+		title_toggle_mode: "模式切换",
+		description_toggle_mode: "在专家和基础模式之间切换。",
 
-		title_paa_controls: "Polar Alignment controls",
-		description_paa_controls: "Toggle Polar Alignment and Park Mount",
+		title_paa_controls: "极轴对齐控制",
+		description_paa_controls:
+			"Ekos 将旋转赤道仪两次以进行极轴对齐。设置速度、角度和方向 (W/E)。如果赤道仪没有 GOTO 功能，则切换为手动模式。按播放开始。",
 
-		title_paa_message: "Guided instructions",
-		description_paa_message:
-			"Follow guided steps until Polar Alignment is complete.",
+		title_paa_message: "引导说明",
+		description_paa_message: "按照引导步骤操作，直到极轴对齐完成。",
 
-		title_targets_mode: "Targets Selection",
+		title_targets_mode: "目标选择",
 		description_targets_mode:
-			"Search for astronomical objects across different classes. View altitude vs. time charts and observability data for any celestial target.",
+			"搜索不同类别的天文物体。查看任何天体目标的高度与时间图表和可观测性数据。",
 
-		title_overlay_type: "Object Class",
-		description_overlay_type:
-			"Select object classes to view celestial targets sorted by magnitude.",
+		title_overlay_type: "目标类别",
+		description_overlay_type: "选择目标类别以查看按星等排序的天体目标。",
 
-		title_target_chart: "Altitude vs Time",
+		title_target_chart: "高度 vs 时间",
 		description_target_chart:
-			"Shows Altitude vs Time graph with GO button to slew and center target.",
+			"显示高度与时间图表，带有 GO 按钮以移动并居中目标。",
 
-		title_basic_focus: "Focus your target",
+		title_basic_focus: "对焦目标",
 		description_basic_focus:
-			"Use electronic focuser for crisp images or focus manually while monitoring HFR chart (lower is better).",
+			"使用电动调焦器获得清晰图像，或在监控 HFR 图表（越低越好）的同时手动对焦。",
 
-		title_focus_settings: "Focus Controls",
+		title_focus_settings: "对焦控制",
 		description_focus_settings:
-			"Frame target with clearly resolvable stars using loop button. Set appropriate step size, then press play for fine autofocus.",
+			"使用循环按钮框选具有清晰可辨星点的目标。设置适当的步长，然后按播放进行精细自动对焦。",
 
-		title_focus_graph: "Focus Graph",
+		title_focus_graph: "对焦图",
 		description_focus_graph:
-			"View Half-Flux-Radius (HFR) vs Step chart showing focus quality. Autofocus creates a V-curve to find the Critical-Focus-Zone (CFZ). When looping, the HFR is plotted for each exposure.",
+			"查看半峰全宽 (HFR) 与步长图表，显示对焦质量。自动对焦创建 V 形曲线以找到临界对焦区 (CFZ)。循环时，会绘制每次曝光的 HFR。",
 
-		title_focus_image: "Focus Image",
+		title_focus_image: "对焦图像",
 		description_focus_image:
-			"Monitor star sharpness in focus image. Toggle full screen for detailed view.",
+			"监控对焦图像中星点的清晰度。切换全屏以查看详细视图。",
 
 		description_targets_fov:
-			"Displays camera FOV indicator over target with size (arcmin) in top corner and orientation (degrees) in top-right.",
+			"在目标上方显示相机视场指示器，左上角为尺寸（角分），右上角为方向（度）。",
 
-		title_basic_guide: "Auto Guiding",
+		title_basic_guide: "自动导星",
 		description_basic_guide:
-			"Use guide scope or Off-Axis guider to help Ekos keep targets centered during long-exposure imaging.",
+			"使用导星镜或离轴导星器帮助 Ekos 在长时间曝光成像期间保持目标居中。",
 
-		title_guide_controls: "Guide Controls",
-		description_guide_controls:
-			"Adjust guide camera settings and use framing button to ensure stars are resolvable. Set Guide-Via to mount (default) or ST4. Press play to start calibration and autoguiding.",
+		title_guide_controls: "导星控制",
+		description_basic_guide_controls:
+			"调整导星相机设置并使用构图按钮确保星点可辨。将导星方式设置为赤道仪（默认）或 ST4。按播放开始校准和自动导星。",
 
-		title_guide_chart: "Guide Chart",
+		title_guide_chart: "导星图",
 		description_guide_chart:
-			"Guide trend graph showing tracking accuracy with RMS errors for RA (Green), DEC (Blue), and total (Red) over time.",
+			"导星趋势图，显示跟踪精度，包含 RA（绿色）、DEC（蓝色）和总计（红色）随时间的 RMS 误差。",
 
-		title_guide_image: "Guide Image",
+		title_guide_image: "导星图像",
 		description_guide_image:
-			"Guide image with multi-star tracking overlay. Toggle full screen for detailed view.",
+			"带有**星跟踪叠加层的导星图像。切换全屏以查看详细视图。",
 
-		title_basic_capture: "Capture Planner",
+		title_basic_capture: "拍摄计划器",
 		description_basic_capture:
-			"Configure image capture settings (exposure, filter, binning, etc.) and add to your sequence. Press play to begin capturing your imaging targets.",
+			"配置图像拍摄设置（曝光、滤镜、像素合并等）并添加到您的序列中。按播放开始拍摄您的成像目标。",
 
-		title_capture_controls: "Capture Controls",
+		title_capture_controls: "拍摄控制",
 		description_capture_controls:
-			"Configure capture settings, set count, then press add to include in sequence queue.",
+			"配置拍摄设置，设置计数，然后按添加以包含在序列队列中。",
 
-		title_manage_sequences: "Manage sequqences",
-		description_manage_sequences:
-			"Save, Load, Delete and Organize your imaging sequences",
+		title_manage_sequences: "管理序列",
+		description_manage_sequences: "保存、加载、删除和整理您的成像序列",
 
-		title_capture_actions: "Capture actions",
+		title_capture_actions: "拍摄动作",
 		description_capture_actions:
-			"Press play to start imaging sequence. Toggle live-stacking for real-time combined images while preserving individual frames.",
+			"按播放开始成像序列。切换实时叠加以获得实时组合图像，同时保留单个帧。",
 
-		title_summary: "Summary",
+		title_summary: "摘要",
 		description_summary:
-			"Monitor all operations (guide, focus, align, capture) and view captured images in one display.",
+			"在一个显示屏中监控所有操作（导星、对焦、对齐、拍摄）并查看拍摄的图像。",
 
-		title_histogram: "Toggle Histogram",
+		title_histogram: "切换直方图",
 		description_histogram:
-			"Toggle histogram view. Adjust shadows, midtones, and highlights for sequence images only (not for livestacked images).",
+			"切换直方图视图。仅调整序列图像的阴影、中间调和高光（不适用于实时叠加图像）。",
 
 		description_devices_list:
 			"自动发现和手动添加的StellarMate设备列表。单击重新扫描以检测网络上的新StellarMate设备。",
@@ -678,6 +693,7 @@
 		new_scope_aperture_invalid: "请输入有效的光圈",
 		new_scope_focal_length_invalid: "请输入有效的焦距",
 		new_scope_focal_ratio_invalid: "请输入一个有效的焦比",
+		enter_file_name: "请输入文件名",
 	},
 	progress: {
 		start_capture: "开始拍摄...",
@@ -737,10 +753,13 @@
 		device_unreachable: "设备无法访问！ 请检查电源和网络设置",
 		login_mismatch:
 			"认证失败。App 密码与stellarmate.com上设定的密码不一致。请使用正确密码再次登入。",
-		register_using_key: "Register Device using Serial number",
+		register_using_key: "使用序列号注册设备",
 		old_stellarmate_heading: "版本过旧。请更新!",
 		old_stellarmate_description:
 			"您正在使用 StellarMate OS 的旧版本。若想继续使用本应用，请务必更新至  StellarMate 的最新版本。",
+		sm_app_update_title: "需要更新 SM App！",
+		sm_app_update_body:
+			"您似乎正在使用旧版本的 StellarMate App。请更新到最新版本。",
 		primary: "主镜",
 		guide: "导星相机",
 		scope: "导星镜",
@@ -758,6 +777,7 @@
 		generic: "通用串口",
 		select_driver: "请选择设备类别和驱动",
 		invalid_ip: "找不到IP地址或IP{0}无效。请再试一次。",
+		no_kstars_instances: "未检测到活动的 KStars 实例。",
 
 		cloudsMap: {
 			btn_clouds_map: "云图",
@@ -786,7 +806,7 @@
 			first_name: "名",
 			last_name: "姓",
 			email: "邮箱",
-			manually: "Manually",
+			manually: "手动",
 		},
 		device_manager: {
 			alert_confirm_remove_title: "确认移除",
@@ -872,19 +892,17 @@
 			empty_profiles_list: "所选天文台当前没有设备档案。要继续，请添加新档案。",
 			manufacturer: "制造商",
 			profile_name: "档案名称",
-			no_profiles_found:
-				"The selected observatory currently has no equipment profiles.",
-			no_equipment_found: "No equipment found for this profile",
-			synchronized_profile:
-				"This profile is already synchronized with a KStar Profile.",
-			map_to_existing_profile: "Map to existing KStars Profile",
-			map_to_new_profile: "Map to new KStars Profile",
-			select_kstars_profile: "Select KStars Profile",
-			warning_equipment_mismatch: "Warning: Equipment mismatch detected",
-			indi_driver: "INDI Driver",
-			kstars_profile: "KStars Profile",
+			no_profiles_found: "所选天文台当前没有设备配置文件。",
+			no_equipment_found: "未找到此配置文件的设备",
+			synchronized_profile: "此配置文件已与 KStars 配置文件同步。",
+			map_to_existing_profile: "映射到现有 KStars 配置文件",
+			map_to_new_profile: "映射到新的 KStars 配置文件",
+			select_kstars_profile: "选择 KStars 配置文件",
+			warning_equipment_mismatch: "警告：检测到设备不匹配",
+			indi_driver: "INDI 驱动程序",
+			kstars_profile: "KStars 配置文件",
 			not_connected_to_kstars:
-				"No equipment profiles detected. Please ensure KStars is connected to EkosLive.",
+				"未检测到设备配置文件。请确保 KStars 已连接到 EkosLive。",
 		},
 		no_connected_instances:
 			"未检测到活动实例，请确保KStars已连接且未与其他天文台链接。",
@@ -935,6 +953,9 @@
 		tgl_properties: "属性",
 		alert_ekos_offline_title: "Ekos离线中",
 		alert_ekos_offline_body: "Ekos目前处于离线状态，是否开启设备匹配?",
+		alert_ekos_disconnected_title: "设备已断开",
+		alert_ekos_disconnected_body:
+			"并非所有设备配置文件设备都已连接，请连接所有设备，然后重试。",
 		ekos_dialog: {
 			auto_closes_in: "自动关闭",
 		},
@@ -1097,6 +1118,7 @@
 		capture_auto_calibration: {
 			heading: "自动校准",
 			flat_source: "平场源",
+			manual: "手动",
 			flat_duration: "平场曝光时间",
 			dust_builtin: "带内置平场灯的镜头盖",
 			dust_external: "带外置平场灯的镜头盖",
@@ -1334,7 +1356,7 @@
 			contrast: "对比度",
 			sigma_clipping: "Sigma滤波",
 			noImages: "未找到实时叠加图像",
-			median_filter: "Median Filter",
+			median_filter: "中值滤波",
 		},
 		scheduler: {
 			scheduler: "序列管理器",
@@ -1342,6 +1364,7 @@
 			add_sequences: "添加序列",
 			fits: "FITS 文件",
 			priority: "优先级",
+			generalSettings: "通用设置",
 			profile: "配置文件",
 			startupConditions: "启动条件",
 			JobConstraints: "限制条件",
@@ -1393,9 +1416,9 @@
 				setting_altitude: "设置高度截止",
 				setting_altitude_tooltip:
 					"在海拔限制之前，不允许将任务安排在低于这么多度的位置。实际执行一直进行到高度限制。",
-				weather_grace: "Weather grace period",
+				weather_grace: "天气宽限期",
 				weather_grace_tooltip:
-					"Enable Weather-Based Scheduling: Prevents new jobs from starting during weather warnings or alerts. Existing jobs continue during warnings, but are aborted during alerts. System initiates a soft shutdown and waits for improved conditions or grace period expiration, after which the current job is terminated.",
+					"启用基于天气的调度：在天气警告或警报期间阻止新作业启动。现有作业在警告期间继续，但在警报期间中止。系统启动软关机并等待条件改善或宽限期到期，之后当前作业将终止。",
 				dusk_offset: "黄昏抵消",
 				dusk_offset_tooltip:
 					"用这么多小时抵消天文黄昏。此正值或负值可调整微光限制。",
@@ -1474,6 +1497,7 @@
 	status: {
 		system: "系统",
 		info: "信息",
+		temperature: "温度",
 		software: "软件",
 		cpu: "CPU",
 		ram: "RAM",
@@ -1611,6 +1635,7 @@
 	settings: {
 		heading: "设置",
 		language: "语言",
+		unit_system: "单位制",
 		high_bandwidth: "高带宽模式",
 		transfer_images: "传输图像",
 		notifications: "通知",
@@ -1628,9 +1653,9 @@
 		alert_delete_account_title: "删除账号",
 		alert_delete_account_body: "你确定要删除你的帐户吗？",
 		color_scheme_sky_map: "星图规划",
-		last_synced: "Last synced",
-		sync_all: "Sync All data",
-		pro_feature: "Pro feature",
+		last_synced: "上次同步",
+		sync_all: "同步所有数据",
+		pro_feature: "专业版功能",
 	},
 	cloud: {
 		heading: "云服务",
@@ -1721,7 +1746,7 @@
 		logs_upload: "日志成功上传至StellarMate支持。",
 		error_upload: "上传日志时出错",
 		reset_network: "重置网络",
-		release_notes: "Release Notes",
+		release_notes: "发行说明",
 
 		vnc: {
 			update_password: "更新VNC密码",
@@ -1752,8 +1777,8 @@
 		alert_power_port_description: "您确定要关闭 {0} 吗？",
 	},
 	notifications: {
-		read_all: "Read all",
-		dnd: "Do not disturb",
+		read_all: "全部已读",
+		dnd: "请勿打扰",
 		ekoslive_successful: "Ekoslive重置成功",
 		ekoslive_restart: "重启Ekoslive",
 		usb_reset: "USB 重置成功",
@@ -1849,8 +1874,8 @@
 		public_directory: "公共目录",
 		community: "社区",
 		no_observatories: "未找到公共天文台。",
-		fine_location: "Fine Location",
-		coarse_location: "Coarse Location",
+		fine_location: "精确位置",
+		coarse_location: "粗略位置",
 	},
 	menu: {
 		go_to_profile: "个人资料",

@@ -21,7 +21,7 @@ const es = {
 		connect: "Conectar",
 		disconnect: "Desconectar",
 		schedule: "Cronograma",
-		walk: "Walk",
+		walk: "Paseo",
 		yes: "Si",
 		no: "No",
 		ignore: "Ignorar",
@@ -78,18 +78,18 @@ const es = {
 		chat: "Charlar",
 		controls: "Control S",
 		balance: "Balance",
-		white: "White",
-		black: "Black",
-		datepick: "Pick a date",
-		north: "North",
-		south: "South",
-		east: "East",
-		west: "West",
-		released: "Released",
-		history: "History",
-		basic: "Basic",
-		expert: "Expert",
-		position: "Position",
+		white: "Blanco",
+		black: "Negro",
+		datepick: "Seleccionar una fecha",
+		north: "Norte",
+		south: "Sur",
+		east: "Este",
+		west: "Oeste",
+		released: "Lanzado",
+		history: "Historial",
+		basic: "Básico",
+		expert: "Experto",
+		position: "Posición",
 
 		azimuth: "Azimut",
 		altitude: "Altitud",
@@ -116,7 +116,7 @@ const es = {
 		no_data_found: "Datos no encontrados",
 		track: "Pista",
 		jobs: "Trabajos",
-		category: "Categories",
+		category: "Categorías",
 		profile: "Perfil",
 		arcmin: "arcmin",
 		calculate: "Calcular",
@@ -149,9 +149,9 @@ const es = {
 		open: "Abierto",
 		close: "Cerrado",
 		opened: "Abierto",
-		submit: "Submit",
-		execute: "Execute",
-		retry: "Retry",
+		submit: "Enviar",
+		execute: "Ejecutar",
+		retry: "Reintentar",
 
 		// Confirm Delete Alert
 		alert_confirm_delete_title: "Confirmar eliminación",
@@ -163,7 +163,7 @@ const es = {
 		// Confirm
 		alert_confirmation_title: "Confirmación",
 		alert_confirmation_files:
-			"Are you sure you would like to delete the selected files",
+			"¿Está seguro de que desea eliminar los archivos seleccionados?",
 		alert_confirmation_body:
 			"¿Estás seguro de que deseas crear {0} con este nombre?",
 		alert_overwrite_body: "El archivo '{0}' ya existe. ¿Desea sobrescribirlo?",
@@ -191,77 +191,77 @@ const es = {
 		kstars_down_body:
 			"KStars no esta funcionando, intente reiniciar StellarMate o contacte con el soporte de StellarMate.",
 		wait_while_syncing: "Por favor espere mientras sincroniza",
-		file_too_large: "File is too large",
+		file_too_large: "El archivo es demasiado grande",
 		// External Storage
 		reset_default: "Restablecen a los predeterminados",
 		external_storage: "Almacenamiento externo",
 		success: "Éxito",
-		failed: "Failed",
+		failed: "Fallido",
 
-		public: "Public",
-		private: "Private",
-		label: "Label",
+		public: "Público",
+		private: "Privado",
+		label: "Etiqueta",
 
-		users: "Users",
-		title: "Title",
-		submitted_by: "Submitted By",
-		submitted_date: "Submitted Date",
-		publish_status: "Publish Status",
-		submission_status: "Submission Status",
-		access_level: "Access Level",
+		users: "Usuarios",
+		title: "Título",
+		submitted_by: "Enviado por",
+		submitted_date: "Fecha de envío",
+		publish_status: "Estado de publicación",
+		submission_status: "Estado de envío",
+		access_level: "Nivel de acceso",
 
-		description: "Description",
-		acquisition_details: "Acquisition Details",
-		models: "Models",
-		manufacturers: "Manufacturers",
+		description: "Descripción",
+		acquisition_details: "Detalles de adquisición",
+		models: "Modelos",
+		manufacturers: "Fabricantes",
 		logo: "Logo",
-		approve: "Approve",
-		reject: "Reject",
-		confirm_approve: "Confirm Approve",
-		confirm_reject: "Confirm Reject",
-		confirm_ban: "Confirm Ban",
-		confirm_delete: "Confirm Delete",
-		confirm_ignore: "Confirm Ignore",
+		approve: "Aprobar",
+		reject: "Rechazar",
+		confirm_approve: "Confirmar aprobación",
+		confirm_reject: "Confirmar rechazo",
+		confirm_ban: "Confirmar prohibición",
+		confirm_delete: "Confirmar eliminación",
+		confirm_ignore: "Confirmar ignorar",
 
-		product_range: "Product Range",
-		image: "Image",
+		product_range: "Gama de productos",
+		image: "Imagen",
 
-		owner: "Owner",
-		country: "Country",
-		region: "Region",
-		pictures_captured: "Pictures Captured",
-		latitude: "Latitude",
-		longitude: "Longitude",
-		elevation: "Elevation",
-		no_filter: "No Filter",
+		owner: "Propietario",
+		country: "País",
+		region: "Región",
+		pictures_captured: "Imágenes capturadas",
+		latitude: "Latitud",
+		longitude: "Longitud",
+		elevation: "Elevación",
+		no_filter: "Sin filtro",
 
-		new_observatory: "New Observatory",
+		new_observatory: "Nuevo observatorio",
 
-		go_back: "Go Back",
-		go_home: "Go back to Home",
-		go_to_feed: "Go to Feed",
-		go_to_users: "Go to Users",
-		go_to_equipment: "Go to Equipment",
-		go_to_observatories: "Go to Observatories",
-		absent_page: "Oops! The page you're looking for doesn't exist.",
-		absent_user: "Oops! The user you're looking for doesn't exist.",
+		go_back: "Regresar",
+		go_home: "Volver a Inicio",
+		go_to_feed: "Ir al Feed",
+		go_to_users: "Ir a Usuarios",
+		go_to_equipment: "Ir a Equipos",
+		go_to_observatories: "Ir a Observatorios",
+		absent_page: "¡Ups! La página que buscas no existe.",
+		absent_user: "¡Ups! El usuario que buscas no existe.",
 
-		imaging: "Imaging",
-		engage: "Engage",
-		trash: "Trash",
-		unpublish: "Unpublish",
+		imaging: "Imágenes",
+		engage: "Participar",
+		trash: "Papelera",
+		unpublish: "Despublicar",
 
-		duplicate: "Duplicate",
-		blacklist: "Blacklist",
-		ban: "Ban",
-		delete: "Delete",
-		manufacturer_tip_title: "Adding New Equipment Manufacturers",
+		duplicate: "Duplicar",
+		blacklist: "Lista negra",
+		ban: "Prohibir",
+		delete: "Borrar", // Already translated
+		manufacturer_tip_title: "Agregar nuevos fabricantes de equipos",
 		manufacturer_tip_section_1:
-			"When adding new manufacturers, enter only the manufacturer name (e.g., Canon, Meade) in this section.",
+			"Al agregar nuevos fabricantes, ingrese solo el nombre del fabricante (por ejemplo, Canon, Meade) en esta sección.",
 		manufacturer_tip_section_2:
-			"Specific models (like Meade LX200) should be added later through the manufacturer's dedicated page.",
+			"Los modelos específicos (como Meade LX200) deben agregarse más tarde a través de la página dedicada del fabricante.",
 		delete_post_description:
-			"Are you sure you want to delete this post? This action cannot be undone and all associated comments will also be removed.",
+			"¿Está seguro de que desea eliminar esta publicación? Esta acción no se puede deshacer y todos los comentarios asociados también se eliminarán.",
 	},
 	darkLibrary: {
 		title: "Biblioteca oscura",
@@ -348,9 +348,9 @@ const es = {
 		alert_agree_reset_body:
 			"¿Estás segura de que quieres restablecer todos los logros?",
 
-		no_description: "No description",
-		complete_tour_guide: "Complete Tour Guide",
-		file_stored: "File Stored",
+		no_description: "Sin descripción",
+		complete_tour_guide: "Completar guía turística",
+		file_stored: "Archivo almacenado",
 	},
 	tourGuide: {
 		tour_guide: "Guía turístico",
@@ -390,95 +390,96 @@ const es = {
 		title_target_action: "Acción objetivo",
 		title_stella_prompt: "Stella pronta",
 
-		title_focus_initial: "Current Position",
-		title_focus_steps: "Target Position",
-		title_focus_size: "Step Size",
+		title_focus_initial: "Posición actual",
+		title_focus_steps: "Posición objetivo",
+		title_focus_size: "Tamaño del paso",
 
-		title_basic_paa: "Basic Mode",
+		title_basic_paa: "Modo básico",
 		description_basic_paa:
-			"Basic mode is a streamlined workflow for astrophotography beginners.",
-		title_basic_controls: "Workflow steps",
-		description_basic_controls: "Navigate to any workflow step at any time.",
-		title_toggle_mode: "Mode Switch",
-		description_toggle_mode: "Switch between Expert & Basic modes.",
+			"El modo básico es un flujo de trabajo simplificado para principiantes en astrofotografía.",
+		title_basic_controls: "Pasos del flujo de trabajo",
+		description_basic_controls:
+			"Navegue a cualquier paso del flujo de trabajo en cualquier momento.",
+		title_toggle_mode: "Cambiar modo",
+		description_toggle_mode: "Cambiar entre los modos Experto y Básico.",
 
-		title_paa_controls: "Polar Alignment controls",
-		description_paa_controls: "Toggle Polar Alignment and Park Mount",
+		title_paa_controls: "Controles de alineación polar",
+		description_paa_controls: "Alternar alineación polar y aparcar montura",
 
-		title_paa_message: "Guided instructions",
+		title_paa_message: "Instrucciones guiadas",
 		description_paa_message:
-			"Follow guided steps until Polar Alignment is complete.",
+			"Siga los pasos guiados hasta que se complete la alineación polar.",
 
-		title_targets_mode: "Targets Selection",
+		title_targets_mode: "Selección de objetivos",
 		description_targets_mode:
-			"Search for astronomical objects across different classes. View altitude vs. time charts and observability data for any celestial target.",
+			"Busque objetos astronómicos de diferentes clases. Vea gráficos de altitud frente a tiempo y datos de observabilidad para cualquier objetivo celeste.",
 
-		title_overlay_type: "Object Class",
+		title_overlay_type: "Clase de objeto",
 		description_overlay_type:
-			"Select object classes to view celestial targets sorted by magnitude.",
+			"Seleccione clases de objetos para ver objetivos celestes ordenados por magnitud.",
 
-		title_target_chart: "Altitude vs Time",
+		title_target_chart: "Altitud vs Tiempo",
 		description_target_chart:
-			"Shows Altitude vs Time graph with GO button to slew and center target.",
+			"Muestra el gráfico de Altitud vs Tiempo con el botón IR para girar y centrar el objetivo.",
 
-		title_basic_focus: "Focus your target",
+		title_basic_focus: "Enfoca tu objetivo",
 		description_basic_focus:
-			"Use electronic focuser for crisp images or focus manually while monitoring HFR chart (lower is better).",
+			"Utilice un enfocador electrónico para obtener imágenes nítidas o enfoque manualmente mientras monitorea el gráfico HFR (cuanto más bajo, mejor).",
 
-		title_focus_settings: "Focus Controls",
+		title_focus_settings: "Controles de enfoque",
 		description_focus_settings:
-			"Frame target with clearly resolvable stars using loop button. Set appropriate step size, then press play for fine autofocus.",
+			"Encuadre el objetivo con estrellas claramente resolubles usando el botón de bucle. Establezca el tamaño de paso apropiado, luego presione reproducir para un enfoque automático fino.",
 
-		title_focus_graph: "Focus Graph",
+		title_focus_graph: "Gráfico de enfoque",
 		description_focus_graph:
-			"View Half-Flux-Radius (HFR) vs Step chart showing focus quality. Autofocus creates a V-curve to find the Critical-Focus-Zone (CFZ). When looping, the HFR is plotted for each exposure.",
+			"Vea el gráfico de Radio de Flujo Medio (HFR) vs Paso que muestra la calidad del enfoque. El enfoque automático crea una curva en V para encontrar la Zona de Enfoque Crítico (CFZ). Al realizar un bucle, se traza el HFR para cada exposición.",
 
-		title_focus_image: "Focus Image",
+		title_focus_image: "Imagen de enfoque",
 		description_focus_image:
-			"Monitor star sharpness in focus image. Toggle full screen for detailed view.",
+			"Supervise la nitidez de las estrellas en la imagen de enfoque. Active la pantalla completa para una vista detallada.",
 
 		description_targets_fov:
-			"Displays camera FOV indicator over target with size (arcmin) in top corner and orientation (degrees) in top-right.",
+			"Muestra el indicador de campo de visión (FOV) de la cámara sobre el objetivo con el tamaño (arcmin) en la esquina superior y la orientación (grados) en la esquina superior derecha.",
 
-		title_basic_guide: "Auto Guiding",
+		title_basic_guide: "Autoguiado",
 		description_basic_guide:
-			"Use guide scope or Off-Axis guider to help Ekos keep targets centered during long-exposure imaging.",
+			"Utilice un telescopio guía o un guiador fuera de eje para ayudar a Ekos a mantener los objetivos centrados durante la toma de imágenes de larga exposición.",
 
-		title_guide_controls: "Guide Controls",
-		description_guide_controls:
-			"Adjust guide camera settings and use framing button to ensure stars are resolvable. Set Guide-Via to mount (default) or ST4. Press play to start calibration and autoguiding.",
+		title_guide_controls: "Controles de guía",
+		description_basic_guide_controls:
+			"Ajuste la configuración de la cámara guía y use el botón de encuadre para asegurarse de que las estrellas sean resolubles. Establezca Guía a través de montura (predeterminado) o ST4. Presione reproducir para iniciar la calibración y el autoguiado.",
 
-		title_guide_chart: "Guide Chart",
+		title_guide_chart: "Gráfico de guía",
 		description_guide_chart:
-			"Guide trend graph showing tracking accuracy with RMS errors for RA (Green), DEC (Blue), and total (Red) over time.",
+			"Gráfico de tendencia de guía que muestra la precisión del seguimiento con errores RMS para AR (verde), DEC (azul) y total (rojo) a lo largo del tiempo.",
 
-		title_guide_image: "Guide Image",
+		title_guide_image: "Imagen guía",
 		description_guide_image:
-			"Guide image with multi-star tracking overlay. Toggle full screen for detailed view.",
+			"Imagen guía con superposición de seguimiento multiestrella. Active la pantalla completa para una vista detallada.",
 
-		title_basic_capture: "Capture Planner",
+		title_basic_capture: "Planificador de captura",
 		description_basic_capture:
-			"Configure image capture settings (exposure, filter, binning, etc.) and add to your sequence. Press play to begin capturing your imaging targets.",
+			"Configure los ajustes de captura de imágenes (exposición, filtro, binning, etc.) y agréguelos a su secuencia. Presione reproducir para comenzar a capturar sus objetivos de imagen.",
 
-		title_capture_controls: "Capture Controls",
+		title_capture_controls: "Controles de captura",
 		description_capture_controls:
-			"Configure capture settings, set count, then press add to include in sequence queue.",
+			"Configure los ajustes de captura, establezca el recuento y luego presione agregar para incluir en la cola de secuencia.",
 
-		title_manage_sequences: "Manage sequqences",
+		title_manage_sequences: "Administrar secuencias",
 		description_manage_sequences:
-			"Save, Load, Delete and Organize your imaging sequences",
+			"Guarde, cargue, elimine y organice sus secuencias de imágenes",
 
-		title_capture_actions: "Capture actions",
+		title_capture_actions: "Acciones de captura",
 		description_capture_actions:
-			"Press play to start imaging sequence. Toggle live-stacking for real-time combined images while preserving individual frames.",
+			"Presione reproducir para iniciar la secuencia de imágenes. Active el apilamiento en vivo para obtener imágenes combinadas en tiempo real mientras conserva los fotogramas individuales.",
 
-		title_summary: "Summary",
+		title_summary: "Resumen",
 		description_summary:
-			"Monitor all operations (guide, focus, align, capture) and view captured images in one display.",
+			"Supervise todas las operaciones (guía, enfoque, alineación, captura) y vea las imágenes capturadas en una sola pantalla.",
 
-		title_histogram: "Toggle Histogram",
+		title_histogram: "Alternar histograma",
 		description_histogram:
-			"Toggle histogram view. Adjust shadows, midtones, and highlights for sequence images only (not for livestacked images).",
+			"Alternar vista de histograma. Ajuste sombras, medios tonos y luces altas solo para imágenes de secuencia (no para imágenes apiladas en vivo).",
 
 		description_devices_list:
 			"Esta es la lista de unidades StellarMate detectadas automáticamente y agregadas manualmente. Toque RESCAN para detectar nuevas unidades StellarMate en la red.",
@@ -534,7 +535,7 @@ const es = {
 			"Magnitud del objeto, tiempos de salida, tránsito y puesta.",
 		description_fov: "Toque para ingresar al modo Asistente de encuadre.",
 		description_target_action:
-			"Add target to favorites or custom list. Command a GOTO only or a GOTO followed by capture and solve. If Ekos is offline, schedule the target.",
+			"Agregar objetivo a favoritos o lista personalizada. Comandar solo GOTO o GOTO seguido de captura y resolución. Si Ekos está fuera de línea, programar el objetivo.",
 		alert_guided_tour_title:
 			"Realice una visita guiada por las funciones de la aplicación Stellarmate",
 
@@ -547,71 +548,76 @@ const es = {
 		description_stella_other_function:
 			"También puedes interactuar con Stella usando la voz y adjuntar archivos.",
 		description_align_paa:
-			"Polar align your equatorial mount to achieve better tracking & guiding.",
-		description_align_load: "Load and Plate Solve an image (JPG, FITS, XISF)",
+			"Alinee polarmente su montura ecuatorial para lograr un mejor seguimiento y guiado.",
+		description_align_load:
+			"Cargar y resolver placa de una imagen (JPG, FITS, XISF)",
 		description_align_controls:
-			"You can view Align Chart, Image, Settings and Quick Access Settings. You can also start Aligning",
-		description_align_solution: "Plate solving solution",
+			"Puede ver el gráfico de alineación, la imagen, la configuración y la configuración de acceso rápido. También puede iniciar la alineación",
+		description_align_solution: "Solución de resolución de placas",
 
-		description_focus_initial: "Current focuser position and Focus Advisor",
-		description_focus_steps: "Target position",
-		description_focus_size: "Steps size when running autofocus",
-		description_focus_exposure: "Exposure duration and Framing toggle",
+		description_focus_initial:
+			"Posición actual del enfocador y Asesor de enfoque",
+		description_focus_steps: "Posición objetivo",
+		description_focus_size:
+			"Tamaño de los pasos al ejecutar el enfoque automático",
+		description_focus_exposure:
+			"Duración de la exposición y alternancia de encuadre",
 		description_focus_controls:
-			"You can view Focus Chart, Image, Settings and Quick Access Settings. You can also start Focusing",
+			"Puede ver el gráfico de enfoque, la imagen, la configuración y la configuración de acceso rápido. También puede iniciar el enfoque",
 
-		description_guide_camera: "Capture and Loop",
-		description_guide_status: "Guiding Status",
+		description_guide_camera: "Capturar y repetir",
+		description_guide_status: "Estado de guiado",
 		description_guide_controls:
-			"You can view Guide Chart, Image, Settings and Quick Access Settings. You can also start Guiding",
+			"Puede ver el gráfico de guía, la imagen, la configuración y la configuración de acceso rápido. También puede iniciar el guiado",
 
-		description_search_filter: "Filter by metadata.",
-		description_search_live: "Search by name.",
-		description_feed_all: "Displays posts from all users.",
-		description_feed_following: "Displays posts from users you are following.",
-		description_feed_saved: "Displays bookmarked posts.",
-		description_feed_add: "Add a new post.",
+		description_search_filter: "Filtrar por metadatos.",
+		description_search_live: "Buscar por nombre.",
+		description_feed_all: "Muestra publicaciones de todos los usuarios.",
+		description_feed_following:
+			"Muestra publicaciones de los usuarios a los que sigues.",
+		description_feed_saved: "Muestra publicaciones marcadas.",
+		description_feed_add: "Agregar una nueva publicación.",
 		description_profile_posts:
-			"This tab displays your posts. Here, you can view all the posts you have created.",
-		description_profile_image: "RAW images.",
-		description_profile_achievements: "Achievements Tracker",
-		description_observatory_map: "Public Observatories map",
+			"Esta pestaña muestra tus publicaciones. Aquí puedes ver todas las publicaciones que has creado.",
+		description_profile_image: "Imágenes RAW.",
+		description_profile_achievements: "Rastreador de logros",
+		description_observatory_map: "Mapa de observatorios públicos",
 
 		initial_tour_guide: {
 			profile_general:
-				"This is your Profile page where you can manage your account settings and personal information.",
+				"Esta es tu página de perfil donde puedes administrar la configuración de tu cuenta y tu información personal.",
 			side_panel:
-				"The left-hand panel is the Main Navigation. Here, you can explore Photos, connect with other Users, and view Observatories.",
+				"El panel izquierdo es la navegación principal. Aquí puedes explorar fotos, conectarte con otros usuarios y ver observatorios.",
 			profile_page:
-				"Take a look around your profile to explore the features available for managing your account.",
+				"Echa un vistazo a tu perfil para explorar las funciones disponibles para administrar tu cuenta.",
 			profile_next:
-				"Next, check out the Feed where you can explore posts from other users.",
+				"A continuación, echa un vistazo al Feed donde puedes explorar publicaciones de otros usuarios.",
 
 			feed_general:
-				"This is the Feed, where you can view images shared by others, see your bookmarks, and upload your own photos.",
-			feed_page: "Browse posts from other users here.",
+				"Este es el Feed, donde puedes ver imágenes compartidas por otros, ver tus marcadores y subir tus propias fotos.",
+			feed_page: "Explora publicaciones de otros usuarios aquí.",
 			feed_next:
-				"Next, explore the Users page to find and connect with others.",
+				"A continuación, explora la página de Usuarios para encontrar y conectarte con otros.",
 
 			users_general:
-				"This is the Users page, where you can search for, filter, and follow other members of the community.",
-			users_page: "Discover and interact with other users here.",
+				"Esta es la página de Usuarios, donde puedes buscar, filtrar y seguir a otros miembros de la comunidad.",
+			users_page: "Descubre e interactúa con otros usuarios aquí.",
 			users_next:
-				"Next, let's visit the Equipment page to explore astronomy tools.",
+				"A continuación, visitemos la página de Equipos para explorar herramientas de astronomía.",
 
 			equipment_general:
-				"Welcome to the Equipment page, where you can browse and learn about different astronomy equipment.",
+				"Bienvenido a la página de Equipos, donde puedes explorar y aprender sobre diferentes equipos de astronomía.",
 			equipment_page:
-				"Check out the astronomy equipment types. Tap any type to list all manufacturers for this equipment type, and then tap a manufacturer to list all models.",
+				"Consulta los tipos de equipos de astronomía. Toca cualquier tipo para listar todos los fabricantes de este tipo de equipo, y luego toca un fabricante para listar todos los modelos.",
 			equipment_next:
-				"Next, explore the Observatories page to view and manage observatories.",
+				"A continuación, explora la página de Observatorios para ver y administrar observatorios.",
 
 			observatories_general:
-				"Welcome to the Observatories page! Here, you can explore observatories created by other users and manage your own.",
-			observatories_page: "View and manage observatories in this section.",
+				"¡Bienvenido a la página de Observatorios! Aquí puedes explorar observatorios creados por otros usuarios y administrar los tuyos.",
+			observatories_page: "Ver y administrar observatorios en esta sección.",
 
 			final_step:
-				"Congratulations! You've finished the tour. Now it's time to dive in and discover everything this platform has to offer.",
+				"¡Felicidades! Has terminado el recorrido. Ahora es el momento de sumergirte y descubrir todo lo que esta plataforma tiene para ofrecer.",
 		},
 	},
 	tooltip: {
@@ -1741,16 +1747,16 @@ const es = {
 		location: "Ubicacion",
 		reset_app: "Restablecer App",
 		reset_app_body: "¿Borrar todas las configuraciones de la App?",
-		metric: "Metric",
+		metric: "Métrico",
 		imperial: "Imperial",
 		file_logging: "Registro de archivos",
 		alert_delete_account_title: "Borrar cuenta",
 		alert_delete_account_body:
 			"¿Estás segura de que quieres eliminar tu cuenta?",
 		color_scheme_sky_map: "Esquema del mapa del cielo",
-		last_synced: "Last synced",
-		sync_all: "Sync All data",
-		pro_feature: "Pro feature",
+		last_synced: "Última sincronización",
+		sync_all: "Sincronizar todos los datos",
+		pro_feature: "Función Pro",
 	},
 	cloud: {
 		heading: "Visor",
@@ -1769,7 +1775,7 @@ const es = {
 			"Vaya a la configuracion y habilite la Nube para poder acceder a esta ficha.",
 		pro_plan_body:
 			"El almacenamiento en la Nube solo esta disponible para usuarios del plan Pro.",
-		reset_ekoslive: "Reset Ekoslive",
+		reset_ekoslive: "Restablecer Ekoslive",
 		alert_cannot_download_title: "No se puede descargar",
 		alert_cannot_download_body: "Hubo un error al intentar descargar.",
 		alert_confirm_delete_title: "¿Esta seguro?",
@@ -1833,7 +1839,7 @@ const es = {
 			"Gire la cámara en el ángulo indicado y luego tome una imagen para actualizar el ángulo de posición",
 		welcome: "Bienvenido a StellarMate",
 		no_logs: "No se encontraron {0} registros",
-		mount_set: "Setting home position to current position.",
+		mount_set: "Estableciendo la posición inicial en la posición actual.",
 	},
 	ekosLivePro: {
 		pushNotification: "Notificación de inserción",
@@ -1856,7 +1862,7 @@ const es = {
 			"Los registros se cargaron correctamente al soporte de StellarMate.",
 		error_upload: "Error al cargar registros",
 		reset_network: "Restablecer red",
-		release_notes: "Release Notes",
+		release_notes: "Notas de la versión",
 
 		vnc: {
 			update_password: "Actualizar contraseña de VNC",
@@ -1872,10 +1878,11 @@ const es = {
 		current: "Actual",
 		power: "Fuerza",
 		power_off: "Apagado",
-		active_antenna: "Active Antenna",
-		passive_antenna: "Passive Antenna",
+		active_antenna: "Antena activa",
+		passive_antenna: "Antena pasiva",
 		power_sleep:
 			"El dispositivo está en modo de suspensión. Toca para reactivarlo.",
+		power_off: "Apagado",
 		power_off_tooltip:
 			"Apague todos los puertos cuando el perfil del equipo esté desconectado.",
 		leds: "LEDs",
@@ -1889,8 +1896,8 @@ const es = {
 			"¿Estás segura de que quieres desactivar {0}?",
 	},
 	notifications: {
-		read_all: "Read all",
-		dnd: "Do not disturb",
+		read_all: "Leer todo",
+		dnd: "No molestar",
 		ekoslive_successful:
 			"El restablecimiento de Ekoslive se realizó correctamente",
 		ekoslive_restart: "Reiniciando Ekoslive",
@@ -1905,31 +1912,31 @@ const es = {
 		stella_xml_failure: "No se pudo generar XML",
 		stella_history_success: "Historial eliminado exitosamente",
 		stella_history_failure: "Error al eliminar el historial",
-		train_refresh: "Trains Refreshed Successfully",
+		train_refresh: "Trenes actualizados correctamente",
 	},
 	hardware: {
 		serial_devices_detected: "Dispositivos seriales detectados",
 		serial_port: "Puerto serial",
 	},
 	tabs: {
-		setup: "Setup",
+		setup: "Configuración",
 		ekos: "Ekos",
-		sky: "Sky",
-		targets: "Targets",
-		device: "Device",
+		sky: "Cielo",
+		targets: "Objetivos",
+		device: "Dispositivo",
 		stella: "Stella",
 	},
 	stella: {
 		confirm_train_settings:
-			"Cannot generate XML without capture settings. Start Ekos profile first to sync default settings.",
+			"No se puede generar XML sin configuración de captura. Inicie primero el perfil de Ekos para sincronizar la configuración predeterminada.",
 		confirm_ekos_running:
-			"Please check the Ekos profile. Ekos must be online to continue",
+			"Verifique el perfil de Ekos. Ekos debe estar en línea para continuar",
 		confirm_ekos_running_question:
-			"This functionality requires Ekos Profile to be running. Would you like me to start the default profile?",
-		action_in_progress: "Action in progress",
-		action_completed: "Action completed successfully",
-		confirm: "Confirm Response",
-		narrate: "Narrate Response",
+			"Esta funcionalidad requiere que el perfil de Ekos esté en ejecución. ¿Desea iniciar el perfil predeterminado?",
+		action_in_progress: "Acción en progreso",
+		action_completed: "Acción completada exitosamente",
+		confirm: "Confirmar respuesta",
+		narrate: "Narrar respuesta",
 		notifications: {
 			objects: "Stella ha encontrado algunos objetos interesantes.",
 			failed:
@@ -1965,58 +1972,59 @@ const es = {
 		},
 	},
 	social: {
-		social_profile: "Social Profile",
-		captures: "Captures",
-		followers: "Followers",
-		subscriptions: "Subscriptions",
-		following: "Following",
-		follow: "Follow",
-		unfollow: "Unfollow",
+		social_profile: "Perfil social",
+		captures: "Capturas",
+		followers: "Seguidores",
+		subscriptions: "Suscripciones",
+		following: "Siguiendo",
+		follow: "Seguir",
+		unfollow: "Dejar de seguir",
 		report_abuse: {
-			title: "Report abuse",
-			description: "Please specify a reason for this abuse report.",
+			title: "Reportar abuso",
+			description:
+				"Por favor, especifique un motivo para este informe de abuso.",
 			reason: {
-				spam: "The content is filled with irrelevant or repetitive messages.",
+				spam: "El contenido está lleno de mensajes irrelevantes o repetitivos.",
 				hate_speech:
-					"The content contains racist, sexist, or otherwise discriminatory language.",
+					"El contenido contiene lenguaje racista, sexista u otro tipo de lenguaje discriminatorio.",
 				inappropriate_content:
-					"The post contains explicit, offensive, or NSFW material.",
-				impersonation: "The user is pretending to be someone they are not.",
+					"La publicación contiene material explícito, ofensivo o NSFW.",
+				impersonation: "El usuario se hace pasar por alguien que no es.",
 				violation_of_terms:
-					"The content violates the platform's terms of service or community guidelines.",
+					"El contenido viola los términos de servicio o las pautas de la comunidad de la plataforma.",
 				privacy_violation:
-					"The content includes personal information without consent.",
-				wrong_image: "The image is incorrect",
-				wrong_metadata: "The metadata is incorrect",
+					"El contenido incluye información personal sin consentimiento.",
+				wrong_image: "La imagen es incorrecta",
+				wrong_metadata: "Los metadatos son incorrectos",
 			},
 		},
 		comment: {
-			comments: "Comments",
-			no_comment: "There is no Comment.",
+			comments: "Comentarios",
+			no_comment: "No hay comentarios.",
 		},
-		new_post: "New Post",
-		public_directory: "Public Directory",
-		community: "Community",
-		no_observatories: "No public observatories found",
-		fine_location: "Fine Location",
-		coarse_location: "Coarse Location",
+		new_post: "Nueva publicación",
+		public_directory: "Directorio público",
+		community: "Comunidad",
+		no_observatories: "No se encontraron observatorios públicos",
+		fine_location: "Ubicación precisa",
+		coarse_location: "Ubicación aproximada",
 	},
 	menu: {
-		go_to_profile: "Profile",
-		go_to_equipment: "Equipment",
-		go_to_moderation: "Moderation",
-		manage_subscriptions: "Subscriptions",
-		go_to_dashboard: "Dashboard",
+		go_to_profile: "Perfil",
+		go_to_equipment: "Equipo",
+		go_to_moderation: "Moderación",
+		manage_subscriptions: "Suscripciones",
+		go_to_dashboard: "Tablero",
 	},
 	wizard: {
-		software_title: "Which imaging software do you use?",
-		hardware_title: "What hardware plaforms do you use?",
-		imaging_title: "What do you like to image?",
+		software_title: "¿Qué software de imágenes utiliza?",
+		hardware_title: "¿Qué plataformas de hardware utiliza?",
+		imaging_title: "¿Qué le gusta fotografiar?",
 	},
 	ekoslive: {
 		info: {
-			drag: "Drag & drop a file here, or click to select a file",
-			selected: "File has been selected",
+			drag: "Arrastre y suelte un archivo aquí, o haga clic para seleccionar un archivo",
+			selected: "El archivo ha sido seleccionado",
 		},
 	},
 };
