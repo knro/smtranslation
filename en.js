@@ -403,7 +403,8 @@ const en = {
 		description_toggle_mode: "Switch between Expert & Basic modes.",
 
 		title_paa_controls: "Polar Alignment controls",
-		description_paa_controls: "Toggle Polar Alignment and Park Mount",
+		description_paa_controls:
+			"Ekos will rotate mount twice for polar alignment. Set speed, angle, and direction (W/E). Toggle for manual mount if no GOTO capabilities. Press play to begin.",
 
 		title_paa_message: "Guided instructions",
 		description_paa_message:
@@ -438,14 +439,14 @@ const en = {
 			"Monitor star sharpness in focus image. Toggle full screen for detailed view.",
 
 		description_targets_fov:
-			"Displays camera FOV indicator over target with size (arcmin) in top corner and orientation (degrees) in top-right.",
+			"Displays camera FOV indicator over target with size (arcmin) in top-left corner and orientation (degrees) in top-right.",
 
 		title_basic_guide: "Auto Guiding",
 		description_basic_guide:
 			"Use guide scope or Off-Axis guider to help Ekos keep targets centered during long-exposure imaging.",
 
 		title_guide_controls: "Guide Controls",
-		description_guide_controls:
+		description_basic_guide_controls:
 			"Adjust guide camera settings and use framing button to ensure stars are resolvable. Set Guide-Via to mount (default) or ST4. Press play to start calibration and autoguiding.",
 
 		title_guide_chart: "Guide Chart",
