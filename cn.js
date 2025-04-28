@@ -1,4 +1,4 @@
-﻿﻿﻿﻿const cn = {
+﻿﻿const cn = {
 	general: {
 		home: "主页",
 		next: "下一项",
@@ -64,7 +64,7 @@
 		automatic: "自动",
 		manual: "手动",
 		progress: "进度",
-		position_angle: "位置角 (PA)",
+		position_angle: "方位角 (PA)",
 		details: "细节",
 		skip: "跳过",
 		updated: "已更新",
@@ -445,8 +445,7 @@
 		description_overlay_type: "选择目标类别以查看按星等排序的天体目标。",
 
 		title_target_chart: "高度 vs 时间",
-		description_target_chart:
-			"显示高度与时间图表，带有 GO 按钮以移动并居中目标。",
+		description_target_chart: "显示高度与时间图表，带有 GO 按钮以移动并居中目标。",
 
 		title_basic_focus: "对焦目标",
 		description_basic_focus:
@@ -461,8 +460,7 @@
 			"查看半峰全宽 (HFR) 与步长图表，显示对焦质量。自动对焦创建 V 形曲线以找到临界对焦区 (CFZ)。循环时，会绘制每次曝光的 HFR。",
 
 		title_focus_image: "对焦图像",
-		description_focus_image:
-			"监控对焦图像中星点的清晰度。切换全屏以查看详细视图。",
+		description_focus_image: "监控对焦图像中星点的清晰度。切换全屏以查看详细视图。",
 
 		description_targets_fov:
 			"在目标上方显示相机视场指示器，左上角为尺寸（角分），右上角为方向（度）。",
@@ -508,14 +506,12 @@
 
 		description_devices_list:
 			"自动发现和手动添加的StellarMate设备列表。单击重新扫描以检测网络上的新StellarMate设备。",
-		description_device_actions:
-			"从列表中删除设备，执行恢复出厂设置或注销操作。",
+		description_device_actions: "从列表中删除设备，执行恢复出厂设置或注销操作。",
 		description_profiles:
 			"在设备配置文件中管理天文设备。必须在启动配置文件前将所有设备接通并连接到StellarMate。开始配置文件后，请使用光路配置来配置每个设备的功能，然后单击Ekos按钮开始天体摄影会话。",
 		description_port_selector:
 			"在首次启动配置文件后，选择您设备的串口和/或网络设置。",
-		description_trains:
-			"使用视场配置来管理您的设备。为每个相机创建一个配置文件。",
+		description_trains: "使用视场配置来管理您的设备。为每个相机创建一个配置文件。",
 		description_weather_bar: "简要的天气报告和当前站点波尔特暗夜等级",
 		description_cloud_report: "云量超过3小时。",
 		description_next:
@@ -523,10 +519,8 @@
 
 		description_focus: "使用电调进行对焦。",
 		description_align: "通过解析图像获取当前指向坐标，使望远镜精确对准目标。",
-		description_guide:
-			"跟踪您的目标，保持赤道仪锁定，并使其能够进行长时间曝光。",
-		description_capture:
-			"使用可配置的设置创建图像序列。管理滤镜轮和暗场存储库。",
+		description_guide: "跟踪您的目标，保持赤道仪锁定，并使其能够进行长时间曝光。",
+		description_capture: "使用可配置的设置创建图像序列。管理滤镜轮和暗场存储库。",
 		description_mount: "切换跟踪，归位和中天翻转设置。配置自动零位。",
 		description_observatory: "控制圆顶和防尘盖设备。",
 		description_scheduler:
@@ -545,8 +539,7 @@
 			"目标管理器是StellarMate规划工具，可简化观测操作。从数千个天体中搜索并使用简单的标准进行过滤。使用定位助手定位您的目标。",
 		description_search_bar:
 			"过滤现有清单中的对象或通过输入名称并单击搜索按钮来搜索新对象。",
-		description_time_controls:
-			"如果Ekos处于离线状态，请调整目标日期和时间计算。",
+		description_time_controls: "如果Ekos处于离线状态，请调整目标日期和时间计算。",
 		description_target_controls:
 			"查看黄昏信息，管理视场范围，调整滤镜并选择目标类型。",
 		description_object_info: "物体大小、上升、过境和设置时间。",
@@ -560,8 +553,7 @@
 		description_stella_example: "查看示例提示。",
 		description_stella_chat: "查看聊天记录。",
 		description_stella_input: "输入你的提示以请求任务或检索数据。",
-		description_stella_other_function:
-			"你还可以通过语音与 Stella 互动并附加文件。",
+		description_stella_other_function: "你还可以通过语音与 Stella 互动并附加文件。",
 		description_align_paa: "极轴校准您的赤道仪，以实现更好的追踪和导星性能。",
 		description_align_load: "加载并板Solve一张图像（JPG、FITS、XISF）。",
 		description_align_controls:
@@ -593,8 +585,7 @@
 		description_observatory_map: "公共天文台地图。",
 
 		initial_tour_guide: {
-			profile_general:
-				"这是您的个人资料页面，您可以在此管理账户设置和个人信息。",
+			profile_general: "这是您的个人资料页面，您可以在此管理账户设置和个人信息。",
 			side_panel:
 				"左侧面板是主导航。在这里，您可以浏览照片、与其他用户互动，以及查看天文台信息。",
 			profile_page: "浏览您的个人资料，探索可用于管理账户的功能。",
@@ -605,13 +596,11 @@
 			feed_page: "在这里浏览其他用户的帖子。",
 			feed_next: "接下来，探索用户页面，寻找并与其他人互动。",
 
-			users_general:
-				"这是用户页面，您可以在这里搜索、筛选并关注社区中的其他成员。",
+			users_general: "这是用户页面，您可以在这里搜索、筛选并关注社区中的其他成员。",
 			users_page: "在这里发现并与其他用户互动。",
 			users_next: "接下来，让我们访问设备页面，探索天文工具。",
 
-			equipment_general:
-				"欢迎来到设备页面，在这里您可以浏览并了解各种天文设备。",
+			equipment_general: "欢迎来到设备页面，在这里您可以浏览并了解各种天文设备。",
 			equipment_page:
 				"查看天文设备类型。点击任一类型可列出该类型设备的所有制造商，然后点击制造商以查看所有型号。",
 			equipment_next: "接下来，探索天文台页面以查看和管理天文台。",
@@ -620,8 +609,7 @@
 				"欢迎来到天文台页面！在这里，您可以浏览其他用户创建的天文台并管理您自己的天文台。",
 			observatories_page: "在此部分查看和管理天文台。",
 
-			final_step:
-				"恭喜！您已完成导览。现在是时候深入探索这个平台所提供的一切了。",
+			final_step: "恭喜！您已完成导览。现在是时候深入探索这个平台所提供的一切了。",
 		},
 	},
 	tooltip: {
@@ -650,8 +638,7 @@
 			"•只在格式的文件名部分使用%Datetime标记，而不在路径定义中使用。",
 		format_title: "使用占位符标记来定义图像文件名的格式。",
 		suffix: "用于在文件名中附加序列号的数字位数。",
-		paa_desc:
-			"在极轴对准过程中使用解析法。解析速度较慢，但可以提供更准确的结果。",
+		paa_desc: "在极轴对准过程中使用解析法。解析速度较慢，但可以提供更准确的结果。",
 		plate_solving:
 			"使用解析获取校准过程中的指向偏差。用户应尝试减少下面更新错误行中的误差并最小化偏移。",
 		mount_info: "赤道仪转动并计算误差",
@@ -1132,7 +1119,7 @@
 		},
 		capture_file: {
 			filename: "文件名",
-			heading: "文件设置",
+			heading: "标题",
 			prefix: "前缀",
 			script: "脚本",
 			directory: "目录",
@@ -1297,8 +1284,8 @@
 			min_alt: "最小高度",
 			max_alt: "最大高度",
 			enable_alt_limits: "启用高度限制",
-			enable_ha_limits: "启用HA限制",
-			max_ha: "最大HA（小时）",
+			enable_ha_limits: "启用时角限制",
+			max_ha: "最大时角（时）",
 			clear_model: "清除模型",
 			east: "东",
 			west: "西",
@@ -1308,8 +1295,8 @@
 			reverse_WE: "反转西/东",
 			time_source: "时间源",
 			location_source: "位置源",
-			enter_coordinates: "Enter Coordinates",
-			select_target: "Select Target",
+			enter_coordinates: "输入坐标",
+			select_target: "选择目标",
 		},
 		modal_add_to_seq: {
 			heading: "添加到序列",
@@ -1420,11 +1407,9 @@
 				weather_grace_tooltip:
 					"启用基于天气的调度：在天气警告或警报期间阻止新作业启动。现有作业在警告期间继续，但在警报期间中止。系统启动软关机并等待条件改善或宽限期到期，之后当前作业将终止。",
 				dusk_offset: "黄昏抵消",
-				dusk_offset_tooltip:
-					"用这么多小时抵消天文黄昏。此正值或负值可调整微光限制。",
+				dusk_offset_tooltip: "用这么多小时抵消天文黄昏。此正值或负值可调整微光限制。",
 				dawn_offset: "黎明抵消",
-				dawn_offset_tooltip:
-					"用这么多小时抵消天文黎明。此正值或负值可调整微光限制。",
+				dawn_offset_tooltip: "用这么多小时抵消天文黎明。此正值或负值可调整微光限制。",
 
 				stop_ekos: "关机后停止Ekos",
 				stop_ekos_tooltip: "成功执行关闭程序后，停止INDI和Ekos。",
@@ -1432,8 +1417,7 @@
 				shutdown_script_tooltip:
 					"如果关闭脚本终止INDI服务器，请启用此选项，以便不会生成断开连接错误。",
 				remember_job: "记住任务进度",
-				remember_job_tooltip:
-					"在处理预定任务时，从存储中的最后一张图像开始恢复序列。",
+				remember_job_tooltip: "在处理预定任务时，从存储中的最后一张图像开始恢复序列。",
 				execute_job: "始终执行启动任务",
 				execute_job_tooltip:
 					"观测站启动脚本通常仅在Ekos离线时执行。启用此选项，即可在调度器启动时随时启动它。",
@@ -1642,7 +1626,7 @@
 		sounds: "声音",
 		cloud_storage: "云存储",
 		limit_cloud_storage:
-			"Limited Storage. Upgrade to Pro/Ultimate for up to 10GB/1000GB storage ",
+			"存储空间有限。升级到Pro/Ultimate获得高达10GB/1000GB的存储空间",
 		auto_sync: "自动同步",
 		location: "位置",
 		reset_app: "重置App",
@@ -1816,8 +1800,7 @@
 		narrate: "叙述响应",
 		notifications: {
 			objects: "Stella 发现了一些有趣的天体",
-			failed:
-				"这次 Stella 没有找到任何东西。你可以尝试扩大搜索条件或调整筛选器吗？",
+			failed: "这次 Stella 没有找到任何东西。你可以尝试扩大搜索条件或调整筛选器吗？",
 			pending: "处理中...",
 			XML: {
 				pending: "正在生成 XML...",
