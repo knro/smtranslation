@@ -92,6 +92,8 @@ const fr = {
 		basic: "Basique",
 		expert: "Expert",
 		position: "Position",
+		restore: "Restore",
+		backup: "Backup",
 
 		azimuth: "Azimut",
 		altitude: "Altitude",
@@ -1831,6 +1833,8 @@ const fr = {
 		error_upload: "Erreur lors du téléchargement des journaux",
 		reset_network: "Réinitialiser le réseau",
 		release_notes: "Notes de version",
+		previous_backup: "Previous backups",
+		cloud_backup: "Cloud backup",
 
 		vnc: {
 			update_password: "Mettre à jour le mot de passe VNC",
@@ -1877,6 +1881,10 @@ const fr = {
 		stella_history_success: "Historique supprimé avec succès.",
 		stella_history_failure: "Erreur lors de la suppression de l'historique",
 		train_refresh: "Trains actualisés avec succès",
+		backup_successful: "Backup Created Successfully",
+		uploading_s3: "Cloud upload...",
+		restoring: "Restoring...",
+		restore_successful: "Restore successful",
 	},
 	hardware: {
 		serial_devices_detected: "Appareils série détectés",
