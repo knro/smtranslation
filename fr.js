@@ -1882,7 +1882,7 @@ const fr = {
 		stella_history_failure: "Erreur lors de la suppression de l'historique",
 		train_refresh: "Trains actualisés avec succès",
 		backup_successful: "Backup Created Successfully",
-		uploading_s3: "Uploading to S3...",
+		uploading_s3: "Cloud upload...",
 		restoring: "Restoring...",
 		restore_successful: "Restore successful",
 	},

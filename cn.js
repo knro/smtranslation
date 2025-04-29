@@ -1796,7 +1796,7 @@
 		stella_history_failure: "删除历史记录时出错",
 		train_refresh: "训练记录刷新成功",
 		backup_successful: "Backup Created Successfully",
-		uploading_s3: "Uploading to S3...",
+		uploading_s3: "Cloud upload...",
 		restoring: "Restoring...",
 		restore_successful: "Restore successful",
 	},

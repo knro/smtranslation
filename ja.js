@@ -1857,7 +1857,7 @@ const ja = {
 		stella_history_failure: "履歴の削除中にエラーが発生しました",
 		train_refresh: "トレインが正常に更新されました",
 		backup_successful: "Backup Created Successfully",
-		uploading_s3: "Uploading to S3...",
+		uploading_s3: "Cloud upload...",
 		restoring: "Restoring...",
 		restore_successful: "Restore successful",
 	},

@@ -1857,7 +1857,7 @@ const de = {
 		stella_history_failure: "Fehler beim löschen des Verlaufs",
 		train_refresh: "Züge erfolgreich aktualisiert",
 		backup_successful: "Backup Created Successfully",
-		uploading_s3: "Uploading to S3...",
+		uploading_s3: "Cloud upload...",
 		restoring: "Restoring...",
 		restore_successful: "Restore successful",
 	},
