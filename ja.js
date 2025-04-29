@@ -92,6 +92,8 @@ const ja = {
 		basic: "基本",
 		expert: "エキスパート",
 		position: "位置",
+		restore: "Restore",
+		backup: "Backup",
 
 		azimuth: "方位",
 		altitude: "高度",
@@ -1808,6 +1810,8 @@ const ja = {
 		error_upload: "ログのアップロードエラー",
 		reset_network: "ネットワークをリセット",
 		release_notes: "リリースノート",
+		previous_backup: "Previous backups",
+		cloud_backup: "Cloud backup",
 
 		vnc: {
 			update_password: "VNCパスワードを更新",
@@ -1852,6 +1856,10 @@ const ja = {
 		stella_history_success: "履歴が正常に削除されました。",
 		stella_history_failure: "履歴の削除中にエラーが発生しました",
 		train_refresh: "トレインが正常に更新されました",
+		backup_successful: "Backup Created Successfully",
+		uploading_s3: "Uploading to S3...",
+		restoring: "Restoring...",
+		restore_successful: "Restore successful",
 	},
 	hardware: {
 		serial_devices_detected: "シリアルデバイスが検出されました",

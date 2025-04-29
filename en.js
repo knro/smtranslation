@@ -92,6 +92,8 @@ const en = {
 		basic: "Basic",
 		expert: "Expert",
 		position: "Position",
+		restore: "Restore",
+		backup: "Backup",
 
 		azimuth: "Azimuth",
 		altitude: "Altitude",
@@ -1838,6 +1840,8 @@ const en = {
 		error_upload: "Error uploading logs",
 		reset_network: "Reset network",
 		release_notes: "Release Notes",
+		previous_backup: "Previous backups",
+		cloud_backup: "Cloud backup",
 
 		vnc: {
 			update_password: "Update VNC Password",
@@ -1884,6 +1888,10 @@ const en = {
 		stella_history_success: "History deleted successfully.",
 		stella_history_failure: "Error deleting history",
 		train_refresh: "Trains Refreshed Successfully",
+		backup_successful: "Backup Created Successfully",
+		uploading_s3: "Uploading to S3...",
+		restoring: "Restoring...",
+		restore_successful: "Restore successful",
 	},
 	hardware: {
 		serial_devices_detected: "Serial Devices Detected",
