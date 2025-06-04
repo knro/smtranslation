@@ -1860,6 +1860,8 @@ const ja = {
 		uploading_s3: "Cloud upload...",
 		restoring: "Restoring...",
 		restore_successful: "Restore successful",
+		close_warning:
+			"Please do not close the window until the progress is completed.",
 	},
 	hardware: {
 		serial_devices_detected: "シリアルデバイスが検出されました",
