@@ -94,8 +94,6 @@ const ja = {
 		position: "位置",
 		restore: "Restore",
 		backup: "Backup",
-		operation: "Operation",
-		successful: "Successful",
 
 		azimuth: "方位",
 		altitude: "高度",

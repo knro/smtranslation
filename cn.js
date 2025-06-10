@@ -94,8 +94,6 @@
 		position: "位置",
 		restore: "Restore",
 		backup: "Backup",
-		operation: "Operation",
-		successful: "Successful",
 
 		azimuth: "方位角",
 		altitude: "高度角",

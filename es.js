@@ -92,8 +92,6 @@ const es = {
 		position: "Posición",
 		restore: "Restore",
 		backup: "Backup",
-		operation: "Operation",
-		successful: "Successful",
 
 		azimuth: "Azimut",
 		altitude: "Altitud",

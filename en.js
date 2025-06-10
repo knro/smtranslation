@@ -94,10 +94,6 @@ const en = {
 		position: "Position",
 		restore: "Restore",
 		backup: "Backup",
-		operation: "Operation",
-		successful: "Successful",
-		operation: "Operation",
-		successful: "Successful",
 
 		azimuth: "Azimuth",
 		altitude: "Altitude",

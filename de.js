@@ -92,8 +92,6 @@ const de = {
 		position: "Position",
 		restore: "Restore",
 		backup: "Backup",
-		operation: "Operation",
-		successful: "Successful",
 
 		azimuth: "Scheitelpunkt",
 		altitude: "Höhe",

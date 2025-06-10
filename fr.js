@@ -94,8 +94,6 @@ const fr = {
 		position: "Position",
 		restore: "Restore",
 		backup: "Backup",
-		operation: "Operation",
-		successful: "Successful",
 
 		azimuth: "Azimut",
 		altitude: "Altitude",
