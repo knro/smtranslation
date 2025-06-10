@@ -1783,6 +1783,10 @@
 	notifications: {
 		read_all: "全部已读",
 		dnd: "请勿打扰",
+		no_backups: "No previous backups found",
+		storage_low: "Storage running low",
+		storage_critical: "Critical: Free up storage space",
+		storage_severe: "Urgent: Storage almost full",
 		ekoslive_successful: "Ekoslive重置成功",
 		ekoslive_restart: "重启Ekoslive",
 		usb_reset: "USB 重置成功",

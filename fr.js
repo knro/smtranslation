@@ -1867,6 +1867,10 @@ const fr = {
 	notifications: {
 		read_all: "Tout lire",
 		dnd: "Ne pas déranger",
+		no_backups: "No previous backups found",
+		storage_low: "Storage running low",
+		storage_critical: "Critical: Free up storage space",
+		storage_severe: "Urgent: Storage almost full",
 		ekoslive_successful: "Réinitialisation d'Ekoslive réussie",
 		ekoslive_restart: "Redémarrage d'Ekoslive",
 		usb_reset: "Réinitialisation USB réussie",

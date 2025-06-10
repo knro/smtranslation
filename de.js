@@ -1843,6 +1843,10 @@ const de = {
 	notifications: {
 		read_all: "Alle lesen",
 		dnd: "Nicht stören",
+		no_backups: "No previous backups found",
+		storage_low: "Storage running low",
+		storage_critical: "Critical: Free up storage space",
+		storage_severe: "Urgent: Storage almost full",
 		ekoslive_successful: "Ekoslive erfolgreich zurückgesetzt",
 		ekoslive_restart: "Ekoslive neu starten",
 		usb_reset: "USB-Reset erfolgreich",

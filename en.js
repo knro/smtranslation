@@ -1876,6 +1876,10 @@ const en = {
 	notifications: {
 		read_all: "Read all",
 		dnd: "Do not disturb",
+		no_backups: "No previous backups found",
+		storage_low: "Storage running low",
+		storage_critical: "Critical: Free up storage space",
+		storage_severe: "Urgent: Storage almost full",
 		ekoslive_successful: "Ekoslive Reset is Successful",
 		ekoslive_restart: "Restarting Ekoslive",
 		usb_reset: "USB reset is successful",
