@@ -94,6 +94,8 @@ const ja = {
 		position: "位置",
 		restore: "Restore",
 		backup: "Backup",
+		operation: "Operation",
+		successful: "Successful",
 
 		azimuth: "方位",
 		altitude: "高度",
@@ -1844,6 +1846,10 @@ const ja = {
 	notifications: {
 		read_all: "すべて読む",
 		dnd: "邪魔しないでください",
+		no_backups: "No previous backups found",
+		storage_low: "Storage running low",
+		storage_critical: "Critical: Free up storage space",
+		storage_severe: "Urgent: Storage almost full",
 		ekoslive_successful: "Ekosliveのリセットに成功しました",
 		ekoslive_restart: "Ekosliveを再起動しています",
 		usb_reset: "USBリセットに成功しました",

@@ -92,6 +92,8 @@ const es = {
 		position: "Posición",
 		restore: "Restore",
 		backup: "Backup",
+		operation: "Operation",
+		successful: "Successful",
 
 		azimuth: "Azimut",
 		altitude: "Altitud",
@@ -1902,6 +1904,10 @@ const es = {
 	notifications: {
 		read_all: "Leer todo",
 		dnd: "No molestar",
+		no_backups: "No previous backups found",
+		storage_low: "Storage running low",
+		storage_critical: "Critical: Free up storage space",
+		storage_severe: "Urgent: Storage almost full",
 		ekoslive_successful:
 			"El restablecimiento de Ekoslive se realizó correctamente",
 		ekoslive_restart: "Reiniciando Ekoslive",
