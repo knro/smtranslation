@@ -1802,6 +1802,7 @@ const de = {
 		mosaic: {
 			planner: "Mosaic Planner",
 			overlap: "Overlap",
+			recenter: "Recenter",
 		},
 	},
 	device: {
