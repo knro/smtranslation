@@ -94,6 +94,7 @@
 		position: "位置",
 		restore: "Restore",
 		backup: "Backup",
+		generate: "Generate",
 
 		azimuth: "方位角",
 		altitude: "高度角",
@@ -1735,7 +1736,11 @@
 		settings: "EkosLive Pro设置",
 	},
 	skymap: {
-		goto: "Goto",
+		goto: "GOTO",
+		mosaic: {
+			planner: "Mosaic Planner",
+			overlap: "Overlap",
+		},
 	},
 
 	device: {

@@ -94,6 +94,7 @@ const en = {
 		position: "Position",
 		restore: "Restore",
 		backup: "Backup",
+		generate: "Generate",
 
 		azimuth: "Azimuth",
 		altitude: "Altitude",
@@ -1828,6 +1829,10 @@ const en = {
 	},
 	skymap: {
 		goto: "GOTO",
+		mosaic: {
+			planner: "Mosaic Planner",
+			overlap: "Overlap",
+		},
 	},
 	device: {
 		mirror: "Mirror External Display",

@@ -94,6 +94,7 @@ const ja = {
 		position: "位置",
 		restore: "Restore",
 		backup: "Backup",
+		generate: "Generate",
 
 		azimuth: "方位",
 		altitude: "高度",
@@ -1796,6 +1797,10 @@ const ja = {
 	},
 	skymap: {
 		goto: "移動",
+		mosaic: {
+			planner: "Mosaic Planner",
+			overlap: "Overlap",
+		},
 	},
 	device: {
 		mirror: "外部ディスプレイをミラーリング",

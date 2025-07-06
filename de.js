@@ -92,6 +92,7 @@ const de = {
 		position: "Position",
 		restore: "Restore",
 		backup: "Backup",
+		generate: "Generate",
 
 		azimuth: "Scheitelpunkt",
 		altitude: "Höhe",
@@ -1795,6 +1796,13 @@ const de = {
 		pushNotification: "Push Benachrichtigung",
 		level: "Benachrichtigungs-Level",
 		settings: "EkosLive Pro Einstellungen",
+	},
+	skymap: {
+		goto: "GOTO",
+		mosaic: {
+			planner: "Mosaic Planner",
+			overlap: "Overlap",
+		},
 	},
 	device: {
 		mirror: "Externe Anzeige spiegeln",
