@@ -1877,6 +1877,17 @@ const es = {
 			update_password: "Actualizar contraseña de VNC",
 			scaling: "Escalada",
 		},
+		network_benchmark_report: "Informe de rendimiento de red",
+		running_benchmark: "Ejecutando prueba de rendimiento...",
+		connection_quality: "Calidad de conexión",
+		avg_bandwidth: "Ancho de banda promedio",
+		avg_latency: "Latencia promedio",
+		jitter: "Jitter",
+		signal_strength: "Intensidad de la señal",
+		run_benchmark: "Ejecutar prueba de rendimiento",
+		network_test_failed: "Fallo la prueba de red",
+		run_benchmark_to_see_results:
+			"Ejecute la prueba de rendimiento para ver los resultados",
 	},
 	controller: {
 		dc_power: "Alimentación de 12 V CC",

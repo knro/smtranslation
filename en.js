@@ -1852,6 +1852,17 @@ const en = {
 			update_password: "Update VNC Password",
 			scaling: "Scaling",
 		},
+
+		network_benchmark_report: "Network Benchmark Report",
+		running_benchmark: "Running Benchmark...",
+		connection_quality: "Connection Quality",
+		avg_bandwidth: "Avg. Bandwidth",
+		avg_latency: "Avg. Latency",
+		jitter: "Jitter",
+		signal_strength: "Signal Strength",
+		run_benchmark: "Run Benchmark",
+		network_test_failed: "Network test failed",
+		run_benchmark_to_see_results: "Run benchmark to see results",
 	},
 	controller: {
 		dc_power: "12V DC Power",

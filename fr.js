@@ -1845,6 +1845,17 @@ const fr = {
 			update_password: "Mettre à jour le mot de passe VNC",
 			scaling: "Mise à l'échelle",
 		},
+		network_benchmark_report: "Rapport de performance réseau",
+		running_benchmark: "Exécution du benchmark...",
+		connection_quality: "Qualité de connexion",
+		avg_bandwidth: "Bande passante moyenne",
+		avg_latency: "Latence moyenne",
+		jitter: "Gigue",
+		signal_strength: "Force du signal",
+		run_benchmark: "Exécuter le benchmark",
+		network_test_failed: "Échec du test réseau",
+		run_benchmark_to_see_results:
+			"Exécuter le benchmark pour voir les résultats",
 	},
 	controller: {
 		dc_power: "Alimentation 12V CC",

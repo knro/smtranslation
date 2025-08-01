@@ -1,4 +1,4 @@
-﻿﻿const cn = {
+﻿﻿﻿const cn = {
 	general: {
 		home: "主页",
 		next: "下一项",
@@ -1761,6 +1761,16 @@
 			update_password: "更新VNC密码",
 			scaling: "缩放",
 		},
+		network_benchmark_report: "网络基准报告",
+		running_benchmark: "正在运行基准测试...",
+		connection_quality: "连接质量",
+		avg_bandwidth: "平均带宽",
+		avg_latency: "平均延迟",
+		jitter: "抖动",
+		signal_strength: "信号强度",
+		run_benchmark: "运行基准测试",
+		network_test_failed: "网络测试失败",
+		run_benchmark_to_see_results: "运行基准测试以查看结果",
 	},
 
 	controller: {
