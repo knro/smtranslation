@@ -93,6 +93,7 @@ const de = {
 		restore: "Restore",
 		backup: "Backup",
 		generate: "Generate",
+		userkey: "User key",
 
 		azimuth: "Scheitelpunkt",
 		altitude: "Höhe",

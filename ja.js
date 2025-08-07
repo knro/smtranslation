@@ -95,6 +95,7 @@ const ja = {
 		restore: "Restore",
 		backup: "Backup",
 		generate: "Generate",
+		userkey: "User key",
 
 		azimuth: "方位",
 		altitude: "高度",

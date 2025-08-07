@@ -95,6 +95,7 @@ const en = {
 		restore: "Restore",
 		backup: "Backup",
 		generate: "Generate",
+		userkey: "User key",
 
 		azimuth: "Azimuth",
 		altitude: "Altitude",
