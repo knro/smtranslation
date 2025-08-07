@@ -95,6 +95,7 @@
 		restore: "Restore",
 		backup: "Backup",
 		generate: "Generate",
+		userkey: "User key",
 
 		azimuth: "方位角",
 		altitude: "高度角",
