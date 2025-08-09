@@ -92,10 +92,10 @@
 		basic: "基础",
 		expert: "专家",
 		position: "位置",
-		restore: "Restore",
-		backup: "Backup",
-		generate: "Generate",
-		userkey: "User key",
+		restore: "重置",
+		backup: "备份",
+		generate: "生成",
+		userkey: "用户密钥",
 
 		azimuth: "方位角",
 		altitude: "高度角",
@@ -1214,7 +1214,7 @@
 				outlier_rejection: "异常值剔除",
 			},
 			donut_buster: {
-				title: "Donut Buster",
+				title: "环形消除器",
 				always_on: "保持开启",
 			},
 			mechanics: {
@@ -1378,7 +1378,7 @@
 			observatoryShutdown: "天文观测台关闭",
 			alt: "高度限制",
 			moon: "Moon min. sep",
-			moon_max: "Moon max alt",
+			moon_max: "月球最大高度",
 			twilight: "日出日落时间限制",
 			artifHorizon: "地平线限制",
 			sequenceCompletion: "序列完成条件",
@@ -1739,8 +1739,8 @@
 	skymap: {
 		goto: "GOTO",
 		mosaic: {
-			planner: "Mosaic Planner",
-			overlap: "Overlap",
+			planner: "马赛克规划器",
+			overlap: "重叠",
 		},
 	},
 
@@ -1755,8 +1755,8 @@
 		error_upload: "上传日志时出错",
 		reset_network: "重置网络",
 		release_notes: "发行说明",
-		previous_backup: "Previous backups",
-		cloud_backup: "Cloud backup",
+		previous_backup: "以前的备份",
+		cloud_backup: "云备份",
 
 		vnc: {
 			update_password: "更新VNC密码",
@@ -1815,12 +1815,12 @@
 		stella_history_success: "历史记录删除成功。",
 		stella_history_failure: "删除历史记录时出错",
 		train_refresh: "训练记录刷新成功",
-		backup_successful: "Backup Created Successfully",
-		uploading_s3: "Cloud upload...",
-		restoring: "Restoring...",
-		restore_successful: "Restore successful",
+		backup_successful: "成功创建备份",
+		uploading_s3: "云端更新...",
+		restoring: "重置中...",
+		restore_successful: "重置成功",
 		close_warning:
-			"Please do not close the window until the progress is completed.",
+			"请完成进度后再关闭窗口。",
 	},
 	hardware: {
 		serial_devices_detected: "发现串口设备",
