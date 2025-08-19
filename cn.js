@@ -1757,6 +1757,10 @@
 		release_notes: "发行说明",
 		previous_backup: "以前的备份",
 		cloud_backup: "云备份",
+		license: "License",
+		management: "Management",
+		machineID: "Machine ID",
+		processing: "Processing",
 
 		vnc: {
 			update_password: "更新VNC密码",
@@ -1819,8 +1823,7 @@
 		uploading_s3: "云端更新...",
 		restoring: "重置中...",
 		restore_successful: "重置成功",
-		close_warning:
-			"请完成进度后再关闭窗口。",
+		close_warning: "请完成进度后再关闭窗口。",
 	},
 	hardware: {
 		serial_devices_detected: "发现串口设备",
