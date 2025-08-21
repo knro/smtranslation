@@ -1848,6 +1848,10 @@ const en = {
 		release_notes: "Release Notes",
 		previous_backup: "Previous backups",
 		cloud_backup: "Cloud backup",
+		license: "License",
+		management: "Management",
+		machineID: "Machine ID",
+		processing: "Processing",
 
 		vnc: {
 			update_password: "Update VNC Password",

@@ -1818,6 +1818,10 @@ const ja = {
 		release_notes: "リリースノート",
 		previous_backup: "Previous backups",
 		cloud_backup: "Cloud backup",
+		license: "ライセンス",
+		management: "管理",
+		machineID: "マシンID",
+		processing: "処理中",
 
 		vnc: {
 			update_password: "VNCパスワードを更新",
