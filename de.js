@@ -1819,10 +1819,10 @@ const de = {
 		release_notes: "Versionshinweise",
 		previous_backup: "Previous backups",
 		cloud_backup: "Cloud backup",
-		license: "License",
-		management: "Management",
-		machineID: "Machine ID",
-		processing: "Processing",
+		license: "Lizenz",
+		management: "Verwaltung",
+		machineID: "Maschinen-ID",
+		processing: "Verarbeitung",
 
 		vnc: {
 			update_password: "VNC Kennwort aktualisieren",

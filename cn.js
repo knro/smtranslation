@@ -1757,10 +1757,10 @@
 		release_notes: "发行说明",
 		previous_backup: "以前的备份",
 		cloud_backup: "云备份",
-		license: "License",
-		management: "Management",
-		machineID: "Machine ID",
-		processing: "Processing",
+		license: "许可证",
+		management: "管理",
+		machineID: "机器ID",
+		processing: "处理中",
 
 		vnc: {
 			update_password: "更新VNC密码",
