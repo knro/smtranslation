@@ -47,9 +47,11 @@ const de = {
 		scope_type: "Umfang",
 		solver_type: "Auflösung",
 		type: "Typ",
+		driver: "Fahrer",
 		gain: "Empfindlichkeit",
 		offset: "Abweichung",
 		format: "Format",
+		encode: "Kodieren",
 		iso: "ISO",
 		count: "Anzahl",
 		delay: "Verzögern",
@@ -106,6 +108,8 @@ const de = {
 		date: "Datum",
 		resolution: "Auflösung",
 		monitor: "Monitor",
+		clear_all: "Alle löschen",
+		pixels: "Pixel",
 
 		select_file: "Datei auswählen",
 		select_folder: "Ordner auswählen",
@@ -742,6 +746,7 @@ const de = {
 		Aborted: "Abgebrochen",
 		"Calibration error": "Kalibrierungsfehler",
 		Capturing: "Erfassen",
+		Streaming: "Streaming",
 		"In Progress": "In Bearbeitung",
 		"Setting Temperature": "Temperatur einstellen",
 		Slewing: "Schwenken",
@@ -749,6 +754,7 @@ const de = {
 		Tracking: "Verfolgung",
 		Guiding: "Führen",
 		Parking: "Parken",
+		Loading: "Laden",
 		"User Input": "Benutzereingabe",
 		Complete: "Komplett",
 		Suspended: "Aufgehangen",
@@ -979,6 +985,10 @@ const de = {
 		alert_ekos_offline_title: "Ekos ist aus",
 		alert_ekos_offline_body:
 			"Ekos scheint im Moment ausgeschalten zu sein. Haben Sie ein Geräteprofil gestartet?",
+		alert_ekos_disconnected_title: "Geräte getrennt",
+		alert_ekos_disconnected_body:
+			"Es sind nicht alle Geräte mit Geräteprofil verbunden. Bitte verbinden Sie alle Geräte und versuchen Sie es dann erneut.",
+
 		ekos_dialog: {
 			auto_closes_in: "Automatisch geschlossen",
 		},
@@ -1136,6 +1146,7 @@ const de = {
 			heading: "Filtereinstellungen",
 			auto_focus: "Autofokus",
 			lock_filter: "Filter sperren",
+			no_filters: "Es wurden keine Filter gefunden.",
 		},
 		targets_filters: {
 			object_type: "Objekt Typ",
@@ -1190,6 +1201,7 @@ const de = {
 			hfr_plot: "HFR-Plot",
 			focus_in: "Focus ein",
 			focus_out: "Focus aus",
+			steps: "Schritte",
 			advisor: "Focus Advisor",
 			update_parameters:
 				"Optimize the Focus parameters depending on your current camera and telescope.",
@@ -1258,6 +1270,7 @@ const de = {
 			total_rms_plot: "RMS",
 			scope_primary: "Primär",
 			guidingRate: "Richtpreis",
+			guider: "Zur Führung",
 			via: "Über",
 			box: "Box",
 			effects: "Auswirkungen",
@@ -1397,7 +1410,8 @@ const de = {
 			fits: "FITS Datei",
 			priority: "Priorität",
 			profile: "Profil",
-			startupConditions: "Job Startup",
+			generalSettings: "Allgemeine Einstellungen",
+			startupConditions: "Jobstart",
 			JobConstraints: "Job Constraints",
 			completionConditions: "Job Completion",
 			observatoryStartup: "Observatory Startup",
@@ -1731,6 +1745,7 @@ const de = {
 		cloud_disabled_body:
 			"Gehen Sie zu den Einstellungen und aktivieren Sie Cloud, um auf diese Registerkarte zugreifen zu können.",
 		pro_plan_body: "Cloud-Speicher ist nur für Pro-Plan-Benutzer verfügbar.",
+		reset_ekoslive: "Ekoslive zurücksetzen",
 		alert_cannot_download_title: "Kann nicht herunterladen",
 		alert_cannot_download_body:
 			"Beim Herunterladen ist ein Fehler aufgetreten.",
@@ -1807,7 +1822,7 @@ const de = {
 	},
 	device: {
 		mirror: "Externe Anzeige spiegeln",
-		monitor_successfull: "SM X Anzeige erfolgreich geändert!",
+		monitor_successful: "SM X Anzeige erfolgreich geändert!",
 		monitor_failed:
 			"Fehler beim Einstellen der SM X Monitoranzeige. Bitte versuchen Sie es später erneut!",
 		undefined_error: "undefinierter Fehler",

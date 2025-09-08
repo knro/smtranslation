@@ -736,6 +736,7 @@
 		Aborted: "中断",
 		"Calibration error": "校准错误",
 		Capturing: "正在捕获",
+		Streaming: "流媒体",
 		"In Progress": "进行中",
 		"Setting Temperature": "设置温度",
 		Slewing: "移动中",
@@ -743,6 +744,7 @@
 		Tracking: "追踪中",
 		Guiding: "导星中",
 		Parking: "停放中",
+		Loading: "加载中",
 		"User Input": "请输入",
 		Complete: "完成",
 		Suspended: "暂停",
@@ -1235,6 +1237,7 @@
 			total_rms_plot: "RMS图",
 			scope_primary: "主镜",
 			guidingRate: "导星速率",
+			guider: "指导",
 			via: "通过",
 			box: "方框",
 			effects: "效果",
@@ -1573,6 +1576,10 @@
 		alert_join_wifi_title: "加入Wifi网络",
 		alert_join_wifi_body:
 			"加入Wifi网络将关闭StellarMate的热点（如果已启动）。若继续使用StellarMate，请确保您在同一网络上。是否继续？",
+		alert_change_band_title: "您确定要更换乐队吗？",
+		alert_change_band_body:
+			"由于各种原因，StellarMate App 可能会断开连接，频道切换可能会失败，在这种情况下，热点将恢复为默认设置。",
+
 		alert_change_resolution_title: "成功!",
 		alert_change_resolution_body: "您现在可以重启StellarMate令变更生效",
 		alert_change_release_title: "测试频道",
