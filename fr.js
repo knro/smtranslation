@@ -705,6 +705,7 @@ const fr = {
 		new_scope_aperture_invalid: "Entre une ouverture valide",
 		new_scope_focal_length_invalid: "Entre une focale valide",
 		new_scope_focal_ratio_invalid: "Entrez un rapport focal valide",
+		enter_file_name: "Entrez un nom de fichier",
 	},
 	progress: {
 		start_capture: "Démarrage de la capture...",
@@ -744,6 +745,7 @@ const fr = {
 		Aborted: "Avorté",
 		"Calibration error": "Erreur d'étalonnage",
 		Capturing: "Capturer",
+		Streaming: "Streaming",
 		"In Progress": "En cours",
 		"Setting Temperature": "Réglage de la température",
 		Slewing: "Pivotement",
@@ -751,6 +753,7 @@ const fr = {
 		Tracking: "Poursuite",
 		Guiding: "Guidage",
 		Parking: "Parking",
+		Loading: "Chargement",
 		"User Input": "Entrée utilisateur",
 		Complete: "Compléter",
 		Suspended: "Suspendu",
@@ -980,6 +983,10 @@ const fr = {
 		alert_ekos_offline_title: "Ekos est hors ligne",
 		alert_ekos_offline_body:
 			"Ekos semble être hors ligne pour le moment. Avez-vous commencé le profil d'équipement?",
+		alert_ekos_disconnected_title: "Appareils déconnectés",
+		alert_ekos_disconnected_body:
+			"ous les appareils du profil d'équipement ne sont pas connectés, veuillez connecter tous les appareils puis réessayer.",
+
 		ekos_dialog: {
 			auto_closes_in: "Fermeture automatique dans",
 		},
@@ -1272,6 +1279,7 @@ const fr = {
 			total_rms_plot: "RMS",
 			scope_primary: "Primaire",
 			guidingRate: "Taux de guidage",
+			guider: "Guider",
 			via: "Via",
 			box: "Boîte",
 			effects: "Effets",
@@ -1412,6 +1420,7 @@ const fr = {
 			add_sequences: "Ajouter des séquences",
 			fits: "Fichier FITS",
 			priority: "Priorité",
+			generalSettings: "Paramètres généraux",
 			profile: "Profil",
 			startupConditions: "Démarrage de la tâche",
 			JobConstraints: "Contraintes de la tâche",
@@ -1720,6 +1729,7 @@ const fr = {
 			"Stockage limité. Passez à Pro/Ultimate pour jusqu'à 10 Go/1000 Go de stockage ",
 		auto_sync: "Synchronisation automatique",
 		location: "Emplacement",
+		unit_system: "Système d'unités",
 		reset_app: "Réinitialiser l'application",
 		reset_app_body: "Purger tous les paramètres de l'application?",
 		metric: "Métrique",

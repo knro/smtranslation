@@ -659,7 +659,7 @@ const ja = {
 	},
 	splash: {
 		checking_for_updates: "更新チェック中...",
-		download_package: "更新データをダウンロード中...",
+		downloading_package: "更新データをダウンロード中...",
 		installing_update: "更新データをインストール中...",
 		channel_update: "チャンネル切り替え中...",
 		upto_date: "すでに最新の状態です。",
@@ -822,7 +822,7 @@ const ja = {
 			connect_all: "すべて接続",
 		},
 
-		manual_add_device: {
+		manually_add_device: {
 			heading: "手動でデバイスを追加",
 			btn_add_device: "デバイスを追加",
 			alert_unreachable_title: "エラーが発生しました",
@@ -835,7 +835,7 @@ const ja = {
 			no_device_after_scan:
 				"スキャンが完了しました.デバイスが見つかりませんでした.",
 			auto_scanned: "自動スキャンされました",
-			manual_added: "手動で追加",
+			manually_added: "手動で追加",
 			add_a_device: "デバイスを追加",
 			devices_detected: "検出",
 			no_network_found:
@@ -871,12 +871,13 @@ const ja = {
 			edit_scope: "望遠鏡を編集",
 			vendor: "ベンダー",
 			aperture: "絞り",
-			focus_length: "焦点距離",
+			focal_length: "焦点距離",
 		},
 		auto_detect: {
 			alert_auto_detect_title: "自動検出手順",
 			alert_auto_detect_body:
 				"StellarMate からすべての機器のプラグを抜き,[OK] を押します。次に,それらを 1 つずつ接続して,デバイス タイプとドライバーを検出します。各デバイスを接続したら,ドライバーを確認する必要があります.",
+			alert_mapped_title: "デバイスマッピング",
 			alert_mapped_body: "デバイスのシリアル ポートが正常にマップされました。",
 			alert_missing_driver_title: "ドライバーがありません",
 			alert_missing_driver_body: "最初にドライバーを選択する必要があります.",
@@ -934,7 +935,7 @@ const ja = {
 			first_quarter: "半月(上弦)",
 			third_quarter: "半月(下弦)",
 			waxing_crescent: "上弦の三日月",
-			Waxing_gibbous: "上弦の月",
+			waxing_gibbous: "上弦の月",
 			waning_crescent: "上弦の三日月",
 			waning_gibbous: "下弦の月",
 		},
@@ -1029,7 +1030,7 @@ const ja = {
 				iterations: "反復",
 				two_axis: "2 軸",
 				square_size: "自動正方形サイズ",
-				calibrationBacklast:
+				calibrate_backlast:
 					"ガイド キャリブレーションでの DEC バックラッシュの除去",
 				reset_calibration:
 					"各マウントスルー後にガイドキャリブレーションをリセット",
@@ -1146,7 +1147,7 @@ const ja = {
 			heading: "自動校正",
 			flat_source: "フラット ソース",
 			flat_duration: "フラット デュレーション",
-			Dust_builtin: "フラット用内蔵ダスト カバー",
+			dust_builtin: "フラット用内蔵ダスト カバー",
 			dust_external: "フラット用外部ダスト カバー",
 			wall: "壁",
 			az: "Az",
@@ -1259,7 +1260,7 @@ const ja = {
 		collapse_guide: {
 			total_rms_plot: "RMS",
 			scope_primary: "主鏡",
-			guideRate: "ガイド率",
+			guidingRate: "ガイド率",
 			guider: "ガイダー",
 			via: "経由",
 			box: "箱",
@@ -1297,7 +1298,7 @@ const ja = {
 			mount_direction: "架台方向",
 			manual_slew: "手動移動",
 			west: "西",
-			East: "東",
+			east: "東",
 			mount_rotation: "架台回転",
 			refresh: "更新",
 			fov_error: "無効：FOVは30分角以上である必要があります。",
@@ -1309,8 +1310,8 @@ const ja = {
 		collapse_sequence: {
 			progress: "シーケンスの開始と停止",
 			sequence: "順序",
-			Overall_progress: "全体的な進捗状況",
-			Sequences: "シーケンス",
+			overall_progress: "全体的な進捗状況",
+			sequences: "シーケンス",
 			no_sequences:
 				"シーケンスなし。 [シーケンスに追加] をタップして追加できます。",
 			alert_sequence_error_body: "シーケンスファイルの保存エラー",
@@ -1324,6 +1325,7 @@ const ja = {
 			pierside: "ピラー側",
 			auto_park: "自動パーク",
 			auto_park_everyday: "毎日",
+			park_at: "に駐車してください",
 			reset_options: "オプションのリセット",
 			min_alt: "最低 高度",
 			max_alt: "最高 高度",
@@ -1514,7 +1516,7 @@ const ja = {
 		create_new: "新規作成",
 		dslr_lens: "DSLR レンズ",
 		reset_train: "トレインをリセット",
-		focus_ratio: "焦点比",
+		focal_ratio: "焦点比",
 		guide_via: "ガイド経由",
 		tooltip: {
 			title: "ガイド補正パルスを受信するデバイスを選択してください",
@@ -1690,7 +1692,7 @@ const ja = {
 		high_bandwidth: "高帯域幅",
 		transfer_images: "画像の転送",
 		notifications: "通知",
-		sound: "サウンド",
+		sounds: "サウンド",
 		cloud_storage: "クラウド ストレージ",
 		limit_cloud_storage:
 			"ストレージ容量に制限があります。Pro/Ultimateにアップグレードすると、最大10GB/1000GBのストレージを利用できます",
