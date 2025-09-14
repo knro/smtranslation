@@ -1620,6 +1620,8 @@ const ja = {
 		alert_change_release_body:
 			"不安定でサポートされていないベータ チャネルに切り替えますか?",
 		alert_direct_ethernet_title: "ダイレクト イーサネット",
+		alert_direct_ethernet_connection:
+			"これによりイーサネットが有効になり、現在のネットワーク接続が失われます。続行しますか?",
 		alert_direct_ethernet_connect_body:
 			"StellarMate と PC をイーサネット ケーブルで直接接続します。PC を設定しますIP アドレスを 192.168.100.2 に,ゲートウェイを 192.168.100.1 に",
 		alert_direct_ethernet_disconnect_body:
@@ -1824,6 +1826,7 @@ const ja = {
 		management: "管理",
 		machineID: "マシンID",
 		processing: "処理中",
+		video_tutorial: "ビデオチュートリアル",
 
 		vnc: {
 			update_password: "VNCパスワードを更新",

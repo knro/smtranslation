@@ -1585,6 +1585,8 @@
 		alert_change_release_title: "测试频道",
 		alert_change_release_body: "您确定要切换到不稳定且不受支持的测试版渠道吗？",
 		alert_direct_ethernet_title: "直连以太网",
+		alert_direct_ethernet_connection:
+			"这将启用以太网，并且您当前的网络连接将丢失，您想继续吗？",
 		alert_direct_ethernet_connect_body:
 			"将以太网电缆直接连接到StellarMate和您的PC之间。将您的PC的IP地址设置为192.168.100.2，网关设置为192.168.100.1。",
 		alert_direct_ethernet_disconnect_body: "断开直连以太网电缆。",
@@ -1768,6 +1770,7 @@
 		management: "管理",
 		machineID: "机器ID",
 		processing: "处理中",
+		video_tutorial: "视频教程",
 
 		vnc: {
 			update_password: "更新VNC密码",

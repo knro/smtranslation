@@ -1630,6 +1630,8 @@ const de = {
 		alert_change_release_body:
 			"Sind Sie sicher, dass Sie zum instabilen und nicht unterstützten Beta-Kanal wechseln möchten?",
 		alert_direct_ethernet_title: "Direktes Ethernet",
+		alert_direct_ethernet_connection:
+			"Dadurch wird Ethernet aktiviert und Ihre aktuelle Netzwerkverbindung wird unterbrochen. Möchten Sie fortfahren?",
 		alert_direct_ethernet_connect_body:
 			"Schließen Sie das Ethernet-Kabel direkt zwischen StellarMate und Ihrem PC an. Stellen Sie die IP-Adresse Ihres PCs auf 192.168.100.2 und das Gateway auf 192.168.100.1 ein",
 		alert_direct_ethernet_disconnect_body:
@@ -1838,6 +1840,7 @@ const de = {
 		management: "Verwaltung",
 		machineID: "Maschinen-ID",
 		processing: "Verarbeitung",
+		video_tutorial: "Video-Tutorial",
 
 		vnc: {
 			update_password: "VNC Kennwort aktualisieren",
