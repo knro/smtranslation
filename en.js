@@ -1641,6 +1641,8 @@ const en = {
 			"Are you sure you want to switch to the unstable and unsupported beta channel?",
 
 		alert_direct_ethernet_title: "Direct Ethernet",
+		alert_direct_ethernet_connection:
+			"This will enable ethernet and your current network connection will be lost, Do you want to continue?",
 		alert_direct_ethernet_connect_body:
 			"Connect Ethernet cable directly between StellarMate and your PC. Set your PC IP address to 192.168.100.2 and gateway to 192.168.100.1",
 		alert_direct_ethernet_disconnect_body: "Remove direct Ethernet cable.",
@@ -1852,6 +1854,7 @@ const en = {
 		management: "Management",
 		machineID: "Machine ID",
 		processing: "Processing",
+		video_tutorial: "Video tutorial",
 
 		vnc: {
 			update_password: "Update VNC Password",

@@ -1646,6 +1646,8 @@ const fr = {
 		alert_change_release_body:
 			"Voulez-vous vraiment passer à la version bêta instable et non compatible?",
 		alert_direct_ethernet_title: "Ethernet direct",
+		alert_direct_ethernet_connection:
+			"Cela activera Ethernet et votre connexion réseau actuelle sera perdue. Voulez-vous continuer ?",
 		alert_direct_ethernet_connect_body:
 			"Connectez le câble Ethernet directement entre StellarMate et votre PC. Définissez l'adresse IP de votre PC sur 192.168.100.2 et la passerelle sur 192.168.100.1",
 		alert_direct_ethernet_disconnect_body: "Retirez le câble Ethernet direct.",
@@ -1855,6 +1857,7 @@ const fr = {
 		management: "Gestion",
 		machineID: "ID Machine",
 		processing: "Traitement",
+		video_tutorial: "Tutoriel vidéo",
 
 		vnc: {
 			update_password: "Mettre à jour le mot de passe VNC",
