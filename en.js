@@ -1836,6 +1836,9 @@ const en = {
 			planner: "Mosaic Planner",
 			overlap: "Overlap",
 		},
+		tooltip_push_assistant_title: "Push-To Assistant",
+		tooltip_push_assistant:
+			"This feature helps you manually aim your Alt-Az mount using a camera. Simply select your desired object or location on the Sky Map, then start the plate-solving process. The app will guide you to iteratively adjust your mount until the target is centered. You can adjust the delay between plate-solves to give yourself enough time to move the mount without causing blurry images.",
 	},
 	device: {
 		mirror: "Mirror External Display",

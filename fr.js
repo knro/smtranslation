@@ -1836,6 +1836,9 @@ const fr = {
 			planner: "Mosaic Planner",
 			overlap: "Overlap",
 		},
+		tooltip_push_assistant_title: "Assistant Push-To",
+		tooltip_push_assistant:
+			"Cette fonctionnalité vous permet de viser manuellement votre monture Alt-Az à l'aide d'un appareil photo. Sélectionnez simplement l'objet ou le lieu souhaité sur la carte du ciel, puis lancez le processus de résolution de la plaque. L'application vous guidera pour ajuster votre monture de manière itérative jusqu'à ce que la cible soit centrée. Vous pouvez ajuster le délai entre les résolutions de la plaque afin de disposer de suffisamment de temps pour déplacer la monture sans obtenir d'images floues.",
 	},
 	device: {
 		mirror: "Miroir d'affichage externe",
