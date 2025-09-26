@@ -95,7 +95,7 @@ const de = {
 		restore: "Restore",
 		backup: "Backup",
 		generate: "Generate",
-		userkey: "User key",
+		userkey: "Benutzerschlüssel",
 
 		azimuth: "Scheitelpunkt",
 		altitude: "Höhe",
@@ -114,8 +114,8 @@ const de = {
 		select_file: "Datei auswählen",
 		select_folder: "Ordner auswählen",
 		selected_dir: "ausgewählter Ordner",
-		new_folder: "Neuen Ordnernamen eingeben",
-		create_new_folder: "neuen Ordner erstellen in",
+		new_folder: "Neuer Ordnername",
+		create_new_folder: "erstelle neuen Ordner in",
 		empty_folder: "Ordner ist leer",
 
 		train: "Optischer Zug",
@@ -135,23 +135,23 @@ const de = {
 		no_results: "Keine Ergebnisse",
 		on: "Ein",
 		off: "Aus",
-		go: "GEHEN",
-		add: "HINZUFÜGEN",
+		go: "Bewegen",
+		add: "Hinzufügen",
 		load: "Laden",
-		edit: "BEARBEITEN",
-		refresh: "AKTUALISIERUNG",
+		edit: "Bearbeiten",
+		refresh: "Aktualisierung",
 		reset: "zurücksetzen",
-		reset_all: "alles zurücksetzen",
-		start: "START",
+		reset_all: "alles Zurücksetzen",
+		start: "Start",
 		stop: "Halt",
 		stopping: "Anhalten",
 		clear: "Löschen",
-		solve: "LÖSEN",
+		solve: "Auflösen",
 		parked: "Geparkt",
 		unparked: "Ausgeparkt",
 		open: "Öffnen",
 		close: "Geschlossen",
-		opened: "Öffnen",
+		opened: "Geöffnet",
 		closed: "Geschlossen",
 		enable: "Aktivieren",
 		disable: "Deaktivieren",
@@ -178,7 +178,7 @@ const de = {
 		alert_confirmation_body:
 			"Sind Sie sicher, dass Sie {0} mit diesem Namen erstellen möchten?",
 		alert_overwrite_body:
-			"Die Datei '{0}' existiert bereits. Möchten Sie sie überschreiben?",
+			"Die Datei '{0}' existiert bereits. Soll sie überschrieben werden?",
 
 		network_error:
 			"bitte überprüfen Sie ob ihr StellarMate mit dem Netzwerk verbunden ist.",
@@ -186,7 +186,7 @@ const de = {
 			"bitte überprüfen Sie ob sie mit dem Internet verbunden sind.",
 		alert_comm_error_title: "Kommunikationsfehler",
 		alert_comm_error_body:
-			"Kommunikation mit StellarMate fehlgeschlagen. Bitte stellen Sie sicher, dass es mit Ihrem Netzwerk verbunden ist.",
+			"Kommunikation mit StellarMate ist fehlgeschlagen. Bitte stellen Sie sicher, dass es mit Ihrem Netzwerk verbunden ist.",
 		ekoslive_down_title: "EkosLive ist ausgefallen",
 		ekoslive_down_body:
 			"EkosLive wird nicht ausgeführt. Starten Sie StellarMate neu oder wenden Sie sich an den StellarMate-Support.",
@@ -201,7 +201,7 @@ const de = {
 		external_storage: "externer Speicher",
 		success: "Erfolg",
 		failed: "Fehlgeschlagen",
-		wait_while_syncing: "Bitte warten Sie während\n der Synchronisierung",
+		wait_while_syncing: "Bitte warten Sie während der Synchronisierung",
 		file_too_large: "Datei ist zu groß",
 
 		public: "Öffentlich",
@@ -267,7 +267,7 @@ const de = {
 		manufacturer_tip_section_2:
 			"Spezifische Modelle (wie Meade LX200) sollten später über die spezielle Seite des Herstellers hinzugefügt werden.",
 		delete_post_description:
-			"Sind Sie sicher, dass Sie diesen Beitrag löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden und alle zugehörigen Kommentare werden ebenfalls entfernt.",
+			"Sind Sie sicher, dass Sie diesen Beitrag löschen möchten? Die Aktion kann nicht rückgängig gemacht werden und alle zugehörigen Kommentare werden ebenfalls entfernt.",
 	},
 	darkLibrary: {
 		title: "Dark-Bibliothek",
@@ -311,7 +311,7 @@ const de = {
 		capture_preview_title: "First Light!",
 		ten_sequences_title: "so fängt es an!",
 		mount_goto_title: "Magic Fingers",
-		video_recording_title: "Director’s Cut",
+		video_recording_title: "Director's Cut",
 		weather_check_title: "Wolkenmagnet",
 		live_stacking_title: "Let there be details",
 		create_darks_title: "Embrace the dark side",
@@ -335,12 +335,12 @@ const de = {
 		live_stacking_description: "Live-Stacking. Mindestens 5 Bilder durchführen",
 		create_darks_description: "Darks mit insgesamt 50 Bildern erstellen",
 		create_defect_description:
-			"Heiße/kalte Pixel in Defektkarte über 80 generieren",
+			"Heiße/Kalte Pixel in Defektkarte über 80 generieren",
 		import_mosaic_description: "Mosaike aus Telescopius importieren",
 		messier_captured_description: "Ein Messier Objekt wurde aufgenommen",
 		all_messier_description: "Alle Messier Objekte wurden aufgenommen",
 		scheduler_description:
-			"Einen Planerauftrag mit Bilddaten im Wert von 2 oder mehr Stunden abschließen.",
+			"Einen Planungsauftrag mit Bilddaten im Wert von 2 oder mehr Stunden abschließen.",
 		capture_master_description: "Machen Sie insgesamt 500 Aufnahmen",
 		capture_legend_description: "Machen Sie insgesamt 1000 Aufnahmen",
 		paa_description:
@@ -488,7 +488,7 @@ const de = {
 			"Histogrammansicht umschalten. Passen Sie Schatten, Mitteltöne und Lichter nur für Sequenzbilder an (nicht für Live-Stacked-Bilder).",
 
 		description_devices_list:
-			"This is the list of automatically discovered and manually added StellarMate units. Tap RESCAN to detect new StellarMate units on the network.",
+			"Das ist die Liste der automatisch erkannten sowie manuell hinzugefügten StellarMate Elemente. Tippe RESCAN um neue Elemente im Netz zu finden.",
 		description_device_actions:
 			"Entfernen Sie ein Gerät aus der Liste, führen Sie einen Werksreset durch oder melden Sie sich ab.",
 		description_profiles:
@@ -501,11 +501,11 @@ const de = {
 			"Wetterprognose und Bortle-Klasse des aktuellen Standorts",
 		description_cloud_report: "3-Stunden-Wolkenbedeckung.",
 		description_next:
-			"Erkunden Sie anwendbare astronomische Objekte, indem Sie auf die Registerkarte Objekte tippen. Verwenden Sie Go & Solve, um Ihr Ziel im Kamerarahmen zu zentrieren. Öffnen Sie den Framing Assistant, um die perfekte gewünschte Ausrichtung zu erreichen. Gehen Sie zur Registerkarte „Ekos“, um Bildsequenzen und Live-Stapelbilder einzurichten.",
+			"Erkunden Sie anwendbare astronomische Objekte, indem Sie auf die Registerkarte Objekte tippen. Verwenden Sie Go&Solve, um Ihr Ziel im Kamerarahmen zu zentrieren. Öffnen Sie den Framing Assistant, um die perfekte gewünschte Ausrichtung zu erreichen. Gehen Sie zur Registerkarte „Ekos“, um Bildsequenzen und Live-Stapelbilder einzurichten.",
 
 		description_focus: "Kamera mittels motorisiertem Fokus scharf stellen.",
 		description_align:
-			"Zentrieren Sie die Montierung genau auf das Ziel, indem Sie ein Bild plattenlösen.",
+			"Zentrieren Sie die Montierung genau auf das Ziel, indem Sie ein Bild über Plate-Solving auflösen.",
 		description_guide:
 			"Halten Sie die Montierung während der Nachführung auf Ihr Ziel ausgerichtet, um Langzeitbelichtungen zu ermöglichen.",
 		description_capture:
@@ -532,7 +532,7 @@ const de = {
 			"Wählen Sie den aktiven Zug aus und konfigurieren Sie die Kamera- und Filterradeinstellungen.",
 
 		description_targets_info:
-			"Ziele ist das StellarMate-Planungstool zur Optimierung Ihrer Beobachtungssitzung. Suchen Sie aus Tausenden von Objekten und filtern Sie sie nach einfachen Kriterien. Verwenden Sie den Framing Assistant, um Ihre Ziele einzurahmen.",
+			"Ziel ist das StellarMate-Planungstool zur Optimierung Ihrer Beobachtungssitzung. Suchen Sie aus Tausenden von Objekten und filtern Sie sie nach einfachen Kriterien. Verwenden Sie den Framing Assistant, um Ihre Ziele einzurahmen.",
 		description_search_bar:
 			"Filtern Sie Objekte in der vorhandenen Liste oder suchen Sie nach neuen Objekten, indem Sie den Namen eingeben und auf die Suchschaltfläche tippen.",
 		description_time_controls:
@@ -544,7 +544,7 @@ const de = {
 		description_fov:
 			"Tippen Sie, um in den Framing Assistant-Modus zu gelangen.",
 		description_target_action:
-			"Fügen Sie das Ziel zu Favoriten oder einer benutzerdefinierten Liste hinzu. Befehlen Sie nur ein GOTO oder ein GOTO gefolgt von Aufnahme und Lösung. Wenn Ekos offline ist, planen Sie das Ziel.",
+			"Fügen Sie das Ziel zu Favoriten oder einer benutzerdefinierten Liste hinzu. Befehlen Sie nur ein GOTO oder ein GOTO gefolgt von Aufnahme und Auflösung. Wenn Ekos offline ist, planen Sie das Ziel.",
 		alert_guided_tour_title:
 			"Machen Sie eine geführte Tour zu den Funktionen der StellarMate App",
 
@@ -559,10 +559,10 @@ const de = {
 		description_align_paa:
 			"Richten Sie Ihre äquatoriale Montierung polar aus, um eine bessere Nachführung und Führung zu erzielen.",
 		description_align_load:
-			"Laden und Plattenlösen eines Bildes (JPG, FITS, XISF)",
+			"Laden und Plate-Solving eines Bildes (JPG, FITS, XISF)",
 		description_align_controls:
 			"Sie können Ausrichtungsdiagramm, Bild, Einstellungen und Schnelleinstellungen anzeigen. Sie können auch mit der Ausrichtung beginnen.",
-		description_align_solution: "Plattenlösung",
+		description_align_solution: "Plate-Solving",
 
 		description_focus_initial:
 			"Aktuelle Fokussiererposition und Fokussierberater",
@@ -572,7 +572,7 @@ const de = {
 		description_focus_controls:
 			"Sie können Fokusdiagramm, Bild, Einstellungen und Schnelleinstellungen anzeigen. Sie können auch mit dem Fokussieren beginnen.",
 
-		description_guide_camera: "Aufnehmen und Loopen",
+		description_guide_camera: "Aufnehmen und Laufen lassen",
 		description_guide_status: "Guiding-Status",
 		description_guide_controls:
 			"Sie können Guiding-Diagramm, Bild, Einstellungen und Schnelleinstellungen anzeigen. Sie können auch mit dem Guiding beginnen.",
@@ -661,7 +661,7 @@ const de = {
 		paa_desc:
 			"Verwenden Sie die Plattenlösungsmethode für die Polarausrichtung. Das Plattenlösen ist langsamer, liefert aber genauere Ergebnisse.",
 		plate_solving:
-			"Verwendet Plattenlösung, um zu verfolgen, was der korrigierte Ausrichtungsfehler während des Aktualisierungsprozesses ist. Der Benutzer sollte versuchen, den Fehler in der aktualisierten Fehlerzeile unten zu reduzieren und die Größe der Pfeile zu minimieren.",
+			"Verwendet Plate-Solving, um zu verfolgen, was der korrigierte Ausrichtungsfehler während des Aktualisierungsprozesses ist. Der Benutzer sollte versuchen, den Fehler in der aktualisierten Fehlerzeile unten zu reduzieren und die Größe der Pfeile zu minimieren.",
 		mount_info: "Stern bewegen und Fehler berechnen",
 		movestar_desc:
 			"Wie Stern bewegen, aber Ekos versucht, den bewegten Stern zu verfolgen und schätzt den aktuellen Ausrichtungsfehler, wenn möglich.",
@@ -679,12 +679,12 @@ const de = {
 			"Wenn weggelassen, wird der Host standardmäßig auf localhost und der Port standardmäßig auf 7624 gesetzt. Entfernte INDI-Treiber müssen bereits ausgeführt werden, damit die Verbindung erfolgreich ist.",
 	},
 	splash: {
-		checking_for_updates: "Nach Updates suchen ...",
-		downloading_package: "Update wird heruntergeladen...",
-		installing_update: "Update installieren...",
+		checking_for_updates: "Nach Aktualisierungen suchen ...",
+		downloading_package: "Aktualisierung wird heruntergeladen...",
+		installing_update: "Aktualisierung installieren...",
 		channel_update: "Kanalaktualisierung läuft...",
 		upto_date: "Schon aktuell.",
-		update_installed: "Alle Updates installiert.",
+		update_installed: "Alle Aktualisierungen installiert.",
 		loading: "Wird geladen...",
 	},
 	validations: {
@@ -692,26 +692,26 @@ const de = {
 		username_tooshort: "zu Kurz mindestens 3 Zeichen erforderlich",
 		username_toolong: "Zu lang, kann nicht mehr als 64 Zeichen haben",
 		username_invalid: "Ungültige Zeichen im Benutzernamen",
-		password_required: "Passwort erforderlich",
+		password_required: "Passwort <erforderlich>",
 		password_invalid: "Mindestens 6 Zeichen erforderlich",
-		confirm_password_required: "Bestätigen Sie das erforderliche Passwort",
+		confirm_password_required: "Bestätigen Sie das Passwort",
 		confirm_password_mismatch: "Passwort falsch bestätigt",
-		email_required: "Email (erforderlich",
+		email_required: "Email <erforderlich>",
 		email_invalid: "Ungültige E-Mail-Adresse",
-		license_required: "Lizenzschlüssel erforderlich",
-		serial_required: "Seriennummer erforderlich",
-		new_scope_vendor: "Enter a valid vendor name",
-		new_scope_model_invalid: "Enter a valid model",
-		new_scope_aperture_invalid: "Enter a valid aperture",
-		new_scope_focal_length_invalid: "Enter a valid focal length",
+		license_required: "Lizenzschlüssel <erforderlich>",
+		serial_required: "Seriennummer <erforderlich>",
+		new_scope_vendor: "Einen gültigen Namen des Herstellers eingeben",
+		new_scope_model_invalid: "Das korrekte Model eingeben",
+		new_scope_aperture_invalid: "Die korrekte Objektivöffnung eingeben",
+		new_scope_focal_length_invalid: "Die korrekte Brennweite eingeben",
 		new_scope_focal_ratio_invalid:
 			"Geben Sie ein gültiges Öffnungsverhältnis ein",
 		enter_file_name: "Geben Sie einen Dateinamen ein",
 	},
 	progress: {
-		start_capture: "Starting capture...",
-		please_wait: "Warten Sie mal ...",
-		establishing_connection: "Stelle Verbindung her",
+		start_capture: "Beginn der Aufnahme...",
+		please_wait: "Moment bitte ...",
+		establishing_connection: "Verbindung wird hergestellt",
 		cameras: "Kameras auswählen",
 		mounts: "Montierung auswählen",
 		scopes: "Umfang auswählen",
@@ -727,12 +727,12 @@ const de = {
 		starting_ekos: "Ekos starten...",
 		getting_devices: "Geräte bekommen...",
 		loading_settings: "Einstellungen laden...",
-		register_device: "Scanned QR Code, Registering Device: ",
+		register_device: "Scanne Geräte-QR-Code, registriere das Gerät: ",
 	},
 	welcome: {
 		register_new_device: "Neues Gerät registrieren?",
 		have_existing_account: "Haben Sie ein bestehendes Konto?",
-		require_sm_plus_pro: "Registrieren Sie sich, wenn Sie eins besitzen",
+		require_sm_plus_pro: "Bitte melden Sie sich an, wenn Sie eins besitzen",
 	},
 	device_scanner: {
 		scanning:
@@ -763,22 +763,22 @@ const de = {
 	connect: {
 		register_welcome:
 			"Bitte melden Sie sich bei Ihrem stellarmate.com-Konto an, um Geräte zu synchronisieren.",
-		welcome_heading: "Herzlich willkommen",
+		welcome_heading: "Herzlich Willkommen",
 		welcome_description:
-			"Stellen Sie sicher, dass Sie entweder mit dem HotSpot von StellarMate verbunden sind oder dass sich StellarMate im selben Netzwerk befindet wie Sie.",
+			"Stellen Sie sicher, dass Sie entweder mit dem HotSpot von StellarMate verbunden sind oder dass sich StellarMate im selben Netzwerk wie Sie befindet.",
 		welcome_rescan:
 			"Klicken Sie auf SUCHE, um das Netzwerk nach StellarMate-Geräten zu durchsuchen.",
 		device_unreachable:
 			"Gerät ist nicht erreichbar! Überprüfen Sie die Strom- und Netzwerkeinstellungen.",
 		login_mismatch:
-			"Einbuchung fehlgeschlagen. Das App-Passwort unterscheidet sich vom Online-Passwort von stellarmate.com. Registrieren Sie die App erneut mit dem richtigen Online-Passwort.",
-		register_using_key: "Register Device using Serial number",
+			"Login fehlgeschlagen. Das App-Passwort unterscheidet sich vom Online-Passwort von stellarmate.com. Registrieren Sie die App erneut mit dem richtigen Online-Passwort.",
+		register_using_key: "Registriere das Gerät über seine Seriennummer",
 		old_stellarmate_heading: "Aktualisierung erforderlich!",
 		old_stellarmate_description:
-			"Sie verwenden anscheinend eine ältere Version von StellarMate OS. Sie müssen auf die neueste Version von StellarMate aktualisieren, um diese App weiterhin verwenden zu können.",
-		sm_app_update_title: "SM App Update Required!",
+			"Sie verwenden anscheinend eine ältere Version von StellarMate OS. Sie müssen auf die neueste Version von StellarMate aktualisieren.",
+		sm_app_update_title: "SellarMate App Aktualisierung erforderlich!",
 		sm_app_update_body:
-			"You appear to be using an older version of StellarMate App. Please update to the latest version.",
+			"Sie verwenden anscheinend eine ältere Version von StellarMate OS. Sie müssen auf die neueste Version von StellarMate aktualisieren.",
 		primary: "Hauptgerät",
 		scope: "Umfang",
 		btn_port_select: "Port Auswahl",
@@ -822,13 +822,13 @@ const de = {
 			login: "Anmelden",
 			serial: "Seriennummer",
 			license: "Lizenzschlüssel",
-			username: "Nutzername",
+			username: "Benutzername",
 			password: "Kennwort",
 			confirm_password: "Kennwort bestätigen",
 			first_name: "Vorname",
-			last_name: "Familienname, Nachname",
+			last_name: "Nachname",
 			email: "Email",
-			manually: "Manually",
+			manually: "Manuell",
 		},
 		device_manager: {
 			alert_confirm_remove_title: "Entfernen bestätigen",
@@ -942,7 +942,7 @@ const de = {
 	targets: {
 		now: "Jetzt",
 		night: "Nacht",
-		rise: "Rise",
+		rise: "Aufgang",
 		moon: "Mond",
 		sun: "Sonne",
 		search: "Suche",
@@ -960,31 +960,31 @@ const de = {
 			waning_gibbous: "abnehmender Dreiviertelmond",
 		},
 		lists: "Lists",
-		framing_assistant: "Framing Assistant",
-		target_rotation: "Target Position Angle",
-		current_rotation: "Current Rotation",
-		rotate_capture: "Rotate & Capture",
-		goto_rotate: "GOTO & Rotate",
-		angular_offset: "Angular Offset",
+		framing_assistant: "Rahmen/Framing Assistent",
+		target_rotation: "Winkel der Zielposition",
+		current_rotation: "Aktuelle Rotation",
+		rotate_capture: "Rotiere & Erstelle Bild",
+		goto_rotate: "Starte & Rotiere",
+		angular_offset: "Versatz/Angular Offset",
 		no_objects_in_list:
 			"Keine Objekte gefunden. Bitte überprüfen Sie die aktive Liste, passen Sie die Filter an oder setzen Sie sie zurück..",
-		go_and_solve: "Go & Solve",
-		fov_profile: "FOV Profile",
-		fov_width: "FOV Width",
-		fov_height: "FOV Height",
+		go_and_solve: "Starte & Löse auf",
+		fov_profile: "FOV Profil",
+		fov_width: "FOV Breite",
+		fov_height: "FOV Höhe",
 		alert_select_FOV_body:
-			"Please create or select an FOV profile in order to use Framing assistant.",
+			"Bitte erstelle oder wähle ein FOV Profil um den Rahmen Assistent nutzen zu können.",
 		alert_list_exists_body: "Eine Liste mit diesem Namen existiert bereits",
 	},
 	ekos: {
 		heading: "Ekos",
-		tgl_mount: "MONTIEREN",
-		tgl_solution_bar: "LÖSUNGSLEISTE",
-		tgl_sequence: "REIHENFOLGE",
-		tgl_properties: "EIGENSCHAFTEN",
-		alert_ekos_offline_title: "Ekos ist aus",
+		tgl_mount: "Montieren",
+		tgl_solution_bar: "Lösungsleiste",
+		tgl_sequence: "Reihenfolge",
+		tgl_properties: "Eigenschaften",
+		alert_ekos_offline_title: "Ekos ist ausgeschaltet",
 		alert_ekos_offline_body:
-			"Ekos scheint im Moment ausgeschalten zu sein. Haben Sie ein Geräteprofil gestartet?",
+			"Ekos scheint im Moment ausgeschaltet zu sein. Haben Sie ein Geräteprofil gestartet?",
 		alert_ekos_disconnected_title: "Geräte getrennt",
 		alert_ekos_disconnected_body:
 			"Es sind nicht alle Geräte mit Geräteprofil verbunden. Bitte verbinden Sie alle Geräte und versuchen Sie es dann erneut.",
@@ -1000,7 +1000,7 @@ const de = {
 			centering: "Zentrierung",
 			find: "Finden",
 			max: "Max",
-			parking_position: "Parking Position is set successfully.",
+			parking_position: "Park Position wurde gesetzt.",
 		},
 		collapse_align: {
 			heading: "Ausrichten",
@@ -1009,44 +1009,44 @@ const de = {
 			action_nothing: "Nichts",
 			solver_backend: "Backend",
 			control: "Steuerung",
-			solve: "Erfassen und lösen",
+			solve: "Erfassen und auflösen",
 			load: "Laden & Schwenken",
-			polar: "Polar Align",
-			accuracy: "Richtigkeit",
-			settle: "Siedeln",
+			polar: "Pol-Ausrichtung",
+			accuracy: "Genauigkeit",
+			settle: "Setzen",
 			dark: "Dunkel",
 			arcsec: "arcsec",
 			ms: "ms",
 			x_axis: "Iterationen",
 			y_axis: "Error (arcsec)",
-			refresh_rate: "Refresh Rate",
+			refresh_rate: "Wiederholrate",
 			image_selected: "Bild erfolgreich ausgewählt",
-			select_method: "Bitte wählen Sie die Bildauswahlmethode aus",
+			select_method: "Bitte wählen Sie die Auswahlmethode aus",
 			device_gallery: "Gallerie",
-			sm_storage: "SM Storage",
-			request_storage_permission: "Bitte erteilen Sie die Speichererlaubnis",
+			sm_storage: "StellarMate Speicher",
+			request_storage_permission: "Bitte erteilen Sie die Erlaubnis zum Speichern",
 			celestial_warning:
-				"Plate solving does not work very close to the celestial pole.",
+				"Plate-Solving funktioniert nicht in der Nähe der Himmelspole.",
 			manualRotator: {
-				heading: "Manual Rotator",
-				current_pa: "Current PA",
-				target_pa: "Target PA",
-				another_image: "Take another Image",
+				heading: "Manueller Rotator",
+				current_pa: "Aktuelle PA",
+				target_pa: "Ziel PA",
+				another_image: "Noch ein Bild erstellen",
 			},
 			align_settings: {
-				rotator_control: "Rotator Control",
-				use_scale: "Use Scale",
-				use_position: "Use Position",
+				rotator_control: "Rotator Kontrolle",
+				use_scale: "Skala benutzen",
+				use_position: "Position benutzen",
 			},
 			calibration_settings: {
 				pulse: "Pulse",
-				max_move: "Max Move",
+				max_move: "Maximale Bewegung",
 				iterations: "Iterations",
 				two_axis: "Two axis",
 				square_size: "Auto square size",
-				calibrate_backlast: "Remove DEC backlash in guide calibration",
-				reset_calibration: "Reset Guide Calibration After Each Mount Slew",
-				reuse_calibration: "Store and reuse guide calibration when possible",
+				calibrate_backlast: "DEC Rückschlag/Backlash in der Guide Kalibration beseitigen",
+				reset_calibration: "Beseitige Guide Kalibration nach jeder Bewegung der Montierung",
+				reuse_calibration: "Speicher und Benutzer Guide Kalibration wenn möglich",
 				reverse_calibration:
 					"Reverse DEC on pier-side change when reusing calibration",
 				skyflats: "Sky flats",
@@ -1058,66 +1058,66 @@ const de = {
 			type_bias: "Vorspannen",
 			type_flat: "Eben",
 			type_dark: "Dark",
-			format_fits: "PASST",
+			format_fits: "Passt",
 			format_native: "Einheimisch",
-			cooling_unavailable: "N/A",
+			cooling_unavailable: "Kühlung nicht verfügbar",
 			btn_add_to_sequence: "Zur Sequenz hinzufügen",
 			btn_loop: "Schleife",
 
 			rotator_control: {
 				title: "Rotator",
-				angle: "Rotator Angle",
-				offset: "Camera Offset",
-				pierside: "Camera Pierside",
+				angle: "Rotator Winkel",
+				offset: "Kamera Versatz/Offset",
+				pierside: "Kamera Pierside",
 				flip: "Flip Policy",
-				pos_angle: "Camera Position Angle",
-				reverse_direction: "Reverse direction of Rotator",
-				flip_rotator: "Preserve Rotator Angel",
-				flip_position: "Preserve Position Angel",
+				pos_angle: "Kamera Positionswinkel",
+				reverse_direction: "Entgegengesetzte Richtung des Rotators",
+				flip_rotator: "Rotator Winkel erhalten",
+				flip_position: "Positionswinkel erhalten",
 			},
 
 			capture_settings: {
 				miscellaneous: "Verschiedenes",
 				temperature: "Temperaturschwelle",
 				temperature_tooltip:
-					"Maximum acceptable difference between requested and measured temperature set point. When the temperature threshold is below this value, the temperature set point request is deemed successful.",
+					"Maximale Differenz zwischen gewünschter und angenommenen Temperaturpunkt erreicht. Wenn die Temperaturgrenze über diesem Wert liegt, war die Temperaturänderung erfolgreich.",
 				guiding: "Guiding settle",
 				guiding_tooltip:
-					"Wait this many seconds after guiding is resumed to stabilize the guiding performance before capture.",
-				dialog: "Dialog Timeout",
-				dialog_tooltip: "Cover or uncover telescope dialog timeout in seconds.",
+					"Bitte warten Sie einige Minuten mit der Aufnahme, nachdem das Guiding wieder aufgenommen wurde, um die Guidingleistung zu stabilisieren.",
+				dialog: "Dialog Zeitüberschreitung",
+				dialog_tooltip: "Zeige oder Verstecke die Dialog Zeitüberschreitung in Sekundsen",
 
 				reset_sequence: "Beim Starten immer die Sequenz zurücksetzen",
 				reset_sequence_tooltip:
 					"Wenn Sie mit der Verarbeitung einer Sequenzliste beginnen, setzen Sie alle Erfassungszähler auf Null zurück. Der Planer überschreibt diese Option, wenn „Auftragsfortschritt speichern“ aktiviert ist.",
-				reset_mount: "Reset mount model after meridian flip",
-				reset_mount_tooltip: "Reset mount model after meridian flip.",
-				use_flip: "Use flip command if supported by mount",
-				use_flip_tooltip: "Use flip command if it is supported by the mount.",
-				summary_preview: "Summary screen preview",
+				reset_mount: "Montierungsmodel nach einem Meridian Flip zurücksetzen",
+				reset_mount_tooltip: "Montierungsmodel nach einem Meridian Flip zurücksetzen.",
+				use_flip: "Benutze Flip Kommando wenn die Montierung das unterstützt",
+				use_flip_tooltip: "Benutze Flip Kommando wenn die Montierung das unterstützt.",
+				summary_preview: "Zusammenfassung (Vorschau)",
 				summary_preview_tooltip:
-					"Display received FITS in the Summary screen preview window.",
-				operations_timeout: "Capture Operations Timeout",
+					"Zeige erhaltene FITS in der Zusammenfassung (Vorschau).",
+				operations_timeout: "Aufnahme Zeitüberschreitung",
 				operations_timeout_tooltip:
-					"Maximum number of seconds to wait before aborting the capture if operations like filter wheel changes or meridian flips take too long",
+					"Maximale Anzahl an Sekunden, bis die Aufnahme abgebrochen wird, wenn Änderungen im Filterrad oder Meridian Flips zu lang brauchen",
 
 				force_dslr: "DSLR Voreinstellungen erzwingen",
 				image_viewer: "DSLR Bildbetrachter",
 
 				sequence_focus: "In-Sequence Focus",
-				hfr_threshold: "HFR threshold modifier",
+				hfr_threshold: "Modifizierung der HFR Grenze",
 				hfr_threshold_tooltip:
-					"Set HFR Threshold percentage gain. When an autofocus operation is completed, the autofocus HFR value is increased by this threshold percentage value and stored within the capture module. If In- Sequence-Focus is engaged, the autofocus module only performs auto-focusing procedure if current HFR value exceeds the capture module HFR threshold. Increase value to permit more relaxed changes in HFR values without requiring a full autofocus run.",
-				sequence_check: "In-sequence HFR check",
+					"Setze das HFR Threshold Percentage Gain. Wenn eine Autofocus Operation fertig ist, ist die Autofocus HFR Anzahl höher durch die Threshold Percentage Anzahl und wird im Aufnahme Modul gespeichert. If In- Sequence-Focus is engaged, the autofocus module only performs auto-focusing procedure if current HFR value exceeds the capture module HFR threshold. Increase value to permit more relaxed changes in HFR values without requiring a full autofocus run.",
+				sequence_check: "In-Sequence HFR Check",
 				sequence_check_tooltip:
-					"Run In-Sequence HFR check after this many frames.",
+					"Starte In-Sequence HFR Check nach all diesen Frames.",
 
-				median: "Use median focus",
+				median: "Benutze den Median Focus",
 				median_tooltip:
-					"Calculate median focus value after each autofocus operation is complete. If the autofocus results become progressively worse with time, the median value shall reflect this trend and prevent unnecessary autofocus operations when the seeing conditions deteriorate.",
-				save_sequence: "Save sequence HFR value to file",
+					"Berechnen Sie den mittleren Fokuswert, nachdem jeder Autofokusvorgang abgeschlossen ist. Wenn die Autofokusergebnisse mit der Zeit immer schlechter werden, soll der mittlere Wert diesen Trend widerspiegeln und unnötige Autofokusvorgänge verhindern, wenn sich die Sichtbedingungen verschlechtern.",
+				save_sequence: "Sequence HFR Anzahl in Datei speichern",
 				save_sequence_tooltip:
-					"In-sequence HFR threshold value controls when the autofocus process is started. If the measured HFR value exceeds the HFR threshold, autofocus process is initiated. If the HFR threshold value is zero initially (default), then the autofocus process best HFR value is used to set the new HFR threshold, after applying the HFR threshold modifier percentage. This new HFR threshold is then used for subsequent In-Sequence focus checks. If this option is enabled, the HFR threshold value is constant and gets saved to the sequence file.",
+					"Der In-Sequence-HFR-Schwellenwert steuert, wann der Autofokusprozess gestartet wird. Überschreitet der gemessene HFR-Wert den HFR-Schwellenwert, wird der Autofokusprozess eingeleitet. Ist der HFR-Schwellenwert initial Null (Standard), wird der beste HFR-Wert des Autofokusprozesses verwendet, um den neuen HFR-Schwellenwert festzulegen, nachdem der HFR-Schwellenwert-Modifikatorprozentsatz angewendet wurde. Dieser neue HFR-Schwellenwert wird dann für nachfolgende In-Sequence-Fokusprüfungen verwendet. Ist diese Option aktiviert, ist der HFR-Schwellenwert konstant und wird in der Sequenzdatei gespeichert.",
 			},
 		},
 		capture_presets: {
@@ -1133,14 +1133,14 @@ const de = {
 			focus_deltaT_unit: "°C",
 			refocus_n: "Richten Sie alle neu aus",
 			refocus_n_unit: "Protokoll",
-			refocus_on_hfr: "Refocus on HFR. Use",
-			refocus_meridian: "Refocus after meridian flip",
-			check_every: "Check every",
-			about_guide_deviation: "About if guide deviation >",
-			start_deviation: "Only start if guide deviation <",
-			guide_deviation: "Guide deviation",
-			consecutive_times: "consecutive times",
-			dither_job: "Dither per job every",
+			refocus_on_hfr: "Refokusierung auf HFR & Weiter",
+			refocus_meridian: "Refokusierung nach Meridian Flip",
+			check_every: "Alle überprüfen",
+			about_guide_deviation: "Wenn Guiding Abweichung >",
+			start_deviation: "Nur starten bei Guiding Abweichung <",
+			guide_deviation: "Guide Abweichung",
+			consecutive_times: "aufeinanderfolgende Male",
+			dither_job: "Alle Schwankungen per Job",
 		},
 		capture_filters: {
 			heading: "Filtereinstellungen",
@@ -1176,8 +1176,8 @@ const de = {
 			ts: "TS",
 			duration: "Dauer",
 			suffix: "Suffix",
-			usb: "USB Unmounted successfully",
-			unmount: "Unmount",
+			usb: "USB erfolgreich abgemeldet",
+			unmount: "Abmelden",
 		},
 		collapse_dome: {
 			heading: "Kappe & Kuppel",
@@ -1204,23 +1204,23 @@ const de = {
 			steps: "Schritte",
 			advisor: "Focus Advisor",
 			update_parameters:
-				"Optimize the Focus parameters depending on your current camera and telescope.",
+				"Optimieren Sie die Fokusparameter je nach Ihrer aktuellen Kamera und Ihrem Teleskop.",
 			find_stars:
-				"Check to have Focus Advisor search for stars. If you are close enough to Focus to see stars in the Focus frame then this step is not neccessary.",
+				"Aktivieren Sie diese Option, damit Focus Advisor nach Sternen sucht. Wenn Sie nahe genug am Fokus sind, um Sterne im Fokus-Rahmen zu sehen, ist dieser Schritt nicht erforderlich.",
 			coarse_adjustment:
-				"Check to have Focus Advisor find coarse focus. This will find an approximate focus position good enough to run Autofocus.",
+				"Aktivieren Sie dieses Kontrollkästchen, damit Focus Advisor den Grobfokus ermittelt. Dadurch wird eine ungefähre Fokusposition ermittelt, die gut genug ist, um den Autofokus auszuführen.",
 			fine_adjustment:
-				"Check to have Focus Advisor run Autofocus to make fine adjustments to focus parameters.",
+				"Aktivieren Sie dieses Kontrollkästchen, damit Focus Advisor den Autofokus ausführt, um Feineinstellungen an den Fokusparametern vorzunehmen.",
 			settings: {
-				suspend_guiding: "Suspend Guiding",
-				auto_select_star: "Auto Select Star",
-				subframe: "Sub Frame",
-				fullfield: "Full Field",
+				suspend_guiding: "Guiding stoppen",
+				auto_select_star: "Auto Auswahl Stern",
+				subframe: "Unterrahmen/Sub Frame",
+				fullfield: "Volles Feld",
 				dark: "Dark Frame",
 				annulus: "Annulus",
-				mask: "Mask",
-				stars: "Use all stars for focusing",
-				ring: "Ring Mask",
+				mask: "Maske",
+				stars: "Alle Sterne zur Fokussierung nutzen",
+				ring: "Ring Maske",
 				adaptive: "Adaptive",
 				min_move: "Min. Move",
 				start: "Adap Start Pos",
@@ -1236,17 +1236,17 @@ const de = {
 				kernel_size: "Kernelgröße",
 				num_of_rows: "Anzahl der Reihen",
 				sigma: "Sigma",
-				curve_fit: "Curve Fit",
-				limit: "Limit",
-				average_hfr: "Average HFR Check",
+				curve_fit: "Kurvenanpassung",
+				limit: "Grenze",
+				average_hfr: "Durchschnittlicher HFR Check",
 				donut_buster: "Donut Buster",
-				scan_pos: "Scan for Start Position",
+				scan_pos: "Scan der Start Position",
 				datapoints: "Num datapoints",
-				initial_size: "Initial Step Size x",
-				use_weights: "Use Weights",
-				refine_curve: "Refine Curve Fit",
-				time_dilation: "Time Dilation x",
-				outlier_rejection: "Outlier Rejection",
+				initial_size: "Anfängliche Schrittgröße x",
+				use_weights: "Gewichte verwenden",
+				refine_curve: "Kurvenanpassung verfeinern",
+				time_dilation: "Zeitdilatation x",
+				outlier_rejection: "Löschung der Ausreißer",
 			},
 			donut_buster: {
 				title: "Donut Buster",
@@ -1259,10 +1259,10 @@ const de = {
 				max_step_size: "Maximale Schrittweite",
 				backlash: "Rückschlag",
 				out_step_multiple: "Out Step Multiple",
-				number_steps: "Number Steps",
+				number_steps: "Schrittwerte",
 				af_overscan: "AF Overscan",
-				capture_timeout: "Capture timeout",
-				motion_timeout: "Motion timeout",
+				capture_timeout: "Zeitüberschreitung Aufnahme",
+				motion_timeout: "Bewegungs-Zeitüberschreitung",
 				overscan_delay: "Overscan Delay",
 			},
 		},
@@ -1411,7 +1411,7 @@ const de = {
 			priority: "Priorität",
 			profile: "Profil",
 			generalSettings: "Allgemeine Einstellungen",
-			startupConditions: "Jobstart",
+			startupConditions: "Job Startup",
 			JobConstraints: "Job Constraints",
 			completionConditions: "Job Completion",
 			observatoryStartup: "Observatory Startup",
@@ -1450,45 +1450,45 @@ const de = {
 			},
 
 			scheduler_settings: {
-				lead_time: "Lead time",
+				lead_time: "Leerlaufzeit",
 				lead_time_tooltip:
-					"The minimum time in minutes between jobs. The scheduler starts execution of a job before its scheduled startup time by this lead time. Early execution is useful as focusing, alignment, and guiding procedures may take prolonged periods to time to complete.",
-				pre_dawn: "Pre-dawn",
+					"Die Mindestzeit in Minuten zwischen Jobs. Der Scheduler startet die Ausführung eines Jobs um diesen Zeitraum vor der geplanten Startzeit. Eine frühzeitige Ausführung ist sinnvoll, da Fokussierungs-, Ausrichtungs- und Führungsvorgänge längere Zeit in Anspruch nehmen können.",
+				pre_dawn: "Stop Morgendämmerung",
 				pre_dawn_tooltip:
-					"Do not permit jobs to be scheduled or executed past this many minutes before dawn.",
-				pre_emptive: "Pre-emptive shutdown",
+					"Lassen Sie nicht zu, dass Aufträge nach dieser Anzahl an Minuten vor Sonnenaufgang geplant oder ausgeführt werden.",
+				pre_emptive: "Präventive Abschaltung",
 				pre_emptive_tooltip:
-					"In case no scheduler job is scheduled for this many hours, perform a complete shutdown procedure and restart observatory operations once the next job is ready.",
-				setting_altitude: "Setting altitude cutoff",
+					"Falls für diese Anzahl von Stunden kein Scheduler-Job geplant ist, führen Sie einen vollständigen Shutdown-Vorgang durch und starten Sie den Observatoriumsbetrieb neu, sobald der nächste Job bereit ist.",
+				setting_altitude: "Höhenbegrenzung",
 				setting_altitude_tooltip:
-					"Do not permit jobs to be scheduled less than this many degrees before the altitude restriction. Actual execution proceeds until the altitude limit.",
-				weather_grace: "Weather grace period",
+					"Lassen Sie nicht zu, dass Jobs weniger als diese Anzahl Grad vor der Höhenbeschränkung geplant werden. Die tatsächliche Ausführung wird bis zum Erreichen der Höhenbeschränkung fortgesetzt.",
+				weather_grace: "Wetterbasierte Planung",
 				weather_grace_tooltip:
-					"Enable Weather-Based Scheduling: Prevents new jobs from starting during weather warnings or alerts. Existing jobs continue during warnings, but are aborted during alerts. System initiates a soft shutdown and waits for improved conditions or grace period expiration, after which the current job is terminated.",
-				dusk_offset: "Dusk offset",
+					"Wetterbasierte Planung aktivieren: Verhindert den Start neuer Jobs bei Wetterwarnungen oder -alarmen. Bestehende Jobs werden während Warnungen fortgesetzt, bei Alarmen jedoch abgebrochen. Das System leitet einen sanften Shutdown ein und wartet auf verbesserte Bedingungen oder das Ablaufen der Nachfrist. Danach wird der aktuelle Job beendet.",
+				dusk_offset: "Versatz Abenddämmerung",
 				dusk_offset_tooltip:
-					"Offset astronomical dusk by this many hours. This positive or negative value adjusts the twilight restriction.",
-				dawn_offset: "Dawn offset",
+					"Verschieben Sie die astronomische Dämmerung um diese Anzahl Stunden. Dieser positive oder negative Wert passt die Dämmerungsbeschränkung an.",
+				dawn_offset: "Versatz Morgendämmerung",
 				dawn_offset_tooltip:
-					"Offset astronomical dawn by this many hours. This positive or negative value adjusts the twilight restriction.",
+					"Verschieben Sie die astronomische Morgendämmerung um diese Anzahl Stunden. Dieser positive oder negative Wert passt die Dämmerungsbeschränkung an.",
 
-				stop_ekos: "Stop Ekos after shutdown",
+				stop_ekos: "Stop Ekos nach dem Herunterfahren",
 				stop_ekos_tooltip:
-					"After shutdown procedure is successfully executed, stop INDI and Ekos.",
-				shutdown_script: "Shutdown script terminates INDI",
+					"Nachdem der Herunterfahrvorgang erfolgreich ausgeführt wurde, stoppen Sie INDI und Ekos.",
+				shutdown_script: "Ausschalt-Script stoppt INDI",
 				shutdown_script_tooltip:
-					"If the shutdown script terminates INDI server, enable this option so that no disconnection errors are generated.",
+					"Wenn das Shutdown-Skript den INDI-Server beendet, aktivieren Sie diese Option, damit keine Verbindungsabbruchfehler generiert werden.",
 				remember_job: "Auftragsfortschritt speichern",
 				remember_job_tooltip:
-					"When processing a scheduled job, resume the sequence starting from the last image present in storage.",
+					"Setzen Sie bei der Verarbeitung eines geplanten Auftrags die Sequenz ab dem letzten im Speicher vorhandenen Bild fort.",
 
-				execute_job: "Always execute startup job",
+				execute_job: "Immer Startup Auftrag ausführen",
 				execute_job_tooltip:
-					"Observatory startup script is normally only executed if Ekos is offline. Enable this option to start it whenever scheduler is starting up.",
+					"Das Observatory-Startskript wird normalerweise nur ausgeführt, wenn Ekos offline ist. Aktivieren Sie diese Option, um es beim Start des Schedulers zu starten.",
 
-				greedy_schedule: "Use Greedy Scheduling",
+				greedy_schedule: "Greedy Scheduling benutzen",
 				greedy_schedule_tooltip:
-					"When checked the scheduler tries to run lower priority jobs when no higher priority job can run. Recommended.",
+					"Wenn diese Option aktiviert ist, versucht der Scheduler, Jobs mit niedrigerer Priorität auszuführen, wenn kein Job mit höherer Priorität ausgeführt werden kann. (empfohlen).",
 				reset_mount: "Montierung bei Ausrichtungsfehler zurücksetzen",
 				reset_mount_tooltip: "Montierung bei Ausrichtungsfehler zurücksetzen",
 				reset_mount_before:
@@ -1497,22 +1497,22 @@ const de = {
 					"Montierung vor dem Start jedem Job Start zurücksetzen",
 				force_realign: "Erzwinge Neuausrichtung vor dem Neustart eines Jobs",
 				force_realign_tooltip:
-					"If Align is enabled, scheduler would initiate a realignment procedure before restarting any jobs even if guiding is active.",
+					"Wenn „Ausrichten“ aktiviert ist, leitet der Scheduler vor dem Neustart von Jobs einen Neuausrichtungsvorgang ein, selbst wenn die Führung aktiv ist.",
 				restart_align:
 					"Ausrichtung bei einem Guiding Kalibrierungsfehler neu starten",
 				restart_align_tooltip:
-					"If guiding calibration fails then restart alignment process before proceeding to guiding recalibration process again. This can help recenter the target object in the field of view if the calibration process strayed too far off.",
+					"Wenn die Kalibrierung der Führung fehlschlägt, starten Sie den Ausrichtungsprozess neu, bevor Sie mit der Neukalibrierung der Führung fortfahren. Dies kann helfen, das Zielobjekt im Sichtfeld neu zu zentrieren, wenn der Kalibrierungsprozess zu weit abgewichen ist.",
 
-				offsets: "Offsets",
-				clean_jobs: "Scripts and Jobs",
+				offsets: "Versätze",
+				clean_jobs: "Scripte und Aufträge",
 				alignment: "Ausrichtung",
 
-				verify_image: "Verify captured image position every",
+				verify_image: "Überprüfen Sie alle Positionen des aufgenommenen Bildes.",
 				verify_image_tooltip:
-					"When calculating position after captures, compute it every Nth capture. Set to 0 to disable.",
-				reset_pipeline: "Reset pipeline if verified image delta exceeds",
+					"Berechnen Sie die Position nach Erfassungen bei jeder N-ten Erfassung. Zum Deaktivieren auf 0 setzen.",
+				reset_pipeline: "Pipeline zurücksetzen, wenn das verifizierte Bilddelta den Wert überschreitet",
 				reset_pipeline_tooltip:
-					"If captured position exceeds target position by more this many arcminutes, abort capture and reschedule the pipeline.",
+					"Wenn die erfasste Position die Zielposition um mehr als diese Anzahl an Bogenminuten überschreitet, brechen Sie die Erfassung ab und planen Sie die Pipeline neu.",
 				arcminutes: "arcminutes",
 			},
 		},
@@ -1523,7 +1523,7 @@ const de = {
 		},
 	},
 	optical_train: {
-		optical_trains: "Optical Trains",
+		optical_trains: "Optische Züge",
 		telescope: "Teleskop / Objektiv",
 		create_new: "neu erstellen",
 		focal_ratio: "Blende",
@@ -1570,7 +1570,7 @@ const de = {
 		btn_web_manager: "Web Manager",
 		btn_restart: "Neustart",
 		btn_shutdown: "Ausschalten",
-		btn_manage_wifi: "Verwalten Sie WiFi",
+		btn_manage_wifi: "WiFi verwalten",
 		btn_enable_direct_ethernet: "Aktivieren Sie Direct Ethernet",
 		btn_disable_direct_ethernet: "Deaktivieren Sie Direct Ethernet",
 		btn_enable_hotspot: "Hotspot aktivieren",
@@ -1613,10 +1613,10 @@ const de = {
 			"Werkseinstellungen wiederhergestellt. Bitte starten Sie Stellarmate jetzt neu.",
 		alert_factory_reset_confirmation_body:
 			"Möchten Sie das Gerät wirklich auf die Werkseinstellungen zurücksetzen? Alle Einstellungen werden gelöscht. Diese Aktion ist irreversibel!",
-		alert_forget_wifi_title: "Vergessen Sie Wifi",
+		alert_forget_wifi_title: "Wifi Netzwerk vergessen",
 		alert_forget_wifi_body:
 			"Alle WiFi-Netzwerke werden gelöscht und StellarMate wird jetzt im HotSpot-Modus ausgeführt. Sie müssen auf Ihrem Telefon / Tablet zum Hotspot-Netzwerk wechseln. Wollen Sie fortfahren?",
-		alert_join_wifi_title: "Treten Sie dem Wifi-Netzwerk bei",
+		alert_join_wifi_title: "Verbinden Sie sich mit dem Wifi-Netzwerk.",
 		alert_join_wifi_body:
 			"Durch den Beitritt zu einem WLAN-Netzwerk wird der Hotspot (falls gestartet) von StellarMate geschlossen. Stellen Sie sicher, dass Sie sich im selben Netzwerk befinden, um StellarMate weiterhin verwenden zu können. Wollen Sie fortfahren?",
 		alert_change_band_title:
@@ -1628,7 +1628,7 @@ const de = {
 			"Sie können StellarMate jetzt neu starten, damit die Auflösung wirksam wird",
 		alert_change_release_title: "Beta-Kanal",
 		alert_change_release_body:
-			"Sind Sie sicher, dass Sie zum instabilen und nicht unterstützten Beta-Kanal wechseln möchten?",
+			"Sind Sie sicher, dass Sie zum (instabilen und nicht unterstützten) Beta-Kanal wechseln möchten?",
 		alert_direct_ethernet_title: "Direktes Ethernet",
 		alert_direct_ethernet_connection:
 			"Dadurch wird Ethernet aktiviert und Ihre aktuelle Netzwerkverbindung wird unterbrochen. Möchten Sie fortfahren?",
@@ -1640,7 +1640,7 @@ const de = {
 			"Löschen Sie alle Treiberkonfigurationen",
 		alert_clear_all_driver_config_body:
 			"Möchten Sie wirklich alle Treiberkonfigurationen löschen?",
-		alert_update_complete_title: "SM OS Update",
+		alert_update_complete_title: "StellarMate OS Aktualisierung",
 		alert_update_complete_body:
 			"Update abgeschlossen, bitte starten Sie StellarMate neu.",
 		alert_network_error_title: "Netzwerk Fehler",
@@ -1671,11 +1671,11 @@ const de = {
 			"Sind Sie sicher, dass Sie sich abmelden möchten?",
 		alert_reset_ekoslive_title: "Ekoslive zurücksetzen",
 		alert_reset_ekoslive_body:
-			"Are you sure you want to reset Ekoslive? This would delete all cached images and restarts the server.",
+			"Bist Du Dir sicher, dass Du Ekoslive zurücksetzen willst? Das wird alle Bilder im Cache löschen und den Server neustarten.",
 		alert_download_index_file:
-			"Astrometry Index files are missing. Would you like to download?",
+			"Astrometry Indexdateien fehlen. Möchtest Du diese jetzt herunterladen?",
 		alert_low_space:
-			"Your device is running out of space. Please delete unnecessary files.",
+			"Dein Gerät hat bald kein Speicherplatz mehr. Bitte lösche ungenutze Dateien.",
 
 		change_resolution_modal: {
 			mode: "Modus",
@@ -1715,7 +1715,7 @@ const de = {
 		sounds: "Geräusche",
 		cloud_storage: "Cloud-Speicher",
 		limit_cloud_storage:
-			"Limited Storage. Upgrade to Pro/Ultimate for up to 10GB/1000GB storage ",
+			"Nicht genug Speicherplatz. Bitte auf einen Pro/Ultimate Vertrag (10GB/1000GB) aktualisieren.",
 		auto_sync: "Automatische Synchronisation",
 		location: "Ort",
 		reset_app: "App zurücksetzen",
@@ -1726,10 +1726,10 @@ const de = {
 		alert_delete_account_title: "Konto löschen",
 		alert_delete_account_body:
 			"Sind Sie sicher, dass Sie Ihr Konto löschen möchten?",
-		color_scheme_sky_map: "Sky Map Scheme",
-		last_synced: "Last synced",
-		sync_all: "Sync All data",
-		pro_feature: "Pro feature",
+		color_scheme_sky_map: "Sky Map Schema",
+		last_synced: "Zuletzt synchronisiert",
+		sync_all: "Alle Daten synchronisieren",
+		pro_feature: "Pro Feature",
 	},
 	cloud: {
 		heading: "Vorschau",
@@ -1739,10 +1739,10 @@ const de = {
 		btn_cloud_viewer: "Cloud Viewer",
 		no_images_title: "Keine Bilder gefunden",
 		enable_cloud:
-			"To start capturing sequence images, please enable EkosLive Cloud Upload in Settings.",
+			"Um Bilder Sequenzen aufzunehmen, müssen Sie EkosLive Cloud Upload in den Einstellungen einschalten.",
 		no_images_body: "Versuchen Sie die Filtereinstellungen zu ändern.",
 		no_selected_title: "Kein Bild ausgewählt",
-		no_selected_body: "Wählen Sie ein Bild aus der Galeere",
+		no_selected_body: "Wählen Sie ein Bild aus der Galerie",
 		cloud_disabled_title: "Cloud ist deaktiviert",
 		cloud_disabled_body:
 			"Gehen Sie zu den Einstellungen und aktivieren Sie Cloud, um auf diese Registerkarte zugreifen zu können.",
@@ -1758,7 +1758,7 @@ const de = {
 			field: "Feld",
 			condition: "Bedingung",
 			value: "Wert",
-			btn_add_filter: "FILTER HINZUFÜGEN",
+			btn_add_filter: "Filter Hinzufügen",
 			airmass: "Luftmasse",
 			object: "Objekt",
 			contains: "Enthält",
@@ -1771,8 +1771,8 @@ const de = {
 			m1: "1m",
 			y1: "1y",
 			images: "Bilder",
-			btn_sort: "SORTIEREN",
-			btn_delete_all: "ALLES LÖSCHEN",
+			btn_sort: "Sortieren",
+			btn_delete_all: "Alles Löschen",
 			ascending: "A-Z",
 			descending: "Z-A",
 			alert_no_images_title: "Keine Bilder",
@@ -1791,7 +1791,7 @@ const de = {
 		heading: "Über",
 		bundle: "Bündeln",
 		copyright_line1:
-			"StellarMate wurde von Ikarus Technologies entwickelt. © 2017-2024",
+			"StellarMate wurde von Ikarus Technologies entwickelt. © 2017-2026",
 		copyright_line2: "Hintergrundbild von Alamri Observatory",
 		credits: {
 			heading: "Credits",
@@ -1818,8 +1818,8 @@ const de = {
 	skymap: {
 		goto: "GOTO",
 		mosaic: {
-			planner: "Mosaic Planner",
-			overlap: "Overlap",
+			planner: "Mosaic Planer",
+			overlap: "Überlappung",
 		},
 		tooltip_push_assistant_title: "Push-To-Assistent",
 		tooltip_push_assistant:
@@ -1827,18 +1827,18 @@ const de = {
 	},
 	device: {
 		mirror: "Externe Anzeige spiegeln",
-		monitor_successful: "SM X Anzeige erfolgreich geändert!",
+		monitor_successfull: "SM X Anzeige erfolgreich geändert!",
 		monitor_failed:
 			"Fehler beim Einstellen der SM X Monitoranzeige. Bitte versuchen Sie es später erneut!",
 		undefined_error: "undefinierter Fehler",
 		share: "Logs teilen",
 		logs: "Logs",
 		logs_upload: "Logs wurden erfolgreich zum StellarMate Support hochgeladen.",
-		error_upload: "Fehler beim hochladen der Logs",
+		error_upload: "Fehler beim Hochladen der Logs",
 		reset_network: "Netzwerk zurücksetzen",
 		release_notes: "Versionshinweise",
-		previous_backup: "Previous backups",
-		cloud_backup: "Cloud backup",
+		previous_backup: "Vorherige Backups",
+		cloud_backup: "Cloud Backup",
 		license: "Lizenz",
 		management: "Verwaltung",
 		machineID: "Maschinen-ID",
@@ -1887,29 +1887,29 @@ const de = {
 	notifications: {
 		read_all: "Alle lesen",
 		dnd: "Nicht stören",
-		no_backups: "No previous backups found",
-		storage_low: "Storage running low",
-		storage_critical: "Critical: Free up storage space",
-		storage_severe: "Urgent: Storage almost full",
+		no_backups: "Keine vorherigen Backups gefunden.",
+		storage_low: "Speicherkapazität nähert sich dem Ende",
+		storage_critical: "Kritisch: Bitte dringend etwas Speicher freigeben!",
+		storage_severe: "Achtung: Speicher nahezu voll!!!",
 		ekoslive_successful: "Ekoslive erfolgreich zurückgesetzt",
 		ekoslive_restart: "Ekoslive neu starten",
 		usb_reset: "USB-Reset erfolgreich",
 		feedback: "Feedback",
 		stella_feedback_optional:
-			"(Optional) Fühlen Sie sich frei, weitere Details hinzuzufügen.",
+			"Fühlen Sie sich frei, weitere optionale Details hinzuzufügen.",
 		stella_feedback: "Feedback erfolgreich übermittelt.",
 		stella_feedback_placeholder: "Bitte geben Sie zusätzliches Feedback",
 		stella_prompt_request: "Anfrage für Stella erfolgreich bearbeitet",
 		stella_xml_failure: "XML konnte nicht generiert werden",
 		stella_history_success: "Verlauf erfolgreich gelöscht",
-		stella_history_failure: "Fehler beim löschen des Verlaufs",
+		stella_history_failure: "Fehler beim Löschen des Verlaufs",
 		train_refresh: "Züge erfolgreich aktualisiert",
-		backup_successful: "Backup Created Successfully",
+		backup_successful: "Backup erfolgreich erstellt",
 		uploading_s3: "Cloud upload...",
-		restoring: "Restoring...",
-		restore_successful: "Restore successful",
+		restoring: "Wiederherstellung...",
+		restore_successful: "Wiederherstellung erfolgreich",
 		close_warning:
-			"Please do not close the window until the progress is completed.",
+			"Bitte das Fenster nicht schließen, solange der Fortschritt läuft.",
 	},
 	hardware: {
 		serial_devices_detected: "Serielle Geräte erkannt",
@@ -1931,9 +1931,9 @@ const de = {
 		confirm_ekos_running_question:
 			"Diese Funktionalität erfordert, dass das Ekos-Profil ausgeführt wird. Möchten Sie das Standardprofil starten?",
 		action_in_progress: "Vorgang gestartet",
-		action_completed: "Vorgang erfolgreich",
+		action_completed: "Vorgang war erfolgreich",
 		confirm: "Antwort bestätigen",
-		narrate: "Antwort erzählen",
+		narrate: "Antwort übermitteln",
 		notifications: {
 			objects: "Stella hat ein paar interessante Objekte gefunden",
 			failed:
