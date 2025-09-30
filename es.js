@@ -37,7 +37,6 @@ const es = {
 		preset: "Preajuste",
 		camera: "Camara",
 		available: "Disponible",
-		single: "Único",
 		focuser: "Enfocador",
 		filter_wheel: "Rueda de filtros",
 		filter: "Filtro",

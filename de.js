@@ -37,7 +37,6 @@ const de = {
 		preset: "Voreingestellt",
 		camera: "Kamera",
 		available: "Verfügbar",
-		single: "Einzeln",
 		focuser: "Fokussierer",
 		filter_wheel: "Filter Rad",
 		filter: "Filter",

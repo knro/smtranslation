@@ -37,7 +37,6 @@ const en = {
 		preset: "Preset",
 		camera: "Camera",
 		available: "Available",
-		single: "Single",
 		focuser: "Focuser",
 		filter_wheel: "Filter Wheel",
 		filter: "Filter",
@@ -941,7 +940,8 @@ const en = {
 			manage_camera: "Manage Camera",
 			hide_camera: "Hide Camera",
 			add_camera: "Add Camera",
-			camera_information: "Camera Information"
+			camera_information: "Camera Information",
+			available_camera: "Available Camera"
 
 		},
 		no_connected_instances:

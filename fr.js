@@ -37,7 +37,6 @@ const fr = {
 		preset: "Préréglage",
 		camera: "Caméra",
 		available: "Disponible",
-		single: "Unique",
 		focuser: "Focuser",
 		filter_wheel: "Roue à filtre",
 		filter: "Filtre",

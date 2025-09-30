@@ -37,7 +37,6 @@ const ja = {
 		preset: "プリセット",
 		camera: "カメラ",
 		available: "利用可能",
-		single: "単一",
 		focuser: "フォーカサー",
 		filter_wheel: "フィルターホイール",
 		filter: "フィルター",

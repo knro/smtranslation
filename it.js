@@ -37,7 +37,6 @@ const it = {
 		preset: "Predefinito",
 		camera: "Fotocamera",
 		available: "Disponibile",
-		single: "Singolo",
 		focuser: "Focheggiatore",
 		filter_wheel: "Ruota portafiltri",
 		filter: "Filtro",

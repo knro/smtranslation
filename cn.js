@@ -37,7 +37,6 @@
 		preset: "预设",
 		camera: "相机",
 		available: "可用",
-		single: "单个",
 		focuser: "电动调焦座",
 		filter_wheel: "滤镜轮",
 		filter: "滤镜",
