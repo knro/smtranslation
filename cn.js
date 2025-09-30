@@ -1,4 +1,4 @@
-﻿﻿﻿const cn = {
+﻿﻿const cn = {
 	general: {
 		home: "主页",
 		next: "下一项",
@@ -36,6 +36,7 @@
 		remote: "遥控",
 		preset: "预设",
 		camera: "相机",
+		available: "可用",
 		focuser: "电动调焦座",
 		filter_wheel: "滤镜轮",
 		filter: "滤镜",
@@ -909,6 +910,23 @@
 			kstars_profile: "KStars 配置文件",
 			not_connected_to_kstars:
 				"未检测到设备配置文件。请确保 KStars 已连接到 EkosLive。",
+			stream_access: "流媒体访问",
+			public_access: "公共访问",
+			no_cameras_available: "无可用摄像头。请连接以访问您的摄像头。",
+			view_mode: "查看模式",
+			select_all: "全选",
+			deselect_all: "取消全选",
+			not_available: "不可用",
+			single_camera: "单个摄像头",
+			multiple_cameras: "多个摄像头",
+			add_selected: "添加所选",
+			active_camera: "活动摄像头",
+			refresh_cameras: "刷新摄像头",
+			manage_camera: "管理摄像头",
+			hide_cameras: "隐藏摄像头",
+			add_camera: "添加摄像头",
+			camera_information: "摄像头信息",
+			available_camera: "可用摄像头"
 		},
 		no_connected_instances:
 			"未检测到活动实例，请确保KStars已连接且未与其他天文台链接。",

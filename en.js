@@ -36,6 +36,7 @@ const en = {
 		remote: "Remote",
 		preset: "Preset",
 		camera: "Camera",
+		available: "Available",
 		focuser: "Focuser",
 		filter_wheel: "Filter Wheel",
 		filter: "Filter",
@@ -924,6 +925,24 @@ const en = {
 			kstars_profile: "KStars Profile",
 			not_connected_to_kstars:
 				"No equipment profiles detected. Please ensure KStars is connected to EkosLive.",
+			stream_access: "Stream Access",
+			public_access: "Public access",
+			no_cameras_available: "No camera available. Please connect to access your cameras.",
+			view_mode: "View Mode",
+			select_all: "Select All",
+			deselect_all: "Deselect All",
+			not_available: "Not Available",
+			single_camera: "Single Camera",
+			multiple_cameras: "Multiple Cameras",
+			add_selected: "Add Selected",
+			active_camera: "Active Camera",
+			refresh_cameras: "Refresh Cameras",
+			manage_camera: "Manage Camera",
+			hide_camera: "Hide Camera",
+			add_camera: "Add Camera",
+			camera_information: "Camera Information",
+			available_camera: "Available Camera"
+
 		},
 		no_connected_instances:
 			"No active instances detected, please make sure KStars is connected and is not linked to any other observatory.",
