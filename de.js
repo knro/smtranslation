@@ -934,7 +934,8 @@ const de = {
 			not_connected_to_kstars:
 				"Keine Geräteprofile erkannt. Bitte stellen Sie sicher, dass KStars mit EkosLive verbunden ist.",
 			stream_access: "Stream-Zugriff",
-			public_access: "Öffentlicher Zugriff",
+			public_access: "Öffentliche Schnappschüsse",
+			video_cameras: "Videokameras",
 			no_cameras_available: "Keine Kamera verfügbar. Bitte verbinden Sie sich, um auf Ihre Kameras zuzugreifen.",
 			view_mode: "Anzeigemodus",
 			select_all: "Alle auswählen",

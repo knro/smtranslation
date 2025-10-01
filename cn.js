@@ -911,7 +911,7 @@
 			not_connected_to_kstars:
 				"未检测到设备配置文件。请确保 KStars 已连接到 EkosLive。",
 			stream_access: "流媒体访问",
-			public_access: "公共访问",
+			public_access: "公开快照",
 			no_cameras_available: "无可用摄像头。请连接以访问您的摄像头。",
 			view_mode: "查看模式",
 			select_all: "全选",
@@ -926,7 +926,8 @@
 			hide_cameras: "隐藏摄像头",
 			add_camera: "添加摄像头",
 			camera_information: "摄像头信息",
-			available_camera: "可用摄像头"
+			available_camera: "可用摄像头",
+			video_cameras: "视频摄像头"
 		},
 		no_connected_instances:
 			"未检测到活动实例，请确保KStars已连接且未与其他天文台链接。",

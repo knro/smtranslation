@@ -931,7 +931,8 @@ const fr = {
 			not_connected_to_kstars:
 				"Aucun profil d'équipement détecté. Veuillez vous assurer que KStars est connecté à EkosLive.",
 			stream_access: "Accès au flux",
-			public_access: "Accès public",
+			public_access: "Instantanés publics",
+			video_cameras: "Caméras vidéo",
 			no_cameras_available: "Aucune caméra disponible. Veuillez vous connecter pour accéder à vos caméras.",
 			view_mode: "Mode d'affichage",
 			select_all: "Tout sélectionner",

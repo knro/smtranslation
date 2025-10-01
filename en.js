@@ -926,7 +926,7 @@ const en = {
 			not_connected_to_kstars:
 				"No equipment profiles detected. Please ensure KStars is connected to EkosLive.",
 			stream_access: "Stream Access",
-			public_access: "Public access",
+			public_access: "Public Snapshots",
 			no_cameras_available: "No camera available. Please connect to access your cameras.",
 			view_mode: "View Mode",
 			select_all: "Select All",
@@ -941,7 +941,8 @@ const en = {
 			hide_camera: "Hide Camera",
 			add_camera: "Add Camera",
 			camera_information: "Camera Information",
-			available_camera: "Available Camera"
+			available_camera: "Available Camera",
+			video_cameras: "Video Cameras"
 
 		},
 		no_connected_instances:

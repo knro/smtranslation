@@ -914,7 +914,8 @@ const ja = {
 			not_connected_to_kstars:
 				"機器プロファイルが検出されません。KStarsがEkosLiveに接続されていることを確認してください。",
 			stream_access: "ストリームアクセス",
-			public_access: "パブリックアクセス",
+			public_access: "公開スナップショット",
+			video_cameras: "ビデオカメラ",
 			no_cameras_available: "利用可能なカメラがありません。カメラにアクセスするには接続してください。",
 			view_mode: "表示モード",
 			select_all: "すべて選択",
