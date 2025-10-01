@@ -942,7 +942,8 @@ const en = {
 			add_camera: "Add Camera",
 			camera_information: "Camera Information",
 			available_camera: "Available Camera",
-			video_cameras: "Video Cameras"
+			video_cameras: "Video Cameras",
+			connect_camera: "Connect with AngelCam"
 
 		},
 		no_connected_instances:

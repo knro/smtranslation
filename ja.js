@@ -930,7 +930,8 @@ const ja = {
 			hide_cameras: "カメラを非表示",
 			add_camera: "カメラを追加",
 			camera_information: "カメラ情報",
-			available_camera: "利用可能なカメラ"
+			available_camera: "利用可能なカメラ",
+			connect_camera: "AngelCamと接続する"
 		},
 		no_connected_instances:
 			"アクティブなインスタンスが検出されません。KStarsが接続されており、他の観測所にリンクされていないことを確認してください。",

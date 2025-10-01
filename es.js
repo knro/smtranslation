@@ -956,7 +956,8 @@ const es = {
 			hide_cameras: "Ocultar Cámara",
 			add_camera: "Agregar Cámara",
 			camera_information: "Información de la Cámara",
-			available_camera: "Cámara Disponible"
+			available_camera: "Cámara Disponible",
+			connect_camera: "Conectar con AngelCam"
 		},
 		observatories: "Observatories",
 		equipment: "Equipment",

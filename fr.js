@@ -947,7 +947,8 @@ const fr = {
 			hide_cameras: "Masquer la caméra",
 			add_camera: "Ajouter une caméra",
 			camera_information: "Informations de la caméra",
-			available_camera: "Caméra disponible"
+			available_camera: "Caméra disponible",
+			connect_camera: "Se connecter avec AngelCam"
 		},
 		no_connected_instances:
 			"Aucune instance active détectée, veuillez vous assurer que KStars est connecté et n'est lié à aucun autre observatoire.",

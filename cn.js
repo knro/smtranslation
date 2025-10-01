@@ -927,7 +927,8 @@
 			add_camera: "添加摄像头",
 			camera_information: "摄像头信息",
 			available_camera: "可用摄像头",
-			video_cameras: "视频摄像头"
+			video_cameras: "视频摄像头",
+			connect_camera: "连接AngelCam"
 		},
 		no_connected_instances:
 			"未检测到活动实例，请确保KStars已连接且未与其他天文台链接。",

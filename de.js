@@ -950,7 +950,8 @@ const de = {
 			hide_cameras: "Kamera ausblenden",
 			add_camera: "Kamera hinzufügen",
 			camera_information: "Kamera-Informationen",
-			available_camera: "Verfügbare Kamera"
+			available_camera: "Verfügbare Kamera",
+			connect_camera: "Mit AngelCam verbinden"
 		},
 		no_connected_instances:
 			"Keine aktiven Instanzen erkannt, bitte stellen Sie sicher, dass KStars verbunden ist und nicht mit einem anderen Observatorium verknüpft ist.",

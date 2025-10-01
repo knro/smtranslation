@@ -956,7 +956,8 @@ const it = {
 			hide_cameras: "Nascondi Telecamera",
 			add_camera: "Aggiungi Telecamera",
 			camera_information: "Informazioni Telecamera",
-			available_camera: "Fotocamera Disponibile"
+			available_camera: "Fotocamera Disponibile",
+			connect_camera: "Collegati con AngelCam"
 		},
 		no_connected_instances:
 			"Nessuna istanza attiva rilevata, assicurati che KStars sia connesso e non sia collegato ad altri osservatori.",
