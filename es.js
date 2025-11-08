@@ -756,6 +756,7 @@ const es = {
 		Guiding: "Guiado",
 		Parking: "Aparcamiento",
 		Loading: "Cargando",
+		Reconnecting: "Reconectando",
 		"User Input": "Entrada del usuario",
 		Complete: "Terminado",
 		Suspended: "Suspendido",

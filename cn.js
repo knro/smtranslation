@@ -746,6 +746,7 @@
 		Guiding: "导星中",
 		Parking: "停放中",
 		Loading: "加载中",
+		Reconnecting: "重新连接中",
 		"User Input": "请输入",
 		Complete: "完成",
 		Suspended: "暂停",

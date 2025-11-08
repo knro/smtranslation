@@ -746,6 +746,7 @@ const en = {
 		Guiding: "Guiding",
 		Parking: "Parking",
 		Loading: "Loading",
+		Reconnecting: "Reconnecting",
 		"User Input": "User Input",
 		Complete: "Complete",
 		Suspended: "Suspended",

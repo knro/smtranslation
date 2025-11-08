@@ -755,6 +755,7 @@ const fr = {
 		Guiding: "Guidage",
 		Parking: "Parking",
 		Loading: "Chargement",
+		Reconnecting: "Reconnexion",
 		"User Input": "Entrée utilisateur",
 		Complete: "Compléter",
 		Suspended: "Suspendu",

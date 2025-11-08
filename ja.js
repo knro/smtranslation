@@ -736,6 +736,7 @@ const ja = {
 		Guiding: "ガイド中",
 		Parking: "パーキング中",
 		Loading: "読み込み中",
+		Reconnecting: "再接続中",
 		"User Input": "ユーザー入力",
 		Complete: "完了",
 		Suspended: "一時停止",

@@ -756,6 +756,7 @@ const de = {
 		Guiding: "Führen",
 		Parking: "Parken",
 		Loading: "Laden",
+		Reconnecting: "Verbinde neu",
 		"User Input": "Benutzereingabe",
 		Complete: "Komplett",
 		Suspended: "Aufgehangen",

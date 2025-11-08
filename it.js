@@ -757,6 +757,7 @@ const it = {
 		Guiding: "Guida",
 		Parking: "Parcheggio",
 		Loading: "Caricamento",
+		Reconnecting: "Riconnessione",
 		"User Input": "Input utente",
 		Complete: "Completato",
 		Suspended: "Sospeso",
