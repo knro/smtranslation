@@ -409,7 +409,7 @@
 		title_indi: "INDI控制面板",
 		title_quick_controls: "快速控制",
 		title_preview: "预览图像",
-		title_framing: "拍摄",
+		title_framing: "构图",
 		title_live_video: "实时视频",
 		title_stop: "停止",
 		title_live_stacking: "实时叠加",
@@ -486,7 +486,7 @@
 
 		title_guide_image: "导星图像",
 		description_guide_image:
-			"带有**星跟踪叠加层的导星图像。切换全屏以查看详细视图。",
+			"带有多星跟踪叠加层的导星图像。切换全屏以查看详细视图。",
 
 		title_basic_capture: "拍摄计划器",
 		description_basic_capture:
@@ -520,7 +520,7 @@
 		description_port_selector:
 			"在首次启动配置文件后，选择您设备的串口和/或网络设置。",
 		description_trains:
-			"使用视场配置来管理您的设备。为每个相机创建一个配置文件。",
+			"使用光路配置来设置设备排列。为每个设备分配特定功能。为每个相机创建一个光路。",
 		description_weather_bar: "简要的天气报告和当前站点波尔特暗夜等级",
 		description_cloud_report: "云量超过3小时。",
 		description_next:
@@ -536,15 +536,15 @@
 		description_observatory: "控制圆顶和防尘盖设备。",
 		description_scheduler:
 			"通过选择目标和序列文件来自动化整个天体摄影。从Telescopius导入拼接。",
-		description_indi: "直接访问INDI控制面板。",
+		description_indi: "直接访问设备属性的低级接口。",
 		description_quick_controls: "快速访问赤道仪，相机和转台控件。",
 		description_preview: "拍摄图像预览。",
 		description_framing: "无限循环曝光，直到停止",
-		description_live_video: "开始实时视频流并报错到本地。",
+		description_live_video: "开始实时视频流并保存到本地。",
 		description_stop: "停止任何正在进行的曝光或录制。",
 		description_live_stacking:
 			"实时叠加图像以增加信噪比。如果存在进行中的拍摄序列，则实时叠加将使用实时获取的图像; 否则，它将使用快速相机设置中的设置循环曝光。",
-		description_quick_settings: "选择视场配置文件并配置相机和滤镜轮设置。",
+		description_quick_settings: "选择当前光路并配置相机和滤镜轮设置。",
 
 		description_targets_info:
 			"目标管理器是StellarMate规划工具，可简化观测操作。从数千个天体中搜索并使用简单的标准进行过滤。使用定位助手定位您的目标。",
@@ -568,10 +568,10 @@
 		description_stella_other_function:
 			"你还可以通过语音与 Stella 互动并附加文件。",
 		description_align_paa: "极轴校准您的赤道仪，以实现更好的追踪和导星性能。",
-		description_align_load: "加载并板Solve一张图像（JPG、FITS、XISF）。",
+		description_align_load: "加载并解析一张图像（JPG、FITS、XISF）。",
 		description_align_controls:
 			"您可以查看校准图表、图像、设置和快速访问设置。您也可以开始校准。",
-		description_align_solution: "板Solve解决方案",
+		description_align_solution: "解析结果",
 
 		description_focus_initial: "当前调焦器位置和调焦顾问。",
 		description_focus_steps: "目标位置。",
@@ -803,7 +803,7 @@
 			reset_app:
 				"提示：你可以通过转到“关于”选项，单击“重置应用程序”按钮，然后重新启动应用程序，将应用程序与你的在线帐户重新同步",
 			no_valid_device: "无有效的设备信息",
-			setup_guide: "设置导星",
+			setup_guide: "设置指南",
 			register: "注册",
 			login: "登入",
 			serial: "序列号#",
@@ -924,7 +924,7 @@
 			active_camera: "活动摄像头",
 			refresh_cameras: "刷新摄像头",
 			manage_camera: "管理摄像头",
-			hide_cameras: "隐藏摄像头",
+			hide_camera: "隐藏摄像头",
 			add_camera: "添加摄像头",
 			camera_information: "摄像头信息",
 			available_camera: "可用摄像头",
@@ -996,7 +996,7 @@
 			parking_position: "归位位置设置成功",
 		},
 		collapse_align: {
-			heading: "导星",
+			heading: "对准",
 			action_sync: "同步",
 			action_slew: "转动至目标",
 			action_nothing: "不进行任何操作",
@@ -1110,7 +1110,7 @@
 			},
 		},
 		capture_presets: {
-			heading: "预设",
+			heading: "预设设置",
 		},
 		capture_limits: {
 			heading: "限制设置",
@@ -1144,7 +1144,6 @@
 		capture_auto_calibration: {
 			heading: "自动校准",
 			flat_source: "平场源",
-			manual: "手动",
 			flat_duration: "平场曝光时间",
 			dust_builtin: "带内置平场灯的镜头盖",
 			dust_external: "带外置平场灯的镜头盖",
@@ -1303,7 +1302,7 @@
 			al_error: "AL 错误: ",
 		},
 		collapse_sequence: {
-			progress: "进度",
+			progress: "启动和停止序列",
 			sequence: "序列",
 			overall_progress: "总进度",
 			sequences: "所有序列",
@@ -1392,27 +1391,27 @@
 			fits: "FITS 文件",
 			priority: "优先级",
 			generalSettings: "通用设置",
-			profile: "配置文件",
-			startupConditions: "启动条件",
+			profile: "设备配置",
+			startupConditions: "任务启动",
 			JobConstraints: "限制条件",
 			completionConditions: "完成条件",
 			observatoryStartup: "天文观测台启动",
-			abortedJobManagement: "异常处理",
+			abortedJobManagement: "中止任务",
 			observatoryShutdown: "天文观测台关闭",
 			alt: "高度限制",
-			moon: "Moon min. sep",
+			moon: "月球最小间距",
 			moon_max: "月球最大高度",
-			twilight: "日出日落时间限制",
+			twilight: "暮光限制",
 			artifHorizon: "地平线限制",
 			sequenceCompletion: "序列完成条件",
 			repeatFor: "重复执行次数",
 			repeatUntilTerminated: "重复直到终止",
 			repeatUntil: "重复执行直到",
-			unparkDome: "解锁天文馆穹顶限制",
-			unparkMount: "解锁望远镜限制",
-			uncap: "卸下镜头盖限制",
-			warmCCD: "相机预热限制",
-			none: "无优先级限制",
+			unparkDome: "解锁穹顶",
+			unparkMount: "解锁赤道仪",
+			uncap: "打开镜头盖",
+			warmCCD: "相机升温",
+			none: "无",
 			queue: "序列模式",
 			immediate: "立即执行模式",
 			rescheduleErrors: "重新排队等待时间",
@@ -1422,7 +1421,7 @@
 			err_delete_file: "删除文件时发生错误",
 			add_job: "添加任务",
 			start_jobs: "启动和停止任务",
-			culimination: "天文望远镜最高点偏移",
+			culimination: "中天偏移",
 			create_jobs: "创建任务",
 
 			mosaic: {
@@ -1721,7 +1720,7 @@
 		gallery_drawer: {
 			all: "全部",
 			h1: "1h",
-			h24: "1d",
+			h24: "24h",
 			d7: "7d",
 			m1: "1m",
 			y1: "1y",
@@ -1743,7 +1742,7 @@
 	about: {
 		heading: "关于",
 		bundle: "软件包",
-		copyright_line1: "StellarMate由Ikarus Technologies开发。© 2017-2024",
+		copyright_line1: "StellarMate由Ikarus Technologies开发。© 2017-2025",
 		copyright_line2: "背景来自Alamri天文台",
 		credits: {
 			heading: "感谢",
@@ -1813,7 +1812,7 @@
 
 	controller: {
 		dc_power: "12V 直流电源",
-		heaters: "加热器",
+		heaters: "防露加热器",
 		varOutput: "可变输出",
 		reports: "报告",
 		voltage: "电压",
@@ -1836,10 +1835,10 @@
 	notifications: {
 		read_all: "全部已读",
 		dnd: "请勿打扰",
-		no_backups: "No previous backups found",
-		storage_low: "Storage running low",
-		storage_critical: "Critical: Free up storage space",
-		storage_severe: "Urgent: Storage almost full",
+		no_backups: "未找到以前的备份",
+		storage_low: "存储空间不足",
+		storage_critical: "紧急：请释放存储空间",
+		storage_severe: "十分紧急：存储空间即将满",
 		ekoslive_successful: "Ekoslive重置成功",
 		ekoslive_restart: "重启Ekoslive",
 		usb_reset: "USB 重置成功",
