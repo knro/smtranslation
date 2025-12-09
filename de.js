@@ -4,6 +4,7 @@ const de = {
 		next: "Weiter",
 		ok: "OK",
 		done: "Fertig",
+		duration: "Dauer",
 		cancel: "Abbrechen",
 		confirm: "Bestätigen",
 		auto: "Auto",
@@ -688,6 +689,30 @@ const de = {
 		update_installed: "Alle Aktualisierungen installiert.",
 		loading: "Wird geladen...",
 	},
+	community: {
+		acquisition_details: "Erfassungsdetails",
+		additional_information: "Zusätzliche Informationen",
+		addition_metadata_available: "Zusätzliche Metadaten verfügbar",
+		no_comments: "Noch keine Kommentare. Sei der Erste, der kommentiert!",
+
+		upload: {
+			acquisition_data: "Erfassungsdaten",
+			parameters: "Erfassungsparameter konfigurieren",
+			total_time: "Gesamtzeit",
+			integration_time: "Gesamte Integrationszeit",
+			number_frames: "Anzahl der Frames",
+			filter_integration_time: "Integrationszeit für diesen Filter",
+			edit_post: "Beitrag bearbeiten",
+			post: "Veröffentlichen",
+			create_post: "Beitrag erstellen",
+			original_image: "Originalbild",
+			post_title: "Beitragstitel eingeben",
+			description: "Beschreibe deine Astrofotografie",
+			alert_title: "Bitte gib einen Titel für deinen Beitrag ein",
+			alert_equipment: "Bitte wähle ein Geräteprofil aus"
+		}
+	},
+
 	validations: {
 		username_required: "Benutzername ist obligatorisch",
 		username_tooshort: "zu Kurz mindestens 3 Zeichen erforderlich",

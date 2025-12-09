@@ -4,6 +4,7 @@ const es = {
 		next: "Siguiente",
 		ok: "OK",
 		done: "Hecho",
+		duration: "Duración",
 		cancel: "Cancelar",
 		confirm: "Confirmar",
 		auto: "Auto",
@@ -687,6 +688,30 @@ const es = {
 		update_installed: "Todas las actualizaciones se han instalado.",
 		loading: "Cargando...",
 	},
+	community: {
+		acquisition_details: "Detalles de adquisición",
+		additional_information: "Información adicional",
+		addition_metadata_available: "Metadatos adicionales disponibles",
+		no_comments: "Aún no hay comentarios. ¡Sé el primero en comentar!",
+
+		upload: {
+			acquisition_data: "Datos de adquisición",
+			parameters: "Configurar parámetros de adquisición",
+			total_time: "Tiempo total",
+			integration_time: "Tiempo total de integración",
+			number_frames: "Número de fotogramas",
+			filter_integration_time: "Tiempo de integración para este filtro",
+			edit_post: "Editar publicación",
+			post: "Publicar",
+			create_post: "Crear publicación",
+			original_image: "Imagen original",
+			post_title: "Introduce el título de la publicación",
+			description: "Describe tu astrofotografía",
+			alert_title: "Por favor, introduce un título para tu publicación",
+			alert_equipment: "Por favor, selecciona un perfil de equipo"
+		}
+	},
+
 	validations: {
 		username_required: "Nombre de usuario requerido",
 		username_tooshort: "Mínimo 3 caracteres requeridos",

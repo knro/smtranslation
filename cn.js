@@ -4,6 +4,7 @@
 		next: "下一项",
 		ok: "确认",
 		done: "完成",
+		duration: "持续时间",
 		cancel: "取消",
 		confirm: "确认",
 		auto: "自动",
@@ -680,6 +681,30 @@
 		update_installed: "更新已安装",
 		loading: "加载中...",
 	},
+	community: {
+		acquisition_details: "采集详情",
+		additional_information: "附加信息",
+		addition_metadata_available: "有可用的附加元数据",
+		no_comments: "还没有评论。快来留下第一条评论吧！",
+
+		upload: {
+			acquisition_data: "采集数据",
+			parameters: "配置采集参数",
+			total_time: "总时间",
+			integration_time: "总积分时间",
+			number_frames: "帧数",
+			filter_integration_time: "此滤镜的积分时间",
+			edit_post: "编辑帖子",
+			post: "发布",
+			create_post: "创建帖子",
+			original_image: "原始图像",
+			post_title: "输入帖子标题",
+			description: "描述你的天文摄影作品",
+			alert_title: "请输入帖子标题",
+			alert_equipment: "请选择设备配置"
+		}
+	},
+
 	validations: {
 		username_required: "请输入用户名",
 		username_tooshort: "至少需要3个字母",
