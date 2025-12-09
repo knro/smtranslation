@@ -4,6 +4,7 @@ const ja = {
 		next: "次",
 		ok: "OK",
 		done: "終了",
+		duration: "継続時間",
 		cancel: "キャンセル",
 		confirm: "確認",
 		auto: "自動",
@@ -667,6 +668,30 @@ const ja = {
 		update_installed: "すべての更新プログラムがインストールされています。",
 		loading: "読み込み中...",
 	},
+	community: {
+		acquisition_details: "取得の詳細",
+		additional_information: "追加情報",
+		addition_metadata_available: "追加のメタデータが利用可能です",
+		no_comments: "まだコメントがありません。最初のコメントを残しましょう！",
+
+		upload: {
+			acquisition_data: "取得データ",
+			parameters: "取得パラメーターを設定",
+			total_time: "合計時間",
+			integration_time: "総合計露光時間",
+			number_frames: "フレーム数",
+			filter_integration_time: "このフィルターの露光時間",
+			edit_post: "投稿を編集",
+			post: "投稿",
+			create_post: "投稿を作成",
+			original_image: "元の画像",
+			post_title: "投稿タイトルを入力",
+			description: "あなたの天体写真について説明してください",
+			alert_title: "投稿のタイトルを入力してください",
+			alert_equipment: "機材プロファイルを選択してください"
+		}
+	},
+
 	validations: {
 		username_required: "ユーザー名は必須です",
 		username_tooshort: "最低3文字必要です",
