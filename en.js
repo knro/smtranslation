@@ -1395,6 +1395,7 @@ const en = {
 			location_source: "Location source",
 			enter_coordinates: "Enter Coordinates",
 			select_target: "Select Target",
+			meridian_flip_tooltip: "Degrees past the meridian to trigger automatic flip to prevent equipment collision. 15° = 1 hour of tracking past meridian. Example: setting 3° means flip occurs ~12 minutes after meridian crossing. Your mount must not automatically flip before this point. Check your mount driver for any meridian flip settings."
 		},
 		modal_add_to_seq: {
 			heading: "Add To Sequence",

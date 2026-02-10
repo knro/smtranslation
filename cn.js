@@ -1361,6 +1361,7 @@
 			location_source: "位置源",
 			enter_coordinates: "输入坐标",
 			select_target: "选择目标",
+			meridian_flip_tooltip: "触发自动翻转以防止设备碰撞的过中天度数。15° = 过中天跟踪 1 小时。例如：设置为 3° 意味着翻转发生在过中天约 12 分钟后。您的赤道仪不得在此点之前自动翻转。请检查您的赤道仪驱动程序以了解任何中天翻转设置。"
 		},
 		modal_add_to_seq: {
 			heading: "添加到序列",

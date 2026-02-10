@@ -1416,6 +1416,7 @@ const es = {
 			location_source: "Fuente de ubicación",
 			enter_coordinates: "Enter Coordinates",
 			select_target: "Select Target",
+			meridian_flip_tooltip: "Grados pasados el meridiano para activar el cambio de meridiano automático y evitar colisiones del equipo. 15° = 1 hora de seguimiento pasado el meridiano. Ejemplo: configurar 3° significa que el cambio ocurre ~12 minutos después de cruzar el meridiano. Su montura no debe cambiar automáticamente antes de este punto. Verifique el controlador de su montura para cualquier configuración de cambio de meridiano."
 		},
 		modal_add_to_seq: {
 			heading: "Agregar a la Secuencia",

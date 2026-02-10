@@ -1410,6 +1410,7 @@ const fr = {
 			location_source: "Source de localisation",
 			enter_coordinates: "Entrer les coordonnées",
 			select_target: "Sélectionner la cible",
+			meridian_flip_tooltip: "Degrés après le méridien pour déclencher le retournement automatique afin d'éviter les collisions d'équipement. 15° = 1 heure de suivi après le méridien. Exemple : un réglage de 3° signifie que le retournement se produit environ 12 minutes après le passage au méridien. Votre monture ne doit pas se retourner automatiquement avant ce point. Vérifiez le pilote de votre monture pour tout paramètre de retournement au méridien."
 		},
 		modal_add_to_seq: {
 			heading: "Ajouter à la séquence",
