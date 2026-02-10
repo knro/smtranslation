@@ -1398,6 +1398,7 @@ const de = {
 			location_source: "Location Quelle",
 			enter_coordinates: "Enter Coordinates",
 			select_target: "Select Target",
+			meridian_flip_tooltip: "Grad über den Meridian hinaus, um einen automatischen Flip auszulösen und Gerätekollisionen zu vermeiden. 15° = 1 Stunde Nachführung über den Meridian hinaus. Beispiel: Eine Einstellung von 3° bedeutet, dass der Flip ca. 12 Minuten nach dem Meridiandurchgang erfolgt. Ihre Montierung darf vor diesem Punkt nicht automatisch umschlagen. Überprüfen Sie Ihren Montierungstreiber auf Einstellungen für den Meridian-Flip."
 		},
 		modal_add_to_seq: {
 			heading: "Zur Sequenz hinzufügen",

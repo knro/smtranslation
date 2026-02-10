@@ -1418,6 +1418,7 @@ const it = {
 			location_source: "Sorgente posizione",
 			enter_coordinates: "Inserisci coordinate",
 			select_target: "Seleziona obiettivo",
+			meridian_flip_tooltip: "Gradi oltre il meridiano per attivare l'inversione automatica e prevenire collisioni dell'attrezzatura. 15° = 1 ora di inseguimento oltre il meridiano. Esempio: impostare 3° significa che l'inversione avviene ~12 minuti dopo il passaggio al meridiano. La montatura non deve invertirsi automaticamente prima di questo punto. Controllare il driver della montatura per eventuali impostazioni di inversione al meridiano."
 		},
 		modal_add_to_seq: {
 			heading: "Aggiungi alla sequenza",
