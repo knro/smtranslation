@@ -679,6 +679,15 @@ const de = {
 			"Verbinden Sie sich mit allen Treibern, die auf 192.168.1.50, Port 7624 gefunden wurden.",
 		remote_info:
 			"Wenn weggelassen, wird der Host standardmäßig auf localhost und der Port standardmäßig auf 7624 gesetzt. Entfernte INDI-Treiber müssen bereits ausgeführt werden, damit die Verbindung erfolgreich ist.",
+		dec_backlash: "Den Effekt des Dek-Umkehrspiels beim Kalibrieren des Guiders entfernen",
+		reset_calibration: "Wenn aktiviert, wird bei jedem Start der Nachführung neu kalibriert. Dies ist oft nicht notwendig, wenn zuvor eine gute Kalibrierung durchgeführt wurde und die Guidingkamera nicht neu installiert wurde.",
+		reverse_pierside: "Beim Wiederverwenden einer Kalibrierung wird der Dek-Winkel umgekehrt, wenn die aktuelle Pierseite von der bei der Kalibrierung abweicht. Dies gilt nur beim Wiederverwenden von Kalibrierungen. Der benötigte Wert ist eine Eigenschaft Ihrer Montierung und sollte recherchiert werden.",
+		reuse_calibration: "Kalibrierungen speichern und versuchen, sie wiederzuverwenden. Dies funktioniert sogar auf gegenüberliegenden Seiten des Meridians, wenn die Pierseite automatisch von Ihrer Montierung bestimmt werden kann.",
+		guide_manual: "Aktivieren Sie diese Option, wenn Sie die Guidingkalibrierung wiederverwenden möchten, aber kein Rotatorgerät vorhanden ist und die Guidingkamera zusammen mit der Bildgebungskamera manuell gedreht wird (z. B. mit einem OAG-System). Bitte beachten Sie, dass die aktive Option Automatische und Manuelle Rotatorsteuerung in den Rotatoreinstellungen eine Voraussetzung ist.",
+		pulse_dither: "Wenn aktiviert, wird der Dithering-Betrag zufällig generiert, Pulse werden gesendet, aber der resultierende Pixel-Dithering-Betrag wird nicht erzwungen, sodass nur ein Dither-Puls gesendet wird. Dies ist schneller und wird empfohlen, da der Dithering-Betrag ohnehin zufällig ist. Es ist notwendig, wenn 2D-Dithering erforderlich ist, aber die Nachführung nur in einer Achse erfolgt.",
+		abort_autoguide: "Wenn aktiviert, wird die automatische Nachführung abgebrochen, wenn das Dithering fehlschlägt. Andernfalls wird die Nachführung normal fortgesetzt.",
+		perform_dithering: "Dithering durchführen, wenn keine Nachführung aktiv ist",
+		stream: "Streaming-Guidingmodus aktivieren. Wenn aktiviert und die Kamera Video-Streaming unterstützt, erfasst das Guidingmodul Frames über einen kontinuierlichen Videostream anstelle einzelner Belichtungen. Dies reduziert den Overhead pro Frame erheblich und ermöglicht höhere Guidingfrequenzen (z. B. 2–5 Hz), die von harmonischen Antrieben benötigt werden. Nicht kompatibel mit Dunkelbildsubtraktion."
 	},
 	splash: {
 		checking_for_updates: "Nach Aktualisierungen suchen ...",
@@ -1095,6 +1104,8 @@ const de = {
 				reverse_calibration:
 					"Reverse DEC on pier-side change when reusing calibration",
 				skyflats: "Sky flats",
+				pierside: "Montierung kehrt DEC-Pulse nach dem Wechsel der Pierseite um",
+				manual_rotator: "Guidingkamera an manuellem Rotator koppeln"
 			},
 		},
 		collapse_camera: {
@@ -1343,6 +1354,14 @@ const de = {
 
 			min_error: "Min Fehler",
 			max_response: "Max response",
+
+			one_pulse: "Einzelpuls-Dithering",
+			abort_guide: "Autoguiding bei Fehler abbrechen",
+			non_guide: "Nicht-Guiding-Dither-Puls",
+			stream: "Streaming",
+			dither_settings: "Dithering-Einstellungen",
+			advanced_settings: "Erweiterte Einstellungen",
+			calibration_settings: "Kalibrierungseinstellungen"
 		},
 		collapse_observatory: {
 			heading: "Observatorium",

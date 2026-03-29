@@ -680,6 +680,15 @@ const it = {
 			"Connettiti a tutti i driver trovati su 192.168.1.50, porta 7624.",
 		remote_info:
 			"Quando omesso, l'host predefinito è localhost e la porta predefinita è 7624. I driver INDI remoti devono essere già in esecuzione affinché la connessione abbia successo.",
+		dec_backlash: "Rimuovere l'effetto del gioco DEC durante la calibrazione della guida",
+		reset_calibration: "Se selezionato, verrà sempre eseguita una nuova calibrazione all'avvio della guida. Ciò spesso non è necessario quando è stata eseguita in precedenza una calibrazione di buona qualità e la telecamera di guida non è stata reinstallata.",
+		reverse_pierside: "Quando si riutilizza una calibrazione, inverte l'angolo di DEC se il lato del pilastro attuale differisce da quello al momento della calibrazione. Questo si applica solo quando si riutilizzano le calibrazioni. Il valore necessario è una proprietà del proprio supporto che dovrebbe essere verificata.",
+		reuse_calibration: "Memorizzare e tentare di riutilizzare le calibrazioni. Funziona anche sui lati opposti del meridiano se il lato del pilastro può essere determinato automaticamente dal proprio supporto.",
+		guide_manual: "Selezionare questa opzione se si desidera riutilizzare la calibrazione della guida, ma non è presente alcun dispositivo rotatore e la telecamera di guida viene ruotata manualmente insieme alla telecamera di imaging (ad esempio con un sistema OAG). Si prega di notare che un'opzione attiva di Controllo Automatico e Manuale del Rotatore nelle Impostazioni del Rotatore è una condizione preliminare.",
+		pulse_dither: "Se selezionato, la quantità di dithering viene generata casualmente, vengono inviati impulsi, ma la quantità di dithering dei pixel risultante non viene applicata, quindi viene inviato solo un impulso di dither. Questo è più veloce e consigliato poiché la quantità di dithering è comunque casuale. È necessario quando è richiesto il dithering 2D ma la guida viene eseguita solo su un asse.",
+		abort_autoguide: "Se selezionato, la guida automatica viene interrotta quando il dithering fallisce. Altrimenti, la guida riprende normalmente.",
+		perform_dithering: "Eseguire il dithering quando non si sta guidando",
+		stream: "Abilitare la modalità di guida in streaming. Quando selezionato e la fotocamera supporta lo streaming video, il modulo di guida acquisisce i fotogrammi tramite un flusso video continuo anziché esposizioni singole. Ciò riduce significativamente il sovraccarico per fotogramma e consente frequenze di guida più elevate (ad esempio, 2-5 Hz) richieste dalle unità armoniche. Non compatibile con la sottrazione dei fotogrammi scuri."
 	},
 	splash: {
 		checking_for_updates: "Controllo aggiornamenti...",
@@ -1108,6 +1117,8 @@ const it = {
 				reverse_calibration:
 					"Inverti DEC al cambio lato pilastro quando riutilizzi la calibrazione",
 				skyflats: "Flat del cielo",
+				pierside: "Il supporto inverte gli impulsi DEC dopo aver cambiato il lato del pilastro",
+				manual_rotator: "Collegare la telecamera di guida al rotatore manuale"
 			},
 		},
 		collapse_camera: {
@@ -1361,6 +1372,14 @@ const it = {
 
 			min_error: "Errore min",
 			max_response: "Risposta max",
+
+			one_pulse: "Dithering a impulso singolo",
+			abort_guide: "Interrompi la guida automatica in caso di errore",
+			non_guide: "Impulso di dithering senza guida",
+			stream: "Streaming",
+			dither_settings: "Impostazioni di dithering",
+			advanced_settings: "Impostazioni avanzate",
+			calibration_settings: "Impostazioni di calibrazione"
 		},
 		collapse_observatory: {
 			heading: "Osservatorio",

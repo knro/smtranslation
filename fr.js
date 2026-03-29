@@ -679,6 +679,15 @@ const fr = {
 			"Se connecter à tous les pilotes trouvés sur 192.168.1.50, port 7624.",
 		remote_info:
 			"En cas d'omission, l'hôte est défini par défaut sur localhost et le port sur 7624. Les pilotes INDI distants doivent déjà être en cours d'exécution pour que la connexion réussisse.",
+		dec_backlash: "Supprimer l'effet du jeu de DEC lors de la calibration du guidage",
+		reset_calibration: "Si coché, le système recalibrera toujours au démarrage du guidage. Cela n'est souvent pas nécessaire lorsqu'une calibration de bonne qualité a déjà été effectuée et que la caméra de guidage n'a pas été réinstallée.",
+		reverse_pierside: "Lors de la réutilisation d'une calibration, inverse l'angle de DEC si le côté du pilier actuel diffère de celui lors de la calibration. Cela s'applique uniquement lors de la réutilisation des calibrations. La valeur nécessaire est une propriété de votre monture qui doit être recherchée.",
+		reuse_calibration: "Stocker et tenter de réutiliser les calibrations. Cela fonctionne même des côtés opposés du méridien si le côté du pilier peut être déterminé automatiquement par votre monture.",
+		guide_manual: "Cochez cette option si vous souhaitez réutiliser la calibration de guidage, mais qu'il n'y a pas de dispositif rotateur et que la caméra de guidage est tournée manuellement avec la caméra d'imagerie (par exemple avec un train OAG). Veuillez noter qu'une option active de Contrôle Automatique et Manuel du Rotateur dans les Paramètres du Rotateur est une condition préalable.",
+		pulse_dither: "Si coché, la quantité de dithering est générée aléatoirement, des impulsions sont envoyées, mais la quantité de dithering en pixels résultante n'est pas appliquée, donc un seul pulse de dither est envoyé. C'est plus rapide et recommandé car la quantité de dithering est de toute façon aléatoire. Cela est nécessaire lorsque le dithering 2D est requis mais que le guidage n'est effectué que sur un seul axe.",
+		abort_autoguide: "Si coché, le guidage automatique est interrompu en cas d'échec du dithering. Sinon, le guidage reprend normalement.",
+		perform_dithering: "Effectuer le dithering lorsque le guidage n'est pas actif",
+		stream: "Activer le mode de guidage en streaming. Lorsque coché et que la caméra prend en charge le streaming vidéo, le module de guidage capture les images via un flux vidéo continu plutôt que des expositions individuelles. Cela réduit considérablement la surcharge par image et permet des fréquences de guidage plus élevées (par exemple, 2 à 5 Hz) requises par les entraînements harmoniques. Non compatible avec la soustraction des images sombres."
 	},
 	splash: {
 		checking_for_updates: "Vérification des mises à jour...",
@@ -1097,6 +1106,8 @@ const fr = {
 				reverse_calibration:
 					"Inverser DEC lors du changement de côté du pilier lors de la réutilisation de l'étalonnage",
 				skyflats: "Flats de ciel",
+				pierside: "La monture inverse les impulsions DEC après le changement de côté du pilier",
+				manual_rotator: "Coupler la caméra de guidage au rotateur manuel"
 			},
 		},
 		collapse_camera: {
@@ -1352,6 +1363,14 @@ const fr = {
 
 			min_error: "Erreur min",
 			max_response: "Réponse max",
+
+			one_pulse: "Dithering à impulsion unique",
+			abort_guide: "Annuler le guidage automatique en cas d'échec",
+			non_guide: "Impulsion de dithering sans guidage",
+			stream: "Streaming",
+			dither_settings: "Paramètres de dithering",
+			advanced_settings: "Paramètres avancés",
+			calibration_settings: "Paramètres de calibration"
 		},
 		collapse_observatory: {
 			heading: "Observatoire",
