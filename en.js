@@ -668,6 +668,15 @@ const en = {
 		remote_ip: "Connect to all drivers found on 192.168.1.50, port 7624.",
 		remote_info:
 			"When omitted, host defaults to localhost and port defaults to 7624. Remote INDI drivers must be already running for the connection to succeed.",
+		dec_backlash: "Remove the effect of DEC backlash when calibrating guider",
+		reset_calibration: "If checked, always re-calibrate when guiding is started. This is often not necessary when a good quality calibration has previously been done and the guide camera has not been re-installed.",
+		reverse_pierside: "When re-using a calibration, reverse the DEC angle if the current pier side differs from the one at calibration. This only applies when re-using calibrations. The value you need is a property of your mount that should be researched.",
+		reuse_calibration: "Store and attempt to reuse calibrations. This even works on opposite sides of the meridian if the pier-side can be automatically determined from your mount.",
+		guide_manual: "Check this option if you want to reuse the guide calibration, but there is no rotator device and the guide camera is manually rotated together with the imaging camera (e.g. with a OAG train). Please note that an active option Automatic and Manual Rotator Control in Rotator Settings is a precondition.",
+		pulse_dither: "If checked, dithering amount is randomly generated, pulses are sent, but the resultant pixel dithering amount is not enforced so only the one dither pulse is sent. This is quicker, and recommended as dither amount is random anyway. It is necessary when 2-D dither is required but guiding is only done in one axis.",
+		abort_autoguide: "If checked, autoguiding is aborted when dithering fails. Otherwise, guiding resumes normally.",
+		perform_dithering: "Perform dithering, When not guiding",
+		stream: "Enable streaming guide mode. When checked and the camera supports video streaming, the guide module captures frames via acontinuous video stream instead of individual exposures. This significantly reduces per-frame overhead and enables higher guiding frequencies (e.g. 2-5 Hz) required by harmonic drives. Not compatible with dark-frame subtraction."
 	},
 	splash: {
 		checking_for_updates: "Checking for updates...",
@@ -1092,6 +1101,8 @@ const en = {
 				reverse_calibration:
 					"Reverse DEC on pier-side change when reusing calibration",
 				skyflats: "Sky flats",
+				pierside: "Mount reverses DEC pulses after chaning pierside",
+				manual_rotator: "Couple guide camera on Manual Rotator"
 			},
 		},
 		collapse_camera: {
@@ -1341,6 +1352,14 @@ const en = {
 
 			min_error: "Min error",
 			max_response: "Max response",
+
+			one_pulse: "One Pulse Dither",
+			abort_guide: "Abort Autoguide on failure",
+			non_guide: "Non-Guide Dither Pulse",
+			stream: "Stream",
+			dither_settings: "Dither Settings",
+			advanced_settings: "Advanced Settings",
+			calibration_settings: "Calibration Settings"
 		},
 		collapse_observatory: {
 			heading: "Observatory",

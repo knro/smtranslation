@@ -678,6 +678,15 @@ const es = {
 			"Conectarse a todos los controladores que se encuentran en 192.168.1.50, puerto 7624.",
 		remote_info:
 			"Cuando se omite, el host predeterminado es localhost y el puerto predeterminado es 7624. Los controladores INDI remotos ya deben estar ejecutándose para que la conexión sea exitosa.",
+		dec_backlash: "Eliminar el efecto del juego de DEC al calibrar el guiado",
+		reset_calibration: "Si está marcado, siempre se recalibrará al iniciar el guiado. Esto generalmente no es necesario cuando se ha realizado previamente una calibración de buena calidad y la cámara de guiado no ha sido reinstalada.",
+		reverse_pierside: "Al reutilizar una calibración, invierte el ángulo de DEC si el lado del pilar actual difiere del que había en la calibración. Esto solo se aplica al reutilizar calibraciones. El valor necesario es una propiedad de su montura y debe ser investigado.",
+		reuse_calibration: "Almacenar e intentar reutilizar las calibraciones. Esto funciona incluso en lados opuestos del meridiano si el lado del pilar puede determinarse automáticamente desde su montura.",
+		guide_manual: "Marque esta opción si desea reutilizar la calibración de guiado, pero no hay dispositivo rotador y la cámara de guiado se gira manualmente junto con la cámara de imagen (por ejemplo, con un tren OAG). Tenga en cuenta que una opción activa de Control Automático y Manual del Rotador en la Configuración del Rotador es una condición previa.",
+		pulse_dither: "Si está marcado, la cantidad de dithering se genera aleatoriamente, se envían pulsos, pero la cantidad de dithering de píxeles resultante no se aplica, por lo que solo se envía un pulso de dither. Esto es más rápido y se recomienda ya que la cantidad de dithering es aleatoria de todos modos. Es necesario cuando se requiere dithering en 2D pero el guiado solo se realiza en un eje.",
+		abort_autoguide: "Si está marcado, el autoguiado se cancela cuando el dithering falla. De lo contrario, el guiado se reanuda normalmente.",
+		perform_dithering: "Realizar dithering cuando no se está guiando",
+		stream: "Activar el modo de guiado en streaming. Cuando está marcado y la cámara admite transmisión de vídeo, el módulo de guiado captura fotogramas a través de una transmisión de vídeo continua en lugar de exposiciones individuales. Esto reduce significativamente la sobrecarga por fotograma y permite frecuencias de guiado más altas (por ejemplo, 2-5 Hz) requeridas por las unidades armónicas. No es compatible con la sustracción de fotogramas oscuros."
 	},
 	splash: {
 		checking_for_updates: "Comprobando actualizaciones...",
@@ -1110,6 +1119,8 @@ const es = {
 				reverse_calibration:
 					"Invertir DEC en el cambio del lado del muelle al reutilizar la calibración",
 				skyflats: "Pisos en el cielo",
+				pierside: "La montura invierte los pulsos de DEC al cambiar el lado del pilar",
+				manual_rotator: "Acoplar la cámara de guiado al rotador manual"
 			},
 		},
 		collapse_camera: {
@@ -1362,6 +1373,14 @@ const es = {
 
 			min_error: "Min error",
 			max_response: "Max response",
+
+			one_pulse: "Dithering de un solo pulso",
+			abort_guide: "Cancelar autoguiado en caso de fallo",
+			non_guide: "Pulso de dithering sin guiado",
+			stream: "Streaming",
+			dither_settings: "Configuración de dithering",
+			advanced_settings: "Configuración avanzada",
+			calibration_settings: "Configuración de calibración"
 		},
 		collapse_observatory: {
 			heading: "Observatorio",
