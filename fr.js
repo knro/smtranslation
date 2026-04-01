@@ -1479,6 +1479,9 @@ const fr = {
 			sigma_clipping: "Écrêtage Sigma",
 			noImages: "Pas d'images trouvées pour Live Stacking",
 			median_filter: "Filtre médian",
+			dark_flat: "Flat Sombre",
+			dark_master: "Master Sombre",
+			master_files: "Fichiers Master"
 		},
 		scheduler: {
 			scheduler: "PLANIFICATEUR",

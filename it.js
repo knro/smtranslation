@@ -1486,6 +1486,9 @@ const it = {
 			sigma_clipping: "Sigma Clipping",
 			noImages: "Nessuna immagine Live Stacking trovata",
 			median_filter: "Filtro mediano",
+			dark_flat: "Flat Scuro",
+			dark_master: "Master Scuro",
+			master_files: "File Master"
 		},
 		scheduler: {
 			scheduler: "Pianificatore",
