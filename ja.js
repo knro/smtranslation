@@ -1457,6 +1457,9 @@ const ja = {
 			sigma_clipping: "シグマ クリッピング",
 			noImages: "ライブ スタッキング イメージが見つかりません",
 			median_filter: "中央値フィルター",
+			dark_flat: "ダークフラット",
+			dark_master: "ダークマスター",
+			master_files: "マスターファイル"
 		},
 		scheduler: {
 			scheduler: "スケジューラ",

@@ -1484,6 +1484,9 @@ const es = {
 			sigma_clipping: "Recorte Sigma",
 			noImages: "No se encontraron imágenes de apilamiento en vivo",
 			median_filter: "Median Filter",
+			dark_flat: "Flat Oscuro",
+			dark_master: "Master Oscuro",
+			master_files: "Archivos Master"
 		},
 		scheduler: {
 			scheduler: "Programadora",

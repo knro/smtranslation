@@ -1429,6 +1429,10 @@
 			sigma_clipping: "Sigma滤波",
 			noImages: "未找到实时叠加图像",
 			median_filter: "中值滤波",
+
+			dark_flat: "暗平场",
+			dark_master: "暗主帧",
+			master_files: "主文件"
 		},
 		scheduler: {
 			scheduler: "序列管理器",
