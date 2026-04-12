@@ -316,6 +316,8 @@ const de = {
 		video_recording_title: "Director's Cut",
 		weather_check_title: "Wolkenmagnet",
 		live_stacking_title: "Let there be details",
+		live_stacking_50_title: "SNR-Champion",
+		live_stacking_100_title: "Rauschen? Welches Rauschen?",
 		create_darks_title: "Embrace the dark side",
 		create_defect_title: "Cosmic Makeup",
 		import_mosaic_title: "Mosaic Weaver",
@@ -335,6 +337,8 @@ const de = {
 		weather_check__description:
 			"Wolkenkarte in Wetterinformationen verwenden, mindestens 8x zoomen, um das Wetter zu überprüfen",
 		live_stacking_description: "Live-Stacking. Mindestens 5 Bilder durchführen",
+		live_stacking_50_description: "50 Bilder live stapeln",
+		live_stacking_100_description: "100 Bilder live stapeln",
 		create_darks_description: "Darks mit insgesamt 50 Bildern erstellen",
 		create_defect_description:
 			"Heiße/Kalte Pixel in Defektkarte über 80 generieren",

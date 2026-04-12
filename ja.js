@@ -310,6 +310,8 @@ const ja = {
 		video_recording_title: "ディレクターズ カット",
 		weather_check_title: "クラウド マグネット",
 		live_stacking_title: "詳細を見てみましょう",
+		live_stacking_50_title: "SNRチャンピオン",
+		live_stacking_100_title: "ノイズ？何のノイズ？",
 		create_darks_title: "ダークサイドを受け入れる",
 		create_defect_title: "コズミック メイクアップ",
 		import_mosaic_title: "モザイク ウィーバー",
@@ -330,6 +332,8 @@ const ja = {
 			"天気情報でクラウド マップを使用します。天気を確認するには,少なくとも 8 倍にズームインします",
 		live_stacking_description:
 			"ライブ スタッキング。少なくとも 5 枚の画像を実行します",
+		live_stacking_50_description: "50枚の画像をライブスタック",
+		live_stacking_100_description: "100枚の画像をライブスタック",
 		create_darks_description: "合計 50 のダークを作成します画像",
 		create_defect_description:
 			"80 を超える欠陥マップでホット/コールド ピクセルを生成します",
