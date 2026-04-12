@@ -316,6 +316,8 @@ const en = {
 		video_recording_title: "Director’s Cut",
 		weather_check_title: "Cloud Magnet",
 		live_stacking_title: "Let there be details",
+		live_stacking_50_title: "SNR Champion",
+		live_stacking_100_title: "Noise? What Noise?",
 		create_darks_title: "Embrace the dark side",
 		create_defect_title: "Cosmic Makeup",
 		import_mosaic_title: "Mosaic Weaver",
@@ -335,6 +337,8 @@ const en = {
 		weather_check__description:
 			"Use Cloud Map in weather info, Zoom in to at least 8x to check weather",
 		live_stacking_description: "Live stacking. Perform at least 5 images",
+		live_stacking_50_description: "Live stack 50 images",
+		live_stacking_100_description: "Live stack 100 images",
 		create_darks_description: "Create Darks of total 50 Images",
 		create_defect_description:
 			"Generate hot / cold pixels in Defect map above 80",

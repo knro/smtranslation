@@ -315,6 +315,8 @@ const fr = {
 		video_recording_title: "Version du réalisateur",
 		weather_check_title: "Aimant à nuages",
 		live_stacking_title: "Qu'il y ait des détails",
+		live_stacking_50_title: "Champion du RSB",
+		live_stacking_100_title: "Du bruit? Quel bruit?",
 		create_darks_title: "Embrassez le côté obscur",
 		create_defect_title: "Maquillage cosmique",
 		import_mosaic_title: "Tisseur de mosaïques",
@@ -335,6 +337,8 @@ const fr = {
 			"Utiliser la carte des nuages dans les informations météo, zoomer au moins 8x pour vérifier la météo",
 		live_stacking_description:
 			"Empilement en direct. Effectuer au moins 5 images",
+		live_stacking_50_description: "Empiler 50 images en direct",
+		live_stacking_100_description: "Empiler 100 images en direct",
 		create_darks_description: "Créer des Darks d'un total de 50 images",
 		create_defect_description:
 			"Générer des pixels chauds/froids dans la carte des défauts au-dessus de 80",

@@ -313,6 +313,8 @@ const it = {
 		video_recording_title: "Montaggio del regista",
 		weather_check_title: "Calamita per nuvole",
 		live_stacking_title: "Che ci siano dettagli",
+		live_stacking_50_title: "Campione SNR",
+		live_stacking_100_title: "Rumore? Quale rumore?",
 		create_darks_title: "Abbraccia il lato oscuro",
 		create_defect_title: "Trucco cosmico",
 		import_mosaic_title: "Tessitore di mosaici",
@@ -332,6 +334,8 @@ const it = {
 		weather_check__description:
 			"Usa la Mappa delle Nuvole nelle informazioni meteo, ingrandisci almeno 8x per controllare il meteo",
 		live_stacking_description: "Live stacking. Esegui almeno 5 immagini",
+		live_stacking_50_description: "Sovrapponi in diretta 50 immagini",
+		live_stacking_100_description: "Sovrapponi in diretta 100 immagini",
 		create_darks_description: "Crea Dark per un totale di 50 immagini",
 		create_defect_description:
 			"Genera pixel caldi/freddi nella mappa dei difetti sopra 80",

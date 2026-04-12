@@ -316,6 +316,8 @@ const es = {
 		video_recording_title: "Edición del director",
 		weather_check_title: "Imán de nubes",
 		live_stacking_title: "Que haya detalles",
+		live_stacking_50_title: "Campeón de SNR",
+		live_stacking_100_title: "¿Ruido? ¿Qué ruido?",
 		create_darks_title: "Abraza el lado oscuro",
 		create_defect_title: "Maquillaje cósmico",
 		import_mosaic_title: "Tejedor de mosaicos",
@@ -336,6 +338,8 @@ const es = {
 			"Utilice el mapa de nubes en la información meteorológica. Amplíe al menos 8x para comprobar el clima.",
 		live_stacking_description:
 			"Apilamiento en vivo. Realice al menos 5 imágenes",
+		live_stacking_50_description: "Apilar en vivo 50 imágenes",
+		live_stacking_100_description: "Apilar en vivo 100 imágenes",
 		create_darks_description: "Crea Darks de un total de 50 imágenes",
 		create_defect_description:
 			"Generar píxeles fríos/calientes en el mapa de defectos por encima de 80",
