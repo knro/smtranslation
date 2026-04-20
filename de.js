@@ -693,10 +693,10 @@ const de = {
 		perform_dithering: "Dithering durchführen, wenn keine Nachführung aktiv ist",
 		stream: "Streaming-Guidingmodus aktivieren. Wenn aktiviert und die Kamera Video-Streaming unterstützt, erfasst das Guidingmodul Frames über einen kontinuierlichen Videostream anstelle einzelner Belichtungen. Dies reduziert den Overhead pro Frame erheblich und ermöglicht höhere Guidingfrequenzen (z. B. 2–5 Hz), die von harmonischen Antrieben benötigt werden. Nicht kompatibel mit Dunkelbildsubtraktion.",
 
-		reset_ekoslive: "Alle Bilder und Vorschaubilder neu generieren",
-		reset_desktop: "Desktop-Plasma-Dateien in die Konfiguration kopieren",
-		reset_network: "Alle Netzwerkeinstellungen einschließlich verbundener WLAN-Netzwerke zurücksetzen",
-		reset_driver_config: "Löscht alle INDI-Treiberkonfigurationsdateien und Protokolle."
+		reset_ekoslive: "Alle EkosLive-Bilder und Vorschaubilder neu generieren",
+		reset_desktop: "Plasma-Desktop-Konfiguration auf Standardwerte zurücksetzen",
+		reset_network: "Alle Netzwerkeinstellungen und gespeicherte WLAN-Verbindungen zurücksetzen",
+		reset_driver_config: "Alle INDI-Treiberkonfigurationsdateien und Protokolle löschen"
 	},
 	splash: {
 		checking_for_updates: "Nach Aktualisierungen suchen ...",

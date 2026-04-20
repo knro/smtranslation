@@ -694,10 +694,10 @@ const it = {
 		perform_dithering: "Eseguire il dithering quando non si sta guidando",
 		stream: "Abilitare la modalità di guida in streaming. Quando selezionato e la fotocamera supporta lo streaming video, il modulo di guida acquisisce i fotogrammi tramite un flusso video continuo anziché esposizioni singole. Ciò riduce significativamente il sovraccarico per fotogramma e consente frequenze di guida più elevate (ad esempio, 2-5 Hz) richieste dalle unità armoniche. Non compatibile con la sottrazione dei fotogrammi scuri.",
 
-		reset_ekoslive: "Rigenera tutte le immagini e le miniature",
-		reset_desktop: "Copia i file Desktop Plasma nella configurazione",
-		reset_network: "Reimposta tutte le impostazioni di rete incluso il WiFi connesso",
-		reset_driver_config: "Elimina tutti i file di configurazione e i log del driver INDI."
+		reset_ekoslive: "Rigenera tutte le immagini e miniature di EkosLive",
+		reset_desktop: "Ripristina la configurazione del desktop Plasma alle impostazioni predefinite",
+		reset_network: "Reimposta tutte le impostazioni di rete e le connessioni Wi-Fi salvate",
+		reset_driver_config: "Elimina tutti i file di configurazione e i log del driver INDI"
 	},
 	splash: {
 		checking_for_updates: "Controllo aggiornamenti...",

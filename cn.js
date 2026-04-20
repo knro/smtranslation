@@ -685,9 +685,9 @@
 		perform_dithering: "在未进行导星时执行抖动",
 		stream: "启用流式导星模式。勾选后，若相机支持视频流，导星模块将通过连续视频流而非单次曝光来采集帧。这可显著降低每帧的处理开销，并实现谐波驱动所需的更高导星频率（例如 2-5 Hz）。与暗帧相减功能不兼容。",
 
-		reset_ekoslive: "重新生成所有图像和缩略图",
-		reset_desktop: "将桌面 Plasma 文件复制到配置",
-		reset_network: "重置所有网络设置，包括已连接的 WiFi",
+		reset_ekoslive: "重新生成所有 EkosLive 图像和缩略图",
+		reset_desktop: "将 Plasma 桌面配置重置为默认值",
+		reset_network: "重置所有网络设置和已保存的 Wi-Fi 连接",
 		reset_driver_config: "删除所有 INDI 驱动程序配置文件和日志"
 
 	},

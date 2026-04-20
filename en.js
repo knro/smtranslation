@@ -682,10 +682,10 @@ const en = {
 		perform_dithering: "Perform dithering, When not guiding",
 		stream: "Enable streaming guide mode. When checked and the camera supports video streaming, the guide module captures frames via acontinuous video stream instead of individual exposures. This significantly reduces per-frame overhead and enables higher guiding frequencies (e.g. 2-5 Hz) required by harmonic drives. Not compatible with dark-frame subtraction.",
 
-		reset_ekoslive: "Regenerate all images and thumbnails",
-		reset_desktop: "Copy Desktop Plasma files to config",
-		reset_network: "Reset all network settings including connected WiFi",
-		reset_driver_config: "Deletes all INDI driver configuration files and logs."
+		reset_ekoslive: "Regenerate all EkosLive images and thumbnails",
+		reset_desktop: "Reset Plasma desktop configuration to defaults",
+		reset_network: "Reset all network settings and saved Wi-Fi connections",
+		reset_driver_config: "Delete all INDI driver configuration files and logs",
 	},
 	splash: {
 		checking_for_updates: "Checking for updates...",

@@ -693,10 +693,11 @@ const fr = {
 		perform_dithering: "Effectuer le dithering lorsque le guidage n'est pas actif",
 		stream: "Activer le mode de guidage en streaming. Lorsque coché et que la caméra prend en charge le streaming vidéo, le module de guidage capture les images via un flux vidéo continu plutôt que des expositions individuelles. Cela réduit considérablement la surcharge par image et permet des fréquences de guidage plus élevées (par exemple, 2 à 5 Hz) requises par les entraînements harmoniques. Non compatible avec la soustraction des images sombres.",
 
-		reset_ekoslive: "Régénérer toutes les images et miniatures",
-		reset_desktop: "Copier les fichiers Desktop Plasma dans la configuration",
-		reset_network: "Réinitialiser tous les paramètres réseau y compris le WiFi connecté",
-		reset_driver_config: "Supprime tous les fichiers de configuration et journaux du pilote INDI."
+		reset_ekoslive: "Régénérer toutes les images et miniatures EkosLive",
+		reset_desktop: "Réinitialiser la configuration du bureau Plasma aux valeurs par défaut",
+		reset_network: "Réinitialiser tous les paramètres réseau et les connexions Wi-Fi enregistrées",
+		reset_driver_config: "Supprimer tous les fichiers de configuration et journaux du pilote INDI"
+
 	},
 	splash: {
 		checking_for_updates: "Vérification des mises à jour...",

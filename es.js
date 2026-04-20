@@ -692,10 +692,10 @@ const es = {
 		perform_dithering: "Realizar dithering cuando no se está guiando",
 		stream: "Activar el modo de guiado en streaming. Cuando está marcado y la cámara admite transmisión de vídeo, el módulo de guiado captura fotogramas a través de una transmisión de vídeo continua en lugar de exposiciones individuales. Esto reduce significativamente la sobrecarga por fotograma y permite frecuencias de guiado más altas (por ejemplo, 2-5 Hz) requeridas por las unidades armónicas. No es compatible con la sustracción de fotogramas oscuros.",
 
-		reset_ekoslive: "Regenerar todas las imágenes y miniaturas",
-		reset_desktop: "Copiar archivos de Desktop Plasma a la configuración",
-		reset_network: "Restablecer todas las configuraciones de red incluyendo el WiFi conectado",
-		reset_driver_config: "Elimina todos los archivos de configuración y registros del controlador INDI."
+		reset_ekoslive: "Regenerar todas las imágenes y miniaturas de EkosLive",
+		reset_desktop: "Restablecer la configuración del escritorio Plasma a los valores predeterminados",
+		reset_network: "Restablecer todas las configuraciones de red y conexiones Wi-Fi guardadas",
+		reset_driver_config: "Eliminar todos los archivos de configuración y registros del controlador INDI"
 	},
 	splash: {
 		checking_for_updates: "Comprobando actualizaciones...",
