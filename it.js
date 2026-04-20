@@ -1947,6 +1947,11 @@ const it = {
 
 		tooltip_push_assistant:
 			"Questa funzione ti aiuta a puntare manualmente la tua montatura altazimutale utilizzando una fotocamera. Seleziona semplicemente l'oggetto o la posizione desiderata sulla mappa celeste, quindi avvia il processo di risoluzione delle lastre. L'app ti guiderà nella regolazione iterativa della montatura fino al centraggio dell'obiettivo. Puoi regolare il ritardo tra le risoluzioni delle lastre per darti il ​​tempo sufficiente per spostare la montatura senza causare immagini sfocate.",
+		import_horizon: "Importa un file orizzonte KStars (.txt) o CSV (.csv), oppure modifica i punti manualmente. I punti definiscono gli ostacoli (edifici, alberi, terreno).",
+		tap_sky: "Tocca la mappa celeste per aggiungere punti...",
+		select_point: "Seleziona un punto sulla mappa celeste",
+		import_file: "Importa file",
+		done_selecting: "Selezione completata"
 	},
 	device: {
 		mirror: "Specchia display esterno",

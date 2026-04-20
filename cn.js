@@ -1827,6 +1827,11 @@
 		tooltip_push_assistant_title: "一键助手",
 		tooltip_push_assistant:
 			"此功能可帮助您使用相机手动瞄准 Alt-Az 支架。只需在星图上选择所需的目标或位置，然后启动背景图像解析过程即可。该应用程序将引导您反复调整支架，直到目标位于中心。您可以调整背景图像解析之间的延迟时间，以便有足够的时间移动支架，而不会导致图像模糊。",
+		import_horizon: "导入 KStars 地平线文件 (.txt) 或 CSV (.csv)，或手动编辑点。点定义了障碍物（建筑物、树木、地形）。",
+		tap_sky: "在星图上点击添加点...",
+		select_point: "在星图上选择点",
+		import_file: "导入文件",
+		done_selecting: "完成选择"
 	},
 
 	device: {

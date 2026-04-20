@@ -1912,6 +1912,11 @@ const fr = {
 		tooltip_push_assistant_title: "Assistant Push-To",
 		tooltip_push_assistant:
 			"Cette fonctionnalité vous permet de viser manuellement votre monture Alt-Az à l'aide d'un appareil photo. Sélectionnez simplement l'objet ou le lieu souhaité sur la carte du ciel, puis lancez le processus de résolution de la plaque. L'application vous guidera pour ajuster votre monture de manière itérative jusqu'à ce que la cible soit centrée. Vous pouvez ajuster le délai entre les résolutions de la plaque afin de disposer de suffisamment de temps pour déplacer la monture sans obtenir d'images floues.",
+		import_horizon: "Importez un fichier d'horizon KStars (.txt) ou CSV (.csv), ou modifiez les points manuellement. Les points définissent les obstacles (bâtiments, arbres, terrain).",
+		tap_sky: "Appuyez sur la carte du ciel pour ajouter des points...",
+		select_point: "Sélectionner un point sur la carte du ciel",
+		import_file: "Importer un fichier",
+		done_selecting: "Sélection terminée"
 	},
 	device: {
 		mirror: "Miroir d'affichage externe",
