@@ -680,7 +680,12 @@ const en = {
 		pulse_dither: "If checked, dithering amount is randomly generated, pulses are sent, but the resultant pixel dithering amount is not enforced so only the one dither pulse is sent. This is quicker, and recommended as dither amount is random anyway. It is necessary when 2-D dither is required but guiding is only done in one axis.",
 		abort_autoguide: "If checked, autoguiding is aborted when dithering fails. Otherwise, guiding resumes normally.",
 		perform_dithering: "Perform dithering, When not guiding",
-		stream: "Enable streaming guide mode. When checked and the camera supports video streaming, the guide module captures frames via acontinuous video stream instead of individual exposures. This significantly reduces per-frame overhead and enables higher guiding frequencies (e.g. 2-5 Hz) required by harmonic drives. Not compatible with dark-frame subtraction."
+		stream: "Enable streaming guide mode. When checked and the camera supports video streaming, the guide module captures frames via acontinuous video stream instead of individual exposures. This significantly reduces per-frame overhead and enables higher guiding frequencies (e.g. 2-5 Hz) required by harmonic drives. Not compatible with dark-frame subtraction.",
+
+		reset_ekoslive: "Regenerate all images and thumbnails",
+		reset_desktop: "Copy Desktop Plasma files to config",
+		reset_network: "Reset all network settings including connected WiFi",
+		reset_driver_config: "Deletes all INDI driver configuration files and logs."
 	},
 	splash: {
 		checking_for_updates: "Checking for updates...",
@@ -1813,6 +1818,7 @@ const en = {
 		last_synced: "Last synced",
 		sync_all: "Sync All data",
 		pro_feature: "Pro feature",
+
 	},
 	cloud: {
 		heading: "View",
