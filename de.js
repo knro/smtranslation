@@ -1897,6 +1897,11 @@ const de = {
 		tooltip_push_assistant_title: "Push-To-Assistent",
 		tooltip_push_assistant:
 			"Mit dieser Funktion können Sie Ihre Alt-Az-Montierung manuell mit einer Kamera ausrichten. Wählen Sie einfach das gewünschte Objekt oder den gewünschten Ort auf der Himmelskarte aus und starten Sie den Plate-Solving-Prozess. Die App führt Sie schrittweise durch die Ausrichtung Ihrer Montierung, bis das Ziel zentriert ist. Sie können die Verzögerung zwischen den Plate-Solving-Vorgängen anpassen, um genügend Zeit zum Bewegen der Montierung zu haben, ohne dass unscharfe Bilder entstehen.",
+		import_horizon: "Importieren Sie eine KStars-Horizontdatei (.txt) oder CSV (.csv) oder bearbeiten Sie Punkte manuell. Punkte definieren Hindernisse (Gebäude, Bäume, Gelände).",
+		tap_sky: "Tippen Sie auf die Himmelskarte, um Punkte hinzuzufügen...",
+		select_point: "Punkt auf der Himmelskarte auswählen",
+		import_file: "Datei importieren",
+		done_selecting: "Auswahl abgeschlossen"
 	},
 	device: {
 		mirror: "Externe Anzeige spiegeln",
