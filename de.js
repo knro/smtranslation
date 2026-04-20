@@ -691,7 +691,12 @@ const de = {
 		pulse_dither: "Wenn aktiviert, wird der Dithering-Betrag zufällig generiert, Pulse werden gesendet, aber der resultierende Pixel-Dithering-Betrag wird nicht erzwungen, sodass nur ein Dither-Puls gesendet wird. Dies ist schneller und wird empfohlen, da der Dithering-Betrag ohnehin zufällig ist. Es ist notwendig, wenn 2D-Dithering erforderlich ist, aber die Nachführung nur in einer Achse erfolgt.",
 		abort_autoguide: "Wenn aktiviert, wird die automatische Nachführung abgebrochen, wenn das Dithering fehlschlägt. Andernfalls wird die Nachführung normal fortgesetzt.",
 		perform_dithering: "Dithering durchführen, wenn keine Nachführung aktiv ist",
-		stream: "Streaming-Guidingmodus aktivieren. Wenn aktiviert und die Kamera Video-Streaming unterstützt, erfasst das Guidingmodul Frames über einen kontinuierlichen Videostream anstelle einzelner Belichtungen. Dies reduziert den Overhead pro Frame erheblich und ermöglicht höhere Guidingfrequenzen (z. B. 2–5 Hz), die von harmonischen Antrieben benötigt werden. Nicht kompatibel mit Dunkelbildsubtraktion."
+		stream: "Streaming-Guidingmodus aktivieren. Wenn aktiviert und die Kamera Video-Streaming unterstützt, erfasst das Guidingmodul Frames über einen kontinuierlichen Videostream anstelle einzelner Belichtungen. Dies reduziert den Overhead pro Frame erheblich und ermöglicht höhere Guidingfrequenzen (z. B. 2–5 Hz), die von harmonischen Antrieben benötigt werden. Nicht kompatibel mit Dunkelbildsubtraktion.",
+
+		reset_ekoslive: "Alle EkosLive-Bilder und Vorschaubilder neu generieren",
+		reset_desktop: "Plasma-Desktop-Konfiguration auf Standardwerte zurücksetzen",
+		reset_network: "Alle Netzwerkeinstellungen und gespeicherte WLAN-Verbindungen zurücksetzen",
+		reset_driver_config: "Alle INDI-Treiberkonfigurationsdateien und Protokolle löschen"
 	},
 	splash: {
 		checking_for_updates: "Nach Aktualisierungen suchen ...",

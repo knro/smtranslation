@@ -690,7 +690,12 @@ const es = {
 		pulse_dither: "Si está marcado, la cantidad de dithering se genera aleatoriamente, se envían pulsos, pero la cantidad de dithering de píxeles resultante no se aplica, por lo que solo se envía un pulso de dither. Esto es más rápido y se recomienda ya que la cantidad de dithering es aleatoria de todos modos. Es necesario cuando se requiere dithering en 2D pero el guiado solo se realiza en un eje.",
 		abort_autoguide: "Si está marcado, el autoguiado se cancela cuando el dithering falla. De lo contrario, el guiado se reanuda normalmente.",
 		perform_dithering: "Realizar dithering cuando no se está guiando",
-		stream: "Activar el modo de guiado en streaming. Cuando está marcado y la cámara admite transmisión de vídeo, el módulo de guiado captura fotogramas a través de una transmisión de vídeo continua en lugar de exposiciones individuales. Esto reduce significativamente la sobrecarga por fotograma y permite frecuencias de guiado más altas (por ejemplo, 2-5 Hz) requeridas por las unidades armónicas. No es compatible con la sustracción de fotogramas oscuros."
+		stream: "Activar el modo de guiado en streaming. Cuando está marcado y la cámara admite transmisión de vídeo, el módulo de guiado captura fotogramas a través de una transmisión de vídeo continua en lugar de exposiciones individuales. Esto reduce significativamente la sobrecarga por fotograma y permite frecuencias de guiado más altas (por ejemplo, 2-5 Hz) requeridas por las unidades armónicas. No es compatible con la sustracción de fotogramas oscuros.",
+
+		reset_ekoslive: "Regenerar todas las imágenes y miniaturas de EkosLive",
+		reset_desktop: "Restablecer la configuración del escritorio Plasma a los valores predeterminados",
+		reset_network: "Restablecer todas las configuraciones de red y conexiones Wi-Fi guardadas",
+		reset_driver_config: "Eliminar todos los archivos de configuración y registros del controlador INDI"
 	},
 	splash: {
 		checking_for_updates: "Comprobando actualizaciones...",

@@ -691,7 +691,13 @@ const fr = {
 		pulse_dither: "Si coché, la quantité de dithering est générée aléatoirement, des impulsions sont envoyées, mais la quantité de dithering en pixels résultante n'est pas appliquée, donc un seul pulse de dither est envoyé. C'est plus rapide et recommandé car la quantité de dithering est de toute façon aléatoire. Cela est nécessaire lorsque le dithering 2D est requis mais que le guidage n'est effectué que sur un seul axe.",
 		abort_autoguide: "Si coché, le guidage automatique est interrompu en cas d'échec du dithering. Sinon, le guidage reprend normalement.",
 		perform_dithering: "Effectuer le dithering lorsque le guidage n'est pas actif",
-		stream: "Activer le mode de guidage en streaming. Lorsque coché et que la caméra prend en charge le streaming vidéo, le module de guidage capture les images via un flux vidéo continu plutôt que des expositions individuelles. Cela réduit considérablement la surcharge par image et permet des fréquences de guidage plus élevées (par exemple, 2 à 5 Hz) requises par les entraînements harmoniques. Non compatible avec la soustraction des images sombres."
+		stream: "Activer le mode de guidage en streaming. Lorsque coché et que la caméra prend en charge le streaming vidéo, le module de guidage capture les images via un flux vidéo continu plutôt que des expositions individuelles. Cela réduit considérablement la surcharge par image et permet des fréquences de guidage plus élevées (par exemple, 2 à 5 Hz) requises par les entraînements harmoniques. Non compatible avec la soustraction des images sombres.",
+
+		reset_ekoslive: "Régénérer toutes les images et miniatures EkosLive",
+		reset_desktop: "Réinitialiser la configuration du bureau Plasma aux valeurs par défaut",
+		reset_network: "Réinitialiser tous les paramètres réseau et les connexions Wi-Fi enregistrées",
+		reset_driver_config: "Supprimer tous les fichiers de configuration et journaux du pilote INDI"
+
 	},
 	splash: {
 		checking_for_updates: "Vérification des mises à jour...",
