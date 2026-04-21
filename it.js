@@ -1051,6 +1051,7 @@ const it = {
 		tgl_solution_bar: "BARRA SOLUZIONE",
 		tgl_sequence: "SEQUENZA",
 		tgl_properties: "PROPRIETÀ",
+		all_sequences: "Tutte le sequenze", recent_history: "Cronologia recente",
 
 		alert_ekos_offline_title: "Ekos è offline",
 		alert_ekos_offline_body:
