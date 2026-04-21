@@ -1045,6 +1045,7 @@ const de = {
 		tgl_solution_bar: "Lösungsleiste",
 		tgl_sequence: "Reihenfolge",
 		tgl_properties: "Eigenschaften",
+		all_sequences: "Alle Sequenzen", recent_history: "Letzte Verlauf",
 		alert_ekos_offline_title: "Ekos ist ausgeschaltet",
 		alert_ekos_offline_body:
 			"Ekos scheint im Moment ausgeschaltet zu sein. Haben Sie ein Geräteprofil gestartet?",

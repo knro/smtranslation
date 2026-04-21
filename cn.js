@@ -1021,6 +1021,7 @@
 		tgl_solution_bar: "状态栏",
 		tgl_sequence: "拍摄队列",
 		tgl_properties: "属性",
+		all_sequences: "所有序列", recent_history: "最近历史记录",
 		alert_ekos_offline_title: "Ekos离线中",
 		alert_ekos_offline_body: "Ekos目前处于离线状态，是否开启设备匹配?",
 		alert_ekos_disconnected_title: "设备已断开",

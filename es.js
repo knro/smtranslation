@@ -1050,6 +1050,7 @@ const es = {
 		tgl_solution_bar: "EXPLORADOR DE SOLUCIONES",
 		tgl_sequence: "SECUENCIA",
 		tgl_properties: "PROPIEDADES",
+		all_sequences: "Todas las secuencias", recent_history: "Historial reciente",
 
 		alert_ekos_offline_title: "Ekos esta fuera de linea",
 		alert_ekos_offline_body:

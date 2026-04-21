@@ -1025,6 +1025,7 @@ const ja = {
 		tgl_solution_bar: "ソリューション バー",
 		tgl_sequence: "シーケンス",
 		tgl_properties: "プロパティ",
+		all_sequences: "すべてのシーケンス", recent_history: "最近の履歴",
 
 		alert_ekos_offline_title: "Ekos はオフラインです",
 		alert_ekos_offline_body:

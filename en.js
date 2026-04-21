@@ -1037,6 +1037,8 @@ const en = {
 		tgl_solution_bar: "SOLUTION BAR",
 		tgl_sequence: "SEQUENCE",
 		tgl_properties: "PROPERTIES",
+		all_sequences: "All sequences",
+		recent_history: "Recent History",
 
 		alert_ekos_offline_title: "Ekos is offline",
 		alert_ekos_offline_body:

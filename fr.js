@@ -1044,6 +1044,8 @@ const fr = {
 		tgl_solution_bar: "BARRE DE SOLUTION",
 		tgl_sequence: "SÉQUENCE",
 		tgl_properties: "PROPRIÉTÉS",
+		all_sequences: "Toutes les séquences", recent_history: "Historique récent",
+
 		alert_ekos_offline_title: "Ekos est hors ligne",
 		alert_ekos_offline_body:
 			"Ekos semble être hors ligne pour le moment. Avez-vous commencé le profil d'équipement?",
