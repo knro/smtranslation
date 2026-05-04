@@ -711,6 +711,12 @@ const es = {
 		additional_information: "Información adicional",
 		addition_metadata_available: "Metadatos adicionales disponibles",
 		no_comments: "Aún no hay comentarios. ¡Sé el primero en comentar!",
+		posts: "Publicaciones",
+		followers: "Seguidores",
+		followings: "Siguiendo",
+		loading_profile: "Cargando perfil",
+		no_profile: "No hay datos de perfil disponibles",
+		uploading: "Subiendo",
 
 		upload: {
 			acquisition_data: "Datos de adquisición",
@@ -727,6 +733,23 @@ const es = {
 			description: "Describe tu astrofotografía",
 			alert_title: "Por favor, introduce un título para tu publicación",
 			alert_equipment: "Por favor, selecciona un perfil de equipo"
+		},
+
+		leaderboards: {
+			my_profile: "Mi perfil",
+			full_profile: "Perfil completo",
+			total_xp: "XP total",
+			needed: "Necesario",
+			max_tier: "Nivel máximo alcanzado",
+			captured_objects: "Objetos capturados",
+			unique_objects: "objetos únicos capturados",
+			objects: "Objetos",
+			no_objects: "Aún no se han capturado objetos",
+			no_leaderboard: "No hay datos de clasificación disponibles",
+			title: "Clasificación",
+			participants: "Participantes",
+			rank: "Rango",
+			user: "Usuario"
 		}
 	},
 

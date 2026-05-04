@@ -705,6 +705,12 @@
 		additional_information: "附加信息",
 		addition_metadata_available: "有可用的附加元数据",
 		no_comments: "还没有评论。快来留下第一条评论吧！",
+		posts: "帖子",
+		followers: "粉丝",
+		followings: "关注",
+		loading_profile: "正在加载个人资料",
+		no_profile: "暂无个人资料",
+		uploading: "上传中",
 
 		upload: {
 			acquisition_data: "采集数据",
@@ -721,7 +727,25 @@
 			description: "描述你的天文摄影作品",
 			alert_title: "请输入帖子标题",
 			alert_equipment: "请选择设备配置"
+		},
+
+		leaderboards: {
+			my_profile: "我的主页",
+			full_profile: "完整主页",
+			total_xp: "总经验值",
+			needed: "所需",
+			max_tier: "已达最高等级",
+			captured_objects: "已拍摄天体",
+			unique_objects: "种独特天体已拍摄",
+			objects: "天体",
+			no_objects: "尚未拍摄任何天体",
+			no_leaderboard: "暂无排行榜数据",
+			title: "排行榜",
+			participants: "参与者",
+			rank: "排名",
+			user: "用户"
 		}
+
 	},
 
 	validations: {
