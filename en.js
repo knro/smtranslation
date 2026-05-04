@@ -701,6 +701,12 @@ const en = {
 		additional_information: "Additional Information",
 		addition_metadata_available: "Additional metadata available",
 		no_comments: "No comments yet. Be the first to comment!",
+		posts: "Posts",
+		followers: "Followers",
+		followings: "Following",
+		loading_profile: "Loading profile",
+		no_profile: "No profile data available",
+		uploading: "Uploading",
 
 		upload: {
 			acquisition_data: "Acquisition Data",
@@ -718,6 +724,23 @@ const en = {
 			alert_title: "Please enter a title for your post",
 			alert_equipment: "Please select an equipment profile"
 		},
+
+		leaderboards: {
+			my_profile: "My Profile",
+			full_profile: "Full Profile",
+			total_xp: "Total XP",
+			needed: "Needed",
+			max_tier: "Maximum tier reached",
+			captured_objects: "Captured Objects",
+			unique_objects: "unique objects captured",
+			objects: "Objects",
+			no_objects: "No objects captured yet",
+			no_leaderboard: "No leaderboard data available",
+			title: "Leaderboard",
+			participants: "participants",
+			rank: "Rank",
+			user: "User"
+		}
 	},
 	validations: {
 		username_required: "Username is mandatory",

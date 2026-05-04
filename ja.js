@@ -691,6 +691,12 @@ const ja = {
 		additional_information: "追加情報",
 		addition_metadata_available: "追加のメタデータが利用可能です",
 		no_comments: "まだコメントがありません。最初のコメントを残しましょう！",
+		posts: "投稿",
+		followers: "フォロワー",
+		followings: "フォロー中",
+		loading_profile: "プロフィールを読み込み中",
+		no_profile: "プロフィールデータがありません",
+		uploading: "アップロード中",
 
 		upload: {
 			acquisition_data: "取得データ",
@@ -707,6 +713,23 @@ const ja = {
 			description: "あなたの天体写真について説明してください",
 			alert_title: "投稿のタイトルを入力してください",
 			alert_equipment: "機材プロファイルを選択してください"
+		},
+
+		leaderboards: {
+			my_profile: "マイプロフィール",
+			full_profile: "フルプロフィール",
+			total_xp: "合計XP",
+			needed: "必要",
+			max_tier: "最高ティアに到達しました",
+			captured_objects: "撮影した天体",
+			unique_objects: "種類のユニークな天体を撮影",
+			objects: "天体",
+			no_objects: "まだ天体が撮影されていません",
+			no_leaderboard: "リーダーボードデータがありません",
+			title: "リーダーボード",
+			participants: "参加者",
+			rank: "ランク",
+			user: "ユーザー"
 		}
 	},
 
