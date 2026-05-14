@@ -360,6 +360,7 @@ const it = {
 		no_description: "Nessuna descrizione",
 		complete_tour_guide: "Completa la guida turistica",
 		file_stored: "File archiviato",
+		artificial_horizon: "Crea un profilo di orizzonte artificiale selezionando punti sulla mappa del cielo"
 	},
 	tourGuide: {
 		tour_guide: "Guida turistica",

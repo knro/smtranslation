@@ -390,6 +390,7 @@
 		no_description: "莫得描述",
 		complete_tour_guide: "完成入门指导",
 		file_stored: "文件已存储",
+		artificial_horizon: "通过在星图上选择点来创建人工地平线配置文件"
 	},
 	tourGuide: {
 		tour_guide: "指导",
