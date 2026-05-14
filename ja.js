@@ -354,6 +354,7 @@ const ja = {
 		no_description: "説明なし",
 		complete_tour_guide: "ツアーガイドを完了",
 		file_stored: "ファイルが保存されました",
+		artificial_horizon: "スカイマップ上の点を選択して人工地平線プロファイルを作成する"
 	},
 	tourGuide: {
 		tour_guide: "ツアーガイド",

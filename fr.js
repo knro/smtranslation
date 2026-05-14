@@ -362,6 +362,7 @@ const fr = {
 		no_description: "Aucune description",
 		complete_tour_guide: "Terminer le guide touristique",
 		file_stored: "Fichier stocké",
+		artificial_horizon: "Créer un profil d'horizon artificiel en sélectionnant des points sur la carte du ciel"
 	},
 	tourGuide: {
 		tour_guide: "Guide touristique",

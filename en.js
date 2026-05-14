@@ -361,6 +361,8 @@ const en = {
 		no_description: "No description",
 		complete_tour_guide: "Complete Tour Guide",
 		file_stored: "File Stored",
+
+		artificial_horizon: "Create an artificial horizon profile by selecting points on the sky map"
 	},
 	tourGuide: {
 		tour_guide: "Tour Guide",
