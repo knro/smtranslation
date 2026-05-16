@@ -297,100 +297,72 @@
 		points: "分数",
 		completed: "已完成",
 		not_completed: "未完成",
-		capture_preview_title: "首次之光！",
-		ten_sequences_title: "星河相连",
-		mount_goto_title: "魔法锁敌千里外",
+		capture_preview_title: "初见星光",
+		ten_sequences_title: "万里长征第一序",
+		mount_goto_title: "千里精准定位",
 		video_recording_title: "导演之剪",
-		weather_check_title: "腾云驾雾",
-		live_stacking_title: "星光闪耀",
+		weather_check_title: "云层猎手",
+		live_stacking_title: "短曝出深空",
 		live_stacking_50_title: "信噪比冠军",
 		live_stacking_100_title: "噪声？什么噪声？",
-		create_darks_title: "黑暗的力量",
-		create_defect_title: "马赛克大师",
-		import_mosaic_title: "拼图达人",
+		create_darks_title: "拥抱黑暗",
+		create_defect_title: "瑕疵修复师",
+		import_mosaic_title: "拼图大师",
 		messier_captured_title: "梅西耶探索者",
 		all_messier_title: "梅西耶马拉松",
-		scheduler_title: "序列规划师",
+		scheduler_title: "无人值守大师",
 		capture_master_title: "天空捕手",
-		capture_legend_title: "天空传说",
-		paa_title: "完美主义者",
-		guide_rms_title: "导星王中王",
+		capture_legend_title: "星空传奇",
+		paa_title: "极轴完美主义者",
+		guide_rms_title: "导星之王",
 
-		capture_preview_description: "拍摄预览图像",
-		ten_sequences_description: "拍摄包含10张图像的序列",
-		mount_goto__description: "在新图像被捕获时，按住目标3秒钟来使用目标GOTO",
-		video_recording_description: "录制1分钟视频",
-		weather_check__description: "利用天气信息中的云图，至少放大8倍以检查天气",
-		live_stacking_description: "实时叠加图像，至少执行5张图像",
-		live_stacking_50_description: "实时叠加50张图像",
-		live_stacking_100_description: "实时叠加100张图像",
-		create_darks_description: "创建总共50张暗场图像",
-		create_defect_description: "在缺陷图中生成80个以上的热/冷像素",
-		import_mosaic_description: "从Telescopius导入拼接图",
-		messier_captured_description: "捕获了一个梅西耶天体",
-		all_messier_description: "捕获了所有梅西耶天体",
-		scheduler_description: "完成一个2小时或更长时间图像数据的计划任务",
-		capture_master_description: "总共拍摄了500张图像",
-		capture_legend_description: "总共拍摄了1000张图像",
-		paa_description: "在误差低于30角秒的情况下完成PAA",
-		guide_rms_description: "使导星的总RMS误差小于0.5角秒",
-
-		filtered_image_description: "拍摄一张窄带图像",
-		gallery_image_description: "图库图像已下载",
-
-		alert_reset_title: "重置成就",
+		capture_preview_description:
+			"按下快门，迎接来自宇宙深处的第一束光。",
+		ten_sequences_description:
+			"完成一组 10 张的连续拍摄，向深空摄影迈出坚实一步。",
 		mount_goto__description:
-			"魔法定位：在新图像被捕获时，按住目标3秒钟来使用目标GOTO，在茫茫星空中精确定位，让您的望远镜准确锁定目标。",
-
+			"在新图像捕获后，长按目标 3 秒触发 GOTO，让望远镜在茫茫星海中精准锁定目标。",
 		video_recording_description:
-			"导演之剪：录制1分钟的时间流逝视频，将星空的变幻与宇宙的奥秘化为永恒的画面。",
-
+			"录制一段 1 分钟的延时视频，将星河流转凝固成永恒画面。",
 		weather_check__description:
-			"云层猎手：利用天气信息中的云图，至少放大8倍以检查天气，保证你的拍摄不受云层遮挡，尽情追寻星空的美丽。",
-
+			"在天气信息中调出云图并放大至少 8 倍，提前避开云层，绝不让拍摄计划被云挡道。",
 		live_stacking_description:
-			"星光闪耀：实时叠加图像，至少执行5张图像，让宇宙中的星光在你的相机中闪耀绽放，谁说短曝不能拍深空。",
-
+			"实时叠加至少 5 张图像，让短曝光也能堆出深空的细节。",
+		live_stacking_50_description:
+			"实时叠加 50 张图像，信噪比稳步攀升。",
+		live_stacking_100_description:
+			"实时叠加 100 张图像，噪声？早被压到底噪之下了。",
 		create_darks_description:
-			"黑暗的力量：创建50张暗场图像，用暗场干掉那些可恶的噪点。",
-
+			"建立 50 张暗场的暗场库，从源头消灭热噪与读出噪声。",
 		create_defect_description:
-			"马赛克大师：在马赛克修补图中生成80个以上的热点/冷点像素，用创造力修复图像的瑕疵，让宇宙的美丽更加完整无缺。",
-
+			"在坏点图中标记 80 个以上的热点/冷点像素，用校准还原画面的本来纯净。",
 		import_mosaic_description:
-			"拼图达人：从相机导入需要的拼接图像，然后将多张图像拼接在一起，由此展现出更广阔的宇宙景象。",
-
+			"从 Telescopius 导入拼接方案，把广阔星野拼成一整幅大图。",
 		messier_captured_description:
-			"梅西耶探索者：捕获了一个梅西耶天体，留下永恒的纪念，展示你对宇宙的探索精神和敏锐的观察力。",
-
+			"捕获一个梅西耶天体，向 18 世纪那位彗星猎人致敬。",
 		all_messier_description:
-			"梅西耶马拉松：捕获了所有梅西耶天体，重走先人的探索之路。完成这一壮举，证明你是宇宙探索的真正先锋。",
-
+			"集齐全部 110 个梅西耶天体，完成属于你的梅西耶马拉松。",
 		scheduler_description:
-			"序列规划师：完成一个2小时或更长时间的拍摄序列，精准安排拍摄时间，捕捉到最佳的宇宙瞬间。",
-
+			"完成一项时长 2 小时及以上的计划任务，让望远镜在你休息时自动工作。",
 		capture_master_description:
-			"天空捕手：总共拍摄了500张图像，你是真正的天空捕手，记录下宇宙中的每一个细节和美丽瞬间。",
-
+			"累计拍摄 500 张图像，把每一帧细节都收入囊中。",
 		capture_legend_description:
-			"天空传说：总共拍摄了1000张图像，你已经成为天空摄影的传奇，你的作品将永远流传在宇宙之中。",
-
+			"累计拍摄 1000 张图像，你的作品已写入星空摄影的传奇。",
 		paa_description:
-			"完美主义者：在误差低于30角秒的情况下完成PAA，你的精确度和追求完美的态度令人钦佩。",
-
+			"完成 PAA 极轴校准且误差低于 30 角秒，追踪与导星从此稳如磐石。",
 		guide_rms_description:
-			"导星之王：使导星的总RMS误差小于0.5角秒，你是真正的导星之王，在与风、大气抖动的斗争中取得完美胜利。",
+			"实现总 RMS 导星误差小于 0.5 角秒，于大气视宁与机械齿隙间游刃有余。",
 
 		filtered_image_description: "啊，是窄带！",
-		gallery_image_description: "回忆过往",
+		gallery_image_description: "翻开属于你的星空相册。",
 
 		alert_reset_title: "重置成就",
 		alert_agree_reset_body: "您确定要重置所有成就吗？",
 
-		no_description: "莫得描述",
-		complete_tour_guide: "完成入门指导",
+		no_description: "暂无描述",
+		complete_tour_guide: "完成入门导览",
 		file_stored: "文件已存储",
-		artificial_horizon: "通过在星图上选择点来创建人工地平线配置文件"
+		artificial_horizon: "在星图上选取点位，创建人工地平线配置"
 	},
 	tourGuide: {
 		tour_guide: "指导",
@@ -467,9 +439,9 @@
 		description_focus_settings:
 			"使用循环按钮框选具有清晰可辨星点的目标。设置适当的步长，然后按播放进行精细自动对焦。",
 
-		title_focus_graph: "对焦图",
+		title_focus_graph: "调焦曲线图",
 		description_focus_graph:
-			"查看半峰全宽 (HFR) 与步长图表，显示对焦质量。自动对焦创建 V 形曲线以找到临界对焦区 (CFZ)。循环时，会绘制每次曝光的 HFR。",
+			"查看半通量半径 (HFR) 与步长曲线图，反映调焦质量。自动调焦通过拟合 V 形曲线找到临界合焦区 (CFZ)；循环模式下会逐张绘制每次曝光的 HFR。",
 
 		title_focus_image: "对焦图像",
 		description_focus_image:
@@ -532,7 +504,7 @@
 		description_next:
 			"通过单击目标选项卡，探索适用的天文目标。使用Go&Solve将您的目标居中在相机视场中。打开定位助手，实现完美的期望方向。前往Ekos选项卡设置图像序列和实时叠加图像。",
 
-		description_focus: "使用电调进行对焦。",
+		description_focus: "使用电动调焦器完成调焦。",
 		description_align: "通过解析图像获取当前指向坐标，使望远镜精确对准目标。",
 		description_guide:
 			"跟踪您的目标，保持赤道仪锁定，并使其能够进行长时间曝光。",
@@ -762,11 +734,11 @@
 		email_invalid: "邮箱地址无效",
 		license_required: "请输入许可证密钥",
 		serial_required: "请输入序列号",
-		new_scope_vendor: "请输入有效用户名",
-		new_scope_model_invalid: "请输入有效的模型",
-		new_scope_aperture_invalid: "请输入有效的光圈",
-		new_scope_focal_length_invalid: "请输入有效的焦距",
-		new_scope_focal_ratio_invalid: "请输入一个有效的焦比",
+		new_scope_vendor: "请输入有效厂商名",
+		new_scope_model_invalid: "请输入有效型号",
+		new_scope_aperture_invalid: "请输入有效口径",
+		new_scope_focal_length_invalid: "请输入有效焦距",
+		new_scope_focal_ratio_invalid: "请输入有效焦比",
 		enter_file_name: "请输入文件名",
 	},
 	progress: {
@@ -826,10 +798,10 @@
 		welcome_heading: "欢迎使用",
 		welcome_description:
 			"请确认您已连接至StellarMate的热点或StellarMate与您的设备处于同一网络中",
-		welcome_rescan: "点击”重新扫描”扫描局域网中的StellarMate",
+		welcome_rescan: "点击“重新扫描”以扫描局域网中的 StellarMate",
 		device_unreachable: "设备无法访问！ 请检查电源和网络设置",
 		login_mismatch:
-			"认证失败。App 密码与stellarmate.com上设定的密码不一致。请使用正确密码再次登入。",
+			"认证失败。App 密码与 stellarmate.com 上设定的密码不一致，请使用正确密码重新注册。",
 		register_using_key: "使用序列号注册设备",
 		old_stellarmate_heading: "版本过旧。请更新!",
 		old_stellarmate_description:
@@ -848,9 +820,9 @@
 		scan_in_progress: "正在扫描 ...",
 		connection_in_progress: "正在连接StellarMate...",
 		registration_in_progress: "正在注册StellarMate...",
-		logging_in_progress: "正在登陆StellarMate...",
+		logging_in_progress: "正在登录 StellarMate...",
 		connecting: "连接中...",
-		logging: "登陆中...",
+		logging: "登录中...",
 		generic: "通用串口",
 		select_driver: "请选择设备类别和驱动",
 		invalid_ip: "找不到IP地址或IP{0}无效。请再试一次。",
@@ -1043,12 +1015,13 @@
 	ekos: {
 		heading: "Ekos",
 		tgl_mount: "赤道仪",
-		tgl_solution_bar: "状态栏",
-		tgl_sequence: "拍摄队列",
+		tgl_solution_bar: "解析状态栏",
+		tgl_sequence: "拍摄序列",
 		tgl_properties: "属性",
-		all_sequences: "所有序列", recent_history: "最近历史记录",
-		alert_ekos_offline_title: "Ekos离线中",
-		alert_ekos_offline_body: "Ekos目前处于离线状态，是否开启设备匹配?",
+		all_sequences: "所有序列",
+		recent_history: "最近历史记录",
+		alert_ekos_offline_title: "Ekos 已离线",
+		alert_ekos_offline_body: "Ekos 当前处于离线状态，是否启动设备配置？",
 		alert_ekos_disconnected_title: "设备已断开",
 		alert_ekos_disconnected_body:
 			"并非所有设备配置文件设备都已连接，请连接所有设备，然后重试。",
@@ -1070,10 +1043,10 @@
 			action_sync: "同步",
 			action_slew: "转动至目标",
 			action_nothing: "不进行任何操作",
-			solver_backend: "解析平台",
+			solver_backend: "解析后端",
 			control: "控制",
-			solve: "拍摄 & 解析",
-			load: "加载 & 转动",
+			solve: "拍摄并解析",
+			load: "加载并转动",
 			polar: "极轴校准",
 			accuracy: "精度",
 			settle: "稳定时间",
@@ -1136,8 +1109,8 @@
 				flip: "翻转策略",
 				pos_angle: "相机位置角",
 				reverse_direction: "反转旋转器",
-				flip_rotator: "保存旋转角",
-				flip_position: "保存方位角",
+				flip_rotator: "保留旋转器角度",
+				flip_position: "保留位置角",
 			},
 
 			capture_settings: {
@@ -1153,10 +1126,10 @@
 				reset_sequence: "每次重启后重置拍摄队列",
 				reset_sequence_tooltip:
 					"开始序列时，将所有已拍摄计数重置为零。启用“记住序列进度”后，序列功能将覆盖此选项。",
-				reset_mount: "在中天反转后重置赤道仪校准模型",
-				reset_mount_tooltip: "在中天反转后重置赤道仪校准模型",
-				use_flip: "在赤道仪支持的情况下使用反转功能",
-				use_flip_tooltip: "在赤道仪支持的情况下使用反转功能",
+				reset_mount: "在中天翻转后重置赤道仪校准模型",
+				reset_mount_tooltip: "在中天翻转后重置赤道仪校准模型",
+				use_flip: "在赤道仪支持时使用翻转命令",
+				use_flip_tooltip: "在赤道仪支持时使用翻转命令",
 				summary_preview: "缩略图预览",
 				summary_preview_tooltip: "在缩略图中预览拍摄到的FITS图像",
 				operations_timeout: "拍摄操作超时",
@@ -1166,19 +1139,19 @@
 				force_dslr: "强制单反预设",
 				image_viewer: "单反图像查看器",
 
-				sequence_focus: "序列中对焦",
-				hfr_threshold: "HFR阈值修正",
+				sequence_focus: "序列内自动调焦",
+				hfr_threshold: "HFR 阈值修正",
 				hfr_threshold_tooltip:
-					"设置HFR阈值百分比增益。当自动对焦操作完成时，自动对焦HFR值增加该阈值百分比值并存储在捕获模块内。如果顺序对焦已启用，则自动对焦模块仅在当前HFR值超过捕获模块HFR阈值时执行自动对焦程序。增加值以允许在不需要完全自动对焦的情况下更轻松地更改HFR值。",
-				sequence_check: "序列中HFR检查",
-				sequence_check_tooltip: "在拍摄多张图像后进行序列内HFR检查",
+					"设置 HFR 阈值百分比增量。每次自动调焦完成后，会在当前 HFR 上叠加该百分比作为新的阈值并保存到拍摄模块。若启用了序列内调焦，仅当当前 HFR 超过该阈值时才会触发自动调焦。提高该值可允许 HFR 有更宽松的波动，避免频繁触发完整的自动调焦。",
+				sequence_check: "序列内 HFR 检查",
+				sequence_check_tooltip: "拍摄若干张图像后在序列内执行一次 HFR 检查",
 
-				median: "使用中值对焦",
+				median: "使用 HFR 中位值",
 				median_tooltip:
-					"计算每次自动对焦操作完成后的焦点中值。如果自动对焦结果随着时间的推移而逐渐变差，则中值应反映这一趋势，并在视觉条件恶化时防止不必要的自动对焦操作。",
-				save_sequence: "序列HFR保存到文件中",
+					"计算每次自动调焦完成后的 HFR 中位值。若自动调焦结果随时间持续变差，中位值会反映该趋势，从而在视宁度恶化时避免不必要的自动调焦。",
+				save_sequence: "将序列 HFR 阈值保存到文件",
 				save_sequence_tooltip:
-					"依次，HFR阈值控制自动聚焦处理何时开始。如果测得的HFR值超过HFR阈值，则启动自动对焦过程。如果HFR阈值最初为零（默认），则在应用HFR阈值修改器百分比之后，使用自动聚焦过程最佳HFR值来设置新的HFR阈值。这个新的HFR阈值随后用于后续的顺序聚焦检查。如果启用此选项，HFR阈值将保持不变，并保存到序列文件中。",
+					"序列内 HFR 阈值决定何时启动自动调焦。当测得 HFR 超过阈值时，自动调焦流程启动。若 HFR 阈值初始为零（默认值），则在应用 HFR 阈值修正百分比后，会使用自动调焦得到的最佳 HFR 作为新的阈值；该阈值随后用于后续序列内调焦检查。启用此选项后，HFR 阈值会保持不变并保存到序列文件中。",
 			},
 		},
 		capture_presets: {
@@ -1186,32 +1159,32 @@
 		},
 		capture_limits: {
 			heading: "限制设置",
-			guiding_deviation: "导星误差 <",
+			guiding_deviation: "导星偏差 <",
 			guiding_deviation_unit: '"',
-			focus_hfr: "自动对焦如果HFR >",
+			focus_hfr: "若 HFR > 触发自动调焦",
 			focus_hfr_unit: "像素",
-			focus_deltaT: "自动对焦如果ΔT° >",
+			focus_deltaT: "若 ΔT° > 触发自动调焦",
 			focus_deltaT_unit: "°C",
-			refocus_n: "重新对焦每",
-			refocus_n_unit: "分",
-			refocus_on_hfr: "HFR重新对焦",
-			refocus_meridian: "中天翻转后重新对焦",
-			check_every: "每次都检查",
-			about_guide_deviation: "关于如果导星误差>",
-			start_deviation: "只有在导星出现误差时才启动<",
-			guide_deviation: "导星误差",
+			refocus_n: "每隔",
+			refocus_n_unit: "分钟",
+			refocus_on_hfr: "按 HFR 重新调焦",
+			refocus_meridian: "中天翻转后重新调焦",
+			check_every: "每张都检查",
+			about_guide_deviation: "若导星偏差 > 则中止",
+			start_deviation: "仅当导星偏差 < 时启动",
+			guide_deviation: "导星偏差",
 			consecutive_times: "连续次数",
-			dither_job: "每个任务后都抖动",
+			dither_job: "每个任务结束后抖动",
 		},
 		capture_filters: {
-			heading: "滤镜轮设置",
-			auto_focus: "自动对焦",
+			heading: "滤镜设置",
+			auto_focus: "自动调焦",
 			lock_filter: "锁定滤镜",
 			no_filters: "未发现可用滤镜！",
 		},
 		targets_filters: {
 			object_type: "目标类型",
-			alt: "Alt",
+			alt: "高度",
 		},
 		capture_auto_calibration: {
 			heading: "自动校准",
@@ -1223,8 +1196,8 @@
 			az: "方位角",
 			adu: "ADU",
 			tolerance: "容差",
-			park_mount: "赤道仪停放",
-			park_dome: "归位穹顶",
+			park_mount: "停放赤道仪",
+			park_dome: "停放穹顶",
 			pre_actions: "校准前置准备",
 		},
 		capture_file: {
@@ -1240,9 +1213,9 @@
 			unmount: "卸载",
 		},
 		collapse_dome: {
-			heading: "穹顶",
-			cap: "窗口",
-			dome: "圆顶",
+			heading: "镜盖与穹顶",
+			cap: "镜盖",
+			dome: "穹顶",
 			shutter: "快门",
 			dome_slaving: "圆顶从动",
 			params: "参数",
@@ -1257,18 +1230,18 @@
 		},
 		collapse_focus: {
 			heading: "调焦",
-			hfr: "半高全宽（HFR）",
-			hfr_plot: "HFR图",
+			hfr: "半通量半径（HFR）",
+			hfr_plot: "HFR 曲线",
 			focus_in: "向内调焦",
 			focus_out: "向外调焦",
 			steps: "步数",
-			advisor: "对焦顾问",
-			update_parameters: "根据当前的相机和望远镜优化对焦参数。",
+			advisor: "调焦顾问",
+			update_parameters: "根据当前的相机与望远镜优化调焦参数。",
 			find_stars:
-				"选中以让对焦顾问搜索星点。如果你已经足够接近焦点，能在聚焦框中看到清晰的星点，那么这一步是没有必要的。",
+				"勾选后让调焦顾问搜索星点。如果当前调焦已经足够接近合焦位置，能在调焦框中看到清晰的星点，则可跳过此步。",
 			coarse_adjustment:
-				"选中以让对焦顾问找到粗略的焦点位置。这将找到一个足够好的近似焦点位置，以便运行自动聚焦。",
-			fine_adjustment: "选中以让对焦顾问运行自动聚焦，以对焦点参数进行微调。",
+				"勾选后让调焦顾问执行粗调，找到接近合焦的位置，为后续自动调焦做准备。",
+			fine_adjustment: "勾选后让调焦顾问运行自动调焦，对调焦参数进行精细微调。",
 			settings: {
 				suspend_guiding: "暂停导星",
 				auto_select_star: "自动选星",
@@ -1325,14 +1298,14 @@
 			},
 		},
 		collapse_guide: {
-			total_rms_plot: "RMS图",
+			total_rms_plot: "RMS 曲线",
 			scope_primary: "主镜",
 			guidingRate: "导星速率",
-			guider: "指导",
+			guider: "导星器",
 			via: "通过",
-			box: "方框",
+			box: "选星框",
 			effects: "效果",
-			dither: "微移",
+			dither: "抖动",
 			frequency: "频率",
 			every: "每",
 			frames: "帧",
@@ -1369,17 +1342,17 @@
 			heading: "天文台",
 		},
 		collapse_polar: {
-			heading: "极轴校正",
-			mount_direction: "赤道仪转向",
-			manual_slew: "手动旋转",
+			heading: "极轴校准",
+			mount_direction: "赤道仪转动方向",
+			manual_slew: "手动转动",
 			west: "西",
 			east: "东",
-			mount_rotation: "赤道仪回转",
+			mount_rotation: "赤道仪旋转角度",
 			refresh: "刷新",
-			fov_error: "无效：视场广度必须为30角分以上",
-			polar_error: "极轴错误",
-			az_error: "AZ 错误: ",
-			al_error: "AL 错误: ",
+			fov_error: "已禁用：视场宽度需在 30 角分以上",
+			polar_error: "极轴误差",
+			az_error: "方位误差：",
+			al_error: "高度误差：",
 		},
 		collapse_sequence: {
 			progress: "启动和停止序列",
@@ -1392,8 +1365,8 @@
 			alert_sequence_delete_body: "删除序列文件时出错",
 		},
 		collapse_mount: {
-			meridian_flip: "子午线翻转",
-			flip_if_ha: "若HA >",
+			meridian_flip: "中天翻转",
+			flip_if_ha: "若时角 >",
 			flip_if_ha_unit: "°，进行翻转",
 			pierside: "立柱侧",
 			auto_park: "自动停放",
@@ -1471,35 +1444,35 @@
 			master_files: "主文件"
 		},
 		scheduler: {
-			scheduler: "序列管理器",
+			scheduler: "调度器",
 			j2000: "J2000",
 			add_sequences: "添加序列",
 			fits: "FITS 文件",
 			priority: "优先级",
 			generalSettings: "通用设置",
 			profile: "设备配置",
-			startupConditions: "任务启动",
-			JobConstraints: "限制条件",
+			startupConditions: "启动条件",
+			JobConstraints: "任务约束",
 			completionConditions: "完成条件",
-			observatoryStartup: "天文观测台启动",
-			abortedJobManagement: "中止任务",
-			observatoryShutdown: "天文观测台关闭",
-			alt: "高度限制",
+			observatoryStartup: "观测台启动",
+			abortedJobManagement: "中止任务管理",
+			observatoryShutdown: "观测台关闭",
+			alt: "高度 >",
 			moon: "月球最小间距",
 			moon_max: "月球最大高度",
 			twilight: "暮光限制",
-			artifHorizon: "地平线限制",
+			artifHorizon: "人工地平线限制",
 			sequenceCompletion: "序列完成条件",
-			repeatFor: "重复执行次数",
+			repeatFor: "重复次数",
 			repeatUntilTerminated: "重复直到终止",
 			repeatUntil: "重复执行直到",
-			unparkDome: "解锁穹顶",
-			unparkMount: "解锁赤道仪",
+			unparkDome: "解除停放穹顶",
+			unparkMount: "解除停放赤道仪",
 			uncap: "打开镜头盖",
 			warmCCD: "相机升温",
 			none: "无",
-			queue: "序列模式",
-			immediate: "立即执行模式",
+			queue: "队列模式",
+			immediate: "立即模式",
 			rescheduleErrors: "重新排队等待时间",
 			no_jobs: "队列中没有任务",
 			err_loading_folders: "加载文件夹时发生错误",
@@ -1587,11 +1560,11 @@
 	optical_train: {
 		optical_trains: "光路",
 		telescope: "望远镜/镜头",
-		create_new: "创建新项目",
-		dslr_lens: "单反相机镜头",
-		reset_train: "重置模型",
-		focal_ratio: "焦距比",
-		guide_via: "导星途径",
+		create_new: "新建",
+		dslr_lens: "单反镜头",
+		reset_train: "重置光路",
+		focal_ratio: "焦比",
+		guide_via: "导星接口",
 		tooltip: {
 			title: "选择接收导星校正脉冲的设备",
 			subject: "可以是以下设备之一：",
@@ -1629,7 +1602,7 @@
 		wifiNetwork: "Wifi网络",
 		wifiCountry: "WiFi国家类型",
 
-		wifiBand: "WiFi带宽",
+		wifiBand: "WiFi 频段",
 		update_available: "可用更新",
 		update_unavailable: "暂不可用更新",
 		update_in_progress: "更新中",
@@ -1681,9 +1654,9 @@
 		alert_join_wifi_title: "加入Wifi网络",
 		alert_join_wifi_body:
 			"加入Wifi网络将关闭StellarMate的热点（如果已启动）。若继续使用StellarMate，请确保您在同一网络上。是否继续？",
-		alert_change_band_title: "您确定要更换乐队吗？",
+		alert_change_band_title: "确定要切换频段吗？",
 		alert_change_band_body:
-			"由于各种原因，StellarMate App 可能会断开连接，频道切换可能会失败，在这种情况下，热点将恢复为默认设置。",
+			"由于各种原因，StellarMate App 可能会断开连接，信道切换可能失败；此时热点会恢复为默认设置。",
 
 		alert_change_resolution_title: "成功!",
 		alert_change_resolution_body: "您现在可以重启StellarMate令变更生效",
@@ -1736,8 +1709,8 @@
 			err_wifi: "搜寻Wifi时遇到了问题，请重试",
 		},
 		change_band_modal: {
-			heading: "修改带宽",
-			band: "带宽",
+			heading: "切换频段",
+			band: "频段",
 			channel: "信道",
 		},
 		vnc_view: {
@@ -1838,7 +1811,7 @@
 	},
 	messages: {
 		polar_idle:
-			"此工具提供了一种简单的方法来极轴对准。将您的望远镜指向天顶极Home位置，做好平衡。选择合适的方向和速度，然后点击开始。如果您无法看到北极星，请使用SkyMap或Ekos望远镜控制器在近子午线附近的任何地方调整，选择东或西方的方向，必要时降低旋转角度，并单击“开始”。",
+			"本工具为德式赤道仪提供一套简便的极轴校准流程。请先将赤道仪归位至 Home 位置（指向天极、配重杆朝下），并完成平衡。选择合适的转动方向与速度后点击开始。如果看不到北极星，可使用星图或 Ekos 赤道仪控制将望远镜指向任意区域（建议靠近中天），按所在侧选择东或西方向，必要时降低旋转角度，然后点击“开始”。",
 		alert_directions_not_found: "未找到坐标，请选定目标并手动输入坐标。",
 		manual_rotator: "按指示角度旋转相机，然后拍摄图像以更新位置角度",
 		welcome: "欢迎使用StellarMate",
