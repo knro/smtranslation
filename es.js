@@ -1117,8 +1117,8 @@ const es = {
 
 		collapse_align: {
 			heading: "Alinear",
-			action_sync: "Sincronizar",
-			action_slew: "Objetivo Alcanzado",
+			action_sync: "Sinc",
+			action_slew: "Slew",
 			action_nothing: "Nada",
 			solver_backend: "Finalizado",
 			control: "Control",

@@ -140,7 +140,7 @@ const fr = {
 		// for buttons/toggles
 		on: "Marche",
 		off: "Arrêt",
-		go: "ALLER",
+		go: "VA",
 		add: "AJOUTER",
 		load: "Charger",
 		edit: "ÉDITER",
@@ -1107,8 +1107,8 @@ const fr = {
 		},
 		collapse_align: {
 			heading: "Aligner",
-			action_sync: "Synchroniser",
-			action_slew: "Viser vers la cible",
+			action_sync: "Sync",
+			action_slew: "Visée",
 			action_nothing: "Rien",
 			solver_backend: "Backend",
 			control: "Contrôle",

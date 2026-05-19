@@ -1117,8 +1117,8 @@ const it = {
 
 		collapse_align: {
 			heading: "Allinea",
-			action_sync: "Sincronizza",
-			action_slew: "Sposta",
+			action_sync: "Sinc",
+			action_slew: "Slew",
 			action_nothing: "Niente",
 			solver_backend: "Backend",
 			control: "Controllo",
