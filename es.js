@@ -160,6 +160,7 @@ const es = {
 		submit: "Enviar",
 		execute: "Ejecutar",
 		retry: "Reintentar",
+		reason: "Motivo",
 
 		// Confirm Delete Alert
 		alert_confirm_delete_title: "Confirmar eliminación",
@@ -718,7 +719,20 @@ const es = {
 		loading_profile: "Cargando perfil",
 		no_profile: "No hay datos de perfil disponibles",
 		uploading: "Subiendo",
-
+		loading_posts: "Cargando más publicaciones",
+		no_posts: "No hay más publicaciones para cargar",
+		failed_posts: "Error al cargar las publicaciones",
+		loading_post: "Cargando publicaciones",
+		no_post: "Aún no hay publicaciones",
+		profile: {
+			full_name: "Nombre completo",
+			nickname: "Apodo",
+			description: "Descripción del perfil",
+			about: "Cuéntanos sobre ti",
+			avatar: "Avatar",
+			additional_info: "Información adicional (opcional)",
+			not_found: "Perfil no encontrado"
+		},
 		upload: {
 			acquisition_data: "Datos de adquisición",
 			parameters: "Configurar parámetros de adquisición",
@@ -2084,6 +2098,9 @@ const es = {
 		targets: "Objetivos",
 		device: "Dispositivo",
 		stella: "Stella",
+		community: "Comunidad",
+		viewer: "Espectador",
+		settings: "Configuración",
 	},
 	stella: {
 		confirm_train_settings:
@@ -2138,6 +2155,7 @@ const es = {
 		following: "Siguiendo",
 		follow: "Seguir",
 		unfollow: "Dejar de seguir",
+		unfollowing: "Dejando de seguir",
 		report_abuse: {
 			title: "Reportar abuso",
 			description:

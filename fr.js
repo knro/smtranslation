@@ -168,6 +168,7 @@ const fr = {
 		submit: "Soumettre",
 		execute: "Exécuter",
 		retry: "Réessayer",
+		reason: "Raison",
 
 		// Confirm Delete Alert
 		alert_confirm_delete_title: "Confirmer Suppression",
@@ -720,7 +721,20 @@ const fr = {
 		loading_profile: "Chargement du profil",
 		no_profile: "Aucune donnée de profil disponible",
 		uploading: "Téléchargement en cours",
-
+		loading_posts: "Chargement de plus de publications",
+		no_posts: "Plus aucune publication à charger",
+		failed_posts: "Échec du chargement des publications",
+		loading_post: "Chargement des publications",
+		no_post: "Aucune publication pour l'instant",
+		profile: {
+			full_name: "Nom complet",
+			nickname: "Surnom",
+			description: "Description du profil",
+			about: "Parlez-nous de vous",
+			avatar: "Avatar",
+			additional_info: "Informations supplémentaires (facultatif)",
+			not_found: "Profil introuvable"
+		},
 		upload: {
 			acquisition_data: "Données d’acquisition",
 			parameters: "Configurer les paramètres d’acquisition",
@@ -2050,6 +2064,9 @@ const fr = {
 		targets: "Cibles",
 		device: "Appareil",
 		stella: "Stella",
+		community: "Communauté",
+		viewer: "Spectateur",
+		settings: "Paramètres",
 	},
 	stella: {
 		confirm_train_settings:
@@ -2102,6 +2119,7 @@ const fr = {
 		following: "Suivi",
 		follow: "Suivre",
 		unfollow: "Ne plus suivre",
+		unfollowing: "Ne plus suivre",
 		report_abuse: {
 			title: "Signaler un abus",
 			description: "Veuillez spécifier une raison pour ce signalement d'abus.",
