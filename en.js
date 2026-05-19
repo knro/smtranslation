@@ -168,6 +168,7 @@ const en = {
 		submit: "Submit",
 		execute: "Execute",
 		retry: "Retry",
+		reason: "Reason",
 
 		// Confirm Delete Alert
 		alert_confirm_delete_title: "Confirm Delete",
@@ -706,10 +707,26 @@ const en = {
 		posts: "Posts",
 		followers: "Followers",
 		followings: "Following",
+
 		loading_profile: "Loading profile",
 		no_profile: "No profile data available",
 		uploading: "Uploading",
+		loading_posts: "Loading more posts",
+		no_posts: "No more posts to load",
+		failed_posts: "Failed to load posts",
+		loading_post: "Loading posts",
+		no_post: "No Post yet",
 
+		profile:
+		{
+			full_name: "Full Name",
+			nickname: "Nickname",
+			description: "Profile Description",
+			about: "Tell us about yourself",
+			avatar: "Avatar",
+			additional_info: "Additional information (optional)",
+			not_found: "Profile not found"
+		},
 		upload: {
 			acquisition_data: "Acquisition Data",
 			parameters: "Configure Acquisition Parameters",
@@ -2045,6 +2062,9 @@ const en = {
 		targets: "Targets",
 		device: "Device",
 		stella: "Stella",
+		community: "Community",
+		viewer: "Viewer",
+		settings: "Settings"
 	},
 	stella: {
 		confirm_train_settings:
@@ -2096,6 +2116,7 @@ const en = {
 		following: "Following",
 		follow: "Follow",
 		unfollow: "Unfollow",
+		unfollowing: "Unfollowing",
 		report_abuse: {
 			title: "Report abuse",
 			description: "Please specify a reason for this abuse report.",

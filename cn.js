@@ -165,6 +165,7 @@
 		submit: "提交",
 		execute: "运行",
 		retry: "重试",
+		reason: "原因",
 
 		// Confirm Delete Alert
 		alert_confirm_delete_title: "确认删除",
@@ -684,6 +685,20 @@
 		loading_profile: "正在加载个人资料",
 		no_profile: "暂无个人资料",
 		uploading: "上传中",
+		loading_posts: "正在加载更多帖子",
+		no_posts: "没有更多帖子可加载",
+		failed_posts: "加载帖子失败",
+		loading_post: "正在加载帖子",
+		no_post: "暂无帖子",
+		profile: {
+			full_name: "全名",
+			nickname: "昵称",
+			description: "个人资料描述",
+			about: "介绍一下你自己",
+			avatar: "头像",
+			additional_info: "附加信息（可选）",
+			not_found: "未找到个人资料"
+		},
 
 		upload: {
 			acquisition_data: "采集数据",
@@ -1932,6 +1947,9 @@
 		targets: "目标",
 		device: "设备",
 		stella: "Stella",
+		community: "社区",
+		viewer: "查看者",
+		settings: "设置",
 	},
 	stella: {
 		confirm_train_settings:
@@ -1981,6 +1999,7 @@
 		following: "关注中",
 		follow: "关注",
 		unfollow: "取消关注",
+		unfollowing: "取消关注",
 		report_abuse: {
 			title: "举报滥用",
 			description: "请说明举报滥用的原因。",

@@ -168,6 +168,7 @@ const it = {
 		submit: "Invia",
 		execute: "Esegui",
 		retry: "Riprova",
+		reason: "Motivo",
 
 		// Confirm Delete Alert
 		alert_confirm_delete_title: "Conferma eliminazione",
@@ -720,7 +721,20 @@ const it = {
 		loading_profile: "Caricamento profilo",
 		no_profile: "Nessun dato profilo disponibile",
 		uploading: "Caricamento in corso",
-
+		loading_posts: "Caricamento di altri post",
+		no_posts: "Nessun altro post da caricare",
+		failed_posts: "Impossibile caricare i post",
+		loading_post: "Caricamento dei post",
+		no_post: "Nessun post ancora",
+		profile: {
+			full_name: "Nome completo",
+			nickname: "Soprannome",
+			description: "Descrizione del profilo",
+			about: "Raccontaci di te",
+			avatar: "Avatar",
+			additional_info: "Informazioni aggiuntive (facoltativo)",
+			not_found: "Profilo non trovato"
+		},
 		upload: {
 			acquisition_data: "Dati di acquisizione",
 			parameters: "Configura i parametri di acquisizione",
@@ -2081,6 +2095,9 @@ const it = {
 		targets: "Obiettivi",
 		device: "Dispositivo",
 		stella: "Stella",
+		community: "Comunità",
+		viewer: "Visualizzatore",
+		settings: "Impostazioni",
 	},
 	stella: {
 		confirm_train_settings:
@@ -2132,6 +2149,7 @@ const it = {
 		following: "Seguiti",
 		follow: "Segui",
 		unfollow: "Smetti di seguire",
+		unfollowing: "Smettendo di seguire",
 		report_abuse: {
 			title: "Segnala abuso",
 			description: "Specifica un motivo per questa segnalazione di abuso.",

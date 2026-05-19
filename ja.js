@@ -168,6 +168,7 @@ const ja = {
 		submit: "送信",
 		execute: "実行",
 		retry: "再試行",
+		reason: "理由",
 
 		// 削除アラートの確認
 		alert_confirm_delete_title: "削除の確認",
@@ -698,7 +699,20 @@ const ja = {
 		loading_profile: "プロフィールを読み込み中",
 		no_profile: "プロフィールデータがありません",
 		uploading: "アップロード中",
-
+		loading_posts: "さらに投稿を読み込んでいます",
+		no_posts: "読み込む投稿はありません",
+		failed_posts: "投稿の読み込みに失敗しました",
+		loading_post: "投稿を読み込んでいます",
+		no_post: "まだ投稿がありません",
+		profile: {
+			full_name: "フルネーム",
+			nickname: "ニックネーム",
+			description: "プロフィールの説明",
+			about: "自己紹介をしてください",
+			avatar: "アバター",
+			additional_info: "追加情報（任意）",
+			not_found: "プロフィールが見つかりません"
+		},
 		upload: {
 			acquisition_data: "取得データ",
 			parameters: "取得パラメーターを設定",
@@ -2014,6 +2028,9 @@ const ja = {
 		targets: "ターゲット",
 		device: "デバイス",
 		stella: "ステラ",
+		community: "コミュニティ",
+		viewer: "ビューワー",
+		settings: "設定",
 	},
 	stella: {
 		confirm_train_settings:
@@ -2066,6 +2083,7 @@ const ja = {
 		following: "フォロー中",
 		follow: "フォロー",
 		unfollow: "フォロー解除",
+		unfollowing: "フォロー解除中",
 		report_abuse: {
 			title: "不正行為を報告",
 			description: "この不正行為報告の理由を明記してください。",
