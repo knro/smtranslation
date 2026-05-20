@@ -584,7 +584,14 @@ const de = {
 		description_guide_status: "Guiding-Status",
 		description_guide_controls:
 			"Sie können Guiding-Diagramm, Bild, Einstellungen und Schnelleinstellungen anzeigen. Sie können auch mit dem Guiding beginnen.",
-
+		title_skymap_goto: "Gehe zu",
+		description_skymap_goto: "Bewege die Montierung zum ausgewählten Ziel. Die Montierung richtet sich so aus, dass das ausgewählte Objekt im Himmel zentriert wird.",
+		title_skymap_go_solve: "Gehe & Lösen",
+		description_skymap_go_solve: "Bewege die Montierung zum ausgewählten Ziel und führe anschließend automatisch ein Plate-Solving durch, um die Position der Montierung zu überprüfen und zu korrigieren. Sorgt für eine präzise Zentrierung.",
+		title_skymap_sync: "Synchronisieren",
+		description_skymap_sync: "Synchronisiere die Koordinaten der Montierung mit dem ausgewählten Ziel. Dies verbessert die Zielgenauigkeit für nahegelegene Objekte.",
+		title_skymap_schedule: "Planen",
+		description_skymap_schedule: "Die ausgewählten Koordinaten planen",
 		description_search_filter: "Nach Metadaten filtern.",
 		description_search_live: "Nach Namen suchen.",
 		description_feed_all: "Zeigt Beiträge von allen Benutzern an.",

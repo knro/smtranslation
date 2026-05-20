@@ -584,6 +584,14 @@ const it = {
 		description_guide_controls:
 			"Puoi visualizzare Grafico guida, Immagine, Impostazioni e Impostazioni accesso rapido. Puoi anche avviare la guida",
 
+		title_skymap_goto: "Vai a",
+		description_skymap_goto: "Punta la montatura verso il target selezionato. La montatura si muoverà per centrare l'oggetto selezionato nel cielo.",
+		title_skymap_go_solve: "Vai e Risolvi",
+		description_skymap_go_solve: "Punta verso il target selezionato, quindi esegui automaticamente il plate solving per verificare e correggere la posizione della montatura. Garantisce un centraggio accurato.",
+		title_skymap_sync: "Sincronizza",
+		description_skymap_sync: "Sincronizza le coordinate della montatura con il target selezionato. Questo migliora la precisione di puntamento per gli oggetti vicini.",
+		title_skymap_schedule: "Programma",
+		description_skymap_schedule: "Programma le coordinate selezionate",
 		description_search_filter: "Filtra per metadati.",
 		description_search_live: "Cerca per nome.",
 		description_feed_all: "Visualizza i post di tutti gli utenti.",

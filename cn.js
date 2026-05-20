@@ -564,6 +564,15 @@
 		description_guide_controls:
 			"您可以查看导星图表、图像、设置和快速访问设置。您也可以开始导星。",
 
+		title_skymap_goto: "前往",
+		description_skymap_goto: "将赤道仪转向所选目标。赤道仪会移动，使所选天体居中显示在天空中。",
+		title_skymap_go_solve: "前往并解析",
+		description_skymap_go_solve: "转向所选目标，然后自动进行板解析以验证并校正赤道仪位置，确保精确居中。",
+		title_skymap_sync: "同步",
+		description_skymap_sync: "将赤道仪坐标与所选目标同步。这将提高附近天体的指向精度。",
+		title_skymap_schedule: "计划",
+		description_skymap_schedule: "安排所选坐标",
+
 		description_search_filter: "按元数据筛选。",
 		description_search_live: "按名称搜索。",
 		description_feed_all: "显示所有用户的帖子。",

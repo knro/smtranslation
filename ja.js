@@ -565,8 +565,15 @@ const ja = {
 
 		description_guide_camera: "キャプチャとループ",
 		description_guide_status: "ガイドステータス",
-		description_guide_controls:
-			"ガイドチャート、画像、設定、クイックアクセス設定を表示できます。ガイドを開始することもできます",
+		description_guide_controls: "ガイドチャート、画像、設定、クイックアクセス設定を表示できます。ガイドを開始することもできます",
+		title_skymap_goto: "移動",
+		description_skymap_goto: "選択したターゲットにマウントを向けます。マウントが移動し、選択した天体を空の中央に表示します。",
+		title_skymap_go_solve: "移動して解析",
+		description_skymap_go_solve: "選択したターゲットへ移動した後、自動的にプレートソルブを実行してマウント位置を確認・補正します。正確な中央配置を保証します。",
+		title_skymap_sync: "同期",
+		description_skymap_sync: "マウント座標を選択したターゲットと同期します。これにより、近くの天体への指向精度が向上します。",
+		title_skymap_schedule: "スケジュール",
+		description_skymap_schedule: "選択した座標をスケジュールします",
 
 		description_search_filter: "メタデータでフィルタリングします。",
 		description_search_live: "名前で検索します。",
