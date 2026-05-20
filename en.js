@@ -577,6 +577,19 @@ const en = {
 		description_guide_controls:
 			"You can view Guide Chart, Image, Settings and Quick Access Settings. You can also start Guiding",
 
+		title_skymap_goto: "GOTO",
+		description_skymap_goto:
+			"Slew the mount to the selected target. The mount will move to center the selected object in the sky.",
+		title_skymap_go_solve: "Go & Solve",
+		description_skymap_go_solve:
+			"Slew to the selected target, then automatically plate solve to verify and correct the mount's position. Ensures accurate centering.",
+		title_skymap_sync: "Sync",
+		description_skymap_sync:
+			"Synchronize the mount's coordinates with the selected target. This improves pointing accuracy for nearby objects.",
+		title_skymap_schedule: "Schedule",
+		description_skymap_schedule:
+			"Schedule the selected coordinates",
+
 		description_search_filter: "Filter by metadata.",
 		description_search_live: "Search by name.",
 		description_feed_all: "Displays posts from all users.",

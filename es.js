@@ -585,6 +585,14 @@ const es = {
 		description_guide_controls:
 			"Puede ver el gráfico de guía, la imagen, la configuración y la configuración de acceso rápido. También puede iniciar el guiado",
 
+		title_skymap_goto: "Ir a",
+		description_skymap_goto: "Mueve la montura hacia el objetivo seleccionado. La montura se moverá para centrar el objeto seleccionado en el cielo.",
+		title_skymap_go_solve: "Ir y Resolver",
+		description_skymap_go_solve: "Apunta al objetivo seleccionado y luego realiza automáticamente un plate solving para verificar y corregir la posición de la montura. Garantiza un centrado preciso.",
+		title_skymap_sync: "Sincronizar",
+		description_skymap_sync: "Sincroniza las coordenadas de la montura con el objetivo seleccionado. Esto mejora la precisión de apuntado para objetos cercanos.",
+		title_skymap_schedule: "Programar",
+		description_skymap_schedule: "Programar las coordenadas seleccionadas",
 		description_search_filter: "Filtrar por metadatos.",
 		description_search_live: "Buscar por nombre.",
 		description_feed_all: "Muestra publicaciones de todos los usuarios.",
