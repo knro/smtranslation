@@ -830,6 +830,8 @@
 		old_stellarmate_heading: "版本过旧。请更新!",
 		old_stellarmate_description:
 			"您正在使用 StellarMate OS 的旧版本。若想继续使用本应用，请务必更新至  StellarMate 的最新版本。",
+		oauth_legacy_device_error:
+			"此 StellarMate 设备需要密码才能连接。请退出登录并使用用户名和密码登录，或将 StellarMate 更新到最新版本。",
 		sm_app_update_title: "需要更新 SM App！",
 		sm_app_update_body:
 			"您似乎正在使用旧版本的 StellarMate App。请更新到最新版本。",

@@ -846,6 +846,8 @@ const ja = {
 		old_stellarmate_heading: "更新が必要です!",
 		old_stellarmate_description:
 			"古いバージョンの StellarMate OS を使用しているようです。このアプリを引き続き使用するには,StellarMate の最新バージョンにアップグレードする必要があります。",
+		oauth_legacy_device_error:
+			"このStellarMateデバイスは接続にパスワードが必要です。ログアウトしてユーザー名とパスワードでサインインするか、StellarMateを最新バージョンに更新してください。",
 		sm_app_update_title: "SMアプリのアップデート必須！",
 		sm_app_update_body:
 			"古いバージョンの StellarMate アプリを使用しているようです。アプリを最新バージョンに更新してください。",

@@ -865,6 +865,8 @@ const en = {
 		old_stellarmate_heading: "Update Required!",
 		old_stellarmate_description:
 			"You appear to be using an older version of StellarMate OS. You must upgrade to the most recent version of StellarMate to continue using this App.",
+		oauth_legacy_device_error:
+			"This StellarMate device requires a password to connect. Please log out and sign in with your username and password, or update your StellarMate to the latest version.",
 		sm_app_update_title: "SM App Update Required!",
 		sm_app_update_body:
 			"You appear to be using an older version of StellarMate App. Please update to the latest version.",
