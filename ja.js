@@ -1960,6 +1960,10 @@ const ja = {
 		management: "管理",
 		machineID: "マシンID",
 		processing: "処理中",
+		assignToDevice: "割り当て",
+		transferToDevice: "ここに転送",
+		confirm_assign_serial: "{0} を現在のデバイスに割り当てますか？",
+		confirm_transfer_serial: "{0} を {1} からこのデバイスに転送しますか？",
 		video_tutorial: "ビデオチュートリアル",
 
 		vnc: {

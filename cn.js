@@ -1882,6 +1882,10 @@
 		management: "管理",
 		machineID: "机器ID",
 		processing: "处理中",
+		assignToDevice: "分配",
+		transferToDevice: "转移至此",
+		confirm_assign_serial: "将 {0} 分配给当前设备？",
+		confirm_transfer_serial: "将 {0} 从 {1} 转移到此设备？",
 		video_tutorial: "视频教程",
 
 		vnc: {

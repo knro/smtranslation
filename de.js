@@ -1974,6 +1974,10 @@ const de = {
 		management: "Verwaltung",
 		machineID: "Maschinen-ID",
 		processing: "Verarbeitung",
+		assignToDevice: "Zuweisen",
+		transferToDevice: "Hierher übertragen",
+		confirm_assign_serial: "{0} dem aktuellen Gerät zuweisen?",
+		confirm_transfer_serial: "{0} von {1} auf dieses Gerät übertragen?",
 		video_tutorial: "Video-Tutorial",
 
 		vnc: {

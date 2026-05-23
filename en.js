@@ -1997,6 +1997,10 @@ const en = {
 		management: "Management",
 		machineID: "Machine ID",
 		processing: "Processing",
+		assignToDevice: "Assign",
+		transferToDevice: "Transfer here",
+		confirm_assign_serial: "Assign {0} to current device?",
+		confirm_transfer_serial: "Transfer {0} from {1} to this device?",
 		video_tutorial: "Video tutorial",
 
 		vnc: {

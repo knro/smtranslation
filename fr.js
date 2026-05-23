@@ -1994,6 +1994,10 @@ const fr = {
 		management: "Gestion",
 		machineID: "ID Machine",
 		processing: "Traitement",
+		assignToDevice: "Assigner",
+		transferToDevice: "Transférer ici",
+		confirm_assign_serial: "Assigner {0} à l'appareil actuel ?",
+		confirm_transfer_serial: "Transférer {0} depuis {1} vers cet appareil ?",
 		video_tutorial: "Tutoriel vidéo",
 
 		vnc: {

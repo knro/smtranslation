@@ -2024,6 +2024,10 @@ const es = {
 		management: "Gestión",
 		machineID: "ID de Máquina",
 		processing: "Procesando",
+		assignToDevice: "Asignar",
+		transferToDevice: "Transferir aquí",
+		confirm_assign_serial: "¿Asignar {0} al dispositivo actual?",
+		confirm_transfer_serial: "¿Transferir {0} desde {1} a este dispositivo?",
 		video_tutorial: "Vídeotutorial",
 
 		vnc: {
