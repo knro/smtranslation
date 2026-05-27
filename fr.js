@@ -929,6 +929,13 @@ const fr = {
 		},
 		profile_manager: {
 			heading: "Profils d'équipement",
+			power_delay: {
+				modal_title: "Contrôleur d'alimentation détecté",
+				modal_body:
+					"Un pilote de contrôleur d'alimentation est inclus dans ce profil. L'ajout d'un délai de démarrage permet aux appareils connectés de s'allumer complètement avant le démarrage des autres pilotes.\n\nVoulez-vous ajouter un délai de démarrage ?",
+				seconds: "{0} sec",
+				hint: "Contrôleur d'alimentation démarré — attente de {0}s avant l'initialisation des appareils…",
+			},
 		},
 		port_selector: {
 			connect_all: "Tout connecter",

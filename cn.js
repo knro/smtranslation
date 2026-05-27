@@ -889,7 +889,14 @@
 			btn_sign_out: "登出",
 		},
 		profile_manager: {
-			heading: "配置文件",
+			heading: "设备档案",
+			power_delay: {
+				modal_title: "检测到电源控制器",
+				modal_body:
+					"此配置文件包含电源控制器驱动程序。添加启动延迟可让连接的设备完全通电后再启动其余驱动程序。\n\n是否要添加启动延迟？",
+				seconds: "{0}秒",
+				hint: "电源控制器已启动 — 等待 {0}s 以初始化设备…",
+			},
 		},
 		port_selector: {
 			connect_all: "连接所有",

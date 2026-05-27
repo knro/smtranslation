@@ -928,6 +928,13 @@ const en = {
 		},
 		profile_manager: {
 			heading: "Equipment Profiles",
+			power_delay: {
+				modal_title: "Power Controller Detected",
+				modal_body:
+					"A power controller driver is included in this profile. Adding a startup delay allows connected devices to fully power up before the rest of the drivers start.\n\nWould you like to add a startup delay?",
+				seconds: "{0} sec",
+				hint: "Power controller started — waiting {0}s for devices to initialize…",
+			},
 		},
 
 		port_selector: {

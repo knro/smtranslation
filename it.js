@@ -932,7 +932,14 @@ const it = {
 			btn_sign_out: "Esci",
 		},
 		profile_manager: {
-			heading: "Profili attrezzatura",
+			heading: "Profili Attrezzatura",
+			power_delay: {
+				modal_title: "Controller di alimentazione rilevato",
+				modal_body:
+					"Un driver del controller di alimentazione è incluso in questo profilo. L'aggiunta di un ritardo di avvio consente ai dispositivi collegati di accendersi completamente prima dell'avvio degli altri driver.\n\nVuoi aggiungere un ritardo di avvio?",
+				seconds: "{0} sec",
+				hint: "Controller di alimentazione avviato — attesa di {0}s per l'inizializzazione dei dispositivi…",
+			},
 		},
 
 		port_selector: {

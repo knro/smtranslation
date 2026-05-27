@@ -929,7 +929,14 @@ const es = {
 			btn_sign_out: "Cerrar sesion",
 		},
 		profile_manager: {
-			heading: "Perfiles de Equipos",
+			heading: "Perfiles de Equipo",
+			power_delay: {
+				modal_title: "Controlador de alimentación detectado",
+				modal_body:
+					"Un controlador de alimentación está incluido en este perfil. Añadir un retraso de inicio permite que los dispositivos conectados se enciendan completamente antes de iniciar los demás controladores.\n\n¿Desea añadir un retraso de inicio?",
+				seconds: "{0} seg",
+				hint: "Controlador de alimentación iniciado — esperando {0}s para inicializar los dispositivos…",
+			},
 		},
 
 		port_selector: {

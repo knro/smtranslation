@@ -930,6 +930,13 @@ const de = {
 		},
 		profile_manager: {
 			heading: "Geräteprofile",
+			power_delay: {
+				modal_title: "Netzteilsteuerung erkannt",
+				modal_body:
+					"Ein Treiber für die Netzteilsteuerung ist in diesem Profil enthalten. Durch eine Startverzögerung können die angeschlossenen Geräte vollständig hochfahren, bevor die restlichen Treiber gestartet werden.\n\nMöchten Sie eine Startverzögerung hinzufügen?",
+				seconds: "{0} Sek.",
+				hint: "Netzteilsteuerung gestartet — warte {0}s auf Geräteinitialisierung…",
+			},
 		},
 		port_selector: {
 			connect_all: "Alle verbinden",
