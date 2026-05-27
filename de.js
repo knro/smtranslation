@@ -1985,6 +1985,12 @@ const de = {
 		transferToDevice: "Hierher übertragen",
 		confirm_assign_serial: "{0} dem aktuellen Gerät zuweisen?",
 		confirm_transfer_serial: "{0} von {1} auf dieses Gerät übertragen?",
+		transferOwnership: "Eigentümerschaft übertragen",
+		transfer_ownership_title: "{0} an neuen Eigentümer übertragen",
+		transfer_ownership_placeholder: "E-Mail-Adresse des neuen Eigentümers",
+		transfer_ownership_send: "Übertragung senden",
+		transfer_ownership_sending: "Sende...",
+		transfer_ownership_hint: "Das Gerät wird sofort abgemeldet. Der Empfänger erhält die Lizenz bei seiner nächsten Anmeldung.",
 		video_tutorial: "Video-Tutorial",
 
 		vnc: {

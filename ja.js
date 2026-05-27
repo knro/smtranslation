@@ -1971,6 +1971,12 @@ const ja = {
 		transferToDevice: "ここに転送",
 		confirm_assign_serial: "{0} を現在のデバイスに割り当てますか？",
 		confirm_transfer_serial: "{0} を {1} からこのデバイスに転送しますか？",
+		transferOwnership: "所有権を移転する",
+		transfer_ownership_title: "{0} を新しい所有者に移転する",
+		transfer_ownership_placeholder: "新しい所有者のメールアドレス",
+		transfer_ownership_send: "移転を送信",
+		transfer_ownership_sending: "送信中...",
+		transfer_ownership_hint: "デバイスはすぐに登録解除されます。受信者は次回のサインイン時にライセンスを受け取ります。",
 		video_tutorial: "ビデオチュートリアル",
 
 		vnc: {

@@ -2035,6 +2035,12 @@ const es = {
 		transferToDevice: "Transferir aquí",
 		confirm_assign_serial: "¿Asignar {0} al dispositivo actual?",
 		confirm_transfer_serial: "¿Transferir {0} desde {1} a este dispositivo?",
+		transferOwnership: "Transferir propiedad",
+		transfer_ownership_title: "Transferir {0} al nuevo propietario",
+		transfer_ownership_placeholder: "Dirección de correo del nuevo propietario",
+		transfer_ownership_send: "Enviar transferencia",
+		transfer_ownership_sending: "Enviando...",
+		transfer_ownership_hint: "El dispositivo se desregistrará inmediatamente. El destinatario recibirá la licencia en su próximo inicio de sesión.",
 		video_tutorial: "Vídeotutorial",
 
 		vnc: {

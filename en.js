@@ -2008,6 +2008,13 @@ const en = {
 		transferToDevice: "Transfer here",
 		confirm_assign_serial: "Assign {0} to current device?",
 		confirm_transfer_serial: "Transfer {0} from {1} to this device?",
+		// Ownership transfer (device resale / gifting)
+		transferOwnership: "Transfer Ownership",
+		transfer_ownership_title: "Transfer {0} to new owner",
+		transfer_ownership_placeholder: "New owner's email address",
+		transfer_ownership_send: "Send Transfer",
+		transfer_ownership_sending: "Sending...",
+		transfer_ownership_hint: "The device will be immediately unenrolled. The recipient receives the license on their next sign-in.",
 		video_tutorial: "Video tutorial",
 
 		vnc: {

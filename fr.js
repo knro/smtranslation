@@ -2005,6 +2005,12 @@ const fr = {
 		transferToDevice: "Transférer ici",
 		confirm_assign_serial: "Assigner {0} à l'appareil actuel ?",
 		confirm_transfer_serial: "Transférer {0} depuis {1} vers cet appareil ?",
+		transferOwnership: "Transférer la propriété",
+		transfer_ownership_title: "Transférer {0} au nouveau propriétaire",
+		transfer_ownership_placeholder: "Adresse e-mail du nouveau propriétaire",
+		transfer_ownership_send: "Envoyer le transfert",
+		transfer_ownership_sending: "Envoi en cours...",
+		transfer_ownership_hint: "L'appareil sera immédiatement désinscrit. Le destinataire recevra la licence lors de sa prochaine connexion.",
 		video_tutorial: "Tutoriel vidéo",
 
 		vnc: {

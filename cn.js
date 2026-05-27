@@ -1893,6 +1893,12 @@
 		transferToDevice: "转移至此",
 		confirm_assign_serial: "将 {0} 分配给当前设备？",
 		confirm_transfer_serial: "将 {0} 从 {1} 转移到此设备？",
+		transferOwnership: "转让所有权",
+		transfer_ownership_title: "将 {0} 转让给新所有者",
+		transfer_ownership_placeholder: "新所有者的电子邮件地址",
+		transfer_ownership_send: "发送转让",
+		transfer_ownership_sending: "发送中...",
+		transfer_ownership_hint: "设备将立即取消注册。收件人在下次登录时将收到许可证。",
 		video_tutorial: "视频教程",
 
 		vnc: {
