@@ -775,6 +775,21 @@ const fr = {
 			participants: "Participants",
 			rank: "Rang",
 			user: "Utilisateur"
+		},
+		observatory:
+		{
+			current: "Météo Actuelle",
+			feels_like: "Ressenti",
+			conditions: "Conditions",
+			humidity: "Humidité",
+			wind_speed: "Vitesse du Vent",
+			cloud_cover: "Couverture Nuageuse",
+			time: "Heure de l'Observatoire",
+			timezone: "Fuseau Horaire",
+			location_share: "Localisation Partagée",
+			rentable: "Disponible à la Location",
+			hours_used: "Heures Utilisées",
+			images_captured: "Images Capturées",
 		}
 	},
 

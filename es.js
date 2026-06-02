@@ -773,6 +773,21 @@ const es = {
 			participants: "Participantes",
 			rank: "Rango",
 			user: "Usuario"
+		},
+		observatory:
+		{
+			current: "Clima Actual",
+			feels_like: "Sensación Térmica",
+			conditions: "Condiciones",
+			humidity: "Humedad",
+			wind_speed: "Velocidad del Viento",
+			cloud_cover: "Cobertura Nubosa",
+			time: "Hora del Observatorio",
+			timezone: "Zona Horaria",
+			location_share: "Ubicación Compartida",
+			rentable: "Disponible para Alquiler",
+			hours_used: "Horas Utilizadas",
+			images_captured: "Imágenes Capturadas",
 		}
 	},
 
