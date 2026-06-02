@@ -434,6 +434,9 @@ const en = {
 		title_target_chart: "Altitude vs Time",
 		description_target_chart:
 			"Shows Altitude vs Time graph with GO button to slew and center target.",
+		title_target_search: "Search Targets",
+		description_target_search:
+			"Search for targets by name or filter by object type and other criteria.",
 
 		title_basic_focus: "Focus your target",
 		description_basic_focus:
@@ -659,7 +662,7 @@ const en = {
 		placeholder_target: "The Target name.",
 		placeholder_arbitrary:
 			"Arbitrary text may also be included within the Format string, except the % and / characters. The / Path character can be used to define arbitrary directories.",
-		placeholder_notes: "Notes:",
+		placeholder_notes: "Notes",
 		placeholder_case:
 			"• Tags are case sensitive in both their short and long forms",
 		placeholder_datetime:
@@ -772,6 +775,21 @@ const en = {
 			participants: "participants",
 			rank: "Rank",
 			user: "User"
+		},
+
+		observatory: {
+			current: "Current Weather",
+			feels_like: "Feels Like",
+			conditions: "Conditions",
+			humidity: "Humidity",
+			wind_speed: "Wind Speed",
+			cloud_cover: "Cloud Cover",
+			time: "Observatory Time",
+			timezone: "Timezone",
+			location_share: "Location Shared",
+			rentable: "Rentable",
+			hours_used: "Hours Used",
+			images_captured: "Images Captured",
 		}
 	},
 	validations: {

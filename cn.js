@@ -741,6 +741,21 @@
 			participants: "参与者",
 			rank: "排名",
 			user: "用户"
+		},
+
+		observatory: {
+			current: "当前天气",
+			feels_like: "体感温度",
+			conditions: "天气状况",
+			humidity: "湿度",
+			wind_speed: "风速",
+			cloud_cover: "云量",
+			time: "天文台时间",
+			timezone: "时区",
+			location_share: "共享位置",
+			rentable: "可租用",
+			hours_used: "使用时长",
+			images_captured: "已拍摄图像"
 		}
 
 	},

@@ -775,6 +775,21 @@ const it = {
 			participants: "Partecipanti",
 			rank: "Posizione",
 			user: "Utente"
+		},
+		observatory:
+		{
+			current: "現在の天気",
+			feels_like: "体感温度",
+			conditions: "天候",
+			humidity: "湿度",
+			wind_speed: "風速",
+			cloud_cover: "雲量",
+			time: "観測所時間",
+			timezone: "タイムゾーン",
+			location_share: "位置情報を共有",
+			rentable: "レンタル可能",
+			hours_used: "利用時間",
+			images_captured: "撮影画像数",
 		}
 	},
 

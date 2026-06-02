@@ -773,7 +773,21 @@ const de = {
 			participants: "Teilnehmer",
 			rank: "Rang",
 			user: "Benutzer"
-		}
+		},
+		observatory: {
+			current: "Aktuelles Wetter",
+			feels_like: "Gefühlt",
+			conditions: "Wetterbedingungen",
+			humidity: "Luftfeuchtigkeit",
+			wind_speed: "Windgeschwindigkeit",
+			cloud_cover: "Bewölkung",
+			time: "Observatoriumszeit",
+			timezone: "Zeitzone",
+			location_share: "Standort geteilt",
+			rentable: "Mietbar",
+			hours_used: "Genutzte Stunden",
+			images_captured: "Aufgenommene Bilder"
+		},
 	},
 
 	validations: {
