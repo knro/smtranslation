@@ -2020,6 +2020,7 @@ const fr = {
 		transferToDevice: "Transférer ici",
 		confirm_assign_serial: "Assigner {0} à l'appareil actuel ?",
 		confirm_transfer_serial: "Transférer {0} depuis {1} vers cet appareil ?",
+		confirm_release_serial: "Libérer {0} de cet appareil ?",
 		transferOwnership: "Transférer la propriété",
 		transfer_ownership_title: "Transférer {0} au nouveau propriétaire",
 		transfer_ownership_placeholder: "Adresse e-mail du nouveau propriétaire",

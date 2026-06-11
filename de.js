@@ -1999,6 +1999,7 @@ const de = {
 		transferToDevice: "Hierher übertragen",
 		confirm_assign_serial: "{0} dem aktuellen Gerät zuweisen?",
 		confirm_transfer_serial: "{0} von {1} auf dieses Gerät übertragen?",
+		confirm_release_serial: "{0} von diesem Gerät freigeben?",
 		transferOwnership: "Eigentümerschaft übertragen",
 		transfer_ownership_title: "{0} an neuen Eigentümer übertragen",
 		transfer_ownership_placeholder: "E-Mail-Adresse des neuen Eigentümers",

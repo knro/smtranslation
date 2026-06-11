@@ -2050,6 +2050,7 @@ const it = {
 		transferToDevice: "Trasferisci qui",
 		confirm_assign_serial: "Assegnare {0} al dispositivo corrente?",
 		confirm_transfer_serial: "Trasferire {0} da {1} a questo dispositivo?",
+		confirm_release_serial: "Rilasciare {0} da questo dispositivo?",
 		transferOwnership: "Trasferisci proprietà",
 		transfer_ownership_title: "Trasferisci {0} al nuovo proprietario",
 		transfer_ownership_placeholder: "Indirizzo email del nuovo proprietario",

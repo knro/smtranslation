@@ -1985,6 +1985,7 @@ const ja = {
 		transferToDevice: "ここに転送",
 		confirm_assign_serial: "{0} を現在のデバイスに割り当てますか？",
 		confirm_transfer_serial: "{0} を {1} からこのデバイスに転送しますか？",
+		confirm_release_serial: "{0} をこのデバイスから解放しますか？",
 		transferOwnership: "所有権を移転する",
 		transfer_ownership_title: "{0} を新しい所有者に移転する",
 		transfer_ownership_placeholder: "新しい所有者のメールアドレス",

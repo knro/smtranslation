@@ -2026,6 +2026,7 @@ const en = {
 		transferToDevice: "Transfer here",
 		confirm_assign_serial: "Assign {0} to current device?",
 		confirm_transfer_serial: "Transfer {0} from {1} to this device?",
+		confirm_release_serial: "Release {0} from this device?",
 		// Ownership transfer (device resale / gifting)
 		transferOwnership: "Transfer Ownership",
 		transfer_ownership_title: "Transfer {0} to new owner",

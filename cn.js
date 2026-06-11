@@ -1908,6 +1908,7 @@
 		transferToDevice: "转移至此",
 		confirm_assign_serial: "将 {0} 分配给当前设备？",
 		confirm_transfer_serial: "将 {0} 从 {1} 转移到此设备？",
+		confirm_release_serial: "从该设备释放 {0}？",
 		transferOwnership: "转让所有权",
 		transfer_ownership_title: "将 {0} 转让给新所有者",
 		transfer_ownership_placeholder: "新所有者的电子邮件地址",

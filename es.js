@@ -2050,6 +2050,7 @@ const es = {
 		transferToDevice: "Transferir aquí",
 		confirm_assign_serial: "¿Asignar {0} al dispositivo actual?",
 		confirm_transfer_serial: "¿Transferir {0} desde {1} a este dispositivo?",
+		confirm_release_serial: "¿Liberar {0} de este dispositivo?",
 		transferOwnership: "Transferir propiedad",
 		transfer_ownership_title: "Transferir {0} al nuevo propietario",
 		transfer_ownership_placeholder: "Dirección de correo del nuevo propietario",
