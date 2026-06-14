@@ -169,6 +169,7 @@ const it = {
 		execute: "Esegui",
 		retry: "Riprova",
 		reason: "Motivo",
+		restart_driver: "Riavvia driver",
 
 		// Confirm Delete Alert
 		alert_confirm_delete_title: "Conferma eliminazione",
@@ -183,6 +184,8 @@ const it = {
 			"Sei sicuro di voler eliminare i file selezionati?",
 		alert_confirmation_body: "Sei sicuro di voler creare {0} con questo nome?",
 		alert_overwrite_body: "Il file '{0}' esiste già. Vuoi sovrascriverlo?",
+		alert_restart_driver: "Sei sicuro di voler riavviare il driver della fotocamera {0}?",
+
 
 		// error messages
 		network_error:
@@ -707,7 +710,12 @@ const it = {
 		reset_ekoslive: "Rigenera tutte le immagini e miniature di EkosLive",
 		reset_desktop: "Ripristina la configurazione del desktop Plasma alle impostazioni predefinite",
 		reset_network: "Reimposta tutte le impostazioni di rete e le connessioni Wi-Fi salvate",
-		reset_driver_config: "Elimina tutti i file di configurazione e i log del driver INDI"
+		reset_driver_config: "Elimina tutti i file di configurazione e i log del driver INDI",
+		set_ekoslive_password: "Imposta password EkosLive",
+		stellarmate_credentials: "Hai utilizzato le credenziali di StellarMate.com, imposta una password per il tuo account EkosLive.",
+		set_password: "Imposta password",
+		setting_password: "Impostazione password…",
+		password_successfull: "Password impostata con successo",
 	},
 	splash: {
 		checking_for_updates: "Controllo aggiornamenti...",
@@ -812,6 +820,12 @@ const it = {
 		new_scope_focal_length_invalid: "Inserisci una lunghezza focale valida",
 		new_scope_focal_ratio_invalid: "Inserisci un rapporto focale valido",
 		enter_file_name: "Inserisci un nome file",
+
+		new_password_requirement: "Almeno 8 caratteri",
+		upper_case: "Una lettera maiuscola",
+		lower_case: "Una lettera minuscola",
+		one_number: "Un numero",
+		one_special_character: "Un carattere speciale",
 	},
 	progress: {
 		start_capture: "Avvio cattura...",
@@ -939,6 +953,10 @@ const it = {
 			last_name: "Cognome",
 			email: "Email",
 			manually: "Manualmente",
+
+			new_password_field: "Nuova password",
+			enter_new_password: "Inserisci nuova password",
+			confirm_new_password: "Conferma nuova password"
 		},
 		device_manager: {
 			alert_confirm_remove_title: "Conferma rimozione",

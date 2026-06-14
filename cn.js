@@ -166,6 +166,7 @@
 		execute: "运行",
 		retry: "重试",
 		reason: "原因",
+		restart_driver: "重启驱动程序",
 
 		// Confirm Delete Alert
 		alert_confirm_delete_title: "确认删除",
@@ -177,6 +178,8 @@
 		alert_confirmation_files: "你确定要删除这些被选中的文件吗",
 		alert_confirmation_body: "是否确实要使用此名称创建｛0｝？",
 		alert_overwrite_body: "文件“｛0｝”已存在。是否要覆盖它？",
+		alert_restart_driver: "您确定要重启 {0} 相机驱动程序吗？",
+
 
 		network_error: "请确认StellarMate已联网",
 		internet_required: "请确认你已经联网",
@@ -671,7 +674,12 @@
 		reset_ekoslive: "重新生成所有 EkosLive 图像和缩略图",
 		reset_desktop: "将 Plasma 桌面配置重置为默认值",
 		reset_network: "重置所有网络设置和已保存的 Wi-Fi 连接",
-		reset_driver_config: "删除所有 INDI 驱动程序配置文件和日志"
+		reset_driver_config: "删除所有 INDI 驱动程序配置文件和日志",
+		set_ekoslive_password: "设置 EkosLive 密码",
+		stellarmate_credentials: "您使用的是 StellarMate.com 凭据，请为您的 EkosLive 账户设置密码。",
+		set_password: "设置密码",
+		setting_password: "正在设置密码…",
+		password_successfull: "密码设置成功",
 
 	},
 	splash: {
@@ -779,6 +787,11 @@
 		new_scope_focal_length_invalid: "请输入有效焦距",
 		new_scope_focal_ratio_invalid: "请输入有效焦比",
 		enter_file_name: "请输入文件名",
+		new_password_requirement: "至少 8 个字符",
+		upper_case: "一个大写字母",
+		lower_case: "一个小写字母",
+		one_number: "一个数字",
+		one_special_character: "一个特殊字符",
 	},
 	progress: {
 		start_capture: "开始拍摄...",
@@ -897,6 +910,9 @@
 			last_name: "姓",
 			email: "邮箱",
 			manually: "手动",
+			new_password_field: "新密码",
+			enter_new_password: "输入新密码",
+			confirm_new_password: "确认新密码"
 		},
 		device_manager: {
 			alert_confirm_remove_title: "确认移除",

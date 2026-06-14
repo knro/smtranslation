@@ -169,6 +169,7 @@ const ja = {
 		execute: "実行",
 		retry: "再試行",
 		reason: "理由",
+		restart_driver: "ドライバーを再起動",
 
 		// 削除アラートの確認
 		alert_confirm_delete_title: "削除の確認",
@@ -181,6 +182,8 @@ const ja = {
 		alert_confirmation_files: "選択したファイルを削除してもよろしいですか？",
 		alert_confirmation_body: "この名前で {0} を作成してもよろしいですか？",
 		alert_overwrite_body: "ファイル '{0}' は既に存在します。上書きしますか？",
+		alert_restart_driver: "{0} カメラドライバーを再起動してもよろしいですか？",
+
 
 		// エラー メッセージ
 		network_error:
@@ -684,7 +687,13 @@ const ja = {
 		reset_ekoslive: "すべての EkosLive 画像とサムネイルを再生成する",
 		reset_desktop: "Plasma デスクトップ設定をデフォルトにリセットする",
 		reset_network: "すべてのネットワーク設定と保存済み Wi-Fi 接続をリセットする",
-		reset_driver_config: "すべての INDI ドライバー設定ファイルとログを削除する"
+		reset_driver_config: "すべての INDI ドライバー設定ファイルとログを削除する",
+
+		set_ekoslive_password: "EkosLive パスワードを設定",
+		stellarmate_credentials: "StellarMate.com の認証情報を使用しました。EkosLive アカウントのパスワードを設定してください。",
+		set_password: "パスワードを設定",
+		setting_password: "パスワードを設定中…",
+		password_successfull: "パスワードが正常に設定されました",
 	},
 	splash: {
 		checking_for_updates: "更新チェック中...",
@@ -788,6 +797,11 @@ const ja = {
 		new_scope_focal_length_invalid: "有効な焦点距離を入力してください",
 		new_scope_focal_ratio_invalid: "有効な焦点比を入力してください",
 		enter_file_name: "ファイル名を入力してください",
+		new_password_requirement: "8文字以上",
+		upper_case: "大文字を1文字",
+		lower_case: "小文字を1文字",
+		one_number: "数字を1文字",
+		one_special_character: "特殊文字を1文字",
 	},
 	progress: {
 		start_capture: "キャプチャを開始しています...",
@@ -914,6 +928,9 @@ const ja = {
 			last_name: "姓",
 			email: "メール",
 			manually: "手動で",
+			new_password_field: "新しいパスワード",
+			enter_new_password: "新しいパスワードを入力",
+			confirm_new_password: "新しいパスワードを確認"
 		},
 		device_manager: {
 			alert_confirm_remove_title: "削除の確認",
