@@ -166,6 +166,7 @@ const de = {
 		execute: "Ausführen",
 		retry: "Wiederholen",
 		reason: "Grund",
+		restart_driver: "Treiber neu starten",
 
 		// Confirm Delete Alert
 		alert_confirm_delete_title: "löschen bestätigen",
@@ -182,6 +183,8 @@ const de = {
 			"Sind Sie sicher, dass Sie {0} mit diesem Namen erstellen möchten?",
 		alert_overwrite_body:
 			"Die Datei '{0}' existiert bereits. Soll sie überschrieben werden?",
+		alert_restart_driver: "Möchten Sie den {0}-Kameratreiber wirklich neu starten?",
+
 
 		network_error:
 			"bitte überprüfen Sie ob ihr StellarMate mit dem Netzwerk verbunden ist.",
@@ -705,7 +708,12 @@ const de = {
 		reset_ekoslive: "Alle EkosLive-Bilder und Vorschaubilder neu generieren",
 		reset_desktop: "Plasma-Desktop-Konfiguration auf Standardwerte zurücksetzen",
 		reset_network: "Alle Netzwerkeinstellungen und gespeicherte WLAN-Verbindungen zurücksetzen",
-		reset_driver_config: "Alle INDI-Treiberkonfigurationsdateien und Protokolle löschen"
+		reset_driver_config: "Alle INDI-Treiberkonfigurationsdateien und Protokolle löschen",
+		set_ekoslive_password: "EkosLive-Passwort festlegen",
+		stellarmate_credentials: "Sie haben StellarMate.com-Anmeldedaten verwendet. Bitte legen Sie ein Passwort für Ihr EkosLive-Konto fest.",
+		set_password: "Passwort festlegen",
+		setting_password: "Passwort wird festgelegt …",
+		password_successfull: "Passwort erfolgreich festgelegt",
 	},
 	splash: {
 		checking_for_updates: "Nach Aktualisierungen suchen ...",
@@ -810,6 +818,11 @@ const de = {
 		new_scope_focal_ratio_invalid:
 			"Geben Sie ein gültiges Öffnungsverhältnis ein",
 		enter_file_name: "Geben Sie einen Dateinamen ein",
+		new_password_requirement: "Mindestens 8 Zeichen",
+		upper_case: "Ein Großbuchstabe",
+		lower_case: "Ein Kleinbuchstabe",
+		one_number: "Eine Zahl",
+		one_special_character: "Ein Sonderzeichen",
 	},
 	progress: {
 		start_capture: "Beginn der Aufnahme...",
@@ -935,6 +948,9 @@ const de = {
 			last_name: "Nachname",
 			email: "Email",
 			manually: "Manuell",
+			new_password_field: "Neues Passwort",
+			enter_new_password: "Neues Passwort eingeben",
+			confirm_new_password: "Neues Passwort bestätigen"
 		},
 		device_manager: {
 			alert_confirm_remove_title: "Entfernen bestätigen",

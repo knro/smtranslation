@@ -169,11 +169,12 @@ const en = {
 		execute: "Execute",
 		retry: "Retry",
 		reason: "Reason",
+		restart_driver: "Restart driver",
 
 		// Confirm Delete Alert
 		alert_confirm_delete_title: "Confirm Delete",
 		alert_delete_profile_body:
-			"Are you sure you want to delete the selected profile?",
+			"Are you sure you want	 to delete the selected profile?",
 		alert_delete_scope_body:
 			"Are you sure you want to delete the selected scope?",
 
@@ -185,7 +186,7 @@ const en = {
 			"Are you sure you want to create {0} with this name?",
 		alert_overwrite_body:
 			"The file '{0}' already exists. Do you wish to overwrite it?",
-
+		alert_restart_driver: "Are you sure you want to restart {0} camera driver?",
 		// error messages
 		network_error:
 			"Please make sure that your StellarMate is connected to your network",
@@ -662,7 +663,7 @@ const en = {
 		placeholder_target: "The Target name.",
 		placeholder_arbitrary:
 			"Arbitrary text may also be included within the Format string, except the % and / characters. The / Path character can be used to define arbitrary directories.",
-		placeholder_notes: "Notes",
+		placeholder_notes: "Notes:",
 		placeholder_case:
 			"• Tags are case sensitive in both their short and long forms",
 		placeholder_datetime:
@@ -705,6 +706,11 @@ const en = {
 		reset_desktop: "Reset Plasma desktop configuration to defaults",
 		reset_network: "Reset all network settings and saved Wi-Fi connections",
 		reset_driver_config: "Delete all INDI driver configuration files and logs",
+		set_ekoslive_password: "Set EkosLive Password",
+		stellarmate_credentials: "You used StellarMate.com credentials, please set a password for your EkosLive account.",
+		set_password: "Set Password",
+		setting_password: "Setting password...",
+		password_successfull: "Password Set Successfully"
 	},
 	splash: {
 		checking_for_updates: "Checking for updates...",
@@ -811,6 +817,12 @@ const en = {
 		new_scope_focal_length_invalid: "Enter a valid focal length",
 		new_scope_focal_ratio_invalid: "Enter a valid focal ratio",
 		enter_file_name: "Enter a filename",
+
+		new_password: "At least 8 characters",
+		upper_case: "One uppercase letter",
+		lower_case: "One lowercase letter",
+		one_number: "One number",
+		one_special_character: "One special character"
 	},
 	progress: {
 		start_capture: "Starting capture...",
@@ -937,6 +949,9 @@ const en = {
 			last_name: "Last name",
 			email: "Email",
 			manually: "Manually",
+			new_password: "New password",
+			enter_new_password: "Enter new password",
+			confirm_new_password: "Confirm new password"
 		},
 		device_manager: {
 			alert_confirm_remove_title: "Confirm Removal",

@@ -161,6 +161,8 @@ const es = {
 		execute: "Ejecutar",
 		retry: "Reintentar",
 		reason: "Motivo",
+		restart_driver: "Reiniciar controlador",
+
 
 		// Confirm Delete Alert
 		alert_confirm_delete_title: "Confirmar eliminación",
@@ -176,6 +178,7 @@ const es = {
 		alert_confirmation_body:
 			"¿Estás seguro de que deseas crear {0} con este nombre?",
 		alert_overwrite_body: "El archivo '{0}' ya existe. ¿Desea sobrescribirlo?",
+		alert_restart_driver: "¿Seguro que quieres reiniciar el controlador de la cámara {0}?",
 
 		closed: "Cerrado",
 		enable: "Halibilitado",
@@ -705,7 +708,12 @@ const es = {
 		reset_ekoslive: "Regenerar todas las imágenes y miniaturas de EkosLive",
 		reset_desktop: "Restablecer la configuración del escritorio Plasma a los valores predeterminados",
 		reset_network: "Restablecer todas las configuraciones de red y conexiones Wi-Fi guardadas",
-		reset_driver_config: "Eliminar todos los archivos de configuración y registros del controlador INDI"
+		reset_driver_config: "Eliminar todos los archivos de configuración y registros del controlador INDI",
+		set_ekoslive_password: "Establecer contraseña de EkosLive",
+		stellarmate_credentials: "Has usado las credenciales de StellarMate.com, establece una contraseña para tu cuenta de EkosLive.",
+		set_password: "Establecer contraseña",
+		setting_password: "Estableciendo contraseña…",
+		password_successfull: "Contraseña establecida correctamente",
 	},
 	splash: {
 		checking_for_updates: "Comprobando actualizaciones...",
@@ -810,6 +818,11 @@ const es = {
 		new_scope_focal_length_invalid: "Entre una longitud focal valida",
 		new_scope_focal_ratio_invalid: "Introduzca una relación focal válida",
 		enter_file_name: "Ingresa un nombre de archivo",
+		new_password_requirement: "Al menos 8 caracteres",
+		upper_case: "Una letra mayúscula",
+		lower_case: "Una letra minúscula",
+		one_number: "Un número",
+		one_special_character: "Un carácter especial",
 	},
 	progress: {
 		start_capture: "Iniciando captura...",
@@ -936,6 +949,9 @@ const es = {
 			last_name: "Apellidos",
 			email: "Email",
 			manually: "Manually",
+			new_password_field: "Nueva contraseña",
+			enter_new_password: "Introduce la nueva contraseña",
+			confirm_new_password: "Confirma la nueva contraseña"
 		},
 		device_manager: {
 			alert_confirm_remove_title: "Confirmar Eliminacion",
