@@ -1777,6 +1777,7 @@ const de = {
 		alert_factory_reset_confirmation_body:
 			"Möchten Sie das Gerät wirklich auf die Werkseinstellungen zurücksetzen? Alle Einstellungen werden gelöscht. Diese Aktion ist irreversibel!",
 		alert_forget_wifi_title: "Wifi Netzwerk vergessen",
+		alert_forget_password_title: "Passwort vergessen?",
 		alert_forget_wifi_body:
 			"Alle WiFi-Netzwerke werden gelöscht und StellarMate wird jetzt im HotSpot-Modus ausgeführt. Sie müssen auf Ihrem Telefon / Tablet zum Hotspot-Netzwerk wechseln. Wollen Sie fortfahren?",
 		alert_join_wifi_title: "Verbinden Sie sich mit dem Wifi-Netzwerk.",

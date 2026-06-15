@@ -1797,6 +1797,7 @@ const fr = {
 		alert_factory_reset_confirmation_body:
 			"Voulez-vous vraiment réinitialiser l'appareil aux paramètres d'usine? Tous les paramètres seront effacés. Cette action est irréversible!",
 		alert_forget_wifi_title: "Oubliez le Wifi",
+		alert_forget_password_title: "Mot de passe oublié ?",
 		alert_forget_wifi_body:
 			"Tous les réseaux WiFi seront effacés et StellarMate fonctionnera désormais en mode HotSpot. Vous devez basculer vers le réseau hotspot de votre téléphone / tablette. Voulez-vous continuer?",
 		alert_join_wifi_title: "Rejoignez le réseau Wifi",

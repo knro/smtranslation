@@ -1817,6 +1817,7 @@ const it = {
 			"Sei sicuro di voler ripristinare le impostazioni di fabbrica del dispositivo? Tutte le impostazioni verranno cancellate. Questa azione è irreversibile!",
 
 		alert_forget_wifi_title: "Dimentica Wifi",
+		alert_forget_password_title: "Password dimenticata?",
 		alert_forget_wifi_body:
 			"Tutte le reti WiFi verranno cancellate e StellarMate funzionerà in modalità HotSpot. Devi passare alla rete hotspot nel tuo telefono/tablet. Vuoi continuare?",
 

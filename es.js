@@ -1814,6 +1814,7 @@ const es = {
 			"¿Seguro que quiere reestablecer el dispositivo a la configuracion de Fabrica? Se borraran todos los ajustes. ¡Esta accion es irreversible!",
 
 		alert_forget_wifi_title: "Olvidar Wifi",
+		alert_forget_password_title: "¿Olvidaste tu contraseña?",
 		alert_forget_wifi_body:
 			"Todas las redes WiFi se borraran y StellarMate se ejecutara en modo Punto de Acceso. Debe de cambiar a la red del Punto de Acceso en su telefono/tableta. ¿Quiere continuar?",
 
