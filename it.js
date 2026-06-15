@@ -1818,6 +1818,7 @@ const it = {
 
 		alert_forget_wifi_title: "Dimentica Wifi",
 		alert_forget_password_title: "Password dimenticata?",
+		alert_forget_password_description: "Inserisci la tua email o il tuo nome utente e ti invieremo un link per reimpostare la password.",
 		alert_forget_wifi_body:
 			"Tutte le reti WiFi verranno cancellate e StellarMate funzionerà in modalità HotSpot. Devi passare alla rete hotspot nel tuo telefono/tablet. Vuoi continuare?",
 
