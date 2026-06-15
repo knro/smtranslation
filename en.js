@@ -1795,6 +1795,7 @@ const en = {
 			"Are you sure you want to reset device to factory settings? All settings will be wiped. This action is irreversible!",
 
 		alert_forget_wifi_title: "Forget Wifi",
+		alert_forget_password_title: "Forgot Password?",
 		alert_forget_wifi_body:
 			"All WiFi networks will be cleared and StellarMate will now run in HotSpot Mode. You need to switch to the hotspot network in your phone/tablet. Do you want to continue?",
 
