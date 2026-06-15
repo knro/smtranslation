@@ -1796,6 +1796,7 @@ const en = {
 
 		alert_forget_wifi_title: "Forget Wifi",
 		alert_forget_password_title: "Forgot Password?",
+		alert_forget_password_description: "Please enter your Email or Username, and we will send you a link to reset your password.",
 		alert_forget_wifi_body:
 			"All WiFi networks will be cleared and StellarMate will now run in HotSpot Mode. You need to switch to the hotspot network in your phone/tablet. Do you want to continue?",
 

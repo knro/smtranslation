@@ -1770,6 +1770,7 @@ const ja = {
 			"デバイスを工場出荷時の設定にリセットしてもよろしいですか? すべての設定が消去されます.このアクションは元に戻せません!",
 		alert_forget_wifi_title: "Wi-Fi を忘れる",
 		alert_forget_password_title: "パスワードをお忘れですか？",
+		alert_forget_password_description: "メールアドレスまたはユーザー名を入力してください。パスワードを再設定するためのリンクをお送りします。",
 		alert_forget_wifi_body:
 			"すべての WiFi ネットワークが消去され,StellarMate はホットスポット モードで実行されます。携帯電話/タブレットでホットスポット ネットワークに切り替える必要があります。続けたいですか？",
 		alert_join_wifi_title: "Wi-Fi ネットワークに参加",

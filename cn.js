@@ -1714,6 +1714,7 @@
 			"您确定要将设备恢复到出厂设置吗？所有设置都将被清除。此操作不可逆转！",
 		alert_forget_wifi_title: "删除Wifi",
 		alert_forget_password_title: "忘记密码？",
+		alert_forget_password_description: "请输入您的电子邮件或用户名，我们将向您发送重置密码的链接。",
 		alert_forget_wifi_body:
 			"断开并删除当前Wifi将使StellarMate启用自己的热点（如果未连接到以太网）。您将需要连接到此热点才能继续使用。是否继续？",
 		alert_join_wifi_title: "加入Wifi网络",
