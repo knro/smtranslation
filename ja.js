@@ -1094,6 +1094,10 @@ const ja = {
 		rotate_capture: "回転 & 撮影",
 		goto_rotate: "導入 & 回転",
 		angular_offset: "角度オフセット",
+		pan_rotate: "パン & 回転",
+		pan_only: "パンのみ",
+		rotate_only: "回転のみ",
+		tap_to_recalculate: "▶をタップして再計算",
 		no_objects_in_list:
 			"オブジェクトが見つかりません。フィルターを調整またはリセットしてください。",
 		go_and_solve: "導入 & Solve",

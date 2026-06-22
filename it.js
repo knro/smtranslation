@@ -1123,6 +1123,10 @@ const it = {
 		rotate_capture: "Ruota e cattura",
 		goto_rotate: "GOTO e ruota",
 		angular_offset: "Offset angolare",
+		pan_rotate: "Panoramica e Rotazione",
+		pan_only: "Solo Panoramica",
+		rotate_only: "Solo Rotazione",
+		tap_to_recalculate: "Tocca ▶ per ricalcolare",
 		no_objects_in_list:
 			"Nessun oggetto trovato. Controlla l'elenco attivo, regola o ripristina i filtri.",
 		go_and_solve: "Vai e risolvi",

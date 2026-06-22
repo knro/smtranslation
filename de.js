@@ -1113,6 +1113,10 @@ const de = {
 		rotate_capture: "Rotiere & Erstelle Bild",
 		goto_rotate: "Starte & Rotiere",
 		angular_offset: "Versatz/Angular Offset",
+		pan_rotate: "Schwenken & Drehen",
+		pan_only: "Nur Schwenken",
+		rotate_only: "Nur Drehen",
+		tap_to_recalculate: "▶ zum Neuberechnen tippen",
 		no_objects_in_list:
 			"Keine Objekte gefunden. Bitte überprüfen Sie die aktive Liste, passen Sie die Filter an oder setzen Sie sie zurück..",
 		go_and_solve: "Starte & Löse auf",

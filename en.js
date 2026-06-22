@@ -1118,6 +1118,10 @@ const en = {
 		rotate_capture: "Rotate & Capture",
 		goto_rotate: "GOTO & Rotate",
 		angular_offset: "Angular Offset",
+		pan_rotate: "Pan & Rotate",
+		pan_only: "Pan Only",
+		rotate_only: "Rotate Only",
+		tap_to_recalculate: "Tap ▶ to recalculate",
 		no_objects_in_list:
 			"No Objects found. Please check active list, adjust or reset the filters.",
 		go_and_solve: "Go & Solve",

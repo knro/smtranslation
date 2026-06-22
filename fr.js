@@ -1113,6 +1113,10 @@ const fr = {
 		rotate_capture: "Rotation & Capture",
 		goto_rotate: "GOTO & Rotation",
 		angular_offset: "Décalage angulaire",
+		pan_rotate: "Panoramique et Rotation",
+		pan_only: "Panoramique seul",
+		rotate_only: "Rotation seule",
+		tap_to_recalculate: "Appuyez sur ▶ pour recalculer",
 		no_objects_in_list:
 			"Aucun objet trouvé. Veuillez vérifier la liste active, ajuster ou réinitialiser les filtres.",
 		go_and_solve: "Aller et résoudre",

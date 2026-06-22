@@ -1120,6 +1120,10 @@ const es = {
 		rotate_capture: "Rotar y Capturar",
 		goto_rotate: "GOTO & Rotar",
 		angular_offset: "Compensacion Angular",
+		pan_rotate: "Panorámica y Rotación",
+		pan_only: "Solo Panorámica",
+		rotate_only: "Solo Rotación",
+		tap_to_recalculate: "Toca ▶ para recalcular",
 		no_objects_in_list:
 			"No se encontraron objetos. Por favor, revise la lista activa, ajuste o restablezca los filtros.",
 		go_and_solve: "Dirigirse y Resolver",
