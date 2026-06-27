@@ -1866,6 +1866,7 @@ const ja = {
 		notifications: "通知",
 		sounds: "サウンド",
 		cloud_storage: "クラウド ストレージ",
+		floating_stella: "ステラ アシスタント",
 		limit_cloud_storage:
 			"ストレージ容量に制限があります。Pro/Ultimateにアップグレードすると、最大10GB/1000GBのストレージを利用できます",
 		auto_sync: "自動同期",
@@ -1945,7 +1946,7 @@ const ja = {
 		heading: "だいたい",
 		bundle: "バンドル",
 		copyright_line1:
-			"StellarMate は Ikarus Technologies © 2017-2025 によって開発されました",
+			"StellarMate は Ikarus Technologies © 2017-2027 によって開発されました",
 		copyright_line2: "Alamri Observatory による背景画像",
 		credits: {
 			heading: "クレジット",
@@ -2097,6 +2098,8 @@ const ja = {
 		settings: "設定",
 	},
 	stella: {
+		floating_stella_intro:
+			"こんにちは！私はスマートアシスタントのStellaです。長押しして話し、離して送信します。「火星に行く」または「5秒の画像を撮影して」をお試しください。",
 		confirm_train_settings:
 			"キャプチャ設定なしでXMLを生成できません。デフォルト設定を同期するには、まずEkosプロファイルを開始してください。",
 		confirm_ekos_running:

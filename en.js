@@ -1907,6 +1907,7 @@ const en = {
 		notifications: "Notifications",
 		sounds: "Sounds",
 		cloud_storage: "Cloud Storage",
+		floating_stella: "Stella Assistant",
 		limit_cloud_storage:
 			"Limited Storage. Upgrade to Pro/Ultimate for up to 10GB/1000GB storage ",
 		auto_sync: "Auto Sync",
@@ -1986,7 +1987,7 @@ const en = {
 		heading: "About",
 		bundle: "Bundle",
 		copyright_line1:
-			"StellarMate is developed by Ikarus Technologies © 2017-2025",
+			"StellarMate is developed by Ikarus Technologies © 2017-2027",
 		copyright_line2: "Background image by Alamri Observatory",
 		credits: {
 			heading: "Credits",
@@ -2140,6 +2141,8 @@ const en = {
 		settings: "Settings"
 	},
 	stella: {
+		floating_stella_intro:
+			"Hi! I'm Stella, your smart assistant. Hold to speak, release to send. Try Go to Mars or Capture a 5-second image",
 		confirm_train_settings:
 			"Cannot generate XML without capture settings. Start Ekos profile first to sync default settings.",
 		confirm_ekos_running:

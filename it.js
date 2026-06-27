@@ -1932,6 +1932,7 @@ const it = {
 		notifications: "Notifiche",
 		sounds: "Suoni",
 		cloud_storage: "Archiviazione cloud",
+		floating_stella: "Assistente Stella",
 		limit_cloud_storage:
 			"Archiviazione limitata. Aggiorna a Pro/Ultimate per un massimo di 10GB/1000GB di archiviazione",
 		auto_sync: "Sincronizzazione automatica",
@@ -2012,7 +2013,7 @@ const it = {
 		heading: "Informazioni",
 		bundle: "Bundle",
 		copyright_line1:
-			"StellarMate è sviluppato da Ikarus Technologies © 2017-2025",
+			"StellarMate è sviluppato da Ikarus Technologies © 2017-2027",
 		copyright_line2: "Immagine di sfondo di Alamri Observatory",
 		credits: {
 			heading: "Crediti",
@@ -2167,6 +2168,8 @@ const it = {
 		settings: "Impostazioni",
 	},
 	stella: {
+		floating_stella_intro:
+			"Ciao! Sono Stella, la tua assistente smart. Tieni premuto per parlare, rilascia per inviare. Prova Vai su Marte o Cattura un'immagine di 5 secondi",
 		confirm_train_settings:
 			"Impossibile generare XML senza impostazioni di cattura. Avvia prima il profilo Ekos per sincronizzare le impostazioni predefinite.",
 		confirm_ekos_running:

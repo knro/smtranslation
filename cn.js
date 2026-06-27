@@ -1802,6 +1802,7 @@
 		notifications: "通知",
 		sounds: "声音",
 		cloud_storage: "云存储",
+		floating_stella: "Stella 助手",
 		limit_cloud_storage:
 			"存储空间有限。升级到Pro/Ultimate获得高达10GB/1000GB的存储空间",
 		auto_sync: "自动同步",
@@ -1871,7 +1872,7 @@
 	about: {
 		heading: "关于",
 		bundle: "软件包",
-		copyright_line1: "StellarMate由Ikarus Technologies开发。© 2017-2025",
+		copyright_line1: "StellarMate由Ikarus Technologies开发。© 2017-2027",
 		copyright_line2: "背景来自Alamri天文台",
 		credits: {
 			heading: "感谢",
@@ -2018,6 +2019,8 @@
 		settings: "设置",
 	},
 	stella: {
+		floating_stella_intro:
+			"你好！我是Stella，你的智能助手。按住说话，松开发送。试试「飞往火星」或「拍摄一张5秒的照片」",
 		confirm_train_settings:
 			"在没有拍摄设置的情况下无法创建XML文件，请启动Ekos以同步设置。",
 		confirm_ekos_running: "请检查 Ekos 配置文件。Ekos 必须在线才能继续",
