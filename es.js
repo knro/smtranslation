@@ -1223,13 +1223,10 @@ const es = {
 				manual_rotator: "Acoplar la cámara de guiado al rotador manual"
 			},
 			mount_model: {
-				title: "MODELO DE MONTURA",
+				title: "Modelo de montura", training: "Crear modelo mediante entrenamiento",
 				sync_points: "Puntos de sincronización",
 				alignment_system: "Subsistema de alineación",
-				deactivate: "Desactivar",
-				activate: "Activar",
-				math_algorithm: "Algoritmo matemático",
-				training: "CREAR MODELO MEDIANTE ENTRENAMIENTO",
+				sky_model: "Modelo del cielo",
 				training_description: "Apunta automáticamente a posiciones del cielo, resuelve la placa y sincroniza para crear un modelo de apuntado.",
 				algorithms: {
 					nearest: "Utiliza el punto de sincronización más cercano. El modelo más simple, ideal para correcciones de un solo punto.",

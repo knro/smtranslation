@@ -1211,13 +1211,10 @@ const fr = {
 				manual_rotator: "Coupler la caméra de guidage au rotateur manuel"
 			},
 			mount_model: {
-				title: "MODÈLE DE MONTURE",
+				title: "Modèle de monture", training: "Créer le modèle par entraînement",
 				sync_points: "Points de synchronisation",
 				alignment_system: "Sous-système d'alignement",
-				deactivate: "Désactiver",
-				activate: "Activer",
-				math_algorithm: "Algorithme mathématique",
-				training: "CRÉER LE MODÈLE PAR ENTRAÎNEMENT",
+				sky_model: "Modèle céleste",
 				training_description: "Pointe automatiquement vers des positions célestes, effectue un plate solving et synchronise pour créer un modèle de pointage.",
 				algorithms: {
 					nearest: "Utilise le point de synchronisation le plus proche. Modèle le plus simple, idéal pour les corrections à point unique.",

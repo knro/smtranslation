@@ -1156,13 +1156,10 @@
 				manual_rotator: "将导星相机连接到手动旋转器"
 			},
 			mount_model: {
-				title: "赤道仪模型",
+				title: "赤道仪模型", training: "通过训练构建模型",
 				alignment_system: "对准子系统",
 				sync_points: "同步点",
-				deactivate: "停用",
-				activate: "启用",
-				math_algorithm: "数学算法",
-				training: "通过训练构建模型",
+				sky_model: "天空模型",
 				training_description: "自动转向天空位置，进行解析并同步，以构建指向模型。",
 				algorithms: {
 					nearest: "使用最近的同步点。最简单的模型，最适合单点校正。",

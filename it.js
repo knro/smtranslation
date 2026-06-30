@@ -1223,14 +1223,11 @@ const it = {
 				manual_rotator: "Collegare la telecamera di guida al rotatore manuale"
 			},
 			mount_model: {
-				title: "MODELLO MONTATURA",
+				title: "Modello montatura", training: "Crea modello tramite addestramento",
 				sync_points: "Punti di sincronizzazione",
 				active: "Attivo",
 				alignment_system: "Sottosistema di allineamento",
-				deactivate: "Disattiva",
-				activate: "Attiva",
-				math_algorithm: "Algoritmo matematico",
-				training: "CREA MODELLO TRAMITE ADDESTRAMENTO",
+				sky_model: "Modello del cielo",
 				training_description: "Punta automaticamente verso posizioni del cielo, esegue il plate solving e sincronizza per creare un modello di puntamento.",
 				algorithms: {
 					nearest: "Utilizza il punto di sincronizzazione più vicino. Modello più semplice, ideale per correzioni a punto singolo.",

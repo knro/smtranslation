@@ -1206,13 +1206,10 @@ const de = {
 				manual_rotator: "Guidingkamera an manuellem Rotator koppeln"
 			},
 			mount_model: {
-				title: "MONTIERUNGSMODELL",
+				title: "Montierungsmodell", training: "Modell durch Training erstellen",
 				sync_points: "Sync-Punkte",
 				alignment_system: "Ausrichtungssubsystem",
-				deactivate: "Deaktivieren",
-				activate: "Aktivieren",
-				math_algorithm: "Mathematischer Algorithmus",
-				training: "MODELL DURCH TRAINING ERSTELLEN",
+				sky_model: "Himmelsmodell",
 				training_description: "Schwenkt automatisch zu Himmelspositionen, führt Plate-Solving durch und synchronisiert, um ein Pointing-Modell zu erstellen.",
 				algorithms: {
 					nearest: "Verwendet den nächstgelegenen Sync-Punkt. Einfachstes Modell, am besten für Einzelpunktkorrekturen geeignet.",

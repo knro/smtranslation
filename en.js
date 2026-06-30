@@ -1218,13 +1218,11 @@ const en = {
 			},
 
 			mount_model: {
-				title: "MOUNT MODEL",
+				title: "Mount Model",
 				sync_points: "Sync Points",
 				alignment_system: "Alignment subsystem",
-				deactivate: "Deactivate",
-				activate: "Activate",
-				math_algorithm: "Math algorithm",
-				training: "BUILD MODEL BY TRAINING",
+				sky_model: "Sky Model",
+				training: "Build Model by Training",
 				training_description: "Automatically slews to sky positions, plate solves, and syncs to build a pointing model.",
 
 				algorithms: {

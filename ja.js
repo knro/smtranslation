@@ -1196,14 +1196,11 @@ const ja = {
 				manual_rotator: "ガイドカメラを手動ローテーターに連結する"
 			},
 			mount_model: {
-				title: "マウントモデル",
+				title: "マウントモデル", training: "トレーニングによるモデル構築",
 				sync_points: "同期ポイント",
 				active: "有効",
 				alignment_system: "アライメントサブシステム",
-				deactivate: "無効にする",
-				activate: "有効にする",
-				math_algorithm: "数学アルゴリズム",
-				training: "トレーニングによるモデル構築",
+				sky_model: "スカイモデル",
 				training_description: "空の位置へ自動的にスルーし、プレートソルブと同期を行ってポインティングモデルを構築します。",
 				algorithms: {
 					nearest: "最も近い同期ポイントを使用します。最もシンプルなモデルで、単一ポイント補正に最適です。",
