@@ -1197,6 +1197,7 @@ const ja = {
 			},
 			mount_model: {
 				title: "マウントモデル",
+				sync_points: "同期ポイント",
 				active: "有効",
 				alignment_system: "アライメントサブシステム",
 				deactivate: "無効にする",

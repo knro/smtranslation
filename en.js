@@ -1219,6 +1219,7 @@ const en = {
 
 			mount_model: {
 				title: "MOUNT MODEL",
+				sync_points: "Sync Points",
 				alignment_system: "Alignment subsystem",
 				deactivate: "Deactivate",
 				activate: "Activate",

@@ -1224,6 +1224,7 @@ const es = {
 			},
 			mount_model: {
 				title: "MODELO DE MONTURA",
+				sync_points: "Puntos de sincronización",
 				alignment_system: "Subsistema de alineación",
 				deactivate: "Desactivar",
 				activate: "Activar",

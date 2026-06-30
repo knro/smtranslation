@@ -1212,6 +1212,7 @@ const fr = {
 			},
 			mount_model: {
 				title: "MODÈLE DE MONTURE",
+				sync_points: "Points de synchronisation",
 				alignment_system: "Sous-système d'alignement",
 				deactivate: "Désactiver",
 				activate: "Activer",

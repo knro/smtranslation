@@ -1207,6 +1207,7 @@ const de = {
 			},
 			mount_model: {
 				title: "MONTIERUNGSMODELL",
+				sync_points: "Sync-Punkte",
 				alignment_system: "Ausrichtungssubsystem",
 				deactivate: "Deaktivieren",
 				activate: "Aktivieren",

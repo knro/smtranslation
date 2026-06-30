@@ -1158,6 +1158,7 @@
 			mount_model: {
 				title: "赤道仪模型",
 				alignment_system: "对准子系统",
+				sync_points: "同步点",
 				deactivate: "停用",
 				activate: "启用",
 				math_algorithm: "数学算法",
