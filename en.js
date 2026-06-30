@@ -1216,6 +1216,23 @@ const en = {
 				pierside: "Mount reverses DEC pulses after chaning pierside",
 				manual_rotator: "Couple guide camera on Manual Rotator"
 			},
+
+			mount_model: {
+				title: "MOUNT MODEL",
+				alignment_system: "Alignment subsystem",
+				deactivate: "Deactivate",
+				activate: "Activate",
+				math_algorithm: "Math algorithm",
+				training: "BUILD MODEL BY TRAINING",
+				training_description: "Automatically slews to sky positions, plate solves, and syncs to build a pointing model.",
+
+				algorithms: {
+					nearest: "Uses the closest sync point. Simplest model, best for single-point corrections.",
+					svd: "SVD builds a full sky model from multiple sync points. Best accuracy with 6+ points.",
+					inbuilt: "Uses a single bright star for alignment. Quick and reliable for goto accuracy.",
+					spk: "Spherical kernel regression model. Handles uneven point distribution across the sky.",
+				}
+			}
 		},
 		collapse_camera: {
 			heading: "Capture",
@@ -1690,6 +1707,7 @@ const en = {
 			empty: "No summary data available",
 			deviation: "Deviation",
 			inactive: "Inactive",
+			active: "Active"
 		},
 	},
 	optical_train: {

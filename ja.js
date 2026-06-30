@@ -1195,6 +1195,22 @@ const ja = {
 				pierside: "マウントはピアサイド変更後にDECパルスを反転する",
 				manual_rotator: "ガイドカメラを手動ローテーターに連結する"
 			},
+			mount_model: {
+				title: "マウントモデル",
+				active: "有効",
+				alignment_system: "アライメントサブシステム",
+				deactivate: "無効にする",
+				activate: "有効にする",
+				math_algorithm: "数学アルゴリズム",
+				training: "トレーニングによるモデル構築",
+				training_description: "空の位置へ自動的にスルーし、プレートソルブと同期を行ってポインティングモデルを構築します。",
+				algorithms: {
+					nearest: "最も近い同期ポイントを使用します。最もシンプルなモデルで、単一ポイント補正に最適です。",
+					svd: "SVD は複数の同期ポイントから完全な天空モデルを構築します。6ポイント以上で最高の精度が得られます。",
+					inbuilt: "位置合わせに明るい星を1つ使用します。GoTo精度のために迅速かつ確実です。",
+					spk: "球面カーネル回帰モデル。空全体での不均一なポイント分布に対応します。"
+				}
+			}
 		},
 		collapse_camera: {
 			heading: "キャプチャ",
@@ -1676,6 +1692,7 @@ const ja = {
 			empty: "要約データがありません",
 			deviation: "偏差",
 			inactive: "非アクティブ",
+			active: "Actif"
 		},
 	},
 	optical_train: {

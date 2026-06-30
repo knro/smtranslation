@@ -1210,6 +1210,21 @@ const fr = {
 				pierside: "La monture inverse les impulsions DEC après le changement de côté du pilier",
 				manual_rotator: "Coupler la caméra de guidage au rotateur manuel"
 			},
+			mount_model: {
+				title: "MODÈLE DE MONTURE",
+				alignment_system: "Sous-système d'alignement",
+				deactivate: "Désactiver",
+				activate: "Activer",
+				math_algorithm: "Algorithme mathématique",
+				training: "CRÉER LE MODÈLE PAR ENTRAÎNEMENT",
+				training_description: "Pointe automatiquement vers des positions célestes, effectue un plate solving et synchronise pour créer un modèle de pointage.",
+				algorithms: {
+					nearest: "Utilise le point de synchronisation le plus proche. Modèle le plus simple, idéal pour les corrections à point unique.",
+					svd: "SVD construit un modèle céleste complet à partir de plusieurs points de synchronisation. Meilleure précision avec 6 points ou plus.",
+					inbuilt: "Utilise une seule étoile brillante pour l'alignement. Rapide et fiable pour la précision du goto.",
+					spk: "Modèle de régression à noyau sphérique. Gère une distribution inégale des points dans le ciel."
+				}
+			}
 		},
 		collapse_camera: {
 			heading: "Capturer",
@@ -1704,6 +1719,7 @@ const fr = {
 			empty: "Aucune donnée récapitulative disponible",
 			deviation: "Déviation",
 			inactive: "Inactif",
+			active: "Actif"
 		},
 	},
 	optical_train: {

@@ -1155,6 +1155,21 @@
 				pierside: "赤道仪在切换镜筒侧后反转赤纬脉冲",
 				manual_rotator: "将导星相机连接到手动旋转器"
 			},
+			mount_model: {
+				title: "赤道仪模型",
+				alignment_system: "对准子系统",
+				deactivate: "停用",
+				activate: "启用",
+				math_algorithm: "数学算法",
+				training: "通过训练构建模型",
+				training_description: "自动转向天空位置，进行解析并同步，以构建指向模型。",
+				algorithms: {
+					nearest: "使用最近的同步点。最简单的模型，最适合单点校正。",
+					svd: "SVD 通过多个同步点构建完整的天空模型。6 个或以上点时精度最佳。",
+					inbuilt: "使用单颗亮星进行对准。快速可靠，确保 GOTO 精度。",
+					spk: "球面核回归模型。可处理天空中点分布不均的情况。"
+				}
+			}
 		},
 
 		collapse_camera: {
@@ -1623,6 +1638,7 @@
 			empty: "没有可用的摘要数据",
 			deviation: "偏差",
 			inactive: "非活动的",
+			active: "活动",
 		},
 	},
 	optical_train: {
