@@ -1222,6 +1222,20 @@ const it = {
 				pierside: "Il supporto inverte gli impulsi DEC dopo aver cambiato il lato del pilastro",
 				manual_rotator: "Collegare la telecamera di guida al rotatore manuale"
 			},
+			mount_model: {
+				title: "Modello montatura", training: "Crea modello tramite addestramento",
+				sync_points: "Punti di sincronizzazione",
+				active: "Attivo",
+				alignment_system: "Sottosistema di allineamento",
+				sky_model: "Modello del cielo",
+				training_description: "Punta automaticamente verso posizioni del cielo, esegue il plate solving e sincronizza per creare un modello di puntamento.",
+				algorithms: {
+					nearest: "Utilizza il punto di sincronizzazione più vicino. Modello più semplice, ideale per correzioni a punto singolo.",
+					svd: "SVD crea un modello completo del cielo da più punti di sincronizzazione. Massima precisione con 6 o più punti.",
+					inbuilt: "Utilizza una singola stella luminosa per l'allineamento. Rapido e affidabile per la precisione del goto.",
+					spk: "Modello di regressione a kernel sferico. Gestisce una distribuzione non uniforme dei punti nel cielo."
+				}
+			}
 		},
 		collapse_camera: {
 			heading: "Cattura",
@@ -1711,6 +1725,7 @@ const it = {
 			empty: "Nessun dato di riepilogo disponibile",
 			deviation: "Deviazione",
 			inactive: "Inattivo",
+			active: "Actif"
 		},
 	},
 	optical_train: {

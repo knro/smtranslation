@@ -1205,6 +1205,19 @@ const de = {
 				pierside: "Montierung kehrt DEC-Pulse nach dem Wechsel der Pierseite um",
 				manual_rotator: "Guidingkamera an manuellem Rotator koppeln"
 			},
+			mount_model: {
+				title: "Montierungsmodell", training: "Modell durch Training erstellen",
+				sync_points: "Sync-Punkte",
+				alignment_system: "Ausrichtungssubsystem",
+				sky_model: "Himmelsmodell",
+				training_description: "Schwenkt automatisch zu Himmelspositionen, führt Plate-Solving durch und synchronisiert, um ein Pointing-Modell zu erstellen.",
+				algorithms: {
+					nearest: "Verwendet den nächstgelegenen Sync-Punkt. Einfachstes Modell, am besten für Einzelpunktkorrekturen geeignet.",
+					svd: "SVD erstellt aus mehreren Sync-Punkten ein vollständiges Himmelsmodell. Beste Genauigkeit ab 6 Punkten.",
+					inbuilt: "Verwendet einen einzelnen hellen Stern zur Ausrichtung. Schnell und zuverlässig für die Goto-Genauigkeit.",
+					spk: "Sphärisches Kernel-Regressionsmodell. Bewältigt eine ungleichmäßige Punkteverteilung am Himmel."
+				}
+			}
 		},
 		collapse_camera: {
 			heading: "Erfassung",
@@ -1687,6 +1700,7 @@ const de = {
 			empty: "Keine zusammenfassenden Daten verfügbar",
 			deviation: "Abweichung",
 			inactive: "Inaktiv",
+			active: "Aktiv",
 		},
 	},
 	optical_train: {

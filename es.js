@@ -1222,6 +1222,20 @@ const es = {
 				pierside: "La montura invierte los pulsos de DEC al cambiar el lado del pilar",
 				manual_rotator: "Acoplar la cámara de guiado al rotador manual"
 			},
+			mount_model: {
+				title: "Modelo de montura", training: "Crear modelo mediante entrenamiento",
+				sync_points: "Puntos de sincronización",
+				alignment_system: "Subsistema de alineación",
+				sky_model: "Modelo del cielo",
+				training_description: "Apunta automáticamente a posiciones del cielo, resuelve la placa y sincroniza para crear un modelo de apuntado.",
+				algorithms: {
+					nearest: "Utiliza el punto de sincronización más cercano. El modelo más simple, ideal para correcciones de un solo punto.",
+					svd: "SVD construye un modelo completo del cielo a partir de varios puntos de sincronización. Mejor precisión con 6 o más puntos.",
+					inbuilt: "Utiliza una sola estrella brillante para la alineación. Rápido y fiable para la precisión del goto.",
+					spk: "Modelo de regresión de núcleo esférico. Maneja una distribución desigual de puntos en el cielo."
+				}
+			}
+
 		},
 		collapse_camera: {
 			heading: "Capturar",
@@ -1708,6 +1722,7 @@ const es = {
 			empty: "No hay datos resumidos disponibles",
 			deviation: "Desviación",
 			inactive: "Inactiva",
+			active: "Activo",
 		},
 	},
 	optical_train: {
