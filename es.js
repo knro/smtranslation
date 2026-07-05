@@ -1308,6 +1308,7 @@ const es = {
 				save_sequence_tooltip:
 					"El valor del umbral de HFR en secuencia controla cuándo se inicia el proceso de enfoque automático. Si el valor de HFR medido supera el umbral de HFR, se inicia el proceso de enfoque automático. Si el valor del umbral de HFR es cero inicialmente (predeterminado), se utiliza el mejor valor de HFR del proceso de enfoque automático para establecer el nuevo umbral de HFR, después de aplicar el porcentaje de modificador del umbral de HFR. Este nuevo umbral de HFR se utiliza luego para las comprobaciones de enfoque en secuencia posteriores. Si esta opción está habilitada, el valor del umbral de HFR es constante y se guarda en el archivo de secuencia.",
 			},
+			filterOffset: { title: "Crear offsets de filtro", focusRuns: "Ejecuciones de enfoque" }
 		},
 		capture_presets: {
 			heading: "Ajustes Preestablecidos",

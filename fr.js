@@ -1297,6 +1297,7 @@ const fr = {
 				save_sequence_tooltip:
 					"La valeur du seuil HFR en séquence contrôle le démarrage du processus de mise au point automatique. Si la valeur HFR mesurée dépasse le seuil HFR, le processus de mise au point automatique est lancé. Si la valeur du seuil HFR est initialement nulle (par défaut), la meilleure valeur HFR du processus de mise au point automatique est utilisée pour définir le nouveau seuil HFR, après application du pourcentage de modificateur de seuil HFR. Ce nouveau seuil HFR est ensuite utilisé pour les vérifications de mise au point en séquence ultérieures. Si cette option est activée, la valeur du seuil HFR est constante et est enregistrée dans le fichier de séquence.",
 			},
+			filterOffset: { title: "Créer les décalages de filtre", focusRuns: "Passages de mise au point" }
 		},
 		capture_presets: {
 			heading: "Paramètres prédéfinis",

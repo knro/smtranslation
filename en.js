@@ -1300,6 +1300,12 @@ const en = {
 				save_sequence_tooltip:
 					"In-sequence HFR threshold value controls when the autofocus process is started. If the measured HFR value exceeds the HFR threshold, autofocus process is initiated. If the HFR threshold value is zero initially (default), then the autofocus process best HFR value is used to set the new HFR threshold, after applying the HFR threshold modifier percentage. This new HFR threshold is then used for subsequent In-Sequence focus checks. If this option is enabled, the HFR threshold value is constant and gets saved to the sequence file.",
 			},
+
+			filterOffset: {
+				title: "Build Filter Offsets",
+				focusRuns: "Focus Runs"
+
+			}
 		},
 		capture_presets: {
 			heading: "Preset Settings",
