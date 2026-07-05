@@ -1234,6 +1234,7 @@
 				save_sequence_tooltip:
 					"序列内 HFR 阈值决定何时启动自动调焦。当测得 HFR 超过阈值时，自动调焦流程启动。若 HFR 阈值初始为零（默认值），则在应用 HFR 阈值修正百分比后，会使用自动调焦得到的最佳 HFR 作为新的阈值；该阈值随后用于后续序列内调焦检查。启用此选项后，HFR 阈值会保持不变并保存到序列文件中。",
 			},
+			filterOffset: { title: "构建滤镜偏移量", focusRuns: "对焦运行" }
 		},
 		capture_presets: {
 			heading: "预设设置",
