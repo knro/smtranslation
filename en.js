@@ -1303,8 +1303,8 @@ const en = {
 
 			filterOffset: {
 				title: "Build Filter Offsets",
-				focusRuns: "Focus Runs"
-
+				focusRuns: "Focus Runs",
+				reference: "Reference"
 			}
 		},
 		capture_presets: {

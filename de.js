@@ -1286,7 +1286,7 @@ const de = {
 				save_sequence_tooltip:
 					"Der In-Sequence-HFR-Schwellenwert steuert, wann der Autofokusprozess gestartet wird. Überschreitet der gemessene HFR-Wert den HFR-Schwellenwert, wird der Autofokusprozess eingeleitet. Ist der HFR-Schwellenwert initial Null (Standard), wird der beste HFR-Wert des Autofokusprozesses verwendet, um den neuen HFR-Schwellenwert festzulegen, nachdem der HFR-Schwellenwert-Modifikatorprozentsatz angewendet wurde. Dieser neue HFR-Schwellenwert wird dann für nachfolgende In-Sequence-Fokusprüfungen verwendet. Ist diese Option aktiviert, ist der HFR-Schwellenwert konstant und wird in der Sequenzdatei gespeichert.",
 			},
-			filterOffset: { title: "Filteroffsets erstellen", focusRuns: "Fokusläufe" }
+			filterOffset: { title: "Filteroffsets erstellen", focusRuns: "Fokusläufe", reference: "Referenz" }
 		},
 		capture_presets: {
 			heading: "Voreingestellte Einstellungen",
