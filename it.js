@@ -1308,7 +1308,7 @@ const it = {
 				save_sequence_tooltip:
 					"Il valore di soglia HFR in sequenza controlla quando viene avviato il processo di autofocus. Se il valore HFR misurato supera la soglia HFR, viene avviato il processo di autofocus. Se il valore di soglia HFR è inizialmente zero (predefinito), viene utilizzato il miglior valore HFR del processo di autofocus per impostare la nuova soglia HFR, dopo aver applicato la percentuale di modificatore della soglia HFR. Questa nuova soglia HFR viene quindi utilizzata per i successivi controlli di messa a fuoco in sequenza. Se questa opzione è abilitata, il valore di soglia HFR è costante e viene salvato nel file di sequenza.",
 			},
-			filterOffset: { title: "Crea offset filtri", focusRuns: "Esecuzioni di messa a fuoco" }
+			filterOffset: { title: "Crea offset filtri", focusRuns: "Esecuzioni di messa a fuoco", reference: "Riferimento" }
 		},
 		capture_presets: {
 			heading: "Impostazioni predefinite",
