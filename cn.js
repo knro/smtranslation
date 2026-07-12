@@ -1817,7 +1817,9 @@
 		notifications: "通知",
 		sounds: "声音",
 		cloud_storage: "云存储",
+		preferences: "偏好设置",
 		floating_stella: "Stella 助手",
+
 		limit_cloud_storage:
 			"存储空间有限。升级到Pro/Ultimate获得高达10GB/1000GB的存储空间",
 		auto_sync: "自动同步",

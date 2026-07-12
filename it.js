@@ -1948,7 +1948,9 @@ const it = {
 		notifications: "Notifiche",
 		sounds: "Suoni",
 		cloud_storage: "Archiviazione cloud",
+		preferences: "Preferenze",
 		floating_stella: "Assistente Stella",
+
 		limit_cloud_storage:
 			"Archiviazione limitata. Aggiorna a Pro/Ultimate per un massimo di 10GB/1000GB di archiviazione",
 		auto_sync: "Sincronizzazione automatica",

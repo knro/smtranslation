@@ -1943,7 +1943,9 @@ const es = {
 		notifications: "Notificaciones",
 		sounds: "Sonidos",
 		cloud_storage: "Almacenamiento en la Nube",
+		preferences: "Preferencias",
 		floating_stella: "Asistente Stella",
+
 		limit_cloud_storage:
 			"Limited Storage. Upgrade to Pro/Ultimate for up to 10GB/1000GB storage ",
 		auto_sync: "Sincronizacion Automatica",

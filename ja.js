@@ -1882,7 +1882,9 @@ const ja = {
 		notifications: "通知",
 		sounds: "サウンド",
 		cloud_storage: "クラウド ストレージ",
+		preferences: "設定",
 		floating_stella: "ステラ アシスタント",
+
 		limit_cloud_storage:
 			"ストレージ容量に制限があります。Pro/Ultimateにアップグレードすると、最大10GB/1000GBのストレージを利用できます",
 		auto_sync: "自動同期",

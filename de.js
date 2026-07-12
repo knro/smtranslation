@@ -1898,7 +1898,9 @@ const de = {
 		notifications: "Benachrichtigungen",
 		sounds: "Geräusche",
 		cloud_storage: "Cloud-Speicher",
+		preferences: "Einstellungen",
 		floating_stella: "Stella Assistent",
+
 		limit_cloud_storage:
 			"Nicht genug Speicherplatz. Bitte auf einen Pro/Ultimate Vertrag (10GB/1000GB) aktualisieren.",
 		auto_sync: "Automatische Synchronisation",

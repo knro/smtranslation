@@ -1913,7 +1913,9 @@ const fr = {
 		notifications: "Notifications",
 		sounds: "Activer le Son",
 		cloud_storage: "Stockage en ligne",
+		preferences: "Préférences",
 		floating_stella: "Assistant Stella",
+
 		limit_cloud_storage:
 			"Stockage limité. Passez à Pro/Ultimate pour jusqu'à 10 Go/1000 Go de stockage ",
 		auto_sync: "Synchronisation automatique",
