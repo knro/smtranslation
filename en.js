@@ -1224,6 +1224,8 @@ const en = {
 				sky_model: "Sky Model",
 				training: "Build Model by Training",
 				training_description: "Automatically slews to sky positions, plate solves, and syncs to build a pointing model.",
+				start_training: "Start training",
+				training_progress: "Training progress",
 
 				algorithms: {
 					nearest: "Uses the closest sync point. Simplest model, best for single-point corrections.",

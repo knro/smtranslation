@@ -1161,6 +1161,7 @@
 				sync_points: "同步点",
 				sky_model: "天空模型",
 				training_description: "自动转向天空位置，进行解析并同步，以构建指向模型。",
+				start_training: "开始训练", training_progress: "训练进度",
 				algorithms: {
 					nearest: "使用最近的同步点。最简单的模型，最适合单点校正。",
 					svd: "SVD 通过多个同步点构建完整的天空模型。6 个或以上点时精度最佳。",

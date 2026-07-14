@@ -1229,6 +1229,7 @@ const it = {
 				alignment_system: "Sottosistema di allineamento",
 				sky_model: "Modello del cielo",
 				training_description: "Punta automaticamente verso posizioni del cielo, esegue il plate solving e sincronizza per creare un modello di puntamento.",
+				start_training: "Avvia addestramento", training_progress: "Progresso dell'addestramento",
 				algorithms: {
 					nearest: "Utilizza il punto di sincronizzazione più vicino. Modello più semplice, ideale per correzioni a punto singolo.",
 					svd: "SVD crea un modello completo del cielo da più punti di sincronizzazione. Massima precisione con 6 o più punti.",

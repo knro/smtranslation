@@ -1211,6 +1211,7 @@ const de = {
 				alignment_system: "Ausrichtungssubsystem",
 				sky_model: "Himmelsmodell",
 				training_description: "Schwenkt automatisch zu Himmelspositionen, führt Plate-Solving durch und synchronisiert, um ein Pointing-Modell zu erstellen.",
+				start_training: "Training starten", training_progress: "Trainingsfortschritt",
 				algorithms: {
 					nearest: "Verwendet den nächstgelegenen Sync-Punkt. Einfachstes Modell, am besten für Einzelpunktkorrekturen geeignet.",
 					svd: "SVD erstellt aus mehreren Sync-Punkten ein vollständiges Himmelsmodell. Beste Genauigkeit ab 6 Punkten.",
