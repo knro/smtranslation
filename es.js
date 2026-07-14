@@ -1772,6 +1772,7 @@ const es = {
 		updates: "Actualizaciones",
 
 		hotspotMode: "Modo Punto de Acceso",
+		stationMode: "Modo Estación",
 		wifiNetwork: "Red Wifi",
 		wifiCountry: "WiFi Country",
 

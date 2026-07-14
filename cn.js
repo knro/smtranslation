@@ -1683,6 +1683,7 @@
 		release_type: "版本类型",
 		updates: "更新选项",
 		hotspotMode: "热点模式",
+		stationMode: "站点模式",
 		wifiNetwork: "Wifi网络",
 		wifiCountry: "WiFi国家类型",
 

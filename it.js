@@ -1776,6 +1776,7 @@ const it = {
 		updates: "Aggiornamenti",
 
 		hotspotMode: "Modalità Hotspot",
+		stationMode: "Modalità Stazione",
 		wifiNetwork: "Rete Wifi",
 		wifiCountry: "Paese WiFi",
 

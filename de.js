@@ -1744,6 +1744,7 @@ const de = {
 		release_type: "Release-Typ",
 		updates: "Aktualisierung",
 		hotspotMode: "Hotspot-Modus",
+		stationMode: "Station-Modus",
 		wifiNetwork: "WiFi-Netzwerk",
 		wifiCountry: "WiFi Land",
 

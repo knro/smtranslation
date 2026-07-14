@@ -1736,6 +1736,7 @@ const ja = {
 		release_type: "リリース タイプ",
 		updates: "アップデート",
 		hotspotMode: "ホットスポット モード",
+		stationMode: "ステーションモード",
 		wifiNetwork: "Wifi ネットワーク",
 		wifiCountry: "WiFi 国",
 

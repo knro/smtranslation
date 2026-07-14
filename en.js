@@ -1762,6 +1762,7 @@ const en = {
 		updates: "Updates",
 
 		hotspotMode: "Hotspot Mode",
+		stationMode: "Station Mode",
 		wifiNetwork: "Wifi Network",
 		wifiCountry: "WiFi Country",
 

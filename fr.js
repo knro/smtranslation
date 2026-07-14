@@ -1764,6 +1764,7 @@ const fr = {
 		release_type: "Type de version",
 		updates: "Mises à jour",
 		hotspotMode: "Mode point d'accès",
+		stationMode: "Mode Station",
 		wifiNetwork: "Réseau Wifi",
 		wifiCountry: "Pays WiFi",
 
