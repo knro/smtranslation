@@ -1216,6 +1216,7 @@ const fr = {
 				alignment_system: "Sous-système d'alignement",
 				sky_model: "Modèle céleste",
 				training_description: "Pointe automatiquement vers des positions célestes, effectue un plate solving et synchronise pour créer un modèle de pointage.",
+				start_training: "Démarrer l'entraînement", training_progress: "Progression de l'entraînement",
 				algorithms: {
 					nearest: "Utilise le point de synchronisation le plus proche. Modèle le plus simple, idéal pour les corrections à point unique.",
 					svd: "SVD construit un modèle céleste complet à partir de plusieurs points de synchronisation. Meilleure précision avec 6 points ou plus.",

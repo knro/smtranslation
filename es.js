@@ -1228,6 +1228,7 @@ const es = {
 				alignment_system: "Subsistema de alineación",
 				sky_model: "Modelo del cielo",
 				training_description: "Apunta automáticamente a posiciones del cielo, resuelve la placa y sincroniza para crear un modelo de apuntado.",
+				start_training: "Iniciar entrenamiento", training_progress: "Progreso del entrenamiento",
 				algorithms: {
 					nearest: "Utiliza el punto de sincronización más cercano. El modelo más simple, ideal para correcciones de un solo punto.",
 					svd: "SVD construye un modelo completo del cielo a partir de varios puntos de sincronización. Mejor precisión con 6 o más puntos.",

@@ -1202,6 +1202,7 @@ const ja = {
 				alignment_system: "アライメントサブシステム",
 				sky_model: "スカイモデル",
 				training_description: "空の位置へ自動的にスルーし、プレートソルブと同期を行ってポインティングモデルを構築します。",
+				start_training: "トレーニングを開始", training_progress: "トレーニングの進捗",
 				algorithms: {
 					nearest: "最も近い同期ポイントを使用します。最もシンプルなモデルで、単一ポイント補正に最適です。",
 					svd: "SVD は複数の同期ポイントから完全な天空モデルを構築します。6ポイント以上で最高の精度が得られます。",
