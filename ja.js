@@ -2023,6 +2023,7 @@ const ja = {
 		cloud_backup: "Cloud backup",
 		license: "ライセンス",
 		management: "管理",
+		licenseManagement: "ライセンス管理",
 		machineID: "マシンID",
 		processing: "処理中",
 		assignToDevice: "割り当て",

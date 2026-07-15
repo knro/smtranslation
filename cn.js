@@ -1944,6 +1944,7 @@
 		cloud_backup: "云备份",
 		license: "许可证",
 		management: "管理",
+		licenseManagement: "许可证管理",
 		machineID: "机器ID",
 		processing: "处理中",
 		assignToDevice: "分配",

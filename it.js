@@ -2089,6 +2089,7 @@ const it = {
 		cloud_backup: "Backup cloud",
 		license: "Licenza",
 		management: "Gestione",
+		licenseManagement: "Gestione Licenze",
 		machineID: "ID macchina",
 		processing: "Elaborazione",
 		assignToDevice: "Assegna",

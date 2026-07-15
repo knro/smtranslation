@@ -2054,6 +2054,7 @@ const fr = {
 		cloud_backup: "Cloud backup",
 		license: "Licence",
 		management: "Gestion",
+		licenseManagement: "Gestion de Licence",
 		machineID: "ID Machine",
 		processing: "Traitement",
 		assignToDevice: "Assigner",

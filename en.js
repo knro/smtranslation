@@ -2070,6 +2070,7 @@ const en = {
 		cloud_backup: "Cloud backup",
 		license: "License",
 		management: "Management",
+		licenseManagement: "License Management",
 		machineID: "Machine ID",
 		processing: "Processing",
 		assignToDevice: "Assign",
