@@ -1495,7 +1495,24 @@ const en = {
 			stream: "Stream",
 			dither_settings: "Dither Settings",
 			advanced_settings: "Advanced Settings",
-			calibration_settings: "Calibration Settings"
+			calibration_settings: "Calibration Settings",
+
+			ai:
+			{
+				worm: "Worm Gear",
+				harmonic: "Harmonic Drive",
+				drive: "Direct Drive",
+				mount_type: "Mount Type",
+
+				status: "AI Guide Status",
+				phases: "Phases",
+
+				weights_file: "Weights File",
+				prediction_gain: "AI Prediction Gain",
+				dark_guiding: "Dark Guiding Interval",
+				scale_down: "Scale down Proportional gain during AI creation",
+				enable_dark_guiding: "Enable Predictive Dark Guiding"
+			}
 		},
 		collapse_observatory: {
 			heading: "Observatory",

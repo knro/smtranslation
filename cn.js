@@ -1419,7 +1419,20 @@
 			stream: "流式传输",
 			dither_settings: "抖动设置",
 			advanced_settings: "高级设置",
-			calibration_settings: "校准设置"
+			calibration_settings: "校准设置",
+			ai: {
+				worm: "蜗轮蜗杆",
+				harmonic: "谐波驱动",
+				drive: "直接驱动",
+				mount_type: "赤道仪类型",
+				status: "AI 导星状态",
+				phases: "阶段",
+				weights_file: "权重文件",
+				prediction_gain: "AI 预测增益",
+				dark_guiding: "暗导间隔",
+				scale_down: "在 AI 创建期间按比例降低增益",
+				enable_dark_guiding: "启用预测暗导"
+			}
 		},
 		collapse_observatory: {
 			heading: "天文台",
