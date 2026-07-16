@@ -1510,7 +1510,8 @@ const it = {
 				prediction_gain: "Guadagno di previsione AI",
 				dark_guiding: "Intervallo di guida oscura",
 				scale_down: "Riduci il guadagno proporzionale durante la creazione AI",
-				enable_dark_guiding: "Abilita la guida oscura predittiva"
+				enable_dark_guiding: "Abilita la guida oscura predittiva",
+				assistant: "Assistente di guida AI"
 			}
 		},
 		collapse_observatory: {

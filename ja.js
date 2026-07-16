@@ -1480,7 +1480,8 @@ const ja = {
 				prediction_gain: "AI予測ゲイン",
 				dark_guiding: "ダークガイド間隔",
 				scale_down: "AI作成中に比例ゲインをスケールダウンする",
-				enable_dark_guiding: "予測ダークガイドを有効にする"
+				enable_dark_guiding: "予測ダークガイドを有効にする",
+				assistant: "AIガイディングアシスタント"
 			}
 		},
 		collapse_observatory: {

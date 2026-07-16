@@ -1487,7 +1487,8 @@ const de = {
 				prediction_gain: "KI-Vorhersageverstärkung",
 				dark_guiding: "Dunkelführungsintervall",
 				scale_down: "Proportionalverstärkung während der KI-Erstellung herunterskalieren",
-				enable_dark_guiding: "Prädiktive Dunkelführung aktivieren"
+				enable_dark_guiding: "Prädiktive Dunkelführung aktivieren",
+				assistant: "KI-Führungsassistent"
 			}
 		},
 		collapse_observatory: {

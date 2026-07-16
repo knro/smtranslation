@@ -1499,7 +1499,8 @@ const fr = {
 				prediction_gain: "Gain de prédiction AI",
 				dark_guiding: "Intervalle de guidage sombre",
 				scale_down: "Réduire le gain proportionnel pendant la création de l'AI",
-				enable_dark_guiding: "Activer le guidage sombre prédictif"
+				enable_dark_guiding: "Activer le guidage sombre prédictif",
+				assistant: "Assistant de guidage AI"
 			}
 		},
 		collapse_observatory: {

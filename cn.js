@@ -1431,7 +1431,8 @@
 				prediction_gain: "AI 预测增益",
 				dark_guiding: "暗导间隔",
 				scale_down: "在 AI 创建期间按比例降低增益",
-				enable_dark_guiding: "启用预测暗导"
+				enable_dark_guiding: "启用预测暗导",
+				assistant: "AI 导星助手"
 			}
 		},
 		collapse_observatory: {
