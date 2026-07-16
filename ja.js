@@ -1467,7 +1467,22 @@ const ja = {
 			stream: "ストリーミング",
 			dither_settings: "ディザリング設定",
 			advanced_settings: "詳細設定",
-			calibration_settings: "キャリブレーション設定"
+			calibration_settings: "キャリブレーション設定",
+
+			ai: {
+				worm: "ウォームギア",
+				harmonic: "ハーモニックドライブ",
+				drive: "ダイレクトドライブ",
+				mount_type: "マウントタイプ",
+				status: "AIガイドステータス",
+				phases: "フェーズ",
+				weights_file: "重みファイル",
+				prediction_gain: "AI予測ゲイン",
+				dark_guiding: "ダークガイド間隔",
+				scale_down: "AI作成中に比例ゲインをスケールダウンする",
+				enable_dark_guiding: "予測ダークガイドを有効にする",
+				assistant: "AIガイディングアシスタント"
+			}
 		},
 		collapse_observatory: {
 			heading: "天文台",

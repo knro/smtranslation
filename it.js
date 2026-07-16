@@ -1497,7 +1497,22 @@ const it = {
 			stream: "Streaming",
 			dither_settings: "Impostazioni di dithering",
 			advanced_settings: "Impostazioni avanzate",
-			calibration_settings: "Impostazioni di calibrazione"
+			calibration_settings: "Impostazioni di calibrazione",
+
+			ai: {
+				worm: "Vite senza fine",
+				harmonic: "Harmonic Drive",
+				drive: "Azionamento diretto",
+				mount_type: "Tipo di montatura",
+				status: "Stato guida AI",
+				phases: "Fasi",
+				weights_file: "File dei pesi",
+				prediction_gain: "Guadagno di previsione AI",
+				dark_guiding: "Intervallo di guida oscura",
+				scale_down: "Riduci il guadagno proporzionale durante la creazione AI",
+				enable_dark_guiding: "Abilita la guida oscura predittiva",
+				assistant: "Assistente di guida AI"
+			}
 		},
 		collapse_observatory: {
 			heading: "Osservatorio",
