@@ -1433,6 +1433,9 @@
 				scale_down: "在 AI 创建期间按比例降低增益",
 				enable_dark_guiding: "启用预测暗导",
 				assistant: "AI 导星助手",
+				info_note_title: "AI Guiding Assistant",
+				info_note_body: "The assistant characterizes your mount's tracking errors and trains an AI model to improve guiding accuracy. Select your mount type and press Start.",
+				info_note_warning: "This is an experimental feature.",
 				training: "训练中...",
 				training_complete: "训练完成 - AI 导星就绪"
 			}

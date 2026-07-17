@@ -1512,6 +1512,9 @@ const it = {
 				scale_down: "Riduci il guadagno proporzionale durante la creazione AI",
 				enable_dark_guiding: "Abilita la guida oscura predittiva",
 				assistant: "Assistente di guida AI",
+				info_note_title: "AI Guiding Assistant",
+				info_note_body: "The assistant characterizes your mount's tracking errors and trains an AI model to improve guiding accuracy. Select your mount type and press Start.",
+				info_note_warning: "This is an experimental feature.",
 				training: "Training...",
 				training_complete: "Training Complete - AI Guider Ready"
 			}
