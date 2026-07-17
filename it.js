@@ -1511,7 +1511,9 @@ const it = {
 				dark_guiding: "Intervallo di guida oscura",
 				scale_down: "Riduci il guadagno proporzionale durante la creazione AI",
 				enable_dark_guiding: "Abilita la guida oscura predittiva",
-				assistant: "Assistente di guida AI"
+				assistant: "Assistente di guida AI",
+				training: "Training...",
+				training_complete: "Training Complete - AI Guider Ready"
 			}
 		},
 		collapse_observatory: {

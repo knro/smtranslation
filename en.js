@@ -1512,7 +1512,9 @@ const en = {
 				dark_guiding: "Dark Guiding Interval",
 				scale_down: "Scale down Proportional gain during AI creation",
 				enable_dark_guiding: "Enable Predictive Dark Guiding",
-				assistant: "AI Guiding Assistant"
+				assistant: "AI Guiding Assistant",
+				training: "Training...",
+				training_complete: "Training Complete - AI Guider Ready"
 			}
 		},
 		collapse_observatory: {

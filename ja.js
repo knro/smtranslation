@@ -1481,7 +1481,9 @@ const ja = {
 				dark_guiding: "ダークガイド間隔",
 				scale_down: "AI作成中に比例ゲインをスケールダウンする",
 				enable_dark_guiding: "予測ダークガイドを有効にする",
-				assistant: "AIガイディングアシスタント"
+				assistant: "AIガイディングアシスタント",
+				training: "Training...",
+				training_complete: "Training Complete - AI Guider Ready"
 			}
 		},
 		collapse_observatory: {

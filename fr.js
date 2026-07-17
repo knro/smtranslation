@@ -1500,7 +1500,9 @@ const fr = {
 				dark_guiding: "Intervalle de guidage sombre",
 				scale_down: "Réduire le gain proportionnel pendant la création de l'AI",
 				enable_dark_guiding: "Activer le guidage sombre prédictif",
-				assistant: "Assistant de guidage AI"
+				assistant: "Assistant de guidage AI",
+				training: "Training...",
+				training_complete: "Training Complete - AI Guider Ready"
 			}
 		},
 		collapse_observatory: {

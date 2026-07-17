@@ -1432,7 +1432,9 @@
 				dark_guiding: "暗导间隔",
 				scale_down: "在 AI 创建期间按比例降低增益",
 				enable_dark_guiding: "启用预测暗导",
-				assistant: "AI 导星助手"
+				assistant: "AI 导星助手",
+				training: "训练中...",
+				training_complete: "训练完成 - AI 导星就绪"
 			}
 		},
 		collapse_observatory: {
