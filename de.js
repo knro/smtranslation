@@ -2094,6 +2094,8 @@ const de = {
 		voltage: "Spannung (V)",
 		current: "Strom (A)",
 		power: "Energie",
+		gps_antenna: "GPS-Antenne",
+		active_gps_antenna: "Aktive GPS-Antenne",
 		active_antenna: "Aktive Antenne",
 		passive_antenna: "Passive Antenne",
 		power_sleep: "Stromversorgung im Schlafmodus. Tippen zum Aufwecken.",
@@ -2101,6 +2103,7 @@ const de = {
 		power_off_tooltip:
 			"Alle Ports ausschalten, wenn das Geräteprofil getrennt wird.",
 		leds: "LEDs",
+		max_voltage: "Maximale Spannung",
 		auto_dew: "Auto Tau",
 		auto_dew1_threshold: "Tau Schwelle 1",
 		auto_dew2_threshold: "Tau Schwelle 2",

@@ -2082,6 +2082,8 @@ const ja = {
 		voltage: "電圧",
 		current: "電流",
 		power: "電力",
+		gps_antenna: "GPSアンテナ",
+		active_gps_antenna: "アクティブGPSアンテナ",
 		active_antenna: "アクティブアンテナ",
 		passive_antenna: "パッシブアンテナ",
 		power_sleep: "電源はスリープモードです。タップして起動します。",
@@ -2089,6 +2091,7 @@ const ja = {
 		power_off_tooltip:
 			"機器プロファイルが切断されたときにすべてのポートの電源をオフにします。",
 		leds: "LED",
+		max_voltage: "最大電圧",
 		auto_dew: "自動露よけ",
 		auto_dew1_threshold: "露1しきい値",
 		auto_dew2_threshold: "露2しきい値",

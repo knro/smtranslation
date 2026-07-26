@@ -2148,6 +2148,8 @@ const es = {
 		current: "Actual",
 		power: "Fuerza",
 		power_off: "Apagado",
+		gps_antenna: "Antena GPS",
+		active_gps_antenna: "Antena GPS activa",
 		active_antenna: "Antena activa",
 		passive_antenna: "Antena pasiva",
 		power_sleep:
@@ -2156,6 +2158,7 @@ const es = {
 		power_off_tooltip:
 			"Apague todos los puertos cuando el perfil del equipo esté desconectado.",
 		leds: "LEDs",
+		max_voltage: "Voltaje máximo",
 		auto_dew: "Rocío automático",
 		auto_dew1_threshold: "Rocío 1 Trilla.",
 		auto_dew2_threshold: "Rocío 2 Trilla.",

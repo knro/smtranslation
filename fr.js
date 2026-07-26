@@ -2114,6 +2114,8 @@ const fr = {
 		voltage: "Tension",
 		current: "Courant",
 		power: "Puissance",
+		gps_antenna: "Antenne GPS",
+		active_gps_antenna: "Antenne GPS active",
 		active_antenna: "Antenne active",
 		passive_antenna: "Antenne passive",
 		power_sleep: "L'alimentation est en mode veille. Appuyez pour réveiller.",
@@ -2121,6 +2123,7 @@ const fr = {
 		power_off_tooltip:
 			"Éteindre tous les ports lorsque le profil d'équipement est déconnecté.",
 		leds: "LEDs",
+		max_voltage: "Tension maximale",
 		auto_dew: "Anti-buée auto",
 		auto_dew1_threshold: "Seuil buée 1",
 		auto_dew2_threshold: "Seuil buée 2",

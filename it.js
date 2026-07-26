@@ -2149,6 +2149,8 @@ const it = {
 		voltage: "Tensione",
 		current: "Corrente",
 		power: "Potenza",
+		gps_antenna: "Antenna GPS",
+		active_gps_antenna: "Antenna GPS attiva",
 		active_antenna: "Antenna attiva",
 		passive_antenna: "Antenna passiva",
 		power_sleep: "L'alimentazione è in modalità sleep. Tocca per riattivare.",
@@ -2157,6 +2159,7 @@ const it = {
 		power_off_tooltip:
 			"Spegni tutte le porte quando il profilo attrezzatura è disconnesso.",
 		leds: "LED",
+		max_voltage: "Tensione massima",
 		auto_dew: "Auto Dew",
 		auto_dew1_threshold: "Soglia Dew 1.",
 		auto_dew2_threshold: "Soglia Dew 2.",
