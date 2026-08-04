@@ -1691,6 +1691,10 @@ const de = {
 				greedy_schedule: "Greedy Scheduling benutzen",
 				greedy_schedule_tooltip:
 					"Wenn diese Option aktiviert ist, versucht der Scheduler, Jobs mit niedrigerer Priorität auszuführen, wenn kein Job mit höherer Priorität ausgeführt werden kann. (empfohlen).",
+				camera_warmup: "Kamera vor dem Herunterfahren aufwärmen",
+				camera_warmup_tooltip:
+					"Vor dem Herunterfahren die Kamera aufwärmen, um Feuchtigkeit und thermischen Schock zu vermeiden. Die Kameratemperatur wird über die angegebene Rampenzeit allmählich gesenkt.",
+				camera_warmup_ramp: "Rampenzeit (min)",
 				reset_mount: "Montierung bei Ausrichtungsfehler zurücksetzen",
 				reset_mount_tooltip: "Montierung bei Ausrichtungsfehler zurücksetzen",
 				reset_mount_before:

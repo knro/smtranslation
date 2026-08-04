@@ -1705,6 +1705,10 @@ const fr = {
 				greedy_schedule: "Utiliser la planification gloutonne",
 				greedy_schedule_tooltip:
 					"Lorsque cette option est cochée, le planificateur essaie d'exécuter des tâches de priorité inférieure lorsqu'aucune tâche de priorité supérieure ne peut être exécutée. Recommandé.",
+				camera_warmup: "Réchauffer la caméra avant l'arrêt",
+				camera_warmup_tooltip:
+					"Avant l'arrêt, réchauffez la caméra pour éviter l'humidité et le choc thermique. La température de la caméra est réduite progressivement sur la durée de rampe spécifiée.",
+				camera_warmup_ramp: "Durée de rampe (min)",
 				reset_mount:
 					"Réinitialiser le modèle de monture en cas d'échec de l'alignement",
 				reset_mount_tooltip:

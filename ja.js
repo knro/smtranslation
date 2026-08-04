@@ -1682,6 +1682,10 @@ const ja = {
 				greedy_schedule: "欲張りスケジューリングを使用する",
 				greedy_schedule_tooltip:
 					"チェックすると、スケジューラは優先度の高いジョブを実行できない場合に、優先度の低いジョブを実行しようとします。推奨。",
+				camera_warmup: "シャットダウン前にカメラをウォームアップ",
+				camera_warmup_tooltip:
+					"シャットダウン前にカメラをウォームアップして、湿気や熱衝撃を防ぎます。カメラの温度は指定されたランプ時間にわたって徐々に下げられます。",
+				camera_warmup_ramp: "ランプ時間（分）",
 				reset_mount: "アライメント失敗時にマウントモデルをリセット",
 				reset_mount_tooltip: "アライメント失敗時にマウントモデルをリセット",
 				reset_mount_before: "各ジョブを開始する前にマウントモデルをリセット",

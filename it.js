@@ -1712,7 +1712,10 @@ const it = {
 				greedy_schedule: "Usa pianificazione avida",
 				greedy_schedule_tooltip:
 					"Se selezionato, lo scheduler tenta di eseguire lavori a priorità inferiore quando nessun lavoro a priorità superiore può essere eseguito. Consigliato.",
-
+				camera_warmup: "Riscalda la fotocamera prima dello spegnimento",
+				camera_warmup_tooltip:
+					"Prima dello spegnimento, riscalda la fotocamera per prevenire umidità e shock termico. La temperatura della fotocamera viene ridotta gradualmente nel tempo di rampa specificato.",
+				camera_warmup_ramp: "Tempo di rampa (min)",
 				reset_mount:
 					"Ripristina modello montatura in caso di errore di allineamento",
 				reset_mount_tooltip:
