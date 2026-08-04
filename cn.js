@@ -1628,6 +1628,10 @@
 				greedy_schedule: "使用贪心调度",
 				greedy_schedule_tooltip:
 					"当勾选时，调度器会在没有更高优先级任务可运行时尝试运行较低优先级的任务。建议勾选。",
+				camera_warmup: "关机前预热相机",
+				camera_warmup_tooltip:
+					"关机前预热相机，以防止湿气和热冲击。相机温度将在指定的斜坡时间内逐渐降低。",
+				camera_warmup_ramp: "斜坡时间（分钟）",
 
 				reset_mount: "在对准失败时重置赤道仪模型",
 				reset_mount_tooltip: "在对准失败时重置赤道仪模型",

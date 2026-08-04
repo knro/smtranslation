@@ -1710,6 +1710,10 @@ const es = {
 				greedy_schedule: "Use Greedy Scheduling",
 				greedy_schedule_tooltip:
 					"When checked the scheduler tries to run lower priority jobs when no higher priority job can run. Recommended.",
+				camera_warmup: "Calentar la cámara antes de apagar",
+				camera_warmup_tooltip:
+					"Antes de apagar, caliente la cámara para evitar humedad y choque térmico. La temperatura de la cámara se reduce gradualmente durante el tiempo de rampa especificado.",
+				camera_warmup_ramp: "Tiempo de rampa (min)",
 				reset_mount:
 					"Restablecer el modelo de montaje en caso de falla de alineación",
 				reset_mount_tooltip:

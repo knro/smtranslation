@@ -1707,7 +1707,10 @@ const en = {
 				greedy_schedule: "Use Greedy Scheduling",
 				greedy_schedule_tooltip:
 					"When checked the scheduler tries to run lower priority jobs when no higher priority job can run. Recommended.",
-
+				camera_warmup: "Warm up camera before shutdown",
+				camera_warmup_tooltip:
+					"Before shutting down, warm up the camera to prevent moisture and thermal shock. The camera temperature is ramped down gradually over the specified ramp time.",
+				camera_warmup_ramp: "Ramp time (min)",
 				reset_mount: "Reset mount model on alignment failure",
 				reset_mount_tooltip: "Reset mount model on alignment failure",
 				reset_mount_before: "Reset mount model before starting each job",
