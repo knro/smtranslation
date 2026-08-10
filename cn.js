@@ -1079,6 +1079,9 @@
 		fov_height: "视场高度",
 		alert_select_FOV_body: "请创建或选择FOV配置文件，以便使用构图助手。",
 		alert_list_exists_body: "相同名称列表已存在！",
+		tonights_best: "今晚最佳",
+		tonights_best_computing: "正在查找今晚最佳目标…",
+		date_time: "日期和时间",
 	},
 	ekos: {
 		heading: "Ekos",

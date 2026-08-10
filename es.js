@@ -1133,6 +1133,9 @@ const es = {
 		alert_select_FOV_body:
 			"Cree o seleccione un perfil FOV para poder utilizar el Asistente de encuadre.",
 		alert_list_exists_body: "Ya existe una lista con ese nombre",
+		tonights_best: "Top de la noche",
+		tonights_best_computing: "Buscando los mejores objetos de esta noche…",
+		date_time: "Fecha y hora",
 	},
 	ekos: {
 		heading: "Ekos",

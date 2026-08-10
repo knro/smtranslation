@@ -1107,6 +1107,9 @@ const ja = {
 		alert_select_FOV_body:
 			"フレーミングアシスタントを使用するには、FOVプロファイルを作成または選択してください。",
 		alert_list_exists_body: "その名前のリストは既に存在します",
+		tonights_best: "今夜のベスト",
+		tonights_best_computing: "今夜のベスト天体を検索中…",
+		date_time: "日付と時刻",
 	},
 	ekos: {
 		heading: "Ekos",

@@ -1126,6 +1126,9 @@ const de = {
 		alert_select_FOV_body:
 			"Bitte erstelle oder wähle ein FOV Profil um den Rahmen Assistent nutzen zu können.",
 		alert_list_exists_body: "Eine Liste mit diesem Namen existiert bereits",
+		tonights_best: "Top heute Nacht",
+		tonights_best_computing: "Suche die besten Objekte für heute Nacht…",
+		date_time: "Datum & Uhrzeit",
 	},
 	ekos: {
 		heading: "Ekos",

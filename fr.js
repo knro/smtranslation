@@ -1126,6 +1126,9 @@ const fr = {
 		alert_select_FOV_body:
 			"Veuillez créer ou sélectionner un profil FOV pour utiliser l'assistant de cadrage.",
 		alert_list_exists_body: "Une liste portant ce nom existe déjà",
+		tonights_best: "Sélection du soir",
+		tonights_best_computing: "Recherche des meilleurs objets de la nuit…",
+		date_time: "Date et heure",
 	},
 	ekos: {
 		heading: "Ekos",

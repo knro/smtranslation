@@ -1136,6 +1136,9 @@ const it = {
 		alert_select_FOV_body:
 			"Crea o seleziona un profilo FOV per usare l'assistente di inquadratura.",
 		alert_list_exists_body: "Esiste già una lista con questo nome",
+		tonights_best: "Il meglio di stasera",
+		tonights_best_computing: "Ricerca dei migliori oggetti di stasera…",
+		date_time: "Data e ora",
 	},
 	ekos: {
 		heading: "Ekos",
