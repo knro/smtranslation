@@ -2118,6 +2118,14 @@
 		follow: "关注",
 		unfollow: "取消关注",
 		unfollowing: "取消关注",
+		block: "屏蔽",
+		unblock: "取消屏蔽",
+		block_description:
+			"你们将无法看到彼此的帖子、评论或个人资料，现有的关注关系也会解除。对方不会收到通知。",
+		unblock_description:
+			"对方将可以重新关注你并查看你的帖子。",
+		blocked_users: "已屏蔽的用户",
+		no_blocked_users: "你还没有屏蔽任何人。",
 		report_abuse: {
 			title: "举报滥用",
 			description: "请说明举报滥用的原因。",

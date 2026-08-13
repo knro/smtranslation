@@ -2270,6 +2270,14 @@ const it = {
 		follow: "Segui",
 		unfollow: "Smetti di seguire",
 		unfollowing: "Smettendo di seguire",
+		block: "Blocca",
+		unblock: "Sblocca",
+		block_description:
+			"Non vedrete più i post, i commenti o i profili l'uno dell'altro, e qualsiasi relazione di follow verrà interrotta. La persona non riceverà una notifica.",
+		unblock_description:
+			"La persona potrà seguirti e vedere di nuovo i tuoi post.",
+		blocked_users: "Utenti bloccati",
+		no_blocked_users: "Non hai ancora bloccato nessuno.",
 		report_abuse: {
 			title: "Segnala abuso",
 			description: "Specifica un motivo per questa segnalazione di abuso.",

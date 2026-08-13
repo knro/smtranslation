@@ -2254,6 +2254,14 @@ const en = {
 		follow: "Follow",
 		unfollow: "Unfollow",
 		unfollowing: "Unfollowing",
+		block: "Block",
+		unblock: "Unblock",
+		block_description:
+			"You won't see each other's posts, comments, or profiles anymore, and any follow relationship will end. They won't be notified.",
+		unblock_description:
+			"They will be able to follow you and see your posts again.",
+		blocked_users: "Blocked users",
+		no_blocked_users: "You haven't blocked anyone.",
 		report_abuse: {
 			title: "Report abuse",
 			description: "Please specify a reason for this abuse report.",

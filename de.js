@@ -2215,6 +2215,14 @@ const de = {
 		follow: "Folgen",
 		unfollow: "Nicht mehr folgen",
 		unfollowing: "Nicht mehr folgen",
+		block: "Blockieren",
+		unblock: "Blockierung aufheben",
+		block_description:
+			"Ihr werdet die Beiträge, Kommentare und Profile des anderen nicht mehr sehen, und ein bestehendes Folgeverhältnis wird beendet. Die Person wird nicht benachrichtigt.",
+		unblock_description:
+			"Die Person kann dir wieder folgen und deine Beiträge sehen.",
+		blocked_users: "Blockierte Nutzer",
+		no_blocked_users: "Du hast noch niemanden blockiert.",
 
 		report_abuse: {
 			title: "Missbrauch melden",

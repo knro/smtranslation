@@ -2202,6 +2202,14 @@ const ja = {
 		follow: "フォロー",
 		unfollow: "フォロー解除",
 		unfollowing: "フォロー解除中",
+		block: "ブロック",
+		unblock: "ブロック解除",
+		block_description:
+			"お互いの投稿、コメント、プロフィールが表示されなくなり、フォロー関係も解除されます。相手に通知はされません。",
+		unblock_description:
+			"相手は再びあなたをフォローし、投稿を見られるようになります。",
+		blocked_users: "ブロックしたユーザー",
+		no_blocked_users: "まだ誰もブロックしていません。",
 		report_abuse: {
 			title: "不正行為を報告",
 			description: "この不正行為報告の理由を明記してください。",

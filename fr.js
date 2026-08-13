@@ -2236,6 +2236,14 @@ const fr = {
 		follow: "Suivre",
 		unfollow: "Ne plus suivre",
 		unfollowing: "Ne plus suivre",
+		block: "Bloquer",
+		unblock: "Débloquer",
+		block_description:
+			"Vous ne verrez plus les publications, commentaires ou profils l'un de l'autre, et toute relation d'abonnement prendra fin. Cette personne ne sera pas notifiée.",
+		unblock_description:
+			"Cette personne pourra à nouveau vous suivre et voir vos publications.",
+		blocked_users: "Utilisateurs bloqués",
+		no_blocked_users: "Vous n'avez bloqué personne.",
 		report_abuse: {
 			title: "Signaler un abus",
 			description: "Veuillez spécifier une raison pour ce signalement d'abus.",

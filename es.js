@@ -2275,6 +2275,14 @@ const es = {
 		follow: "Seguir",
 		unfollow: "Dejar de seguir",
 		unfollowing: "Dejando de seguir",
+		block: "Bloquear",
+		unblock: "Desbloquear",
+		block_description:
+			"Ya no verán las publicaciones, comentarios ni perfiles del otro, y cualquier relación de seguimiento terminará. No se le notificará a la otra persona.",
+		unblock_description:
+			"Podrá seguirte y ver tus publicaciones de nuevo.",
+		blocked_users: "Usuarios bloqueados",
+		no_blocked_users: "Aún no has bloqueado a nadie.",
 		report_abuse: {
 			title: "Reportar abuso",
 			description:
