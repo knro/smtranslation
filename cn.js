@@ -2118,14 +2118,23 @@
 		follow: "关注",
 		unfollow: "取消关注",
 		unfollowing: "取消关注",
-		block: "屏蔽",
-		unblock: "取消屏蔽",
 		block_description:
 			"你们将无法看到彼此的帖子、评论或个人资料，现有的关注关系也会解除。对方不会收到通知。",
 		unblock_description:
 			"对方将可以重新关注你并查看你的帖子。",
-		blocked_users: "已屏蔽的用户",
-		no_blocked_users: "你还没有屏蔽任何人。",
+		block: "拉黑",
+		unblock: "取消拉黑",
+		block_confirm_title: "拉黑用户",
+		block_confirm_message:
+			"拉黑此用户？他的帖子将从您的信息流中隐藏，并且无法再与您互动。",
+		block_success: "用户已被拉黑，其内容已从您的信息流中移除。",
+		unblock_success: "用户已取消拉黑。",
+		block_error: "无法拉黑该用户，请重试。",
+		blocked_self: "您无法拉黑自己。",
+		blocked_users: "拉黑用户",
+		no_blocked_users: "您尚未拉黑任何用户。",
+		unblock_confirm_title: "取消拉黑用户",
+		unblock_confirm_message: "取消拉黑此用户？其帖子和评论将重新出现在您的信息流中。",
 		report_abuse: {
 			title: "举报滥用",
 			description: "请说明举报滥用的原因。",
@@ -2150,6 +2159,33 @@
 		no_observatories: "未找到公共天文台。",
 		fine_location: "精确位置",
 		coarse_location: "粗略位置",
+	},
+	eula: {
+		title: "用户协议",
+		introduction:
+			"欢迎使用 StellarMate。登录即表示您同意 StellarMate 服务条款、隐私政策以及以下社区准则摘要。",
+		title_zero_tolerance: "零容忍",
+		zero_tolerance:
+			"零容忍：StellarMate 对不当内容和滥用用户采取零容忍政策。严格禁止骚扰、仇恨言论、露骨或 NSFW 内容、冒充他人、垃圾信息以及侵犯隐私行为。",
+		title_content_guidelines: "社区准则",
+		content_guidelines:
+			"请分享尊重、相关且适合所有年龄段的内容。请勿发布非法、冒犯性或侵犯他人权利的内容。",
+		title_reporting: "举报",
+		reporting:
+			"您可以使用内容上的举报按钮标记任何不当的帖子、评论或器材条目。我们会及时审核举报，并在 24 小时内处理有效举报，删除违规内容。",
+		title_blocking: "拉黑",
+		blocking:
+			"您可以拉黑任何有滥用行为的用户。拉黑后，该用户的帖子会立即从您的信息流中移除，并且无法再与您互动。拉黑用户时，系统也会向我们的审核团队发送举报。",
+		title_enforcement: "执行",
+		enforcement:
+			"发布不当内容或实施滥用行为的账户可能会被永久移出平台，恕不另行通知。",
+		title_consent: "同意条款",
+		consent:
+			"点击“同意”即表示您接受这些条款，并确认您年满 13 周岁或达到您所在国家/地区要求的最低年龄。",
+		terms_link: "在 stellarmate.com 阅读完整的服务条款",
+		privacy_link: "在 stellarmate.com 阅读隐私政策",
+		agree: "同意",
+		decline: "拒绝",
 	},
 	menu: {
 		go_to_profile: "个人资料",

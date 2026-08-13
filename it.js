@@ -2276,8 +2276,19 @@ const it = {
 			"Non vedrete più i post, i commenti o i profili l'uno dell'altro, e qualsiasi relazione di follow verrà interrotta. La persona non riceverà una notifica.",
 		unblock_description:
 			"La persona potrà seguirti e vedere di nuovo i tuoi post.",
+		block_confirm_title: "Blocca utente",
+		block_confirm_message:
+			"Bloccare questo utente? I suoi post saranno nascosti dal tuo feed e non potrà più interagire con te.",
+		block_success:
+			"Utente bloccato. Il suo contenuto è stato rimosso dal tuo feed.",
+		unblock_success: "Utente sbloccato.",
+		block_error: "Impossibile bloccare l'utente. Riprova.",
+		blocked_self: "Non puoi bloccare te stesso.",
 		blocked_users: "Utenti bloccati",
-		no_blocked_users: "Non hai ancora bloccato nessuno.",
+		no_blocked_users: "Non hai ancora bloccato nessun utente.",
+		unblock_confirm_title: "Sblocca utente",
+		unblock_confirm_message:
+			"Sbloccare questo utente? I suoi post e commenti riappariranno nel tuo feed.",
 		report_abuse: {
 			title: "Segnala abuso",
 			description: "Specifica un motivo per questa segnalazione di abuso.",
@@ -2306,6 +2317,33 @@ const it = {
 		no_observatories: "Nessun osservatorio pubblico trovato",
 		fine_location: "Posizione precisa",
 		coarse_location: "Posizione approssimativa",
+	},
+	eula: {
+		title: "Accordo con l'utente",
+		introduction:
+			"Benvenuto su StellarMate. Accedendo accetti i Termini di servizio di StellarMate, l'Informativa sulla privacy e le linee guida della community riassunte di seguito.",
+		title_zero_tolerance: "Tolleranza zero",
+		zero_tolerance:
+			"TOLLERANZA ZERO: StellarMate ha una politica di tolleranza zero verso contenuti discutibili e utenti abusivi. Molestie, discorsi d'odio, materiale esplicito o NSFW, furto d'identità, spam e violazioni della privacy sono severamente vietati.",
+		title_content_guidelines: "Linee guida della community",
+		content_guidelines:
+			"Condividi contenuti rispettosi, pertinenti e adatti a tutte le età. Non pubblicare contenuti illegali, offensivi o che violino i diritti altrui.",
+		title_reporting: "Segnalazione",
+		reporting:
+			"Puoi segnalare qualsiasi post, commento o scheda attrezzatura discutibile usando il pulsante Segnala. Le segnalazioni vengono esaminate rapidamente e quelle valide vengono gestite entro 24 ore rimuovendo il contenuto offensivo.",
+		title_blocking: "Blocco",
+		blocking:
+			"Puoi bloccare qualsiasi utente con comportamenti abusivi. Il blocco rimuove all'istante i post di quell'utente dal tuo feed e gli impedisce di interagire con te. Quando blocchi un utente, viene inviata una segnalazione anche al nostro team di moderazione.",
+		title_enforcement: "Applicazione",
+		enforcement:
+			"Gli account che pubblicano contenuti discutibili o adottano comportamenti abusivi possono essere rimossi definitivamente dalla piattaforma senza preavviso.",
+		title_consent: "Consenso",
+		consent:
+			"Toccando «Accetto» confermi di accettare questi termini e di avere almeno 13 anni, o l'età minima richiesta nel tuo paese.",
+		terms_link: "Leggi i Termini di servizio completi su stellarmate.com",
+		privacy_link: "Leggi l'Informativa sulla privacy su stellarmate.com",
+		agree: "Accetto",
+		decline: "Rifiuta",
 	},
 	menu: {
 		go_to_profile: "Profilo",
