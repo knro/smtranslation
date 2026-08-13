@@ -1131,9 +1131,6 @@ const en = {
 		alert_select_FOV_body:
 			"Please create or select an FOV profile in order to use Framing assistant.",
 		alert_list_exists_body: "A list with that name already exists",
-		tonights_best: "Tonight's Best",
-		tonights_best_computing: "Finding tonight's best targets…",
-		date_time: "Date & Time",
 	},
 	ekos: {
 		heading: "Ekos",
@@ -2256,12 +2253,19 @@ const en = {
 		unfollowing: "Unfollowing",
 		block: "Block",
 		unblock: "Unblock",
-		block_description:
-			"You won't see each other's posts, comments, or profiles anymore, and any follow relationship will end. They won't be notified.",
-		unblock_description:
-			"They will be able to follow you and see your posts again.",
-		blocked_users: "Blocked users",
-		no_blocked_users: "You haven't blocked anyone.",
+		block_confirm_title: "Block User",
+		block_confirm_message:
+			"Block this user? Their posts will be hidden from your feed and they will no longer be able to interact with you.",
+		block_success:
+			"User blocked. Their content has been removed from your feed.",
+		unblock_success: "User unblocked.",
+		block_error: "Could not block user. Please try again.",
+		blocked_self: "You cannot block yourself.",
+		blocked_users: "Blocked Users",
+		no_blocked_users: "You have not blocked any users yet.",
+		unblock_confirm_title: "Unblock User",
+		unblock_confirm_message:
+			"Unblock this user? Their posts and comments will appear in your feed again.",
 		report_abuse: {
 			title: "Report abuse",
 			description: "Please specify a reason for this abuse report.",
@@ -2290,6 +2294,33 @@ const en = {
 		no_observatories: "No public observatories found",
 		fine_location: "Fine Location",
 		coarse_location: "Coarse Location",
+	},
+	eula: {
+		title: "User Agreement",
+		introduction:
+			"Welcome to StellarMate. By signing in you agree to the StellarMate Terms of Service, Privacy Policy, and the Community Guidelines summarized below.",
+		title_zero_tolerance: "Zero Tolerance",
+		zero_tolerance:
+			"ZERO TOLERANCE: StellarMate has a zero-tolerance policy for objectionable content and abusive users. Harassment, hate speech, explicit or NSFW material, impersonation, spam, and privacy violations are strictly prohibited.",
+		title_content_guidelines: "Content Guidelines",
+		content_guidelines:
+			"Share content that is respectful, relevant, and appropriate for all ages. Do not post content that is unlawful, offensive, or that infringes on the rights of others.",
+		title_reporting: "Reporting",
+		reporting:
+			"You can flag any objectionable post, comment, or equipment entry using the Report button on the content. Reports are reviewed promptly and valid reports are acted on within 24 hours by removing the offending content.",
+		title_blocking: "Blocking",
+		blocking:
+			"You can block any user who behaves abusively. Blocking instantly removes that user's posts from your feed and prevents them from interacting with you. When you block a user, a report is also sent to our moderation team.",
+		title_enforcement: "Enforcement",
+		enforcement:
+			"Accounts that post objectionable content or engage in abusive behavior may be permanently removed from the platform without notice.",
+		title_consent: "Consent",
+		consent:
+			"By tapping \"Agree\" you confirm that you accept these terms and that you are at least 13 years old, or the minimum age required in your country.",
+		terms_link: "Read the full Terms of Service on stellarmate.com",
+		privacy_link: "Read the Privacy Policy on stellarmate.com",
+		agree: "Agree",
+		decline: "Decline",
 	},
 	menu: {
 		go_to_profile: "Profile",

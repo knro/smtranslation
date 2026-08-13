@@ -2242,8 +2242,19 @@ const fr = {
 			"Vous ne verrez plus les publications, commentaires ou profils l'un de l'autre, et toute relation d'abonnement prendra fin. Cette personne ne sera pas notifiée.",
 		unblock_description:
 			"Cette personne pourra à nouveau vous suivre et voir vos publications.",
+		block_confirm_title: "Bloquer l'utilisateur",
+		block_confirm_message:
+			"Bloquer cet utilisateur ? Ses publications seront masquées de votre fil et il ne pourra plus interagir avec vous.",
+		block_success:
+			"Utilisateur bloqué. Son contenu a été retiré de votre fil.",
+		unblock_success: "Utilisateur débloqué.",
+		block_error: "Impossible de bloquer l'utilisateur. Veuillez réessayer.",
+		blocked_self: "Vous ne pouvez pas vous bloquer vous-même.",
 		blocked_users: "Utilisateurs bloqués",
-		no_blocked_users: "Vous n'avez bloqué personne.",
+		no_blocked_users: "Vous n'avez bloqué aucun utilisateur pour le moment.",
+		unblock_confirm_title: "Débloquer l'utilisateur",
+		unblock_confirm_message:
+			"Débloquer cet utilisateur ? Ses publications et commentaires réapparaîtront dans votre fil.",
 		report_abuse: {
 			title: "Signaler un abus",
 			description: "Veuillez spécifier une raison pour ce signalement d'abus.",
@@ -2273,6 +2284,33 @@ const fr = {
 		no_observatories: "Aucun observatoire public trouvé",
 		fine_location: "Localisation précise",
 		coarse_location: "Localisation approximative",
+	},
+	eula: {
+		title: "Accord de l'utilisateur",
+		introduction:
+			"Bienvenue sur StellarMate. En vous connectant, vous acceptez les Conditions d'utilisation de StellarMate, la Politique de confidentialité et les directives de la communauté résumées ci-dessous.",
+		title_zero_tolerance: "Tolérance zéro",
+		zero_tolerance:
+			"TOLÉRANCE ZÉRO : StellarMate applique une politique de tolérance zéro envers les contenus répréhensibles et les utilisateurs abusifs. Le harcèlement, les discours haineux, les contenus explicites ou NSFW, l'usurpation d'identité, le spam et les violations de la vie privée sont strictement interdits.",
+		title_content_guidelines: "Directives de la communauté",
+		content_guidelines:
+			"Partagez des contenus respectueux, pertinents et adaptés à tous les âges. Ne publiez pas de contenus illégaux, offensants ou portant atteinte aux droits d'autrui.",
+		title_reporting: "Signalement",
+		reporting:
+			"Vous pouvez signaler tout message, commentaire ou entrée d'équipement répréhensible à l'aide du bouton Signaler. Les signalements sont examinés rapidement et traités sous 24 heures en supprimant le contenu concerné.",
+		title_blocking: "Blocage",
+		blocking:
+			"Vous pouvez bloquer tout utilisateur au comportement abusif. Le blocage supprime immédiatement les messages de cet utilisateur de votre fil et l'empêche d'interagir avec vous. Lorsque vous bloquez un utilisateur, un signalement est également envoyé à notre équipe de modération.",
+		title_enforcement: "Application",
+		enforcement:
+			"Les comptes qui publient des contenus répréhensibles ou adoptent un comportement abusif peuvent être définitivement retirés de la plateforme sans préavis.",
+		title_consent: "Consentement",
+		consent:
+			"En appuyant sur « Accepter », vous confirmez accepter ces conditions et avoir au moins 13 ans, ou l'âge minimum requis dans votre pays.",
+		terms_link: "Lire les Conditions d'utilisation complètes sur stellarmate.com",
+		privacy_link: "Lire la Politique de confidentialité sur stellarmate.com",
+		agree: "Accepter",
+		decline: "Refuser",
 	},
 	menu: {
 		go_to_profile: "Profil",

@@ -2215,14 +2215,25 @@ const de = {
 		follow: "Folgen",
 		unfollow: "Nicht mehr folgen",
 		unfollowing: "Nicht mehr folgen",
-		block: "Blockieren",
-		unblock: "Blockierung aufheben",
 		block_description:
 			"Ihr werdet die Beiträge, Kommentare und Profile des anderen nicht mehr sehen, und ein bestehendes Folgeverhältnis wird beendet. Die Person wird nicht benachrichtigt.",
 		unblock_description:
 			"Die Person kann dir wieder folgen und deine Beiträge sehen.",
+		block: "Blockieren",
+		unblock: "Entblocken",
+		block_confirm_title: "Nutzer blockieren",
+		block_confirm_message:
+			"Diesen Nutzer blockieren? Seine Beiträge werden aus deinem Feed ausgeblendet und er kann nicht mehr mit dir interagieren.",
+		block_success:
+			"Nutzer blockiert. Sein Inhalt wurde aus deinem Feed entfernt.",
+		unblock_success: "Nutzer entblockt.",
+		block_error: "Der Nutzer konnte nicht blockiert werden. Bitte versuche es erneut.",
+		blocked_self: "Du kannst dich nicht selbst blockieren.",
 		blocked_users: "Blockierte Nutzer",
-		no_blocked_users: "Du hast noch niemanden blockiert.",
+		no_blocked_users: "Du hast noch keine Nutzer blockiert.",
+		unblock_confirm_title: "Nutzer entblocken",
+		unblock_confirm_message:
+			"Diesen Nutzer entblocken? Seine Beiträge und Kommentare erscheinen wieder in deinem Feed.",
 
 		report_abuse: {
 			title: "Missbrauch melden",
@@ -2253,6 +2264,33 @@ const de = {
 		no_observatories: "Keine öffentlichen Observatorien gefunden",
 		fine_location: "Genauer Standort",
 		coarse_location: "Grober Standort",
+	},
+	eula: {
+		title: "Nutzungsvereinbarung",
+		introduction:
+			"Willkommen bei StellarMate. Mit der Anmeldung stimmst du den StellarMate-Nutzungsbedingungen, der Datenschutzrichtlinie und den unten zusammengefassten Community-Richtlinien zu.",
+		title_zero_tolerance: "Nulltoleranz",
+		zero_tolerance:
+			"NULLTOLERANZ: StellarMate verfolgt eine Nulltoleranzpolitik gegenüber anstößigen Inhalten und missbräuchlichen Nutzern. Belästigung, Hassrede, explizites oder NSFW-Material, Identitätsdiebstahl, Spam und Datenschutzverletzungen sind strengstens verboten.",
+		title_content_guidelines: "Community-Richtlinien",
+		content_guidelines:
+			"Teile Inhalte, die respektvoll, relevant und für alle Altersgruppen geeignet sind. Veröffentliche keine Inhalte, die rechtswidrig, anstößig sind oder die Rechte anderer verletzen.",
+		title_reporting: "Melden",
+		reporting:
+			"Du kannst jeden anstößigen Beitrag, Kommentar oder Ausrüstungseintrag über die Schaltfläche „Melden\" kennzeichnen. Meldungen werden umgehend geprüft; gültige Meldungen werden innerhalb von 24 Stunden bearbeitet, indem der anstößige Inhalt entfernt wird.",
+		title_blocking: "Blockieren",
+		blocking:
+			"Du kannst jeden Nutzer blockieren, der sich missbräuchlich verhält. Durch das Blockieren werden die Beiträge dieses Nutzers sofort aus deinem Feed entfernt und er kann nicht mehr mit dir interagieren. Beim Blockieren wird auch eine Meldung an unser Moderationsteam gesendet.",
+		title_enforcement: "Durchsetzung",
+		enforcement:
+			"Konten, die anstößige Inhalte veröffentlichen oder sich missbräuchlich verhalten, können ohne Vorankündigung dauerhaft von der Plattform entfernt werden.",
+		title_consent: "Einwilligung",
+		consent:
+			"Durch Tippen auf „Zustimmen\" bestätigst du, dass du diese Bedingungen akzeptierst und mindestens 13 Jahre alt bist bzw. das in deinem Land erforderliche Mindestalter erreicht hast.",
+		terms_link: "Vollständige Nutzungsbedingungen auf stellarmate.com lesen",
+		privacy_link: "Datenschutzrichtlinie auf stellarmate.com lesen",
+		agree: "Zustimmen",
+		decline: "Ablehnen",
 	},
 	menu: {
 		go_to_profile: "Profil",
