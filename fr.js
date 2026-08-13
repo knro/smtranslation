@@ -2288,10 +2288,10 @@ const fr = {
 	eula: {
 		title: "Accord de l'utilisateur",
 		introduction:
-			"Bienvenue sur StellarMate. En vous connectant, vous acceptez les Conditions d'utilisation de StellarMate, la Politique de confidentialité et les directives de la communauté résumées ci-dessous.",
+			"Bienvenue sur EkosLive. En vous connectant, vous acceptez les Conditions d'utilisation d'EkosLive, la Politique de confidentialité et les directives de la communauté résumées ci-dessous.",
 		title_zero_tolerance: "Tolérance zéro",
 		zero_tolerance:
-			"TOLÉRANCE ZÉRO : StellarMate applique une politique de tolérance zéro envers les contenus répréhensibles et les utilisateurs abusifs. Le harcèlement, les discours haineux, les contenus explicites ou NSFW, l'usurpation d'identité, le spam et les violations de la vie privée sont strictement interdits.",
+			"TOLÉRANCE ZÉRO : EkosLive applique une politique de tolérance zéro envers les contenus répréhensibles et les utilisateurs abusifs. Le harcèlement, les discours haineux, les contenus explicites ou NSFW, l'usurpation d'identité, le spam et les violations de la vie privée sont strictement interdits.",
 		title_content_guidelines: "Directives de la communauté",
 		content_guidelines:
 			"Partagez des contenus respectueux, pertinents et adaptés à tous les âges. Ne publiez pas de contenus illégaux, offensants ou portant atteinte aux droits d'autrui.",
@@ -2307,8 +2307,8 @@ const fr = {
 		title_consent: "Consentement",
 		consent:
 			"En appuyant sur « Accepter », vous confirmez accepter ces conditions et avoir au moins 13 ans, ou l'âge minimum requis dans votre pays.",
-		terms_link: "Lire les Conditions d'utilisation complètes sur stellarmate.com",
-		privacy_link: "Lire la Politique de confidentialité sur stellarmate.com",
+		terms_link: "Lire les Conditions d'utilisation complètes sur ekoslive.com",
+		privacy_link: "Lire la Politique de confidentialité sur ekoslive.com",
 		agree: "Accepter",
 		decline: "Refuser",
 	},

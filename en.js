@@ -2298,10 +2298,10 @@ const en = {
 	eula: {
 		title: "User Agreement",
 		introduction:
-			"Welcome to StellarMate. By signing in you agree to the StellarMate Terms of Service, Privacy Policy, and the Community Guidelines summarized below.",
+			"Welcome to EkosLive. By signing in you agree to the EkosLive Terms of Service, Privacy Policy, and the Community Guidelines summarized below.",
 		title_zero_tolerance: "Zero Tolerance",
 		zero_tolerance:
-			"ZERO TOLERANCE: StellarMate has a zero-tolerance policy for objectionable content and abusive users. Harassment, hate speech, explicit or NSFW material, impersonation, spam, and privacy violations are strictly prohibited.",
+			"ZERO TOLERANCE: EkosLive has a zero-tolerance policy for objectionable content and abusive users. Harassment, hate speech, explicit or NSFW material, impersonation, spam, and privacy violations are strictly prohibited.",
 		title_content_guidelines: "Content Guidelines",
 		content_guidelines:
 			"Share content that is respectful, relevant, and appropriate for all ages. Do not post content that is unlawful, offensive, or that infringes on the rights of others.",
@@ -2317,8 +2317,8 @@ const en = {
 		title_consent: "Consent",
 		consent:
 			"By tapping \"Agree\" you confirm that you accept these terms and that you are at least 13 years old, or the minimum age required in your country.",
-		terms_link: "Read the full Terms of Service on stellarmate.com",
-		privacy_link: "Read the Privacy Policy on stellarmate.com",
+		terms_link: "Read the full Terms of Service on ekoslive.com",
+		privacy_link: "Read the Privacy Policy on ekoslive.com",
 		agree: "Agree",
 		decline: "Decline",
 	},

@@ -2163,10 +2163,10 @@
 	eula: {
 		title: "用户协议",
 		introduction:
-			"欢迎使用 StellarMate。登录即表示您同意 StellarMate 服务条款、隐私政策以及以下社区准则摘要。",
+			"欢迎使用 EkosLive。登录即表示您同意 EkosLive 服务条款、隐私政策以及以下社区准则摘要。",
 		title_zero_tolerance: "零容忍",
 		zero_tolerance:
-			"零容忍：StellarMate 对不当内容和滥用用户采取零容忍政策。严格禁止骚扰、仇恨言论、露骨或 NSFW 内容、冒充他人、垃圾信息以及侵犯隐私行为。",
+			"零容忍：EkosLive 对不当内容和滥用用户采取零容忍政策。严格禁止骚扰、仇恨言论、露骨或 NSFW 内容、冒充他人、垃圾信息以及侵犯隐私行为。",
 		title_content_guidelines: "社区准则",
 		content_guidelines:
 			"请分享尊重、相关且适合所有年龄段的内容。请勿发布非法、冒犯性或侵犯他人权利的内容。",
@@ -2182,8 +2182,8 @@
 		title_consent: "同意条款",
 		consent:
 			"点击“同意”即表示您接受这些条款，并确认您年满 13 周岁或达到您所在国家/地区要求的最低年龄。",
-		terms_link: "在 stellarmate.com 阅读完整的服务条款",
-		privacy_link: "在 stellarmate.com 阅读隐私政策",
+		terms_link: "在 ekoslive.com 阅读完整的服务条款",
+		privacy_link: "在 ekoslive.com 阅读隐私政策",
 		agree: "同意",
 		decline: "拒绝",
 	},

@@ -2268,10 +2268,10 @@ const de = {
 	eula: {
 		title: "Nutzungsvereinbarung",
 		introduction:
-			"Willkommen bei StellarMate. Mit der Anmeldung stimmst du den StellarMate-Nutzungsbedingungen, der Datenschutzrichtlinie und den unten zusammengefassten Community-Richtlinien zu.",
+			"Willkommen bei EkosLive. Mit der Anmeldung stimmst du den EkosLive-Nutzungsbedingungen, der Datenschutzrichtlinie und den unten zusammengefassten Community-Richtlinien zu.",
 		title_zero_tolerance: "Nulltoleranz",
 		zero_tolerance:
-			"NULLTOLERANZ: StellarMate verfolgt eine Nulltoleranzpolitik gegenüber anstößigen Inhalten und missbräuchlichen Nutzern. Belästigung, Hassrede, explizites oder NSFW-Material, Identitätsdiebstahl, Spam und Datenschutzverletzungen sind strengstens verboten.",
+			"NULLTOLERANZ: EkosLive verfolgt eine Nulltoleranzpolitik gegenüber anstößigen Inhalten und missbräuchlichen Nutzern. Belästigung, Hassrede, explizites oder NSFW-Material, Identitätsdiebstahl, Spam und Datenschutzverletzungen sind strengstens verboten.",
 		title_content_guidelines: "Community-Richtlinien",
 		content_guidelines:
 			"Teile Inhalte, die respektvoll, relevant und für alle Altersgruppen geeignet sind. Veröffentliche keine Inhalte, die rechtswidrig, anstößig sind oder die Rechte anderer verletzen.",
@@ -2287,8 +2287,8 @@ const de = {
 		title_consent: "Einwilligung",
 		consent:
 			"Durch Tippen auf „Zustimmen\" bestätigst du, dass du diese Bedingungen akzeptierst und mindestens 13 Jahre alt bist bzw. das in deinem Land erforderliche Mindestalter erreicht hast.",
-		terms_link: "Vollständige Nutzungsbedingungen auf stellarmate.com lesen",
-		privacy_link: "Datenschutzrichtlinie auf stellarmate.com lesen",
+		terms_link: "Vollständige Nutzungsbedingungen auf ekoslive.com lesen",
+		privacy_link: "Datenschutzrichtlinie auf ekoslive.com lesen",
 		agree: "Zustimmen",
 		decline: "Ablehnen",
 	},
