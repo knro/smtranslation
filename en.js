@@ -1131,6 +1131,9 @@ const en = {
 		alert_select_FOV_body:
 			"Please create or select an FOV profile in order to use Framing assistant.",
 		alert_list_exists_body: "A list with that name already exists",
+		tonights_best: "Tonight's Best",
+		tonights_best_computing: "Finding tonight's best targets…",
+		date_time: "Date & Time",
 	},
 	ekos: {
 		heading: "Ekos",
