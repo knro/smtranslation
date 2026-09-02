@@ -1949,6 +1949,7 @@ const es = {
 			heading: "Cambiar Banda",
 			band: "Banda",
 			channel: "Canal",
+			bandwidth: "Ancho de banda",
 		},
 
 		vnc_view: {

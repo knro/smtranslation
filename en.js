@@ -1939,6 +1939,7 @@ const en = {
 			heading: "Change Band",
 			band: "Band",
 			channel: "Channel",
+			bandwidth: "Bandwidth",
 		},
 
 		vnc_view: {

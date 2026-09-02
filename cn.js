@@ -1825,6 +1825,7 @@
 			heading: "切换频段",
 			band: "频段",
 			channel: "信道",
+			bandwidth: "带宽",
 		},
 		vnc_view: {
 			heading: "远程桌面(VNC)",

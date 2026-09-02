@@ -1890,6 +1890,7 @@ const ja = {
 			heading: "バンドの変更",
 			band: "バンド",
 			channel: "チャネル",
+			bandwidth: "帯域幅",
 		},
 		vnc_view: {
 			heading: "VNC",

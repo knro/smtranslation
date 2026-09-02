@@ -1906,6 +1906,7 @@ const de = {
 			heading: "Band wechseln",
 			band: "Band",
 			channel: "Kanal",
+			bandwidth: "Bandbreite",
 		},
 		vnc_view: {
 			heading: "VNC",

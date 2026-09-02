@@ -1921,6 +1921,7 @@ const fr = {
 			heading: "Changer de bande",
 			band: "Bande",
 			channel: "Canal",
+			bandwidth: "Largeur de bande",
 		},
 		vnc_view: {
 			heading: "VNC",
