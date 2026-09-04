@@ -74,6 +74,7 @@
 		remote_support: "远程帮助",
 		logout: "登出",
 		setting: "设置",
+		settings: "设置",
 		hours: "时",
 		minutes: "分",
 		seconds: "秒",

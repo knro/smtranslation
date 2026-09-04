@@ -74,6 +74,7 @@ const it = {
 		remote_support: "Supporto remoto",
 		logout: "Esci",
 		setting: "Impostazione",
+		settings: "Impostazioni",
 		hours: "Ore",
 		minutes: "Minuti",
 		seconds: "Secondi",

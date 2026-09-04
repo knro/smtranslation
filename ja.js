@@ -74,6 +74,7 @@ const ja = {
 		remote_support: "リモートサポート",
 		logout: "ログアウト",
 		setting: "設定",
+		settings: "設定",
 		hours: "時間",
 		minutes: "分",
 		seconds: "秒",
