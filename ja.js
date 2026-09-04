@@ -1225,6 +1225,12 @@ const ja = {
 			cooling_unavailable: "N/A",
 			btn_add_to_sequence: "シーケンスに追加",
 			btn_loop: "ループ",
+			generate_dark_flats: "ダークフラットを生成",
+			btn_capture_settings: "キャプチャ設定",
+			info_note_title: "撮影準備完了",
+			info_note_body: "プリセットを選択し、シーケンスに追加をタップして撮影をキューに追加します。キューの準備ができたら開始をタップしてください。",
+			heading_build_sequence: "シーケンスを作成",
+			heading_tools: "ツール",
 
 			rotator_control: {
 				title: "ローテーター",

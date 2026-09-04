@@ -1249,6 +1249,12 @@ const en = {
 			cooling_unavailable: "N/A",
 			btn_add_to_sequence: "Add to Sequence",
 			btn_loop: "Loop",
+			generate_dark_flats: "Generate Dark Flats",
+			btn_capture_settings: "Capture Settings",
+			info_note_title: "Ready to capture",
+			info_note_body: "Pick a preset, then tap Add to Sequence to queue a shot. Tap Start when your queue is ready.",
+			heading_build_sequence: "Build Sequence",
+			heading_tools: "Tools",
 
 			rotator_control: {
 				title: "Rotator",

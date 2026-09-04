@@ -1239,6 +1239,12 @@ const fr = {
 			cooling_unavailable: "N/A",
 			btn_add_to_sequence: "Ajouter à la séquence ",
 			btn_loop: "Boucle",
+			generate_dark_flats: "Générer les Flats Sombres",
+			btn_capture_settings: "Paramètres de Capture",
+			info_note_title: "Prêt à capturer",
+			info_note_body: "Choisissez un préréglage, puis appuyez sur Ajouter à la séquence pour mettre une prise de vue en file d'attente. Appuyez sur Démarrer lorsque votre file d'attente est prête.",
+			heading_build_sequence: "Créer la Séquence",
+			heading_tools: "Outils",
 
 			rotator_control: {
 				title: "Rotateur",

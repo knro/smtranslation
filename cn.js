@@ -1185,6 +1185,12 @@
 			cooling_unavailable: "制冷功能不可用",
 			btn_add_to_sequence: "添加到拍摄序列",
 			btn_loop: "循环",
+			generate_dark_flats: "生成暗平场",
+			btn_capture_settings: "拍摄设置",
+			info_note_title: "准备拍摄",
+			info_note_body: "选择一个预设，然后点击添加到拍摄序列以排队拍摄。队列准备好后点击开始。",
+			heading_build_sequence: "构建拍摄序列",
+			heading_tools: "工具",
 
 			rotator_control: {
 				title: "旋转器",

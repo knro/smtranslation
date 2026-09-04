@@ -1252,6 +1252,12 @@ const es = {
 			cooling_unavailable: "N/A",
 			btn_add_to_sequence: "Agregar a la Secuencia",
 			btn_loop: "Bucle",
+			generate_dark_flats: "Generar Flats Oscuros",
+			btn_capture_settings: "Configuración de Captura",
+			info_note_title: "Listo para capturar",
+			info_note_body: "Elige un preajuste y luego toca Agregar a la Secuencia para poner en cola una toma. Toca Iniciar cuando tu cola esté lista.",
+			heading_build_sequence: "Crear Secuencia",
+			heading_tools: "Herramientas",
 
 			rotator_control: {
 				title: "Rotator",

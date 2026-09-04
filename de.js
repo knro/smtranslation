@@ -1234,6 +1234,12 @@ const de = {
 			cooling_unavailable: "Kühlung nicht verfügbar",
 			btn_add_to_sequence: "Zur Sequenz hinzufügen",
 			btn_loop: "Schleife",
+			generate_dark_flats: "Dunkel-Flats erzeugen",
+			btn_capture_settings: "Aufnahmeeinstellungen",
+			info_note_title: "Bereit zur Aufnahme",
+			info_note_body: "Wählen Sie eine Voreinstellung aus und tippen Sie dann auf Zur Sequenz hinzufügen, um eine Aufnahme einzureihen. Tippen Sie auf Start, wenn Ihre Warteschlange bereit ist.",
+			heading_build_sequence: "Sequenz erstellen",
+			heading_tools: "Werkzeuge",
 
 			rotator_control: {
 				title: "Rotator",

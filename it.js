@@ -1252,6 +1252,12 @@ const it = {
 			cooling_unavailable: "N/D",
 			btn_add_to_sequence: "Aggiungi alla sequenza",
 			btn_loop: "Loop",
+			generate_dark_flats: "Genera Flat Scuri",
+			btn_capture_settings: "Impostazioni di Cattura",
+			info_note_title: "Pronto per la cattura",
+			info_note_body: "Scegli un preset, quindi tocca Aggiungi alla sequenza per mettere in coda uno scatto. Tocca Avvia quando la coda è pronta.",
+			heading_build_sequence: "Crea Sequenza",
+			heading_tools: "Strumenti",
 
 			rotator_control: {
 				title: "Rotatore",
