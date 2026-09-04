@@ -1250,12 +1250,12 @@ const it = {
 			format_fits: "FITS",
 			format_native: "Nativo",
 			cooling_unavailable: "N/D",
-			btn_add_to_sequence: "Aggiungi alla sequenza",
+			btn_add_to_sequence: "Aggiungi sequenza",
 			btn_loop: "Loop",
 			generate_dark_flats: "Genera Flat Scuri",
 			btn_capture_settings: "Impostazioni di Cattura",
 			info_note_title: "Pronto per la cattura",
-			info_note_body: "Scegli un preset, quindi tocca Aggiungi alla sequenza per mettere in coda uno scatto. Tocca Avvia quando la coda è pronta.",
+			info_note_body: "Scegli un preset, quindi tocca Aggiungi sequenza per mettere in coda uno scatto. Tocca Avvia quando la coda è pronta.",
 			heading_build_sequence: "Crea Sequenza",
 			heading_tools: "Strumenti",
 
@@ -1551,7 +1551,7 @@ const it = {
 			overall_progress: "Progresso complessivo",
 			sequences: "Sequenze",
 			no_sequences:
-				"Nessuna sequenza. Puoi aggiungerle toccando Aggiungi alla sequenza.",
+				"Nessuna sequenza. Puoi aggiungerle toccando Aggiungi sequenza.",
 			alert_sequence_error_body:
 				"Errore durante il salvataggio del file di sequenza",
 			alert_sequence_loading_body:
@@ -1586,9 +1586,6 @@ const it = {
 			select_target: "Seleziona obiettivo",
 			meridian_flip_tooltip: "Gradi oltre il meridiano per attivare l'inversione automatica e prevenire collisioni dell'attrezzatura. 15° = 1 ora di inseguimento oltre il meridiano. Esempio: impostare 3° significa che l'inversione avviene ~12 minuti dopo il passaggio al meridiano. La montatura non deve invertirsi automaticamente prima di questo punto. Controllare il driver della montatura per eventuali impostazioni di inversione al meridiano.",
 			mount_tooltip: "I limiti della montatura sono abilitati e la montatura verrà arrestata se i limiti vengono superati."
-		},
-		modal_add_to_seq: {
-			heading: "Aggiungi alla sequenza",
 		},
 		modal_goto_sync: {
 			heading: "Goto o Sincronizza",

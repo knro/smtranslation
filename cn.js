@@ -1183,12 +1183,12 @@
 			format_fits: "FITS",
 			format_native: "RAW",
 			cooling_unavailable: "制冷功能不可用",
-			btn_add_to_sequence: "添加到拍摄序列",
+			btn_add_to_sequence: "添加拍摄序列",
 			btn_loop: "循环",
 			generate_dark_flats: "生成暗平场",
 			btn_capture_settings: "拍摄设置",
 			info_note_title: "准备拍摄",
-			info_note_body: "选择一个预设，然后点击添加到拍摄序列以排队拍摄。队列准备好后点击开始。",
+			info_note_body: "选择一个预设，然后点击添加拍摄序列以排队拍摄。队列准备好后点击开始。",
 			heading_build_sequence: "构建拍摄序列",
 			heading_tools: "工具",
 
@@ -1502,9 +1502,6 @@
 			select_target: "选择目标",
 			meridian_flip_tooltip: "触发自动翻转以防止设备碰撞的过中天度数。15° = 过中天跟踪 1 小时。例如：设置为 3° 意味着翻转发生在过中天约 12 分钟后。您的赤道仪不得在此点之前自动翻转。请检查您的赤道仪驱动程序以了解任何中天翻转设置。",
 			mount_tooltip: "赤道仪限制已启用，超过限制时赤道仪将停止。"
-		},
-		modal_add_to_seq: {
-			heading: "添加到序列",
 		},
 		modal_goto_sync: {
 			heading: "Goto&同步",

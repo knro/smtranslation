@@ -1232,12 +1232,12 @@ const de = {
 			format_fits: "Passt",
 			format_native: "Einheimisch",
 			cooling_unavailable: "Kühlung nicht verfügbar",
-			btn_add_to_sequence: "Zur Sequenz hinzufügen",
+			btn_add_to_sequence: "Sequenz hinzufügen",
 			btn_loop: "Schleife",
 			generate_dark_flats: "Dunkel-Flats erzeugen",
 			btn_capture_settings: "Aufnahmeeinstellungen",
 			info_note_title: "Bereit zur Aufnahme",
-			info_note_body: "Wählen Sie eine Voreinstellung aus und tippen Sie dann auf Zur Sequenz hinzufügen, um eine Aufnahme einzureihen. Tippen Sie auf Start, wenn Ihre Warteschlange bereit ist.",
+			info_note_body: "Wählen Sie eine Voreinstellung aus und tippen Sie dann auf Sequenz hinzufügen, um eine Aufnahme einzureihen. Tippen Sie auf Start, wenn Ihre Warteschlange bereit ist.",
 			heading_build_sequence: "Sequenz erstellen",
 			heading_tools: "Werkzeuge",
 
@@ -1528,7 +1528,7 @@ const de = {
 			overall_progress: "Gesamtfortschritt",
 			sequences: "Sequenzen",
 			no_sequences:
-				"Keine Sequenzen. Sie können sie hinzufügen, indem Sie auf Zur Sequenz hinzufügen tippen.",
+				"Keine Sequenzen. Sie können sie hinzufügen, indem Sie auf Sequenz hinzufügen tippen.",
 			alert_sequence_error_body: "Fehler beim speichern der Sequenz-Datei",
 			alert_sequence_loading_body: "Fehler beim laden der Sequenz-Datei",
 			alert_sequence_delete_body: "Fehler beim löschen der Sequenz-Datei",
@@ -1561,9 +1561,6 @@ const de = {
 			select_target: "Select Target",
 			meridian_flip_tooltip: "Grad über den Meridian hinaus, um einen automatischen Flip auszulösen und Gerätekollisionen zu vermeiden. 15° = 1 Stunde Nachführung über den Meridian hinaus. Beispiel: Eine Einstellung von 3° bedeutet, dass der Flip ca. 12 Minuten nach dem Meridiandurchgang erfolgt. Ihre Montierung darf vor diesem Punkt nicht automatisch umschlagen. Überprüfen Sie Ihren Montierungstreiber auf Einstellungen für den Meridian-Flip.",
 			mount_tooltip: "Montierungsgrenzwerte sind aktiviert und die Montierung wird gestoppt, wenn die Grenzwerte überschritten werden."
-		},
-		modal_add_to_seq: {
-			heading: "Zur Sequenz hinzufügen",
 		},
 		modal_goto_sync: {
 			heading: "Springen oder synchronisieren",

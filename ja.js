@@ -1223,12 +1223,12 @@ const ja = {
 			format_fits: "FITS",
 			format_native: "ネイティブ",
 			cooling_unavailable: "N/A",
-			btn_add_to_sequence: "シーケンスに追加",
+			btn_add_to_sequence: "シーケンス追加",
 			btn_loop: "ループ",
 			generate_dark_flats: "ダークフラットを生成",
 			btn_capture_settings: "キャプチャ設定",
 			info_note_title: "撮影準備完了",
-			info_note_body: "プリセットを選択し、シーケンスに追加をタップして撮影をキューに追加します。キューの準備ができたら開始をタップしてください。",
+			info_note_body: "プリセットを選択し、シーケンス追加をタップして撮影をキューに追加します。キューの準備ができたら開始をタップしてください。",
 			heading_build_sequence: "シーケンスを作成",
 			heading_tools: "ツール",
 
@@ -1521,7 +1521,7 @@ const ja = {
 			overall_progress: "全体的な進捗状況",
 			sequences: "シーケンス",
 			no_sequences:
-				"シーケンスなし。 [シーケンスに追加] をタップして追加できます。",
+				"シーケンスなし。 [シーケンス追加] をタップして追加できます。",
 			alert_sequence_error_body: "シーケンスファイルの保存エラー",
 			alert_sequence_loading_body: "シーケンスファイルの読み込みエラー",
 			alert_sequence_delete_body: "シーケンスファイルの削除エラー",
@@ -1553,9 +1553,6 @@ const ja = {
 			select_target: "ターゲットを選択",
 			meridian_flip_tooltip: "機器の衝突を防ぐために自動反転をトリガーする子午線を越えた角度。15° = 子午線を越えて1時間の追跡。例：3°に設定すると、子午線通過の約12分後に反転が発生します。マウントはこのポイントの前に自動的に反転してはいけません。子午線反転の設定については、マウントのドライバを確認してください。",
 			mount_tooltip: "マウント制限が有効になっており、制限を超えるとマウントは停止します。"
-		},
-		modal_add_to_seq: {
-			heading: "シーケンスに追加",
 		},
 		modal_goto_sync: {
 			heading: "移動または同期",

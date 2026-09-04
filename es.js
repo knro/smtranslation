@@ -1250,12 +1250,12 @@ const es = {
 			format_fits: "FITS",
 			format_native: "Por defecto",
 			cooling_unavailable: "N/A",
-			btn_add_to_sequence: "Agregar a la Secuencia",
+			btn_add_to_sequence: "Agregar Secuencia",
 			btn_loop: "Bucle",
 			generate_dark_flats: "Generar Flats Oscuros",
 			btn_capture_settings: "Configuración de Captura",
 			info_note_title: "Listo para capturar",
-			info_note_body: "Elige un preajuste y luego toca Agregar a la Secuencia para poner en cola una toma. Toca Iniciar cuando tu cola esté lista.",
+			info_note_body: "Elige un preajuste y luego toca Agregar Secuencia para poner en cola una toma. Toca Iniciar cuando tu cola esté lista.",
 			heading_build_sequence: "Crear Secuencia",
 			heading_tools: "Herramientas",
 
@@ -1582,9 +1582,6 @@ const es = {
 			select_target: "Select Target",
 			meridian_flip_tooltip: "Grados pasados el meridiano para activar el cambio de meridiano automático y evitar colisiones del equipo. 15° = 1 hora de seguimiento pasado el meridiano. Ejemplo: configurar 3° significa que el cambio ocurre ~12 minutos después de cruzar el meridiano. Su montura no debe cambiar automáticamente antes de este punto. Verifique el controlador de su montura para cualquier configuración de cambio de meridiano.",
 			mount_tooltip: "Los límites de la montura están habilitados y la montura se detendrá al exceder los límites."
-		},
-		modal_add_to_seq: {
-			heading: "Agregar a la Secuencia",
 		},
 		modal_goto_sync: {
 			heading: "Ir a o Sincronizar",

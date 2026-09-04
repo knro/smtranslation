@@ -1237,12 +1237,12 @@ const fr = {
 			format_fits: "Fits",
 			format_native: "Natif",
 			cooling_unavailable: "N/A",
-			btn_add_to_sequence: "Ajouter à la séquence ",
+			btn_add_to_sequence: "Ajouter une séquence",
 			btn_loop: "Boucle",
 			generate_dark_flats: "Générer les Flats Sombres",
 			btn_capture_settings: "Paramètres de Capture",
 			info_note_title: "Prêt à capturer",
-			info_note_body: "Choisissez un préréglage, puis appuyez sur Ajouter à la séquence pour mettre une prise de vue en file d'attente. Appuyez sur Démarrer lorsque votre file d'attente est prête.",
+			info_note_body: "Choisissez un préréglage, puis appuyez sur Ajouter une séquence pour mettre une prise de vue en file d'attente. Appuyez sur Démarrer lorsque votre file d'attente est prête.",
 			heading_build_sequence: "Créer la Séquence",
 			heading_tools: "Outils",
 
@@ -1540,7 +1540,7 @@ const fr = {
 			overall_progress: "Progression Globale",
 			sequences: "Séquences",
 			no_sequences:
-				"Pas de séquences. Vous pouvez les ajouter en appuyant sur Ajouter à la séquence.",
+				"Pas de séquences. Vous pouvez les ajouter en appuyant sur Ajouter une séquence.",
 			alert_sequence_error_body:
 				"Erreur lors de l'enregistrement du fichier de séquence",
 			alert_sequence_loading_body:
@@ -1576,9 +1576,6 @@ const fr = {
 			select_target: "Sélectionner la cible",
 			meridian_flip_tooltip: "Degrés après le méridien pour déclencher le retournement automatique afin d'éviter les collisions d'équipement. 15° = 1 heure de suivi après le méridien. Exemple : un réglage de 3° signifie que le retournement se produit environ 12 minutes après le passage au méridien. Votre monture ne doit pas se retourner automatiquement avant ce point. Vérifiez le pilote de votre monture pour tout paramètre de retournement au méridien.",
 			mount_tooltip: "Les limites de la monture sont activées et la monture sera arrêtée si les limites sont dépassées."
-		},
-		modal_add_to_seq: {
-			heading: "Ajouter à la séquence",
 		},
 		modal_goto_sync: {
 			heading: "Aller ou synchroniser",

@@ -1247,12 +1247,12 @@ const en = {
 			format_fits: "FITS",
 			format_native: "Native",
 			cooling_unavailable: "N/A",
-			btn_add_to_sequence: "Add to Sequence",
+			btn_add_to_sequence: "Add Sequence",
 			btn_loop: "Loop",
 			generate_dark_flats: "Generate Dark Flats",
 			btn_capture_settings: "Capture Settings",
 			info_note_title: "Ready to capture",
-			info_note_body: "Pick a preset, then tap Add to Sequence to queue a shot. Tap Start when your queue is ready.",
+			info_note_body: "Pick a preset, then tap Add Sequence to queue a shot. Tap Start when your queue is ready.",
 			heading_build_sequence: "Build Sequence",
 			heading_tools: "Tools",
 
@@ -1552,7 +1552,7 @@ const en = {
 			overall_progress: "Overall Progress",
 			sequences: "Sequences",
 			no_sequences:
-				"No sequences. You can add them by tapping on Add to Sequence.",
+				"No sequences. You can add them by tapping on Add Sequence.",
 			alert_sequence_error_body: "Error saving sequence file",
 			alert_sequence_loading_body: "Error loading sequence file",
 			alert_sequence_delete_body: "Error deleting sequence file",
@@ -1584,9 +1584,6 @@ const en = {
 			select_target: "Select Target",
 			meridian_flip_tooltip: "Degrees past the meridian to trigger automatic flip to prevent equipment collision. 15° = 1 hour of tracking past meridian. Example: setting 3° means flip occurs ~12 minutes after meridian crossing. Your mount must not automatically flip before this point. Check your mount driver for any meridian flip settings.",
 			mount_tooltip: "Mount limited are enabled and mount shall be stopped when exceeding the limits."
-		},
-		modal_add_to_seq: {
-			heading: "Add To Sequence",
 		},
 		modal_goto_sync: {
 			heading: "Goto or Sync",
