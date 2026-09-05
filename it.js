@@ -152,6 +152,7 @@ const it = {
 		stop: "Ferma",
 		stopping: "Arresto",
 		clear: "Cancella",
+		paste: "Incolla",
 		solve: "Risolvi",
 		parked: "Parcheggiato",
 		unparked: "Non parcheggiato",
@@ -1258,7 +1259,7 @@ const it = {
 			generate_dark_flats: "Genera Flat Scuri",
 			btn_capture_settings: "Impostazioni di Cattura",
 			info_note_title: "Pronto per la cattura",
-			info_note_body: "Scegli un preset, quindi tocca Aggiungi sequenza per mettere in coda uno scatto. Tocca Avvia quando la coda è pronta.",
+			info_note_body: "Scegli un preset, specifica il numero di fotogrammi da acquisire, quindi tocca Aggiungi sequenza per metterla in coda. Tocca Avvia quando la coda è pronta.",
 			heading_build_sequence: "Crea Sequenza",
 			heading_tools: "Strumenti",
 
@@ -1554,7 +1555,7 @@ const it = {
 			overall_progress: "Progresso complessivo",
 			sequences: "Sequenze",
 			no_sequences:
-				"Nessuna sequenza. Puoi aggiungerle toccando Aggiungi sequenza.",
+				"Nessuna sequenza in coda",
 			alert_sequence_error_body:
 				"Errore durante il salvataggio del file di sequenza",
 			alert_sequence_loading_body:
@@ -1666,6 +1667,8 @@ const it = {
 			immediate: "Immediato",
 			rescheduleErrors: "Riprogramma errori",
 			no_jobs: "Nessun lavoro in coda",
+			info_note_title: "Pronto per la pianificazione",
+			info_note_body: "Seleziona un target e un file di sequenza, quindi tocca Aggiungi lavoro per metterlo in coda. Puoi anche scegliere un target dalla scheda Cielo o Obiettivi.",
 			err_loading_folders: "Errore caricamento cartelle",
 			err_loading_fits: "Errore caricamento file .fits",
 			err_delete_file: "Errore eliminazione file",

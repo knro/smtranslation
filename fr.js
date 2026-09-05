@@ -152,6 +152,7 @@ const fr = {
 		stop: "Arrêtez",
 		stopping: "Arrêt",
 		clear: "Effacer",
+		paste: "Coller",
 		solve: "Résoudre",
 		parked: "Parquée",
 		unparked: "Dé Parquée",
@@ -1245,7 +1246,7 @@ const fr = {
 			generate_dark_flats: "Générer les Flats Sombres",
 			btn_capture_settings: "Paramètres de Capture",
 			info_note_title: "Prêt à capturer",
-			info_note_body: "Choisissez un préréglage, puis appuyez sur Ajouter une séquence pour mettre une prise de vue en file d'attente. Appuyez sur Démarrer lorsque votre file d'attente est prête.",
+			info_note_body: "Choisissez un préréglage, indiquez le nombre de poses à capturer, puis appuyez sur Ajouter une séquence pour la mettre en file d'attente. Appuyez sur Démarrer lorsque votre file d'attente est prête.",
 			heading_build_sequence: "Créer la Séquence",
 			heading_tools: "Outils",
 
@@ -1543,7 +1544,7 @@ const fr = {
 			overall_progress: "Progression Globale",
 			sequences: "Séquences",
 			no_sequences:
-				"Pas de séquences. Vous pouvez les ajouter en appuyant sur Ajouter une séquence.",
+				"Pas de Séquence dans la file d'attente",
 			alert_sequence_error_body:
 				"Erreur lors de l'enregistrement du fichier de séquence",
 			alert_sequence_loading_body:
@@ -1658,6 +1659,8 @@ const fr = {
 			immediate: "Immédiat",
 			rescheduleErrors: "Erreurs de replanification",
 			no_jobs: "Pas de Tâche dans la file d'attente",
+			info_note_title: "Prêt à planifier",
+			info_note_body: "Sélectionnez une cible et un fichier de séquence, puis appuyez sur Ajouter une tâche pour la mettre en file d'attente. Vous pouvez aussi choisir une cible depuis l'onglet Ciel ou Cibles.",
 			err_loading_folders: "Erreur lors du chargement des dossiers",
 			err_loading_fits: "Erreur lors du chargement des fichiers .fits",
 			err_delete_file: "Erreur lors de la suppression du fichier",
