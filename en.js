@@ -23,6 +23,8 @@ const en = {
 		connect: "Connect",
 		disconnect: "Disconnect",
 		disconnected: "Disconnected",
+		connected: "Connected",
+		send: "Send",
 		schedule: "Schedule",
 		walk: "Walk",
 		yes: "Yes",
@@ -2240,6 +2242,19 @@ const en = {
 		action_completed: "Action completed successfully",
 		confirm: "Confirm Response",
 		narrate: "Narrate Response",
+		clear_chat: "Clear chat",
+		clear_chat_confirm:
+			"This will permanently delete your conversation history with Stella.",
+		try_asking: "Try asking",
+		show_suggestions: "Show suggestions",
+		thinking: "Stella is thinking…",
+		input_placeholder: "Ask Stella to focus, capture, or run a sequence…",
+		waiting_response: "Waiting for Stella's response…",
+		attach_image: "Attach image",
+		voice_input: "Voice input",
+		sequence_ready: "Capture sequence ready",
+		scheduler_ready: "Scheduler job ready",
+		prompts_left: "prompts left",
 		notifications: {
 			objects: "Stella has found some interesting objects",
 			failed:
