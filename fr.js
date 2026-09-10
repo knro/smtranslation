@@ -1103,6 +1103,8 @@ const fr = {
 		now: "Maintenant",
 		night: "Nuit",
 		rise: "Lever",
+		transit: "Transit",
+		set: "Coucher",
 		moon: "Lune",
 		sun: "Soleil",
 		search: "Chercher",

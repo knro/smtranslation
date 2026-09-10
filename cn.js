@@ -1059,6 +1059,8 @@
 		now: "现在",
 		night: "夜晚",
 		rise: "升起",
+		transit: "中天",
+		set: "落下",
 		moon: "月亮",
 		sun: "太阳",
 		search: "搜索",

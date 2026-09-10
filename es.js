@@ -1110,6 +1110,8 @@ const es = {
 		now: "Ahora",
 		night: "Noche",
 		rise: "Elevacion",
+		transit: "Tránsito",
+		set: "Puesta",
 		moon: "Luna",
 		sun: "Sol",
 		search: "Buscar",

@@ -1113,6 +1113,8 @@ const it = {
 		now: "Ora",
 		night: "Notte",
 		rise: "Sorgere",
+		transit: "Transito",
+		set: "Tramonto",
 		moon: "Luna",
 		sun: "Sole",
 		search: "Cerca",

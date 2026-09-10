@@ -1085,6 +1085,8 @@ const ja = {
 		now: "今",
 		night: "夜",
 		rise: "上昇",
+		transit: "南中",
+		set: "没",
 		moon: "月",
 		sun: "太陽",
 		search: "検索",

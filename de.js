@@ -1104,6 +1104,8 @@ const de = {
 		now: "Jetzt",
 		night: "Nacht",
 		rise: "Aufgang",
+		transit: "Kulmination",
+		set: "Untergang",
 		moon: "Mond",
 		sun: "Sonne",
 		search: "Suche",
