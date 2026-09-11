@@ -2363,6 +2363,7 @@
 		finalize_failed_title: "完成失败",
 		finalize_failed_body: "将结果保存到图库时发生错误。",
 		finalized_body: "处理后的图像已保存到您的图库。",
+		finalized_saved_to: "已保存至 {0}",
 		preview_before_label: "处理前",
 		preview_after_label: "处理后",
 		result_preview_label: "结果预览",

@@ -2511,6 +2511,7 @@ const en = {
 		finalize_failed_title: "Failed to finalize",
 		finalize_failed_body: "There was an error while saving the result to the library.",
 		finalized_body: "The processed image has been saved to your library.",
+		finalized_saved_to: "Saved to {0}",
 		preview_before_label: "Before",
 		preview_after_label: "After",
 		result_preview_label: "Result Preview",

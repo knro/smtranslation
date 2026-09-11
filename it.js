@@ -2521,6 +2521,7 @@ const it = {
 		finalize_failed_title: "Impossibile finalizzare",
 		finalize_failed_body: "Si è verificato un errore durante il salvataggio del risultato nella libreria.",
 		finalized_body: "L'immagine elaborata è stata salvata nella tua libreria.",
+		finalized_saved_to: "Salvato in {0}",
 		preview_before_label: "Prima",
 		preview_after_label: "Dopo",
 		result_preview_label: "Anteprima del risultato",

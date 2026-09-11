@@ -2489,6 +2489,7 @@ const fr = {
 		finalize_failed_title: "Échec de la finalisation",
 		finalize_failed_body: "Une erreur s'est produite lors de l'enregistrement du résultat dans la bibliothèque.",
 		finalized_body: "L'image traitée a été enregistrée dans votre bibliothèque.",
+		finalized_saved_to: "Enregistré dans {0}",
 		preview_before_label: "Avant",
 		preview_after_label: "Après",
 		result_preview_label: "Aperçu du résultat",

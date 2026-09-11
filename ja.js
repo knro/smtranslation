@@ -2451,6 +2451,7 @@ const ja = {
 		finalize_failed_title: "確定に失敗しました",
 		finalize_failed_body: "結果をライブラリに保存中にエラーが発生しました。",
 		finalized_body: "処理された画像がライブラリに保存されました。",
+		finalized_saved_to: "{0} に保存しました",
 		preview_before_label: "処理前",
 		preview_after_label: "処理後",
 		result_preview_label: "結果プレビュー",

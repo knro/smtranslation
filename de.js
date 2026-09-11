@@ -2469,6 +2469,7 @@ const de = {
 		finalize_failed_title: "Abschließen fehlgeschlagen",
 		finalize_failed_body: "Beim Speichern des Ergebnisses in der Bibliothek ist ein Fehler aufgetreten.",
 		finalized_body: "Das bearbeitete Bild wurde in Ihrer Bibliothek gespeichert.",
+		finalized_saved_to: "Gespeichert unter {0}",
 		preview_before_label: "Vorher",
 		preview_after_label: "Nachher",
 		result_preview_label: "Ergebnisvorschau",

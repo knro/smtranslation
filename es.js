@@ -2524,6 +2524,7 @@ const es = {
 		finalize_failed_title: "Error al finalizar",
 		finalize_failed_body: "Se produjo un error al guardar el resultado en la biblioteca.",
 		finalized_body: "La imagen procesada se ha guardado en su biblioteca.",
+		finalized_saved_to: "Guardado en {0}",
 		preview_before_label: "Antes",
 		preview_after_label: "Después",
 		result_preview_label: "Vista Previa del Resultado",
