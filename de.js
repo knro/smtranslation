@@ -812,6 +812,17 @@ const de = {
 		},
 	},
 
+	weather: {
+		clear: "Klar",
+		few_clouds: "Meist klar",
+		scattered_clouds: "Teilweise bewölkt",
+		broken_clouds: "Bewölkt",
+		shower_rain: "Regenschauer",
+		rain: "Regen",
+		snow: "Schnee",
+		mist: "Nebel",
+		thunderstorm: "Gewitter",
+	},
 	validations: {
 		username_required: "Benutzername ist obligatorisch",
 		username_tooshort: "zu Kurz mindestens 3 Zeichen erforderlich",

@@ -813,6 +813,17 @@ const es = {
 		}
 	},
 
+	weather: {
+		clear: "Despejado",
+		few_clouds: "Mayormente despejado",
+		scattered_clouds: "Parcialmente nublado",
+		broken_clouds: "Nublado",
+		shower_rain: "Chubascos",
+		rain: "Lluvia",
+		snow: "Nieve",
+		mist: "Niebla",
+		thunderstorm: "Tormenta",
+	},
 	validations: {
 		username_required: "Nombre de usuario requerido",
 		username_tooshort: "Mínimo 3 caracteres requeridos",

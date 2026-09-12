@@ -792,6 +792,17 @@ const ja = {
 		}
 	},
 
+	weather: {
+		clear: "快晴",
+		few_clouds: "ほぼ快晴",
+		scattered_clouds: "所により曇り",
+		broken_clouds: "曇り",
+		shower_rain: "にわか雨",
+		rain: "雨",
+		snow: "雪",
+		mist: "霧",
+		thunderstorm: "雷雨",
+	},
 	validations: {
 		username_required: "ユーザー名は必須です",
 		username_tooshort: "最低3文字必要です",

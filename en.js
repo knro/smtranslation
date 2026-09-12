@@ -812,6 +812,21 @@ const en = {
 			images_captured: "Images Captured",
 		}
 	},
+	// Short WMO weather-condition labels (see shared/weatherIcons.js's
+	// getWmoConditionKey) — used wherever a forecast-derived condition needs
+	// a text label next to its icon (WeatherBar.js, Targets' Observability
+	// Window forecast).
+	weather: {
+		clear: "Clear",
+		few_clouds: "Mostly Clear",
+		scattered_clouds: "Partly Cloudy",
+		broken_clouds: "Cloudy",
+		shower_rain: "Rain Showers",
+		rain: "Rain",
+		snow: "Snow",
+		mist: "Fog",
+		thunderstorm: "Thunderstorm",
+	},
 	validations: {
 		username_required: "Username is mandatory",
 		username_tooshort: "Minimum 3 characters required",

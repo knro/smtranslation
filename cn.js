@@ -782,6 +782,17 @@
 
 	},
 
+	weather: {
+		clear: "晴",
+		few_clouds: "大部晴朗",
+		scattered_clouds: "局部多云",
+		broken_clouds: "多云",
+		shower_rain: "阵雨",
+		rain: "雨",
+		snow: "雪",
+		mist: "雾",
+		thunderstorm: "雷暴",
+	},
 	validations: {
 		username_required: "请输入用户名",
 		username_tooshort: "至少需要3个字母",

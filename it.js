@@ -814,6 +814,17 @@ const it = {
 		}
 	},
 
+	weather: {
+		clear: "Sereno",
+		few_clouds: "Prevalentemente sereno",
+		scattered_clouds: "Parzialmente nuvoloso",
+		broken_clouds: "Nuvoloso",
+		shower_rain: "Rovesci",
+		rain: "Pioggia",
+		snow: "Neve",
+		mist: "Nebbia",
+		thunderstorm: "Temporale",
+	},
 	validations: {
 		username_required: "Nome utente obbligatorio",
 		username_tooshort: "Minimo 3 caratteri richiesti",
