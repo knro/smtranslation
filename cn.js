@@ -1056,6 +1056,18 @@
 		observatory_delete_submit: "天文台已成功删除",
 	},
 	targets: {
+		object_types: {
+			Stars: "恒星",
+			Planets: "行星",
+			OpenClusters: "疏散星团",
+			GlobularClusters: "球状星团",
+			GaseousNebulae: "气体星云",
+			PlanetaryNebulae: "行星状星云",
+			Galaxies: "星系",
+			Comets: "彗星",
+			Asteroids: "小行星",
+			Supernovae: "超新星",
+		},
 		now: "现在",
 		night: "夜晚",
 		rise: "升起",

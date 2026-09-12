@@ -1082,6 +1082,18 @@ const ja = {
 		observatory_delete_submit: "観測所が正常に削除されました",
 	},
 	targets: {
+		object_types: {
+			Stars: "恒星",
+			Planets: "惑星",
+			OpenClusters: "散開星団",
+			GlobularClusters: "球状星団",
+			GaseousNebulae: "散光星雲",
+			PlanetaryNebulae: "惑星状星雲",
+			Galaxies: "銀河",
+			Comets: "彗星",
+			Asteroids: "小惑星",
+			Supernovae: "超新星",
+		},
 		now: "今",
 		night: "夜",
 		rise: "上昇",

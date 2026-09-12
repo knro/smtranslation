@@ -1100,6 +1100,18 @@ const fr = {
 		observatory_delete_submit: "Observatoire supprimé avec succès",
 	},
 	targets: {
+		object_types: {
+			Stars: "Étoiles",
+			Planets: "Planètes",
+			OpenClusters: "Amas ouverts",
+			GlobularClusters: "Amas globulaires",
+			GaseousNebulae: "Nébuleuses gazeuses",
+			PlanetaryNebulae: "Nébuleuses planétaires",
+			Galaxies: "Galaxies",
+			Comets: "Comètes",
+			Asteroids: "Astéroïdes",
+			Supernovae: "Supernovæ",
+		},
 		now: "Maintenant",
 		night: "Nuit",
 		rise: "Lever",
