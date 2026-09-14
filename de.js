@@ -2113,7 +2113,10 @@ const de = {
 		tap_sky: "Tippen Sie auf die Himmelskarte, um Punkte hinzuzufügen...",
 		select_point: "Punkt auf der Himmelskarte auswählen",
 		import_file: "Datei importieren",
-		done_selecting: "Auswahl abgeschlossen"
+		done_selecting: "Auswahl abgeschlossen",
+		horizon_visible: "Anzeigen",
+		horizon_hidden: "Ausblenden",
+		horizon_hidden_caption: "Weiterhin aktiviert und in Ekos wirksam, nur auf dieser Karte ausgeblendet.",
 	},
 	device: {
 		mirror: "Externe Anzeige spiegeln",

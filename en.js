@@ -2163,7 +2163,10 @@ const en = {
 		tap_sky: "Tap on SkyMap to add points...",
 		select_point: "Select Point on SkyMap",
 		import_file: "Import File",
-		done_selecting: "Done Selecting"
+		done_selecting: "Done Selecting",
+		horizon_visible: "Show",
+		horizon_hidden: "Hide",
+		horizon_hidden_caption: "Still enabled and enforced in Ekos, only hidden from this map.",
 	},
 	device: {
 		mirror: "Mirror External Display",

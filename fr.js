@@ -2130,7 +2130,10 @@ const fr = {
 		tap_sky: "Appuyez sur la carte du ciel pour ajouter des points...",
 		select_point: "Sélectionner un point sur la carte du ciel",
 		import_file: "Importer un fichier",
-		done_selecting: "Sélection terminée"
+		done_selecting: "Sélection terminée",
+		horizon_visible: "Afficher",
+		horizon_hidden: "Masquer",
+		horizon_hidden_caption: "Toujours activé et appliqué dans Ekos, seulement masqué de cette carte.",
 	},
 	device: {
 		mirror: "Miroir d'affichage externe",

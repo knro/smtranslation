@@ -2020,7 +2020,10 @@
 		tap_sky: "在星图上点击添加点...",
 		select_point: "在星图上选择点",
 		import_file: "导入文件",
-		done_selecting: "完成选择"
+		done_selecting: "完成选择",
+		horizon_visible: "显示",
+		horizon_hidden: "隐藏",
+		horizon_hidden_caption: "仍在 Ekos 中启用并生效，只是在此地图上隐藏。",
 	},
 
 	device: {

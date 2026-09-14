@@ -2163,7 +2163,10 @@ const es = {
 		tap_sky: "Toca el mapa del cielo para agregar puntos...",
 		select_point: "Seleccionar punto en el mapa del cielo",
 		import_file: "Importar archivo",
-		done_selecting: "Selección completa"
+		done_selecting: "Selección completa",
+		horizon_visible: "Mostrar",
+		horizon_hidden: "Ocultar",
+		horizon_hidden_caption: "Sigue habilitado y aplicado en Ekos, solo oculto de este mapa.",
 	},
 	device: {
 		mirror: "Pantalla externa de espejo",

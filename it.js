@@ -2166,7 +2166,10 @@ const it = {
 		tap_sky: "Tocca la mappa celeste per aggiungere punti...",
 		select_point: "Seleziona un punto sulla mappa celeste",
 		import_file: "Importa file",
-		done_selecting: "Selezione completata"
+		done_selecting: "Selezione completata",
+		horizon_visible: "Mostra",
+		horizon_hidden: "Nascondi",
+		horizon_hidden_caption: "Ancora abilitato e applicato in Ekos, solo nascosto da questa mappa.",
 	},
 	device: {
 		mirror: "Specchia display esterno",

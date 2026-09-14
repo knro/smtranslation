@@ -2099,7 +2099,10 @@ const ja = {
 		tap_sky: "スカイマップをタップしてポイントを追加...",
 		select_point: "スカイマップでポイントを選択",
 		import_file: "ファイルをインポート",
-		done_selecting: "選択完了"
+		done_selecting: "選択完了",
+		horizon_visible: "表示",
+		horizon_hidden: "非表示",
+		horizon_hidden_caption: "Ekosでは有効かつ適用されたままで、この地図上でのみ非表示になっています。",
 	},
 	device: {
 		mirror: "外部ディスプレイをミラーリング",
