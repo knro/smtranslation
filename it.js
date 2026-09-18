@@ -2002,6 +2002,9 @@ const it = {
 			heading: "Unisciti a una rete",
 			ssid: "SSID",
 			err_wifi: "Si è verificato un problema durante la ricerca di reti Wifi.",
+			available_networks: "Reti disponibili",
+			no_networks: "Nessuna rete trovata",
+			tap_to_connect: "Tocca una rete per connetterti",
 		},
 
 		change_band_modal: {

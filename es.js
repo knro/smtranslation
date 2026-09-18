@@ -1999,6 +1999,9 @@ const es = {
 			heading: "Unirse a una Red",
 			ssid: "SSID",
 			err_wifi: "Hubo un problema al buscar redes Wifi.",
+			available_networks: "Redes disponibles",
+			no_networks: "No se encontraron redes",
+			tap_to_connect: "Toca una red para conectarte",
 		},
 
 		change_band_modal: {

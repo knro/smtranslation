@@ -1876,6 +1876,9 @@
 			heading: "加入网络",
 			ssid: "SSID",
 			err_wifi: "搜寻Wifi时遇到了问题，请重试",
+			available_networks: "可用网络",
+			no_networks: "未找到网络",
+			tap_to_connect: "点按网络以连接",
 		},
 		change_band_modal: {
 			heading: "切换频段",

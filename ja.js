@@ -1941,6 +1941,9 @@ const ja = {
 			heading: "ネットワークに参加",
 			ssid: "SSID",
 			err_wifi: "Wi-Fi ネットワークの検索中に問題が発生しました。",
+			available_networks: "利用可能なネットワーク",
+			no_networks: "ネットワークが見つかりません",
+			tap_to_connect: "ネットワークをタップして接続",
 		},
 		change_band_modal: {
 			heading: "バンドの変更",

@@ -1972,6 +1972,9 @@ const fr = {
 			ssid: "SSID",
 			err_wifi:
 				"Un problème est survenu lors de la recherche de réseaux Wi-Fi.",
+			available_networks: "Réseaux disponibles",
+			no_networks: "Aucun réseau trouvé",
+			tap_to_connect: "Appuyez sur un réseau pour vous connecter",
 		},
 		change_band_modal: {
 			heading: "Changer de bande",

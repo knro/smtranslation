@@ -1957,6 +1957,9 @@ const de = {
 			ssid: "SSID",
 			err_wifi:
 				"Bei der Suche nach WLAN-Netzwerken ist ein Problem aufgetreten.",
+			available_networks: "Verfügbare Netzwerke",
+			no_networks: "Keine Netzwerke gefunden",
+			tap_to_connect: "Tippen Sie auf ein Netzwerk, um sich zu verbinden",
 		},
 		change_band_modal: {
 			heading: "Band wechseln",

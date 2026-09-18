@@ -2002,6 +2002,9 @@ const en = {
 			heading: "Join A Network",
 			ssid: "SSID",
 			err_wifi: "There was a problem while looking for Wifi networks.",
+			available_networks: "Available Networks",
+			no_networks: "No networks found",
+			tap_to_connect: "Tap a network to connect",
 		},
 
 		change_band_modal: {
