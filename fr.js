@@ -1442,6 +1442,8 @@ const fr = {
 			heading: "MAP-FOCUS",
 			hfr: "HFR",
 			hfr_plot: "Tracé HFR",
+			measured: "Mesuré",
+			latest: "Dernier",
 			focus_in: "MAP vers l'intérieur",
 			focus_out: "MAP vers l'extérieur",
 			steps: "Pas",
@@ -1511,6 +1513,7 @@ const fr = {
 		},
 		collapse_guide: {
 			total_rms_plot: "RMS",
+			drift_plot: "Dérive de guidage",
 			scope_primary: "Primaire",
 			guidingRate: "Taux de guidage",
 			guider: "Guider",

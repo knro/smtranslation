@@ -1464,6 +1464,8 @@ const en = {
 			heading: "Focus",
 			hfr: "HFR",
 			hfr_plot: "HFR Plot",
+			measured: "Measured",
+			latest: "Latest",
 			focus_in: "In",
 			focus_out: "Out",
 			steps: "Steps",
@@ -1534,6 +1536,7 @@ const en = {
 		},
 		collapse_guide: {
 			total_rms_plot: "RMS",
+			drift_plot: "Guide Drift",
 			scope_primary: "Primary",
 			guidingRate: "Guiding Rate",
 			guider: "Guider",

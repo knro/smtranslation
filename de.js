@@ -1430,6 +1430,8 @@ const de = {
 			heading: "Fokus",
 			hfr: "HFR",
 			hfr_plot: "HFR-Plot",
+			measured: "Gemessen",
+			latest: "Neuester",
 			focus_in: "Focus ein",
 			focus_out: "Focus aus",
 			steps: "Schritte",
@@ -1499,6 +1501,7 @@ const de = {
 		},
 		collapse_guide: {
 			total_rms_plot: "RMS",
+			drift_plot: "Guiding-Drift",
 			scope_primary: "Primär",
 			guidingRate: "Richtpreis",
 			guider: "Zur Führung",

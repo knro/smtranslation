@@ -1452,6 +1452,8 @@ const es = {
 			heading: "Foco",
 			hfr: "HFR",
 			hfr_plot: "Trama HFR",
+			measured: "Medido",
+			latest: "Último",
 			focus_in: "Dentro",
 			focus_out: "Fuera",
 			steps: "Pasos",
@@ -1521,6 +1523,7 @@ const es = {
 		},
 		collapse_guide: {
 			total_rms_plot: "RMS",
+			drift_plot: "Deriva de guiado",
 			scope_primary: "Primario",
 			guidingRate: "Tasa de guiado",
 			guider: "Guía",

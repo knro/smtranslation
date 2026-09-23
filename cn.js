@@ -1377,6 +1377,8 @@
 			heading: "调焦",
 			hfr: "半通量半径（HFR）",
 			hfr_plot: "HFR 曲线",
+			measured: "已测量",
+			latest: "最新",
 			focus_in: "向内调焦",
 			focus_out: "向外调焦",
 			steps: "步数",
@@ -1444,6 +1446,7 @@
 		},
 		collapse_guide: {
 			total_rms_plot: "RMS 曲线",
+			drift_plot: "导星漂移",
 			scope_primary: "主镜",
 			guidingRate: "导星速率",
 			guider: "导星器",
