@@ -1423,6 +1423,8 @@ const ja = {
 			heading: "フォーカス",
 			hfr: "HFR",
 			hfr_plot: "HFR プロット",
+			measured: "測定値",
+			latest: "最新",
 			focus_in: "イン",
 			focus_out: "アウト",
 			steps: "ステップ",
@@ -1492,6 +1494,7 @@ const ja = {
 		},
 		collapse_guide: {
 			total_rms_plot: "RMS",
+			drift_plot: "ガイドドリフト",
 			scope_primary: "主鏡",
 			guidingRate: "ガイド率",
 			guider: "ガイダー",

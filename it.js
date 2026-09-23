@@ -1451,6 +1451,8 @@ const it = {
 			heading: "Messa a fuoco",
 			hfr: "HFR",
 			hfr_plot: "Grafico HFR",
+			measured: "Misurato",
+			latest: "Ultimo",
 			focus_in: "In",
 			focus_out: "Out",
 			steps: "Passi",
@@ -1521,6 +1523,7 @@ const it = {
 		},
 		collapse_guide: {
 			total_rms_plot: "RMS",
+			drift_plot: "Deriva di guida",
 			scope_primary: "Primario",
 			guidingRate: "Frequenza guida",
 			guider: "Guida",
