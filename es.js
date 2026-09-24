@@ -1594,6 +1594,9 @@ const es = {
 			east: "Este",
 			mount_rotation: "Rotacion Montura",
 			refresh: "Refresco",
+			getting_closer: "Acercándose",
+			moving_away: "Alejándose",
+			waiting_for_update: "Esperando la próxima actualización",
 			fov_error:
 				"Desactivado: el campo de vision FOV debe de ser de 30 Minutos de arco o mas.",
 			polar_error: "Error en la Polar: ",

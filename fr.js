@@ -1584,6 +1584,9 @@ const fr = {
 			east: "Est",
 			mount_rotation: "Rotation de la Monture",
 			refresh: "Rafraîchir",
+			getting_closer: "Vous vous rapprochez",
+			moving_away: "Vous vous éloignez",
+			waiting_for_update: "En attente de la prochaine mise à jour",
 			fov_error:
 				"Désactivé: le champ de vision doit être de 30 arcmins ou plus.",
 			polar_error: "Erreur polaire :",

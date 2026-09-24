@@ -1572,6 +1572,9 @@ const de = {
 			east: "Osten",
 			mount_rotation: "Rotation montieren",
 			refresh: "Aktualisierung",
+			getting_closer: "Näher dran",
+			moving_away: "Entfernt sich",
+			waiting_for_update: "Warte auf nächste Aktualisierung",
 			fov_error:
 				"Deaktiviert: Das Sichtfeld muss 30 Bogenminuten oder breiter sein.",
 			polar_error: "Polarer Fehler :",
