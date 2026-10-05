@@ -1067,6 +1067,10 @@ const ja = {
 			kstars_profile: "KStarsプロファイル",
 			not_connected_to_kstars:
 				"機器プロファイルが検出されません。KStarsがEkosLiveに接続されていることを確認してください。",
+			status_unlinked: "KStars がリンクされていません",
+			active_unlinked_title: "この KStars はどの観測所にもリンクされていません",
+			move_confirm: "この KStars は現在 {0} を動かしています。移動すると {0} のリンクが解除され、{0} を使用中のユーザーはアクセスできなくなります。",
+			linked_other_account: "この KStars は別のアカウントの観測所にリンクされています。先にその所有者が接続を解除する必要があります。",
 			stream_access: "ストリームアクセス",
 			public_access: "公開スナップショット",
 			video_cameras: "ビデオカメラ",

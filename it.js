@@ -1095,6 +1095,10 @@ const it = {
 			kstars_profile: "Profilo KStars",
 			not_connected_to_kstars:
 				"Nessun profilo attrezzatura rilevato. Assicurati che KStars sia connesso a EkosLive.",
+			status_unlinked: "Nessun KStars collegato",
+			active_unlinked_title: "Questo KStars non è collegato a nessun osservatorio",
+			move_confirm: "Questo KStars gestisce {0} in questo momento. Spostarlo scollega {0} e chi sta usando {0} ne perde l'accesso.",
+			linked_other_account: "Questo KStars è collegato a un osservatorio di un altro account. Il suo proprietario deve prima scollegarlo.",
 			stream_access: "Accesso allo Stream",
 			public_access: "Istantanee Pubbliche",
 			video_cameras: "Videocamere",

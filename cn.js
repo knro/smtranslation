@@ -1041,6 +1041,10 @@
 			kstars_profile: "KStars 配置文件",
 			not_connected_to_kstars:
 				"未检测到设备配置文件。请确保 KStars 已连接到 EkosLive。",
+			status_unlinked: "未关联 KStars",
+			active_unlinked_title: "此 KStars 未关联任何观测站点",
+			move_confirm: "此 KStars 当前正在运行 {0}。移动后，{0} 将被取消关联，正在使用 {0} 的用户将失去访问权限。",
+			linked_other_account: "此 KStars 已关联到其他账户的观测站点。需要该观测站点的所有者先在那里断开连接。",
 			stream_access: "流媒体访问",
 			public_access: "公开快照",
 			no_cameras_available: "无可用摄像头。请连接以访问您的摄像头。",
