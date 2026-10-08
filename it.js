@@ -718,7 +718,7 @@ const it = {
 		pulse_dither: "Se selezionato, la quantità di dithering viene generata casualmente, vengono inviati impulsi, ma la quantità di dithering dei pixel risultante non viene applicata, quindi viene inviato solo un impulso di dither. Questo è più veloce e consigliato poiché la quantità di dithering è comunque casuale. È necessario quando è richiesto il dithering 2D ma la guida viene eseguita solo su un asse.",
 		abort_autoguide: "Se selezionato, la guida automatica viene interrotta quando il dithering fallisce. Altrimenti, la guida riprende normalmente.",
 		perform_dithering: "Eseguire il dithering quando non si sta guidando",
-		stream: "Abilitare la modalità di guida in streaming. Quando selezionato e la fotocamera supporta lo streaming video, il modulo di guida acquisisce i fotogrammi tramite un flusso video continuo anziché esposizioni singole. Ciò riduce significativamente il sovraccarico per fotogramma e consente frequenze di guida più elevate (ad esempio, 2-5 Hz) richieste dalle unità armoniche. Non compatibile con la sottrazione dei fotogrammi scuri.",
+		stream: "Modalità di acquisizione della guida. OFF acquisisce singole esposizioni di guida. 8 bit e 16 bit acquisiscono i fotogrammi da un flusso video continuo, se la fotocamera supporta lo streaming video. Lo streaming elimina il sovraccarico per fotogramma e consente frequenze di guida più elevate (ad esempio 2-5 Hz) utili alle montature armoniche. 16 bit mantiene la profondità completa del sensore; 8 bit usa meno banda. Salvato per treno ottico e non modificabile durante la guida.",
 
 		reset_ekoslive: "Rigenera tutte le immagini e miniature di EkosLive",
 		reset_desktop: "Ripristina la configurazione del desktop Plasma alle impostazioni predefinite",

@@ -714,7 +714,7 @@ const en = {
 		pulse_dither: "If checked, dithering amount is randomly generated, pulses are sent, but the resultant pixel dithering amount is not enforced so only the one dither pulse is sent. This is quicker, and recommended as dither amount is random anyway. It is necessary when 2-D dither is required but guiding is only done in one axis.",
 		abort_autoguide: "If checked, autoguiding is aborted when dithering fails. Otherwise, guiding resumes normally.",
 		perform_dithering: "Perform dithering, When not guiding",
-		stream: "Enable streaming guide mode. When checked and the camera supports video streaming, the guide module captures frames via acontinuous video stream instead of individual exposures. This significantly reduces per-frame overhead and enables higher guiding frequencies (e.g. 2-5 Hz) required by harmonic drives. Not compatible with dark-frame subtraction.",
+		stream: "Guide capture mode. OFF captures individual guide exposures. 8-bit and 16-bit capture frames from a continuous video stream instead, if the camera supports video streaming. Streaming removes per-frame overhead and enables higher guiding frequencies (e.g. 2-5 Hz) that harmonic drives benefit from. 16-bit keeps the full sensor depth; 8-bit uses less bandwidth. Saved per optical train and cannot be changed while guiding.",
 
 		reset_ekoslive: "Regenerate all EkosLive images and thumbnails",
 		reset_desktop: "Reset Plasma desktop configuration to defaults",
