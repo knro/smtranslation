@@ -378,7 +378,9 @@ const en = {
 		complete_tour_guide: "Complete Tour Guide",
 		file_stored: "File Stored",
 
-		artificial_horizon: "Create an artificial horizon profile by selecting points on the sky map"
+		artificial_horizon: "Create an artificial horizon profile by selecting points on the sky map",
+		auto_polar_align_description:
+			"Complete polar alignment using an automatic polar alignment device.",
 	},
 	tourGuide: {
 		tour_guide: "Tour Guide",

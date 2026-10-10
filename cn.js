@@ -380,7 +380,9 @@
 		no_description: "暂无描述",
 		complete_tour_guide: "完成入门导览",
 		file_stored: "文件已存储",
-		artificial_horizon: "在星图上选取点位，创建人工地平线配置"
+		artificial_horizon: "在星图上选取点位，创建人工地平线配置",
+		auto_polar_align_description:
+			"使用自动极轴校准设备完成极轴校准。",
 	},
 	tourGuide: {
 		tour_guide: "指导",

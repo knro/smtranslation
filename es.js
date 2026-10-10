@@ -382,7 +382,9 @@ const es = {
 		no_description: "Sin descripción",
 		complete_tour_guide: "Completar guía turística",
 		file_stored: "Archivo almacenado",
-		artificial_horizon: "Crear un perfil de horizonte artificial seleccionando puntos en el mapa del cielo"
+		artificial_horizon: "Crear un perfil de horizonte artificial seleccionando puntos en el mapa del cielo",
+		auto_polar_align_description:
+			"Completar la alineación polar con un dispositivo de alineación polar automática.",
 	},
 	tourGuide: {
 		tour_guide: "Guía turístico",

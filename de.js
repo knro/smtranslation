@@ -382,6 +382,8 @@ const de = {
 		complete_tour_guide: "Tour Guide abschließen",
 		file_stored: "Datei gespeichert",
 		artificial_horizon: "Ein künstliches Horizontprofil durch Auswahl von Punkten auf der Sternkarte erstellen",
+		auto_polar_align_description:
+			"Polausrichtung mit einem automatischen Polausrichtungsgerät abschließen.",
 	},
 	tourGuide: {
 		tour_guide: "Tour Guide",

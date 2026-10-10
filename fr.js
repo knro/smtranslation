@@ -379,7 +379,9 @@ const fr = {
 		no_description: "Aucune description",
 		complete_tour_guide: "Terminer le guide touristique",
 		file_stored: "Fichier stocké",
-		artificial_horizon: "Créer un profil d'horizon artificiel en sélectionnant des points sur la carte du ciel"
+		artificial_horizon: "Créer un profil d'horizon artificiel en sélectionnant des points sur la carte du ciel",
+		auto_polar_align_description:
+			"Terminer l'alignement polaire à l'aide d'un dispositif d'alignement polaire automatique.",
 	},
 	tourGuide: {
 		tour_guide: "Guide touristique",
