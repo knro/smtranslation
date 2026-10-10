@@ -999,6 +999,12 @@ const es = {
 
 		port_selector: {
 			connect_all: "Conectar Todo",
+			connecting: "Conectando {0} ({1} de {2})",
+			trying_port: "Probando el puerto {0}",
+			failed_title: "No se pudo conectar: {0}",
+			failed_message: "La búsqueda automática está desactivada, así que cada dispositivo solo se probó en puertos libres. Revisa sus puertos y pulsa Conectar Todo para reintentar, o Continuar para conectar el resto del equipo.",
+			cancelled: "Conectar Todo cancelado",
+			continue: "Continuar",
 		},
 
 		manually_add_device: {

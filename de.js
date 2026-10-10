@@ -997,6 +997,12 @@ const de = {
 		},
 		port_selector: {
 			connect_all: "Alle verbinden",
+			connecting: "Verbinde {0} ({1} von {2})",
+			trying_port: "Versuche Port {0}",
+			failed_title: "Verbindung fehlgeschlagen: {0}",
+			failed_message: "Die automatische Suche ist aus, daher wurde jedes Gerät nur an Ports versucht, die kein anderes Gerät belegt. Prüfe die Ports und tippe erneut auf „Alle verbinden“ oder auf „Weiter“, um die übrige Ausrüstung zu verbinden.",
+			cancelled: "„Alle verbinden“ abgebrochen",
+			continue: "Weiter",
 		},
 		manually_add_device: {
 			heading: "Gerät manuell hinzufügen",

@@ -958,6 +958,12 @@
 		},
 		port_selector: {
 			connect_all: "连接所有",
+			connecting: "正在连接 {0}（{1}/{2}）",
+			trying_port: "正在尝试端口 {0}",
+			failed_title: "无法连接：{0}",
+			failed_message: "自动搜索已关闭，因此每个设备只在未被其他设备占用的端口上尝试。请检查端口后点击“连接所有”重试，或点击“继续”连接其余设备。",
+			cancelled: "已取消“连接所有”",
+			continue: "继续",
 		},
 		manually_add_device: {
 			heading: "手动添加设备",

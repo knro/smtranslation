@@ -1003,6 +1003,12 @@ const en = {
 
 		port_selector: {
 			connect_all: "Connect All",
+			connecting: "Connecting {0} ({1} of {2})",
+			trying_port: "Trying port {0}",
+			failed_title: "Could not connect: {0}",
+			failed_message: "Auto Search is off, so each device was tried only on ports no other device had claimed. Check their ports and press Connect All to retry, or Continue to connect the rest of your equipment.",
+			cancelled: "Connect All cancelled",
+			continue: "Continue",
 		},
 
 		manually_add_device: {

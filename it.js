@@ -1003,6 +1003,12 @@ const it = {
 
 		port_selector: {
 			connect_all: "Connetti tutto",
+			connecting: "Connessione di {0} ({1} di {2})",
+			trying_port: "Provo la porta {0}",
+			failed_title: "Impossibile connettere: {0}",
+			failed_message: "La ricerca automatica è disattivata, quindi ogni dispositivo è stato provato solo sulle porte libere. Controlla le porte e premi Connetti tutto per riprovare, oppure Continua per connettere il resto dell'attrezzatura.",
+			cancelled: "Connetti tutto annullato",
+			continue: "Continua",
 		},
 
 		manually_add_device: {

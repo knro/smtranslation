@@ -996,6 +996,12 @@ const fr = {
 		},
 		port_selector: {
 			connect_all: "Tout connecter",
+			connecting: "Connexion de {0} ({1} sur {2})",
+			trying_port: "Essai du port {0}",
+			failed_title: "Connexion impossible : {0}",
+			failed_message: "La recherche automatique est désactivée : chaque appareil n'a été essayé que sur les ports libres. Vérifiez leurs ports et appuyez sur « Tout connecter » pour réessayer, ou sur « Continuer » pour connecter le reste de l'équipement.",
+			cancelled: "« Tout connecter » annulé",
+			continue: "Continuer",
 		},
 		manually_add_device: {
 			heading: "Ajouter manuellement un appareil",

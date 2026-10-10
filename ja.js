@@ -977,6 +977,12 @@ const ja = {
 
 		port_selector: {
 			connect_all: "すべて接続",
+			connecting: "{0} を接続中（{1}/{2}）",
+			trying_port: "ポート {0} を試行中",
+			failed_title: "接続できませんでした: {0}",
+			failed_message: "自動検索はオフのため、各デバイスは他のデバイスが使用していないポートでのみ試行されました。ポートを確認して「すべて接続」で再試行するか、「続行」で残りの機器を接続してください。",
+			cancelled: "「すべて接続」をキャンセルしました",
+			continue: "続行",
 		},
 
 		manually_add_device: {
