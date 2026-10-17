@@ -2192,6 +2192,8 @@ const it = {
 			overlap: "Sovrapposizione",
 		},
 		tooltip_push_assistant_title: "Assistente Push-To",
+		alert_compass_unavailable:
+			"La modalità bussola non è disponibile: questo dispositivo non ha un sensore di orientamento utilizzabile (magnetometro). Sposta la mappa manualmente.",
 
 		tooltip_push_assistant:
 			"Questa funzione ti aiuta a puntare manualmente la tua montatura altazimutale utilizzando una fotocamera. Seleziona semplicemente l'oggetto o la posizione desiderata sulla mappa celeste, quindi avvia il processo di risoluzione delle lastre. L'app ti guiderà nella regolazione iterativa della montatura fino al centraggio dell'obiettivo. Puoi regolare il ritardo tra le risoluzioni delle lastre per darti il ​​tempo sufficiente per spostare la montatura senza causare immagini sfocate.",

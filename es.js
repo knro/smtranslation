@@ -2190,6 +2190,8 @@ const es = {
 			overlap: "Overlap",
 		},
 		tooltip_push_assistant_title: "Asistente push-to",
+		alert_compass_unavailable:
+			"El modo brújula no está disponible: este dispositivo no tiene un sensor de orientación utilizable (magnetómetro). Desplace el mapa manualmente.",
 		tooltip_push_assistant:
 			"Esta función te ayuda a apuntar manualmente tu montura Alt-Az con una cámara. Simplemente selecciona el objeto o la ubicación que desees en el Mapa del Cielo e inicia el proceso de resolución de placa. La aplicación te guiará para ajustar iterativamente tu montura hasta que el objetivo esté centrado. Puedes ajustar el tiempo entre resoluciones de placa para tener tiempo suficiente para mover la montura sin que las imágenes salgan borrosas.",
 		import_horizon: "Importa un archivo de horizonte de KStars (.txt) o CSV (.csv), o edita los puntos manualmente. Los puntos definen obstrucciones (edificios, árboles, terreno).",

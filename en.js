@@ -2190,6 +2190,8 @@ const en = {
 			overlap: "Overlap",
 		},
 		tooltip_push_assistant_title: "Push-To Assistant",
+		alert_compass_unavailable:
+			"Compass mode is not available: this device has no usable orientation sensor (magnetometer). Pan the map manually instead.",
 		tooltip_push_assistant:
 			"This feature helps you manually aim your Alt-Az mount using a camera. Simply select your desired object or location on the Sky Map, then start the plate-solving process. The app will guide you to iteratively adjust your mount until the target is centered. You can adjust the delay between plate-solves to give yourself enough time to move the mount without causing blurry images.",
 		import_horizon: "Import a KStars horizon file (.txt) or CSV (.csv), or edit points manually. Points define obstructions (buildings, trees, terrain).",
