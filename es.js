@@ -130,6 +130,9 @@ const es = {
 		new_folder: "nueva carpeta",
 		create_new_folder: "crear_nueva_carpeta",
 		empty_folder: "carpeta vacía",
+		new_folder_button: "Nueva carpeta",
+		n_selected: "{0} seleccionado(s)",
+		alert_delete_files_body: "¿Eliminar {0} archivo(s)? Esta acción no se puede deshacer.",
 
 		train: "Tren",
 		no_data_found: "Datos no encontrados",
@@ -1752,6 +1755,8 @@ const es = {
 			j2000: "J2000",
 			add_sequences: "Agregar secuencias",
 			fits: "FITS File",
+			reference_image: "Imagen de referencia",
+			select_image: "Seleccionar imagen",
 			priority: "Prioridad",
 			profile: "Perfil",
 			generalSettings: "Configuración General",

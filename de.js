@@ -130,6 +130,9 @@ const de = {
 		new_folder: "Neuer Ordnername",
 		create_new_folder: "erstelle neuen Ordner in",
 		empty_folder: "Ordner ist leer",
+		new_folder_button: "Neuer Ordner",
+		n_selected: "{0} ausgewählt",
+		alert_delete_files_body: "{0} Datei(en) löschen? Dies kann nicht rückgängig gemacht werden.",
 
 		train: "Optischer Zug",
 		no_data_found: "keine Daten gefunden",
@@ -1733,6 +1736,8 @@ const de = {
 			j2000: "J2000",
 			add_sequences: "Add Sequences",
 			fits: "FITS Datei",
+			reference_image: "Referenzbild",
+			select_image: "Bild auswählen",
 			priority: "Priorität",
 			profile: "Profil",
 			generalSettings: "Allgemeine Einstellungen",

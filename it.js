@@ -129,6 +129,9 @@ const it = {
 		new_folder: "Inserisci nuovo nome cartella",
 		create_new_folder: "Crea nuova cartella in",
 		empty_folder: "Cartella vuota",
+		new_folder_button: "Nuova cartella",
+		n_selected: "{0} selezionati",
+		alert_delete_files_body: "Eliminare {0} file? L'operazione non può essere annullata.",
 
 		train: "Treno",
 		no_data_found: "Nessun dato trovato",
@@ -1755,6 +1758,8 @@ const it = {
 			j2000: "J2000",
 			add_sequences: "Aggiungi sequenze",
 			fits: "File FITS",
+			reference_image: "Immagine di riferimento",
+			select_image: "Seleziona immagine",
 			priority: "Priorità",
 			generalSettings: "Impostazioni generali",
 			startupConditions: "Avvio lavoro",

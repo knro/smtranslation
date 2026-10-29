@@ -130,6 +130,9 @@ const fr = {
 		new_folder: "Entrer le nom du nouveau dossier",
 		create_new_folder: "Créer un nouveau dossier dans",
 		empty_folder: "Le dossier est vide",
+		new_folder_button: "Nouveau dossier",
+		n_selected: "{0} sélectionné(s)",
+		alert_delete_files_body: "Supprimer {0} fichier(s) ? Cette action est irréversible.",
 
 		train: "Train optique",
 		no_data_found: "Aucune donnée trouvée",
@@ -1747,6 +1750,8 @@ const fr = {
 			j2000: "J2000",
 			add_sequences: "Ajouter des séquences",
 			fits: "Fichier FITS",
+			reference_image: "Image de référence",
+			select_image: "Choisir une image",
 			priority: "Priorité",
 			generalSettings: "Paramètres généraux",
 			profile: "Profil",

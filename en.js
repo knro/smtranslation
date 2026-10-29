@@ -130,6 +130,9 @@ const en = {
 		new_folder: "Enter new folder name",
 		create_new_folder: "Create new folder in",
 		empty_folder: "Folder is Empty",
+		new_folder_button: "New folder",
+		n_selected: "{0} selected",
+		alert_delete_files_body: "Delete {0} file(s)? This cannot be undone.",
 
 		train: "Train",
 		no_data_found: "No data found",
@@ -1764,6 +1767,8 @@ const en = {
 			j2000: "J2000",
 			add_sequences: "Add Sequences",
 			fits: "FITS File",
+			reference_image: "Reference image",
+			select_image: "Select image",
 			priority: "Priority",
 			generalSettings: "General Settings",
 			startupConditions: "Job Startup",
