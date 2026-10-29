@@ -1006,6 +1006,7 @@ const ja = {
 			remote_subscribe_note: "どこからでも StellarMate にアクセスできます。リモートアクセスは EkosLive Pro と Ultimate に含まれます。",
 			remote_subscribe: "購読する",
 			remote_no_devices: "アカウントにリンクされた StellarMate はまだありません。",
+			remote_unavailable: "リモートデバイスでは利用できません。",
 			remote_connecting: "接続中...",
 			remote_ready: "準備完了",
 			remote_offline: "オフラインです。デバイスでリモートアクセスを有効にしてください。",

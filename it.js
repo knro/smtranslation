@@ -1031,6 +1031,7 @@ const it = {
 			remote_subscribe_note: "Raggiungi il tuo StellarMate da ovunque. L'accesso remoto è incluso in EkosLive Pro e Ultimate.",
 			remote_subscribe: "Abbonati",
 			remote_no_devices: "Nessuno StellarMate è ancora collegato al tuo account.",
+			remote_unavailable: "Non disponibile su un dispositivo remoto.",
 			remote_connecting: "Connessione...",
 			remote_ready: "Pronto",
 			remote_offline: "Offline. Attiva l'accesso remoto sul dispositivo.",

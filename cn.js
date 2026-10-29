@@ -984,6 +984,7 @@
 			remote_subscribe_note: "随时随地访问您的 StellarMate。远程访问包含在 EkosLive Pro 和 Ultimate 中。",
 			remote_subscribe: "订阅",
 			remote_no_devices: "您的账户尚未关联任何 StellarMate。",
+			remote_unavailable: "远程设备上不可用。",
 			remote_connecting: "正在连接...",
 			remote_ready: "就绪",
 			remote_offline: "离线。请在设备上开启远程访问。",

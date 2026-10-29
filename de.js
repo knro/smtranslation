@@ -1023,6 +1023,7 @@ const de = {
 			remote_subscribe_note: "Erreichen Sie Ihren StellarMate von überall. Fernzugriff ist in EkosLive Pro und Ultimate enthalten.",
 			remote_subscribe: "Abonnieren",
 			remote_no_devices: "Mit Ihrem Konto ist noch kein StellarMate verknüpft.",
+			remote_unavailable: "Auf einem entfernten Gerät nicht verfügbar.",
 			remote_connecting: "Verbinde...",
 			remote_ready: "Bereit",
 			remote_offline: "Offline. Aktivieren Sie den Fernzugriff auf dem Gerät.",
