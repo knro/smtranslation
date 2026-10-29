@@ -130,6 +130,9 @@
 		new_folder: "输入新文件夹名称",
 		create_new_folder: "在此处创建新文件夹",
 		empty_folder: "文件夹为空",
+		new_folder_button: "新建文件夹",
+		n_selected: "已选择 {0} 项",
+		alert_delete_files_body: "删除 {0} 个文件？此操作无法撤销。",
 
 		train: "光路",
 		no_data_found: "未找到数据",
@@ -1663,6 +1666,8 @@
 			j2000: "J2000",
 			add_sequences: "添加序列",
 			fits: "FITS 文件",
+			reference_image: "参考图像",
+			select_image: "选择图像",
 			priority: "优先级",
 			generalSettings: "通用设置",
 			profile: "设备配置",

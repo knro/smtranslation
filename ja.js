@@ -130,6 +130,9 @@ const ja = {
 		new_folder: "新しいフォルダ名を入力",
 		create_new_folder: "新しいフォルダを作成",
 		empty_folder: "フォルダは空です",
+		new_folder_button: "新しいフォルダ",
+		n_selected: "{0} 件選択",
+		alert_delete_files_body: "{0} 件のファイルを削除しますか？この操作は元に戻せません。",
 
 		train: "光学系",
 		no_data_found: "データなし",
@@ -1714,6 +1717,8 @@ const ja = {
 			j2000: "J2000",
 			add_sequences: "シーケンスを追加",
 			fits: "FITSファイル",
+			reference_image: "参照画像",
+			select_image: "画像を選択",
 			priority: "優先順位",
 			generalSettings: "一般設定",
 			profile: "プロファイル",
