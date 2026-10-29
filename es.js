@@ -1024,7 +1024,6 @@ const es = {
 			auto_scanned: "Escaneado automatico",
 			manually_added: "Agregado manualmente",
 			remote_devices: "Dispositivos remotos",
-			remote_devices_note: "Para suscriptores de EkosLive Pro y Ultimate",
 			remote_subscribe_note: "Accede a tu StellarMate desde cualquier lugar. El acceso remoto viene con EkosLive Pro y Ultimate.",
 			remote_subscribe: "Suscribirse",
 			remote_no_devices: "Todavía no hay ningún StellarMate vinculado a tu cuenta.",

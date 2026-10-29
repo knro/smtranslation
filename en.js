@@ -1028,7 +1028,6 @@ const en = {
 			auto_scanned: "Auto Scanned",
 			manually_added: "Manually Added",
 			remote_devices: "Remote Devices",
-			remote_devices_note: "For EkosLive Pro and Ultimate subscribers",
 			remote_subscribe_note: "Reach your StellarMate from anywhere. Remote access comes with EkosLive Pro and Ultimate.",
 			remote_subscribe: "Subscribe",
 			remote_no_devices: "No StellarMate is linked to your account yet.",

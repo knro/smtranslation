@@ -981,7 +981,6 @@
 			auto_scanned: "自动扫描",
 			manually_added: "手动添加",
 			remote_devices: "远程设备",
-			remote_devices_note: "适用于 EkosLive Pro 和 Ultimate 订阅用户",
 			remote_subscribe_note: "随时随地访问您的 StellarMate。远程访问包含在 EkosLive Pro 和 Ultimate 中。",
 			remote_subscribe: "订阅",
 			remote_no_devices: "您的账户尚未关联任何 StellarMate。",

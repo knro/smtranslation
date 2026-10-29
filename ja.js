@@ -1003,7 +1003,6 @@ const ja = {
 			auto_scanned: "自動スキャンされました",
 			manually_added: "手動で追加",
 			remote_devices: "リモートデバイス",
-			remote_devices_note: "EkosLive Pro と Ultimate の購読ユーザー向け",
 			remote_subscribe_note: "どこからでも StellarMate にアクセスできます。リモートアクセスは EkosLive Pro と Ultimate に含まれます。",
 			remote_subscribe: "購読する",
 			remote_no_devices: "アカウントにリンクされた StellarMate はまだありません。",
