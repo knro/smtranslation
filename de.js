@@ -2625,6 +2625,20 @@ const de = {
 		hardware_title: "Welche Hardwareplattformen verwenden Sie?",
 		imaging_title: "Was fotografieren Sie gerne?",
 	},
+	troubleshoot: {
+		title: "Fehlerbehebung",
+		align: "Ausrichten",
+		failed: "Fehlgeschlagen",
+		apply: "Anwenden",
+		done: "Fertig",
+		dismiss: "Verwerfen",
+		diagnose: "Erneut prüfen",
+		diagnosing: "Prüfe...",
+		noIssues: "Kein Problem gefunden",
+		applied: "Angewendet",
+		refused: "Nicht angewendet",
+		download: "Download: {0}",
+	},
 	ekoslive: {
 		info: {
 			drag: "Ziehen Sie eine Datei hierher oder klicken Sie, um eine Datei auszuwählen",

@@ -2519,6 +2519,20 @@
 		hardware_title: "您使用的是哪些硬件平台？",
 		imaging_title: "您喜欢拍摄什么？",
 	},
+	troubleshoot: {
+		title: "故障排除",
+		align: "对准",
+		failed: "失败",
+		apply: "应用",
+		done: "完成",
+		dismiss: "忽略",
+		diagnose: "重新检查",
+		diagnosing: "正在检查...",
+		noIssues: "未发现问题",
+		applied: "已应用",
+		refused: "未应用",
+		download: "下载：{0}",
+	},
 	ekoslive: {
 		info: {
 			drag: "将文件拖放到此处，或点击以选择文件",
