@@ -2758,6 +2758,20 @@ const it = {
 		hardware_title: "Quali piattaforme hardware usi?",
 		imaging_title: "Cosa ti piace fotografare?",
 	},
+	troubleshoot: {
+		title: "Risoluzione dei problemi",
+		align: "Allinea",
+		failed: "Non riuscito",
+		apply: "Applica",
+		done: "Fatto",
+		dismiss: "Ignora",
+		diagnose: "Controlla di nuovo",
+		diagnosing: "Controllo...",
+		noIssues: "Nessun problema trovato",
+		applied: "Applicato",
+		refused: "Non applicato",
+		download: "Scarica: {0}",
+	},
 	ekoslive: {
 		info: {
 			drag: "Trascina e rilascia un file qui, o clicca per selezionare un file",

@@ -2726,6 +2726,20 @@ const fr = {
 		hardware_title: "Quelles plateformes matérielles utilisez-vous ?",
 		imaging_title: "Qu'aimez-vous imager ?",
 	},
+	troubleshoot: {
+		title: "Dépannage",
+		align: "Aligner",
+		failed: "Échec",
+		apply: "Appliquer",
+		done: "Terminé",
+		dismiss: "Ignorer",
+		diagnose: "Vérifier à nouveau",
+		diagnosing: "Vérification...",
+		noIssues: "Aucun problème détecté",
+		applied: "Appliqué",
+		refused: "Non appliqué",
+		download: "Télécharger : {0}",
+	},
 	ekoslive: {
 		info: {
 			drag: "Faites glisser et déposez un fichier ici, ou cliquez pour sélectionner un fichier",

@@ -2688,6 +2688,20 @@ const ja = {
 		hardware_title: "どのハードウェアプラットフォームを使用していますか？",
 		imaging_title: "何を撮影するのが好きですか？",
 	},
+	troubleshoot: {
+		title: "トラブルシューティング",
+		align: "アライン",
+		failed: "失敗",
+		apply: "適用",
+		done: "完了",
+		dismiss: "閉じる",
+		diagnose: "再チェック",
+		diagnosing: "チェック中...",
+		noIssues: "問題は見つかりませんでした",
+		applied: "適用済み",
+		refused: "適用されませんでした",
+		download: "ダウンロード：{0}",
+	},
 	ekoslive: {
 		info: {
 			drag: "ここにファイルをドラッグ＆ドロップするか、クリックしてファイルを選択してください",

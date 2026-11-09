@@ -2752,6 +2752,20 @@ const en = {
 		hardware_title: "What hardware plaforms do you use?",
 		imaging_title: "What do you like to image?",
 	},
+	troubleshoot: {
+		title: "Troubleshoot",
+		align: "Align",
+		failed: "Failed",
+		apply: "Apply",
+		done: "Done",
+		dismiss: "Dismiss",
+		diagnose: "Check again",
+		diagnosing: "Checking...",
+		noIssues: "No problem found",
+		applied: "Applied",
+		refused: "Not applied",
+		download: "Download: {0}",
+	},
 	ekoslive: {
 		info: {
 			drag: "Drag & drop a file here, or click to select a file",
