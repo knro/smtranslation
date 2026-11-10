@@ -1670,6 +1670,12 @@ const en = {
 			},
 		},
 		collapse_guide: {
+			manual_pulse: "Manual Pulse",
+			pulse_sent_via: "Pulses go to {0}.",
+			pulse_no_guider: "No guider in the guide train. Select one in Optical Trains.",
+			pulse_length: "Pulse length",
+			pulse_moved: "Moved since reset",
+			pulse_moved_hint: "How far the mount moved on the sky since this dialog opened or Reset was pressed.",
 			total_rms_plot: "RMS",
 			drift_plot: "Guide Drift",
 			scope_primary: "Primary",
