@@ -282,7 +282,6 @@ const it = {
 		duplicate: "Duplica",
 		blacklist: "Lista nera",
 		ban: "Banna",
-		delete: "Elimina",
 		manufacturer_tip_title: "Aggiunta di nuovi produttori di attrezzature",
 		manufacturer_tip_section_1:
 			"Quando aggiungi nuovi produttori, inserisci solo il nome del produttore (es. Canon, Meade) in questa sezione.",
@@ -1354,6 +1353,8 @@ const it = {
 		},
 
 		collapse_align: {
+			error_plot: "Errore della soluzione",
+			error: "Errore (\")",
 			heading: "Allinea",
 			action_sync: "Sinc",
 			action_slew: "Slew",
@@ -1655,6 +1656,12 @@ const it = {
 			},
 		},
 		collapse_guide: {
+			manual_pulse: "Impulso manuale",
+			pulse_sent_via: "Gli impulsi vanno a {0}.",
+			pulse_no_guider: "Nessuna guida nel treno di guida. Selezionane una in Treni ottici.",
+			pulse_length: "Durata dell'impulso",
+			pulse_moved: "Spostamento dal ripristino",
+			pulse_moved_hint: "Quanto si è spostata la montatura nel cielo da quando questa finestra è stata aperta o è stato premuto Ripristina.",
 			total_rms_plot: "RMS",
 			drift_plot: "Deriva di guida",
 			scope_primary: "Primario",
@@ -1857,7 +1864,7 @@ const it = {
 			sigma_clipping: "Sigma Clipping",
 			noImages: "Nessuna immagine Live Stacking trovata",
 			median_filter: "Filtro mediano",
-			dark_flat: "Flat Scuro",
+			dark_flat: "Master Flat",
 			dark_master: "Master Scuro",
 			master_files: "File Master"
 		},

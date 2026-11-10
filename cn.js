@@ -272,7 +272,6 @@
 		duplicate: "重复",
 		blacklist: "黑名单",
 		ban: "禁用",
-		delete: "删除",
 		manufacturer_tip_title: "添加新的设备厂家",
 		manufacturer_tip_section_1:
 			"在添加新厂家时，请在此部分仅输入厂家名称（例如，佳能，米德）。",
@@ -1292,6 +1291,8 @@
 			parking_position: "归位位置设置成功",
 		},
 		collapse_align: {
+			error_plot: "解算误差",
+			error: "误差 (\")",
 			heading: "对准",
 			action_sync: "同步",
 			action_slew: "转动至目标",
@@ -1578,6 +1579,12 @@
 			},
 		},
 		collapse_guide: {
+			manual_pulse: "手动脉冲",
+			pulse_sent_via: "脉冲发送到 {0}。",
+			pulse_no_guider: "导星光路中没有导星设备。请在光路中选择一个。",
+			pulse_length: "脉冲时长",
+			pulse_moved: "重置后的移动",
+			pulse_moved_hint: "自打开此对话框或按下重置以来，赤道仪在天空中移动的距离。",
 			total_rms_plot: "RMS 曲线",
 			drift_plot: "导星漂移",
 			scope_primary: "主镜",
@@ -1775,7 +1782,7 @@
 			noImages: "未找到实时叠加图像",
 			median_filter: "中值滤波",
 
-			dark_flat: "暗平场",
+			dark_flat: "平场主帧",
 			dark_master: "暗主帧",
 			master_files: "主文件"
 		},

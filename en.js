@@ -284,7 +284,6 @@ const en = {
 		duplicate: "Duplicate",
 		blacklist: "Blacklist",
 		ban: "Ban",
-		delete: "Delete",
 		manufacturer_tip_title: "Adding New Equipment Manufacturers",
 		manufacturer_tip_section_1:
 			"When adding new manufacturers, enter only the manufacturer name (e.g., Canon, Meade) in this section.",
@@ -2785,20 +2784,6 @@ const en = {
 		software_title: "Which imaging software do you use?",
 		hardware_title: "What hardware plaforms do you use?",
 		imaging_title: "What do you like to image?",
-	},
-	troubleshoot: {
-		title: "Troubleshoot",
-		align: "Align",
-		failed: "Failed",
-		apply: "Apply",
-		done: "Done",
-		dismiss: "Dismiss",
-		diagnose: "Check again",
-		diagnosing: "Checking...",
-		noIssues: "No problem found",
-		applied: "Applied",
-		refused: "Not applied",
-		download: "Download: {0}",
 	},
 	ekoslive: {
 		info: {

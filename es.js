@@ -284,7 +284,6 @@ const es = {
 		duplicate: "Duplicar",
 		blacklist: "Lista negra",
 		ban: "Prohibir",
-		delete: "Borrar", // Already translated
 		manufacturer_tip_title: "Agregar nuevos fabricantes de equipos",
 		manufacturer_tip_section_1:
 			"Al agregar nuevos fabricantes, ingrese solo el nombre del fabricante (por ejemplo, Canon, Meade) en esta sección.",
@@ -1353,6 +1352,8 @@ const es = {
 		},
 
 		collapse_align: {
+			error_plot: "Error de solución",
+			error: "Error (\")",
 			heading: "Alinear",
 			action_sync: "Sinc",
 			action_slew: "Slew",
@@ -1655,6 +1656,12 @@ const es = {
 			},
 		},
 		collapse_guide: {
+			manual_pulse: "Pulso manual",
+			pulse_sent_via: "Los pulsos van a {0}.",
+			pulse_no_guider: "No hay guiador en el tren de guiado. Elija uno en Trenes ópticos.",
+			pulse_length: "Duración del pulso",
+			pulse_moved: "Movido desde el reinicio",
+			pulse_moved_hint: "Cuánto se ha movido la montura en el cielo desde que se abrió este diálogo o se pulsó Reiniciar.",
 			total_rms_plot: "RMS",
 			drift_plot: "Deriva de guiado",
 			scope_primary: "Primario",
@@ -1854,7 +1861,7 @@ const es = {
 			sigma_clipping: "Recorte Sigma",
 			noImages: "No se encontraron imágenes de apilamiento en vivo",
 			median_filter: "Median Filter",
-			dark_flat: "Flat Oscuro",
+			dark_flat: "Master Flat",
 			dark_master: "Master Oscuro",
 			master_files: "Archivos Master"
 		},
@@ -2417,7 +2424,6 @@ const es = {
 		passive_antenna: "Antena pasiva",
 		power_sleep:
 			"El dispositivo está en modo de suspensión. Toca para reactivarlo.",
-		power_off: "Apagado",
 		power_off_tooltip:
 			"Apague todos los puertos cuando el perfil del equipo esté desconectado.",
 		leds: "LEDs",

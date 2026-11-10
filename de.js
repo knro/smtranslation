@@ -284,7 +284,6 @@ const de = {
 		duplicate: "Duplizieren",
 		blacklist: "Schwarze Liste",
 		ban: "Sperren",
-		delete: "Löschen",
 		manufacturer_tip_title: "Neue Gerätehersteller hinzufügen",
 		manufacturer_tip_section_1:
 			"Geben Sie beim Hinzufügen neuer Hersteller nur den Herstellernamen (z. B. Canon, Meade) in diesem Abschnitt ein.",
@@ -1032,7 +1031,6 @@ const de = {
 		scope: "Umfang",
 		btn_port_select: "Port Auswahl",
 		guide: "Führen",
-		scope: "Umfang",
 		btn_rescan: "RESCAN",
 		btn_sync_gps: "GPS synchronisieren",
 		btn_dslr_setup: "DSLR-Setup",
@@ -1340,6 +1338,8 @@ const de = {
 			parking_position: "Park Position wurde gesetzt.",
 		},
 		collapse_align: {
+			error_plot: "Lösungsfehler",
+			error: "Fehler (\")",
 			heading: "Ausrichten",
 			action_sync: "Sync",
 			action_slew: "Schwenk",
@@ -1633,6 +1633,12 @@ const de = {
 			},
 		},
 		collapse_guide: {
+			manual_pulse: "Manueller Impuls",
+			pulse_sent_via: "Impulse gehen an {0}.",
+			pulse_no_guider: "Kein Guider im Guiding-Zug. Wählen Sie einen unter Optische Züge.",
+			pulse_length: "Impulslänge",
+			pulse_moved: "Bewegt seit Zurücksetzen",
+			pulse_moved_hint: "Wie weit sich die Montierung am Himmel bewegt hat, seit dieser Dialog geöffnet oder Zurücksetzen gedrückt wurde.",
 			total_rms_plot: "RMS",
 			drift_plot: "Guiding-Drift",
 			scope_primary: "Primär",
@@ -1835,7 +1841,7 @@ const de = {
 			sigma_clipping: "Sigma Clipping",
 			noImages: "Keine Live-Stacking-Bilder gefunden",
 			median_filter: "Median Filter",
-			dark_flat: "Dunkel-Flat",
+			dark_flat: "Flat-Master",
 			dark_master: "Dunkel-Master",
 			master_files: "Master-Dateien"
 		},
