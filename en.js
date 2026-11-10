@@ -819,6 +819,12 @@ const en = {
 			days_left_to_book: "Days still to book: {0}",
 			accept_to_continue: "Accept the usage guidelines to continue.",
 			not_booked: "Not booked yet",
+			sunset: "Sunset",
+			sunrise: "Sunrise",
+			civil_twilight: "Civil Twilight",
+			nautical_twilight: "Nautical Twilight",
+			astronomical_twilight: "Astronomical Twilight",
+			astronomical_dark: "Astronomical Dark",
 		},
 		permissions: {
 			title: "Renter Permissions",

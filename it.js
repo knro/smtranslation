@@ -823,6 +823,12 @@ const it = {
 			days_left_to_book: "Giorni ancora da prenotare: {0}",
 			accept_to_continue: "Accetta le regole d'uso per continuare.",
 			not_booked: "Non ancora prenotato",
+			sunset: "Tramonto",
+			sunrise: "Alba",
+			civil_twilight: "Crepuscolo civile",
+			nautical_twilight: "Crepuscolo nautico",
+			astronomical_twilight: "Crepuscolo astronomico",
+			astronomical_dark: "Buio astronomico",
 		},
 		permissions: {
 			title: "Autorizzazioni degli affittuari",

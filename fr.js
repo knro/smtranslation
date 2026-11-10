@@ -822,6 +822,12 @@ const fr = {
 			days_left_to_book: "Jours restant à réserver : {0}",
 			accept_to_continue: "Acceptez les règles d'utilisation pour continuer.",
 			not_booked: "Pas encore réservé",
+			sunset: "Coucher du soleil",
+			sunrise: "Lever du soleil",
+			civil_twilight: "Crépuscule civil",
+			nautical_twilight: "Crépuscule nautique",
+			astronomical_twilight: "Crépuscule astronomique",
+			astronomical_dark: "Nuit astronomique",
 		},
 		permissions: {
 			title: "Autorisations des locataires",

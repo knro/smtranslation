@@ -822,6 +822,12 @@ const de = {
 			days_left_to_book: "Noch zu buchende Tage: {0}",
 			accept_to_continue: "Akzeptiere die Nutzungsrichtlinien, um fortzufahren.",
 			not_booked: "Noch nicht gebucht",
+			sunset: "Sonnenuntergang",
+			sunrise: "Sonnenaufgang",
+			civil_twilight: "Bürgerliche Dämmerung",
+			nautical_twilight: "Nautische Dämmerung",
+			astronomical_twilight: "Astronomische Dämmerung",
+			astronomical_dark: "Astronomische Dunkelheit",
 		},
 		permissions: {
 			title: "Mieterberechtigungen",
