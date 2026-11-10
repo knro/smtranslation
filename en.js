@@ -1343,6 +1343,8 @@ const en = {
 
 		collapse_align: {
 			heading: "Align",
+			error_plot: "Solution Error",
+			error: "Error (\")",
 			action_sync: "Sync",
 			action_slew: "Slew",
 			action_nothing: "Nothing",
@@ -1437,8 +1439,8 @@ const en = {
 				flip: "Flip Policy",
 				pos_angle: "Camera Position Angle",
 				reverse_direction: "Reverse direction of Rotator",
-				flip_rotator: "Preserve Rotator Angel",
-				flip_position: "Preserve Position Angel",
+				flip_rotator: "Preserve Rotator Angle",
+				flip_position: "Preserve Position Angle",
 				derotation_title: "Alt-Az Field Derotation",
 				derotate_field: "Derotate Field",
 				derotation_threshold: "Threshold (arcmin)",
@@ -1463,7 +1465,7 @@ const en = {
 				reset_mount_tooltip: "Reset mount model after meridian flip.",
 				use_flip: "Use flip command if supported by mount",
 				use_flip_tooltip: "Use flip command if it is supported by the mount.",
-				summary_preview: "Summary screen preivew",
+				summary_preview: "Summary screen preview",
 				summary_preview_tooltip:
 					"Display received FITS in the Summary screen preview window.",
 				operations_timeout: "Capture Operations Timeout",
@@ -1838,6 +1840,9 @@ const en = {
 			min_quality: "Min quality",
 		},
 		livestacking: {
+			master_files: "Master Files",
+			dark_master: "Dark Master",
+			dark_flat: "Flat Master",
 			auto_dark: "Auto Dark",
 			plate_solve: "Plate Solve",
 			background: "Background",
