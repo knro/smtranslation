@@ -41,6 +41,14 @@ const context = {
 	"community.booking.astronomical_dark":
 		"Astronomical term for the part of the night when the sun is more than 18 degrees below the horizon and the sky is fully dark. Shown as \"Astronomical Dark: 7:00 PM - 5:00 AM\". Short.",
 
+	// Community: observatory settings, Rentable switch
+	"community.observatory.rentable_description":
+		"Small text under the Rentable switch in the observatory settings. Rentable is community.observatory.rentable.",
+	"community.observatory.rentable_needs_location":
+		"Shown in orange under the disabled Rentable switch, and in an alert, when the observatory has no location yet. A short sentence.",
+	"community.observatory.rentable_needs_profile":
+		"Shown in orange under the disabled Rentable switch, and in an alert, when no equipment profile is synced with KStars. A short sentence.",
+
 	// Live stacking: Masters dialog
 	"ekos.livestacking.master_files":
 		"Title of the dialog where the master calibration files for live stacking are chosen.",
