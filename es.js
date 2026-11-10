@@ -821,6 +821,12 @@ const es = {
 			days_left_to_book: "Días por reservar: {0}",
 			accept_to_continue: "Acepta las normas de uso para continuar.",
 			not_booked: "Aún sin reservar",
+			sunset: "Puesta de sol",
+			sunrise: "Salida del sol",
+			civil_twilight: "Crepúsculo civil",
+			nautical_twilight: "Crepúsculo náutico",
+			astronomical_twilight: "Crepúsculo astronómico",
+			astronomical_dark: "Oscuridad astronómica",
 		},
 		permissions: {
 			title: "Permisos de arrendatarios",

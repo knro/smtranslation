@@ -788,6 +788,12 @@
 			days_left_to_book: "尚未预约的天数：{0}",
 			accept_to_continue: "请接受使用指南后继续。",
 			not_booked: "尚未预约",
+			sunset: "日落",
+			sunrise: "日出",
+			civil_twilight: "民用曙暮光",
+			nautical_twilight: "航海曙暮光",
+			astronomical_twilight: "天文曙暮光",
+			astronomical_dark: "天文黑夜",
 		},
 		permissions: {
 			title: "租用者权限",

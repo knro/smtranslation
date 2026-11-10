@@ -801,6 +801,12 @@ const ja = {
 			days_left_to_book: "未予約の日数: {0}",
 			accept_to_continue: "続行するには利用ガイドラインに同意してください。",
 			not_booked: "未予約",
+			sunset: "日没",
+			sunrise: "日の出",
+			civil_twilight: "市民薄明",
+			nautical_twilight: "航海薄明",
+			astronomical_twilight: "天文薄明",
+			astronomical_dark: "天文学的な夜",
 		},
 		permissions: {
 			title: "借り手の権限",
