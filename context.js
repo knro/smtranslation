@@ -27,6 +27,20 @@ const context = {
 	"ekos.collapse_guide.pulse_moved_hint":
 		"Small help text under those two values. Reset is the button next to them (general.reset).",
 
+	// Community: booking hours page, almanac bar (tap a band or a sun to show its name and times)
+	"community.booking.sunset":
+		"Name of the sun icon on the almanac bar where the sun sets. Shown as \"Sunset: 6:20 PM\" under the bar. Short.",
+	"community.booking.sunrise":
+		"Name of the sun icon on the almanac bar where the sun rises. Shown as \"Sunrise: 5:06 AM\" under the bar. Short.",
+	"community.booking.civil_twilight":
+		"Astronomical term for the stretch after sunset (or before sunrise) when the sun is up to 6 degrees below the horizon. Shown as \"Civil Twilight: 5:30 PM - 6:00 PM\". Short.",
+	"community.booking.nautical_twilight":
+		"Astronomical term for the stretch when the sun is 6 to 12 degrees below the horizon. Shown as \"Nautical Twilight: 6:00 PM - 6:30 PM\". Short.",
+	"community.booking.astronomical_twilight":
+		"Astronomical term for the stretch when the sun is 12 to 18 degrees below the horizon, just before the sky is fully dark. Shown as \"Astronomical Twilight: 6:30 PM - 7:00 PM\". Short.",
+	"community.booking.astronomical_dark":
+		"Astronomical term for the part of the night when the sun is more than 18 degrees below the horizon and the sky is fully dark. Shown as \"Astronomical Dark: 7:00 PM - 5:00 AM\". Short.",
+
 	// Live stacking: Masters dialog
 	"ekos.livestacking.master_files":
 		"Title of the dialog where the master calibration files for live stacking are chosen.",
