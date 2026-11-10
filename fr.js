@@ -282,7 +282,6 @@ const fr = {
 		duplicate: "Dupliquer",
 		blacklist: "Liste noire",
 		ban: "Bannir",
-		delete: "Supprimer",
 		manufacturer_tip_title: "Ajout de nouveaux fabricants d'équipements",
 		manufacturer_tip_section_1:
 			"Lors de l'ajout de nouveaux fabricants, saisissez uniquement le nom du fabricant (par exemple, Canon, Meade) dans cette section.",
@@ -1348,6 +1347,8 @@ const fr = {
 				"La position de stationnement a été définie avec succès.",
 		},
 		collapse_align: {
+			error_plot: "Erreur de solution",
+			error: "Erreur (\")",
 			heading: "Aligner",
 			action_sync: "Sync",
 			action_slew: "Visée",
@@ -1651,6 +1652,12 @@ const fr = {
 			},
 		},
 		collapse_guide: {
+			manual_pulse: "Impulsion manuelle",
+			pulse_sent_via: "Les impulsions sont envoyées à {0}.",
+			pulse_no_guider: "Aucun guideur dans le train de guidage. Choisissez-en un dans Trains optiques.",
+			pulse_length: "Durée de l'impulsion",
+			pulse_moved: "Déplacement depuis la réinitialisation",
+			pulse_moved_hint: "Distance parcourue par la monture sur le ciel depuis l'ouverture de cette fenêtre ou depuis Réinitialiser.",
 			total_rms_plot: "RMS",
 			drift_plot: "Dérive de guidage",
 			scope_primary: "Primaire",
@@ -1855,7 +1862,7 @@ const fr = {
 			sigma_clipping: "Écrêtage Sigma",
 			noImages: "Pas d'images trouvées pour Live Stacking",
 			median_filter: "Filtre médian",
-			dark_flat: "Flat Sombre",
+			dark_flat: "Master Flat",
 			dark_master: "Master Sombre",
 			master_files: "Fichiers Master"
 		},
@@ -2754,6 +2761,20 @@ const fr = {
 		software_title: "Quel logiciel d'imagerie utilisez-vous ?",
 		hardware_title: "Quelles plateformes matérielles utilisez-vous ?",
 		imaging_title: "Qu'aimez-vous imager ?",
+	},
+	troubleshoot: {
+		title: "Dépannage",
+		align: "Aligner",
+		failed: "Échec",
+		apply: "Appliquer",
+		done: "Terminé",
+		dismiss: "Ignorer",
+		diagnose: "Vérifier à nouveau",
+		diagnosing: "Vérification...",
+		noIssues: "Aucun problème détecté",
+		applied: "Appliqué",
+		refused: "Non appliqué",
+		download: "Télécharger : {0}",
 	},
 	ekoslive: {
 		info: {

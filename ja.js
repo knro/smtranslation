@@ -280,7 +280,6 @@ const ja = {
 		duplicate: "複製",
 		blacklist: "ブラックリスト",
 		ban: "禁止",
-		delete: "消去", // Already translated
 		manufacturer_tip_title: "新しい機器メーカーの追加",
 		manufacturer_tip_section_1:
 			"新しいメーカーを追加する場合、このセクションにはメーカー名（例：Canon、Meade）のみを入力してください。",
@@ -1332,6 +1331,8 @@ const ja = {
 		},
 
 		collapse_align: {
+			error_plot: "解析誤差",
+			error: "誤差 (\")",
 			heading: "整列",
 			action_sync: "同期",
 			action_slew: "目標へ移動",
@@ -1632,6 +1633,12 @@ const ja = {
 			},
 		},
 		collapse_guide: {
+			manual_pulse: "手動パルス",
+			pulse_sent_via: "パルスの送信先: {0}",
+			pulse_no_guider: "ガイドトレインにガイダーがありません。オプティカルトレインで選択してください。",
+			pulse_length: "パルス長",
+			pulse_moved: "リセット後の移動量",
+			pulse_moved_hint: "このダイアログを開いた時、またはリセットを押した時からの、空の上での架台の移動量です。",
 			total_rms_plot: "RMS",
 			drift_plot: "ガイドドリフト",
 			scope_primary: "主鏡",
@@ -1832,7 +1839,7 @@ const ja = {
 			sigma_clipping: "シグマ クリッピング",
 			noImages: "ライブ スタッキング イメージが見つかりません",
 			median_filter: "中央値フィルター",
-			dark_flat: "ダークフラット",
+			dark_flat: "フラットマスター",
 			dark_master: "ダークマスター",
 			master_files: "マスターファイル"
 		},
@@ -2716,6 +2723,20 @@ const ja = {
 		software_title: "どのイメージングソフトウェアを使用していますか？",
 		hardware_title: "どのハードウェアプラットフォームを使用していますか？",
 		imaging_title: "何を撮影するのが好きですか？",
+	},
+	troubleshoot: {
+		title: "トラブルシューティング",
+		align: "アライン",
+		failed: "失敗",
+		apply: "適用",
+		done: "完了",
+		dismiss: "閉じる",
+		diagnose: "再チェック",
+		diagnosing: "チェック中...",
+		noIssues: "問題は見つかりませんでした",
+		applied: "適用済み",
+		refused: "適用されませんでした",
+		download: "ダウンロード：{0}",
 	},
 	ekoslive: {
 		info: {

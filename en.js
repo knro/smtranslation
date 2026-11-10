@@ -284,7 +284,6 @@ const en = {
 		duplicate: "Duplicate",
 		blacklist: "Blacklist",
 		ban: "Ban",
-		delete: "Delete",
 		manufacturer_tip_title: "Adding New Equipment Manufacturers",
 		manufacturer_tip_section_1:
 			"When adding new manufacturers, enter only the manufacturer name (e.g., Canon, Meade) in this section.",
@@ -1372,6 +1371,8 @@ const en = {
 
 		collapse_align: {
 			heading: "Align",
+			error_plot: "Solution Error",
+			error: "Error (\")",
 			action_sync: "Sync",
 			action_slew: "Slew",
 			action_nothing: "Nothing",
@@ -1466,8 +1467,8 @@ const en = {
 				flip: "Flip Policy",
 				pos_angle: "Camera Position Angle",
 				reverse_direction: "Reverse direction of Rotator",
-				flip_rotator: "Preserve Rotator Angel",
-				flip_position: "Preserve Position Angel",
+				flip_rotator: "Preserve Rotator Angle",
+				flip_position: "Preserve Position Angle",
 				derotation_title: "Alt-Az Field Derotation",
 				derotate_field: "Derotate Field",
 				derotation_threshold: "Threshold (arcmin)",
@@ -1492,7 +1493,7 @@ const en = {
 				reset_mount_tooltip: "Reset mount model after meridian flip.",
 				use_flip: "Use flip command if supported by mount",
 				use_flip_tooltip: "Use flip command if it is supported by the mount.",
-				summary_preview: "Summary screen preivew",
+				summary_preview: "Summary screen preview",
 				summary_preview_tooltip:
 					"Display received FITS in the Summary screen preview window.",
 				operations_timeout: "Capture Operations Timeout",
@@ -1674,6 +1675,12 @@ const en = {
 			},
 		},
 		collapse_guide: {
+			manual_pulse: "Manual Pulse",
+			pulse_sent_via: "Pulses go to {0}.",
+			pulse_no_guider: "No guider in the guide train. Select one in Optical Trains.",
+			pulse_length: "Pulse length",
+			pulse_moved: "Moved since reset",
+			pulse_moved_hint: "How far the mount moved on the sky since this dialog opened or Reset was pressed.",
 			total_rms_plot: "RMS",
 			drift_plot: "Guide Drift",
 			scope_primary: "Primary",
@@ -1867,6 +1874,9 @@ const en = {
 			min_quality: "Min quality",
 		},
 		livestacking: {
+			master_files: "Master Files",
+			dark_master: "Dark Master",
+			dark_flat: "Flat Master",
 			auto_dark: "Auto Dark",
 			plate_solve: "Plate Solve",
 			background: "Background",
