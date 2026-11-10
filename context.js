@@ -49,6 +49,14 @@ const context = {
 	"community.observatory.rentable_needs_profile":
 		"Shown in orange under the disabled Rentable switch, and in an alert, when no equipment profile is synced with KStars. A short sentence.",
 
+	// Community: observatory equipment profile, under the profile chips (owner only)
+	"community.observatory.profile_synced":
+		"Status line under the equipment profile chips: the profile matches a KStars profile. Short.",
+	"community.observatory.profile_not_synced":
+		"Status line under the equipment profile chips: the profile has not been linked to a KStars profile yet. Short.",
+	"community.observatory.profile_sync":
+		"Button label that links the equipment profile to a KStars profile. A verb, one word if possible.",
+
 	// Live stacking: Masters dialog
 	"ekos.livestacking.master_files":
 		"Title of the dialog where the master calibration files for live stacking are chosen.",
