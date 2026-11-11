@@ -41,6 +41,31 @@ const context = {
 	"community.booking.astronomical_dark":
 		"Astronomical term for the part of the night when the sun is more than 18 degrees below the horizon and the sky is fully dark. Shown as \"Astronomical Dark: 7:00 PM - 5:00 AM\". Short.",
 
+	// Community: observatory settings, Rentable switch
+	// Community: the two texts an owner accepts before enabling Rentable (also on EkosLive)
+	"community.observatory.rental_warning_title":
+		"Title of the first rental dialog, the disclaimer of liability. 'Beta' marks the rental feature as beta.",
+	"community.observatory.rental_warning":
+		"Legal disclaimer of liability and assumption of risk, shown before an owner enables rentals. Lines starting with '### ' are headings, lines starting with '* ' are list items, other lines are paragraphs: keep those markers and line breaks. Keep the defined terms (the Providers) consistent. Legal text: have it reviewed by a legal translator.",
+	"community.observatory.rental_agreement_title":
+		"Title of the second rental dialog, the service agreement. Shown in capitals.",
+	"community.observatory.rental_agreement":
+		"The Observatory Rental Service Agreement an owner accepts. Lines starting with '## ' are section titles, '### ' numbered clauses, '* ' bullet points, others paragraphs: keep those markers, numbers and line breaks. 'Confirm' in the last paragraph is the button the owner presses. Legal text: have it reviewed by a legal translator.",
+	"community.observatory.rentable_description":
+		"Small text under the Rentable switch in the observatory settings. Rentable is community.observatory.rentable.",
+	"community.observatory.rentable_needs_location":
+		"Shown in orange under the disabled Rentable switch, and in an alert, when the observatory has no location yet. A short sentence.",
+	"community.observatory.rentable_needs_profile":
+		"Shown in orange under the disabled Rentable switch, and in an alert, when no equipment profile is synced with KStars. A short sentence.",
+
+	// Community: observatory equipment profile, under the profile chips (owner only)
+	"community.observatory.profile_synced":
+		"Status line under the equipment profile chips: the profile matches a KStars profile. Short.",
+	"community.observatory.profile_not_synced":
+		"Status line under the equipment profile chips: the profile has not been linked to a KStars profile yet. Short.",
+	"community.observatory.profile_sync":
+		"Button label that links the equipment profile to a KStars profile. A verb, one word if possible.",
+
 	// Live stacking: Masters dialog
 	"ekos.livestacking.master_files":
 		"Title of the dialog where the master calibration files for live stacking are chosen.",
