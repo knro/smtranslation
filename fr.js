@@ -2190,6 +2190,12 @@ const fr = {
 			alert_unreachable_body:
 				"Il semble y avoir un problème lors de la tentative d'établissement de la connexion à la visionneuse VNC",
 		},
+		remote_desktop_view: {
+			heading: "Bureau à distance",
+			alert_unreachable_title: "Bureau à distance inaccessible",
+			alert_unreachable_body:
+				"Il semble y avoir un problème lors de la connexion au bureau à distance",
+		},
 		web_manager_view: {
 			alert_unreachable_title: "Gestionnaire Web inaccessible",
 			alert_unreachable_body:
@@ -2379,6 +2385,9 @@ const fr = {
 		vnc: {
 			update_password: "Mettre à jour le mot de passe VNC",
 			scaling: "Mise à l'échelle",
+		},
+		remote_desktop: {
+			update_password: "Mettre à jour le mot de passe du bureau à distance",
 		},
 		network_benchmark_report: "Rapport de performance réseau",
 		running_benchmark: "Exécution du benchmark...",

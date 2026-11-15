@@ -2222,6 +2222,12 @@ const it = {
 			alert_unreachable_body:
 				"Sembra esserci un problema durante il tentativo di stabilire la connessione al visualizzatore VNC",
 		},
+		remote_desktop_view: {
+			heading: "Desktop remoto",
+			alert_unreachable_title: "Desktop remoto irraggiungibile",
+			alert_unreachable_body:
+				"Sembra esserci un problema durante il tentativo di connessione al desktop remoto",
+		},
 
 		web_manager_view: {
 			alert_unreachable_title: "Gestore web irraggiungibile",
@@ -2412,6 +2418,9 @@ const it = {
 		vnc: {
 			update_password: "Aggiorna password VNC",
 			scaling: "Scalatura",
+		},
+		remote_desktop: {
+			update_password: "Aggiorna password del desktop remoto",
 		},
 
 		network_benchmark_report: "Rapporto benchmark di rete",

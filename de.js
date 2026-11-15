@@ -2174,6 +2174,12 @@ const de = {
 			alert_unreachable_body:
 				"Beim Versuch, eine Verbindung zum VNC-Viewer herzustellen, scheint ein Problem zu bestehen",
 		},
+		remote_desktop_view: {
+			heading: "Remotedesktop",
+			alert_unreachable_title: "Remotedesktop nicht erreichbar",
+			alert_unreachable_body:
+				"Beim Versuch, eine Verbindung zum Remotedesktop herzustellen, scheint ein Problem zu bestehen",
+		},
 		web_manager_view: {
 			alert_unreachable_title: "Web Manager nicht erreichbar",
 			alert_unreachable_body:
@@ -2359,6 +2365,9 @@ const de = {
 		vnc: {
 			update_password: "VNC Kennwort aktualisieren",
 			scaling: "Skalierung",
+		},
+		remote_desktop: {
+			update_password: "Remotedesktop-Kennwort aktualisieren",
 		},
 		network_benchmark_report: "Netzwerk-Benchmark-Bericht",
 		running_benchmark: "Benchmark wird ausgeführt...",

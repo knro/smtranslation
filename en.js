@@ -2225,6 +2225,12 @@ const en = {
 			alert_unreachable_body:
 				"There seems to be a problem while trying establish connection to VNC viewer",
 		},
+		remote_desktop_view: {
+			heading: "Remote Desktop",
+			alert_unreachable_title: "Remote Desktop unreachable",
+			alert_unreachable_body:
+				"There seems to be a problem while trying to connect to the remote desktop",
+		},
 
 		web_manager_view: {
 			alert_unreachable_title: "Web Manager unreachable",
@@ -2413,6 +2419,9 @@ const en = {
 		vnc: {
 			update_password: "Update VNC Password",
 			scaling: "Scaling",
+		},
+		remote_desktop: {
+			update_password: "Update Remote Desktop Password",
 		},
 
 		network_benchmark_report: "Network Benchmark Report",

@@ -2159,6 +2159,12 @@ const ja = {
 			alert_unreachable_body:
 				"への接続の確立中に問題が発生したようですVNC ビューアー",
 		},
+		remote_desktop_view: {
+			heading: "リモートデスクトップ",
+			alert_unreachable_title: "リモートデスクトップに接続できません",
+			alert_unreachable_body:
+				"リモートデスクトップへの接続中に問題が発生したようです",
+		},
 		web_manager_view: {
 			alert_unreachable_title: "Web Manager に到達できません",
 			alert_unreachable_body:
@@ -2347,6 +2353,9 @@ const ja = {
 		vnc: {
 			update_password: "VNCパスワードを更新",
 			scaling: "スケーリング",
+		},
+		remote_desktop: {
+			update_password: "リモートデスクトップのパスワードを更新",
 		},
 		network_benchmark_report: "ネットワークベンチマークレポート",
 		running_benchmark: "ベンチマークを実行中...",
