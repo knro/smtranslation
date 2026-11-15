@@ -2219,6 +2219,12 @@ const es = {
 			alert_unreachable_body:
 				"Parece que hay un problema al intentar establecer la conexion con el visor de VNC",
 		},
+		remote_desktop_view: {
+			heading: "Escritorio remoto",
+			alert_unreachable_title: "Escritorio remoto inaccesible",
+			alert_unreachable_body:
+				"Parece que hay un problema al intentar conectar con el escritorio remoto",
+		},
 
 		web_manager_view: {
 			alert_unreachable_title: "Administrador Web inaccesible",
@@ -2412,6 +2418,9 @@ const es = {
 		vnc: {
 			update_password: "Actualizar contraseña de VNC",
 			scaling: "Escalada",
+		},
+		remote_desktop: {
+			update_password: "Actualizar contraseña del escritorio remoto",
 		},
 		network_benchmark_report: "Informe de rendimiento de red",
 		running_benchmark: "Ejecutando prueba de rendimiento...",

@@ -73,6 +73,16 @@ const context = {
 		"Label for the master DARK file (an averaged dark frame) subtracted from each live-stacked frame.",
 	"ekos.livestacking.dark_flat":
 		"Label for the master FLAT file (an averaged flat frame) used to correct vignetting and dust. Not a \"dark flat\": the key name is historical.",
+
+	// Device tab: remote desktop on StellarMate OS 2.5 and later (replaces VNC)
+	"status.remote_desktop_view.heading":
+		"Title of the remote desktop screen and its row in the Device tab, on StellarMate OS 2.5 and later. Replaces the older \"VNC\" title. Short (about 20 characters).",
+	"status.remote_desktop_view.alert_unreachable_title":
+		"Title of the alert shown when the remote desktop page of the StellarMate cannot be loaded. Short.",
+	"status.remote_desktop_view.alert_unreachable_body":
+		"Body of the alert shown when the remote desktop page of the StellarMate cannot be loaded. One sentence.",
+	"device.remote_desktop.update_password":
+		"Button in the remote desktop screen header and title of the screen that changes the remote desktop password. Short (about 30 characters).",
 };
 
 export default context;

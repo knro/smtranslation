@@ -2093,6 +2093,12 @@
 			alert_unreachable_title: "VNC 无法访问",
 			alert_unreachable_body: "尝试连接VNC服务器时似乎遇到了问题，请重试",
 		},
+		remote_desktop_view: {
+			heading: "远程桌面",
+			alert_unreachable_title: "远程桌面无法访问",
+			alert_unreachable_body:
+				"尝试连接远程桌面时似乎遇到了问题，请重试",
+		},
 		web_manager_view: {
 			alert_unreachable_title: "网页客户端无法访问",
 			alert_unreachable_body: "尝试连接网页客户端时似乎遇到了问题，请重试",
@@ -2267,6 +2273,9 @@
 		vnc: {
 			update_password: "更新VNC密码",
 			scaling: "缩放",
+		},
+		remote_desktop: {
+			update_password: "更新远程桌面密码",
 		},
 		network_benchmark_report: "网络基准报告",
 		running_benchmark: "正在运行基准测试...",
