@@ -1471,6 +1471,18 @@ const it = {
 				derotate_field: "Derota campo",
 				derotation_threshold: "Soglia (arcmin)",
 				read_only: "Sola lettura: il proprietario dell'osservatorio non ha consentito modifiche",
+				moving: "In movimento",
+				idle: "Inattivo",
+				alt_az_mount: "Montatura Alt-Az",
+				no_rotator: "Nessun rotatore nel treno ottico di acquisizione",
+				flip_tooltip: "Come reagisce il rotatore dopo un flip al meridiano, o quando un'immagine risolta indica l'altro lato del pilastro: mantenere l'angolo del rotatore, o ruotare il rotatore per mantenere l'angolo di posizione della camera.",
+				reverse_tooltip: "Attivalo quando il rotatore gira nel verso opposto all'angolo inviato.",
+				derotate_tooltip: "Mentre la montatura insegue, ruota il rotatore per mantenere costante l'angolo di posizione della camera.",
+				threshold_tooltip: "Il rotatore viene corretto quando l'angolo di posizione deriva di più di questo valore.",
+				derotation_unavailable: "Disponibile quando la montatura indica un tipo Alt-Az.",
+				calibrate_title: "Offset della camera non ancora misurato",
+				calibrate_body: "Acquisisci e risolvi in Allineamento lo misura. Fino ad allora l'angolo di posizione mostrato presuppone un offset di 0°.",
+				pa_east_of_north: "E da N",
 			},
 
 			capture_settings: {

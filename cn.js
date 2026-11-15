@@ -1405,6 +1405,18 @@
 				derotate_field: "视场消旋",
 				derotation_threshold: "阈值（角分）",
 				read_only: "只读：天文台所有者未允许更改",
+				moving: "移动中",
+				idle: "空闲",
+				alt_az_mount: "地平式赤道仪",
+				no_rotator: "拍摄光学链中没有旋转器",
+				flip_tooltip: "中天翻转后，或解析图像报告另一侧镜筒位置时旋转器的行为：保持旋转器角度，或转动旋转器以保持相机位置角。",
+				reverse_tooltip: "当旋转器转动方向与发送的角度相反时启用此项。",
+				derotate_tooltip: "赤道仪跟踪时转动旋转器，使相机位置角保持不变。",
+				threshold_tooltip: "位置角漂移超过此值时校正旋转器。",
+				derotation_unavailable: "仅当赤道仪报告为地平式（Alt-Az）类型时可用。",
+				calibrate_title: "尚未测量相机偏移",
+				calibrate_body: "在校准模块中使用“拍摄并解析”进行测量。在此之前，显示的位置角假定偏移为 0°。",
+				pa_east_of_north: "北偏东",
 			},
 
 			capture_settings: {

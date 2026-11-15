@@ -1453,6 +1453,18 @@ const de = {
 				derotate_field: "Feld derotieren",
 				derotation_threshold: "Schwellwert (Bogenminuten)",
 				read_only: "Nur Lesen: Der Eigentümer der Sternwarte hat keine Änderungen erlaubt",
+				moving: "In Bewegung",
+				idle: "Bereit",
+				alt_az_mount: "Alt-Az-Montierung",
+				no_rotator: "Kein Rotator im optischen Aufnahmezug",
+				flip_tooltip: "Wie der Rotator nach einem Meridianflip reagiert oder wenn ein gelöstes Bild die andere Pierseite meldet: den Rotatorwinkel beibehalten oder den Rotator drehen, um den Positionswinkel der Kamera beizubehalten.",
+				reverse_tooltip: "Einschalten, wenn sich der Rotator entgegengesetzt zum gesendeten Winkel dreht.",
+				derotate_tooltip: "Während die Montierung nachführt, den Rotator drehen, damit der Positionswinkel der Kamera konstant bleibt.",
+				threshold_tooltip: "Der Rotator wird korrigiert, wenn der Positionswinkel um mehr als diesen Wert abweicht.",
+				derotation_unavailable: "Verfügbar, wenn die Montierung den Typ Alt-Az meldet.",
+				calibrate_title: "Kamera-Offset noch nicht gemessen",
+				calibrate_body: "„Aufnehmen & Lösen“ in Align misst ihn. Bis dahin geht der angezeigte Positionswinkel von 0° Offset aus.",
+				pa_east_of_north: "O von N",
 			},
 
 			capture_settings: {

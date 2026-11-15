@@ -1445,6 +1445,18 @@ const ja = {
 				derotate_field: "視野をデローテートする",
 				derotation_threshold: "しきい値（分角）",
 				read_only: "読み取り専用: 天文台のオーナーが変更を許可していません",
+				moving: "移動中",
+				idle: "待機中",
+				alt_az_mount: "経緯台",
+				no_rotator: "撮影光学トレインにローテーターがありません",
+				flip_tooltip: "子午線反転の後、または解析した画像が反対側のピアサイドを示したときのローテーターの動作：ローテーター角度を保つか、カメラの位置角を保つようにローテーターを回します。",
+				reverse_tooltip: "送った角度と逆方向にローテーターが回る場合にオンにします。",
+				derotate_tooltip: "架台の追尾中、カメラの位置角が一定になるようにローテーターを回します。",
+				threshold_tooltip: "位置角のずれがこの値を超えるとローテーターを補正します。",
+				derotation_unavailable: "架台が経緯台（Alt-Az）タイプを報告したときに使用できます。",
+				calibrate_title: "カメラオフセットは未測定です",
+				calibrate_body: "アライメントの「撮影して解析」で測定します。それまで表示される位置角はオフセット 0° を前提とします。",
+				pa_east_of_north: "北から東",
 			},
 
 			capture_settings: {

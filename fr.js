@@ -1459,6 +1459,18 @@ const fr = {
 				derotate_field: "Dérotation du champ",
 				derotation_threshold: "Seuil (arcmin)",
 				read_only: "Lecture seule : le propriétaire de l'observatoire n'a pas autorisé les modifications",
+				moving: "En mouvement",
+				idle: "Inactif",
+				alt_az_mount: "Monture Alt-Az",
+				no_rotator: "Aucun rotateur dans le train optique de capture",
+				flip_tooltip: "Comportement du rotateur après un retournement au méridien, ou lorsqu'une image résolue indique l'autre côté du pilier : conserver l'angle du rotateur, ou tourner le rotateur pour conserver l'angle de position de la caméra.",
+				reverse_tooltip: "Activez cette option lorsque le rotateur tourne dans le sens opposé à l'angle envoyé.",
+				derotate_tooltip: "Pendant le suivi de la monture, tourner le rotateur pour garder l'angle de position de la caméra constant.",
+				threshold_tooltip: "Le rotateur est corrigé lorsque l'angle de position dérive de plus de cette valeur.",
+				derotation_unavailable: "Disponible lorsque la monture indique un type Alt-Az.",
+				calibrate_title: "Décalage de la caméra pas encore mesuré",
+				calibrate_body: "Capturer et résoudre dans Alignement le mesure. En attendant, l'angle de position affiché suppose un décalage de 0°.",
+				pa_east_of_north: "E du N",
 			},
 
 			capture_settings: {

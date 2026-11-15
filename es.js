@@ -1472,6 +1472,18 @@ const es = {
 				derotate_field: "Desrotar campo",
 				derotation_threshold: "Umbral (arcmin)",
 				read_only: "Solo lectura: el propietario del observatorio no ha permitido cambios",
+				moving: "En movimiento",
+				idle: "Inactivo",
+				alt_az_mount: "Montura Alt-Az",
+				no_rotator: "No hay rotador en el tren óptico de captura",
+				flip_tooltip: "Cómo reacciona el rotador tras un giro de meridiano, o cuando una imagen resuelta indica el otro lado del pilar: mantener el ángulo del rotador, o girar el rotador para mantener el ángulo de posición de la cámara.",
+				reverse_tooltip: "Actívelo cuando el rotador gire en sentido contrario al ángulo que se le envía.",
+				derotate_tooltip: "Mientras la montura sigue, gira el rotador para mantener constante el ángulo de posición de la cámara.",
+				threshold_tooltip: "El rotador se corrige cuando el ángulo de posición se desvía más que este valor.",
+				derotation_unavailable: "Disponible cuando la montura indica un tipo Alt-Az.",
+				calibrate_title: "Desplazamiento de la cámara aún no medido",
+				calibrate_body: "Capturar y resolver en Alinear lo mide. Hasta entonces, el ángulo de posición mostrado supone un desplazamiento de 0°.",
+				pa_east_of_north: "E del N",
 			},
 
 			capture_settings: {

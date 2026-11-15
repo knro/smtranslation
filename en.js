@@ -1483,6 +1483,18 @@ const en = {
 				derotate_field: "Derotate Field",
 				derotation_threshold: "Threshold (arcmin)",
 				read_only: "Read only: the observatory owner has not allowed changes",
+				moving: "Moving",
+				idle: "Idle",
+				alt_az_mount: "Alt-Az mount",
+				no_rotator: "No rotator in the capture optical train",
+				flip_tooltip: "How the rotator reacts after a meridian flip, or when a solved image reports the other pier side: keep the rotator angle, or turn the rotator to keep the camera position angle.",
+				reverse_tooltip: "Turn this on when the rotator turns the opposite way to the angle it is sent.",
+				derotate_tooltip: "While the mount tracks, turn the rotator to keep the camera position angle constant.",
+				threshold_tooltip: "The rotator is corrected when the position angle drifts by more than this amount.",
+				derotation_unavailable: "Available when the mount reports an Alt-Az mount type.",
+				calibrate_title: "Camera offset not measured yet",
+				calibrate_body: "Capture & Solve in Align measures it. Until then the position angle shown assumes an offset of 0°.",
+				pa_east_of_north: "E of N",
 			},
 
 			capture_settings: {
