@@ -22,6 +22,15 @@ const context = {
 		"Status under a fix the user applied in the Focus troubleshoot panel, while autofocus runs again to test it. Short.",
 	"troubleshoot.verified_focus":
 		"Shown in the Focus troubleshoot panel when autofocus succeeded after a fix. One short sentence.",
+
+	// Status under a fix the user applied that does not run the module again by itself, e.g. one that moves the
+	// focuser or the mount: the fix is only confirmed when the user runs the module again
+	"troubleshoot.rerun":
+		"Status under a fix the user applied in the Align troubleshoot panel, when Align does not run again by itself: the user has to run Align again to see if the fix worked. One short sentence.",
+	"troubleshoot.rerun_focus":
+		"Status under a fix the user applied in the Focus troubleshoot panel, e.g. moving the focuser to the last good position, when autofocus does not run again by itself: the user has to run autofocus again to see if the fix worked. One short sentence.",
+	"troubleshoot.rerun_guide":
+		"Status under a fix the user applied in the Guide troubleshoot panel, when guiding does not start again by itself: the user has to start guiding again to see if the fix worked. One short sentence.",
 	"troubleshoot.open_advisor":
 		"Button on a suggestion in the Focus troubleshoot panel. It opens Focus Advisor, the screen that finds good autofocus settings. Use the same name as the Focus Advisor screen. Short (about 25 characters).",
 
