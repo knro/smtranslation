@@ -105,6 +105,32 @@ const context = {
 		"Body of the alert shown when the remote desktop page of the StellarMate cannot be loaded. One sentence.",
 	"device.remote_desktop.update_password":
 		"Button in the remote desktop screen header and title of the screen that changes the remote desktop password. Short (about 30 characters).",
+
+	// Capture: rotator tool (Tools > Rotator on the Capture card)
+	"ekos.collapse_camera.rotator_control.moving":
+		"Status chip in the rotator tool header while the rotator is turning. One word, very short (about 10 characters).",
+	"ekos.collapse_camera.rotator_control.idle":
+		"Status chip in the rotator tool header while the rotator is not turning. One word, very short (about 10 characters).",
+	"ekos.collapse_camera.rotator_control.alt_az_mount":
+		"Chip in the rotator tool header when the mount is an altitude-azimuth (Alt-Az) mount, as opposed to an equatorial one. Very short (about 15 characters).",
+	"ekos.collapse_camera.rotator_control.no_rotator":
+		"Shown in the rotator tool header, in place of the rotator name, and as a warning banner when the capture optical train has no rotator. One line.",
+	"ekos.collapse_camera.rotator_control.flip_tooltip":
+		"Help text behind the (i) next to the Flip Policy setting (rotator_control.flip). The two choices it describes are rotator_control.flip_rotator and rotator_control.flip_position.",
+	"ekos.collapse_camera.rotator_control.reverse_tooltip":
+		"Help text behind the (i) next to the \"Reverse direction of Rotator\" switch (rotator_control.reverse_direction). One sentence.",
+	"ekos.collapse_camera.rotator_control.derotate_tooltip":
+		"Help text behind the (i) next to the \"Derotate Field\" switch, for Alt-Az mounts. \"Position angle\" is the camera position angle (rotator_control.pos_angle). One sentence.",
+	"ekos.collapse_camera.rotator_control.threshold_tooltip":
+		"Help text behind the (i) next to the field derotation threshold (rotator_control.derotation_threshold), in arcminutes. One sentence.",
+	"ekos.collapse_camera.rotator_control.derotation_unavailable":
+		"Note under the Alt-Az Field Derotation section when the mount is not an Alt-Az mount, so derotation cannot be used. One sentence.",
+	"ekos.collapse_camera.rotator_control.calibrate_title":
+		"Title of an info banner in the rotator tool when the camera offset (rotator_control.offset) has not been measured yet. Short (about 40 characters).",
+	"ekos.collapse_camera.rotator_control.calibrate_body":
+		"Body of the banner titled by rotator_control.calibrate_title. \"Capture & Solve\" is a button and \"Align\" a module: use their translated names. Keep the ° sign.",
+	"ekos.collapse_camera.rotator_control.pa_east_of_north":
+		"Abbreviation for \"East of North\", shown as \"PA · E of N\" in the middle of the rotator dial: the position angle is measured from north towards east. Very short (about 8 characters).",
 };
 
 export default context;
