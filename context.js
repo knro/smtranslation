@@ -13,6 +13,28 @@ const context = {
 	"ekos.collapse_align.error":
 		"Label above the latest plate-solving error value, in arcseconds. The \" is the arcsecond sign: keep it.",
 
+	// Troubleshoot panel on the Focus card (pulse button): the Focus version of the Align strings next to them
+	"troubleshoot.focus":
+		"Title of the troubleshoot panel on the Focus card, as troubleshoot.align is on the Align card. Short (about 25 characters).",
+	"troubleshoot.no_report_hint_focus":
+		"Shown in the Focus troubleshoot panel when nothing failed yet, under troubleshoot.no_report. \"Check-up\" is the button below it (troubleshoot.run_checkup).",
+	"troubleshoot.retrying_focus":
+		"Status under a fix the user applied in the Focus troubleshoot panel, while autofocus runs again to test it. Short.",
+	"troubleshoot.verified_focus":
+		"Shown in the Focus troubleshoot panel when autofocus succeeded after a fix. One short sentence.",
+	"troubleshoot.open_advisor":
+		"Button on a suggestion in the Focus troubleshoot panel. It opens Focus Advisor, the screen that finds good autofocus settings. Use the same name as the Focus Advisor screen. Short (about 25 characters).",
+
+	// Troubleshoot panel on the Guide card (pulse button): the Guide version of the Align strings next to them
+	"troubleshoot.guide":
+		"Title of the troubleshoot panel on the Guide card, as troubleshoot.align is on the Align card. Short (about 25 characters).",
+	"troubleshoot.no_report_hint_guide":
+		"Shown in the Guide troubleshoot panel when nothing failed yet, under troubleshoot.no_report. \"Check-up\" is the button below it (troubleshoot.run_checkup).",
+	"troubleshoot.retrying_guide":
+		"Status under a fix the user applied in the Guide troubleshoot panel, while calibration and guiding start again to test it. Short.",
+	"troubleshoot.verified_guide":
+		"Shown in the Guide troubleshoot panel when calibration or guiding worked after a fix. One short sentence.",
+
 	// Guide: Manual Pulse dialog (Guide card > arrow button)
 	"ekos.collapse_guide.manual_pulse":
 		"Title of the dialog that sends single guide pulses to the mount by hand.",
