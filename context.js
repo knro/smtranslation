@@ -140,6 +140,44 @@ const context = {
 		"Body of the banner titled by rotator_control.calibrate_title. \"Capture & Solve\" is a button and \"Align\" a module: use their translated names. Keep the ° sign.",
 	"ekos.collapse_camera.rotator_control.pa_east_of_north":
 		"Abbreviation for \"East of North\", shown as \"PA · E of N\" in the middle of the rotator dial: the position angle is measured from north towards east. Very short (about 8 characters).",
+
+	// Community > Bookings > Messages: conversations between EkosLive users
+	"community.messages.messages":
+		"Third tab of Community > Bookings, next to My Bookings and My Observatories: the user's conversations with other EkosLive users. Short (about 15 characters).",
+	"community.messages.search_users":
+		"Placeholder in the search box at the top of the Messages list. It finds people by full name or nickname to start a conversation with.",
+	"community.messages.no_conversations":
+		"Shown in the Messages list when the user has no conversations yet. The search box is just above it.",
+	"community.messages.no_users":
+		"Shown under the Messages search box when no one matches what the user typed.",
+	"community.messages.load_failed":
+		"Shown in the Messages list when the conversations could not be loaded. Pulling the list down reloads it.",
+	"community.messages.yesterday":
+		"Shown at the right of a conversation in the Messages list when its last message is from yesterday. Very short (about 10 characters).",
+	"community.messages.type_message":
+		"Placeholder in the box at the bottom of a conversation where the user writes a message.",
+	"community.messages.send_failed":
+		"Error dialog text when a message could not be sent. The text the user wrote stays in the box.",
+	"community.messages.be_polite":
+		"Notice at the top of every conversation, as on EkosLive's Messages page. One short sentence.",
+	"community.messages.request_title":
+		"Notice at the top of a conversation someone else started: their first message is a request the user must approve before replying. {0} is that person's name.",
+	"community.messages.request_body":
+		"Second line of the request notice (community.messages.request_title). Approve and Reject are the buttons under it (general.approve, general.reject).",
+	"community.messages.confirm_approve":
+		"Confirmation dialog title after pressing Approve (general.approve). A question.",
+	"community.messages.confirm_reject":
+		"Confirmation dialog title after pressing Reject (general.reject). The second sentence says the conversation disappears.",
+	"community.messages.respond_failed":
+		"Error dialog text when approving or rejecting a message request failed.",
+	"community.messages.waiting_title":
+		"Shown while the other person has not yet approved the user's first message; the user cannot send more until then. Also the placeholder of the disabled message box. Short.",
+	"community.messages.waiting_body":
+		"Second line of the waiting notice (community.messages.waiting_title). {0} is the other person's name.",
+	"community.messages.start_conversation":
+		"Shown in an empty conversation, before the first message. {0} is the other person's name.",
+	"community.messages.select_conversation":
+		"Shown on tablets in the right-hand pane of Messages when no conversation is open; the list and its search box are on the left.",
 };
 
 export default context;
