@@ -154,10 +154,6 @@ const context = {
 		"Shown in the Messages list when the conversations could not be loaded. Pulling the list down reloads it.",
 	"community.messages.yesterday":
 		"Shown at the right of a conversation in the Messages list when its last message is from yesterday. Very short (about 10 characters).",
-	"community.messages.online":
-		"Under the other person's name at the top of a conversation, when they are signed in to EkosLive now. Short.",
-	"community.messages.offline":
-		"Under the other person's name at the top of a conversation, when they are not signed in to EkosLive. Short.",
 	"community.messages.type_message":
 		"Placeholder in the box at the bottom of a conversation where the user writes a message.",
 	"community.messages.send_failed":
@@ -167,23 +163,17 @@ const context = {
 	"community.messages.request_title":
 		"Notice at the top of a conversation someone else started: their first message is a request the user must approve before replying. {0} is that person's name.",
 	"community.messages.request_body":
-		"Second line of the request notice (community.messages.request_title). Approve and Reject are the buttons under it (community.messages.approve, community.messages.reject).",
-	"community.messages.approve":
-		"Button under a message request: accepts it, so both people can write to each other. Short (about 12 characters).",
-	"community.messages.reject":
-		"Button under a message request: declines it and removes the conversation. Short (about 12 characters).",
+		"Second line of the request notice (community.messages.request_title). Approve and Reject are the buttons under it (general.approve, general.reject).",
 	"community.messages.confirm_approve":
-		"Confirmation dialog title after pressing Approve (community.messages.approve). A question.",
+		"Confirmation dialog title after pressing Approve (general.approve). A question.",
 	"community.messages.confirm_reject":
-		"Confirmation dialog title after pressing Reject (community.messages.reject). The second sentence says the conversation disappears.",
+		"Confirmation dialog title after pressing Reject (general.reject). The second sentence says the conversation disappears.",
 	"community.messages.respond_failed":
 		"Error dialog text when approving or rejecting a message request failed.",
 	"community.messages.waiting_title":
 		"Shown while the other person has not yet approved the user's first message; the user cannot send more until then. Also the placeholder of the disabled message box. Short.",
 	"community.messages.waiting_body":
 		"Second line of the waiting notice (community.messages.waiting_title). {0} is the other person's name.",
-	"community.messages.pending":
-		"Next to the time under the user's own message that the other person has not approved yet, as \"10:42 AM · Pending\". Very short (about 10 characters).",
 	"community.messages.start_conversation":
 		"Shown in an empty conversation, before the first message. {0} is the other person's name.",
 	"community.messages.select_conversation":
