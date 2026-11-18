@@ -1388,6 +1388,7 @@ const es = {
 		},
 
 		collapse_align: {
+			use_current_filter: "Usar el filtro actual",
 			error_plot: "Error de solución",
 			error: "Error (\")",
 			heading: "Alinear",
@@ -1434,6 +1435,7 @@ const es = {
 				square_size: "Tamaño cuadrado automático",
 				calibrate_backlast:
 					"Eliminar el juego DEC en la calibración de la guía",
+				reset_on_rotation: "Restablecer la calibración cuando el campo gira",
 				reset_calibration:
 					"Guía de restablecimiento de calibración después de cada giro de la montura",
 				reuse_calibration:
@@ -1798,6 +1800,7 @@ const es = {
 			calibration_settings: "Configuración de calibración",
 
 			ai: {
+				title: "Configuración de guía AI",
 				worm: "Engranaje de tornillo sin fin",
 				harmonic: "Harmonic Drive",
 				drive: "Accionamiento directo",
@@ -1807,7 +1810,7 @@ const es = {
 				weights_file: "Archivo de pesos",
 				prediction_gain: "Ganancia de predicción AI",
 				dark_guiding: "Intervalo de guía oscura",
-				scale_down: "Reducir la ganancia proporcional durante la creación de AI",
+				scale_down: "Reducir la ganancia proporcional durante la corrección de AI",
 				enable_dark_guiding: "Habilitar guía oscura predictiva",
 				assistant: "Asistente de guía AI",
 				info_note_title: "AI Guiding Assistant",
@@ -2911,7 +2914,7 @@ const es = {
 			use_position:
 				"Indica al solucionador las coordenadas actuales de la montura para que solo busque en esa zona del cielo, lo que acelera la resolución. Si falla, Ekos lo reintenta sin la posición.",
 			filter:
-				"Filtro al que se mueve la rueda de filtros antes de cada imagen de alineación. Se ignora si Align de Ekos está configurado para usar el filtro actual.",
+				"Filtro al que se mueve la rueda antes de cada imagen de alineación. «Usar el filtro actual» mantiene el filtro que ya está puesto.",
 			accuracy:
 				"Con la acción Slew, Ekos repite el apuntado y la resolución hasta que la posición resuelta esté a menos de esta distancia del objetivo, en segundos de arco. Se rinde tras 10 intentos.",
 			settle:
@@ -2924,6 +2927,8 @@ const es = {
 				"Desviación máxima, en minutos de arco, entre el ángulo de posición resuelto de la cámara y el ángulo objetivo. Por encima, el rotador vuelve a girar; por debajo, se acepta el ángulo.",
 		},
 		focus: {
+			out_step_multiple:
+				"Para el recorrido Classic: el autoenfoque se aleja primero hacia fuera este múltiplo del Volumen Inicial Paso y después vuelve hacia dentro pasando por el foco. Lo usan Linear y Linear 1 Pass.",
 			auto_select_star:
 				"Ekos elige la estrella de enfoque. Desactívelo para elegir la estrella usted mismo en la imagen. Solo con Submarco y no con la detección Bahtinov.",
 			dark_frame:
@@ -2957,7 +2962,7 @@ const es = {
 			algorithm:
 				"Iterative y Polynomial avanzan por pasos hacia el HFR mínimo. Linear muestrea hacia dentro en dos pasadas y tolera bien el juego mecánico. Linear 1 Pass ajusta una curva tras una pasada y va directo al mejor enfoque; la mayoría de las demás opciones de enfoque lo requieren.",
 			curve_fit:
-				"Curva ajustada a los puntos del autoenfoque. Hyperbola y Parabola requieren Linear 1 Pass, y Hyperbola suele ser la mejor opción; Polynomial y Linear usan Quadratic.",
+				"Curva ajustada a los puntos del autoenfoque. Hyperbola, Parabola y Gaussian requieren Linear 1 Pass, y Hyperbola suele ser la mejor opción; los demás algoritmos usan Quadratic.",
 			average_over:
 				"Número de imágenes capturadas en cada posición del enfocador; sus medidas se promedian. Más imágenes dan valores más estables pero un autoenfoque más lento.",
 			tolerance:
@@ -3016,6 +3021,8 @@ const es = {
 				"Segundos de espera para que el enfocador llegue a su objetivo antes de considerar que el movimiento ha superado el tiempo límite.",
 		},
 		guide: {
+			reset_on_rotation:
+				"Borrar la calibración de guiado guardada cuando el campo gira, para que el siguiente inicio de guiado vuelva a calibrar. El giro se detecta a partir del ángulo de posición resuelto por astrometría, así que cubre tanto los movimientos del rotador como el giro manual de la cámara. Los giros de meridiano se tratan aparte.",
 			auto_star:
 				"Selecciona automáticamente la estrella guía al iniciar la calibración o el guiado. Desmárquelo para elegir usted mismo la estrella en la imagen de guiado.",
 			subframe:

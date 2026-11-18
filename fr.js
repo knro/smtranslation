@@ -1377,6 +1377,7 @@ const fr = {
 				"La position de stationnement a été définie avec succès.",
 		},
 		collapse_align: {
+			use_current_filter: "Utiliser le filtre actuel",
 			error_plot: "Erreur de solution",
 			error: "Erreur (\")",
 			heading: "Aligner",
@@ -1422,6 +1423,7 @@ const fr = {
 				two_axis: "Deux axes",
 				square_size: "Taille carrée auto",
 				calibrate_backlast: "Supprimer le jeu DEC dans l'étalonnage du guide",
+				reset_on_rotation: "Réinitialiser la calibration quand le champ tourne",
 				reset_calibration:
 					"Réinitialiser l'étalonnage du guide après chaque pivotement de la monture",
 				reuse_calibration:
@@ -1788,6 +1790,7 @@ const fr = {
 			calibration_settings: "Paramètres de calibration",
 
 			ai: {
+				title: "Configuration du guidage AI",
 				worm: "Engrenage à vis sans fin",
 				harmonic: "Harmonic Drive",
 				drive: "Entraînement direct",
@@ -1797,7 +1800,7 @@ const fr = {
 				weights_file: "Fichier de pondération",
 				prediction_gain: "Gain de prédiction AI",
 				dark_guiding: "Intervalle de guidage sombre",
-				scale_down: "Réduire le gain proportionnel pendant la création de l'AI",
+				scale_down: "Réduire le gain proportionnel pendant la correction AI",
 				enable_dark_guiding: "Activer le guidage sombre prédictif",
 				assistant: "Assistant de guidage AI",
 				info_note_title: "AI Guiding Assistant",
@@ -2877,7 +2880,7 @@ const fr = {
 			use_position:
 				"Fournit au solveur les coordonnées actuelles de la monture pour qu'il ne cherche que dans cette partie du ciel, ce qui accélère la résolution. En cas d'échec, Ekos réessaie sans la position.",
 			filter:
-				"Filtre sur lequel la roue à filtres se place avant chaque image d'alignement. Ignoré si Align dans Ekos est réglé pour utiliser le filtre actuel.",
+				"Filtre vers lequel la roue se déplace avant chaque image d'alignement. « Utiliser le filtre actuel » garde le filtre déjà en place.",
 			accuracy:
 				"Avec l'action Visée, Ekos répète pointage et résolution jusqu'à ce que la position résolue soit à moins de cette distance de la cible, en secondes d'arc. Il abandonne après 10 tentatives.",
 			settle:
@@ -2890,6 +2893,8 @@ const fr = {
 				"Écart maximal, en minutes d'arc, entre l'angle de position résolu de la caméra et l'angle cible. Au-delà, le rotateur tourne à nouveau ; en deçà, l'angle est accepté.",
 		},
 		focus: {
+			out_step_multiple:
+				"Pour la marche Classic : l'autofocus s'éloigne d'abord vers l'extérieur de ce multiple de la Taille initiale du pas, puis revient vers l'intérieur en traversant le point de focus. Utilisé par Linear et Linear 1 Pass.",
 			auto_select_star:
 				"Ekos choisit lui-même l'étoile de mise au point. Désactivez pour choisir l'étoile vous-même dans l'image. Uniquement avec Sous-trame, et pas avec la détection Bahtinov.",
 			dark_frame:
@@ -2923,7 +2928,7 @@ const fr = {
 			algorithm:
 				"Iterative et Polynomial avancent par pas vers le plus petit HFR. Linear échantillonne vers l'intérieur en deux passes et résiste bien au jeu mécanique. Linear 1 Pass ajuste une courbe après une seule passe et va directement au meilleur foyer ; la plupart des autres options de mise au point en ont besoin.",
 			curve_fit:
-				"Courbe ajustée aux points de l'autofocus. Hyperbola et Parabola nécessitent Linear 1 Pass, et Hyperbola est généralement le meilleur choix ; Polynomial et Linear utilisent Quadratic.",
+				"Courbe ajustée aux points de l'autofocus. Hyperbola, Parabola et Gaussian nécessitent Linear 1 Pass, et Hyperbola est généralement le meilleur choix ; les autres algorithmes utilisent Quadratic.",
 			average_over:
 				"Nombre d'images capturées à chaque position du focuser ; leurs mesures sont moyennées. Plus d'images donnent des valeurs plus stables mais un autofocus plus lent.",
 			tolerance:
@@ -2982,6 +2987,8 @@ const fr = {
 				"Secondes d'attente pour que le focuser atteigne sa cible avant que le déplacement soit considéré comme expiré.",
 		},
 		guide: {
+			reset_on_rotation:
+				"Effacer la calibration de guidage enregistrée quand le champ tourne, pour que le prochain démarrage du guidage refasse la calibration. La rotation est détectée à partir de l'angle de position obtenu par résolution astrométrique : elle couvre les mouvements du rotateur comme la rotation manuelle de la caméra. Les retournements au méridien sont gérés à part.",
 			auto_star:
 				"Sélectionne automatiquement l'étoile guide au démarrage de l'étalonnage ou du guidage. Décochez pour choisir vous-même l'étoile sur l'image de guidage.",
 			subframe:

@@ -383,6 +383,17 @@ const context = {
 		"Focus > Settings > Mechanics tab. Tooltip for 'Overscan Delay' (focusOverscanDelay, seconds). 'AF Overscan' is the option on the same tab.",
 	"setting_tips.focus.motion_timeout":
 		"Focus > Settings > Mechanics tab. Tooltip for 'Motion timeout' (focusMotionTimeout, seconds).",
+	// Guide settings > AI Guiding tab
+	"ekos.collapse_guide.ai.title":
+		"Title of the section on the AI Guiding tab of Guide settings, as in Ekos (\"AI Guiding Configuration\"). Short.",
+	"ekos.collapse_align.calibration_settings.reset_on_rotation":
+		"Checkbox in Guide settings > Calibration Settings: clear the guide calibration when the camera field rotates (rotator or by hand). Next to reset_calibration (\"after each mount slew\").",
+	"setting_tips.guide.reset_on_rotation":
+		"Tooltip for ekos.collapse_align.calibration_settings.reset_on_rotation. The position angle is the camera orientation found by plate solving.",
+	"ekos.collapse_align.use_current_filter":
+		"First choice of the Filter dropdown in Align settings > Preset: align with whatever filter is in the wheel instead of a fixed one (Ekos' \"Use current\" box). Short (about 25 characters).",
+	"setting_tips.focus.out_step_multiple":
+		"Tooltip for Out Step Multiple in Focus settings > Mechanics (ekos.collapse_focus.mechanics.out_step_multiple). \"Classic\" is a walk name shown in English; \"Initial Step Size\" is ekos.collapse_focus.mechanics.initial_step_size.",
 };
 
 export default context;

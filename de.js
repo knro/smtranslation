@@ -1374,6 +1374,7 @@ const de = {
 			parking_position: "Park Position wurde gesetzt.",
 		},
 		collapse_align: {
+			use_current_filter: "Aktuellen Filter verwenden",
 			error_plot: "Lösungsfehler",
 			error: "Fehler (\")",
 			heading: "Ausrichten",
@@ -1418,6 +1419,7 @@ const de = {
 				two_axis: "Two axis",
 				square_size: "Auto square size",
 				calibrate_backlast: "DEC Rückschlag/Backlash in der Guide Kalibration beseitigen",
+				reset_on_rotation: "Kalibrierung zurücksetzen, wenn sich das Feld dreht",
 				reset_calibration: "Beseitige Guide Kalibration nach jeder Bewegung der Montierung",
 				reuse_calibration: "Speicher und Benutzer Guide Kalibration wenn möglich",
 				reverse_calibration:
@@ -1775,6 +1777,7 @@ const de = {
 			calibration_settings: "Kalibrierungseinstellungen",
 
 			ai: {
+				title: "KI-Guiding-Konfiguration",
 				worm: "Schneckengetriebe",
 				harmonic: "Harmonic Drive",
 				drive: "Direktantrieb",
@@ -1784,7 +1787,7 @@ const de = {
 				weights_file: "Gewichtungsdatei",
 				prediction_gain: "KI-Vorhersageverstärkung",
 				dark_guiding: "Dunkelführungsintervall",
-				scale_down: "Proportionalverstärkung während der KI-Erstellung herunterskalieren",
+				scale_down: "Proportionalverstärkung während der KI-Korrektur herunterskalieren",
 				enable_dark_guiding: "Prädiktive Dunkelführung aktivieren",
 				assistant: "KI-Führungsassistent",
 				info_note_title: "AI Guiding Assistant",
@@ -2856,7 +2859,7 @@ const de = {
 			use_position:
 				"Übergibt dem Solver die aktuellen Koordinaten der Montierung, damit er nur diesen Himmelsbereich durchsucht und schneller löst. Schlägt das Lösen fehl, versucht Ekos es erneut ohne Position.",
 			filter:
-				"Filter, auf den das Filterrad vor jeder Ausrichtungsaufnahme fährt. Wird ignoriert, wenn Ekos Align auf den aktuellen Filter eingestellt ist.",
+				"Filter, auf den das Rad vor jeder Ausrichtungsaufnahme fährt. „Aktuellen Filter verwenden“ behält den gerade eingestellten Filter.",
 			accuracy:
 				"Mit der Aktion Schwenk wiederholt Ekos Schwenken und Lösen, bis die gelöste Position höchstens diesen Abstand vom Ziel hat, in Bogensekunden. Nach 10 Versuchen gibt es auf.",
 			settle:
@@ -2869,6 +2872,8 @@ const de = {
 				"Wie weit der gelöste Positionswinkel der Kamera vom Zielwinkel abweichen darf, in Bogenminuten. Darüber wird der Rotator erneut gedreht, darunter wird der Winkel akzeptiert.",
 		},
 		focus: {
+			out_step_multiple:
+				"Für den Classic-Walk: Der Autofokus fährt zuerst um dieses Vielfache der Anfangsschrittgröße nach außen und dann schrittweise durch den Fokus zurück nach innen. Wird von Linear und Linear 1 Pass verwendet.",
 			auto_select_star:
 				"Ekos wählt den Fokusstern selbst aus. Ausschalten, um den Stern selbst im Bild zu wählen. Nur mit Unterrahmen/Sub Frame und nicht mit der Bahtinov-Erkennung.",
 			dark_frame:
@@ -2902,7 +2907,7 @@ const de = {
 			algorithm:
 				"Iterative und Polynomial nähern sich schrittweise dem kleinsten HFR. Linear tastet in zwei Durchgängen nach innen ab und ist robust gegen Spiel. Linear 1 Pass passt nach einem Durchgang eine Kurve an und fährt direkt zum besten Fokus; die meisten anderen Fokusoptionen setzen ihn voraus.",
 			curve_fit:
-				"An die Autofokus-Datenpunkte angepasste Kurve. Hyperbola und Parabola erfordern Linear 1 Pass, Hyperbola ist meist die beste Wahl; Polynomial und Linear verwenden Quadratic.",
+				"Kurve, die an die Autofokus-Messpunkte angepasst wird. Hyperbola, Parabola und Gaussian erfordern Linear 1 Pass, meist ist Hyperbola die beste Wahl; die anderen Algorithmen verwenden Quadratic.",
 			average_over:
 				"Anzahl der Bilder pro Fokussiererposition; ihre Messwerte werden gemittelt. Mehr Bilder ergeben stabilere Werte, aber einen langsameren Autofokus.",
 			tolerance:
@@ -2961,6 +2966,8 @@ const de = {
 				"Sekunden, die auf das Erreichen der Zielposition gewartet wird, bevor die Bewegung als Zeitüberschreitung gilt.",
 		},
 		guide: {
+			reset_on_rotation:
+				"Die gespeicherte Guiding-Kalibrierung löschen, wenn sich das Feld dreht, damit beim nächsten Guiding-Start neu kalibriert wird. Die Drehung wird aus dem astrometrisch gelösten Positionswinkel erkannt und erfasst daher Rotator-Bewegungen ebenso wie eine von Hand gedrehte Kamera. Meridian-Flips werden gesondert behandelt.",
 			auto_star:
 				"Wählt den Leitstern beim Start der Kalibrierung oder des Guidings automatisch aus. Deaktivieren, um den Stern selbst im Guiding-Bild auszuwählen.",
 			subframe:

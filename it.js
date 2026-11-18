@@ -1389,6 +1389,7 @@ const it = {
 		},
 
 		collapse_align: {
+			use_current_filter: "Usa il filtro attuale",
 			error_plot: "Errore della soluzione",
 			error: "Errore (\")",
 			heading: "Allinea",
@@ -1433,6 +1434,7 @@ const it = {
 				two_axis: "Due assi",
 				square_size: "Dimensione quadrato automatica",
 				calibrate_backlast: "Rimuovi il gioco DEC nella calibrazione guida",
+				reset_on_rotation: "Azzera la calibrazione quando il campo ruota",
 				reset_calibration:
 					"Ripristina calibrazione guida dopo ogni spostamento montatura",
 				reuse_calibration:
@@ -1798,6 +1800,7 @@ const it = {
 			calibration_settings: "Impostazioni di calibrazione",
 
 			ai: {
+				title: "Configurazione guida AI",
 				worm: "Vite senza fine",
 				harmonic: "Harmonic Drive",
 				drive: "Azionamento diretto",
@@ -1807,7 +1810,7 @@ const it = {
 				weights_file: "File dei pesi",
 				prediction_gain: "Guadagno di previsione AI",
 				dark_guiding: "Intervallo di guida oscura",
-				scale_down: "Riduci il guadagno proporzionale durante la creazione AI",
+				scale_down: "Riduci il guadagno proporzionale durante la correzione AI",
 				enable_dark_guiding: "Abilita la guida oscura predittiva",
 				assistant: "Assistente di guida AI",
 				info_note_title: "AI Guiding Assistant",
@@ -2909,7 +2912,7 @@ const it = {
 			use_position:
 				"Fornisce al solutore le coordinate attuali della montatura, così cerca solo in quella zona di cielo e risolve più in fretta. Se la risoluzione fallisce, Ekos riprova senza la posizione.",
 			filter:
-				"Filtro su cui si porta la ruota portafiltri prima di ogni immagine di allineamento. Ignorato se Align di Ekos è impostato per usare il filtro attuale.",
+				"Filtro su cui la ruota si sposta prima di ogni immagine di allineamento. «Usa il filtro attuale» mantiene il filtro già inserito.",
 			accuracy:
 				"Con l'azione Slew, Ekos ripete puntamento e risoluzione finché la posizione risolta non è entro questa distanza dal bersaglio, in secondi d'arco. Si arrende dopo 10 tentativi.",
 			settle:
@@ -2922,6 +2925,8 @@ const it = {
 				"Scostamento massimo, in primi d'arco, tra l'angolo di posizione risolto della camera e l'angolo obiettivo. Oltre, il rotatore viene ruotato di nuovo; entro, l'angolo è accettato.",
 		},
 		focus: {
+			out_step_multiple:
+				"Per la camminata Classic: l'autofocus si sposta prima verso l'esterno di questo multiplo della Dimensione passo iniziale, poi torna verso l'interno attraversando il fuoco. Usato da Linear e Linear 1 Pass.",
 			auto_select_star:
 				"Ekos sceglie da solo la stella per la messa a fuoco. Disattiva per scegliere la stella nell'immagine. Solo con Sottofotogramma e non con il rilevamento Bahtinov.",
 			dark_frame:
@@ -2955,7 +2960,7 @@ const it = {
 			algorithm:
 				"Iterative e Polynomial avanzano a passi verso l'HFR minimo. Linear campiona verso l'interno in due passate e tollera bene il gioco meccanico. Linear 1 Pass adatta una curva dopo una sola passata e va direttamente al fuoco migliore; la maggior parte delle altre opzioni di messa a fuoco lo richiede.",
 			curve_fit:
-				"Curva adattata ai punti dell'autofocus. Hyperbola e Parabola richiedono Linear 1 Pass e Hyperbola è di solito la scelta migliore; Polynomial e Linear usano Quadratic.",
+				"Curva adattata ai punti dell'autofocus. Hyperbola, Parabola e Gaussian richiedono Linear 1 Pass, e Hyperbola è di solito la scelta migliore; gli altri algoritmi usano Quadratic.",
 			average_over:
 				"Numero di fotogrammi catturati per ogni posizione del focheggiatore; le loro misure vengono mediate. Più fotogrammi danno valori più stabili ma un autofocus più lento.",
 			tolerance:
@@ -3014,6 +3019,8 @@ const it = {
 				"Secondi di attesa perché il focheggiatore raggiunga l'obiettivo prima che lo spostamento sia considerato scaduto.",
 		},
 		guide: {
+			reset_on_rotation:
+				"Cancellare la calibrazione di guida salvata quando il campo ruota, così il successivo avvio della guida ricalibra. La rotazione viene rilevata dall'angolo di posizione risolto astrometricamente, quindi copre sia i movimenti del rotatore sia la rotazione manuale della camera. I flip al meridiano sono gestiti a parte.",
 			auto_star:
 				"Seleziona automaticamente la stella guida all'avvio della calibrazione o della guida. Deselezionalo per scegliere tu la stella sull'immagine di guida.",
 			subframe:

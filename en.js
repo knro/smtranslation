@@ -1400,6 +1400,7 @@ const en = {
 		},
 
 		collapse_align: {
+			use_current_filter: "Use current filter",
 			heading: "Align",
 			error_plot: "Solution Error",
 			error: "Error (\")",
@@ -1444,6 +1445,7 @@ const en = {
 				two_axis: "Two axis",
 				square_size: "Auto square size",
 				calibrate_backlast: "Remove DEC backlash in guide calibration",
+				reset_on_rotation: "Reset calibration when the field rotates",
 				reset_calibration: "Reset Guide Calibration After Each Mount Slew",
 				reuse_calibration: "Store and reuse guide calibration when possible",
 				reverse_calibration:
@@ -1811,6 +1813,7 @@ const en = {
 
 			ai:
 			{
+				title: "AI Guiding Configuration",
 				worm: "Worm Gear",
 				harmonic: "Harmonic Drive",
 				drive: "Direct Drive",
@@ -1822,7 +1825,7 @@ const en = {
 				weights_file: "Weights File",
 				prediction_gain: "AI Prediction Gain",
 				dark_guiding: "Dark Guiding Interval",
-				scale_down: "Scale down Proportional gain during AI creation",
+				scale_down: "Scale down proportional gain during AI correction",
 				enable_dark_guiding: "Enable Predictive Dark Guiding",
 				assistant: "AI Guiding Assistant",
 				info_note_title: "AI Guiding Assistant",
@@ -2948,7 +2951,7 @@ const en = {
 			use_position:
 				"Give the solver the mount's current coordinates so it only searches that part of the sky, which makes solving faster. If solving fails, Ekos retries without the position.",
 			filter:
-				"Filter the filter wheel moves to before each align image is captured. Ignored when Ekos Align is set to use the current filter.",
+				"Filter the wheel moves to before each align image is captured. Use current filter keeps whatever filter is in the wheel.",
 			accuracy:
 				"With the Slew action, Ekos repeats slewing and solving until the solved position is within this distance of the target, in arcseconds. It gives up after 10 attempts.",
 			settle:
@@ -2961,6 +2964,8 @@ const en = {
 				"How far, in arcminutes, the solved camera position angle may be from the target angle. Beyond it the rotator is turned again; within it the angle is accepted.",
 		},
 		focus: {
+			out_step_multiple:
+				"For the Classic walk: autofocus first moves outward by this many times the Initial Step Size, then steps back in through focus. Used by Linear and Linear 1 Pass.",
 			auto_select_star:
 				"Ekos picks the focus star itself. Turn off to choose the star yourself in the image. Only with Sub Frame, and not with Bahtinov detection.",
 			dark_frame:
@@ -2994,7 +2999,7 @@ const en = {
 			algorithm:
 				"Iterative and Polynomial step towards the smallest HFR. Linear samples inward in two passes and copes well with backlash. Linear 1 Pass fits a curve after one pass and moves straight to best focus; most other focus options need it.",
 			curve_fit:
-				"Curve fitted to the autofocus datapoints. Hyperbola and Parabola need Linear 1 Pass, and Hyperbola is usually the best choice; Polynomial and Linear use Quadratic.",
+				"Curve fitted to the autofocus datapoints. Hyperbola, Parabola and Gaussian need Linear 1 Pass, and Hyperbola is usually the best choice; the other algorithms use Quadratic.",
 			average_over:
 				"Number of frames captured at each focuser position; their measurements are averaged. More frames give steadier values but a slower autofocus.",
 			tolerance:
@@ -3053,6 +3058,8 @@ const en = {
 				"Seconds to wait for the focuser to reach its target before the move is treated as timed out.",
 		},
 		guide: {
+			reset_on_rotation:
+				"Clear the stored guide calibration when the field rotates, so the next guide start calibrates again. Rotation is detected from the plate-solved position angle, so it covers rotator moves and turning the camera by hand. Meridian flips are handled separately.",
 			auto_star:
 				"Selects the guide star automatically when calibration or guiding starts. Uncheck it to pick the star yourself on the guide image.",
 			subframe:

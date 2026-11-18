@@ -1327,6 +1327,7 @@
 			parking_position: "归位位置设置成功",
 		},
 		collapse_align: {
+			use_current_filter: "使用当前滤镜",
 			error_plot: "解算误差",
 			error: "误差 (\")",
 			heading: "对准",
@@ -1370,6 +1371,7 @@
 				two_axis: "双轴",
 				square_size: "自动正方形大小",
 				calibrate_backlast: "在导星校准时消除赤纬背隙",
+				reset_on_rotation: "视场旋转时重置校准",
 				reset_calibration: "每次望远镜移动后重置导星校准",
 				reuse_calibration: "尽可能存储和重复使用导星校准",
 				reverse_calibration: "在赤道仪中天翻转时，反转赤纬以重复使用校准值",
@@ -1710,6 +1712,7 @@
 			advanced_settings: "高级设置",
 			calibration_settings: "校准设置",
 			ai: {
+				title: "AI 导星配置",
 				worm: "蜗轮蜗杆",
 				harmonic: "谐波驱动",
 				drive: "直接驱动",
@@ -1719,7 +1722,7 @@
 				weights_file: "权重文件",
 				prediction_gain: "AI 预测增益",
 				dark_guiding: "暗导间隔",
-				scale_down: "在 AI 创建期间按比例降低增益",
+				scale_down: "AI 校正期间降低比例增益",
 				enable_dark_guiding: "启用预测暗导",
 				assistant: "AI 导星助手",
 				info_note_title: "AI Guiding Assistant",
@@ -2739,7 +2742,8 @@
 			use_scale:
 				"向解析器提供预期的图像比例，使其只搜索该比例的索引文件，从而加快解析。若解析失败，Ekos 会在不使用比例的情况下重试。",
 			use_position: "向解析器提供赤道仪当前坐标，使其只搜索该天区，从而加快解析。若解析失败，Ekos 会在不使用位置的情况下重试。",
-			filter: "每次拍摄校准图像前滤镜轮切换到的滤镜。若 Ekos 的 Align 模块设置为使用当前滤镜，则忽略此项。",
+			filter:
+				"每次拍摄校准图像前滤镜轮转到的滤镜。选择“使用当前滤镜”则保留轮中当前的滤镜。",
 			accuracy:
 				"使用“转动至目标”动作时，Ekos 会反复转动并解析，直到解析位置与目标的偏差在此距离（角秒）以内。尝试 10 次后放弃。",
 			settle: "赤道仪转动结束后、拍摄下一张校准图像前的等待时间（毫秒），让振动平息。",
@@ -2749,6 +2753,8 @@
 			rotator_threshold: "解析得到的相机位置角与目标角之间允许的最大偏差（角分）。超出时再次转动旋转器，在范围内则接受该角度。",
 		},
 		focus: {
+			out_step_multiple:
+				"用于 Classic 步进方式：自动对焦先向外移动初始步长的这个倍数，然后向内逐步穿过焦点。由 Linear 和 Linear 1 Pass 使用。",
 			auto_select_star: "由 Ekos 自动选择调焦用的星点。关闭后可在图像中自行选星。仅适用于子帧，且不适用于 Bahtinov 探测。",
 			dark_frame: "从每张调焦图像中减去匹配的暗场帧或缺陷图。请先在暗场库中创建。",
 			sub_frame:
@@ -2775,7 +2781,7 @@
 			algorithm:
 				"Iterative 和 Polynomial 逐步逼近最小 HFR。Linear 分两轮向内采样，对背隙的容忍度较好。Linear 1 Pass 在一轮采样后拟合曲线并直接移到最佳焦点；其他大多数调焦选项都需要它。",
 			curve_fit:
-				"用于拟合自动调焦数据点的曲线。Hyperbola 和 Parabola 需要 Linear 1 Pass，通常 Hyperbola 效果最好；Polynomial 和 Linear 使用 Quadratic。",
+				"拟合自动对焦数据点所用的曲线。Hyperbola、Parabola 和 Gaussian 需要 Linear 1 Pass，通常 Hyperbola 效果最好；其他算法使用 Quadratic。",
 			average_over: "每个调焦器位置拍摄的帧数，其测量值取平均。帧数越多数值越稳定，但自动调焦越慢。",
 			tolerance:
 				"当某位置的 HFR 与测得的最佳 HFR 相差在此百分比以内时，自动调焦即接受该位置。数值越小要求越严格。Linear 1 Pass 不使用此项。",
@@ -2817,6 +2823,8 @@
 			motion_timeout: "等待调焦器到达目标位置的秒数；超时后视为移动超时。",
 		},
 		guide: {
+			reset_on_rotation:
+				"视场旋转时清除已保存的导星校准，下次开始导星时重新校准。旋转通过解析得到的位置角检测，因此同时适用于旋转器转动和手动旋转相机。中天翻转另行处理。",
 			auto_star: "在开始校准或导星时自动选择导星。取消勾选可在导星图像上手动选择星点。",
 			subframe:
 				"仅拍摄所选导星周围的区域（“选星框”大小的四倍），而不是整幅画面，从而加快图像下载。使用 SEP Multi Star 时仍拍摄整幅画面，但只在导星附近搜索星点。",
