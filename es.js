@@ -1507,6 +1507,7 @@ const es = {
 			},
 
 			capture_settings: {
+				delay_tooltip: "Segundos de espera antes de capturar cada imagen.",
 				miscellaneous: "Misceláneas",
 				temperature: "Umbral de temperatura",
 				temperature_tooltip:
@@ -1531,9 +1532,9 @@ const es = {
 				summary_preview: "Vista previa de la pantalla de resumen",
 				summary_preview_tooltip:
 					"Muestra los FITS recibidos en la ventana de vista previa de la pantalla Resumen.",
-				operations_timeout: "Capture Operations Timeout",
+				operations_timeout: "Tiempo límite de operaciones de captura",
 				operations_timeout_tooltip:
-					"Maximum number of seconds to wait before aborting the capture if operations like filter wheel changes or meridian flips take too long",
+					"Número máximo de segundos de espera antes de abortar la captura si operaciones como un cambio de filtro o un giro de meridiano tardan demasiado.",
 
 				force_dslr: "Ajustes preestablecidos de DSLR de Force",
 				image_viewer: "Visor de imágenes DSLR",
@@ -1559,6 +1560,22 @@ const es = {
 			heading: "Ajustes Preestablecidos",
 		},
 		capture_limits: {
+			start_deviation_tooltip:
+				"Esperar a que la desviación de guiado esté por debajo de este valor antes de iniciar cada exposición. Se ignora en las vistas previas.",
+			abort_deviation_tooltip:
+				"Abortar la toma de luz en curso cuando la desviación de guiado se mantiene por encima de este valor durante el número de muestras indicado abajo. Ekos espera entonces a que el guiado se recupere y repite la toma.",
+			refocus_n_tooltip:
+				"Ejecutar el autoenfoque cada N minutos. El temporizador se reinicia tras cada autoenfoque.",
+			focus_deltaT_tooltip:
+				"Ejecutar el autoenfoque cuando la temperatura ha cambiado más de este valor desde el último autoenfoque.",
+			refocus_meridian_tooltip: "Ejecutar el autoenfoque tras un giro de meridiano.",
+			refocus_on_hfr_tooltip:
+				"Comprobar el HFR de las estrellas entre tomas y ejecutar el autoenfoque cuando supera el umbral. Último autoenfoque compara con el HFR del último autoenfoque, Fijo con el valor HFR de abajo, Medida mediana con la mediana de los autoenfoques y comprobaciones recientes.",
+			hfr_percent_tooltip:
+				"Cuánto puede crecer el HFR, en porcentaje del HFR de referencia, antes de ejecutar el autoenfoque.",
+			check_every_tooltip: "Ejecutar la comprobación de HFR tras este número de tomas.",
+			hfr_value_tooltip:
+				"El HFR de referencia en píxeles. Ekos lo rellena con Último autoenfoque y Medida mediana; con Fijo, introdúzcalo usted. Puede cambiarlo en cualquier caso.",
 			heading: "Configuracion de limites",
 			guiding_deviation: "Desviacion de Guiado <",
 			guiding_deviation_unit: '"',
@@ -1571,10 +1588,13 @@ const es = {
 			refocus_on_hfr: "Refocus on HFR. Use",
 			refocus_meridian: "Refocus after meridian flip",
 			check_every: "Check every",
-			about_guide_deviation: "Acerca de si hay desviación de guía >",
+			about_guide_deviation: "Abortar si la desviación de guía >",
 			start_deviation: "Sólo empezar si hay desviación de la guía <",
 			guide_deviation: "Desviación de la guía",
 			consecutive_times: "veces consecutivas",
+			consecutive_samples: "Muestras sobre el límite antes de abortar",
+			consecutive_samples_tooltip:
+				"Número de muestras de guiado consecutivas que deben superar el límite de aborto de arriba antes de abortar la exposición. Un pico más corto se ignora. Ekos espera entonces a que el guiado se recupere y reinicia la exposición.",
 			dither_job: "Dither por trabajo cada",
 		},
 		capture_filters: {
@@ -1588,6 +1608,20 @@ const es = {
 			alt: "Alt",
 		},
 		capture_auto_calibration: {
+			wall_tooltip:
+				"Antes de las tomas de calibración, mover la montura a esta posición Az/Alt (por ejemplo un panel de flats o una pared blanca) y detener el seguimiento. Una caja de luz, si la hay, se enciende para los flats y se apaga para los darks.",
+			park_mount_tooltip:
+				"Aparcar la montura antes de capturar las tomas de calibración. No se puede combinar con Mural.",
+			park_dome_tooltip:
+				"Aparcar la cúpula antes de capturar las tomas de calibración. Disponible cuando hay una cúpula conectada.",
+			manual_tooltip:
+				"Los flats usan el tiempo de exposición definido en la secuencia.",
+			adu_tooltip:
+				"Buscar la exposición de flats automáticamente: Ekos ajusta la exposición, o el brillo de un panel de flats controlable, hasta que las tomas alcanzan este ADU. Auto apunta al 40 % del rango de la cámara.",
+			tolerance_tooltip:
+				"Aceptar flats cuyo ADU esté a esta distancia del objetivo como máximo. Por ejemplo, un objetivo de 10000 con una tolerancia de 100 acepta de 9900 a 10100. Auto usa el 5 % del objetivo.",
+			skyflats_tooltip:
+				"Para flats tomados en el cielo del crepúsculo, cuyo brillo cambia sin parar. Ekos usa un cálculo de exposición más simple y deja abierta la tapa antipolvo.",
 			heading: "Auto Calibracion",
 			flat_source: "Fuente Flat",
 			flat_duration: "Duracion Flat",
@@ -2865,6 +2899,171 @@ const es = {
 		info: {
 			drag: "Arrastre y suelte un archivo aquí, o haga clic para seleccionar un archivo",
 			selected: "El archivo ha sido seleccionado",
+		},
+	},
+	// Tooltips for the settings pages of Align, Focus and Guide
+	setting_tips: {
+		align: {
+			profile:
+				"Perfil de opciones de StellarSolver usado para detectar estrellas y resolver astrométricamente las imágenes de alineación. Los perfiles se crean y editan en las opciones de Align de Ekos.",
+			use_scale:
+				"Indica al solucionador la escala de imagen esperada para que solo busque en los archivos de índice de esa escala, lo que acelera la resolución. Si falla, Ekos lo reintenta sin la escala.",
+			use_position:
+				"Indica al solucionador las coordenadas actuales de la montura para que solo busque en esa zona del cielo, lo que acelera la resolución. Si falla, Ekos lo reintenta sin la posición.",
+			filter:
+				"Filtro al que se mueve la rueda de filtros antes de cada imagen de alineación. Se ignora si Align de Ekos está configurado para usar el filtro actual.",
+			accuracy:
+				"Con la acción Slew, Ekos repite el apuntado y la resolución hasta que la posición resuelta esté a menos de esta distancia del objetivo, en segundos de arco. Se rinde tras 10 intentos.",
+			settle:
+				"Tiempo de espera, en milisegundos, tras terminar el movimiento de la montura antes de capturar la siguiente imagen de alineación, para que se amortigüen las vibraciones.",
+			dark:
+				"Resta a cada imagen de alineación un dark o un mapa de defectos de la Biblioteca oscura antes de resolver. Si no encuentra uno adecuado, Ekos desactiva esta opción.",
+			rotator_control:
+				"Cuando hay un ángulo de posición objetivo, por ejemplo con Cargar y Rotar, gira el rotador tras la resolución para que la cámara lo alcance. Sin rotador motorizado, Ekos indica cuánto girar la cámara a mano.",
+			rotator_threshold:
+				"Desviación máxima, en minutos de arco, entre el ángulo de posición resuelto de la cámara y el ángulo objetivo. Por encima, el rotador vuelve a girar; por debajo, se acepta el ángulo.",
+		},
+		focus: {
+			auto_select_star:
+				"Ekos elige la estrella de enfoque. Desactívelo para elegir la estrella usted mismo en la imagen. Solo con Submarco y no con la detección Bahtinov.",
+			dark_frame:
+				"Resta un marco oscuro o un mapa de defectos correspondiente de cada imagen de enfoque. Créelos antes en la Biblioteca oscura.",
+			sub_frame:
+				"Enfoca con una sola estrella dentro de un pequeño recuadro en lugar de todo el cuadro. Recuadro fija su tamaño en píxeles: hasta 256, o 512 con la detección Bahtinov.",
+			full_field:
+				"Usa todas las estrellas detectadas en el cuadro; Ekos promedia su HFR. Necesario para Máscara de anillo, Mosaic Mask y Use Weights.",
+			suspend_guiding:
+				"Pausa el guiado durante el autoenfoque y mientras el enfocador se mueve por un offset de filtro. Necesario con un guiado fuera de eje (OAG); no lo es si la cámara de guiado está en un telescopio guía aparte.",
+			guide_settle:
+				"Segundos de espera tras el autoenfoque antes de reanudar el guiado. Solo se usa con Suspender la guía activado.",
+			use_all_stars:
+				"Sin máscara: se usan para enfocar todas las estrellas detectadas en el cuadro.",
+			ring_mask:
+				"Solo con Campo lleno: usa solo las estrellas dentro de un anillo centrado en el sensor. Los dos valores son los diámetros interior y exterior en % de la diagonal de la imagen; 0 % y 100 % incluyen todo el cuadro.",
+			mosaic_mask:
+				"Solo con Campo lleno: usa las estrellas de un mosaico de 3×3 teselas tomadas del centro, los bordes y las esquinas. El primer valor es el ancho de tesela en % del ancho de la imagen (como máximo un tercio del lado menor), el segundo la separación entre teselas en píxeles.",
+			adaptive_focus:
+				"Entre las tomas, mueve el enfocador para compensar los cambios de temperatura y altitud desde el último autoenfoque, con los coeficientes de cada filtro de la configuración de filtros de Ekos. Experimental; solo con Linear 1 Pass y un enfocador absoluto.",
+			min_move:
+				"Movimiento mínimo del enfoque adaptativo que se envía al enfocador, en pasos. Las correcciones menores se omiten.",
+			adapt_start:
+				"Inicia cada autoenfoque Linear 1 Pass desde el último resultado de autoenfoque del filtro, corregido por el cambio de temperatura y altitud desde entonces. Experimental.",
+			max_move:
+				"Movimiento total máximo del enfoque adaptativo entre autoenfoques, en pasos. Si un movimiento lo supera, el enfoque adaptativo se desactiva. Un movimiento de Adap Start Pos mayor también se omite.",
+			detection:
+				"Cómo se detectan las estrellas en las imágenes de enfoque. SEP encuentra muchas estrellas y se usa con Campo lleno. Gradient y Threshold miden una sola estrella (el análisis de campo completo usa SEP); Bahtinov es para enfocar con una máscara de Bahtinov.",
+			sep_profile:
+				"Perfil de StellarSolver con los parámetros de extracción de estrellas que SEP usa en las imágenes de enfoque.",
+			algorithm:
+				"Iterative y Polynomial avanzan por pasos hacia el HFR mínimo. Linear muestrea hacia dentro en dos pasadas y tolera bien el juego mecánico. Linear 1 Pass ajusta una curva tras una pasada y va directo al mejor enfoque; la mayoría de las demás opciones de enfoque lo requieren.",
+			curve_fit:
+				"Curva ajustada a los puntos del autoenfoque. Hyperbola y Parabola requieren Linear 1 Pass, y Hyperbola suele ser la mejor opción; Polynomial y Linear usan Quadratic.",
+			average_over:
+				"Número de imágenes capturadas en cada posición del enfocador; sus medidas se promedian. Más imágenes dan valores más estables pero un autoenfoque más lento.",
+			tolerance:
+				"El autoenfoque acepta una posición cuando su HFR está dentro de este porcentaje del mejor HFR medido. Cuanto menor, más estricto. No se usa con Linear 1 Pass.",
+			num_of_rows:
+				"Solo detección Bahtinov: número de filas de la imagen que se promedian para localizar las espigas de difracción de la máscara. Use un número impar; cambiarlo puede ayudar a que las líneas coincidan con el patrón de la estrella.",
+			kernel_size:
+				"Solo detección Bahtinov: tamaño del desenfoque gaussiano aplicado a la imagen antes de detectar las espigas de difracción.",
+			sigma:
+				"Solo detección Bahtinov: sigma (intensidad) del desenfoque gaussiano aplicado antes de detectar las espigas de difracción.",
+			use_weights:
+				"Pondera cada punto del ajuste de curva según la dispersión de las medidas de las estrellas, para que los puntos ruidosos cuenten menos. Solo con Campo lleno, Linear 1 Pass y un ajuste Hyperbola o Parabola.",
+			r2_limit:
+				"R² mínimo que debe alcanzar el ajuste de curva, de 0 (sin ajuste) a 1 (perfecto); 0,8 es un buen punto de partida. Si no se alcanza, el autoenfoque se repite una vez. Solo Linear 1 Pass con Hyperbola o Parabola.",
+			refine_curve_fit:
+				"Tras tomar todos los puntos, elimina los valores atípicos (criterio de Peirce) y vuelve a ajustar la curva; el nuevo ajuste se conserva si mejora el R². Solo Linear 1 Pass con Hyperbola o Parabola.",
+			average_hfr_check:
+				"Número de imágenes promediadas para la comprobación de HFR durante la secuencia. Con Linear 1 Pass, también el número de imágenes tomadas en la posición final de enfoque.",
+			threshold:
+				"Solo detección Threshold, en %: auméntelo para limitar la estrella a su núcleo brillante, redúzcalo para incluir estrellas difusas.",
+			donut_buster:
+				"Para telescopios con obstrucción central, cuyas estrellas desenfocadas se convierten en donuts que se miden demasiado pequeños: esos puntos lejanos se excluyen del ajuste de curva. Requiere Linear 1 Pass, un ajuste Hyperbola o Parabola y el Walk Fixed Steps o CFZ Shuffle.",
+			time_dilation:
+				"Alarga la exposición de los puntos más alejados hasta este factor, cada vez menos hacia el foco; el punto enfocado mantiene la exposición normal. 1 lo desactiva.",
+			outlier_rejection:
+				"Fracción máxima de puntos que Refine Curve Fit puede descartar como atípicos (0,2 = 20 %); valores más altos descartan más. Requiere Refine Curve Fit en la pestaña Proceso.",
+			scan_start_pos:
+				"Antes del autoenfoque, toma imágenes a ambos lados de la posición actual del enfocador, busca la mejor y empieza el autoenfoque allí. Solo Linear 1 Pass.",
+			scan_datapoints:
+				"Número de puntos que toma Escanear para la posición inicial (valores impares, de 5 a 11).",
+			scan_step_factor:
+				"Escanear para la posición inicial avanza en pasos de Volumen Inicial Paso (pestaña Mecanica) multiplicado por este factor.",
+			scan_always_on:
+				"Ejecuta Escanear para la posición inicial antes de cada autoenfoque. Desactivado, solo se ejecuta cuando el autoenfoque se reintenta tras un fallo.",
+			walk:
+				"Cómo Linear 1 Pass recorre el foco; los demás algoritmos y el ajuste Quadratic usan siempre Classic. Classic sale y luego entra hasta encontrar la curva, por lo que tolera empezar más lejos del foco. Fixed Steps toma exactamente Number Steps puntos alrededor de la posición inicial (empiece cerca del foco); CFZ Shuffle hace lo mismo con medios pasos cerca del foco.",
+			focuser_settle:
+				"Segundos de espera tras cada movimiento del enfocador antes de capturar la siguiente imagen, durante el autoenfoque y tras un movimiento de enfoque adaptativo.",
+			initial_step_size:
+				"Movimiento del enfocador entre puntos del autoenfoque (el primer paso con Iterative y Polynomial), en pasos, o en milisegundos para enfocadores por temporizador. Elija un paso que cambie claramente el HFR.",
+			number_steps:
+				"Número total de puntos para los Walk Fixed Steps y CFZ Shuffle con Linear 1 Pass. Classic no lo usa.",
+			max_travel:
+				"Distancia máxima, en pasos, que el enfocador puede alejarse de su posición inicial durante el autoenfoque; más allá, el autoenfoque se aborta. También limita los movimientos del enfoque adaptativo.",
+			max_step_size:
+				"Movimiento individual máximo que el autoenfoque puede hacer al buscar el foco, en pasos. Solo Iterative y Polynomial.",
+			backlash:
+				"Compensación del juego que aplica el driver del enfocador al invertir el sentido, en pasos; 0 la desactiva. Solo para drivers que la admiten. Normalmente se ajusta esto o AF Overscan, no ambos.",
+			af_overscan:
+				"Prolonga cada movimiento hacia fuera en este número de pasos y luego vuelve hacia dentro, para que el enfocador llegue siempre a su objetivo moviéndose hacia dentro. Se aplica a todos los movimientos del módulo de enfoque; 0 lo desactiva. Normalmente se ajusta esto o Retroceso.",
+			capture_timeout:
+				"Segundos de espera de una imagen de enfoque, además del tiempo de exposición, antes de considerar que la captura ha superado el tiempo límite.",
+			overscan_delay:
+				"Pausa en segundos entre el movimiento hacia fuera de AF Overscan y la vuelta hacia dentro. 0 sirve para la mayoría de enfocadores.",
+			motion_timeout:
+				"Segundos de espera para que el enfocador llegue a su objetivo antes de considerar que el movimiento ha superado el tiempo límite.",
+		},
+		guide: {
+			auto_star:
+				"Selecciona automáticamente la estrella guía al iniciar la calibración o el guiado. Desmárquelo para elegir usted mismo la estrella en la imagen de guiado.",
+			subframe:
+				"Captura solo una región alrededor de la estrella guía seleccionada (cuatro veces el tamaño del «Recuadro») en lugar del cuadro completo, por lo que las imágenes se descargan más rápido. Con SEP Multi Star se sigue capturando el cuadro completo, pero las estrellas solo se buscan cerca de las estrellas guía.",
+			box:
+				"Tamaño, en píxeles, del recuadro de seguimiento alrededor de la estrella guía. Elíjalo para que la estrella quepa con algo de margen; también define el tamaño del «Subcuadro».",
+			binning:
+				"Binning de la cámara de guiado. Se recomienda 2x2 o más. Los darks deben tomarse con el mismo binning.",
+			dark:
+				"Resta un dark de cada imagen de guiado. Cree los darks o mapas de defectos en la «Biblioteca oscura», con el mismo binning que usa para guiar.",
+			dither:
+				"Mueve la posición de bloqueo de la estrella guía en una dirección aleatoria entre las tomas light capturadas, para que cada imagen quede ligeramente desplazada. Solo funciona mientras se guía y no se puede combinar con «Pulso de dithering sin guiado».",
+			dither_amount:
+				"Cuánto se mueve la posición de bloqueo en cada dithering, en píxeles de la cámara de guiado, y cuántas tomas light capturadas pasan entre ditherings. Una frecuencia de dithering definida para el trabajo de captura tiene prioridad.",
+			algorithm:
+				"Cómo se calculan las correcciones de guiado, para RA (izquierda) y DEC (derecha). Standard corrige una parte del error medido, Hysteresis tiene en cuenta además la corrección anterior, Linear (como Lowpass2 de PHD2) usa un breve historial de errores recientes y GPG (solo RA) predice el error periódico y la deriva. AI Guider usa el modelo entrenado de «Archivo de pesos»; el guiado se interrumpe si no se puede cargar.",
+			aggressiveness:
+				"Fracción del error de guiado medido que corrige cada pulso, de 0 a 1, para RA (izquierda) y DEC (derecha). 1,0 intenta corregir todo el error; los valores menores que 1,0 ayudan a evitar oscilaciones.",
+			min_error:
+				"Menor error de guiado, en segundos de arco, que provoca una corrección, para RA (izquierda) y DEC (derecha). Para errores menores no se envía ningún pulso.",
+			max_response:
+				"Mayor corrección, en segundos de arco, enviada a la montura en un solo pulso de guiado, para RA (izquierda) y DEC (derecha). El guiado nunca intenta mover la montura más que esto de una vez.",
+			ra_directions:
+				"Activa o desactiva el guiado en RA. + permite correcciones hacia el este y - hacia el oeste; desactive uno para corregir la RA en una sola dirección.",
+			dec_directions:
+				"Activa o desactiva el guiado en DEC. + permite correcciones hacia el norte y - hacia el sur; desactive uno para corregir la DEC en una sola dirección.",
+			pulse:
+				"Duración de cada pulso de guiado enviado durante la calibración, en milisegundos. Si la estrella apenas se mueve tras un pulso, el siguiente se duplica.",
+			iterations:
+				"Número máximo de pulsos en cada fase de la calibración. Una fase termina antes en cuanto la estrella se ha movido «Movimiento máximo» píxeles.",
+			max_move:
+				"Distancia aproximada, en píxeles, que debe recorrer la estrella en cada fase de la calibración. Al alcanzarla, la fase termina antes de agotar las «Iteraciones».",
+			two_axis:
+				"Calibra tanto RA como DEC. Si se desmarca, solo se calibra RA.",
+			auto_square_size:
+				"Elige automáticamente el tamaño del recuadro de seguimiento según el ancho de la estrella seleccionada.",
+			reset_calibration:
+				"Borra la calibración del guiado cada vez que la montura gira o se aparca, de modo que el siguiente inicio del guiado vuelve a calibrar. Desactívelo para conservar una buena calibración; «Almacene y reutilice la guía de calibración cuando sea posible» solo funciona si esta opción está desactivada.",
+			weights_file:
+				"Pesos del modelo AI entrenado (archivo JSON) creados con el «Asistente de guía AI». El archivo debe coincidir con su tipo de montura y la configuración de guiado actual (exposición, binning, ganancias); si no, se rechaza al iniciar el guiado.",
+			prediction_gain:
+				"Cuánto se mezcla la predicción AI en cada pulso de guiado, de 0 a 1. 0 ignora la AI (solo guiado estándar) y 1 aplica la predicción completa; los valores más bajos son más conservadores.",
+			dark_guiding_interval:
+				"Segundos entre pulsos de corrección predichos mientras no hay medición de la estrella guía, por ejemplo durante la estabilización tras el dithering, el autoenfoque o la descarga de la cámara. Solo se usa si «Habilitar guía oscura predictiva» está activado.",
+			proportional_backoff:
+				"Reduce la corrección proporcional estándar cuando la predicción AI tiene mucha confianza, para que ambas no se sumen y provoquen oscilaciones.",
+			dark_guiding:
+				"Sigue enviando pulsos de corrección predichos por la AI durante las pausas en la medición de la estrella guía, como la estabilización tras el dithering, el autoenfoque o la descarga de la cámara. Requiere AI Guider como algoritmo de guiado de RA.",
 		},
 	},
 };

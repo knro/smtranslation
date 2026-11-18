@@ -1518,6 +1518,7 @@ const en = {
 			},
 
 			capture_settings: {
+				delay_tooltip: "Seconds to wait before each image is captured.",
 				miscellaneous: "Miscellaneous",
 				temperature: "Temperature threshold",
 				temperature_tooltip:
@@ -1571,6 +1572,22 @@ const en = {
 			heading: "Preset Settings",
 		},
 		capture_limits: {
+			start_deviation_tooltip:
+				"Wait until the guide deviation is below this value before starting each exposure. Ignored for previews.",
+			abort_deviation_tooltip:
+				"Abort the current light frame when the guide deviation stays above this value for the number of samples set below. Ekos then waits for guiding to recover and captures the frame again.",
+			refocus_n_tooltip:
+				"Run autofocus every this many minutes. The timer restarts after each autofocus.",
+			focus_deltaT_tooltip:
+				"Run autofocus when the temperature has changed by more than this since the last autofocus.",
+			refocus_meridian_tooltip: "Run autofocus after a meridian flip.",
+			refocus_on_hfr_tooltip:
+				"Check the star HFR between frames and run autofocus when it grows past the threshold. Last Autofocus compares with the HFR of the latest autofocus, Fixed with the HFR value below, Median Measure with the median of recent autofocus runs and checks.",
+			hfr_percent_tooltip:
+				"How much the HFR may grow, in percent of the reference HFR, before autofocus runs.",
+			check_every_tooltip: "Run the HFR check after this many frames.",
+			hfr_value_tooltip:
+				"The reference HFR in pixels. Ekos fills it in for Last Autofocus and Median Measure; for Fixed, enter it yourself. You can override it in every case.",
 			heading: "Limit Settings",
 			guiding_deviation: "Guiding Deviation <",
 			guiding_deviation_unit: '"',
@@ -1583,10 +1600,13 @@ const en = {
 			refocus_on_hfr: "Refocus on HFR. Use",
 			refocus_meridian: "Refocus after meridian flip",
 			check_every: "Check every",
-			about_guide_deviation: "About if guide deviation >",
+			about_guide_deviation: "Abort if guide deviation >",
 			start_deviation: "Only start if guide deviation <",
 			guide_deviation: "Guide deviation",
 			consecutive_times: "consecutive times",
+			consecutive_samples: "Samples over limit before abort",
+			consecutive_samples_tooltip:
+				"How many guide samples in a row must exceed the abort limit above before the exposure is aborted. A shorter spike is ignored. Ekos then waits for guiding to recover and restarts the exposure.",
 			dither_job: "Dither per job every",
 		},
 		capture_filters: {
@@ -1600,6 +1620,19 @@ const en = {
 			alt: "Alt",
 		},
 		capture_auto_calibration: {
+			wall_tooltip:
+				"Before calibration frames, slew the mount to this Az/Alt position (for example a flat panel or a white wall) and stop tracking. A light box, if there is one, is turned on for flats and off for darks.",
+			park_mount_tooltip:
+				"Park the mount before capturing calibration frames. Cannot be used together with Wall.",
+			park_dome_tooltip:
+				"Park the dome before capturing calibration frames. Available when a dome is connected.",
+			manual_tooltip: "Flat frames use the exposure time set in the sequence.",
+			adu_tooltip:
+				"Find the flat exposure automatically: Ekos adjusts the exposure, or the brightness of a controllable flat panel, until frames reach this ADU. Auto aims at 40% of the camera's range.",
+			tolerance_tooltip:
+				"Accept flats whose ADU is within this much of the target. For example, a target of 10000 with a tolerance of 100 accepts 9900 to 10100. Auto uses 5% of the target.",
+			skyflats_tooltip:
+				"For flats taken on the twilight sky, whose brightness keeps changing. Ekos uses a simpler exposure calculation and keeps the dust cap open.",
 			heading: "Auto Calibration",
 			flat_source: "Flat Source",
 			flat_duration: "Flat Duration",
@@ -2904,6 +2937,171 @@ const en = {
 		moves_title: "This moves your equipment",
 		moves_message: "{0}. Make sure the telescope can move freely.",
 		continue: "Continue",
+	},
+	// Tooltips for the settings pages of Align, Focus and Guide
+	setting_tips: {
+		align: {
+			profile:
+				"The StellarSolver options profile used to detect stars and plate solve align images. Profiles are created and edited in the Ekos Align options.",
+			use_scale:
+				"Give the solver the expected image scale so it only searches index files of that scale, which makes solving faster. If solving fails, Ekos retries without the scale.",
+			use_position:
+				"Give the solver the mount's current coordinates so it only searches that part of the sky, which makes solving faster. If solving fails, Ekos retries without the position.",
+			filter:
+				"Filter the filter wheel moves to before each align image is captured. Ignored when Ekos Align is set to use the current filter.",
+			accuracy:
+				"With the Slew action, Ekos repeats slewing and solving until the solved position is within this distance of the target, in arcseconds. It gives up after 10 attempts.",
+			settle:
+				"Time to wait, in milliseconds, after the mount stops slewing before the next align image is captured, so vibrations can die down.",
+			dark:
+				"Subtract a dark frame or defect map from the Dark Library from each align image before solving. If no matching one is found, Ekos turns this option off.",
+			rotator_control:
+				"When a target position angle is set, for example by Load & Slew, turn the rotator after solving so the camera matches it. Without a motorized rotator, Ekos shows how far to turn the camera by hand.",
+			rotator_threshold:
+				"How far, in arcminutes, the solved camera position angle may be from the target angle. Beyond it the rotator is turned again; within it the angle is accepted.",
+		},
+		focus: {
+			auto_select_star:
+				"Ekos picks the focus star itself. Turn off to choose the star yourself in the image. Only with Sub Frame, and not with Bahtinov detection.",
+			dark_frame:
+				"Subtract a matching dark frame or defect map from each focus image. Create them first in the Dark Library.",
+			sub_frame:
+				"Focus on a single star in a small box around it instead of the whole frame. Box sets the box size in pixels: up to 256, or 512 with Bahtinov detection.",
+			full_field:
+				"Use all the stars detected across the frame; Ekos averages their HFR. Required for Ring Mask, Mosaic Mask and Use Weights.",
+			suspend_guiding:
+				"Pause guiding while autofocus runs and while the focuser moves for a filter offset. Needed with an off-axis guider; not needed when the guide camera is on a separate guide scope.",
+			guide_settle:
+				"Seconds to wait after autofocus before guiding resumes. Only used when Suspend Guiding is on.",
+			use_all_stars:
+				"No mask: every star detected in the frame is used for focusing.",
+			ring_mask:
+				"Full Field only: use just the stars inside a ring centred on the sensor. The two values are the inner and outer diameters in % of the image diagonal; 0 % and 100 % include the whole frame.",
+			mosaic_mask:
+				"Full Field only: use the stars in a 3×3 mosaic of tiles from the centre, edges and corners. The first value is the tile width in % of the image width (at most a third of the shorter side), the second the gap between tiles in pixels.",
+			adaptive_focus:
+				"Between captured frames, move the focuser to make up for temperature and altitude changes since the last autofocus, using each filter's coefficients from the Ekos filter settings. Experimental; only with Linear 1 Pass and an absolute focuser.",
+			min_move:
+				"Smallest adaptive focus move sent to the focuser, in ticks. Smaller corrections are skipped.",
+			adapt_start:
+				"Start each Linear 1 Pass autofocus from the last autofocus result for the filter, corrected for the temperature and altitude change since then. Experimental.",
+			max_move:
+				"Largest total adaptive focus movement allowed between autofocus runs, in ticks. If a move would exceed it, adaptive focus is turned off. An Adap Start Pos move larger than this is skipped too.",
+			detection:
+				"How stars are found in focus frames. SEP finds many stars and is used for Full Field. Gradient and Threshold measure a single star (full-field analysis uses SEP); Bahtinov is for focusing with a Bahtinov mask.",
+			sep_profile:
+				"StellarSolver profile with the star-extraction parameters SEP uses on focus frames.",
+			algorithm:
+				"Iterative and Polynomial step towards the smallest HFR. Linear samples inward in two passes and copes well with backlash. Linear 1 Pass fits a curve after one pass and moves straight to best focus; most other focus options need it.",
+			curve_fit:
+				"Curve fitted to the autofocus datapoints. Hyperbola and Parabola need Linear 1 Pass, and Hyperbola is usually the best choice; Polynomial and Linear use Quadratic.",
+			average_over:
+				"Number of frames captured at each focuser position; their measurements are averaged. More frames give steadier values but a slower autofocus.",
+			tolerance:
+				"Autofocus accepts a position when its HFR is within this percentage of the best HFR measured. Lower is stricter. Not used by Linear 1 Pass.",
+			num_of_rows:
+				"Bahtinov detection only: number of image rows averaged when locating the mask's diffraction spikes. Use an odd number; changing it can help the lines match the star pattern.",
+			kernel_size:
+				"Bahtinov detection only: size of the Gaussian blur applied to the image before the diffraction spikes are detected.",
+			sigma:
+				"Bahtinov detection only: sigma (strength) of the Gaussian blur applied before the diffraction spikes are detected.",
+			use_weights:
+				"Weight each datapoint in the curve fit by the spread of the star measurements, so noisy points count less. Only with Full Field, Linear 1 Pass and a Hyperbola or Parabola curve fit.",
+			r2_limit:
+				"Minimum R² the curve fit must reach, from 0 (no fit) to 1 (perfect); 0.8 is a good start. If it is not reached, autofocus runs once more. Linear 1 Pass with Hyperbola or Parabola only.",
+			refine_curve_fit:
+				"After all datapoints are taken, remove outliers (Peirce's criterion) and fit the curve again; the new fit is kept if R² improves. Linear 1 Pass with Hyperbola or Parabola only.",
+			average_hfr_check:
+				"Number of frames averaged for the in-sequence HFR check. With Linear 1 Pass, also the number of frames taken at the final focus position.",
+			threshold:
+				"Threshold detection only, in %: increase to limit the star to its bright core, decrease to include fuzzy stars.",
+			donut_buster:
+				"For telescopes with a central obstruction, whose defocused stars turn into donuts that measure too small: those outer datapoints are left out of the curve fit. Needs Linear 1 Pass, a Hyperbola or Parabola fit and the Fixed Steps or CFZ Shuffle walk.",
+			time_dilation:
+				"Lengthens the exposure of the outermost datapoints by up to this factor, scaled down towards focus; the in-focus point keeps the normal exposure. 1 turns it off.",
+			outlier_rejection:
+				"Largest fraction of datapoints Refine Curve Fit may reject as outliers (0.2 = 20 %); higher values reject more. Needs Refine Curve Fit on the Process tab.",
+			scan_start_pos:
+				"Before autofocus, take frames on both sides of the current focuser position, find the best one and start autofocus there. Linear 1 Pass only.",
+			scan_datapoints:
+				"Number of datapoints taken by Scan for Start Position (odd values, 5 to 11).",
+			scan_step_factor:
+				"Scan for Start Position steps by Initial Step Size (Mechanics tab) multiplied by this factor.",
+			scan_always_on:
+				"Run Scan for Start Position before every autofocus. When off, it runs only when autofocus is retried after a failure.",
+			walk:
+				"How Linear 1 Pass moves through focus; other algorithms and a Quadratic fit always use Classic. Classic steps out, then in until the curve is found, so it tolerates starting further from focus. Fixed Steps takes exactly Number Steps datapoints around the start position (start near focus); CFZ Shuffle does the same with half steps near focus.",
+			focuser_settle:
+				"Seconds to wait after each focuser move before the next frame is captured, during autofocus and after an adaptive focus move.",
+			initial_step_size:
+				"Focuser move between autofocus datapoints (the first step for Iterative and Polynomial), in ticks, or milliseconds for timer-based focusers. Pick a step that clearly changes the HFR.",
+			number_steps:
+				"Total number of datapoints for the Fixed Steps and CFZ Shuffle walks with Linear 1 Pass. Not used by Classic.",
+			max_travel:
+				"Farthest the focuser may move from its starting position during autofocus, in ticks; autofocus aborts beyond it. Also limits adaptive focus moves.",
+			max_step_size:
+				"Largest single move autofocus may make while searching for focus, in ticks. Iterative and Polynomial only.",
+			backlash:
+				"Backlash compensation applied by the focuser driver when the direction reverses, in ticks; 0 turns it off. Only for drivers that support it. Usually set either this or AF Overscan, not both.",
+			af_overscan:
+				"Extends every outward move by this many ticks and then moves back in, so the focuser always reaches its target moving inward. Applies to all Focus module moves; 0 turns it off. Usually set either this or Backlash.",
+			capture_timeout:
+				"Seconds to wait for a focus frame, on top of the exposure time, before the capture is treated as timed out.",
+			overscan_delay:
+				"Pause in seconds between the outward AF Overscan move and the move back in. 0 suits most focusers.",
+			motion_timeout:
+				"Seconds to wait for the focuser to reach its target before the move is treated as timed out.",
+		},
+		guide: {
+			auto_star:
+				"Selects the guide star automatically when calibration or guiding starts. Uncheck it to pick the star yourself on the guide image.",
+			subframe:
+				"Captures only a region around the selected guide star (four times the Box size) instead of the full frame, so frames download faster. With SEP Multi Star the full frame is still captured, but stars are only searched near the guide stars.",
+			box:
+				"Size of the tracking box around the guide star, in pixels. Choose it to fit the star with some margin; it also sets the Subframe size.",
+			binning:
+				"Binning of the guide camera. 2x2 or higher is recommended. Dark frames must be taken with the same binning.",
+			dark:
+				"Subtracts a dark frame from each guide frame. Create darks or defect maps in the Dark Library, using the same binning as for guiding.",
+			dither:
+				"Moves the guide star lock position in a random direction between captured light frames, so each image is slightly offset. Works only while guiding and cannot be combined with Non-Guide Dither Pulse.",
+			dither_amount:
+				"How far the lock position moves at each dither, in guide camera pixels, and how many captured light frames pass between dithers. A dither frequency set for the capture job takes precedence.",
+			algorithm:
+				"How guide corrections are computed, for RA (left) and DEC (right). Standard corrects a share of the measured error, Hysteresis also weighs in the previous correction, Linear (like PHD2 Lowpass2) uses a short history of recent errors, and GPG (RA only) predicts periodic error and drift. AI Guider uses the trained model in Weights File; guiding aborts if it cannot be loaded.",
+			aggressiveness:
+				"Fraction of the measured guide error corrected by each pulse, from 0 to 1, for RA (left) and DEC (right). 1.0 tries to correct the full error; values below 1.0 help avoid oscillation.",
+			min_error:
+				"Smallest guide error, in arcseconds, that triggers a correction, for RA (left) and DEC (right). No pulse is sent for smaller errors.",
+			max_response:
+				"Largest correction, in arcseconds, sent to the mount in a single guide pulse, for RA (left) and DEC (right). The guider never tries to move the mount further than this at once.",
+			ra_directions:
+				"Turns RA guiding on or off. + allows corrections toward East and - toward West; turn one off to correct RA in one direction only.",
+			dec_directions:
+				"Turns DEC guiding on or off. + allows corrections toward North and - toward South; turn one off to correct DEC in one direction only.",
+			pulse:
+				"Length of each guide pulse sent during calibration, in milliseconds. If the star barely moves after a pulse, the next pulse is doubled.",
+			iterations:
+				"Maximum number of pulses in each calibration phase. A phase ends sooner once the star has moved Max Move pixels.",
+			max_move:
+				"Approximate distance, in pixels, the star should move in each calibration phase. Reaching it ends the phase before all Iterations are used.",
+			two_axis:
+				"Calibrates both RA and DEC. When unchecked, only RA is calibrated.",
+			auto_square_size:
+				"Selects the tracking box size automatically from the width of the selected star.",
+			reset_calibration:
+				"Clears the guide calibration whenever the mount slews or parks, so the next guide start calibrates again. Turn it off to keep a good calibration; Store and reuse guide calibration when possible only works while this is off.",
+			weights_file:
+				"Trained AI model weights (a JSON file) created with the AI Guiding Assistant. The file must match your mount type and current guide settings (exposure, binning, gains), or it is rejected when guiding starts.",
+			prediction_gain:
+				"How strongly the AI prediction is blended into each guide pulse, from 0 to 1. 0 ignores the AI (standard guiding only) and 1 applies the full prediction; lower values are more conservative.",
+			dark_guiding_interval:
+				"Seconds between predicted correction pulses while there is no guide star measurement, such as during dither settling, autofocus or camera downloads. Only used when Enable Predictive Dark Guiding is on.",
+			proportional_backoff:
+				"Reduces the standard proportional correction when the AI prediction is highly confident, so the two do not add up and cause oscillation.",
+			dark_guiding:
+				"Keeps sending AI-predicted correction pulses during gaps in guide star measurements, such as dither settling, autofocus or camera downloads. Requires AI Guider as the RA guiding algorithm.",
+		},
 	},
 };
 
