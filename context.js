@@ -58,6 +58,14 @@ const context = {
 	"ekos.collapse_guide.pulse_moved_hint":
 		"Small help text under those two values. Reset is the button next to them (general.reset).",
 
+	// Community: booking calendar and hours page, time other renters already hold
+	"community.booking.legend_requested":
+		"Help text under the booking calendar, after the legend for booked days. The dot is a small mark under the day number. Some hours of that night are already requested by someone, so they cannot be booked, but the other hours can.",
+	"community.booking.day_fully_booked":
+		"Shown on the hours page instead of the slider when hours other renters already requested or booked leave no free stretch long enough on that day.",
+	"community.booking.free_hours":
+		"Title above buttons listing the stretches of the night still free after other bookings, such as \"7:00 PM - 9:00 PM\". Tapping one moves the hours slider into it. Short.",
+
 	// Community: booking hours page, almanac bar (tap a band or a sun to show its name and times)
 	"community.booking.sunset":
 		"Name of the sun icon on the almanac bar where the sun sets. Shown as \"Sunset: 6:20 PM\" under the bar. Short.",
