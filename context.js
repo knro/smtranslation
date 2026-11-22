@@ -394,6 +394,15 @@ const context = {
 		"First choice of the Filter dropdown in Align settings > Preset: align with whatever filter is in the wheel instead of a fixed one (Ekos' \"Use current\" box). Short (about 25 characters).",
 	"setting_tips.focus.out_step_multiple":
 		"Tooltip for Out Step Multiple in Focus settings > Mechanics (ekos.collapse_focus.mechanics.out_step_multiple). \"Classic\" is a walk name shown in English; \"Initial Step Size\" is ekos.collapse_focus.mechanics.initial_step_size.",
+	// Dark Library (Capture > Tools > Dark Library)
+	"darkLibrary.create_defect_map.no_masters":
+		"Shown in the Create Defect Map and View Masters tabs when the camera of the Dark Library optical train has no master dark yet, above a \"Create Darks\" button (darkLibrary.create_darks_title). Used when the camera name is unknown; otherwise no_masters_for is shown. One or two short sentences.",
+	"darkLibrary.create_defect_map.no_masters_for":
+		"Same as no_masters, with the camera's device name in {0} (e.g. \"ZWO CCD ASI294MC Pro\"). One or two short sentences.",
+	"setting_tips.dark_library.hot_pixels":
+		"Tooltip on Hot Pixels in Dark Library > Create Defect Map. \"The number\" is the count shown next to the label; \"the threshold\" is the 0-100 field beside it. Quote the Generate Map button as it is translated (darkLibrary.create_defect_map.generate_map).",
+	"setting_tips.dark_library.cold_pixels":
+		"Tooltip on Cold Pixels in Dark Library > Create Defect Map, the counterpart of setting_tips.dark_library.hot_pixels for pixels darker than the median. Quote the Generate Map button as it is translated (darkLibrary.create_defect_map.generate_map).",
 };
 
 export default context;
