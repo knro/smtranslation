@@ -315,6 +315,8 @@ const ja = {
 			generate_map: "マップの生成",
 			save_map: "保存済み",
 			deviation: "σ",
+			no_masters: "このカメラのマスター ダークはまだありません。先にこのカメラでダークを作成してください。",
+			no_masters_for: "{0} のマスター ダークはまだありません。先にこのカメラでダークを作成してください。",
 		},
 	},
 	achievements: {

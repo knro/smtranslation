@@ -321,6 +321,8 @@ const de = {
 			generate_map: "Karte generieren",
 			save_map: "Gespeichert",
 			deviation: "σ",
+			no_masters: "Noch keine Master Darks für diese Kamera. Erstellen Sie zuerst Darks damit.",
+			no_masters_for: "Noch keine Master Darks für {0}. Erstellen Sie zuerst Darks mit dieser Kamera.",
 		},
 	},
 	achievements: {

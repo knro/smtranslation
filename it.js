@@ -317,6 +317,8 @@ const it = {
 			generate_map: "Genera Mappa",
 			save_map: "Salvato",
 			deviation: "σ",
+			no_masters: "Ancora nessun master dark per questa camera. Crea prima i dark con essa.",
+			no_masters_for: "Ancora nessun master dark per {0}. Crea prima i dark con questa camera.",
 		},
 	},
 	achievements: {

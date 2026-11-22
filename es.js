@@ -321,6 +321,8 @@ const es = {
 			generate_map: "Generar mapa",
 			save_map: "Salvado",
 			deviation: "σ",
+			no_masters: "Aún no hay maestros oscuros para esta cámara. Cree primero darks con ella.",
+			no_masters_for: "Aún no hay maestros oscuros para {0}. Cree primero darks con esta cámara.",
 		},
 	},
 	achievements: {

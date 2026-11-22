@@ -308,6 +308,8 @@
 			generate_map: "生成图像",
 			save_map: "保存",
 			deviation: "σ",
+			no_masters: "此相机还没有主暗场。请先用它拍摄暗场。",
+			no_masters_for: "{0} 还没有主暗场。请先用该相机拍摄暗场。",
 		},
 	},
 	achievements: {

@@ -319,6 +319,8 @@ const fr = {
 			generate_map: "Generer carte",
 			save_map: "Sauvegardé",
 			deviation: "σ",
+			no_masters: "Aucun master dark pour cette caméra. Créez d'abord des darks avec elle.",
+			no_masters_for: "Aucun master dark pour {0}. Créez d'abord des darks avec cette caméra.",
 		},
 	},
 	achievements: {
