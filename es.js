@@ -2908,6 +2908,10 @@ const es = {
 	},
 	// Tooltips for the settings pages of Align, Focus and Guide
 	setting_tips: {
+		dark_library: {
+			hot_pixels: "Píxeles más brillantes que la mediana del maestro oscuro por encima del umbral. El número es el que encontró el último «Generar mapa»: cambie el umbral y vuelva a pulsar «Generar mapa» para actualizarlo. Un umbral más alto marca más píxeles; uno más bajo, solo los más brillantes. Desmarque para excluirlos del mapa.",
+			cold_pixels: "Píxeles más oscuros que la mediana del maestro oscuro por encima del umbral. El número es el que encontró el último «Generar mapa»: cambie el umbral y vuelva a pulsar «Generar mapa» para actualizarlo. Un umbral más alto marca más píxeles; uno más bajo, solo los más oscuros. Desmarque para excluirlos del mapa.",
+		},
 		align: {
 			profile:
 				"Perfil de opciones de StellarSolver usado para detectar estrellas y resolver astrométricamente las imágenes de alineación. Los perfiles se crean y editan en las opciones de Align de Ekos.",

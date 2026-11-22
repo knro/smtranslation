@@ -2906,6 +2906,10 @@ const it = {
 	},
 	// Tooltips for the settings pages of Align, Focus and Guide
 	setting_tips: {
+		dark_library: {
+			hot_pixels: "Pixel più luminosi della mediana del master dark oltre la soglia. Il numero è quanti ne ha trovati l'ultimo «Genera Mappa»: modifica la soglia e premi di nuovo «Genera Mappa» per aggiornarlo. Una soglia più alta segnala più pixel, una più bassa solo i più luminosi. Deseleziona per escluderli dalla mappa.",
+			cold_pixels: "Pixel più scuri della mediana del master dark oltre la soglia. Il numero è quanti ne ha trovati l'ultimo «Genera Mappa»: modifica la soglia e premi di nuovo «Genera Mappa» per aggiornarlo. Una soglia più alta segnala più pixel, una più bassa solo i più scuri. Deseleziona per escluderli dalla mappa.",
+		},
 		align: {
 			profile:
 				"Profilo di opzioni StellarSolver usato per rilevare le stelle e risolvere astrometricamente le immagini di allineamento. I profili si creano e si modificano nelle opzioni Align di Ekos.",

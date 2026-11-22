@@ -2874,6 +2874,10 @@ const fr = {
 	},
 	// Tooltips for the settings pages of Align, Focus and Guide
 	setting_tips: {
+		dark_library: {
+			hot_pixels: "Pixels plus lumineux que la médiane du master dark, au-delà du seuil. Le nombre est celui trouvé par le dernier « Generer carte » : modifiez le seuil, puis appuyez de nouveau sur « Generer carte » pour le mettre à jour. Un seuil plus élevé signale plus de pixels, un seuil plus bas seulement les plus lumineux. Décochez pour les exclure de la carte.",
+			cold_pixels: "Pixels plus sombres que la médiane du master dark, au-delà du seuil. Le nombre est celui trouvé par le dernier « Generer carte » : modifiez le seuil, puis appuyez de nouveau sur « Generer carte » pour le mettre à jour. Un seuil plus élevé signale plus de pixels, un seuil plus bas seulement les plus sombres. Décochez pour les exclure de la carte.",
+		},
 		align: {
 			profile:
 				"Profil d'options StellarSolver utilisé pour détecter les étoiles et résoudre astrométriquement les images d'alignement. Les profils se créent et se modifient dans les options Align d'Ekos.",

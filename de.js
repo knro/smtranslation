@@ -2853,6 +2853,10 @@ const de = {
 	},
 	// Tooltips for the settings pages of Align, Focus and Guide
 	setting_tips: {
+		dark_library: {
+			hot_pixels: "Pixel, die um mehr als den Schwellenwert heller sind als der Median des Master Darks. Die Zahl zeigt, wie viele das letzte „Karte generieren“ gefunden hat: Schwellenwert ändern und erneut „Karte generieren“ drücken, um sie zu aktualisieren. Ein höherer Schwellenwert markiert mehr Pixel, ein niedrigerer nur die hellsten. Deaktivieren, um sie aus der Karte auszuschließen.",
+			cold_pixels: "Pixel, die um mehr als den Schwellenwert dunkler sind als der Median des Master Darks. Die Zahl zeigt, wie viele das letzte „Karte generieren“ gefunden hat: Schwellenwert ändern und erneut „Karte generieren“ drücken, um sie zu aktualisieren. Ein höherer Schwellenwert markiert mehr Pixel, ein niedrigerer nur die dunkelsten. Deaktivieren, um sie aus der Karte auszuschließen.",
+		},
 		align: {
 			profile:
 				"Das StellarSolver-Optionsprofil, mit dem Sterne erkannt und die Ausrichtungsbilder astrometrisch gelöst werden. Profile werden in den Ekos-Align-Optionen erstellt und bearbeitet.",

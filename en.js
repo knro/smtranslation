@@ -2945,6 +2945,10 @@ const en = {
 	},
 	// Tooltips for the settings pages of Align, Focus and Guide
 	setting_tips: {
+		dark_library: {
+			hot_pixels: "Pixels brighter than the master dark's median by more than the threshold. The number is how many the last Generate Map found: change the threshold, then press Generate Map again to update it. A higher threshold flags more pixels, a lower one only the brightest. Uncheck to leave them out of the map.",
+			cold_pixels: "Pixels darker than the master dark's median by more than the threshold. The number is how many the last Generate Map found: change the threshold, then press Generate Map again to update it. A higher threshold flags more pixels, a lower one only the darkest. Uncheck to leave them out of the map.",
+		},
 		align: {
 			profile:
 				"The StellarSolver options profile used to detect stars and plate solve align images. Profiles are created and edited in the Ekos Align options.",

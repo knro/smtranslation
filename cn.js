@@ -2738,6 +2738,10 @@
 	},
 	// Tooltips for the settings pages of Align, Focus and Guide
 	setting_tips: {
+		dark_library: {
+			hot_pixels: "比主暗场中值亮出阈值以上的像素。该数字是上次“生成图像”找到的数量：修改阈值后，再次点击“生成图像”即可更新。阈值越高，标记的像素越多；越低则只标记最亮的像素。取消勾选可将其排除在图中之外。",
+			cold_pixels: "比主暗场中值暗出阈值以上的像素。该数字是上次“生成图像”找到的数量：修改阈值后，再次点击“生成图像”即可更新。阈值越高，标记的像素越多；越低则只标记最暗的像素。取消勾选可将其排除在图中之外。",
+		},
 		align: {
 			profile:
 				"用于检测星点并对校准图像进行板块解析的 StellarSolver 选项配置。配置可在 Ekos 校准（Align）选项中创建和编辑。",
