@@ -1874,7 +1874,9 @@ const fr = {
 			mount_tooltip: "Les limites de la monture sont activées et la monture sera arrêtée si les limites sont dépassées."
 		},
 		modal_goto_sync: {
-			heading: "Aller ou synchroniser",
+			heading: "Visée ou synchroniser",
+			sent_to: "Les commandes sont envoyées à {0}.",
+			not_found: "{0} est introuvable.",
 			category: "Catégorie",
 		},
 		mount_status_bar: {

@@ -1844,7 +1844,9 @@ const ja = {
 			mount_tooltip: "マウント制限が有効になっており、制限を超えるとマウントは停止します。"
 		},
 		modal_goto_sync: {
-			heading: "移動または同期",
+			heading: "目標へ移動または同期",
+			sent_to: "コマンドの送信先: {0}",
+			not_found: "{0} が見つかりません。",
 			category: "カテゴリ",
 			btn_goto: "移動",
 		},

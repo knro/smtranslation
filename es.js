@@ -1880,7 +1880,9 @@ const es = {
 			mount_tooltip: "Los límites de la montura están habilitados y la montura se detendrá al exceder los límites."
 		},
 		modal_goto_sync: {
-			heading: "Ir a o Sincronizar",
+			heading: "Slew o Sincronizar",
+			sent_to: "Los comandos van a {0}.",
+			not_found: "No se encontró {0}.",
 			category: "Categoria",
 		},
 		mount_status_bar: {

@@ -1790,7 +1790,9 @@
 			mount_tooltip: "赤道仪限制已启用，超过限制时赤道仪将停止。"
 		},
 		modal_goto_sync: {
-			heading: "Goto&同步",
+			heading: "转动至目标或同步",
+			sent_to: "命令发送到 {0}。",
+			not_found: "未找到 {0}。",
 			category: "星体类型",
 		},
 		mount_status_bar: {

@@ -1883,7 +1883,9 @@ const it = {
 			mount_tooltip: "I limiti della montatura sono abilitati e la montatura verrà arrestata se i limiti vengono superati."
 		},
 		modal_goto_sync: {
-			heading: "Goto o Sincronizza",
+			heading: "Slew o Sincronizza",
+			sent_to: "I comandi vanno a {0}.",
+			not_found: "{0} non trovato.",
 			category: "Categoria",
 		},
 		mount_status_bar: {

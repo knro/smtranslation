@@ -47,6 +47,12 @@ const context = {
 	// Guide: Manual Pulse dialog (Guide card > arrow button)
 	"ekos.collapse_guide.manual_pulse":
 		"Title of the dialog that sends single guide pulses to the mount by hand.",
+	"ekos.modal_goto_sync.heading":
+		"Title of the mount dialog that slews to or syncs on a target. \"Slew\" moves the mount to the target without plate solving (use the same word as ekos.collapse_align.action_slew); \"Sync\" tells the mount it is pointing at the target.",
+	"ekos.modal_goto_sync.sent_to":
+		"Line under the Slew or Sync title. {0} is the name of the mount the commands are sent to, e.g. \"Telescope Simulator\".",
+	"ekos.modal_goto_sync.not_found":
+		"Shown under the target search when KStars does not know the object. {0} is the name that was searched, e.g. \"M 42\".",
 	"ekos.collapse_guide.pulse_sent_via":
 		"Line under the Manual Pulse title. {0} is the name of the guider device the pulses are sent to, e.g. \"Guide Simulator\".",
 	"ekos.collapse_guide.pulse_no_guider":

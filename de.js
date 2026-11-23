@@ -1858,7 +1858,9 @@ const de = {
 			mount_tooltip: "Montierungsgrenzwerte sind aktiviert und die Montierung wird gestoppt, wenn die Grenzwerte überschritten werden."
 		},
 		modal_goto_sync: {
-			heading: "Springen oder synchronisieren",
+			heading: "Schwenken oder synchronisieren",
+			sent_to: "Befehle gehen an {0}.",
+			not_found: "{0} wurde nicht gefunden.",
 			category: "Kategorie",
 			btn_goto: "Gehe zu",
 		},

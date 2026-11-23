@@ -1894,7 +1894,9 @@ const en = {
 			mount_tooltip: "Mount limited are enabled and mount shall be stopped when exceeding the limits."
 		},
 		modal_goto_sync: {
-			heading: "Goto or Sync",
+			heading: "Slew or Sync",
+			sent_to: "Commands go to {0}.",
+			not_found: "{0} was not found.",
 			category: "Category",
 		},
 		mount_status_bar: {
