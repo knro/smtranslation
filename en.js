@@ -1661,6 +1661,10 @@ const en = {
 			suffix: "Suffix",
 			usb: "USB Unmounted successfully",
 			unmount: "Unmount",
+			time: "Time",
+			date_time: "Date & Time",
+			insert: "Insert",
+			next_file: "Next file",
 		},
 
 		collapse_dome: {
@@ -1967,6 +1971,8 @@ const en = {
 			sigma_clipping: "Sigma Clipping",
 			noImages: "No Live Stacking Images found",
 			median_filter: "Median Filter",
+			running: "Live stacking",
+			frames_stacked: "frames",
 		},
 		scheduler: {
 			scheduler: "Scheduler",
