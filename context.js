@@ -409,6 +409,49 @@ const context = {
 		"Tooltip on Hot Pixels in Dark Library > Create Defect Map. \"The number\" is the count shown next to the label; \"the threshold\" is the 0-100 field beside it. Quote the Generate Map button as it is translated (darkLibrary.create_defect_map.generate_map).",
 	"setting_tips.dark_library.cold_pixels":
 		"Tooltip on Cold Pixels in Dark Library > Create Defect Map, the counterpart of setting_tips.dark_library.hot_pixels for pixels darker than the median. Quote the Generate Map button as it is translated (darkLibrary.create_defect_map.generate_map).",
+
+	// Scheduler settings (Scheduler > Settings, one tab per group). A "job" is one entry of the scheduler's job list
+	// (ekos.scheduler.*), the "capture sequence" is the list of exposures the job takes.
+	"ekos.scheduler.scheduler_settings.jobs_shutdown":
+		"Card title in Scheduler settings > Advanced, above Stop Ekos after shutdown, Remember Job progress and Warm up camera before shutdown. Short (about 25 characters).",
+	"setting_tips.scheduler.reference_image":
+		"Tooltip on Reference image in Scheduler settings > General. FITS and XISF are file formats: keep them. \"Align\" is the step checkbox (ekos.collapse_align.heading); plate-solve = astrometric solving of an image.",
+	"setting_tips.scheduler.profile":
+		"Tooltip on Profile in Scheduler settings > General. An Ekos profile is a saved set of equipment drivers. \"Default\" is a dropdown entry shown in English: keep it.",
+	"setting_tips.scheduler.steps":
+		"Tooltip on Steps in Scheduler settings > General. Track, Focus, Align and Guide are the four step checkboxes: use their translated labels (general.track, ekos.collapse_focus.heading, ekos.collapse_align.heading, connect.guide).",
+	"setting_tips.scheduler.position_angle":
+		"Tooltip on Position angle in Scheduler settings > General. \"--\" is what the field shows when it is cleared with the backspace button: keep it.",
+	"setting_tips.scheduler.asap":
+		"Tooltip on the ASAP radio button in Scheduler settings > Job Startup. Constraints are the conditions of the Job Constraints tab.",
+	"setting_tips.scheduler.start_at":
+		"Tooltip on the \"On\" radio button with its date and time in Scheduler settings > Job Startup.",
+	"setting_tips.scheduler.min_altitude":
+		"Tooltip on the minimum altitude constraint (ekos.scheduler.alt) in Scheduler settings > Job Constraints.",
+	"setting_tips.scheduler.moon_separation":
+		"Tooltip on Moon min. sep (ekos.scheduler.moon) in Scheduler settings > Job Constraints.",
+	"setting_tips.scheduler.moon_altitude":
+		"Tooltip on Moon max alt (ekos.scheduler.moon_max) in Scheduler settings > Job Constraints.",
+	"setting_tips.scheduler.twilight":
+		"Tooltip on Twilight in Scheduler settings > Job Constraints. Quote Dusk offset, Dawn offset and the Advanced tab as translated (ekos.scheduler.scheduler_settings.dusk_offset, dawn_offset, ekos.collapse_guide.advanced).",
+	"setting_tips.scheduler.artificial_horizon":
+		"Tooltip on Artificial Horizon in Scheduler settings > Job Constraints. The Sky Map is the app's sky chart, which has a horizon editor.",
+	"setting_tips.scheduler.sequence_completion":
+		"Tooltip on Sequence Completion in Scheduler settings > Job Completion.",
+	"setting_tips.scheduler.repeat_for":
+		"Tooltip on Repeat for (a number of runs) in Scheduler settings > Job Completion.",
+	"setting_tips.scheduler.repeat_until_terminated":
+		"Tooltip on Repeat Until Terminated in Scheduler settings > Job Completion.",
+	"setting_tips.scheduler.repeat_until":
+		"Tooltip on Repeat until (a date and time) in Scheduler settings > Job Completion.",
+	"setting_tips.scheduler.abort_none":
+		"Tooltip on the None radio button in Scheduler settings > Aborted Job. An aborted job is one Ekos stopped because a step failed.",
+	"setting_tips.scheduler.abort_queue":
+		"Tooltip on the Queue radio button in Scheduler settings > Aborted Job. \"The delay set below\" is the seconds field of the Reschedule Errors row.",
+	"setting_tips.scheduler.abort_immediate":
+		"Tooltip on the Immediate radio button in Scheduler settings > Aborted Job. \"The delay set below\" is the seconds field of the Reschedule Errors row.",
+	"setting_tips.scheduler.reschedule_errors":
+		"Tooltip on the Reschedule Errors row in Scheduler settings > Aborted Job: a checkbox and a delay in seconds. \"As chosen above\" refers to the None / Queue / Immediate choice.",
 };
 
 export default context;

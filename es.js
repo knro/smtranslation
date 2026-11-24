@@ -2007,35 +2007,35 @@ const es = {
 			scheduler_settings: {
 				lead_time: "Tiempo de espera",
 				lead_time_tooltip:
-					"El tiempo mínimo en minutos entre trabajos. El programador comienza la ejecución de un trabajo antes de la hora de inicio programada en este tiempo de espera. La ejecución temprana es útil ya que los procedimientos de enfoque, alineación y guía pueden tardar períodos prolongados en completarse.",
+					"Con cuántos minutos de antelación puede el planificador iniciar un trabajo. Si el siguiente trabajo empieza dentro de este tiempo, se inicia enseguida para que el apuntado, el enfoque, la alineación y el guiado estén listos cuando deba empezar la captura. Si empieza más tarde, el planificador espera y aparca la montura si el trabajo usa el paso Pista.",
 				pre_dawn: "Antes del amanecer",
 				pre_dawn_tooltip:
-					"No permita que se programen o ejecuten trabajos más allá de esta cantidad de minutos antes del amanecer.",
+					"Los trabajos con la restricción Crepúsculo terminan estos minutos antes del amanecer, para que las últimas imágenes no se estropeen con el cielo que se aclara.",
 				pre_emptive: "Apagado preventivo",
 				pre_emptive_tooltip:
-					"En caso de que no haya ningún trabajo programado para esta cantidad de horas, realice un procedimiento de apagado completo y reinicie las operaciones del observatorio una vez que el próximo trabajo esté listo.",
+					"Si el siguiente trabajo está a más de estas horas, apagar el observatorio (aparcar, cerrar...) y volver a iniciarlo cuando llegue la hora del trabajo.",
 				setting_altitude: "Setting altitude cutoff",
 				setting_altitude_tooltip:
 					"No permita que se programen trabajos con menos de esta cantidad de grados antes de la restricción de altitud. La ejecución real continúa hasta el límite de altitud.",
 				weather_grace: "Weather grace period",
 				weather_grace_tooltip:
-					"Enable Weather-Based Scheduling: Prevents new jobs from starting during weather warnings or alerts. Existing jobs continue during warnings, but are aborted during alerts. System initiates a soft shutdown and waits for improved conditions or grace period expiration, after which the current job is terminated.",
-				dusk_offset: "Compensación de polvo",
+					"Dejar que la estación meteorológica controle la captura. Con un aviso meteorológico no se inicia ningún trabajo nuevo. Con una alerta, el trabajo en curso se detiene y el observatorio aparca. Si el tiempo mejora en estos minutos, la captura continúa; si no, el observatorio se apaga del todo y vuelve a arrancar cuando sea seguro. Con 0 se queda aparcado esperando en lugar de apagarse.",
+				dusk_offset: "Desfase del anochecer",
 				dusk_offset_tooltip:
-					"Desplazamiento del crepúsculo astronómico en esta cantidad de horas. Este valor positivo o negativo ajusta la restricción del crepúsculo.",
+					"Desplaza, en horas, el inicio de la noche para los trabajos con la restricción Crepúsculo. Un valor negativo empieza antes: -0,5 empieza 30 minutos antes del anochecer astronómico, útil con filtros de banda estrecha.",
 				dawn_offset: "Desfase del amanecer",
 				dawn_offset_tooltip:
-					"Desfase del amanecer astronómico en este número de horas. Este valor positivo o negativo ajusta la restricción del crepúsculo.",
+					"Desplaza, en horas, el final de la noche para los trabajos con la restricción Crepúsculo. Un valor positivo termina más tarde: 0,5 sigue capturando hasta 30 minutos después del amanecer astronómico, útil con filtros de banda estrecha.",
 
 				stop_ekos: "Detener Ekos después del cierre",
 				stop_ekos_tooltip:
-					"Después de ejecutar con éxito el procedimiento de apagado, detenga INDI y Ekos.",
+					"Después de que el planificador apague el observatorio, detener también Ekos y desconectar el equipo.",
 				shutdown_script: "El script de apagado finaliza INDI",
 				shutdown_script_tooltip:
 					"Si el script de apagado finaliza el servidor INDI, habilite esta opción para que no se generen errores de desconexión.",
 				remember_job: "Recordar el progreso del trabajo",
 				remember_job_tooltip:
-					"Al procesar un trabajo programado, reanude la secuencia comenzando desde la última imagen presente en el almacenamiento.",
+					"Contar las imágenes que un trabajo ya ha guardado, para que un trabajo reiniciado (o que sigue la noche siguiente) capture solo las imágenes que faltan en lugar de empezar de cero.",
 
 				execute_job: "Always execute startup job",
 				execute_job_tooltip:
@@ -2046,35 +2046,36 @@ const es = {
 					"When checked the scheduler tries to run lower priority jobs when no higher priority job can run. Recommended.",
 				camera_warmup: "Calentar la cámara antes de apagar",
 				camera_warmup_tooltip:
-					"Antes de apagar, caliente la cámara para evitar humedad y choque térmico. La temperatura de la cámara se reduce gradualmente durante el tiempo de rampa especificado.",
-				camera_warmup_ramp: "Tiempo de rampa (min)",
+					"Al final del apagado del observatorio, después de aparcar, calentar la cámara hasta 20 °C a este ritmo (°C por minuto). Calentar despacio protege el sensor del choque térmico y la condensación.",
+				camera_warmup_ramp: "°C/min",
 				reset_mount:
 					"Restablecer el modelo de montaje en caso de falla de alineación",
 				reset_mount_tooltip:
-					"Restablecer el modelo de montaje en caso de falla de alineación",
+					"Si la alineación falla repetidamente en un trabajo, borrar los puntos de sincronización guardados en la montura antes del último intento. Sincronizaciones antiguas o erróneas pueden seguir enviando la montura al lugar equivocado.",
 				reset_mount_before:
 					"Restablecer el modelo de montaje antes de iniciar cada trabajo",
 				reset_mount_before_tooltip:
-					"Restablecer el modelo de montaje antes de iniciar cada trabajo",
+					"Borrar los puntos de sincronización guardados en la montura antes de apuntar al objetivo de cada trabajo, para que las sincronizaciones de un objetivo anterior no afecten al apuntado.",
 				force_realign: "Forzar la realineación antes de reiniciar los trabajos",
 				force_realign_tooltip:
-					"Si la función Alinear está habilitada, el programador iniciará un procedimiento de realineación antes de reiniciar cualquier trabajo, incluso si la guía está activa.",
+					"Cuando un trabajo continúa o repite su secuencia de captura, resolver la imagen y volver a centrar el objetivo primero, aunque el guiado siga activo. Solo para trabajos con el paso Alinear.",
 				restart_align:
 					"Reiniciar la alineación en caso de falla de calibración de guía",
 				restart_align_tooltip:
-					"Si la calibración de guía falla, reinicie el proceso de alineación antes de continuar con el proceso de recalibración de guía nuevamente. Esto puede ayudar a centrar nuevamente el objeto objetivo en el campo de visión si el proceso de calibración se desvió demasiado.",
+					"Si falla la calibración del guiado, resolver la imagen y volver a centrar el objetivo antes de intentar de nuevo la calibración. Ayuda cuando la calibración sacó el objetivo del campo.",
 
 				offsets: "Compensaciones",
 				clean_jobs: "Limpieza y trabajos",
+				jobs_shutdown: "Trabajos y apagado",
 				alignment: "Alineación",
 
 				verify_image: "Verifique la posición de la imagen capturada cada",
 				verify_image_tooltip:
-					"Al calcular la posición después de las capturas, compútela cada N.ª captura. Establezca en 0 para deshabilitar.",
+					"Resolver una de cada N imágenes de luz (N es este valor) para comprobar que el objetivo sigue centrado. 0 desactiva la comprobación. Solo para trabajos con el paso Alinear.",
 				reset_pipeline:
 					"Restablecer la tubería si el delta de la imagen verificada excede",
 				reset_pipeline_tooltip:
-					"Si la posición capturada excede la posición objetivo en más de esta cantidad de minutos de arco, cancele la captura y reprograme la tubería.",
+					"Si una imagen comprobada está a más de estos minutos de arco del objetivo, detener la captura, volver a alinear y continuar.",
 				arcminutes: "arcminutes",
 			},
 		},
@@ -3079,6 +3080,46 @@ const es = {
 				"Reduce la corrección proporcional estándar cuando la predicción AI tiene mucha confianza, para que ambas no se sumen y provoquen oscilaciones.",
 			dark_guiding:
 				"Sigue enviando pulsos de corrección predichos por la AI durante las pausas en la medición de la estrella guía, como la estabilización tras el dithering, el autoenfoque o la descarga de la cámara. Requiere AI Guider como algoritmo de guiado de RA.",
+		},
+		scheduler: {
+			reference_image:
+				"Opcional. Una imagen (FITS o XISF) de este objetivo encuadrada como quiere, por ejemplo de una noche anterior. Si Alinear es uno de los pasos, Ekos resuelve esta imagen y se alinea con ella en lugar de con las coordenadas del objetivo, igualando su centro y, con un rotador, su rotación.",
+			profile:
+				"El perfil de equipo de Ekos que inicia el planificador si Ekos aún no está en marcha. Default mantiene el perfil ya seleccionado en Ekos.",
+			steps:
+				"Lo que hace el planificador al comienzo de cada trabajo, antes de capturar. Pista: apuntar al objetivo y seguirlo. Foco: ejecutar el autoenfoque. Alinear: resolver la imagen y centrar el objetivo. Guia: calibrar si hace falta e iniciar el guiado. Desmarque los pasos que su equipo no admita.",
+			position_angle:
+				"Rotación de la cámara para este trabajo, en grados al este del norte (-180 a 180). Si Alinear es uno de los pasos y hay un rotador conectado, Ekos gira la cámara a este ángulo. Bórrelo (--) para mantener la rotación actual.",
+			asap:
+				"Iniciar el trabajo en cuanto se cumplan todas sus restricciones (altitud, Luna, crepúsculo...). Si pueden ejecutarse varios trabajos, va primero el que está más arriba en la lista.",
+			start_at:
+				"Iniciar el trabajo en esta fecha y hora. Tiene prioridad sobre los demás trabajos mientras pueda empezar cerca de esa hora y se cumplan sus restricciones.",
+			min_altitude:
+				"Ejecutar el trabajo solo mientras el objetivo esté al menos a estos grados sobre el horizonte.",
+			moon_separation:
+				"Ejecutar el trabajo solo mientras el objetivo esté al menos a estos grados de la Luna.",
+			moon_altitude:
+				"Ejecutar el trabajo solo mientras la Luna esté por debajo de esta altitud, en grados. Sirve para fotografiar objetivos débiles solo con la Luna baja o puesta.",
+			twilight:
+				"Ejecutar el trabajo solo en oscuridad astronómica, del anochecer al amanecer. Mueva estos límites con Desfase del anochecer y Desfase del amanecer en la pestaña Avanzado, por ejemplo para empezar antes con filtros de banda estrecha.",
+			artificial_horizon:
+				"Ejecutar el trabajo solo mientras el objetivo esté sobre su horizonte artificial (árboles, edificios...). Dibuje el horizonte con el editor de horizonte del mapa del cielo, o en KStars.",
+			sequence_completion:
+				"El trabajo termina cuando su secuencia de captura se ha ejecutado una vez.",
+			repeat_for:
+				"Ejecutar la secuencia de captura este número de veces y luego terminar el trabajo.",
+			repeat_until_terminated:
+				"Repetir la secuencia de captura sin fin. El trabajo se ejecuta cada noche que sus restricciones lo permitan, hasta que detenga el planificador o elimine el trabajo.",
+			repeat_until:
+				"Repetir la secuencia de captura hasta esta fecha y hora y luego terminar el trabajo.",
+			abort_none:
+				"No volver a ejecutar un trabajo abortado (por ejemplo, tras un fallo de enfoque, alineación o guiado).",
+			abort_queue:
+				"Volver a ejecutar los trabajos abortados cuando todos los demás trabajos hayan terminado o se hayan abortado, tras la espera fijada abajo.",
+			abort_immediate:
+				"Volver a ejecutar un trabajo abortado enseguida, tras la espera fijada abajo, si sus restricciones aún lo permiten.",
+			reschedule_errors:
+				"Volver a ejecutar también los trabajos que terminaron con error, no solo los abortados, según la opción de arriba. El número es la espera en segundos antes de que un trabajo abortado o fallido pueda volver a ejecutarse.",
 		},
 	},
 };

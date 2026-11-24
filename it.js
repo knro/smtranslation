@@ -2009,35 +2009,35 @@ const it = {
 			scheduler_settings: {
 				lead_time: "Tempo di anticipo",
 				lead_time_tooltip:
-					"Il tempo minimo in minuti tra i lavori. Lo scheduler avvia l'esecuzione di un lavoro prima del suo orario di avvio programmato di questo tempo di anticipo. L'esecuzione anticipata è utile in quanto le procedure di messa a fuoco, allineamento e guida possono richiedere tempi prolungati per essere completate.",
+					"Con quanti minuti di anticipo lo scheduler può avviare un lavoro. Se il prossimo lavoro è previsto entro questo tempo, parte subito, così puntamento, messa a fuoco, allineamento e guida sono pronti quando deve iniziare l'acquisizione. Se è previsto più tardi, lo scheduler aspetta e parcheggia la montatura se il lavoro usa il passo Traccia.",
 				pre_dawn: "Pre-alba",
 				pre_dawn_tooltip:
-					"Non consentire che i lavori siano programmati o eseguiti oltre questo numero di minuti prima dell'alba.",
+					"I lavori con il vincolo Crepuscolo terminano questi minuti prima dell'alba, così le ultime immagini non sono rovinate dal cielo che schiarisce.",
 				pre_emptive: "Spegnimento preventivo",
 				pre_emptive_tooltip:
-					"Nel caso in cui nessun lavoro di pianificazione sia programmato per questo numero di ore, esegui una procedura di spegnimento completa e riavvia le operazioni dell'osservatorio una volta che il prossimo lavoro è pronto.",
+					"Se il prossimo lavoro è a più di queste ore, spegni l'osservatorio (parcheggio, chiusura...) e riavvialo quando il lavoro deve partire.",
 				setting_altitude: "Impostazione limite altitudine",
 				setting_altitude_tooltip:
 					"Non consentire che i lavori siano programmati a meno di questo numero di gradi prima della restrizione di altitudine. L'esecuzione effettiva procede fino al limite di altitudine.",
 				weather_grace: "Periodo di grazia meteo",
 				weather_grace_tooltip:
-					"Abilita la pianificazione basata sul meteo: impedisce l'avvio di nuovi lavori durante avvisi o allarmi meteo. I lavori esistenti continuano durante gli avvisi, ma vengono interrotti durante gli allarmi. Il sistema avvia uno spegnimento soft e attende condizioni migliorate o la scadenza del periodo di grazia, dopodiché il lavoro corrente viene terminato.",
+					"Lascia che la stazione meteo controlli l'acquisizione. Durante un avviso meteo non parte nessun nuovo lavoro. Durante un'allerta il lavoro in corso si ferma e l'osservatorio va in parcheggio. Se il tempo migliora entro questi minuti, l'acquisizione riprende; altrimenti l'osservatorio si spegne del tutto e riparte quando è sicuro. Con 0 resta parcheggiato e aspetta invece di spegnersi.",
 				dusk_offset: "Offset crepuscolo",
 				dusk_offset_tooltip:
-					"Offset del crepuscolo astronomico di questo numero di ore. Questo valore positivo o negativo regola la restrizione del crepuscolo.",
+					"Sposta, in ore, l'inizio della notte per i lavori con il vincolo Crepuscolo. Un valore negativo inizia prima: -0,5 inizia 30 minuti prima del crepuscolo astronomico, utile con filtri a banda stretta.",
 				dawn_offset: "Offset alba",
 				dawn_offset_tooltip:
-					"Offset dell'alba astronomica di questo numero di ore. Questo valore positivo o negativo regola la restrizione del crepuscolo.",
+					"Sposta, in ore, la fine della notte per i lavori con il vincolo Crepuscolo. Un valore positivo finisce più tardi: 0,5 continua fino a 30 minuti dopo l'alba astronomica, utile con filtri a banda stretta.",
 
 				stop_ekos: "Ferma Ekos dopo lo spegnimento",
 				stop_ekos_tooltip:
-					"Dopo che la procedura di spegnimento è stata eseguita con successo, ferma INDI ed Ekos.",
+					"Dopo che lo scheduler ha spento l'osservatorio, ferma anche Ekos e scollega la strumentazione.",
 				shutdown_script: "Lo script di spegnimento termina INDI",
 				shutdown_script_tooltip:
 					"Se lo script di spegnimento termina il server INDI, abilita questa opzione in modo che non vengano generati errori di disconnessione.",
 				remember_job: "Ricorda avanzamento lavoro",
 				remember_job_tooltip:
-					"Quando si elabora un lavoro programmato, riprendi la sequenza a partire dall'ultima immagine presente nello storage.",
+					"Conta le immagini già salvate da un lavoro, così un lavoro riavviato (o che continua la notte successiva) acquisisce solo le immagini mancanti invece di ricominciare da capo.",
 				execute_job: "Esegui sempre il lavoro di avvio",
 				execute_job_tooltip:
 					"Lo script di avvio dell'osservatorio viene normalmente eseguito solo se Ekos è offline. Abilita questa opzione per avviarlo ogni volta che lo scheduler si avvia.",
@@ -2047,35 +2047,36 @@ const it = {
 					"Se selezionato, lo scheduler tenta di eseguire lavori a priorità inferiore quando nessun lavoro a priorità superiore può essere eseguito. Consigliato.",
 				camera_warmup: "Riscalda la fotocamera prima dello spegnimento",
 				camera_warmup_tooltip:
-					"Prima dello spegnimento, riscalda la fotocamera per prevenire umidità e shock termico. La temperatura della fotocamera viene ridotta gradualmente nel tempo di rampa specificato.",
-				camera_warmup_ramp: "Tempo di rampa (min)",
+					"Alla fine dello spegnimento dell'osservatorio, dopo il parcheggio, riscalda la camera fino a 20 °C a questa velocità (°C al minuto). Un riscaldamento lento protegge il sensore da shock termico e condensa.",
+				camera_warmup_ramp: "°C/min",
 				reset_mount:
 					"Ripristina modello montatura in caso di errore di allineamento",
 				reset_mount_tooltip:
-					"Ripristina modello montatura in caso di errore di allineamento",
+					"Se l'allineamento fallisce ripetutamente per un lavoro, cancella i punti di sincronizzazione salvati nella montatura prima dell'ultimo tentativo. Sincronizzazioni vecchie o errate possono continuare a mandare la montatura nel punto sbagliato.",
 				reset_mount_before:
 					"Ripristina modello montatura prima di avviare ogni lavoro",
 				reset_mount_before_tooltip:
-					"Ripristina modello montatura prima di avviare ogni lavoro",
+					"Cancella i punti di sincronizzazione salvati nella montatura prima di puntare l'oggetto di ogni lavoro, così le sincronizzazioni fatte su un oggetto precedente non influenzano il puntamento.",
 				force_realign: "Forza riallineamento prima di riavviare i lavori",
 				force_realign_tooltip:
-					"Se Allinea è abilitato, lo scheduler avvierà una procedura di riallineamento prima di riavviare qualsiasi lavoro anche se la guida è attiva.",
+					"Quando un lavoro continua o ripete la sua sequenza di acquisizione, risolvi l'immagine e ricentra l'oggetto prima, anche se la guida è attiva. Solo per i lavori con il passo Allinea.",
 				restart_align:
 					"Riavvia allineamento in caso di errore di calibrazione guida",
 				restart_align_tooltip:
-					"Se la calibrazione guida fallisce, riavvia il processo di allineamento prima di procedere nuovamente al processo di ricalibrazione guida. Questo può aiutare a ricentrare l'oggetto obiettivo nel campo visivo se il processo di calibrazione si è allontanato troppo.",
+					"Se la calibrazione della guida fallisce, risolvi l'immagine e ricentra l'oggetto prima di ritentare la calibrazione. Utile quando la calibrazione ha portato l'oggetto fuori dal campo.",
 
 				offsets: "Offset",
 				clean_jobs: "Script e lavori",
+				jobs_shutdown: "Lavori e spegnimento",
 				alignment: "Allineamento",
 
 				verify_image: "Verifica posizione immagine catturata ogni",
 				verify_image_tooltip:
-					"Quando si calcola la posizione dopo le catture, calcolala ogni N-esima cattura. Imposta a 0 per disabilitare.",
+					"Risolvi un'immagine light ogni N (N è questo valore) per controllare che l'oggetto sia ancora centrato. 0 disattiva il controllo. Solo per i lavori con il passo Allinea.",
 				reset_pipeline:
 					"Ripristina pipeline se il delta dell'immagine verificata supera",
 				reset_pipeline_tooltip:
-					"Se la posizione catturata supera la posizione obiettivo di più di questo numero di arcminuti, annulla la cattura e riprogramma la pipeline.",
+					"Se un'immagine controllata è a più di questi primi d'arco dall'oggetto, ferma l'acquisizione, riallinea e continua.",
 				arcminutes: "arcminuti",
 			},
 		},
@@ -3077,6 +3078,46 @@ const it = {
 				"Riduce la correzione proporzionale standard quando la previsione AI è molto affidabile, così le due non si sommano causando oscillazioni.",
 			dark_guiding:
 				"Continua a inviare impulsi di correzione previsti dall'AI durante le pause nella misura della stella guida, come l'assestamento dopo il dithering, l'autofocus o lo scaricamento dalla camera. Richiede AI Guider come algoritmo di guida per l'AR.",
+		},
+		scheduler: {
+			reference_image:
+				"Facoltativa. Un'immagine (FITS o XISF) di questo oggetto inquadrata come desideri, ad esempio di una notte precedente. Se Allinea è tra i passi, Ekos risolve questa immagine e si allinea su di essa invece che sulle coordinate dell'oggetto, riprendendone il centro e, con un rotatore, la rotazione.",
+			profile:
+				"Il profilo di strumentazione Ekos che lo scheduler avvia se Ekos non è ancora in esecuzione. Default mantiene il profilo già selezionato in Ekos.",
+			steps:
+				"Cosa fa lo scheduler all'inizio di ogni lavoro, prima di acquisire. Traccia: puntare l'oggetto e inseguirlo. Messa a fuoco: eseguire l'autofocus. Allinea: risolvere l'immagine e centrare l'oggetto. Guida: calibrare se serve e avviare la guida. Deseleziona i passi che la tua strumentazione non supporta.",
+			position_angle:
+				"Rotazione della camera per questo lavoro, in gradi a est del nord (da -180 a 180). Se Allinea è tra i passi e un rotatore è collegato, Ekos ruota la camera a questo angolo. Cancellalo (--) per mantenere la rotazione attuale.",
+			asap:
+				"Avvia il lavoro appena tutti i suoi vincoli (altezza, Luna, crepuscolo...) sono soddisfatti. Se più lavori possono partire, va per primo quello più in alto nell'elenco.",
+			start_at:
+				"Avvia il lavoro a questa data e ora. Ha la precedenza sugli altri lavori finché può partire vicino a quell'ora e i suoi vincoli sono soddisfatti.",
+			min_altitude:
+				"Esegui il lavoro solo finché l'oggetto è almeno a questi gradi sopra l'orizzonte.",
+			moon_separation:
+				"Esegui il lavoro solo finché l'oggetto è ad almeno questi gradi dalla Luna.",
+			moon_altitude:
+				"Esegui il lavoro solo finché la Luna è sotto questa altezza, in gradi. Utile per riprendere oggetti deboli solo con la Luna bassa o tramontata.",
+			twilight:
+				"Esegui il lavoro solo nel buio astronomico, dal crepuscolo all'alba. Sposta questi limiti con Offset crepuscolo e Offset alba nella scheda Avanzate, ad esempio per iniziare prima con filtri a banda stretta.",
+			artificial_horizon:
+				"Esegui il lavoro solo finché l'oggetto è sopra il tuo orizzonte artificiale (alberi, edifici...). Disegna l'orizzonte con l'editor dell'orizzonte della mappa del cielo, o in KStars.",
+			sequence_completion:
+				"Il lavoro è completato quando la sua sequenza di acquisizione è stata eseguita una volta.",
+			repeat_for:
+				"Esegui la sequenza di acquisizione questo numero di volte, poi completa il lavoro.",
+			repeat_until_terminated:
+				"Ripeti la sequenza di acquisizione senza fine. Il lavoro viene eseguito ogni notte in cui i suoi vincoli lo permettono, finché non fermi lo scheduler o rimuovi il lavoro.",
+			repeat_until:
+				"Ripeti la sequenza di acquisizione fino a questa data e ora, poi completa il lavoro.",
+			abort_none:
+				"Non rieseguire un lavoro interrotto (ad esempio dopo un errore di messa a fuoco, allineamento o guida).",
+			abort_queue:
+				"Riesegui i lavori interrotti quando tutti gli altri lavori sono completati o interrotti, dopo l'attesa impostata sotto.",
+			abort_immediate:
+				"Riesegui subito un lavoro interrotto, dopo l'attesa impostata sotto, se i suoi vincoli lo permettono ancora.",
+			reschedule_errors:
+				"Riesegui anche i lavori terminati con un errore, non solo quelli interrotti, secondo la scelta sopra. Il numero è l'attesa in secondi prima che un lavoro interrotto o fallito possa ripartire.",
 		},
 	},
 };

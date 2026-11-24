@@ -1987,35 +1987,35 @@ const de = {
 			scheduler_settings: {
 				lead_time: "Leerlaufzeit",
 				lead_time_tooltip:
-					"Die Mindestzeit in Minuten zwischen Jobs. Der Scheduler startet die Ausführung eines Jobs um diesen Zeitraum vor der geplanten Startzeit. Eine frühzeitige Ausführung ist sinnvoll, da Fokussierungs-, Ausrichtungs- und Führungsvorgänge längere Zeit in Anspruch nehmen können.",
+					"Wie früh, in Minuten, der Planer einen Auftrag starten darf. Ist der nächste Auftrag innerhalb dieser Zeit fällig, startet er sofort, damit Schwenken, Fokussieren, Ausrichten und Guiding fertig sind, wenn die Aufnahmen beginnen sollen. Ist er später fällig, wartet der Planer und parkt die Montierung, wenn der Auftrag den Schritt Nachführen nutzt.",
 				pre_dawn: "Stop Morgendämmerung",
 				pre_dawn_tooltip:
-					"Lassen Sie nicht zu, dass Aufträge nach dieser Anzahl an Minuten vor Sonnenaufgang geplant oder ausgeführt werden.",
+					"Aufträge mit der Bedingung Dämmerung enden so viele Minuten vor der Morgendämmerung, damit die letzten Bilder nicht vom heller werdenden Himmel verdorben werden.",
 				pre_emptive: "Präventive Abschaltung",
 				pre_emptive_tooltip:
-					"Falls für diese Anzahl von Stunden kein Scheduler-Job geplant ist, führen Sie einen vollständigen Shutdown-Vorgang durch und starten Sie den Observatoriumsbetrieb neu, sobald der nächste Job bereit ist.",
+					"Ist der nächste Auftrag mehr als so viele Stunden entfernt, die Sternwarte herunterfahren (parken, schließen ...) und wieder starten, wenn der Auftrag fällig ist.",
 				setting_altitude: "Höhenbegrenzung",
 				setting_altitude_tooltip:
 					"Lassen Sie nicht zu, dass Jobs weniger als diese Anzahl Grad vor der Höhenbeschränkung geplant werden. Die tatsächliche Ausführung wird bis zum Erreichen der Höhenbeschränkung fortgesetzt.",
 				weather_grace: "Wetterbasierte Planung",
 				weather_grace_tooltip:
-					"Wetterbasierte Planung aktivieren: Verhindert den Start neuer Jobs bei Wetterwarnungen oder -alarmen. Bestehende Jobs werden während Warnungen fortgesetzt, bei Alarmen jedoch abgebrochen. Das System leitet einen sanften Shutdown ein und wartet auf verbesserte Bedingungen oder das Ablaufen der Nachfrist. Danach wird der aktuelle Job beendet.",
+					"Die Wetterstation über die Aufnahmen entscheiden lassen. Bei einer Wetterwarnung startet kein neuer Auftrag. Bei einem Wetteralarm stoppt der laufende Auftrag und die Sternwarte parkt. Bessert sich das Wetter innerhalb so vieler Minuten, gehen die Aufnahmen weiter; sonst fährt die Sternwarte ganz herunter und startet wieder, sobald es sicher ist. Mit 0 bleibt sie geparkt und wartet, statt herunterzufahren.",
 				dusk_offset: "Versatz Abenddämmerung",
 				dusk_offset_tooltip:
-					"Verschieben Sie die astronomische Dämmerung um diese Anzahl Stunden. Dieser positive oder negative Wert passt die Dämmerungsbeschränkung an.",
+					"Verschiebt den Beginn der Nacht für Aufträge mit der Bedingung Dämmerung, in Stunden. Ein negativer Wert beginnt früher: -0,5 beginnt 30 Minuten vor der astronomischen Abenddämmerung, nützlich mit Schmalbandfiltern.",
 				dawn_offset: "Versatz Morgendämmerung",
 				dawn_offset_tooltip:
-					"Verschieben Sie die astronomische Morgendämmerung um diese Anzahl Stunden. Dieser positive oder negative Wert passt die Dämmerungsbeschränkung an.",
+					"Verschiebt das Ende der Nacht für Aufträge mit der Bedingung Dämmerung, in Stunden. Ein positiver Wert endet später: 0,5 nimmt bis 30 Minuten nach der astronomischen Morgendämmerung auf, nützlich mit Schmalbandfiltern.",
 
 				stop_ekos: "Stop Ekos nach dem Herunterfahren",
 				stop_ekos_tooltip:
-					"Nachdem der Herunterfahrvorgang erfolgreich ausgeführt wurde, stoppen Sie INDI und Ekos.",
+					"Nachdem der Planer die Sternwarte heruntergefahren hat, auch Ekos beenden und die Verbindung zur Ausrüstung trennen.",
 				shutdown_script: "Ausschalt-Script stoppt INDI",
 				shutdown_script_tooltip:
 					"Wenn das Shutdown-Skript den INDI-Server beendet, aktivieren Sie diese Option, damit keine Verbindungsabbruchfehler generiert werden.",
 				remember_job: "Auftragsfortschritt speichern",
 				remember_job_tooltip:
-					"Setzen Sie bei der Verarbeitung eines geplanten Auftrags die Sequenz ab dem letzten im Speicher vorhandenen Bild fort.",
+					"Die bereits gespeicherten Bilder eines Auftrags zählen, damit ein neu gestarteter Auftrag (oder einer, der in der nächsten Nacht weiterläuft) nur die noch fehlenden Bilder aufnimmt, statt von vorn zu beginnen.",
 
 				execute_job: "Immer Startup Auftrag ausführen",
 				execute_job_tooltip:
@@ -2026,32 +2026,33 @@ const de = {
 					"Wenn diese Option aktiviert ist, versucht der Scheduler, Jobs mit niedrigerer Priorität auszuführen, wenn kein Job mit höherer Priorität ausgeführt werden kann. (empfohlen).",
 				camera_warmup: "Kamera vor dem Herunterfahren aufwärmen",
 				camera_warmup_tooltip:
-					"Vor dem Herunterfahren die Kamera aufwärmen, um Feuchtigkeit und thermischen Schock zu vermeiden. Die Kameratemperatur wird über die angegebene Rampenzeit allmählich gesenkt.",
-				camera_warmup_ramp: "Rampenzeit (min)",
+					"Am Ende des Herunterfahrens, nach dem Parken, die Kamera mit dieser Rate (°C pro Minute) auf 20 °C aufwärmen. Langsames Aufwärmen schützt den Sensor vor thermischem Schock und Kondenswasser.",
+				camera_warmup_ramp: "°C/min",
 				reset_mount: "Montierung bei Ausrichtungsfehler zurücksetzen",
-				reset_mount_tooltip: "Montierung bei Ausrichtungsfehler zurücksetzen",
+				reset_mount_tooltip: "Schlägt das Ausrichten für einen Auftrag wiederholt fehl, vor dem letzten Versuch die in der Montierung gespeicherten Sync-Punkte löschen. Alte oder falsche Syncs können die Montierung immer wieder an die falsche Stelle schicken.",
 				reset_mount_before:
 					"Montierung vor dem Start jedem Job Start zurücksetzen",
 				reset_mount_before_tooltip:
-					"Montierung vor dem Start jedem Job Start zurücksetzen",
+					"Die in der Montierung gespeicherten Sync-Punkte vor dem Schwenk zum Ziel jedes Auftrags löschen, damit Syncs von einem früheren Ziel den Schwenk nicht beeinflussen.",
 				force_realign: "Erzwinge Neuausrichtung vor dem Neustart eines Jobs",
 				force_realign_tooltip:
-					"Wenn „Ausrichten“ aktiviert ist, leitet der Scheduler vor dem Neustart von Jobs einen Neuausrichtungsvorgang ein, selbst wenn die Führung aktiv ist.",
+					"Wenn ein Auftrag seine Aufnahmesequenz fortsetzt oder wiederholt, zuerst das Bild astrometrisch lösen und das Ziel neu zentrieren, auch wenn das Guiding noch läuft. Nur für Aufträge mit dem Schritt Ausrichten.",
 				restart_align:
 					"Ausrichtung bei einem Guiding Kalibrierungsfehler neu starten",
 				restart_align_tooltip:
-					"Wenn die Kalibrierung der Führung fehlschlägt, starten Sie den Ausrichtungsprozess neu, bevor Sie mit der Neukalibrierung der Führung fortfahren. Dies kann helfen, das Zielobjekt im Sichtfeld neu zu zentrieren, wenn der Kalibrierungsprozess zu weit abgewichen ist.",
+					"Schlägt die Guiding-Kalibrierung fehl, das Bild astrometrisch lösen und das Ziel neu zentrieren, bevor die Kalibrierung erneut versucht wird. Hilft, wenn die Kalibrierung das Ziel aus dem Bildfeld bewegt hat.",
 
 				offsets: "Versätze",
 				clean_jobs: "Scripte und Aufträge",
+				jobs_shutdown: "Aufträge und Herunterfahren",
 				alignment: "Ausrichtung",
 
 				verify_image: "Überprüfen Sie alle Positionen des aufgenommenen Bildes.",
 				verify_image_tooltip:
-					"Berechnen Sie die Position nach Erfassungen bei jeder N-ten Erfassung. Zum Deaktivieren auf 0 setzen.",
+					"Jedes N-te Light-Bild (N ist dieser Wert) astrometrisch lösen, um zu prüfen, ob das Ziel noch zentriert ist. 0 schaltet die Prüfung ab. Nur für Aufträge mit dem Schritt Ausrichten.",
 				reset_pipeline: "Pipeline zurücksetzen, wenn das verifizierte Bilddelta den Wert überschreitet",
 				reset_pipeline_tooltip:
-					"Wenn die erfasste Position die Zielposition um mehr als diese Anzahl an Bogenminuten überschreitet, brechen Sie die Erfassung ab und planen Sie die Pipeline neu.",
+					"Liegt ein geprüftes Bild mehr als so viele Bogenminuten neben dem Ziel, die Aufnahme stoppen, neu ausrichten und weitermachen.",
 				arcminutes: "arcminutes",
 			},
 		},
@@ -3024,6 +3025,46 @@ const de = {
 				"Verringert die normale proportionale Korrektur, wenn die KI-Vorhersage sehr zuverlässig ist, damit sich beide nicht addieren und Schwingungen verursachen.",
 			dark_guiding:
 				"Sendet weiterhin von der KI vorhergesagte Korrekturpulse, wenn keine Leitsternmessungen vorliegen, etwa beim Beruhigen nach dem Dithern, beim Autofokus oder beim Herunterladen von der Kamera. Erfordert AI Guider als Guiding-Algorithmus für RA.",
+		},
+		scheduler: {
+			reference_image:
+				"Optional. Ein Bild (FITS oder XISF) dieses Ziels mit dem gewünschten Bildausschnitt, z. B. aus einer früheren Nacht. Wenn Ausrichten einer der Schritte ist, löst Ekos dieses Bild astrometrisch und richtet sich danach statt nach den Zielkoordinaten aus, mit derselben Bildmitte und, mit einem Rotator, derselben Drehung.",
+			profile:
+				"Das Ekos-Geräteprofil, das der Planer startet, wenn Ekos noch nicht läuft. Default behält das in Ekos bereits gewählte Profil.",
+			steps:
+				"Was der Planer zu Beginn jedes Auftrags vor der Aufnahme tut. Nachführen: zum Ziel schwenken und nachführen. Fokus: Autofokus ausführen. Ausrichten: Bild astrometrisch lösen und das Ziel zentrieren. Führen: bei Bedarf kalibrieren und das Guiding starten. Wählen Sie die Schritte ab, die Ihre Ausrüstung nicht unterstützt.",
+			position_angle:
+				"Kameradrehung für diesen Auftrag in Grad östlich von Nord (-180 bis 180). Wenn Ausrichten einer der Schritte ist und ein Rotator verbunden ist, dreht Ekos die Kamera auf diesen Winkel. Leeren (--) behält die aktuelle Drehung.",
+			asap:
+				"Den Auftrag starten, sobald alle seine Bedingungen (Höhe, Mond, Dämmerung ...) erfüllt sind. Können mehrere Aufträge laufen, kommt der weiter oben in der Liste zuerst.",
+			start_at:
+				"Den Auftrag zu diesem Datum und dieser Uhrzeit starten. Er hat Vorrang vor anderen Aufträgen, solange er nahe dieser Zeit starten kann und seine Bedingungen erfüllt sind.",
+			min_altitude:
+				"Den Auftrag nur ausführen, solange das Ziel mindestens so viele Grad über dem Horizont steht.",
+			moon_separation:
+				"Den Auftrag nur ausführen, solange das Ziel mindestens so viele Grad vom Mond entfernt ist.",
+			moon_altitude:
+				"Den Auftrag nur ausführen, solange der Mond unter dieser Höhe in Grad steht. Damit werden lichtschwache Ziele nur bei tiefem oder untergegangenem Mond aufgenommen.",
+			twilight:
+				"Den Auftrag nur in astronomischer Dunkelheit ausführen, von der Abend- bis zur Morgendämmerung. Die Grenzen verschieben Sie mit Versatz Abenddämmerung und Versatz Morgendämmerung im Reiter Fortgeschrittene, z. B. um mit Schmalbandfiltern früher zu beginnen.",
+			artificial_horizon:
+				"Den Auftrag nur ausführen, solange das Ziel über Ihrem künstlichen Horizont (Bäume, Gebäude ...) steht. Zeichnen Sie den Horizont mit dem Horizont-Editor der Himmelskarte oder in KStars.",
+			sequence_completion:
+				"Der Auftrag ist fertig, sobald seine Aufnahmesequenz einmal durchgelaufen ist.",
+			repeat_for:
+				"Die Aufnahmesequenz so oft ausführen und den Auftrag dann abschließen.",
+			repeat_until_terminated:
+				"Die Aufnahmesequenz endlos wiederholen. Der Auftrag läuft in jeder Nacht, in der seine Bedingungen es erlauben, bis Sie den Planer stoppen oder den Auftrag entfernen.",
+			repeat_until:
+				"Die Aufnahmesequenz bis zu diesem Datum und dieser Uhrzeit wiederholen und den Auftrag dann abschließen.",
+			abort_none:
+				"Einen abgebrochenen Auftrag nicht erneut ausführen (z. B. nach fehlgeschlagenem Fokus, Ausrichten oder Guiding).",
+			abort_queue:
+				"Abgebrochene Aufträge erneut ausführen, sobald alle anderen Aufträge fertig oder abgebrochen sind, nach der unten eingestellten Wartezeit.",
+			abort_immediate:
+				"Einen abgebrochenen Auftrag nach der unten eingestellten Wartezeit sofort erneut ausführen, wenn seine Bedingungen es noch erlauben.",
+			reschedule_errors:
+				"Auch Aufträge, die mit einem Fehler endeten, nicht nur abgebrochene, nach der Wahl oben erneut ausführen. Die Zahl ist die Wartezeit in Sekunden, bevor ein abgebrochener oder fehlgeschlagener Auftrag wieder laufen darf.",
 		},
 	},
 };

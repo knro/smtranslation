@@ -2026,35 +2026,35 @@ const en = {
 			scheduler_settings: {
 				lead_time: "Lead time",
 				lead_time_tooltip:
-					"The minimum time in minutes between jobs. The scheduler starts execution of a job before its scheduled startup time by this lead time. Early execution is useful as focusing, alignment, and guiding procedures may take prolonged periods to time to complete.",
+					"How early, in minutes, the scheduler may start a job. When the next job is due within this time, it starts right away, so slewing, focusing, alignment and guiding are done by the time imaging should begin. When it is due later, the scheduler waits, and parks the mount if the job uses the Track step.",
 				pre_dawn: "Pre-dawn",
 				pre_dawn_tooltip:
-					"Do not permit jobs to be scheduled or executed past this many minutes before dawn.",
+					"Jobs with the Twilight constraint stop this many minutes before dawn, so the last images are not spoiled by the brightening sky.",
 				pre_emptive: "Pre-emptive shutdown",
 				pre_emptive_tooltip:
-					"In case no scheduler job is scheduled for this many hours, perform a complete shutdown procedure and restart observatory operations once the next job is ready.",
+					"If the next job is more than this many hours away, shut the observatory down (park, close ...) and start it up again when the job is due.",
 				setting_altitude: "Setting altitude cutoff",
 				setting_altitude_tooltip:
 					"Do not permit jobs to be scheduled less than this many degrees before the altitude restriction. Actual execution proceeds until the altitude limit.",
 				weather_grace: "Weather grace period",
 				weather_grace_tooltip:
-					"Enable Weather-Based Scheduling: Prevents new jobs from starting during weather warnings or alerts. Existing jobs continue during warnings, but are aborted during alerts. System initiates a soft shutdown and waits for improved conditions or grace period expiration, after which the current job is terminated.",
+					"Let the weather station control imaging. During a weather warning no new job starts. During an alert the running job stops and the observatory parks. If the weather clears within this many minutes, imaging resumes; otherwise the observatory shuts down fully and starts again once it is safe. Set 0 to stay parked and keep waiting instead of shutting down.",
 				dusk_offset: "Dusk offset",
 				dusk_offset_tooltip:
-					"Offset astronomical dusk by this many hours. This positive or negative value adjusts the twilight restriction.",
+					"Moves the start of the night for jobs with the Twilight constraint, in hours. A negative value starts earlier: -0.5 starts 30 minutes before astronomical dusk, useful with narrowband filters.",
 				dawn_offset: "Dawn offset",
 				dawn_offset_tooltip:
-					"Offset astronomical dawn by this many hours. This positive or negative value adjusts the twilight restriction.",
+					"Moves the end of the night for jobs with the Twilight constraint, in hours. A positive value ends later: 0.5 keeps imaging until 30 minutes after astronomical dawn, useful with narrowband filters.",
 
 				stop_ekos: "Stop Ekos after shutdown",
 				stop_ekos_tooltip:
-					"After shutdown procedure is successfully executed, stop INDI and Ekos.",
+					"After the scheduler shuts the observatory down, also stop Ekos and disconnect from the equipment.",
 				shutdown_script: "Shutdown script terminates INDI",
 				shutdown_script_tooltip:
 					"If the shutdown script terminates INDI server, enable this option so that no disconnection errors are generated.",
 				remember_job: "Remember Job progress",
 				remember_job_tooltip:
-					"When processing a scheduled job, resume the sequence starting from the last image present in storage.",
+					"Count the images a job has already saved, so a restarted job (or one that continues the next night) only captures the images still missing instead of starting over.",
 				execute_job: "Always execute startup job",
 				execute_job_tooltip:
 					"Observatory startup script is normally only executed if Ekos is offline. Enable this option to start it whenever scheduler is starting up.",
@@ -2064,30 +2064,31 @@ const en = {
 					"When checked the scheduler tries to run lower priority jobs when no higher priority job can run. Recommended.",
 				camera_warmup: "Warm up camera before shutdown",
 				camera_warmup_tooltip:
-					"Before shutting down, warm up the camera to prevent moisture and thermal shock. The camera temperature is ramped down gradually over the specified ramp time.",
-				camera_warmup_ramp: "Ramp time (min)",
+					"At the end of the observatory shutdown, after parking, warm the camera up to 20 °C at this rate (°C per minute). Warming slowly protects the sensor from thermal shock and condensation.",
+				camera_warmup_ramp: "°C/min",
 				reset_mount: "Reset mount model on alignment failure",
-				reset_mount_tooltip: "Reset mount model on alignment failure",
+				reset_mount_tooltip: "If alignment keeps failing for a job, clear the sync points stored in the mount before the last try. Old or wrong syncs can keep sending the mount to the wrong spot.",
 				reset_mount_before: "Reset mount model before starting each job",
 				reset_mount_before_tooltip:
-					"Reset mount model before starting each job",
+					"Clear the sync points stored in the mount before slewing to each job's target, so syncs made on an earlier target don't affect the slew.",
 				force_realign: "Force re-alignment before re-starting jobs",
 				force_realign_tooltip:
-					"If Align is enabled, scheduler would initiate a realignment procedure before restarting any jobs even if guiding is active.",
+					"When a job continues or repeats its capture sequence, plate-solve and re-center the target first, even if guiding is still running. Only for jobs with the Align step.",
 				restart_align: "Restart alignment on guiding calibration failure",
 				restart_align_tooltip:
-					"If guiding calibration fails then restart alignment process before proceeding to guiding recalibration process again. This can help recenter the target object in the field of view if the calibration process strayed too far off.",
+					"If guiding calibration fails, plate-solve and re-center the target before trying calibration again. Helps when calibration moved the target out of view.",
 
 				offsets: "Offsets",
 				clean_jobs: "Scripts and Jobs",
+				jobs_shutdown: "Jobs and Shutdown",
 				alignment: "Alignment",
 
 				verify_image: "Verify captured image position every",
 				verify_image_tooltip:
-					"When calculating position after captures, compute it every Nth capture. Set to 0 to disable.",
+					"Plate-solve every Nth light frame (N is this number) to check the target is still centered. 0 turns the check off. Only for jobs with the Align step.",
 				reset_pipeline: "Reset pipeline if verified image delta exceeds",
 				reset_pipeline_tooltip:
-					"If captured position exceeds target position by more this many arcminutes, abort capture and reschedule the pipeline.",
+					"If a checked frame is more than this many arcminutes off target, stop capturing, re-align, then continue.",
 				arcminutes: "arcminutes",
 			},
 		},
@@ -3122,6 +3123,46 @@ const en = {
 				"Reduces the standard proportional correction when the AI prediction is highly confident, so the two do not add up and cause oscillation.",
 			dark_guiding:
 				"Keeps sending AI-predicted correction pulses during gaps in guide star measurements, such as dither settling, autofocus or camera downloads. Requires AI Guider as the RA guiding algorithm.",
+		},
+		scheduler: {
+			reference_image:
+				"Optional. An image (FITS or XISF) of this target framed the way you want it, for example from an earlier night. When Align is one of the steps, Ekos plate-solves this image and aligns to it instead of to the target coordinates, matching its center and, with a rotator, its rotation.",
+			profile:
+				"The Ekos equipment profile the scheduler starts when Ekos is not running yet. Default keeps the profile already selected in Ekos.",
+			steps:
+				"What the scheduler does at the start of each job, before capturing. Track: slew to the target and track it. Focus: run autofocus. Align: plate-solve and center the target. Guide: calibrate if needed and start guiding. Uncheck the steps your equipment does not support.",
+			position_angle:
+				"Camera rotation for this job, in degrees east of north (-180 to 180). When Align is one of the steps and a rotator is connected, Ekos turns the camera to this angle. Clear it (--) to keep the current rotation.",
+			asap:
+				"Start the job as soon as all its constraints (altitude, Moon, twilight ...) are met. When several jobs can run, the one higher in the job list goes first.",
+			start_at:
+				"Start the job at this date and time. It goes ahead of the other jobs as long as it can start near that time and its constraints are met.",
+			min_altitude:
+				"Only run the job while the target is at least this many degrees above the horizon.",
+			moon_separation:
+				"Only run the job while the target is at least this many degrees away from the Moon.",
+			moon_altitude:
+				"Only run the job while the Moon is below this altitude, in degrees. Use it to image faint targets only when the Moon is low or has set.",
+			twilight:
+				"Only run the job in astronomical darkness, from dusk to dawn. Move these limits with Dusk offset and Dawn offset in the Advanced tab, for example to start earlier with narrowband filters.",
+			artificial_horizon:
+				"Only run the job while the target is above your artificial horizon (trees, buildings ...). Draw the horizon with the horizon editor on the Sky Map, or in KStars.",
+			sequence_completion:
+				"The job is done once its capture sequence has run once.",
+			repeat_for:
+				"Run the capture sequence this many times, then mark the job done.",
+			repeat_until_terminated:
+				"Repeat the capture sequence with no end. The job runs every night its constraints allow, until you stop the scheduler or remove the job.",
+			repeat_until:
+				"Repeat the capture sequence until this date and time, then mark the job done.",
+			abort_none:
+				"Do not run an aborted job again (for example after focus, alignment or guiding failed).",
+			abort_queue:
+				"Run aborted jobs again once all the other jobs are done or aborted, after the delay set below.",
+			abort_immediate:
+				"Run an aborted job again right away, after the delay set below, if its constraints still allow it.",
+			reschedule_errors:
+				"Also run jobs that ended with an error again, not only aborted ones, as chosen above. The number is how many seconds to wait before an aborted or failed job may run again.",
 		},
 	},
 };

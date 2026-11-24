@@ -1968,7 +1968,7 @@ const fr = {
 			alt: "Alt >",
 			moon: "Séparation min. Lune",
 			moon_max: "Altitude max. Lune",
-			twilight: "Aube",
+			twilight: "Crépuscule",
 			artifHorizon: "Horizon Artificiel",
 			sequenceCompletion: "Achèvement des Sequences",
 			repeatFor: "Répéter pour",
@@ -2002,35 +2002,35 @@ const fr = {
 			scheduler_settings: {
 				lead_time: "Délai d'exécution",
 				lead_time_tooltip:
-					"Le temps minimum en minutes entre les tâches. Le planificateur commence l'exécution d'une tâche avant son heure de démarrage prévue par ce délai d'exécution. L'exécution anticipée est utile car les procédures de mise au point, d'alignement et de guidage peuvent prendre des périodes prolongées.",
+					"Avance maximale, en minutes, avec laquelle le planificateur peut démarrer une tâche. Si la prochaine tâche est prévue dans ce délai, elle démarre tout de suite, pour que le pointage, la mise au point, l'alignement et le guidage soient terminés quand la prise de vue doit commencer. Si elle est prévue plus tard, le planificateur attend, en parquant la monture si la tâche utilise l'étape Suivre.",
 				pre_dawn: "Avant l'aube",
 				pre_dawn_tooltip:
-					"Ne pas autoriser la planification ou l'exécution de tâches au-delà de ce nombre de minutes avant l'aube.",
+					"Les tâches avec la contrainte Crépuscule s'arrêtent ce nombre de minutes avant l'aube, pour que les dernières images ne soient pas gâchées par le ciel qui s'éclaircit.",
 				pre_emptive: "Arrêt préventif",
 				pre_emptive_tooltip:
-					"Si aucune tâche de planificateur n'est planifiée pendant ce nombre d'heures, effectuez une procédure d'arrêt complète et redémarrez les opérations de l'observatoire une fois la tâche suivante prête.",
+					"Si la prochaine tâche est dans plus de ce nombre d'heures, arrêter l'observatoire (parcage, fermeture...) et le redémarrer quand la tâche est prévue.",
 				setting_altitude: "Définition de la coupure d'altitude",
 				setting_altitude_tooltip:
 					"Ne pas autoriser la planification de tâches à moins de ce nombre de degrés avant la restriction d'altitude. L'exécution réelle se poursuit jusqu'à la limite d'altitude.",
 				weather_grace: "Période de grâce météo",
 				weather_grace_tooltip:
-					"Activer la planification basée sur la météo : empêche le démarrage de nouvelles tâches pendant les avertissements ou alertes météo. Les tâches existantes se poursuivent pendant les avertissements, mais sont interrompues pendant les alertes. Le système lance un arrêt progressif et attend l'amélioration des conditions ou l'expiration de la période de grâce, après quoi la tâche en cours est terminée.",
+					"Laisser la station météo contrôler la prise de vue. Pendant un avertissement météo, aucune nouvelle tâche ne démarre. Pendant une alerte, la tâche en cours s'arrête et l'observatoire se parque. Si la météo s'améliore dans ce nombre de minutes, la prise de vue reprend ; sinon l'observatoire s'arrête complètement et redémarre quand les conditions sont sûres. Avec 0, il reste parqué et attend au lieu de s'arrêter.",
 				dusk_offset: "Décalage crépusculaire",
 				dusk_offset_tooltip:
-					"Décaler le crépuscule astronomique de ce nombre d'heures. Cette valeur positive ou négative ajuste la restriction crépusculaire.",
+					"Décale, en heures, le début de la nuit pour les tâches avec la contrainte Crépuscule. Une valeur négative commence plus tôt : -0,5 commence 30 minutes avant le crépuscule astronomique, utile avec des filtres à bande étroite.",
 				dawn_offset: "Décalage de l'aube",
 				dawn_offset_tooltip:
-					"Décaler l'aube astronomique de ce nombre d'heures. Cette valeur positive ou négative ajuste la restriction crépusculaire.",
+					"Décale, en heures, la fin de la nuit pour les tâches avec la contrainte Crépuscule. Une valeur positive finit plus tard : 0,5 continue jusqu'à 30 minutes après l'aube astronomique, utile avec des filtres à bande étroite.",
 
 				stop_ekos: "Arrêter Ekos après l'arrêt",
 				stop_ekos_tooltip:
-					"Une fois la procédure d'arrêt exécutée avec succès, arrêtez INDI et Ekos.",
+					"Après l'arrêt de l'observatoire par le planificateur, arrêter aussi Ekos et se déconnecter de l'équipement.",
 				shutdown_script: "Le script d'arrêt termine INDI",
 				shutdown_script_tooltip:
 					"Si le script d'arrêt termine le serveur INDI, activez cette option pour qu'aucune erreur de déconnexion ne soit générée.",
 				remember_job: "Mémoriser la progression de la tâche",
 				remember_job_tooltip:
-					"Lors du traitement d'une tâche planifiée, reprenez la séquence à partir de la dernière image présente dans le stockage.",
+					"Compter les images déjà enregistrées par une tâche, pour qu'une tâche relancée (ou reprise la nuit suivante) ne capture que les images manquantes au lieu de tout recommencer.",
 
 				execute_job: "Toujours exécuter la tâche de démarrage",
 				execute_job_tooltip:
@@ -2041,35 +2041,36 @@ const fr = {
 					"Lorsque cette option est cochée, le planificateur essaie d'exécuter des tâches de priorité inférieure lorsqu'aucune tâche de priorité supérieure ne peut être exécutée. Recommandé.",
 				camera_warmup: "Réchauffer la caméra avant l'arrêt",
 				camera_warmup_tooltip:
-					"Avant l'arrêt, réchauffez la caméra pour éviter l'humidité et le choc thermique. La température de la caméra est réduite progressivement sur la durée de rampe spécifiée.",
-				camera_warmup_ramp: "Durée de rampe (min)",
+					"À la fin de l'arrêt de l'observatoire, après le parcage, réchauffer la caméra jusqu'à 20 °C à cette vitesse (°C par minute). Un réchauffement lent protège le capteur du choc thermique et de la condensation.",
+				camera_warmup_ramp: "°C/min",
 				reset_mount:
 					"Réinitialiser le modèle de monture en cas d'échec de l'alignement",
 				reset_mount_tooltip:
-					"Réinitialiser le modèle de monture en cas d'échec de l'alignement",
+					"Si l'alignement échoue plusieurs fois pour une tâche, effacer les points de synchronisation enregistrés dans la monture avant le dernier essai. Des synchronisations anciennes ou fausses peuvent envoyer la monture au mauvais endroit.",
 				reset_mount_before:
 					"Réinitialiser le modèle de monture avant de démarrer chaque tâche",
 				reset_mount_before_tooltip:
-					"Réinitialiser le modèle de monture avant de démarrer chaque tâche",
+					"Effacer les points de synchronisation enregistrés dans la monture avant de pointer la cible de chaque tâche, pour que les synchronisations faites sur une cible précédente n'influencent pas le pointage.",
 				force_realign: "Forcer le réalignement avant de redémarrer les tâches",
 				force_realign_tooltip:
-					"Si l'alignement est activé, le planificateur lancera une procédure de réalignement avant de redémarrer toute tâche, même si le guidage est actif.",
+					"Quand une tâche continue ou répète sa séquence de capture, résoudre l'image et recentrer la cible d'abord, même si le guidage est en cours. Uniquement pour les tâches avec l'étape Aligner.",
 				restart_align:
 					"Redémarrer l'alignement en cas d'échec de l'étalonnage du guidage",
 				restart_align_tooltip:
-					"Si l'étalonnage du guidage échoue, redémarrez le processus d'alignement avant de procéder à nouveau au processus de réétalonnage du guidage. Cela peut aider à recentrer l'objet cible dans le champ de vision si le processus d'étalonnage s'est trop éloigné.",
+					"Si la calibration du guidage échoue, résoudre l'image et recentrer la cible avant de réessayer la calibration. Utile quand la calibration a fait sortir la cible du champ.",
 
 				offsets: "Décalages",
 				clean_jobs: "Scripts et tâches",
+				jobs_shutdown: "Tâches et arrêt",
 				alignment: "Alignement",
 
 				verify_image: "Vérifier la position de l'image capturée tous les",
 				verify_image_tooltip:
-					"Lors du calcul de la position après les captures, calculez-la toutes les N captures. Réglez sur 0 pour désactiver.",
+					"Résoudre une image de lumière sur N (N étant cette valeur) pour vérifier que la cible est toujours centrée. 0 désactive la vérification. Uniquement pour les tâches avec l'étape Aligner.",
 				reset_pipeline:
 					"Réinitialiser le pipeline si le delta de l'image vérifiée dépasse",
 				reset_pipeline_tooltip:
-					"Si la position capturée dépasse la position cible de plus de ce nombre d'arcminutes, interrompez la capture et replanifiez le pipeline.",
+					"Si une image vérifiée est à plus de ce nombre de minutes d'arc de la cible, arrêter la capture, réaligner, puis continuer.",
 				arcminutes: "arcminutes",
 			},
 		},
@@ -3045,6 +3046,46 @@ const fr = {
 				"Réduit la correction proportionnelle standard lorsque la prédiction AI est très fiable, afin que les deux ne s'additionnent pas et ne provoquent pas d'oscillations.",
 			dark_guiding:
 				"Continue d'envoyer des impulsions de correction prédites par l'AI pendant les interruptions de mesure de l'étoile guide, par exemple la stabilisation après dithering, l'autofocus ou le téléchargement de la caméra. Nécessite AI Guider comme algorithme de guidage RA.",
+		},
+		scheduler: {
+			reference_image:
+				"Facultatif. Une image (FITS ou XISF) de cette cible cadrée comme vous le souhaitez, par exemple d'une nuit précédente. Si Aligner fait partie des étapes, Ekos résout cette image et s'aligne dessus au lieu des coordonnées de la cible, en reprenant son centre et, avec un rotateur, son orientation.",
+			profile:
+				"Le profil d'équipement Ekos que le planificateur démarre si Ekos n'est pas encore lancé. Default conserve le profil déjà sélectionné dans Ekos.",
+			steps:
+				"Ce que fait le planificateur au début de chaque tâche, avant la capture. Suivre : pointer la cible et la suivre. MAP-FOCUS : lancer la mise au point automatique. Aligner : résoudre l'image et centrer la cible. Guider : calibrer si nécessaire et démarrer le guidage. Décochez les étapes que votre équipement ne permet pas.",
+			position_angle:
+				"Rotation de la caméra pour cette tâche, en degrés à l'est du nord (-180 à 180). Si Aligner fait partie des étapes et qu'un rotateur est connecté, Ekos tourne la caméra à cet angle. Effacez-le (--) pour garder la rotation actuelle.",
+			asap:
+				"Démarrer la tâche dès que toutes ses contraintes (altitude, Lune, crépuscule...) sont remplies. Si plusieurs tâches peuvent démarrer, celle placée le plus haut dans la liste passe en premier.",
+			start_at:
+				"Démarrer la tâche à cette date et heure. Elle passe avant les autres tâches tant qu'elle peut démarrer près de cette heure et que ses contraintes sont remplies.",
+			min_altitude:
+				"N'exécuter la tâche que lorsque la cible est à au moins ce nombre de degrés au-dessus de l'horizon.",
+			moon_separation:
+				"N'exécuter la tâche que lorsque la cible est à au moins ce nombre de degrés de la Lune.",
+			moon_altitude:
+				"N'exécuter la tâche que lorsque la Lune est sous cette altitude, en degrés. Utile pour photographier des cibles faibles seulement quand la Lune est basse ou couchée.",
+			twilight:
+				"N'exécuter la tâche que dans la nuit astronomique, du crépuscule à l'aube. Ajustez ces limites avec Décalage crépusculaire et Décalage de l'aube dans l'onglet Avancé, par exemple pour commencer plus tôt avec des filtres à bande étroite.",
+			artificial_horizon:
+				"N'exécuter la tâche que lorsque la cible est au-dessus de votre horizon artificiel (arbres, bâtiments...). Tracez l'horizon avec l'éditeur d'horizon de la carte du ciel, ou dans KStars.",
+			sequence_completion:
+				"La tâche est terminée une fois sa séquence de capture exécutée une fois.",
+			repeat_for:
+				"Exécuter la séquence de capture ce nombre de fois, puis terminer la tâche.",
+			repeat_until_terminated:
+				"Répéter la séquence de capture sans fin. La tâche s'exécute chaque nuit où ses contraintes le permettent, jusqu'à ce que vous arrêtiez le planificateur ou supprimiez la tâche.",
+			repeat_until:
+				"Répéter la séquence de capture jusqu'à cette date et heure, puis terminer la tâche.",
+			abort_none:
+				"Ne pas relancer une tâche abandonnée (par exemple après un échec de mise au point, d'alignement ou de guidage).",
+			abort_queue:
+				"Relancer les tâches abandonnées une fois toutes les autres tâches terminées ou abandonnées, après le délai réglé ci-dessous.",
+			abort_immediate:
+				"Relancer immédiatement une tâche abandonnée, après le délai réglé ci-dessous, si ses contraintes le permettent encore.",
+			reschedule_errors:
+				"Relancer aussi les tâches terminées en erreur, pas seulement celles abandonnées, selon le choix ci-dessus. Le nombre est le délai en secondes avant qu'une tâche abandonnée ou en erreur puisse reprendre.",
 		},
 	},
 };
