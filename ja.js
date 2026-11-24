@@ -1614,6 +1614,10 @@ const ja = {
 			suffix: "サフィックス",
 			usb: "USB アンマウントに成功しました",
 			unmount: "アンマウント",
+			time: "時刻",
+			date_time: "日付と時刻",
+			insert: "挿入",
+			next_file: "次のファイル",
 		},
 
 		collapse_dome: {
@@ -1917,7 +1921,9 @@ const ja = {
 			median_filter: "中央値フィルター",
 			dark_flat: "フラットマスター",
 			dark_master: "ダークマスター",
-			master_files: "マスターファイル"
+			master_files: "マスターファイル",
+			running: "ライブスタック",
+			frames_stacked: "フレーム",
 		},
 		scheduler: {
 			scheduler: "スケジューラ",

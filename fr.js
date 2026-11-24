@@ -1641,6 +1641,10 @@ const fr = {
 			suffix: "Suffixe",
 			usb: "USB démonté avec succès",
 			unmount: "Démonter",
+			time: "Heure",
+			date_time: "Date et heure",
+			insert: "Insérer",
+			next_file: "Fichier suivant",
 		},
 		collapse_dome: {
 			heading: "Coiffe et Dôme",
@@ -1947,7 +1951,9 @@ const fr = {
 			median_filter: "Filtre médian",
 			dark_flat: "Master Flat",
 			dark_master: "Master Sombre",
-			master_files: "Fichiers Master"
+			master_files: "Fichiers Master",
+			running: "Empilement en direct",
+			frames_stacked: "images",
 		},
 		scheduler: {
 			scheduler: "PLANIFICATEUR",

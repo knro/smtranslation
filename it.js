@@ -1649,6 +1649,10 @@ const it = {
 			suffix: "Suffisso",
 			usb: "USB smontato con successo",
 			unmount: "Smonta",
+			time: "Ora",
+			date_time: "Data e ora",
+			insert: "Inserisci",
+			next_file: "File successivo",
 		},
 
 		collapse_dome: {
@@ -1955,7 +1959,9 @@ const it = {
 			median_filter: "Filtro mediano",
 			dark_flat: "Master Flat",
 			dark_master: "Master Scuro",
-			master_files: "File Master"
+			master_files: "File Master",
+			running: "Live Stacking",
+			frames_stacked: "fotogrammi",
 		},
 		scheduler: {
 			scheduler: "Pianificatore",

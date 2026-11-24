@@ -410,6 +410,22 @@ const context = {
 	"setting_tips.dark_library.cold_pixels":
 		"Tooltip on Cold Pixels in Dark Library > Create Defect Map, the counterpart of setting_tips.dark_library.hot_pixels for pixels darker than the median. Quote the Generate Map button as it is translated (darkLibrary.create_defect_map.generate_map).",
 
+	// Video recording file settings (Capture > Video > Recording file)
+	"ekos.capture_file.time":
+		"Chip that inserts the time of day (_H_) into the recording file name. One word.",
+	"ekos.capture_file.date_time":
+		"Chip that inserts the date and time (_T_) into the recording file name. Short.",
+	"ekos.capture_file.insert":
+		"Label in front of the chips (Date, Time, Date & Time, Filter) that insert a placeholder into the file name. One word, a verb.",
+	"ekos.capture_file.next_file":
+		"Label above the full path of the next recording file, as built from the folder and file name. Short.",
+
+	// Live stacking indicator (pill on the Capture view while live stacking runs)
+	"ekos.livestacking.running":
+		"Title of the pill shown on the Capture view while live stacking runs; tapping it opens live stacking. Short (about 20 characters).",
+	"ekos.livestacking.frames_stacked":
+		"Unit after the number of stacked frames in the live stacking pill, e.g. \"12 frames\". One word, plural.",
+
 	// Scheduler settings (Scheduler > Settings, one tab per group). A "job" is one entry of the scheduler's job list
 	// (ekos.scheduler.*), the "capture sequence" is the list of exposures the job takes.
 	"ekos.scheduler.scheduler_settings.jobs_shutdown":

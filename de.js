@@ -1628,6 +1628,10 @@ const de = {
 			suffix: "Suffix",
 			usb: "USB erfolgreich abgemeldet",
 			unmount: "Abmelden",
+			time: "Uhrzeit",
+			date_time: "Datum & Uhrzeit",
+			insert: "Einfügen",
+			next_file: "Nächste Datei",
 		},
 		collapse_dome: {
 			heading: "Kappe & Kuppel",
@@ -1932,7 +1936,9 @@ const de = {
 			median_filter: "Median Filter",
 			dark_flat: "Flat-Master",
 			dark_master: "Dunkel-Master",
-			master_files: "Master-Dateien"
+			master_files: "Master-Dateien",
+			running: "Live-Stacking",
+			frames_stacked: "Frames",
 		},
 		scheduler: {
 			scheduler: "Scheduler",

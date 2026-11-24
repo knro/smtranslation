@@ -1650,6 +1650,10 @@ const es = {
 			suffix: "Suffix",
 			usb: "USB desmontado correctamente",
 			unmount: "Unmount",
+			time: "Hora",
+			date_time: "Fecha y hora",
+			insert: "Insertar",
+			next_file: "Siguiente archivo",
 		},
 
 		collapse_dome: {
@@ -1952,7 +1956,9 @@ const es = {
 			median_filter: "Median Filter",
 			dark_flat: "Master Flat",
 			dark_master: "Master Oscuro",
-			master_files: "Archivos Master"
+			master_files: "Archivos Master",
+			running: "Apilamiento en vivo",
+			frames_stacked: "cuadros",
 		},
 		scheduler: {
 			scheduler: "Programadora",

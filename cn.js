@@ -1566,6 +1566,10 @@
 			suffix: "后缀",
 			usb: "USB 成功卸载",
 			unmount: "卸载",
+			time: "时间",
+			date_time: "日期和时间",
+			insert: "插入",
+			next_file: "下一个文件",
 		},
 		collapse_dome: {
 			heading: "镜盖与穹顶",
@@ -1863,7 +1867,9 @@
 
 			dark_flat: "平场主帧",
 			dark_master: "暗主帧",
-			master_files: "主文件"
+			master_files: "主文件",
+			running: "实时叠加",
+			frames_stacked: "帧",
 		},
 		scheduler: {
 			scheduler: "调度器",
