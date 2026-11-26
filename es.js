@@ -1366,6 +1366,7 @@ const es = {
 		tgl_sequence: "SECUENCIA",
 		tgl_properties: "PROPIEDADES",
 		all_sequences: "Todas las secuencias", recent_history: "Historial reciente",
+		dark_frame: "Marco oscuro",
 
 		alert_ekos_offline_title: "Ekos esta fuera de linea",
 		alert_ekos_offline_body:
@@ -2950,7 +2951,7 @@ const es = {
 			auto_select_star:
 				"Ekos elige la estrella de enfoque. Desactívelo para elegir la estrella usted mismo en la imagen. Solo con Submarco y no con la detección Bahtinov.",
 			dark_frame:
-				"Resta un marco oscuro o un mapa de defectos correspondiente de cada imagen de enfoque. Créelos antes en la Biblioteca oscura.",
+				"Resta un marco oscuro o un mapa de defectos correspondiente de cada imagen de enfoque. Créelos antes en la Biblioteca oscura. Si no encuentra uno adecuado, Ekos desactiva esta opción.",
 			sub_frame:
 				"Enfoca con una sola estrella dentro de un pequeño recuadro en lugar de todo el cuadro. Recuadro fija su tamaño en píxeles: hasta 256, o 512 con la detección Bahtinov.",
 			full_field:
@@ -3050,7 +3051,7 @@ const es = {
 			binning:
 				"Binning de la cámara de guiado. Se recomienda 2x2 o más. Los darks deben tomarse con el mismo binning.",
 			dark:
-				"Resta un dark de cada imagen de guiado. Cree los darks o mapas de defectos en la «Biblioteca oscura», con el mismo binning que usa para guiar.",
+				"Resta un dark de cada imagen de guiado. Cree los darks o mapas de defectos en la «Biblioteca oscura», con el mismo binning que usa para guiar. Si no encuentra uno adecuado, Ekos desactiva esta opción.",
 			dither:
 				"Mueve la posición de bloqueo de la estrella guía en una dirección aleatoria entre las tomas light capturadas, para que cada imagen quede ligeramente desplazada. Solo funciona mientras se guía y no se puede combinar con «Pulso de dithering sin guiado».",
 			dither_amount:

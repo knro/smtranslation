@@ -1368,6 +1368,7 @@ const it = {
 		tgl_sequence: "SEQUENZA",
 		tgl_properties: "PROPRIETÀ",
 		all_sequences: "Tutte le sequenze", recent_history: "Cronologia recente",
+		dark_frame: "Fotogramma dark",
 
 		alert_ekos_offline_title: "Ekos è offline",
 		alert_ekos_offline_body:
@@ -2948,7 +2949,7 @@ const it = {
 			auto_select_star:
 				"Ekos sceglie da solo la stella per la messa a fuoco. Disattiva per scegliere la stella nell'immagine. Solo con Sottofotogramma e non con il rilevamento Bahtinov.",
 			dark_frame:
-				"Sottrae un dark o una mappa dei difetti corrispondente da ogni immagine di messa a fuoco. Creali prima nella Libreria Dark.",
+				"Sottrae un dark o una mappa dei difetti corrispondente da ogni immagine di messa a fuoco. Creali prima nella Libreria Dark. Se non ne trova uno adatto, Ekos disattiva questa opzione.",
 			sub_frame:
 				"Mette a fuoco su una sola stella in un piccolo box attorno a essa invece che sull'intero fotogramma. Box imposta la dimensione del box in pixel: fino a 256, o 512 con il rilevamento Bahtinov.",
 			full_field:
@@ -3048,7 +3049,7 @@ const it = {
 			binning:
 				"Binning della camera di guida. Si consiglia 2x2 o superiore. I dark devono essere ripresi con lo stesso binning.",
 			dark:
-				"Sottrae un dark da ogni immagine di guida. Crea i dark o le mappe dei difetti nella «Libreria Dark», con lo stesso binning usato per la guida.",
+				"Sottrae un dark da ogni immagine di guida. Crea i dark o le mappe dei difetti nella «Libreria Dark», con lo stesso binning usato per la guida. Se non ne trova uno adatto, Ekos disattiva questa opzione.",
 			dither:
 				"Sposta la posizione di aggancio della stella guida in una direzione casuale tra i light acquisiti, così ogni immagine risulta leggermente spostata. Funziona solo durante la guida e non può essere combinato con «Impulso di dithering senza guida».",
 			dither_amount:

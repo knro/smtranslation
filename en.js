@@ -1379,6 +1379,7 @@ const en = {
 		tgl_properties: "PROPERTIES",
 		all_sequences: "All sequences",
 		recent_history: "Recent History",
+		dark_frame: "Dark Frame",
 
 		alert_ekos_offline_title: "Ekos is offline",
 		alert_ekos_offline_body:
@@ -2987,7 +2988,7 @@ const en = {
 			auto_select_star:
 				"Ekos picks the focus star itself. Turn off to choose the star yourself in the image. Only with Sub Frame, and not with Bahtinov detection.",
 			dark_frame:
-				"Subtract a matching dark frame or defect map from each focus image. Create them first in the Dark Library.",
+				"Subtract a matching dark frame or defect map from each focus image. Create them first in the Dark Library. If no matching one is found, Ekos turns this option off.",
 			sub_frame:
 				"Focus on a single star in a small box around it instead of the whole frame. Box sets the box size in pixels: up to 256, or 512 with Bahtinov detection.",
 			full_field:
@@ -3087,7 +3088,7 @@ const en = {
 			binning:
 				"Binning of the guide camera. 2x2 or higher is recommended. Dark frames must be taken with the same binning.",
 			dark:
-				"Subtracts a dark frame from each guide frame. Create darks or defect maps in the Dark Library, using the same binning as for guiding.",
+				"Subtracts a dark frame from each guide frame. Create darks or defect maps in the Dark Library, using the same binning as for guiding. If no matching one is found, Ekos turns this option off.",
 			dither:
 				"Moves the guide star lock position in a random direction between captured light frames, so each image is slightly offset. Works only while guiding and cannot be combined with Non-Guide Dither Pulse.",
 			dither_amount:

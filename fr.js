@@ -1359,6 +1359,7 @@ const fr = {
 		tgl_sequence: "SÉQUENCE",
 		tgl_properties: "PROPRIÉTÉS",
 		all_sequences: "Toutes les séquences", recent_history: "Historique récent",
+		dark_frame: "Trame noire",
 
 		alert_ekos_offline_title: "Ekos est hors ligne",
 		alert_ekos_offline_body:
@@ -2916,7 +2917,7 @@ const fr = {
 			auto_select_star:
 				"Ekos choisit lui-même l'étoile de mise au point. Désactivez pour choisir l'étoile vous-même dans l'image. Uniquement avec Sous-trame, et pas avec la détection Bahtinov.",
 			dark_frame:
-				"Soustrait une trame noire ou une carte de défauts correspondante de chaque image de mise au point. Créez-les d'abord dans la Bibliothèque de Darks.",
+				"Soustrait une trame noire ou une carte de défauts correspondante de chaque image de mise au point. Créez-les d'abord dans la Bibliothèque de Darks. Si aucun ne correspond, Ekos désactive cette option.",
 			sub_frame:
 				"Fait la mise au point sur une seule étoile dans une petite boîte autour d'elle plutôt que sur toute l'image. Boîte fixe la taille de la boîte en pixels : jusqu'à 256, ou 512 avec la détection Bahtinov.",
 			full_field:
@@ -3016,7 +3017,7 @@ const fr = {
 			binning:
 				"Binning de la caméra de guidage. 2x2 ou plus est recommandé. Les darks doivent être pris avec le même binning.",
 			dark:
-				"Soustrait un dark de chaque image de guidage. Créez les darks ou les cartes de défauts dans la « Bibliothèque de Darks », avec le même binning que pour le guidage.",
+				"Soustrait un dark de chaque image de guidage. Créez les darks ou les cartes de défauts dans la « Bibliothèque de Darks », avec le même binning que pour le guidage. Si aucun ne correspond, Ekos désactive cette option.",
 			dither:
 				"Déplace la position de verrouillage de l'étoile guide dans une direction aléatoire entre les images light capturées, afin que chaque image soit légèrement décalée. Ne fonctionne que pendant le guidage et ne peut pas être combiné avec « Impulsion de dithering sans guidage ».",
 			dither_amount:

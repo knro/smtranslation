@@ -1358,6 +1358,7 @@ const de = {
 		tgl_sequence: "Reihenfolge",
 		tgl_properties: "Eigenschaften",
 		all_sequences: "Alle Sequenzen", recent_history: "Letzte Verlauf",
+		dark_frame: "Dark Frame",
 		alert_ekos_offline_title: "Ekos ist ausgeschaltet",
 		alert_ekos_offline_body:
 			"Ekos scheint im Moment ausgeschaltet zu sein. Haben Sie ein Geräteprofil gestartet?",
@@ -2895,7 +2896,7 @@ const de = {
 			auto_select_star:
 				"Ekos wählt den Fokusstern selbst aus. Ausschalten, um den Stern selbst im Bild zu wählen. Nur mit Unterrahmen/Sub Frame und nicht mit der Bahtinov-Erkennung.",
 			dark_frame:
-				"Zieht von jedem Fokusbild ein passendes Dark Frame oder eine Defektkarte ab. Diese zuerst in der Dark-Bibliothek erstellen.",
+				"Zieht von jedem Fokusbild ein passendes Dark Frame oder eine Defektkarte ab. Diese zuerst in der Dark-Bibliothek erstellen. Wird keine passende gefunden, schaltet Ekos diese Option aus.",
 			sub_frame:
 				"Fokussiert auf einen einzelnen Stern in einer kleinen Box statt auf das ganze Bild. Box legt die Größe der Box in Pixeln fest: bis 256, mit Bahtinov-Erkennung bis 512.",
 			full_field:
@@ -2995,7 +2996,7 @@ const de = {
 			binning:
 				"Binning der Guiding-Kamera. 2x2 oder höher wird empfohlen. Darks müssen mit demselben Binning aufgenommen werden.",
 			dark:
-				"Zieht von jedem Guiding-Bild ein Dark ab. Darks oder Defektkarten in der „Dark-Bibliothek“ erstellen, mit demselben Binning wie beim Guiding.",
+				"Zieht von jedem Guiding-Bild ein Dark ab. Darks oder Defektkarten in der „Dark-Bibliothek“ erstellen, mit demselben Binning wie beim Guiding. Wird keine passende gefunden, schaltet Ekos diese Option aus.",
 			dither:
 				"Verschiebt die Sollposition des Leitsterns zwischen aufgenommenen Light-Frames in eine zufällige Richtung, sodass jedes Bild leicht versetzt ist. Funktioniert nur während des Guidings und lässt sich nicht mit „Nicht-Guiding-Dither-Puls“ kombinieren.",
 			dither_amount:
